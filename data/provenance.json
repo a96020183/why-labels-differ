@@ -1,0 +1,83 @@
+{
+  "commit": "f0d1319bde83b4b8f80b2ab228f8e63a30e8f242",
+  "mode": "Static replay of recorded live runs, re-judged with final offline checks. No fresh inference.",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "64a398e53552741e6ffc75e1450c0afd7f5d07f4de0aa761d43d2b0eb301e758"
+    },
+    {
+      "path": "ui/index.html",
+      "sha256": "b9eb3f6e2d95f1383e7772bc77fff00eb7a6a6f29b01c3ea5c4d5f3e3d7bc236"
+    },
+    {
+      "path": "ui/style.css",
+      "sha256": "76f7eba99b0ca10446752684a4da402acfd4053637eb443d3e932d6fa26bc435"
+    },
+    {
+      "path": "ui/app.js",
+      "sha256": "1c3ebe729a043a4ddc6702bdcae2723c1b74a0e9584779e7a29e962af2d4ae7a"
+    },
+    {
+      "path": "sample/questions.json",
+      "sha256": "4983f1e202e73eaeca8dd3c9a3c786613e891a06a7c6214645f1eb493c93f533"
+    },
+    {
+      "path": "sample/replay.json",
+      "sha256": "85279fbbcfbbc4dd37f8107153a0684207141ea1b3d00b45446e4f283c581a03"
+    },
+    {
+      "path": "sample/cassettes/zetaris.jsonl",
+      "sha256": "23ea511b5acadd040a08b37a1421524ad338019d0afab77d14368d2460a288e6"
+    },
+    {
+      "path": "sample/cassettes/models.jsonl",
+      "sha256": "0bbf59c10b236f6aade231e5278f1c9ea13d0682688529e1e1dabf8fa5c9bc8f"
+    },
+    {
+      "path": "out/scoreboard.json",
+      "sha256": "38e058ed490259bd9190567cb3a772a52087bb532fa3664273ea890b4cb556b4"
+    },
+    {
+      "path": "out/ledger_MN.json",
+      "sha256": "5faddfeb0cfb79cc4cc2a5e475375da8a26e40e8dd0774b635f60644e411bc4e"
+    },
+    {
+      "path": "out/ledger_FR.json",
+      "sha256": "a77482f110aebe9976270955e76e054b52ffb1513191f1df09f601f024ddb3df"
+    },
+    {
+      "path": "out/set1a_loop_v6_2026-10-27_live.json",
+      "sha256": "ac79da56501a207ef217c998e1415bfda5c764166add7a55df420c4fd16b6afd"
+    },
+    {
+      "path": "out/set1a_loop_v6_2026-10-27_live_rejudged_final.json",
+      "sha256": "f2e2dc77820f4942c5900e62a0c9344ab298b1be689f0111e143899d98e6e261"
+    },
+    {
+      "path": "docs/traces/semaglutide-naion.jsonl",
+      "sha256": "28a0b02cf3e4a44cfd07152276e7e3a44760cf39cd9905ad412d9ad930da2461"
+    },
+    {
+      "path": "docs/traces/sertraline-pssd.jsonl",
+      "sha256": "3e83337f6ebf06ca49230e0bb126c55bf5f1dd4162d926cd5f55bf35a179c314"
+    },
+    {
+      "path": "docs/traces/darolutamide-angioedema.jsonl",
+      "sha256": "980c56a76f906938673b3adc48aeb279e8dda3874168c241152d37b163d3841b"
+    },
+    {
+      "path": "docs/traces/gemcitabine-dress.jsonl",
+      "sha256": "a7c0384dcbab5f8892d7198b7492eca5a02384727ed78aeca61ecb5b5f265115"
+    },
+    {
+      "path": "docs/traces/valproate-paternal.jsonl",
+      "sha256": "1424f88dc55c3e0159b487bb42313f858eeaf4b98ac510f8086a45f7af900ae4"
+    }
+  ],
+  "trace_validation": "Every exported case matched committed trace kind, round and summary in order before redaction.",
+  "redaction": "Manufacturer and unrelated provider names replaced with [name omitted], including inside SQL and identifiers. Database service identities are replaced with [service identity omitted]. Redacted text is a display excerpt, not a byte-exact original. Result hashes are original replay-result hashes, not hashes of redacted text.",
+  "timestamps": "Committed case trace timestamps are preserved. Receipt timestamps and reopen timestamps are from the offline export, not a fresh live query.",
+  "patients": "Synthea plus a seeded overlay. No patient list or personal identifiers are shipped.",
+  "evaluation": "README Results: five cases 2 approved / 3 hand-offs; v6 originally recorded 6 approvals / 4 correct; final offline rejudgement 5 approvals / 4 correct / 5 hand-offs."
+}

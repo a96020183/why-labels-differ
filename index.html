@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore recorded agent investigations of FDA, EMA and MHRA safety-label differences. Drafts for a hospital pharmacist to review and sign off.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' file:; style-src 'self' file: 'unsafe-inline'; font-src 'self' file:; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>A′ · Why Labels Differ — Recorded demo</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./assets/style.css">
+  <script src="./assets/replay-data.js" defer></script>
+  <script src="./assets/app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to the recorded case</a>
+  <div class="replay-banner" role="note" tabindex="0" aria-label="Recorded replay notice. On narrow screens, scroll horizontally to read the full notice."><span>Replay of recorded live runs. Live mode needs local Zetaris + Meterless Nightshift — see GitHub README.</span> <a id="repo-link" href="https://github.com/a96020183/why-labels-differ">GitHub README</a></div>
+  <header class="top">
+    <div class="identity"><span class="monogram" aria-hidden="true">A′</span><div class="brand">Why Labels Differ<span class="brand-sub">Drafts for hospital pharmacists</span></div></div>
+    <nav aria-label="Demo views">
+      <button data-view="chain" aria-pressed="true" class="on">Evidence chain</button>
+      <button data-view="trace" aria-pressed="false">Agent trace</button>
+      <button data-view="scan" aria-pressed="false">Night scan</button>
+      <button data-view="reopen" aria-pressed="false">Reopen</button>
+      <button data-view="board" aria-pressed="false">Scoreboard</button>
+      <button data-view="about" aria-pressed="false">About this replay</button>
+    </nav>
+  </header>
+  <main id="main" tabindex="-1">
+    <div class="purpose"><p>Trace why FDA, EMA and MHRA safety labels differ.</p><span>A pharmacist reviews and signs off before release. Not medical advice.</span></div>
+    <section id="view-chain" class="view on" aria-labelledby="title">
+      <form class="ask" id="case-form">
+        <label for="q">Recorded case</label><select id="q"></select><button id="go" class="primary" type="submit">Open recorded case</button>
+      </form>
+      <div class="case-heading"><h1 id="title">Why Labels Differ</h1><span id="case-outcome" class="outcome"></span></div>
+      <p id="lede" class="lede"></p>
+      <div id="decision-summary" class="decision-summary"></div><div id="case-limitation" class="known-limitation" hidden></div>
+      <div class="review-ribbon"><div><h2>Returned, repaired, reviewed</h2><div id="review-path" class="review-path"></div></div><button id="open-trace">Open trace drawer</button></div>
+      <details class="reasoning"><summary>Compare the explanations the agents tested</summary><div id="why" class="why"></div></details>
+      <details class="reasoning"><summary>Read the review decisions and the Writer’s replies</summary><div id="trail" class="trail"></div></details>
+      <div id="ladder" class="ladder"></div>
+      <p class="caveat">Absence from the U.S. label does not mean the risk exists or does not exist.</p>
+      <div id="exposure" class="exposure"></div>
+      <div class="committee-note"><h2>Final release stays with the pharmacist</h2><p id="rec"></p><div id="recorded-vote"></div></div>
+      <div id="after" class="after" hidden></div>
+    </section>
+    <section id="view-trace" class="view" aria-labelledby="trace-heading">
+      <h1 id="trace-heading">How the agents got there</h1>
+      <p class="lede" id="trace-case-name"></p>
+      <p class="note">These are saved events, including steps re-judged offline with the final checks. Select an event to inspect its draft, critique or exact-quote check. Playback changes the events shown; the evidence chain keeps the final snapshot.</p>
+      <div class="playback"><button id="restart-trace" class="primary">Replay from start</button><button id="pause-trace" disabled>Pause</button><button id="next-event">Next event</button><label for="speed">Playback pace</label><select id="speed"><option value="140">Normal</option><option value="700">Slow</option><option value="0">Instant</option></select><span id="trace-progress" role="status"></span></div>
+      <div id="tstats" class="tstats"></div><ol id="timeline" class="timeline"></ol>
+    </section>
+    <section id="view-scan" class="view" aria-labelledby="scan-heading">
+      <h1 id="scan-heading">Night scan</h1>
+      <p class="lede">Recorded scan of EMA’s PRAC catalogue: a reaction-name index proposes earlier entries, and the Markovian scan judges links across drug classes while carrying a small state forward.</p>
+      <div id="scan-chart" class="chart"></div>
+      <details id="scan-steps" class="reasoning"><summary>Inspect the recorded scan steps</summary><p class="note">Saved prompt and carry-over sizes. The browser does not execute the Markovian engine.</p><div id="scan-step-table" class="table-wrap"></div></details>
+      <h2>Divergences that touch this synthetic hospital</h2><p class="note">One federated query across MySQL, Postgres and S3-compatible SeaweedFS. Counts are synthetic people, not dispensing rows. The U.S. status here is a keyword pre-screen; a recorded investigation is available only where shown.</p>
+      <div class="table-wrap" tabindex="0" role="region" aria-label="Divergence ledger"><table id="ledger" class="table"></table></div>
+      <h2>What the index carried across drug classes</h2><div id="cross" class="cross"></div>
+    </section>
+    <section id="view-reopen" class="view" aria-labelledby="reopen-heading">
+      <h1 id="reopen-heading">Reopen when the condition comes true</h1><p class="lede">Two real 2026 U.S. label changes, replayed version by version. The committee decisions are illustrative. A mention in another section may leave the condition unmet.</p>
+      <button id="replay" class="primary">Show recorded label changes</button><div id="replay-out" class="replay"></div>
+    </section>
+    <section id="view-board" class="view" aria-labelledby="board-heading">
+      <h1 id="board-heading">Scoreboard</h1><div class="score-context"><p><b>Final offline rejudgement:</b> the five demo cases end with 2 approvals and 3 hand-offs. On the 10-question v6 loop, 5 drafts are approved, 4 of them right; 5 questions go to a person.</p><p>As originally recorded, v6 approved 6, of which 4 were right. The final checks send R161 to a person. The same-evidence classifier below is a separate arm, not the full agent loop. S′ scores better on that comparison.</p><p>Answer keys were labelled by an independent AI reviewer, not a pharmacist. Small samples; read the confidence intervals. Source: repository README, Results and Limits.</p></div><div id="board"></div>
+    </section>
+    <section id="view-about" class="view" aria-labelledby="about-heading">
+      <h1 id="about-heading">What this replay can show</h1>
+      <p class="lede">The product’s recorded investigations and source receipts, with the final checks applied offline. This page runs entirely from bundled data.</p>
+      <h2>For a pharmacist to review</h2><p>The product prepares a draft explaining regulatory safety-label differences. A pharmacist signs off before release. An agent approval is an internal draft check, not clinical validation. The keys were labelled by an independent AI reviewer; this work has not been reviewed by a pharmacist.</p>
+      <h2>What is recorded</h2><p>Five investigations replay saved Zetaris results and Nightshift model replies. The final offline checks changed some outcomes; no model is called by this website. Every case is matched to its committed trace before public-display redaction. The trace preserves the requested lane and the model that actually answered.</p>
+      <h2>Kept visible, with limits</h2><p>Patients are synthetic: Synthea plus a seeded overlay. Only aggregate counts are included. Recorded committee choices can be inspected for the two approved cases; visitors cannot submit a vote, sign off or release a reminder. The decisions in the separate reopen demonstration are illustrative.</p>
+      <p>The Skeptic can read the same records in opposite ways in successive rounds (sertraline); the Evaluator can ask for opposite changes (valproate). Darolutamide’s approved “undetermined” cause would be better described as the same position. The loaded MHRA and FDA sources are incomplete. R167 is scored wrong against an uncertain answer key; the key is kept unchanged.</p>
+      <h2>Evidence and receipts</h2><p>Evidence text and SQL are display excerpts. Manufacturer and unrelated provider names are replaced by <code>[name omitted]</code>, including inside record identifiers and SQL. Database service identities are also omitted. Redacted quotations are not byte-exact originals, and SQL is not executed here. Result hashes identify the original replay results. Receipt and reopen-export timestamps describe the offline export; case-event timestamps come from the committed traces.</p>
+      <p>Regulatory source URLs are shown as text in the drawer. This keeps every navigable site link relative and avoids accidental network activity. The only future outbound link is the coordinator’s GitHub README placeholder in the fixed banner.</p>
+      <h2>Inspect the bundled data</h2><ul class="downloads"><li><a href="./data/replay.json" download>Exported replay data (JSON)</a></li><li><a href="./data/provenance.json" download>Source files and SHA-256 hashes</a></li><li><a href="./SITE_README.md">How to use this demo</a></li></ul><p id="source-commit" class="note"></p>
+    </section>
+    <footer class="page-footer"><span>Synthetic patients · Recorded runs · Pharmacist sign-off required</span><a href="./SITE_README.md">Demo guide</a></footer>
+  </main>
+  <dialog id="drawer" class="drawer" aria-labelledby="drawer-title"><div class="drawer-top"><h2 id="drawer-title">Recorded evidence</h2><button id="drawer-close">Close</button></div><div id="drawer-body"></div></dialog>
+  <div class="status"><div id="activity" class="activity" role="status" aria-live="polite">Loading bundled replay…</div><span class="status-mode">Recorded data only · No live requests</span></div>
+  <noscript><p class="no-script">Enable JavaScript to explore the bundled recordings. No network connection is needed.</p></noscript>
+</body>
+</html>

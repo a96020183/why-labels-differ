@@ -1,0 +1,2396 @@
+[
+  {
+    "seq": 1,
+    "t": "2026-10-27T08:42:24.517Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "system",
+    "kind": "info",
+    "summary": "Session started \u00b7 SQL: SAMPLE_MODE (recorded Zetaris answers) \u00b7 models: recorded Nightshift replies"
+  },
+  {
+    "seq": 2,
+    "t": "2026-10-27T08:42:24.518Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "system",
+    "kind": "info",
+    "summary": "Question: Sertraline (Zoloft) and sexual dysfunction that persists after stopping"
+  },
+  {
+    "seq": 3,
+    "t": "2026-10-27T08:42:24.828Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "planner",
+    "kind": "sql",
+    "round": 1,
+    "receipts": [
+      "Q-001"
+    ],
+    "summary": "Starting records: 5 PRAC signal row(s) name sertraline"
+  },
+  {
+    "seq": 4,
+    "t": "2026-10-27T08:42:24.852Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "planner",
+    "kind": "model",
+    "round": 1,
+    "summary": "Fast lane answered (nemotron-3-ultra-550b-a55b)",
+    "model": {
+      "lane": "fast",
+      "requested": "nemotron-3.5-lightning-30b-a3b",
+      "served": "nemotron-3-ultra-550b-a55b",
+      "source": "replay",
+      "latencyMs": 0,
+      "tokens": 2055
+    }
+  },
+  {
+    "seq": 5,
+    "t": "2026-10-27T08:42:24.858Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "planner",
+    "kind": "plan",
+    "round": 1,
+    "summary": "Competing explanations to test: H1 eu signal triggered label change uk us did not; H2 different evidence threshold for causality; H3 class vs product specific regulatory action; H4 divergent postmarketing surveillance signal detection; H5 regulatory framework differences precautionary vs certainty",
+    "detail": [
+      {
+        "id": "H1",
+        "name": "eu_signal_triggered_label_change_uk_us_did_not",
+        "test": "EU PRAC recommended SmPC update for persistent sexual dysfunction after withdrawal; UK MHRA and US FDA labels lack equivalent warning",
+        "sources": [
+          "prac_signal_catalogue",
+          "eu_product_information",
+          "mhra_drug_safety_updates",
+          "us_label_sections"
+        ]
+      },
+      {
+        "id": "H2",
+        "name": "different_evidence_threshold_for_causality",
+        "test": "EU considered spontaneous reports and mechanistic plausibility sufficient; UK/US required controlled epidemiological evidence not yet available",
+        "sources": [
+          "eu_procedure_records",
+          "fda_potential_signal_lists",
+          "fda_sentinel"
+        ]
+      },
+      {
+        "id": "H3",
+        "name": "class_vs_product_specific_regulatory_action",
+        "test": "EU applied warning to sertraline specifically; UK/US evaluated at SSRI class level and found insufficient evidence for class-wide or product-specific action",
+        "sources": [
+          "prac_signal_catalogue",
+          "us_label_class_members",
+          "mhra_drug_safety_updates"
+        ]
+      },
+      {
+        "id": "H4",
+        "name": "divergent_postmarketing_surveillance_signal_detection",
+        "test": "EudraVigilance detected disproportionate reporting for sertraline; FAERS/Sentinel did not reach statistical signal threshold for same outcome",
+        "sources": [
+          "fda_potential_signal_lists",
+          "fda_sentinel",
+          "prac_signal_catalogue"
+        ]
+      },
+      {
+        "id": "H5",
+        "name": "regulatory_framework_differences_precautionary_vs_certainty",
+        "test": "EU precautionary principle permits warning on plausible serious risk; UK/US frameworks require higher certainty before label change",
+        "sources": [
+          "eu_procedure_records",
+          "mhra_drug_safety_updates",
+          "us_label_sections"
+        ]
+      }
+    ]
+  },
+  {
+    "seq": 6,
+    "t": "2026-10-27T08:42:24.858Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "planner",
+    "kind": "plan",
+    "round": 1,
+    "summary": "Round 1 sources: prac_signal_catalogue, eu_product_information, mhra_drug_safety_updates, us_label_sections, fda_potential_signal_lists. Terms: persistent sexual dysfunction, post-ssri sexual dysfunction, pssd, sexual dysfunction persistent, treatment-emergent sexual dysfunction persistent, sexual side effects persistent, post-treatment sexual dysfunction, antidepressant-induced sexual dysfunction persistent",
+    "detail": {
+      "terms": [
+        "persistent sexual dysfunction",
+        "post-ssri sexual dysfunction",
+        "pssd",
+        "sexual dysfunction persistent",
+        "treatment-emergent sexual dysfunction persistent",
+        "sexual side effects persistent",
+        "post-treatment sexual dysfunction",
+        "antidepressant-induced sexual dysfunction persistent"
+      ],
+      "broad": [
+        "sexual",
+        "dysfunction",
+        "reproductive",
+        "psychiatric",
+        "nervous",
+        "ssri",
+        "emergent",
+        "antidepressant"
+      ],
+      "classTerms": [
+        "ssri",
+        "selective serotonin reuptake inhibitor",
+        "antidepressant",
+        "snri"
+      ],
+      "chosen": [
+        "prac_signal_catalogue",
+        "eu_product_information",
+        "mhra_drug_safety_updates",
+        "us_label_sections",
+        "fda_potential_signal_lists"
+      ],
+      "reason": "Test whether EU label contains the warning, UK/US labels do not, and whether FDA signal lists or Sentinel show equivalent detection; covers evidence threshold, class vs product action, and surveillance divergence hypotheses."
+    }
+  },
+  {
+    "seq": 7,
+    "t": "2026-10-27T08:42:24.860Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "research",
+    "kind": "sql",
+    "round": 1,
+    "receipts": [
+      "Q-002"
+    ],
+    "summary": "prac_signal_catalogue: 11 row(s) via Postgres \u00b7 regulatory records, 1 new evidence item(s)"
+  },
+  {
+    "seq": 8,
+    "t": "2026-10-27T08:42:24.860Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "research",
+    "kind": "sql",
+    "round": 1,
+    "receipts": [
+      "Q-003"
+    ],
+    "summary": "eu_product_information: 0 row(s) via Postgres \u00b7 regulatory records"
+  },
+  {
+    "seq": 9,
+    "t": "2026-10-27T08:42:24.861Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "research",
+    "kind": "sql",
+    "round": 1,
+    "receipts": [
+      "Q-004"
+    ],
+    "summary": "mhra_drug_safety_updates: 2 row(s) via Postgres \u00b7 regulatory records, 2 new evidence item(s)"
+  },
+  {
+    "seq": 10,
+    "t": "2026-10-27T08:42:24.861Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "research",
+    "kind": "sql",
+    "round": 1,
+    "receipts": [
+      "Q-005"
+    ],
+    "summary": "us_label_sections: 0 row(s) via Postgres \u00b7 regulatory records"
+  },
+  {
+    "seq": 11,
+    "t": "2026-10-27T08:42:24.862Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "research",
+    "kind": "sql",
+    "round": 1,
+    "receipts": [
+      "Q-006"
+    ],
+    "summary": "Label versions searched: Zoloft v7 (published 2025-07-24)"
+  },
+  {
+    "seq": 12,
+    "t": "2026-10-27T08:42:24.862Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "research",
+    "kind": "sql",
+    "round": 1,
+    "receipts": [
+      "Q-007"
+    ],
+    "summary": "fda_potential_signal_lists: 0 row(s) via S3 \u00b7 FDA lists"
+  },
+  {
+    "seq": 13,
+    "t": "2026-10-27T08:42:24.863Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "research",
+    "kind": "sql",
+    "round": 1,
+    "receipts": [
+      "Q-008"
+    ],
+    "summary": "Chronology: 2 EU/UK document(s) on this drug and reaction (EU 2019-05-16, UK 2026-10-15), 6 added"
+  },
+  {
+    "seq": 14,
+    "t": "2026-10-27T08:42:24.866Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "skeptic",
+    "kind": "sql",
+    "round": 1,
+    "receipts": [
+      "Q-009"
+    ],
+    "summary": "Broad-word sweep of every U.S. label section: 60 section(s) mention sexual / dysfunction / reproductive / psychiatric / nervous / ssri / emergent / antidepressant"
+  },
+  {
+    "seq": 15,
+    "t": "2026-10-27T08:42:24.866Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "skeptic",
+    "kind": "model",
+    "round": 1,
+    "summary": "Fast lane answered (nemotron-3-ultra-550b-a55b)",
+    "model": {
+      "lane": "fast",
+      "requested": "nemotron-3.5-lightning-30b-a3b",
+      "served": "nemotron-3-ultra-550b-a55b",
+      "source": "replay",
+      "latencyMs": 0,
+      "tokens": 2473
+    }
+  },
+  {
+    "seq": 16,
+    "t": "2026-10-27T08:42:24.867Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "skeptic",
+    "kind": "model",
+    "round": 1,
+    "summary": "Fast lane answered (nemotron-3-ultra-550b-a55b)",
+    "model": {
+      "lane": "fast",
+      "requested": "nemotron-3.5-lightning-30b-a3b",
+      "served": "nemotron-3-ultra-550b-a55b",
+      "source": "replay",
+      "latencyMs": 0,
+      "tokens": 2275
+    }
+  },
+  {
+    "seq": 17,
+    "t": "2026-10-27T08:42:24.868Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "skeptic",
+    "kind": "model",
+    "round": 1,
+    "summary": "Fast lane answered (nemotron-3-ultra-550b-a55b)",
+    "model": {
+      "lane": "fast",
+      "requested": "nemotron-3.5-lightning-30b-a3b",
+      "served": "nemotron-3-ultra-550b-a55b",
+      "source": "replay",
+      "latencyMs": 0,
+      "tokens": 2265
+    }
+  },
+  {
+    "seq": 18,
+    "t": "2026-10-27T08:42:24.870Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "skeptic",
+    "kind": "model",
+    "round": 1,
+    "summary": "Fast lane answered (nemotron-3-ultra-550b-a55b)",
+    "model": {
+      "lane": "fast",
+      "requested": "nemotron-3.5-lightning-30b-a3b",
+      "served": "nemotron-3-ultra-550b-a55b",
+      "source": "replay",
+      "latencyMs": 0,
+      "tokens": 2231
+    }
+  },
+  {
+    "seq": 19,
+    "t": "2026-10-27T08:42:24.870Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "skeptic",
+    "kind": "model",
+    "round": 1,
+    "summary": "Fast lane answered (nemotron-3-ultra-550b-a55b)",
+    "model": {
+      "lane": "fast",
+      "requested": "nemotron-3.5-lightning-30b-a3b",
+      "served": "nemotron-3-ultra-550b-a55b",
+      "source": "replay",
+      "latencyMs": 0,
+      "tokens": 2332
+    }
+  },
+  {
+    "seq": 20,
+    "t": "2026-10-27T08:42:24.871Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "skeptic",
+    "kind": "check",
+    "round": 1,
+    "summary": "Read all 60 passages. Same reaction under another name: none. Related, not the same: Zoloft v7 \u2014 5 WARNINGS AND PRECAUTIONS > 5.11 Sexual Dysfunction: Describes sexual dysfunction (decreased libido, ejaculatory delay, erectile dysfunction, delayed/absent orgasm) associated with SSRI u \u2026. Different: 54"
+  },
+  {
+    "seq": 21,
+    "t": "2026-10-27T08:42:24.871Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "skeptic",
+    "kind": "check",
+    "round": 1,
+    "receipts": [
+      "Q-010"
+    ],
+    "summary": "No FDA rows match the words for other drugs"
+  },
+  {
+    "seq": 22,
+    "t": "2026-10-27T08:42:24.872Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "research",
+    "kind": "sql",
+    "round": 1,
+    "receipts": [
+      "Q-011"
+    ],
+    "summary": "One join across 3 systems on sertraline: 62 patients here; EU records naming it 0; U.S. label sections 0; FDA list rows 0"
+  },
+  {
+    "seq": 23,
+    "t": "2026-10-27T08:42:24.872Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "writer",
+    "kind": "model",
+    "round": 1,
+    "summary": "Deep lane answered (nemotron-3-ultra-550b-a55b)",
+    "model": {
+      "lane": "deep",
+      "requested": "nemotron-3.5-super-vl-120b-a12b",
+      "served": "nemotron-3-ultra-550b-a55b",
+      "source": "replay",
+      "latencyMs": 0,
+      "tokens": 7502
+    }
+  },
+  {
+    "seq": 24,
+    "t": "2026-10-27T08:42:24.874Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "writer",
+    "kind": "draft",
+    "round": 1,
+    "summary": "Draft 1: different_evidence \u2014 The main reason is different evidence from postmarketing surveillance: EU's EudraVigilance detected a signal for persistent sexual dysfunction after sertraline  \u2026",
+    "detail": {
+      "cells": {
+        "EU": {
+          "stage": "concluded",
+          "finding": "PRAC recommended SmPC 4.4 and PIL updates for persistent sexual dysfunction after discontinuation in May 2019 based on EudraVigilance, literature, social media, and MAH cumulative reviews.",
+          "cites": [
+            "PRAC-R008",
+            "EU-PRAC-REC-2019-05-01",
+            "EU-PRAC-REC-2019-05-02",
+            "EU-PRAC-REC-2019-05-03"
+          ]
+        },
+        "UK": {
+          "stage": "concluded",
+          "finding": "MHRA implemented new PIL measures in October 2026 including PSSD term, boxed warning, patient card, and ancillary leaflet after reviewing literature published since 2019.",
+          "cites": [
+            "UK-DSU-2026-10-15-01",
+            "UK-DSU-2026-10-15-02",
+            "UK-DSU-2026-10-15-03",
+            "UK-DSU-2026-10-15-04",
+            "UK-DSU-2026-10-15-05"
+          ]
+        },
+        "US_label": {
+          "status": "related_only",
+          "finding": "Zoloft v7 (2023-08-08) describes sexual dysfunction during use in Warnings and Precautions 5.11 and Adverse Reactions 6/6.1 but does not mention persistence after stopping.",
+          "cites": [
+            "SPL-Zoloft-v7-5.11-168d",
+            "SPL-Zoloft-v7-6-ptsr",
+            "SPL-Zoloft-v7-6.1-qxhq",
+            "US-LABELS-SEARCHED"
+          ]
+        },
+        "US_regulator": {
+          "stage": "no_public_action_found",
+          "finding": "FDA AEMS potential signal lists 2023 Q1\u20132026 Q2 show no signal for sertraline/SSRI persistent sexual dysfunction; no label update for this risk.",
+          "cites": [
+            "FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND",
+            "US-LABELS-SEARCHED"
+          ]
+        }
+      },
+      "hypotheses": [
+        {
+          "id": "H1",
+          "name": "eu_signal_triggered_label_change_uk_us_did_not",
+          "verdict": "holds",
+          "why": "EU PRAC recommended SmPC/PIL updates in 2019; UK MHRA implemented PIL measures in 2026; US label lacks equivalent warning.",
+          "for": [
+            "PRAC-R008",
+            "EU-PRAC-REC-2019-05-01",
+            "EU-PRAC-REC-2019-05-02",
+            "EU-PRAC-REC-2019-05-03",
+            "UK-DSU-2026-10-15-01",
+            "UK-DSU-2026-10-15-04"
+          ],
+          "against": [
+            "US-LABELS-SEARCHED",
+            "SPL-Zoloft-v7-5.11-168d",
+            "SPL-Zoloft-v7-6-ptsr",
+            "SPL-Zoloft-v7-6.1-qxhq"
+          ],
+          "role": "secondary",
+          "rank": 2
+        },
+        {
+          "id": "H2",
+          "name": "different_evidence_threshold_for_causality",
+          "verdict": "open",
+          "why": "Records show EU considered EudraVigilance, literature, social media, MAH reviews; UK reviewed literature since 2019; US threshold not documented.",
+          "for": [
+            "EU-PRAC-REC-2019-05-01",
+            "UK-DSU-2026-10-15-05"
+          ],
+          "against": []
+        },
+        {
+          "id": "H3",
+          "name": "class_vs_product_specific_regulatory_action",
+          "verdict": "holds",
+          "why": "EU and UK applied warnings at class level with product-specific PIL updates; US sertraline label only addresses sexual dysfunction during use.",
+          "for": [
+            "EU-PRAC-REC-2019-05-01",
+            "UK-DSU-2026-10-15-04",
+            "SPL-Zoloft-v7-5.11-168d"
+          ],
+          "against": [],
+          "role": "secondary",
+          "rank": 3
+        },
+        {
+          "id": "H4",
+          "name": "divergent_postmarketing_surveillance_signal_detection",
+          "verdict": "holds",
+          "why": "EU PRAC explicitly cited EudraVigilance signal detection; US FAERS quarterly lists 2023\u20132026 show no signal for sertraline persistent sexual dysfunction.",
+          "for": [
+            "EU-PRAC-REC-2019-05-01",
+            "FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND"
+          ],
+          "against": [],
+          "role": "main",
+          "rank": 1
+        },
+        {
+          "id": "H5",
+          "name": "regulatory_framework_differences_precautionary_vs_certainty",
+          "verdict": "open",
+          "why": "No record explicitly states framework differences as cause; inference not directly supported.",
+          "for": [],
+          "against": []
+        }
+      ],
+      "why": {
+        "type": "different_evidence",
+        "sentence": "The main reason is different evidence from postmarketing surveillance: EU's EudraVigilance detected a signal for persistent sexual dysfunction after sertraline withdrawal, while US FAERS did not reach a statistical signal threshold for the same outcome.",
+        "cites": [
+          "EU-PRAC-REC-2019-05-01",
+          "FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND"
+        ],
+        "reasons": [
+          {
+            "type": "different_evidence",
+            "claim": "EU PRAC acted on EudraVigilance signal detection; US FAERS quarterly lists show no such signal for sertraline persistent sexual dysfunction.",
+            "cites": [
+              "EU-PRAC-REC-2019-05-01",
+              "FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND"
+            ]
+          }
+        ]
+      },
+      "evidence": {
+        "note": "EU relied on EudraVigilance spontaneous reports, literature, social media, and MAH cumulative reviews; UK reviewed literature published since 2019; US FAERS quarterly signal lists show no detection for this outcome.",
+        "cites": [
+          "EU-PRAC-REC-2019-05-01",
+          "UK-DSU-2026-10-15-05",
+          "FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND"
+        ]
+      },
+      "recommendation": {
+        "option": "propose",
+        "reason": "EU and UK regulators warn of persistent sexual dysfunction after stopping sertraline; US label only describes sexual dysfunction during use, so committee should add in-house counseling now."
+      },
+      "reopen_when": [
+        {
+          "kind": "us_label_warning",
+          "text": "US sertraline label adds persistent sexual dysfunction after discontinuation to Warnings and Precautions or Boxed Warning"
+        },
+        {
+          "kind": "fda_list_update",
+          "text": "FDA AEMS potential signal list includes sertraline or SSRI persistent sexual dysfunction"
+        }
+      ]
+    }
+  },
+  {
+    "seq": 25,
+    "t": "2026-10-27T08:42:24.894Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "skeptic",
+    "kind": "model",
+    "round": 1,
+    "summary": "Fast lane answered (nemotron-3-ultra-550b-a55b)",
+    "model": {
+      "lane": "fast",
+      "requested": "nemotron-3.5-lightning-30b-a3b",
+      "served": "nemotron-3-ultra-550b-a55b",
+      "source": "replay",
+      "latencyMs": 0,
+      "tokens": 18261
+    }
+  },
+  {
+    "seq": 26,
+    "t": "2026-10-27T08:42:24.894Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "skeptic",
+    "kind": "check",
+    "round": 1,
+    "receipts": [
+      "Q-012",
+      "Q-013",
+      "Q-014",
+      "Q-015",
+      "Q-016",
+      "Q-017",
+      "Q-018",
+      "Q-019",
+      "Q-020",
+      "Q-021",
+      "Q-022",
+      "Q-023",
+      "Q-024",
+      "Q-025",
+      "Q-026"
+    ],
+    "detail": {
+      "falsification": {
+        "round": 1,
+        "records": 14,
+        "verified": 14,
+        "contradicted": [],
+        "reversed": [
+          "H1: US-LABELS-SEARCHED is filed against it but shows it is the case",
+          "H1: SPL-Zoloft-v7-5.11-168d is filed against it but shows it is the case",
+          "H1: SPL-Zoloft-v7-6-ptsr is filed against it but shows it is the case",
+          "H1: SPL-Zoloft-v7-6.1-qxhq is filed against it but shows it is the case"
+        ],
+        "unjudged": false,
+        "irrelevant": [],
+        "restates": [
+          "H1 (H1 \"eu signal triggered label change uk us did not\" (what wo \u2026)",
+          "H3 (H3 \"class vs product specific regulatory action\" (what would \u2026)"
+        ],
+        "restatesIds": [
+          "H1",
+          "H3"
+        ],
+        "mainUnsupported": [],
+        "unsupported": [],
+        "unsupportedIds": [],
+        "outUnsupported": [],
+        "outUnsupportedIds": [],
+        "causes": [
+          {
+            "hid": "H4",
+            "records": [
+              "EU-PRAC-REC-2019-05-01",
+              "FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND"
+            ]
+          }
+        ],
+        "unchecked": 0,
+        "claims": 7,
+        "claimsSupported": 7,
+        "claimsNotEnough": 0,
+        "second": {
+          "checked": 4,
+          "verified": 4,
+          "contradicted": 0,
+          "notComparable": 0,
+          "unavailable": false
+        }
+      }
+    },
+    "summary": "Skeptic tried to break the draft: 14 records fetched again by their own keys, 14 verified \u00b7 0 contradicted; U.S. label against openFDA's copy: 4 agree \u00b7 0 contradict \u00b7 0 other version; 7 claims judged: 7 supported \u00b7 0 contradicted \u00b7 0 not enough"
+  },
+  {
+    "seq": 27,
+    "t": "2026-10-27T08:42:24.901Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "evaluator",
+    "kind": "model",
+    "round": 1,
+    "summary": "Deep lane answered (nemotron-3-ultra-550b-a55b)",
+    "model": {
+      "lane": "deep",
+      "requested": "nemotron-3.5-super-vl-120b-a12b",
+      "served": "nemotron-3-ultra-550b-a55b",
+      "source": "replay",
+      "latencyMs": 0,
+      "tokens": 9514
+    }
+  },
+  {
+    "seq": 28,
+    "t": "2026-10-27T08:42:24.901Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "evaluator",
+    "kind": "reject",
+    "round": 1,
+    "summary": "Sent back: Held partly on a search that found nothing: H4 divergent postmarketing surveillance signal detection. Not finding a record does not show a reason: judge it open, or cite a record that shows it. The why rests partly on a search that found nothing (FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a record does not show a reason: cite a record that shows the reason, or, if no record does, make the why undetermined \u2026 [decided by: model and checks]",
+    "detail": {
+      "gaps": [
+        {
+          "column": "US_label",
+          "hard": false,
+          "problem": "The EU record covers a whole class (desvenlafaxine, duloxetine, escitalopram, fluoxetine\u2026). Do the other U.S. labels in that class say it?",
+          "want": [
+            "us_label_class_members"
+          ]
+        },
+        {
+          "column": "hypotheses",
+          "hard": false,
+          "problem": "Explanations that only restate the difference, not a cause of it: H1 (H1 \"eu signal triggered label change uk us did not\" (what wo \u2026); H3 (H3 \"class vs product specific regulatory action\" (what would \u2026). Judge them not_a_cause, or say what they explain.",
+          "want": []
+        },
+        {
+          "column": "hypotheses",
+          "hard": false,
+          "problem": "The Skeptic reads some records the other way round: H1: US-LABELS-SEARCHED is filed against it but shows it is the case; H1: SPL-Zoloft-v7-5.11-168d is filed against it but shows it is the case; H1: SPL-Zoloft-v7-6-ptsr is filed against it but shows it is the case; H1: SPL-Zoloft-v7-6.1-qxhq is filed against it but shows it is the case. If you agree, move the record and make the verdict follow it (an explanation a record shows true cannot be ruled out; one a record shows false cannot hold).",
+          "want": []
+        },
+        {
+          "column": "hypotheses",
+          "hard": true,
+          "problem": "Held partly on a search that found nothing: H4 divergent postmarketing surveillance signal detection. Not finding a record does not show a reason: judge it open, or cite a record that shows it.",
+          "want": []
+        },
+        {
+          "column": "hypotheses",
+          "hard": true,
+          "problem": "The why rests partly on a search that found nothing (FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a record does not show a reason: cite a record that shows the reason, or, if no record does, make the why undetermined (where each regulator stands, and that the public records do not show why).",
+          "want": []
+        },
+        {
+          "column": "UK",
+          "hard": true,
+          "problem": "The UK (MHRA) cell mentions a boxed warning, but its record says the boxed warning is about suicidal thoughts. Say what each measure is about, as the record does.",
+          "want": []
+        }
+      ],
+      "hard": [
+        {
+          "column": "hypotheses",
+          "hard": true,
+          "problem": "Held partly on a search that found nothing: H4 divergent postmarketing surveillance signal detection. Not finding a record does not show a reason: judge it open, or cite a record that shows it.",
+          "want": []
+        },
+        {
+          "column": "hypotheses",
+          "hard": true,
+          "problem": "The why rests partly on a search that found nothing (FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a record does not show a reason: cite a record that shows the reason, or, if no record does, make the why undetermined (where each regulator stands, and that the public records do not show why).",
+          "want": []
+        },
+        {
+          "column": "UK",
+          "hard": true,
+          "problem": "The UK (MHRA) cell mentions a boxed warning, but its record says the boxed warning is about suicidal thoughts. Say what each measure is about, as the record does.",
+          "want": []
+        }
+      ],
+      "soft": [
+        {
+          "column": "US_label",
+          "hard": false,
+          "problem": "The EU record covers a whole class (desvenlafaxine, duloxetine, escitalopram, fluoxetine\u2026). Do the other U.S. labels in that class say it?",
+          "want": [
+            "us_label_class_members"
+          ]
+        },
+        {
+          "column": "hypotheses",
+          "hard": false,
+          "problem": "Explanations that only restate the difference, not a cause of it: H1 (H1 \"eu signal triggered label change uk us did not\" (what wo \u2026); H3 (H3 \"class vs product specific regulatory action\" (what would \u2026). Judge them not_a_cause, or say what they explain.",
+          "want": []
+        },
+        {
+          "column": "hypotheses",
+          "hard": false,
+          "problem": "The Skeptic reads some records the other way round: H1: US-LABELS-SEARCHED is filed against it but shows it is the case; H1: SPL-Zoloft-v7-5.11-168d is filed against it but shows it is the case; H1: SPL-Zoloft-v7-6-ptsr is filed against it but shows it is the case; H1: SPL-Zoloft-v7-6.1-qxhq is filed against it but shows it is the case. If you agree, move the record and make the verdict follow it (an explanation a record shows true cannot be ruled out; one a record shows false cannot hold).",
+          "want": []
+        }
+      ],
+      "model": {
+        "verdict": "revise",
+        "columns": {
+          "EU": {
+            "supported": true,
+            "note": "Supported by PRAC recommendations and meeting minutes showing signal detection and product information updates."
+          },
+          "UK": {
+            "supported": true,
+            "note": "Records confirm new PIL measures including PSSD term, patient card, ancillary leaflet; boxed warning is for suicidal thoughts, not PSSD."
+          },
+          "US_label": {
+            "supported": true,
+            "note": "Label sections and comprehensive search confirm sexual dysfunction described only during use, no mention of persistence after stopping."
+          },
+          "US_regulator": {
+            "supported": true,
+            "note": "FDA quarterly signal lists show no public signal for sertraline/SSRI persistent sexual dysfunction; label search confirms no update."
+          }
+        },
+        "hypotheses": {
+          "H1": {
+            "supported": true,
+            "note": "Records show EU/UK action and US inaction, but this restates the difference rather than explaining a cause."
+          },
+          "H2": {
+            "supported": true,
+            "note": "Correctly open; no record documents US evidence threshold for causality."
+          },
+          "H3": {
+            "supported": true,
+            "note": "Records show class-level (EU/UK) vs product-level (US) action, but this describes regulatory approach, not a causal explanation."
+          },
+          "H4": {
+            "supported": false,
+            "note": "Verdict 'holds' relies on FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND, a search without result; absence of public signal does not prove divergent detection. Should be open."
+          },
+          "H5": {
+            "supported": true,
+            "note": "Correctly open; no records directly support or contradict framework differences as cause."
+          }
+        },
+        "feedback": "H4 is incorrectly held on a search that found nothing; the main why (different_evidence) depends on this and should be undetermined. H1 and H3 are descriptive restatements, not causal explanations."
+      },
+      "modelSays": "revise",
+      "modelFeedback": "H4 is incorrectly held on a search that found nothing; the main why (different_evidence) depends on this and should be undetermined. H1 and H3 are descriptive restatements, not causal explanations.",
+      "decidedBy": "model and checks"
+    }
+  },
+  {
+    "seq": 29,
+    "t": "2026-10-27T08:42:24.902Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "planner",
+    "kind": "model",
+    "round": 2,
+    "summary": "Fast lane answered (nemotron-3-ultra-550b-a55b)",
+    "model": {
+      "lane": "fast",
+      "requested": "nemotron-3.5-lightning-30b-a3b",
+      "served": "nemotron-3-ultra-550b-a55b",
+      "source": "replay",
+      "latencyMs": 0,
+      "tokens": 1372
+    }
+  },
+  {
+    "seq": 30,
+    "t": "2026-10-27T08:42:24.902Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "planner",
+    "kind": "replan",
+    "round": 2,
+    "summary": "New plan: us_label_class_members, fda_sentinel \u2014 Need to check other U.S. SSRI/SNRI labels for class-wide warnings (coverage check) and FDA Sentinel data for postmarketing surveillance evidence (H4 support).",
+    "detail": {
+      "chosen": [
+        "us_label_class_members",
+        "fda_sentinel"
+      ],
+      "reason": "Need to check other U.S. SSRI/SNRI labels for class-wide warnings (coverage check) and FDA Sentinel data for postmarketing surveillance evidence (H4 support)."
+    }
+  },
+  {
+    "seq": 31,
+    "t": "2026-10-27T08:42:24.917Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "research",
+    "kind": "sql",
+    "round": 2,
+    "receipts": [
+      "Q-027"
+    ],
+    "summary": "us_label_class_members: 80 row(s) via Postgres \u00b7 regulatory records, 12 new evidence item(s)"
+  },
+  {
+    "seq": 32,
+    "t": "2026-10-27T08:42:24.918Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "research",
+    "kind": "sql",
+    "round": 2,
+    "receipts": [
+      "Q-028"
+    ],
+    "summary": "fda_sentinel: 0 row(s) via S3 \u00b7 FDA lists"
+  },
+  {
+    "seq": 33,
+    "t": "2026-10-27T08:42:24.920Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "writer",
+    "kind": "model",
+    "round": 2,
+    "summary": "Deep lane answered (nemotron-3-ultra-550b-a55b)",
+    "model": {
+      "lane": "deep",
+      "requested": "nemotron-3.5-super-vl-120b-a12b",
+      "served": "nemotron-3-ultra-550b-a55b",
+      "source": "replay",
+      "latencyMs": 0,
+      "tokens": 14217
+    }
+  },
+  {
+    "seq": 34,
+    "t": "2026-10-27T08:42:24.921Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "writer",
+    "kind": "draft",
+    "round": 2,
+    "summary": "Draft 2: unclear \u2014 The public records show the EU and UK have added warnings for persistent sexual dysfunction after stopping antidepressants while the U.S. label for sertraline d \u2026",
+    "detail": {
+      "cells": {
+        "EU": {
+          "stage": "concluded",
+          "finding": "EU PRAC concluded in May 2019 that persistent sexual dysfunction after withdrawal warrants a product information update for SSRIs/SNRIs including sertraline, based on spontaneous reports, literature, social media, and MAH cumulative reviews.",
+          "cites": [
+            "PRAC-R008",
+            "EU-PRAC-REC-2019-05-01",
+            "EU-PRAC-REC-2019-05-02",
+            "EU-PRAC-REC-2019-05-03"
+          ]
+        },
+        "UK": {
+          "stage": "concluded",
+          "finding": "UK MHRA concluded in October 2026 that the term 'Post SSRI Sexual Dysfunction' (PSSD) should be added to patient information leaflets for antidepressants associated with persistent sexual dysfunction, and issued a patient card and ancillary leaflet; the new boxed warning addresses suicidal thoughts and behaviours, not PSSD.",
+          "cites": [
+            "UK-DSU-2026-10-15-01",
+            "UK-DSU-2026-10-15-04",
+            "UK-DSU-2026-10-15-03"
+          ]
+        },
+        "US_label": {
+          "status": "related_only",
+          "finding": "Sertraline (Zoloft) U.S. label v7 (2023-08-08) includes sexual dysfunction in Warnings and Precautions (5.11) and Adverse Reactions (6.1) but describes symptoms during treatment only; a full-label search found no mention of persistent sexual dysfunction, post-SSRI sexual dysfunction, or PSSD.",
+          "cites": [
+            "SPL-Zoloft-v7-5.11-168d",
+            "SPL-Zoloft-v7-6-ptsr",
+            "SPL-Zoloft-v7-6.1-qxhq",
+            "US-LABELS-SEARCHED"
+          ]
+        },
+        "US_regulator": {
+          "stage": "no_public_action_found",
+          "finding": "FDA's quarterly potential signal lists (2023 Q1\u20132026 Q2) and Sentinel Initiative contain no signal for sertraline or SSRIs with persistent sexual dysfunction; no label update or safety communication has been issued.",
+          "cites": [
+            "FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND",
+            "FDA_SENTINEL-NOTHING-FOUND"
+          ]
+        }
+      },
+      "hypotheses": [
+        {
+          "id": "H1",
+          "name": "eu_signal_triggered_label_change_uk_us_did_not",
+          "verdict": "not_a_cause",
+          "why": "H1 describes the regulatory difference but does not explain its cause.",
+          "for": [
+            "PRAC-R008",
+            "EU-PRAC-REC-2019-05-01",
+            "EU-PRAC-REC-2019-05-02",
+            "EU-PRAC-REC-2019-05-03",
+            "UK-DSU-2026-10-15-01",
+            "UK-DSU-2026-10-15-04"
+          ],
+          "against": [
+            "SPL-Zoloft-v7-6-ptsr",
+            "SPL-Zoloft-v7-6.1-qxhq",
+            "US-LABELS-SEARCHED",
+            "SPL-Zoloft-v7-5.11-168d"
+          ]
+        },
+        {
+          "id": "H2",
+          "name": "different_evidence_threshold_for_causality",
+          "verdict": "open",
+          "why": "No record shows that UK/US required controlled epidemiological evidence; the evidence threshold difference remains unconfirmed.",
+          "for": [
+            "UK-DSU-2026-10-15-05",
+            "EU-PRAC-REC-2019-05-01"
+          ],
+          "against": []
+        },
+        {
+          "id": "H3",
+          "name": "class_vs_product_specific_regulatory_action",
+          "verdict": "not_a_cause",
+          "why": "H3 misstates the EU action as product-specific when it was class-wide, and does not explain the cause of the difference.",
+          "for": [
+            "UK-DSU-2026-10-15-04",
+            "SPL-Zoloft-v7-5.11-168d",
+            "EU-PRAC-REC-2019-05-01"
+          ],
+          "against": []
+        },
+        {
+          "id": "H4",
+          "name": "divergent_postmarketing_surveillance_signal_detection",
+          "verdict": "open",
+          "why": "No record confirms EudraVigilance detected a disproportionate signal for sertraline specifically, nor that FAERS/Sentinel failed to reach a threshold; the claim rests on a search that found nothing.",
+          "for": [
+            "FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND",
+            "EU-PRAC-REC-2019-05-01"
+          ],
+          "against": []
+        },
+        {
+          "id": "H5",
+          "name": "regulatory_framework_differences_precautionary_vs_certainty",
+          "verdict": "open",
+          "why": "No record addresses regulatory framework differences; the explanation is unsupported by the provided sources.",
+          "for": [],
+          "against": []
+        }
+      ],
+      "why": {
+        "type": "unclear",
+        "sentence": "The public records show the EU and UK have added warnings for persistent sexual dysfunction after stopping antidepressants while the U.S. label for sertraline does not mention persistence, but the records do not reveal why the regulators differ.",
+        "cites": [],
+        "reasons": []
+      },
+      "evidence": {
+        "note": "EU relied on spontaneous reports (EudraVigilance), literature, social media, and MAH reviews; UK relied on literature since 2019 and expert working group review; U.S. surveillance (FAERS, Sentinel) did not detect a signal for this outcome.",
+        "cites": [
+          "EU-PRAC-REC-2019-05-01",
+          "UK-DSU-2026-10-15-05",
+          "FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND",
+          "FDA_SENTINEL-NOTHING-FOUND"
+        ]
+      },
+      "recommendation": {
+        "option": "wait",
+        "reason": "The U.S. label for sertraline does not mention persistent sexual dysfunction, and the FDA has not issued a signal or label change; the committee should wait for a U.S. label update or FDA action before changing practice."
+      },
+      "reopen_when": []
+    }
+  },
+  {
+    "seq": 35,
+    "t": "2026-10-27T08:42:24.932Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "skeptic",
+    "kind": "model",
+    "round": 2,
+    "summary": "Fast lane answered (nemotron-3-ultra-550b-a55b)",
+    "model": {
+      "lane": "fast",
+      "requested": "nemotron-3.5-lightning-30b-a3b",
+      "served": "nemotron-3-ultra-550b-a55b",
+      "source": "replay",
+      "latencyMs": 0,
+      "tokens": 19628
+    }
+  },
+  {
+    "seq": 36,
+    "t": "2026-10-27T08:42:24.933Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "skeptic",
+    "kind": "check",
+    "round": 2,
+    "receipts": [
+      "Q-029",
+      "Q-030",
+      "Q-031",
+      "Q-032",
+      "Q-033",
+      "Q-034",
+      "Q-035",
+      "Q-036",
+      "Q-037",
+      "Q-038",
+      "Q-039",
+      "Q-040",
+      "Q-041"
+    ],
+    "detail": {
+      "falsification": {
+        "round": 2,
+        "records": 13,
+        "verified": 12,
+        "contradicted": [],
+        "reversed": [
+          "H1: UK-DSU-2026-10-15-01 is filed for it but shows it is not the case",
+          "H1: UK-DSU-2026-10-15-04 is filed for it but shows it is not the case",
+          "H1: SPL-Zoloft-v7-6-ptsr is filed against it but shows it is the case",
+          "H1: SPL-Zoloft-v7-6.1-qxhq is filed against it but shows it is the case",
+          "H1: US-LABELS-SEARCHED is filed against it but shows it is the case",
+          "H1: SPL-Zoloft-v7-5.11-168d is filed against it but shows it is the case",
+          "H3: EU-PRAC-REC-2019-05-01 is filed for it but shows it is not the case"
+        ],
+        "unjudged": false,
+        "irrelevant": [],
+        "restates": [],
+        "restatesIds": [],
+        "mainUnsupported": [],
+        "unsupported": [],
+        "unsupportedIds": [],
+        "outUnsupported": [],
+        "outUnsupportedIds": [],
+        "causes": [
+          {
+            "hid": "H3",
+            "records": [
+              "UK-DSU-2026-10-15-04"
+            ]
+          }
+        ],
+        "unchecked": 1,
+        "claims": 6,
+        "claimsSupported": 5,
+        "claimsNotEnough": 1,
+        "second": {
+          "checked": 4,
+          "verified": 4,
+          "contradicted": 0,
+          "notComparable": 0,
+          "unavailable": false
+        }
+      }
+    },
+    "summary": "Skeptic tried to break the draft: 13 records fetched again by their own keys, 12 verified \u00b7 0 contradicted; U.S. label against openFDA's copy: 4 agree \u00b7 0 contradict \u00b7 0 other version; 6 claims judged: 5 supported \u00b7 0 contradicted \u00b7 1 not enough"
+  },
+  {
+    "seq": 37,
+    "t": "2026-10-27T08:42:24.935Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "evaluator",
+    "kind": "model",
+    "round": 2,
+    "summary": "Deep lane answered (nemotron-3-ultra-550b-a55b)",
+    "model": {
+      "lane": "deep",
+      "requested": "nemotron-3.5-super-vl-120b-a12b",
+      "served": "nemotron-3-ultra-550b-a55b",
+      "source": "replay",
+      "latencyMs": 0,
+      "tokens": 10737
+    }
+  },
+  {
+    "seq": 38,
+    "t": "2026-10-27T08:42:24.935Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "evaluator",
+    "kind": "reject",
+    "round": 2,
+    "summary": "Sent back: Values outside the allowed lists: why type \"unclear\". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_action_found | not_found_in_sources. U.S. label status: written | partial | related_only | not found. Why type, one per reason: different_stage | different_evidence | different_scope | us_earlier | same_position (or undetermined, with no reason). Recommendation: propose | wait | no_action \u2026 [decided by: model and checks]",
+    "detail": {
+      "gaps": [
+        {
+          "column": "hypotheses",
+          "hard": false,
+          "problem": "The Skeptic reads some records the other way round: H1: UK-DSU-2026-10-15-01 is filed for it but shows it is not the case; H1: UK-DSU-2026-10-15-04 is filed for it but shows it is not the case; H1: SPL-Zoloft-v7-6-ptsr is filed against it but shows it is the case; H1: SPL-Zoloft-v7-6.1-qxhq is filed against it but shows it is the case; H1: US-LABELS-SEARCHED is filed against it but shows it is the case; H1: SPL-Zoloft-v7-5.11-168d is filed against it but shows it is the case; H3: EU-PRAC-REC-2019-05-01 is filed for it but shows it is not the case. If you agree, move the record and make the verdict follow it (an explanation a record shows true cannot be ruled out; one a record shows false cannot hold).",
+          "want": []
+        },
+        {
+          "column": "citations",
+          "hard": true,
+          "problem": "Values outside the allowed lists: why type \"unclear\". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_action_found | not_found_in_sources. U.S. label status: written | partial | related_only | not found. Why type, one per reason: different_stage | different_evidence | different_scope | us_earlier | same_position (or undetermined, with no reason). Recommendation: propose | wait | no_action | already_covered.",
+          "want": []
+        },
+        {
+          "column": "hypotheses",
+          "hard": true,
+          "problem": "No explanation is judged to hold, yet the why gives a reason. If a record shows the reason, judge that explanation holds and name it the main cause; if no record does, make the why undetermined: say where each regulator stands and that the public records do not show why they differ.",
+          "want": []
+        }
+      ],
+      "hard": [
+        {
+          "column": "citations",
+          "hard": true,
+          "problem": "Values outside the allowed lists: why type \"unclear\". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_action_found | not_found_in_sources. U.S. label status: written | partial | related_only | not found. Why type, one per reason: different_stage | different_evidence | different_scope | us_earlier | same_position (or undetermined, with no reason). Recommendation: propose | wait | no_action | already_covered.",
+          "want": []
+        },
+        {
+          "column": "hypotheses",
+          "hard": true,
+          "problem": "No explanation is judged to hold, yet the why gives a reason. If a record shows the reason, judge that explanation holds and name it the main cause; if no record does, make the why undetermined: say where each regulator stands and that the public records do not show why they differ.",
+          "want": []
+        }
+      ],
+      "soft": [
+        {
+          "column": "hypotheses",
+          "hard": false,
+          "problem": "The Skeptic reads some records the other way round: H1: UK-DSU-2026-10-15-01 is filed for it but shows it is not the case; H1: UK-DSU-2026-10-15-04 is filed for it but shows it is not the case; H1: SPL-Zoloft-v7-6-ptsr is filed against it but shows it is the case; H1: SPL-Zoloft-v7-6.1-qxhq is filed against it but shows it is the case; H1: US-LABELS-SEARCHED is filed against it but shows it is the case; H1: SPL-Zoloft-v7-5.11-168d is filed against it but shows it is the case; H3: EU-PRAC-REC-2019-05-01 is filed for it but shows it is not the case. If you agree, move the record and make the verdict follow it (an explanation a record shows true cannot be ruled out; one a record shows false cannot hold).",
+          "want": []
+        }
+      ],
+      "model": {
+        "verdict": "revise",
+        "columns": {
+          "EU": {
+            "supported": true,
+            "note": "All citations support the finding and stage."
+          },
+          "UK": {
+            "supported": true,
+            "note": "Citations support the finding and stage."
+          },
+          "US_label": {
+            "supported": true,
+            "note": "Citations support the finding and status."
+          },
+          "US_regulator": {
+            "supported": true,
+            "note": "Citations support the finding and stage."
+          }
+        },
+        "hypotheses": {
+          "H1": {
+            "supported": false,
+            "note": "Verdict 'not_a_cause' not allowed; no record rules out this explanation, should be 'open'."
+          },
+          "H2": {
+            "supported": true,
+            "note": "Open verdict correct; no records for or against."
+          },
+          "H3": {
+            "supported": false,
+            "note": "Verdict 'not_a_cause' not allowed; no record rules out this explanation, should be 'open'."
+          },
+          "H4": {
+            "supported": true,
+            "note": "Open verdict correct; search without result does not decide."
+          },
+          "H5": {
+            "supported": true,
+            "note": "Open verdict correct; no records address this."
+          }
+        },
+        "feedback": "The why type must be 'undetermined' (not 'unclear'). Hypothesis verdicts must be 'holds', 'ruled_out', or 'open' \u2014 'not_a_cause' is invalid. H1 and H3 lack records to rule them out; they should be 'open'."
+      },
+      "modelSays": "revise",
+      "modelFeedback": "The why type must be 'undetermined' (not 'unclear'). Hypothesis verdicts must be 'holds', 'ruled_out', or 'open' \u2014 'not_a_cause' is invalid. H1 and H3 lack records to rule them out; they should be 'open'.",
+      "decidedBy": "model and checks"
+    }
+  },
+  {
+    "seq": 39,
+    "t": "2026-10-27T08:42:24.936Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "evaluator",
+    "kind": "info",
+    "round": 3,
+    "summary": "Round 3, repair 1 of 3: 4 finding(s) to answer (2 must-hold); the Writer revises from the same records (no new search)."
+  },
+  {
+    "seq": 40,
+    "t": "2026-10-27T08:42:24.937Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "writer",
+    "kind": "model",
+    "round": 3,
+    "summary": "Deep lane answered (nemotron-3-ultra-550b-a55b)",
+    "model": {
+      "lane": "deep",
+      "requested": "nemotron-3.5-super-vl-120b-a12b",
+      "served": "nemotron-3-ultra-550b-a55b",
+      "source": "replay",
+      "latencyMs": 0,
+      "tokens": 6014
+    }
+  },
+  {
+    "seq": 41,
+    "t": "2026-10-27T08:42:24.937Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "writer",
+    "kind": "draft",
+    "round": 3,
+    "summary": "Draft 3 (repair 1 of 3): undetermined \u2014 The public records show the EU and UK have added warnings for persistent sexual dysfunction after stopping antidepressan \u2026",
+    "detail": {
+      "cells": {
+        "EU": {
+          "stage": "concluded",
+          "finding": "EU PRAC concluded in May 2019 that persistent sexual dysfunction after withdrawal warrants a product information update for SSRIs/SNRIs including sertraline, based on spontaneous reports, literature, social media, and MAH cumulative reviews.",
+          "cites": [
+            "PRAC-R008",
+            "EU-PRAC-REC-2019-05-01",
+            "EU-PRAC-REC-2019-05-02",
+            "EU-PRAC-REC-2019-05-03"
+          ]
+        },
+        "UK": {
+          "stage": "concluded",
+          "finding": "UK MHRA concluded in October 2026 that the term 'Post SSRI Sexual Dysfunction' (PSSD) should be added to patient information leaflets for antidepressants associated with persistent sexual dysfunction, and issued a patient card and ancillary leaflet; the new boxed warning addresses suicidal thoughts and behaviours, not PSSD.",
+          "cites": [
+            "UK-DSU-2026-10-15-01",
+            "UK-DSU-2026-10-15-04",
+            "UK-DSU-2026-10-15-03"
+          ]
+        },
+        "US_label": {
+          "status": "related_only",
+          "finding": "Sertraline (Zoloft) U.S. label v7 (2023-08-08) includes sexual dysfunction in Warnings and Precautions (5.11) and Adverse Reactions (6.1) but describes symptoms during treatment only; a full-label search found no mention of persistent sexual dysfunction, post-SSRI sexual dysfunction, or PSSD.",
+          "cites": [
+            "SPL-Zoloft-v7-5.11-168d",
+            "SPL-Zoloft-v7-6-ptsr",
+            "SPL-Zoloft-v7-6.1-qxhq",
+            "US-LABELS-SEARCHED"
+          ]
+        },
+        "US_regulator": {
+          "stage": "no_public_action_found",
+          "finding": "FDA's quarterly potential signal lists (2023 Q1\u20132026 Q2) and Sentinel Initiative contain no signal for sertraline or SSRIs with persistent sexual dysfunction; no label update or safety communication has been issued.",
+          "cites": [
+            "FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND",
+            "FDA_SENTINEL-NOTHING-FOUND"
+          ]
+        }
+      },
+      "hypotheses": [
+        {
+          "id": "H1",
+          "name": "eu_signal_triggered_label_change_uk_us_did_not",
+          "verdict": "open",
+          "why": "H1 describes the regulatory difference but does not explain its cause.",
+          "for": [
+            "PRAC-R008",
+            "EU-PRAC-REC-2019-05-01",
+            "EU-PRAC-REC-2019-05-02",
+            "EU-PRAC-REC-2019-05-03",
+            "SPL-Zoloft-v7-6-ptsr",
+            "SPL-Zoloft-v7-6.1-qxhq",
+            "US-LABELS-SEARCHED",
+            "SPL-Zoloft-v7-5.11-168d"
+          ],
+          "against": [
+            "UK-DSU-2026-10-15-01",
+            "UK-DSU-2026-10-15-04"
+          ]
+        },
+        {
+          "id": "H2",
+          "name": "different_evidence_threshold_for_causality",
+          "verdict": "open",
+          "why": "No record shows that UK/US required controlled epidemiological evidence; the evidence threshold difference remains unconfirmed.",
+          "for": [
+            "UK-DSU-2026-10-15-05",
+            "EU-PRAC-REC-2019-05-01"
+          ],
+          "against": []
+        },
+        {
+          "id": "H3",
+          "name": "class_vs_product_specific_regulatory_action",
+          "verdict": "open",
+          "why": "H3 misstates the EU action as product-specific when it was class-wide, and does not explain the cause of the difference.",
+          "for": [
+            "UK-DSU-2026-10-15-04",
+            "SPL-Zoloft-v7-5.11-168d"
+          ],
+          "against": [
+            "EU-PRAC-REC-2019-05-01"
+          ]
+        },
+        {
+          "id": "H4",
+          "name": "divergent_postmarketing_surveillance_signal_detection",
+          "verdict": "open",
+          "why": "No record confirms EudraVigilance detected a disproportionate signal for sertraline specifically, nor that FAERS/Sentinel failed to reach a threshold; the claim rests on a search that found nothing.",
+          "for": [
+            "FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND",
+            "EU-PRAC-REC-2019-05-01"
+          ],
+          "against": []
+        },
+        {
+          "id": "H5",
+          "name": "regulatory_framework_differences_precautionary_vs_certainty",
+          "verdict": "open",
+          "why": "No record addresses regulatory framework differences; the explanation is unsupported by the provided sources.",
+          "for": [],
+          "against": []
+        }
+      ],
+      "why": {
+        "type": "undetermined",
+        "sentence": "The public records show the EU and UK have added warnings for persistent sexual dysfunction after stopping antidepressants while the U.S. label for sertraline does not mention persistence, but the records do not reveal why the regulators differ.",
+        "cites": [],
+        "reasons": []
+      },
+      "evidence": {
+        "note": "EU relied on spontaneous reports (EudraVigilance), literature, social media, and MAH reviews; UK relied on literature since 2019 and expert working group review; U.S. surveillance (FAERS, Sentinel) did not detect a signal for this outcome.",
+        "cites": [
+          "EU-PRAC-REC-2019-05-01",
+          "UK-DSU-2026-10-15-05",
+          "FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND",
+          "FDA_SENTINEL-NOTHING-FOUND"
+        ]
+      },
+      "recommendation": {
+        "option": "wait",
+        "reason": "The U.S. label for sertraline does not mention persistent sexual dysfunction, and the FDA has not issued a signal or label change; the committee should wait for a U.S. label update or FDA action before changing practice."
+      },
+      "reopen_when": [],
+      "disputes": [],
+      "replies": [
+        {
+          "n": 1,
+          "item": "[coverage] The Skeptic reads some records the other way round: H1: UK-DSU-2026-10-15-01 is filed for it but shows it is not the case; H1: UK-DSU-2026-10-15-04 i \u2026",
+          "action": "fixed",
+          "record_ids": [
+            "UK-DSU-2026-10-15-01",
+            "UK-DSU-2026-10-15-04",
+            "SPL-Zoloft-v7-6-ptsr",
+            "SPL-Zoloft-v7-6.1-qxhq",
+            "US-LABELS-SEARCHED",
+            "SPL-Zoloft-v7-5.11-168d",
+            "EU-PRAC-REC-2019-05-01"
+          ],
+          "reason": "Move UK-DSU-2026-10-15-01 and UK-DSU-2026-10-15-04 from H1.for to H1.against (they show UK acted, contrary to H1). Move SPL-Zoloft-v7-6-ptsr, SPL-Zoloft-v7-6.1-qxhq, US-LABELS-SEARCHED, SPL-Zoloft-v7- \u2026"
+        },
+        {
+          "n": 2,
+          "item": "[must hold] Values outside the allowed lists: why type \"unclear\". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_action_found | no \u2026",
+          "action": "fixed",
+          "record_ids": [],
+          "reason": "Change why.type from 'unclear' to 'undetermined' (allowed value). All hypothesis verdicts already use allowed values except H1 and H3 which are fixed in item 4. Stage values and US_label status are al \u2026"
+        },
+        {
+          "n": 3,
+          "item": "[must hold] No explanation is judged to hold, yet the why gives a reason. If a record shows the reason, judge that explanation holds and name it the main cause; \u2026",
+          "action": "fixed",
+          "record_ids": [],
+          "reason": "No hypothesis explanation holds (all verdicts 'open'). Make why undetermined with no reasons and no cites, stating only that records show EU/UK added warnings while US label does not mention persisten \u2026"
+        },
+        {
+          "n": 4,
+          "item": "[Evaluator] The why type must be 'undetermined' (not 'unclear'). Hypothesis verdicts must be 'holds', 'ruled_out', or 'open' \u2014 'not_a_cause' is invalid. H1 and  \u2026",
+          "action": "fixed",
+          "record_ids": [],
+          "reason": "Change H1.verdict and H3.verdict from 'not_a_cause' to 'open' (allowed values: holds, ruled_out, open). Change why.type to 'undetermined'."
+        }
+      ]
+    }
+  },
+  {
+    "seq": 42,
+    "t": "2026-10-27T08:42:24.949Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "skeptic",
+    "kind": "model",
+    "round": 3,
+    "summary": "Fast lane answered (nemotron-3-ultra-550b-a55b)",
+    "model": {
+      "lane": "fast",
+      "requested": "nemotron-3.5-lightning-30b-a3b",
+      "served": "nemotron-3-ultra-550b-a55b",
+      "source": "replay",
+      "latencyMs": 0,
+      "tokens": 9231
+    }
+  },
+  {
+    "seq": 43,
+    "t": "2026-10-27T08:42:24.950Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "skeptic",
+    "kind": "check",
+    "round": 3,
+    "receipts": [
+      "Q-042",
+      "Q-043",
+      "Q-044",
+      "Q-045",
+      "Q-046",
+      "Q-047",
+      "Q-048",
+      "Q-049",
+      "Q-050",
+      "Q-051",
+      "Q-052",
+      "Q-053",
+      "Q-054"
+    ],
+    "detail": {
+      "falsification": {
+        "round": 3,
+        "records": 13,
+        "verified": 12,
+        "contradicted": [],
+        "reversed": [],
+        "unjudged": false,
+        "irrelevant": [],
+        "restates": [],
+        "restatesIds": [],
+        "mainUnsupported": [],
+        "unsupported": [],
+        "unsupportedIds": [],
+        "outUnsupported": [],
+        "outUnsupportedIds": [],
+        "causes": [],
+        "unchecked": 1,
+        "claims": 4,
+        "claimsSupported": 4,
+        "claimsNotEnough": 0,
+        "second": {
+          "checked": 4,
+          "verified": 4,
+          "contradicted": 0,
+          "notComparable": 0,
+          "unavailable": false
+        }
+      }
+    },
+    "summary": "Skeptic tried to break the draft: 13 records fetched again by their own keys, 12 verified \u00b7 0 contradicted; U.S. label against openFDA's copy: 4 agree \u00b7 0 contradict \u00b7 0 other version; 4 claims judged: 4 supported \u00b7 0 contradicted \u00b7 0 not enough"
+  },
+  {
+    "seq": 44,
+    "t": "2026-10-27T08:42:24.951Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "evaluator",
+    "kind": "model",
+    "round": 3,
+    "summary": "Deep lane answered (nemotron-3-ultra-550b-a55b)",
+    "model": {
+      "lane": "deep",
+      "requested": "nemotron-3.5-super-vl-120b-a12b",
+      "served": "nemotron-3-ultra-550b-a55b",
+      "source": "replay",
+      "latencyMs": 0,
+      "tokens": 11150
+    }
+  },
+  {
+    "seq": 45,
+    "t": "2026-10-27T08:42:24.951Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "evaluator",
+    "kind": "reject",
+    "round": 3,
+    "summary": "Sent back: Fix US_regulator evidence for safety communications; set H1 and H3 to ruled_out with proper citations; remove unsupported citations from H2 and H4. [decided by: model]",
+    "detail": {
+      "gaps": [],
+      "hard": [],
+      "soft": [],
+      "model": {
+        "verdict": "revise",
+        "columns": {
+          "EU": {
+            "supported": true,
+            "note": "Supported by PRAC recommendations (PRAC-R008, EU-PRAC-REC-2019-05-01/02/03)."
+          },
+          "UK": {
+            "supported": true,
+            "note": "Supported by MHRA Drug Safety Update (UK-DSU-2026-10-15-01, -04, -03)."
+          },
+          "US_label": {
+            "supported": true,
+            "note": "Supported by label sections and full-label search (SPL-Zoloft-v7-5.11-168d, -6-ptsr, -6.1-qxhq, US-LABELS-SEARCHED)."
+          },
+          "US_regulator": {
+            "supported": false,
+            "note": "Searches show no signal in FDA lists, but do not prove no safety communication issued."
+          }
+        },
+        "hypotheses": {
+          "H1": {
+            "supported": false,
+            "note": "UK acted (UK-DSU-2026-10-15-01, -04), so hypothesis should be ruled_out."
+          },
+          "H2": {
+            "supported": false,
+            "note": "Cited records do not show evidence threshold differences."
+          },
+          "H3": {
+            "supported": false,
+            "note": "EU action was class-wide (EU-PRAC-REC-2019-05-01), not product-specific; should be ruled_out."
+          },
+          "H4": {
+            "supported": false,
+            "note": "No record confirms EudraVigilance signal for sertraline specifically."
+          },
+          "H5": {
+            "supported": true,
+            "note": "No records cited, correctly open."
+          }
+        },
+        "feedback": "Fix US_regulator evidence for safety communications; set H1 and H3 to ruled_out with proper citations; remove unsupported citations from H2 and H4."
+      },
+      "modelSays": "revise",
+      "modelFeedback": "Fix US_regulator evidence for safety communications; set H1 and H3 to ruled_out with proper citations; remove unsupported citations from H2 and H4.",
+      "decidedBy": "model"
+    }
+  },
+  {
+    "seq": 46,
+    "t": "2026-10-27T08:42:24.952Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "evaluator",
+    "kind": "info",
+    "round": 4,
+    "summary": "Round 4, repair 2 of 3: 1 finding(s) to answer (0 must-hold); the Writer revises from the same records (no new search)."
+  },
+  {
+    "seq": 47,
+    "t": "2026-10-27T08:42:24.952Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "writer",
+    "kind": "model",
+    "round": 4,
+    "summary": "Deep lane answered (nemotron-3-ultra-550b-a55b)",
+    "model": {
+      "lane": "deep",
+      "requested": "nemotron-3.5-super-vl-120b-a12b",
+      "served": "nemotron-3-ultra-550b-a55b",
+      "source": "replay",
+      "latencyMs": 0,
+      "tokens": 11092
+    }
+  },
+  {
+    "seq": 48,
+    "t": "2026-10-27T08:42:24.953Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "writer",
+    "kind": "draft",
+    "round": 4,
+    "summary": "Draft 4 (repair 2 of 3): undetermined \u2014 The public records show the EU and UK have added warnings for persistent sexual dysfunction after stopping antidepressan \u2026",
+    "detail": {
+      "cells": {
+        "EU": {
+          "stage": "concluded",
+          "finding": "EU PRAC concluded in May 2019 that persistent sexual dysfunction after withdrawal warrants a product information update for SSRIs/SNRIs including sertraline, based on spontaneous reports, literature, social media, and MAH cumulative reviews.",
+          "cites": [
+            "PRAC-R008",
+            "EU-PRAC-REC-2019-05-01",
+            "EU-PRAC-REC-2019-05-02",
+            "EU-PRAC-REC-2019-05-03"
+          ]
+        },
+        "UK": {
+          "stage": "concluded",
+          "finding": "UK MHRA concluded in October 2026 that the term 'Post SSRI Sexual Dysfunction' (PSSD) should be added to patient information leaflets for antidepressants associated with persistent sexual dysfunction, and issued a patient card and ancillary leaflet; the new boxed warning addresses suicidal thoughts and behaviours, not PSSD.",
+          "cites": [
+            "UK-DSU-2026-10-15-01",
+            "UK-DSU-2026-10-15-04",
+            "UK-DSU-2026-10-15-03"
+          ]
+        },
+        "US_label": {
+          "status": "related_only",
+          "finding": "Sertraline (Zoloft) U.S. label v7 (2023-08-08) includes sexual dysfunction in Warnings and Precautions (5.11) and Adverse Reactions (6.1) but describes symptoms during treatment only; a full-label search found no mention of persistent sexual dysfunction, post-SSRI sexual dysfunction, or PSSD.",
+          "cites": [
+            "SPL-Zoloft-v7-5.11-168d",
+            "SPL-Zoloft-v7-6-ptsr",
+            "SPL-Zoloft-v7-6.1-qxhq",
+            "US-LABELS-SEARCHED"
+          ]
+        },
+        "US_regulator": {
+          "stage": "no_public_action_found",
+          "finding": "FDA's quarterly potential signal lists (2023 Q1\u20132026 Q2) and Sentinel Initiative contain no signal for sertraline or SSRIs with persistent sexual dysfunction.",
+          "cites": [
+            "FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND",
+            "FDA_SENTINEL-NOTHING-FOUND"
+          ]
+        }
+      },
+      "hypotheses": [
+        {
+          "id": "H1",
+          "name": "eu_signal_triggered_label_change_uk_us_did_not",
+          "verdict": "ruled_out",
+          "why": "The hypothesis that the EU signal triggered a label change while the UK and US did not is incorrect because the UK has added PSSD term to PILs and issued a patient card.",
+          "for": [
+            "PRAC-R008",
+            "EU-PRAC-REC-2019-05-01",
+            "EU-PRAC-REC-2019-05-02",
+            "EU-PRAC-REC-2019-05-03",
+            "US-LABELS-SEARCHED"
+          ],
+          "against": [
+            "UK-DSU-2026-10-15-01",
+            "UK-DSU-2026-10-15-04"
+          ]
+        },
+        {
+          "id": "H2",
+          "name": "different_evidence_threshold_for_causality",
+          "verdict": "open",
+          "why": "No record shows that UK/US required controlled epidemiological evidence; the evidence threshold difference remains unconfirmed.",
+          "for": [],
+          "against": []
+        },
+        {
+          "id": "H3",
+          "name": "class_vs_product_specific_regulatory_action",
+          "verdict": "ruled_out",
+          "why": "The EU action was class-wide for SSRIs/SNRIs, not product-specific; the UK action is also class-wide.",
+          "for": [
+            "EU-PRAC-REC-2019-05-01",
+            "UK-DSU-2026-10-15-04"
+          ],
+          "against": []
+        },
+        {
+          "id": "H4",
+          "name": "divergent_postmarketing_surveillance_signal_detection",
+          "verdict": "open",
+          "why": "No record confirms EudraVigilance detected a disproportionate signal for sertraline specifically, nor that FAERS/Sentinel failed to reach a threshold; the claim rests on a search that found nothing.",
+          "for": [
+            "FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND"
+          ],
+          "against": []
+        },
+        {
+          "id": "H5",
+          "name": "regulatory_framework_differences_precautionary_vs_certainty",
+          "verdict": "open",
+          "why": "No record addresses regulatory framework differences; the explanation is unsupported by the provided sources.",
+          "for": [],
+          "against": []
+        }
+      ],
+      "why": {
+        "type": "undetermined",
+        "sentence": "The public records show the EU and UK have added warnings for persistent sexual dysfunction after stopping antidepressants while the U.S. label for sertraline does not mention persistence, but the records do not reveal why the regulators differ.",
+        "cites": [],
+        "reasons": []
+      },
+      "evidence": {
+        "note": "EU relied on spontaneous reports (EudraVigilance), literature, social media, and MAH reviews; UK relied on a detailed review involving patients and families; U.S. surveillance (FAERS, Sentinel) did not detect a signal for this outcome.",
+        "cites": [
+          "EU-PRAC-REC-2019-05-01",
+          "UK-DSU-2026-10-15-01",
+          "FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND",
+          "FDA_SENTINEL-NOTHING-FOUND"
+        ]
+      },
+      "recommendation": {
+        "option": "wait",
+        "reason": "The U.S. label for sertraline does not mention persistent sexual dysfunction, and the FDA has not issued a signal or label change; the committee should wait for a U.S. label update or FDA action before changing practice."
+      },
+      "reopen_when": [],
+      "disputes": [],
+      "replies": [
+        {
+          "n": 1,
+          "item": "[Evaluator] Fix US_regulator evidence for safety communications; set H1 and H3 to ruled_out with proper citations; remove unsupported citations from H2 and H4.",
+          "action": "fixed",
+          "record_ids": [
+            "FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND",
+            "FDA_SENTINEL-NOTHING-FOUND"
+          ],
+          "reason": "US_regulator finding now only states what the records support: no signal in FDA quarterly lists or Sentinel; removed claim about safety communication not directly evidenced."
+        },
+        {
+          "n": 2,
+          "item": "",
+          "action": "fixed",
+          "record_ids": [
+            "PRAC-R008",
+            "EU-PRAC-REC-2019-05-01",
+            "UK-DSU-2026-10-15-01",
+            "UK-DSU-2026-10-15-04",
+            "US-LABELS-SEARCHED"
+          ],
+          "reason": "H1 ruled out because UK took regulatory action (added PSSD term) contrary to hypothesis that UK did not."
+        },
+        {
+          "n": 3,
+          "item": "",
+          "action": "fixed",
+          "record_ids": [
+            "EU-PRAC-REC-2019-05-01",
+            "UK-DSU-2026-10-15-04"
+          ],
+          "reason": "H3 ruled out because both EU and UK actions are class-wide, not product-specific."
+        },
+        {
+          "n": 4,
+          "item": "",
+          "action": "fixed",
+          "record_ids": [],
+          "reason": "Removed unsupported citation UK-DSU-2026-10-15-05 (not in records) and EU-PRAC-REC-2019-05-01 (does not address evidence threshold)."
+        },
+        {
+          "n": 5,
+          "item": "",
+          "action": "fixed",
+          "record_ids": [
+            "FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND"
+          ],
+          "reason": "Removed EU-PRAC-REC-2019-05-01 as it does not confirm a disproportionate signal for sertraline specifically; kept FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND as supported."
+        }
+      ]
+    }
+  },
+  {
+    "seq": 49,
+    "t": "2026-10-27T08:42:24.960Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "skeptic",
+    "kind": "model",
+    "round": 4,
+    "summary": "Fast lane answered (nemotron-3-ultra-550b-a55b)",
+    "model": {
+      "lane": "fast",
+      "requested": "nemotron-3.5-lightning-30b-a3b",
+      "served": "nemotron-3-ultra-550b-a55b",
+      "source": "replay",
+      "latencyMs": 0,
+      "tokens": 12109
+    }
+  },
+  {
+    "seq": 50,
+    "t": "2026-10-27T08:42:24.961Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "skeptic",
+    "kind": "check",
+    "round": 4,
+    "receipts": [
+      "Q-055",
+      "Q-056",
+      "Q-057",
+      "Q-058",
+      "Q-059",
+      "Q-060",
+      "Q-061",
+      "Q-062",
+      "Q-063",
+      "Q-064",
+      "Q-065",
+      "Q-066",
+      "Q-067"
+    ],
+    "detail": {
+      "falsification": {
+        "round": 4,
+        "records": 13,
+        "verified": 12,
+        "contradicted": [],
+        "reversed": [
+          "H3: EU-PRAC-REC-2019-05-01 is filed for it but shows it is not the case",
+          "H3: UK-DSU-2026-10-15-04 is filed for it but shows it is not the case"
+        ],
+        "unjudged": false,
+        "irrelevant": [],
+        "restates": [],
+        "restatesIds": [],
+        "mainUnsupported": [],
+        "unsupported": [],
+        "unsupportedIds": [],
+        "outUnsupported": [
+          "H3: The explanation posits EU action was product-specific and UK/US evaluated at class level with insufficient evidence; both records show the opposite (both actions are class-wide), so the explanation is false, not a restatement."
+        ],
+        "outUnsupportedIds": [
+          "H3"
+        ],
+        "causes": [],
+        "unchecked": 1,
+        "claims": 6,
+        "claimsSupported": 6,
+        "claimsNotEnough": 0,
+        "second": {
+          "checked": 4,
+          "verified": 4,
+          "contradicted": 0,
+          "notComparable": 0,
+          "unavailable": false
+        }
+      }
+    },
+    "summary": "Skeptic tried to break the draft: 13 records fetched again by their own keys, 12 verified \u00b7 0 contradicted; U.S. label against openFDA's copy: 4 agree \u00b7 0 contradict \u00b7 0 other version; 6 claims judged: 6 supported \u00b7 0 contradicted \u00b7 0 not enough"
+  },
+  {
+    "seq": 51,
+    "t": "2026-10-27T08:42:24.962Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "evaluator",
+    "kind": "model",
+    "round": 4,
+    "summary": "Deep lane answered (nemotron-3-ultra-550b-a55b)",
+    "model": {
+      "lane": "deep",
+      "requested": "nemotron-3.5-super-vl-120b-a12b",
+      "served": "nemotron-3-ultra-550b-a55b",
+      "source": "replay",
+      "latencyMs": 0,
+      "tokens": 11277
+    }
+  },
+  {
+    "seq": 52,
+    "t": "2026-10-27T08:42:24.963Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "evaluator",
+    "kind": "reject",
+    "round": 4,
+    "summary": "Sent back: Ruled out, but no record filed against it shows it is false (a record that does not mention it is silent): H3: The explanation posits EU action was product-specific and UK/US evaluated at class level with insufficient evidence; both records show the opposite (both actions are class-wide), so the explanation is false, not a restatement.. Cite the record that shows it false, or judge it open. Ruled out with no record a \u2026 [decided by: model and checks]",
+    "detail": {
+      "gaps": [
+        {
+          "column": "hypotheses",
+          "hard": true,
+          "problem": "Ruled out, but no record filed against it shows it is false (a record that does not mention it is silent): H3: The explanation posits EU action was product-specific and UK/US evaluated at class level with insufficient evidence; both records show the opposite (both actions are class-wide), so the explanation is false, not a restatement.. Cite the record that shows it false, or judge it open.",
+          "want": []
+        },
+        {
+          "column": "hypotheses",
+          "hard": false,
+          "problem": "The Skeptic reads some records the other way round: H3: EU-PRAC-REC-2019-05-01 is filed for it but shows it is not the case; H3: UK-DSU-2026-10-15-04 is filed for it but shows it is not the case. If you agree, move the record and make the verdict follow it (an explanation a record shows true cannot be ruled out; one a record shows false cannot hold).",
+          "want": []
+        },
+        {
+          "column": "hypotheses",
+          "hard": true,
+          "problem": "Ruled out with no record against it: H3 class vs product specific regulatory action. Put the record that shows it false under \"against\", or, if no record does, judge it open.",
+          "want": []
+        }
+      ],
+      "hard": [
+        {
+          "column": "hypotheses",
+          "hard": true,
+          "problem": "Ruled out, but no record filed against it shows it is false (a record that does not mention it is silent): H3: The explanation posits EU action was product-specific and UK/US evaluated at class level with insufficient evidence; both records show the opposite (both actions are class-wide), so the explanation is false, not a restatement.. Cite the record that shows it false, or judge it open.",
+          "want": []
+        },
+        {
+          "column": "hypotheses",
+          "hard": true,
+          "problem": "Ruled out with no record against it: H3 class vs product specific regulatory action. Put the record that shows it false under \"against\", or, if no record does, judge it open.",
+          "want": []
+        }
+      ],
+      "soft": [
+        {
+          "column": "hypotheses",
+          "hard": false,
+          "problem": "The Skeptic reads some records the other way round: H3: EU-PRAC-REC-2019-05-01 is filed for it but shows it is not the case; H3: UK-DSU-2026-10-15-04 is filed for it but shows it is not the case. If you agree, move the record and make the verdict follow it (an explanation a record shows true cannot be ruled out; one a record shows false cannot hold).",
+          "want": []
+        }
+      ],
+      "model": {
+        "verdict": "revise",
+        "columns": {
+          "EU": {
+            "supported": true,
+            "note": "PRAC recommendations and meeting minutes support the finding."
+          },
+          "UK": {
+            "supported": true,
+            "note": "MHRA Drug Safety Update documents support the finding."
+          },
+          "US_label": {
+            "supported": true,
+            "note": "Zoloft label sections and full-label search support the finding."
+          },
+          "US_regulator": {
+            "supported": true,
+            "note": "FDA signal list and Sentinel searches support the finding of no public signal."
+          }
+        },
+        "hypotheses": {
+          "H1": {
+            "supported": true,
+            "note": "UK action contradicts the hypothesis; against records are correct."
+          },
+          "H2": {
+            "supported": true,
+            "note": "No records address evidence thresholds; open is appropriate."
+          },
+          "H3": {
+            "supported": false,
+            "note": "EU-PRAC-REC-2019-05-01 and UK-DSU-2026-10-15-04 show the hypothesis is false; they should be in 'against', not 'for'."
+          },
+          "H4": {
+            "supported": true,
+            "note": "Search-without-result does not decide the hypothesis; open is appropriate."
+          },
+          "H5": {
+            "supported": true,
+            "note": "No records address framework differences; open is appropriate."
+          }
+        },
+        "feedback": "Move EU-PRAC-REC-2019-05-01 and UK-DSU-2026-10-15-04 from 'for' to 'against' for H3, as they demonstrate the hypothesis is false."
+      },
+      "modelSays": "revise",
+      "modelFeedback": "Move EU-PRAC-REC-2019-05-01 and UK-DSU-2026-10-15-04 from 'for' to 'against' for H3, as they demonstrate the hypothesis is false.",
+      "decidedBy": "model and checks"
+    }
+  },
+  {
+    "seq": 53,
+    "t": "2026-10-27T08:42:24.963Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "evaluator",
+    "kind": "info",
+    "round": 5,
+    "summary": "Round 5, repair 3 of 3: 4 finding(s) to answer (2 must-hold); the Writer revises from the same records (no new search)."
+  },
+  {
+    "seq": 54,
+    "t": "2026-10-27T08:42:24.963Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "writer",
+    "kind": "model",
+    "round": 5,
+    "summary": "Deep lane answered (nemotron-3-ultra-550b-a55b)",
+    "model": {
+      "lane": "deep",
+      "requested": "nemotron-3.5-super-vl-120b-a12b",
+      "served": "nemotron-3-ultra-550b-a55b",
+      "source": "replay",
+      "latencyMs": 0,
+      "tokens": 7630
+    }
+  },
+  {
+    "seq": 55,
+    "t": "2026-10-27T08:42:24.964Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "writer",
+    "kind": "draft",
+    "round": 5,
+    "summary": "Draft 5 (repair 3 of 3): undetermined \u2014 The public records show the EU and UK have added warnings for persistent sexual dysfunction after stopping antidepressan \u2026 \u00b7 disputes: 0 with a verified record and quote, 1 refused",
+    "detail": {
+      "cells": {
+        "EU": {
+          "stage": "concluded",
+          "finding": "EU PRAC concluded in May 2019 that persistent sexual dysfunction after withdrawal warrants a product information update for SSRIs/SNRIs including sertraline, based on spontaneous reports, literature, social media, and MAH cumulative reviews.",
+          "cites": [
+            "PRAC-R008",
+            "EU-PRAC-REC-2019-05-01",
+            "EU-PRAC-REC-2019-05-02",
+            "EU-PRAC-REC-2019-05-03"
+          ]
+        },
+        "UK": {
+          "stage": "concluded",
+          "finding": "UK MHRA concluded in October 2026 that the term 'Post SSRI Sexual Dysfunction' (PSSD) should be added to patient information leaflets for antidepressants associated with persistent sexual dysfunction, and issued a patient card and ancillary leaflet; the new boxed warning addresses suicidal thoughts and behaviours, not PSSD.",
+          "cites": [
+            "UK-DSU-2026-10-15-01",
+            "UK-DSU-2026-10-15-04",
+            "UK-DSU-2026-10-15-03"
+          ]
+        },
+        "US_label": {
+          "status": "related_only",
+          "finding": "Sertraline (Zoloft) U.S. label v7 (2023-08-08) includes sexual dysfunction in Warnings and Precautions (5.11) and Adverse Reactions (6.1) but describes symptoms during treatment only; a full-label search found no mention of persistent sexual dysfunction, post-SSRI sexual dysfunction, or PSSD.",
+          "cites": [
+            "SPL-Zoloft-v7-5.11-168d",
+            "SPL-Zoloft-v7-6-ptsr",
+            "SPL-Zoloft-v7-6.1-qxhq",
+            "US-LABELS-SEARCHED"
+          ]
+        },
+        "US_regulator": {
+          "stage": "no_public_action_found",
+          "finding": "FDA's quarterly potential signal lists (2023 Q1\u20132026 Q2) and Sentinel Initiative contain no signal for sertraline or SSRIs with persistent sexual dysfunction.",
+          "cites": [
+            "FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND",
+            "FDA_SENTINEL-NOTHING-FOUND"
+          ]
+        }
+      },
+      "hypotheses": [
+        {
+          "id": "H1",
+          "name": "eu_signal_triggered_label_change_uk_us_did_not",
+          "verdict": "ruled_out",
+          "why": "The hypothesis that the EU signal triggered a label change while the UK and US did not is incorrect because the UK has added PSSD term to PILs and issued a patient card.",
+          "for": [
+            "PRAC-R008",
+            "EU-PRAC-REC-2019-05-01",
+            "EU-PRAC-REC-2019-05-02",
+            "EU-PRAC-REC-2019-05-03",
+            "US-LABELS-SEARCHED"
+          ],
+          "against": [
+            "UK-DSU-2026-10-15-01",
+            "UK-DSU-2026-10-15-04"
+          ]
+        },
+        {
+          "id": "H2",
+          "name": "different_evidence_threshold_for_causality",
+          "verdict": "open",
+          "why": "No record shows that UK/US required controlled epidemiological evidence; the evidence threshold difference remains unconfirmed.",
+          "for": [],
+          "against": []
+        },
+        {
+          "id": "H3",
+          "name": "class_vs_product_specific_regulatory_action",
+          "verdict": "ruled_out",
+          "why": "The EU action was class-wide for SSRIs/SNRIs, not product-specific; the UK action is also class-wide.",
+          "for": [],
+          "against": [
+            "EU-PRAC-REC-2019-05-01",
+            "UK-DSU-2026-10-15-04"
+          ]
+        },
+        {
+          "id": "H4",
+          "name": "divergent_postmarketing_surveillance_signal_detection",
+          "verdict": "open",
+          "why": "No record confirms EudraVigilance detected a disproportionate signal for sertraline specifically, nor that FAERS/Sentinel failed to reach a threshold; the claim rests on a search that found nothing.",
+          "for": [
+            "FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND"
+          ],
+          "against": []
+        },
+        {
+          "id": "H5",
+          "name": "regulatory_framework_differences_precautionary_vs_certainty",
+          "verdict": "open",
+          "why": "No record addresses regulatory framework differences; the explanation is unsupported by the provided sources.",
+          "for": [],
+          "against": []
+        }
+      ],
+      "why": {
+        "type": "undetermined",
+        "sentence": "The public records show the EU and UK have added warnings for persistent sexual dysfunction after stopping antidepressants while the U.S. label for sertraline does not mention persistence, but the records do not reveal why the regulators differ.",
+        "cites": [],
+        "reasons": []
+      },
+      "evidence": {
+        "note": "EU relied on spontaneous reports (EudraVigilance), literature, social media, and MAH reviews; UK relied on a detailed review involving patients and families; U.S. surveillance (FAERS, Sentinel) did not detect a signal for this outcome.",
+        "cites": [
+          "EU-PRAC-REC-2019-05-01",
+          "UK-DSU-2026-10-15-01",
+          "FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND",
+          "FDA_SENTINEL-NOTHING-FOUND"
+        ]
+      },
+      "recommendation": {
+        "option": "wait",
+        "reason": "The U.S. label for sertraline does not mention persistent sexual dysfunction, and the FDA has not issued a signal or label change; the committee should wait for a U.S. label update or FDA action before changing practice."
+      },
+      "reopen_when": [],
+      "disputes": [
+        {
+          "round": 5,
+          "n": 1,
+          "item": "[must hold] Ruled out, but no record filed against it shows it is false (a record that does not mention it is silent): H3: The explanation posits EU action was  \u2026",
+          "accepted": false,
+          "why": "the quoted words are not in the cited records",
+          "record_ids": [
+            "EU-PRAC-REC-2019-05-01",
+            "UK-DSU-2026-10-15-04"
+          ],
+          "quote": "EU-PRAC-REC-2019-05-01: \"the PRAC has agreed that all MAHs of products containing citalopram, escitalopram, fluvoxamine, fluoxetine, paroxetine, sertraline (Selective serotonin reuptake inhibitors) .. \u2026",
+          "reason": "The H3 explanation states 'The EU action was class-wide for SSRIs/SNRIs, not product-specific; the UK action is also class-wide.' This correctly reflects the records; the hypothesis that EU acted prod \u2026"
+        }
+      ],
+      "replies": [
+        {
+          "n": 1,
+          "item": "[must hold] Ruled out, but no record filed against it shows it is false (a record that does not mention it is silent): H3: The explanation posits EU action was  \u2026",
+          "action": "disputed",
+          "record_ids": [
+            "EU-PRAC-REC-2019-05-01",
+            "UK-DSU-2026-10-15-04"
+          ],
+          "reason": "The H3 explanation states 'The EU action was class-wide for SSRIs/SNRIs, not product-specific; the UK action is also class-wide.' This correctly reflects the records; the hypothesis that EU acted prod \u2026"
+        },
+        {
+          "n": 2,
+          "item": "[coverage] The Skeptic reads some records the other way round: H3: EU-PRAC-REC-2019-05-01 is filed for it but shows it is not the case; H3: UK-DSU-2026-10-15-04 \u2026",
+          "action": "fixed",
+          "record_ids": [
+            "EU-PRAC-REC-2019-05-01",
+            "UK-DSU-2026-10-15-04"
+          ],
+          "reason": "Move EU-PRAC-REC-2019-05-01 and UK-DSU-2026-10-15-04 from 'for' to 'against' for H3 because they demonstrate the hypothesis is false (both show class-wide action)."
+        },
+        {
+          "n": 3,
+          "item": "[must hold] Ruled out with no record against it: H3 class vs product specific regulatory action. Put the record that shows it false under \"against\", or, if no r \u2026",
+          "action": "fixed",
+          "record_ids": [
+            "EU-PRAC-REC-2019-05-01",
+            "UK-DSU-2026-10-15-04"
+          ],
+          "reason": "Move the records to 'against' for H3 to show the hypothesis is false; the verdict 'ruled_out' already follows."
+        },
+        {
+          "n": 4,
+          "item": "[Evaluator] Move EU-PRAC-REC-2019-05-01 and UK-DSU-2026-10-15-04 from 'for' to 'against' for H3, as they demonstrate the hypothesis is false.",
+          "action": "fixed",
+          "record_ids": [
+            "EU-PRAC-REC-2019-05-01",
+            "UK-DSU-2026-10-15-04"
+          ],
+          "reason": "Move EU-PRAC-REC-2019-05-01 and UK-DSU-2026-10-15-04 from 'for' to 'against' for H3 as they demonstrate the hypothesis is false."
+        }
+      ]
+    }
+  },
+  {
+    "seq": 56,
+    "t": "2026-10-27T08:42:24.973Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "skeptic",
+    "kind": "model",
+    "round": 5,
+    "summary": "Fast lane answered (nemotron-3-ultra-550b-a55b)",
+    "model": {
+      "lane": "fast",
+      "requested": "nemotron-3.5-lightning-30b-a3b",
+      "served": "nemotron-3-ultra-550b-a55b",
+      "source": "replay",
+      "latencyMs": 0,
+      "tokens": 15198
+    }
+  },
+  {
+    "seq": 57,
+    "t": "2026-10-27T08:42:24.973Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "skeptic",
+    "kind": "check",
+    "round": 5,
+    "receipts": [
+      "Q-068",
+      "Q-069",
+      "Q-070",
+      "Q-071",
+      "Q-072",
+      "Q-073",
+      "Q-074",
+      "Q-075",
+      "Q-076",
+      "Q-077",
+      "Q-078",
+      "Q-079",
+      "Q-080"
+    ],
+    "detail": {
+      "falsification": {
+        "round": 5,
+        "records": 13,
+        "verified": 12,
+        "contradicted": [],
+        "reversed": [
+          "H3: EU-PRAC-REC-2019-05-01 is filed against it but shows it is the case",
+          "H3: UK-DSU-2026-10-15-04 is filed against it but shows it is the case"
+        ],
+        "unjudged": false,
+        "irrelevant": [],
+        "restates": [],
+        "restatesIds": [],
+        "mainUnsupported": [],
+        "unsupported": [],
+        "unsupportedIds": [],
+        "outUnsupported": [
+          "H3: The explanation claims both EU and UK actions are class-wide; both records confirm this, so the explanation is factually true but describes a similarity, not a cause of the difference."
+        ],
+        "outUnsupportedIds": [
+          "H3"
+        ],
+        "causes": [
+          {
+            "hid": "H3",
+            "records": [
+              "EU-PRAC-REC-2019-05-01",
+              "UK-DSU-2026-10-15-04"
+            ]
+          }
+        ],
+        "unchecked": 1,
+        "claims": 6,
+        "claimsSupported": 6,
+        "claimsNotEnough": 0,
+        "second": {
+          "checked": 4,
+          "verified": 4,
+          "contradicted": 0,
+          "notComparable": 0,
+          "unavailable": false
+        }
+      }
+    },
+    "summary": "Skeptic tried to break the draft: 13 records fetched again by their own keys, 12 verified \u00b7 0 contradicted; U.S. label against openFDA's copy: 4 agree \u00b7 0 contradict \u00b7 0 other version; 6 claims judged: 6 supported \u00b7 0 contradicted \u00b7 0 not enough"
+  },
+  {
+    "seq": 58,
+    "t": "2026-10-27T08:42:24.975Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "evaluator",
+    "kind": "model",
+    "round": 5,
+    "summary": "Deep lane answered (nemotron-3-ultra-550b-a55b) \u00b7 recorded reply of this step, re-judged offline: its prompt listed the code checks of the recording, today's checks may differ",
+    "model": {
+      "lane": "deep",
+      "requested": "nemotron-3.5-super-vl-120b-a12b",
+      "served": "nemotron-3-ultra-550b-a55b",
+      "source": "replay",
+      "latencyMs": 0,
+      "tokens": 11372,
+      "rejudged": true
+    }
+  },
+  {
+    "seq": 59,
+    "t": "2026-10-27T08:42:24.976Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "evaluator",
+    "kind": "reject",
+    "round": 5,
+    "summary": "Sent back: Ruled out, but no record filed against it shows it is false (a record that does not mention it is silent): H3: The explanation claims both EU and UK actions are class-wide; both records confirm this, so the explanation is factually true but describes a similarity, not a cause of the difference.. Cite the record that shows it false, or judge it open. The why says the cause cannot be determined, but the Skeptic reads H \u2026 [decided by: checks (must-hold)]",
+    "detail": {
+      "gaps": [
+        {
+          "column": "hypotheses",
+          "hard": true,
+          "problem": "Ruled out, but no record filed against it shows it is false (a record that does not mention it is silent): H3: The explanation claims both EU and UK actions are class-wide; both records confirm this, so the explanation is factually true but describes a similarity, not a cause of the difference.. Cite the record that shows it false, or judge it open.",
+          "want": []
+        },
+        {
+          "column": "hypotheses",
+          "hard": false,
+          "problem": "The Skeptic reads some records the other way round: H3: EU-PRAC-REC-2019-05-01 is filed against it but shows it is the case; H3: UK-DSU-2026-10-15-04 is filed against it but shows it is the case. If you agree, move the record and make the verdict follow it (an explanation a record shows true cannot be ruled out; one a record shows false cannot hold).",
+          "want": []
+        },
+        {
+          "column": "hypotheses",
+          "hard": true,
+          "problem": "The why says the cause cannot be determined, but the Skeptic reads H3 as a cause of the difference, shown by EU-PRAC-REC-2019-05-01, UK-DSU-2026-10-15-04. Judge it on those records (holds, as the main cause, or dispute the reading with a record and its words); a why cannot be undetermined while a checker reads a cause in the records.",
+          "want": []
+        }
+      ],
+      "hard": [
+        {
+          "column": "hypotheses",
+          "hard": true,
+          "problem": "Ruled out, but no record filed against it shows it is false (a record that does not mention it is silent): H3: The explanation claims both EU and UK actions are class-wide; both records confirm this, so the explanation is factually true but describes a similarity, not a cause of the difference.. Cite the record that shows it false, or judge it open.",
+          "want": []
+        },
+        {
+          "column": "hypotheses",
+          "hard": true,
+          "problem": "The why says the cause cannot be determined, but the Skeptic reads H3 as a cause of the difference, shown by EU-PRAC-REC-2019-05-01, UK-DSU-2026-10-15-04. Judge it on those records (holds, as the main cause, or dispute the reading with a record and its words); a why cannot be undetermined while a checker reads a cause in the records.",
+          "want": []
+        }
+      ],
+      "soft": [
+        {
+          "column": "hypotheses",
+          "hard": false,
+          "problem": "The Skeptic reads some records the other way round: H3: EU-PRAC-REC-2019-05-01 is filed against it but shows it is the case; H3: UK-DSU-2026-10-15-04 is filed against it but shows it is the case. If you agree, move the record and make the verdict follow it (an explanation a record shows true cannot be ruled out; one a record shows false cannot hold).",
+          "want": []
+        }
+      ],
+      "model": {
+        "verdict": "approve",
+        "columns": {
+          "EU": {
+            "supported": true,
+            "note": "Primary PRAC recommendations and meeting minutes support the finding."
+          },
+          "UK": {
+            "supported": true,
+            "note": "MHRA Drug Safety Update documents confirm the finding."
+          },
+          "US_label": {
+            "supported": true,
+            "note": "Label sections and full-label search confirm no mention of persistent sexual dysfunction."
+          },
+          "US_regulator": {
+            "supported": true,
+            "note": "FDA signal list and Sentinel searches found no signal; supports no public action found."
+          }
+        },
+        "hypotheses": {
+          "H1": {
+            "supported": true,
+            "note": "UK action contradicts hypothesis; ruled_out correct."
+          },
+          "H2": {
+            "supported": true,
+            "note": "No evidence on evidence thresholds; open correct."
+          },
+          "H3": {
+            "supported": true,
+            "note": "Both EU and UK actions are class-wide; hypothesis of difference ruled_out correct."
+          },
+          "H4": {
+            "supported": true,
+            "note": "No record confirms divergent signal detection; open correct."
+          },
+          "H5": {
+            "supported": true,
+            "note": "No record addresses framework differences; open correct."
+          }
+        },
+        "feedback": "All cells and hypotheses are well-supported by cited evidence; the undetermined why is appropriate."
+      },
+      "modelSays": "approve",
+      "modelFeedback": "All cells and hypotheses are well-supported by cited evidence; the undetermined why is appropriate.",
+      "decidedBy": "checks (must-hold)"
+    }
+  },
+  {
+    "seq": 60,
+    "t": "2026-10-27T08:42:24.976Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "evaluator",
+    "kind": "escalate",
+    "round": 5,
+    "summary": "Two rounds and 3 repair draft(s) used. Marked for a person to review; the chain is shown with its open gaps and the drafting agent's replies."
+  },
+  {
+    "seq": 61,
+    "t": "2026-10-27T08:42:24.977Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "research",
+    "kind": "sql",
+    "receipts": [
+      "Q-081"
+    ],
+    "summary": "Zetaris plan: MySQL: rx_patients filtered at the source (EqualTo(inn,sertraline), IsNotNull(inn)); rx_patients read and filtered in Zetaris; Postgres: reg_doc, spl_section filtered at the source (EqualTo(regulator,EU), IsNotNull(authority), EqualTo(authority,primary \u2026); reg_passage read and filtered in Zetaris; S3: no filter pushed down; aems read and filtered in Zetaris"
+  },
+  {
+    "seq": 62,
+    "t": "2026-10-27T08:42:24.978Z",
+    "run": "2026-10-27T08-42-24-515Z-2bd883",
+    "agent": "committee",
+    "kind": "info",
+    "summary": "Waiting for the P&T committee vote. Recommendation: wait"
+  }
+]
