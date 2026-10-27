@@ -138,7 +138,7 @@ function drawScan(s) {
   const x = (i) => P + (i / Math.max(1, n - 1)) * (W - P - 20), y = (v) => H - 30 - (v / max) * (H - 60);
   const line = (vals, cls) => `<polyline fill="none" stroke="${cls}" stroke-width="2" points="${vals.map((v, i) => `${x(i).toFixed(1)},${y(v).toFixed(1)}`).join(" ")}"/>`;
   const svg = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Prompt tokens per step">
-    ${line(s.fullReread, "#9aa7ad")}${line(s.chunks.map((c) => c.prompt), "#1c2a33")}
+    ${line(s.fullReread, "var(--muted)")}${line(s.chunks.map((c) => c.prompt), "#1c2a33")}
     <text x="${x(n - 1) - 4}" y="${y(s.fullReread.at(-1) || 0) - 8}" font-size="12" text-anchor="end" fill="#5f6e77">re-read the whole ledger every step${s.fullRereadRun ? "" : " (estimated)"}</text>
     <text x="${x(n - 1) - 4}" y="${y(s.chunks.at(-1)?.prompt || 0) - 8}" font-size="12" text-anchor="end" fill="#1c2a33">${s.product ? "name index + Markovian (the product)" : "Markovian: carry a small index"}</text>
     <text x="${P}" y="${H - 8}" font-size="12" fill="#5f6e77">step 1</text><text x="${W - 20}" y="${H - 8}" font-size="12" text-anchor="end" fill="#5f6e77">step ${n} (197 entries, 3 per step)</text>
