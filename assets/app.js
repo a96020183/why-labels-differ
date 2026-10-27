@@ -46,7 +46,7 @@ function labelOf(eid) {
     case "spl_versions": return "U.S. labels searched";
     case "fda_potential_signal": return `FDA potential-signal list, ${it.title.match(/Q\d \d{4}/)?.[0] || ""}`;
     case "sentinel_study": return "FDA Sentinel study";
-    case "search_without_result": return it.source === "fda_sentinel" ? "Sentinel searched: nothing" : "FDA lists searched: nothing";
+    case "search_without_result": return ({ fda_sentinel: "Sentinel searched: nothing", mhra_drug_safety_updates: "MHRA safety updates searched: nothing", prac_signal_catalogue: "PRAC signal catalogue searched: nothing", eu_product_information: "EU product information searched: nothing", ema_announcements: "EMA announcements searched: nothing", us_label_sections: "U.S. label searched: nothing", us_label_class_members: "Class labels searched: nothing" })[it.source] || "FDA lists searched: nothing";
     default: return `${it.title.split(":")[0]}, ${sec.slice(0, 40)}`;
   }
 }
