@@ -1,0 +1,21 @@
+{
+ "id": "R170",
+ "model_requested": "gpt-5.5",
+ "model_served": "gpt-5.5-2026-04-23",
+ "secs": 95.0,
+ "usage": {
+  "input_tokens": 91048,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 3712
+  },
+  "output_tokens": 3686,
+  "output_tokens_details": {
+   "reasoning_tokens": 3036
+  },
+  "total_tokens": 94734
+ },
+ "text": "{\"us_status\":\"not found\",\"label_product\":\"TRINTELLIX (vortioxetine) tablets, for oral use\",\"label_version_or_date\":\"DailyMed current U.S. PI; Revised 2/2025\",\"label_section\":\"Not a standalone adverse reaction; term appears only as a symptom in section 5.2 Warnings and Precautions—Serotonin Syndrome, and in Medication Guide symptom lists for serotonin syndrome and severe hyponatremia.\",\"quote\":\"Serotonin syndrome signs and symptoms may include mental status changes (e.g., agitation, hallucinations, delirium, and coma), autonomic instability (e.g., tachycardia, labile blood pressure, dizziness, diaphoresis, flushing, hyperthermia), neuromuscular symptoms (e.g., tremor, rigidity, myoclonus, hyperreflexia, incoordination), seizures, and gastrointestinal symptoms (e.g., nausea, vomiting, diarrhea).\",\"eu\":\"EU: EMA/PRAC June 2025 signal led to Brintellix PI update; current EMA SmPC section 4.8 lists Psychiatric disorders—Uncommon—Hallucinations.\",\"uk\":\"UK: MHRA/UK product information likewise lists Psychiatric disorders—Uncommon—Hallucinations in SmPC section 4.8.\",\"us_regulator\":\"FDA: no public hallucinations-specific FDA AEMS/FAERS potential-signal or Sentinel evaluation found; public FDA items found were unrelated class/drug signals/reviews, including antidepressants/Trintellix discontinuation-emergent cataplexy, SSRI/SNRI anosmia/hyposmia, and a pediatric FAERS review with no new pediatric safety signals.\",\"sources\":[\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1a5b68e2-14d0-419d-9ec6-1ca97145e838\",\"https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-2-5-june-2025-prac-meeting_en.pdf\",\"https://www.ema.europa.eu/en/documents/product-information/brintellix-epar-product-information_en.pdf\",\"https://www.ema.europa.eu/en/medicines/human/EPAR/brintellix\",\"https://products.mhra.gov.uk/substance/?substance=VORTIOXETINE\",\"https://www.medicines.org.uk/emc/medicine/30904\",\"https://www.gov.uk/guidance/find-product-information-about-medicines\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/october-december-2024-new-safety-information-or-potential-signals-serious-risks-identified-fda\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/january-march-2022-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse\",\"https://www.fda.gov/media/189558/download\"]}",
+ "annotation_urls": [],
+ "at": "2026-10-24T01:53:19"
+}

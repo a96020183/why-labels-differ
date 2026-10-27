@@ -1,0 +1,91 @@
+{
+ "agent: pharmacy rows": [
+  [
+   "********-****-****-****-************",
+   "semaglutide",
+   "endocrinology",
+   "2026-10-25"
+  ],
+  [
+   "********-****-****-****-************",
+   "semaglutide",
+   "endocrinology",
+   "2026-10-25"
+  ],
+  [
+   "********-****-****-****-************",
+   "semaglutide",
+   "endocrinology",
+   "2026-10-25"
+  ]
+ ],
+ "pharmacist: pharmacy rows": [
+  [
+   "b0696d65-d5e5-93a2-ee3d-05fc4a2463b2",
+   "semaglutide",
+   "endocrinology",
+   "2026-10-25"
+  ],
+  [
+   "7ae0c6e7-2c40-84f3-6ba8-f0049cfc2f92",
+   "semaglutide",
+   "endocrinology",
+   "2026-10-25"
+  ],
+  [
+   "2a3f8538-5c1a-6883-c960-406b3c394345",
+   "semaglutide",
+   "endocrinology",
+   "2026-10-25"
+  ]
+ ],
+ "agent: aggregate view": [
+  [
+   "semaglutide",
+   "75"
+  ],
+  [
+   "sertraline",
+   "62"
+  ]
+ ],
+ "agent: patient list view": "ERROR HTTP 400 {\"msg\":\"User 'AGENT@APRIME.LOCAL' does not have privileges to execute 'SELECT' on: `aprime_views`.`patient_list`\"}",
+ "pharmacist: patient list view": [
+  [
+   "0"
+  ]
+ ],
+ "agent: S3 sentinel": [
+  [
+   "SENTINEL-NAION-GLP1",
+   "In progress",
+   "2026-09-22"
+  ]
+ ],
+ "agent: S3 aems": [
+  [
+   "Q2 2025",
+   "Intestinal obstruction and fecal impaction"
+  ],
+  [
+   "Q1 2024",
+   "Dysaesthesia"
+  ],
+  [
+   "Q3 2023",
+   "Alopecia"
+  ],
+  [
+   "Q3 2023",
+   "Aspiration"
+  ],
+  [
+   "Q3 2023",
+   "Suicidal ideation"
+  ],
+  [
+   "Q4 2024",
+   "Non-arteritic anterior ischemic optic neuropathy (NAION)"
+  ]
+ ]
+}

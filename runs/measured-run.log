@@ -1,0 +1,7 @@
+step | naive cum | markovian cum | max markovian step
+5 | 3016 | 679 | 141
+10 | 13213 | 1384 | 141
+15 | 30648 | 2089 | 141
+20 | 55358 | 2794 | 141
+saved 52564 input tokens (95.0%, estimated); largest Markovian step prompt 141 tokens
+live: requested nvidia/nemotron-3.5-lightning-30b-a3b, served nvidia/nemotron-3-ultra-550b-a55b, usage {"prompt_tokens":157,"completion_tokens":20,"total_tokens":177} (measured), think stripped=true, text="ready"

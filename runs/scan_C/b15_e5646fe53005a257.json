@@ -1,0 +1,14 @@
+{
+ "tag": "b15",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3.5-super-vl-120b-a12b",
+ "usage": {
+  "prompt_tokens": 6854,
+  "completion_tokens": 3991,
+  "total_tokens": 10845
+ },
+ "latency": 48.242,
+ "hadThink": false,
+ "promptTokensEstimated": 2506,
+ "text": "{\"id\":\"R113\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R114\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R115\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R116\",\"us\":\"partial\",\"cross\":[]}\n{\"id\":\"R117\",\"us\":\"written\",\"cross\":[]}\n{\"id\":\"R118\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R119\",\"us\":\"partial\",\"cross\":[]}\n{\"id\":\"R120\",\"us\":\"written\",\"cross\":[]}"
+}

@@ -1,0 +1,14 @@
+{
+ "tag": "b20",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {
+  "prompt_tokens": 7839,
+  "completion_tokens": 3278,
+  "total_tokens": 11117
+ },
+ "latency": 40.751,
+ "hadThink": true,
+ "promptTokensEstimated": 2389,
+ "text": "{\"id\":\"R153\",\"us\":\"written\",\"cross\":[]}\n{\"id\":\"R154\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R155\",\"us\":\"unknown\",\"cross\":[]}\n{\"id\":\"R156\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R157\",\"us\":\"written\",\"cross\":[]}\n{\"id\":\"R158\",\"us\":\"unknown\",\"cross\":[]}\n{\"id\":\"R159\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R160\",\"us\":\"not found\",\"cross\":[]}"
+}

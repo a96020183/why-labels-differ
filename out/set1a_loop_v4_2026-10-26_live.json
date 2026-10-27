@@ -1,0 +1,254 @@
+{
+ "arm": "Full multi-agent loop (Planner, Research, chronology, Skeptic, Writer, Evaluator; two rounds plus one repair draft)",
+ "ids": [
+  "R159",
+  "R160",
+  "R161",
+  "R164",
+  "R165",
+  "R166",
+  "R167",
+  "R168",
+  "R169",
+  "R170"
+ ],
+ "label": "v4_2026-10-26_live",
+ "selection": "the first 10 set-1a questions with a named U.S. product, in file order, fixed before any run",
+ "run_at": "2026-10-26",
+ "sampleMode": false,
+ "answers": [
+  {
+   "id": "R159",
+   "us_status": "not found",
+   "raw_status": "not found",
+   "finding": "No U.S. label record provided for afatinib; unable to determine if trichomegaly appears in any section.",
+   "cites": [
+    "FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND"
+   ],
+   "outcome": "needs-person",
+   "rounds": 3,
+   "modelCalls": 13,
+   "rejections": 3,
+   "errors": 0,
+   "secs": 1022,
+   "sources": {
+    "models": {
+     "live": 13
+    },
+    "sql": {
+     "zetaris": 18
+    }
+   }
+  },
+  {
+   "id": "R160",
+   "us_status": "not found",
+   "raw_status": "not found",
+   "finding": "US label for lenvatinib does not include tumour lysis syndrome warning; FDA AEMS review determined no action necessary based on available information.",
+   "cites": [
+    "AEMS-Q32024-Tumor_lysis_syndrome"
+   ],
+   "outcome": "needs-person",
+   "rounds": 3,
+   "modelCalls": 13,
+   "rejections": 3,
+   "errors": 0,
+   "secs": 1015,
+   "sources": {
+    "models": {
+     "live": 13
+    },
+    "sql": {
+     "zetaris": 19
+    }
+   }
+  },
+  {
+   "id": "R161",
+   "us_status": "partial",
+   "raw_status": "partial",
+   "finding": "US label (Poteligeo v21, effective 2026-03-02) lists 'Immune-mediated colitis' in section 6.2 Postmarketing Experience under Gastrointestinal disorders.",
+   "cites": [
+    "SPL-Poteligeo-v21-6.2-1alq"
+   ],
+   "outcome": "needs-person",
+   "rounds": 3,
+   "modelCalls": 12,
+   "rejections": 3,
+   "errors": 0,
+   "secs": 820,
+   "sources": {
+    "models": {
+     "live": 12
+    },
+    "sql": {
+     "zetaris": 23
+    }
+   }
+  },
+  {
+   "id": "R164",
+   "us_status": "written",
+   "raw_status": "written",
+   "finding": "US label (v36, effective 2026-02-09) includes hyperammonemic encephalopathy in Warnings and Precautions (section 5.1 Hepatotoxicity).",
+   "cites": [
+    "SPL-Stivarga-v36-5.1-q0y0"
+   ],
+   "outcome": "approved",
+   "rounds": 2,
+   "modelCalls": 9,
+   "rejections": 1,
+   "errors": 0,
+   "secs": 715,
+   "sources": {
+    "models": {
+     "live": 9
+    },
+    "sql": {
+     "zetaris": 21
+    }
+   }
+  },
+  {
+   "id": "R165",
+   "us_status": "not found",
+   "raw_status": "not found",
+   "finding": "Zoloft v7 (2025-07-24) label contains no mention of multiple acyl-coenzyme A dehydrogenase deficiency, MADD, glutaric acidemia type II, or related terms.",
+   "cites": [
+    "US-LABELS-SEARCHED"
+   ],
+   "outcome": "needs-person",
+   "rounds": 3,
+   "modelCalls": 13,
+   "rejections": 3,
+   "errors": 0,
+   "secs": 766,
+   "sources": {
+    "models": {
+     "live": 13
+    },
+    "sql": {
+     "zetaris": 25
+    }
+   }
+  },
+  {
+   "id": "R166",
+   "us_status": "written",
+   "raw_status": "written",
+   "finding": "US label (Bactrim v18, effective Dec 2024) includes circulatory shock in WARNINGS (Hypersensitivity and Other Serious or Fatal Reactions) and ADVERSE REACTIONS (Cardiovascular System)",
+   "cites": [
+    "SPL-Bactrim-v18-s-1dvl",
+    "SPL-Bactrim-v18-s-t3wu"
+   ],
+   "outcome": "needs-person",
+   "rounds": 3,
+   "modelCalls": 12,
+   "rejections": 3,
+   "errors": 0,
+   "secs": 919,
+   "sources": {
+    "models": {
+     "live": 12
+    },
+    "sql": {
+     "zetaris": 28
+    }
+   }
+  },
+  {
+   "id": "R167",
+   "us_status": "not found",
+   "raw_status": "related_only",
+   "finding": "Yescarta (axicabtagene ciloleucel) U.S. label v23 (2026-08-06) lists colitis under gastrointestinal disorders in Adverse Reactions but does not name immune-mediated enterocolitis or immune effector cell-associated enteritis.",
+   "cites": [
+    "SPL-Yescarta-v23-6-tz5o",
+    "US-LABELS-SEARCHED"
+   ],
+   "outcome": "needs-person",
+   "rounds": 3,
+   "modelCalls": 12,
+   "rejections": 3,
+   "errors": 0,
+   "secs": 786,
+   "sources": {
+    "models": {
+     "live": 12
+    },
+    "sql": {
+     "zetaris": 28
+    }
+   }
+  },
+  {
+   "id": "R168",
+   "us_status": "not found",
+   "raw_status": "not found",
+   "finding": "US label for brodalumab does not mention pyoderma gangrenosum in any section (boxed warning, warnings and precautions, contraindications, adverse reactions, or postmarketing).",
+   "cites": [
+    "FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND"
+   ],
+   "outcome": "needs-person",
+   "rounds": 3,
+   "modelCalls": 13,
+   "rejections": 3,
+   "errors": 0,
+   "secs": 1024,
+   "sources": {
+    "models": {
+     "live": 13
+    },
+    "sql": {
+     "zetaris": 19
+    }
+   }
+  },
+  {
+   "id": "R169",
+   "us_status": "written",
+   "raw_status": "written",
+   "finding": "Xtandi US label v24 (effective 2026-07-28) includes warning in Warnings and Precautions (section 5.8) and Drug Interactions (section 7.3) about interference with certain digoxin immunoassays resulting in falsely elevated digoxin plasma concentration results.",
+   "cites": [
+    "SPL-Xtandi-v24-5.8-103w",
+    "SPL-Xtandi-v24-7.3-u7yp"
+   ],
+   "outcome": "needs-person",
+   "rounds": 3,
+   "modelCalls": 12,
+   "rejections": 3,
+   "errors": 0,
+   "secs": 1040,
+   "sources": {
+    "models": {
+     "live": 12
+    },
+    "sql": {
+     "zetaris": 26
+    }
+   }
+  },
+  {
+   "id": "R170",
+   "us_status": "not found",
+   "raw_status": "related_only",
+   "finding": "US label includes hallucinations only as symptom of serotonin syndrome in Section 5.2, not as separate warning unrelated to serotonin syndrome.",
+   "cites": [
+    "SPL-Trintellix-v18-5.2-5lt4"
+   ],
+   "outcome": "needs-person",
+   "rounds": 2,
+   "modelCalls": 10,
+   "rejections": 2,
+   "errors": 0,
+   "secs": 625,
+   "sources": {
+    "models": {
+     "live": 10
+    },
+    "sql": {
+     "zetaris": 20
+    }
+   }
+  }
+ ]
+}

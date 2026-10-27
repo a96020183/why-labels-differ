@@ -1,0 +1,17 @@
+{
+  "name": "why-labels-differ",
+  "private": true,
+  "type": "module",
+  "description": "Agents that trace why EU, UK and U.S. drug safety warnings differ, for a hospital P&T committee. Zetaris + Meterless (Markovian, Nightshift) + NVIDIA Nemotron.",
+  "engines": { "node": ">=22.18" },
+  "scripts": {
+    "start": "node --no-warnings app/server.ts",
+    "demo": "node --no-warnings app/cli.ts",
+    "scan": "node --no-warnings app/cli.ts scan",
+    "test": "node --no-warnings --test test/app.test.ts",
+    "conformance": "node scripts/conformance.mjs",
+    "set1a": "node --no-warnings app/score1a.ts",
+    "score": "python -I scripts/scoreboard.py",
+    "shots": "node scripts/ui_shots.mjs"
+  }
+}

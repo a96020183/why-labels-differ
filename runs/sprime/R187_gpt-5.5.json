@@ -1,0 +1,21 @@
+{
+ "id": "R187",
+ "model_requested": "gpt-5.5",
+ "model_served": "gpt-5.5-2026-04-23",
+ "secs": 90.3,
+ "usage": {
+  "input_tokens": 78961,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 3712
+  },
+  "output_tokens": 3472,
+  "output_tokens_details": {
+   "reasoning_tokens": 3005
+  },
+  "total_tokens": 82433
+ },
+ "text": "{\"us_status\":\"written\",\"label_product\":\"YESCARTA (axicabtagene ciloleucel) suspension for intravenous infusion\",\"label_version_or_date\":\"DailyMed current version 23; published 2026-08-17; label Revised: 8/2026; DailyMed updated 2026-08-06\",\"label_section\":\"Warnings and Precautions (5.2 Neurologic Toxicities)\",\"quote\":\"Cerebral edema occurred at a higher frequency in patients with primary mediastinal large B-cell lymphoma (PMBCL).\",\"eu\":\"EU: PRAC Apr 2026 recommended the Yescarta PI update; current EMA SmPC adds cerebral oedema as uncommon and states risk may be higher in PMBCL patients.\",\"uk\":\"UK: MHRA/UK product information for Yescarta is marketed; UK SmPC text likewise states risk for cerebral oedema may be higher in PMBCL patients and lists cerebral oedema as uncommon.\",\"us_regulator\":\"FDA: public action found—2026-08-06 supplement approval letter BL 125643/802 approved revisions to Sections 5 and 6 for increased cerebral edema risk in PMBCL; no separate FAERS potential-signal or Sentinel study located.\",\"sources\":[\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?lang=en&setid=9b70606e-b99c-4272-a0f1-b5523cce0c59\",\"https://www.fda.gov/media/194133/download?attachment=\",\"https://www.fda.gov/vaccines-blood-biologics/cellular-gene-therapy-products/yescarta\",\"https://www.ema.europa.eu/en/documents/prac-recommendation/new-product-information-wording-extracts-prac-recommendations-signals-adopted-7-10-april-2026-prac_en.pdf\",\"https://www.ema.europa.eu/en/documents/product-information/yescarta-epar-product-information_en.pdf\",\"https://products.mhra.gov.uk/substance/?substance=AXICABTAGENE+CILOLEUCEL\",\"https://www.medicines.org.uk/emc/product/9439/smpc\"]}",
+ "annotation_urls": [],
+ "at": "2026-10-24T02:00:20"
+}

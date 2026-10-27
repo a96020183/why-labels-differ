@@ -1,0 +1,1674 @@
+{
+ "groups": {
+  "microscopic colitis": [
+   "R010",
+   "R033",
+   "R044"
+  ],
+  "DRESS": [
+   "R017",
+   "R037",
+   "R043",
+   "R067",
+   "R132",
+   "R135",
+   "R142",
+   "R191",
+   "R197"
+  ],
+  "myasthenia gravis": [
+   "R027",
+   "R116"
+  ],
+  "HLH": [
+   "R032",
+   "R080",
+   "R094",
+   "R117"
+  ],
+  "choroidal effusion": [
+   "R034",
+   "R127"
+  ],
+  "suppressed lactation": [
+   "R045",
+   "R098"
+  ],
+  "QT prolongation": [
+   "R047",
+   "R087"
+  ],
+  "anaphylaxis": [
+   "R049",
+   "R060",
+   "R068",
+   "R180"
+  ],
+  "PML": [
+   "R052",
+   "R093",
+   "R130",
+   "R171"
+  ],
+  "sarcoidosis": [
+   "R056",
+   "R074"
+  ],
+  "embolic and thrombotic events": [
+   "R069",
+   "R072",
+   "R073",
+   "R077"
+  ],
+  "capillary leak syndrome": [
+   "R083",
+   "R110",
+   "R124"
+  ],
+  "myocarditis/pericarditis": [
+   "R085",
+   "R086",
+   "R100",
+   "R102"
+  ],
+  "erythema multiforme": [
+   "R090",
+   "R091",
+   "R105",
+   "R137"
+  ],
+  "colitis": [
+   "R099",
+   "R161"
+  ],
+  "toxic epidermal necrolysis": [
+   "R104",
+   "R149"
+  ],
+  "tumour lysis syndrome": [
+   "R107",
+   "R160"
+  ],
+  "heavy menstrual bleeding": [
+   "R114",
+   "R115"
+  ],
+  "thrombotic microangiopathy": [
+   "R118",
+   "R184"
+  ],
+  "cutaneous vasculitis": [
+   "R128",
+   "R179"
+  ],
+  "pulmonary oedema": [
+   "R148",
+   "R157"
+  ],
+  "meningioma": [
+   "R153",
+   "R195"
+  ],
+  "hyperammonaemia": [
+   "R162",
+   "R164"
+  ]
+ },
+ "questions": [
+  {
+   "qid": "Q01",
+   "row": "R033",
+   "reaction": "microscopic colitis",
+   "sig": "Microscopic colitis",
+   "inn": "Paroxetine",
+   "atc3": [
+    "N06A"
+   ],
+   "cross_rows": [
+    {
+     "id": "R010",
+     "inn": "Pantoprazole",
+     "substances": [
+      "pantoprazole"
+     ],
+     "atc3": [
+      "A02B"
+     ],
+     "sig": "Colitis microscopic",
+     "yr": 2019,
+     "mo": 5
+    }
+   ],
+   "same_class_earlier": []
+  },
+  {
+   "qid": "Q02",
+   "row": "R044",
+   "reaction": "microscopic colitis",
+   "sig": "Microscopic colitis",
+   "inn": "Sertraline",
+   "atc3": [
+    "N06A"
+   ],
+   "cross_rows": [
+    {
+     "id": "R010",
+     "inn": "Pantoprazole",
+     "substances": [
+      "pantoprazole"
+     ],
+     "atc3": [
+      "A02B"
+     ],
+     "sig": "Colitis microscopic",
+     "yr": 2019,
+     "mo": 5
+    }
+   ],
+   "same_class_earlier": [
+    "R033"
+   ]
+  },
+  {
+   "qid": "Q03",
+   "row": "R037",
+   "reaction": "DRESS",
+   "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+   "inn": "Idelalisib",
+   "atc3": [
+    "L01E",
+    "L01X"
+   ],
+   "cross_rows": [
+    {
+     "id": "R017",
+     "inn": "Temozolomide",
+     "substances": [
+      "temozolomide"
+     ],
+     "atc3": [
+      "L01A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "yr": 2019,
+     "mo": 6
+    }
+   ],
+   "same_class_earlier": []
+  },
+  {
+   "qid": "Q04",
+   "row": "R043",
+   "reaction": "DRESS",
+   "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+   "inn": "Mirtazapine",
+   "atc3": [
+    "N06A"
+   ],
+   "cross_rows": [
+    {
+     "id": "R017",
+     "inn": "Temozolomide",
+     "substances": [
+      "temozolomide"
+     ],
+     "atc3": [
+      "L01A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "yr": 2019,
+     "mo": 6
+    },
+    {
+     "id": "R037",
+     "inn": "Idelalisib",
+     "substances": [
+      "idelalisib"
+     ],
+     "atc3": [
+      "L01E",
+      "L01X"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "yr": 2020,
+     "mo": 4
+    }
+   ],
+   "same_class_earlier": []
+  },
+  {
+   "qid": "Q05",
+   "row": "R067",
+   "reaction": "DRESS",
+   "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+   "inn": "Anakinra; canakinumab",
+   "atc3": [
+    "L04A"
+   ],
+   "cross_rows": [
+    {
+     "id": "R017",
+     "inn": "Temozolomide",
+     "substances": [
+      "temozolomide"
+     ],
+     "atc3": [
+      "L01A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "yr": 2019,
+     "mo": 6
+    },
+    {
+     "id": "R037",
+     "inn": "Idelalisib",
+     "substances": [
+      "idelalisib"
+     ],
+     "atc3": [
+      "L01E",
+      "L01X"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "yr": 2020,
+     "mo": 4
+    },
+    {
+     "id": "R043",
+     "inn": "Mirtazapine",
+     "substances": [
+      "mirtazapine"
+     ],
+     "atc3": [
+      "N06A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "yr": 2020,
+     "mo": 5
+    }
+   ],
+   "same_class_earlier": []
+  },
+  {
+   "qid": "Q06",
+   "row": "R132",
+   "reaction": "DRESS",
+   "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+   "inn": "Pirfenidone",
+   "atc3": [
+    "L04A"
+   ],
+   "cross_rows": [
+    {
+     "id": "R017",
+     "inn": "Temozolomide",
+     "substances": [
+      "temozolomide"
+     ],
+     "atc3": [
+      "L01A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "yr": 2019,
+     "mo": 6
+    },
+    {
+     "id": "R037",
+     "inn": "Idelalisib",
+     "substances": [
+      "idelalisib"
+     ],
+     "atc3": [
+      "L01E",
+      "L01X"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "yr": 2020,
+     "mo": 4
+    },
+    {
+     "id": "R043",
+     "inn": "Mirtazapine",
+     "substances": [
+      "mirtazapine"
+     ],
+     "atc3": [
+      "N06A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "yr": 2020,
+     "mo": 5
+    }
+   ],
+   "same_class_earlier": [
+    "R067"
+   ]
+  },
+  {
+   "qid": "Q07",
+   "row": "R135",
+   "reaction": "DRESS",
+   "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+   "inn": "Cefotaxime",
+   "atc3": [
+    "J01D"
+   ],
+   "cross_rows": [
+    {
+     "id": "R017",
+     "inn": "Temozolomide",
+     "substances": [
+      "temozolomide"
+     ],
+     "atc3": [
+      "L01A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "yr": 2019,
+     "mo": 6
+    },
+    {
+     "id": "R037",
+     "inn": "Idelalisib",
+     "substances": [
+      "idelalisib"
+     ],
+     "atc3": [
+      "L01E",
+      "L01X"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "yr": 2020,
+     "mo": 4
+    },
+    {
+     "id": "R043",
+     "inn": "Mirtazapine",
+     "substances": [
+      "mirtazapine"
+     ],
+     "atc3": [
+      "N06A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "yr": 2020,
+     "mo": 5
+    },
+    {
+     "id": "R067",
+     "inn": "Anakinra; canakinumab",
+     "substances": [
+      "anakinra",
+      "canakinumab"
+     ],
+     "atc3": [
+      "L04A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "yr": 2021,
+     "mo": 3
+    },
+    {
+     "id": "R132",
+     "inn": "Pirfenidone",
+     "substances": [
+      "pirfenidone"
+     ],
+     "atc3": [
+      "L04A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "yr": 2023,
+     "mo": 11
+    }
+   ],
+   "same_class_earlier": []
+  },
+  {
+   "qid": "Q08",
+   "row": "R142",
+   "reaction": "DRESS",
+   "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+   "inn": "Ethambutol",
+   "atc3": [
+    "J04A"
+   ],
+   "cross_rows": [
+    {
+     "id": "R017",
+     "inn": "Temozolomide",
+     "substances": [
+      "temozolomide"
+     ],
+     "atc3": [
+      "L01A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "yr": 2019,
+     "mo": 6
+    },
+    {
+     "id": "R037",
+     "inn": "Idelalisib",
+     "substances": [
+      "idelalisib"
+     ],
+     "atc3": [
+      "L01E",
+      "L01X"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "yr": 2020,
+     "mo": 4
+    },
+    {
+     "id": "R043",
+     "inn": "Mirtazapine",
+     "substances": [
+      "mirtazapine"
+     ],
+     "atc3": [
+      "N06A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "yr": 2020,
+     "mo": 5
+    },
+    {
+     "id": "R067",
+     "inn": "Anakinra; canakinumab",
+     "substances": [
+      "anakinra",
+      "canakinumab"
+     ],
+     "atc3": [
+      "L04A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "yr": 2021,
+     "mo": 3
+    },
+    {
+     "id": "R132",
+     "inn": "Pirfenidone",
+     "substances": [
+      "pirfenidone"
+     ],
+     "atc3": [
+      "L04A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "yr": 2023,
+     "mo": 11
+    },
+    {
+     "id": "R135",
+     "inn": "Cefotaxime",
+     "substances": [
+      "cefotaxime"
+     ],
+     "atc3": [
+      "J01D"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "yr": 2024,
+     "mo": 1
+    }
+   ],
+   "same_class_earlier": []
+  },
+  {
+   "qid": "Q09",
+   "row": "R191",
+   "reaction": "DRESS",
+   "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+   "inn": "Gemcitabine",
+   "atc3": [
+    "L01B"
+   ],
+   "cross_rows": [
+    {
+     "id": "R017",
+     "inn": "Temozolomide",
+     "substances": [
+      "temozolomide"
+     ],
+     "atc3": [
+      "L01A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "yr": 2019,
+     "mo": 6
+    },
+    {
+     "id": "R037",
+     "inn": "Idelalisib",
+     "substances": [
+      "idelalisib"
+     ],
+     "atc3": [
+      "L01E",
+      "L01X"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "yr": 2020,
+     "mo": 4
+    },
+    {
+     "id": "R043",
+     "inn": "Mirtazapine",
+     "substances": [
+      "mirtazapine"
+     ],
+     "atc3": [
+      "N06A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "yr": 2020,
+     "mo": 5
+    },
+    {
+     "id": "R067",
+     "inn": "Anakinra; canakinumab",
+     "substances": [
+      "anakinra",
+      "canakinumab"
+     ],
+     "atc3": [
+      "L04A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "yr": 2021,
+     "mo": 3
+    },
+    {
+     "id": "R132",
+     "inn": "Pirfenidone",
+     "substances": [
+      "pirfenidone"
+     ],
+     "atc3": [
+      "L04A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "yr": 2023,
+     "mo": 11
+    },
+    {
+     "id": "R135",
+     "inn": "Cefotaxime",
+     "substances": [
+      "cefotaxime"
+     ],
+     "atc3": [
+      "J01D"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "yr": 2024,
+     "mo": 1
+    },
+    {
+     "id": "R142",
+     "inn": "Ethambutol",
+     "substances": [
+      "ethambutol"
+     ],
+     "atc3": [
+      "J04A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "yr": 2024,
+     "mo": 4
+    }
+   ],
+   "same_class_earlier": []
+  },
+  {
+   "qid": "Q10",
+   "row": "R197",
+   "reaction": "DRESS",
+   "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+   "inn": "Oxacillin",
+   "atc3": [
+    "J01C"
+   ],
+   "cross_rows": [
+    {
+     "id": "R017",
+     "inn": "Temozolomide",
+     "substances": [
+      "temozolomide"
+     ],
+     "atc3": [
+      "L01A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "yr": 2019,
+     "mo": 6
+    },
+    {
+     "id": "R037",
+     "inn": "Idelalisib",
+     "substances": [
+      "idelalisib"
+     ],
+     "atc3": [
+      "L01E",
+      "L01X"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "yr": 2020,
+     "mo": 4
+    },
+    {
+     "id": "R043",
+     "inn": "Mirtazapine",
+     "substances": [
+      "mirtazapine"
+     ],
+     "atc3": [
+      "N06A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "yr": 2020,
+     "mo": 5
+    },
+    {
+     "id": "R067",
+     "inn": "Anakinra; canakinumab",
+     "substances": [
+      "anakinra",
+      "canakinumab"
+     ],
+     "atc3": [
+      "L04A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "yr": 2021,
+     "mo": 3
+    },
+    {
+     "id": "R132",
+     "inn": "Pirfenidone",
+     "substances": [
+      "pirfenidone"
+     ],
+     "atc3": [
+      "L04A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "yr": 2023,
+     "mo": 11
+    },
+    {
+     "id": "R135",
+     "inn": "Cefotaxime",
+     "substances": [
+      "cefotaxime"
+     ],
+     "atc3": [
+      "J01D"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "yr": 2024,
+     "mo": 1
+    },
+    {
+     "id": "R142",
+     "inn": "Ethambutol",
+     "substances": [
+      "ethambutol"
+     ],
+     "atc3": [
+      "J04A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "yr": 2024,
+     "mo": 4
+    },
+    {
+     "id": "R191",
+     "inn": "Gemcitabine",
+     "substances": [
+      "gemcitabine"
+     ],
+     "atc3": [
+      "L01B"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "yr": 2026,
+     "mo": 6
+    }
+   ],
+   "same_class_earlier": []
+  },
+  {
+   "qid": "Q11",
+   "row": "R116",
+   "reaction": "myasthenia gravis",
+   "sig": "Myasthenia gravis",
+   "inn": "3-hydroxy 3-methylglutaryl coenzyme A (HMG-CoA) reductase inhibitors (statins): atorvastat",
+   "atc3": [
+    "A10B",
+    "C10A",
+    "C10B"
+   ],
+   "cross_rows": [
+    {
+     "id": "R027",
+     "inn": "Durvalumab",
+     "substances": [
+      "durvalumab"
+     ],
+     "atc3": [
+      "L01F",
+      "L01X"
+     ],
+     "sig": "Myasthenia gravis",
+     "yr": 2019,
+     "mo": 10
+    }
+   ],
+   "same_class_earlier": []
+  },
+  {
+   "qid": "Q12",
+   "row": "R080",
+   "reaction": "HLH",
+   "sig": "Haemophagocytic lymphohistiocytosis",
+   "inn": "Sulfamethoxazole, trimethoprim (co-trimoxazole)",
+   "atc3": [
+    "J01E"
+   ],
+   "cross_rows": [
+    {
+     "id": "R032",
+     "inn": "Nivolumab",
+     "substances": [
+      "nivolumab"
+     ],
+     "atc3": [
+      "L01F",
+      "L01X"
+     ],
+     "sig": "Haemophagocytic lymphohistiocytosis",
+     "yr": 2020,
+     "mo": 2
+    }
+   ],
+   "same_class_earlier": []
+  },
+  {
+   "qid": "Q13",
+   "row": "R094",
+   "reaction": "HLH",
+   "sig": "Haemophagocytic lymphohistiocytosis",
+   "inn": "Piperacillin; piperacillin, tazobactam",
+   "atc3": [
+    "J01C",
+    "J01D"
+   ],
+   "cross_rows": [
+    {
+     "id": "R032",
+     "inn": "Nivolumab",
+     "substances": [
+      "nivolumab"
+     ],
+     "atc3": [
+      "L01F",
+      "L01X"
+     ],
+     "sig": "Haemophagocytic lymphohistiocytosis",
+     "yr": 2020,
+     "mo": 2
+    },
+    {
+     "id": "R080",
+     "inn": "Sulfamethoxazole, trimethoprim (co-trimoxazole)",
+     "substances": [
+      "sulfamethoxazole",
+      "trimethoprim"
+     ],
+     "atc3": [
+      "J01E"
+     ],
+     "sig": "Haemophagocytic lymphohistiocytosis",
+     "yr": 2021,
+     "mo": 5
+    }
+   ],
+   "same_class_earlier": []
+  },
+  {
+   "qid": "Q14",
+   "row": "R117",
+   "reaction": "HLH",
+   "sig": "Haemophagocytic lymphohistiocytosis",
+   "inn": "Dabrafenib; trametinib",
+   "atc3": [
+    "L01E"
+   ],
+   "cross_rows": [
+    {
+     "id": "R032",
+     "inn": "Nivolumab",
+     "substances": [
+      "nivolumab"
+     ],
+     "atc3": [
+      "L01F",
+      "L01X"
+     ],
+     "sig": "Haemophagocytic lymphohistiocytosis",
+     "yr": 2020,
+     "mo": 2
+    },
+    {
+     "id": "R080",
+     "inn": "Sulfamethoxazole, trimethoprim (co-trimoxazole)",
+     "substances": [
+      "sulfamethoxazole",
+      "trimethoprim"
+     ],
+     "atc3": [
+      "J01E"
+     ],
+     "sig": "Haemophagocytic lymphohistiocytosis",
+     "yr": 2021,
+     "mo": 5
+    },
+    {
+     "id": "R094",
+     "inn": "Piperacillin; piperacillin, tazobactam",
+     "substances": [
+      "piperacillin",
+      "tazobactam"
+     ],
+     "atc3": [
+      "J01C",
+      "J01D"
+     ],
+     "sig": "Haemophagocytic lymphohistiocytosis",
+     "yr": 2021,
+     "mo": 9
+    }
+   ],
+   "same_class_earlier": []
+  },
+  {
+   "qid": "Q15",
+   "row": "R127",
+   "reaction": "choroidal effusion",
+   "sig": "Choroidal effusion and choroidal detachment",
+   "inn": "Acetazolamide",
+   "atc3": [
+    "S01E"
+   ],
+   "cross_rows": [
+    {
+     "id": "R034",
+     "inn": "Thiazide, thiazide-like diuretics and combinations",
+     "substances": [
+      "thiazide",
+      "thiazide-like diuretics",
+      "combinations"
+     ],
+     "atc3": [
+      "C03A",
+      "C03B"
+     ],
+     "sig": "Choroidal effusion",
+     "yr": 2020,
+     "mo": 3
+    }
+   ],
+   "same_class_earlier": []
+  },
+  {
+   "qid": "Q16",
+   "row": "R098",
+   "reaction": "suppressed lactation",
+   "sig": "Nipple pain and suppressed lactation",
+   "inn": "Labetalol",
+   "atc3": [
+    "C07A"
+   ],
+   "cross_rows": [
+    {
+     "id": "R045",
+     "inn": "Desogestrel",
+     "substances": [
+      "desogestrel"
+     ],
+     "atc3": [
+      "G03A"
+     ],
+     "sig": "Suppressed lactation",
+     "yr": 2020,
+     "mo": 6
+    }
+   ],
+   "same_class_earlier": []
+  },
+  {
+   "qid": "Q17",
+   "row": "R087",
+   "reaction": "QT prolongation",
+   "sig": "Cardiac conduction disorders including QT prolongation and torsades de pointes",
+   "inn": "Donepezil",
+   "atc3": [
+    "N06D"
+   ],
+   "cross_rows": [
+    {
+     "id": "R047",
+     "inn": "Lisdexamfetamine",
+     "substances": [
+      "lisdexamfetamine"
+     ],
+     "atc3": [
+      "N06B"
+     ],
+     "sig": "QT prolongation and cardiac arrhythmia",
+     "yr": 2020,
+     "mo": 7
+    }
+   ],
+   "same_class_earlier": []
+  },
+  {
+   "qid": "Q18",
+   "row": "R060",
+   "reaction": "anaphylaxis",
+   "sig": "Anaphylactic reaction",
+   "inn": "Capecitabine",
+   "atc3": [
+    "L01B"
+   ],
+   "cross_rows": [
+    {
+     "id": "R049",
+     "inn": "Abiraterone",
+     "substances": [
+      "abiraterone"
+     ],
+     "atc3": [
+      "L01X",
+      "L02B"
+     ],
+     "sig": "Anaphylactic reaction",
+     "yr": 2020,
+     "mo": 9
+    }
+   ],
+   "same_class_earlier": []
+  },
+  {
+   "qid": "Q19",
+   "row": "R068",
+   "reaction": "anaphylaxis",
+   "sig": "Anaphylactic reaction",
+   "inn": "COVID-19 vaccine (ChAdOx1-S [recombinant]) (COVID-19 Vaccine AstraZeneca)",
+   "atc3": [
+    "J07B"
+   ],
+   "cross_rows": [
+    {
+     "id": "R049",
+     "inn": "Abiraterone",
+     "substances": [
+      "abiraterone"
+     ],
+     "atc3": [
+      "L01X",
+      "L02B"
+     ],
+     "sig": "Anaphylactic reaction",
+     "yr": 2020,
+     "mo": 9
+    },
+    {
+     "id": "R060",
+     "inn": "Capecitabine",
+     "substances": [
+      "capecitabine"
+     ],
+     "atc3": [
+      "L01B"
+     ],
+     "sig": "Anaphylactic reaction",
+     "yr": 2020,
+     "mo": 11
+    }
+   ],
+   "same_class_earlier": []
+  },
+  {
+   "qid": "Q20",
+   "row": "R180",
+   "reaction": "anaphylaxis",
+   "sig": "Anaphylactic reaction",
+   "inn": "Datopotamab deruxtecan",
+   "atc3": [
+    "L01F"
+   ],
+   "cross_rows": [
+    {
+     "id": "R049",
+     "inn": "Abiraterone",
+     "substances": [
+      "abiraterone"
+     ],
+     "atc3": [
+      "L01X",
+      "L02B"
+     ],
+     "sig": "Anaphylactic reaction",
+     "yr": 2020,
+     "mo": 9
+    },
+    {
+     "id": "R060",
+     "inn": "Capecitabine",
+     "substances": [
+      "capecitabine"
+     ],
+     "atc3": [
+      "L01B"
+     ],
+     "sig": "Anaphylactic reaction",
+     "yr": 2020,
+     "mo": 11
+    },
+    {
+     "id": "R068",
+     "inn": "COVID-19 vaccine (ChAdOx1-S [recombinant]) (COVID-19 Vaccine AstraZeneca)",
+     "substances": [
+      "covid-19 vaccine"
+     ],
+     "atc3": [
+      "J07B"
+     ],
+     "sig": "Anaphylactic reaction",
+     "yr": 2021,
+     "mo": 3
+    }
+   ],
+   "same_class_earlier": []
+  },
+  {
+   "qid": "Q21",
+   "row": "R130",
+   "reaction": "PML",
+   "sig": "Progressive multifocal leukoencephalopathy (PML)",
+   "inn": "Axicabtagene ciloleucel",
+   "atc3": [
+    "L01X"
+   ],
+   "cross_rows": [
+    {
+     "id": "R052",
+     "inn": "Pomalidomide",
+     "substances": [
+      "pomalidomide"
+     ],
+     "atc3": [
+      "L04A"
+     ],
+     "sig": "Progressive multifocal leukoencephalopathy (PML)",
+     "yr": 2020,
+     "mo": 9
+    },
+    {
+     "id": "R093",
+     "inn": "Methotrexate",
+     "substances": [
+      "methotrexate"
+     ],
+     "atc3": [
+      "L01B",
+      "L04A"
+     ],
+     "sig": "Progressive multifocal leukoencephalopathy (PML)",
+     "yr": 2021,
+     "mo": 9
+    }
+   ],
+   "same_class_earlier": []
+  },
+  {
+   "qid": "Q22",
+   "row": "R171",
+   "reaction": "PML",
+   "sig": "Progressive multifocal leukoencephalopathy",
+   "inn": "Ciltacabtagene autoleucel; idecabtagene vicleucel; tisagenlecleucel",
+   "atc3": [
+    "L01X"
+   ],
+   "cross_rows": [
+    {
+     "id": "R052",
+     "inn": "Pomalidomide",
+     "substances": [
+      "pomalidomide"
+     ],
+     "atc3": [
+      "L04A"
+     ],
+     "sig": "Progressive multifocal leukoencephalopathy (PML)",
+     "yr": 2020,
+     "mo": 9
+    },
+    {
+     "id": "R093",
+     "inn": "Methotrexate",
+     "substances": [
+      "methotrexate"
+     ],
+     "atc3": [
+      "L01B",
+      "L04A"
+     ],
+     "sig": "Progressive multifocal leukoencephalopathy (PML)",
+     "yr": 2021,
+     "mo": 9
+    }
+   ],
+   "same_class_earlier": [
+    "R130"
+   ]
+  },
+  {
+   "qid": "Q23",
+   "row": "R074",
+   "reaction": "sarcoidosis",
+   "sig": "Sarcoidosis",
+   "inn": "Alemtuzumab",
+   "atc3": [
+    "L01X",
+    "L04A"
+   ],
+   "cross_rows": [
+    {
+     "id": "R056",
+     "inn": "Dabrafenib; trametinib",
+     "substances": [
+      "dabrafenib",
+      "trametinib"
+     ],
+     "atc3": [
+      "L01E"
+     ],
+     "sig": "Sarcoidosis",
+     "yr": 2020,
+     "mo": 10
+    }
+   ],
+   "same_class_earlier": []
+  },
+  {
+   "qid": "Q24",
+   "row": "R124",
+   "reaction": "capillary leak syndrome",
+   "sig": "Capillary leak syndrome (Opdivo, Yervoy, Keytruda) and cytokine release syndrome (Opdivo)",
+   "inn": "Ipilimumab; nivolumab; pembrolizumab",
+   "atc3": [
+    "L01F",
+    "L01X"
+   ],
+   "cross_rows": [
+    {
+     "id": "R083",
+     "inn": "COVID-19 vaccine (ChAdOx1-S [recombinant]) - Vaxzevria",
+     "substances": [
+      "covid-19 vaccine - vaxzevria"
+     ],
+     "atc3": [
+      "J07B"
+     ],
+     "sig": "Capillary leak syndrome",
+     "yr": 2021,
+     "mo": 6
+    },
+    {
+     "id": "R110",
+     "inn": "Elasomeran (COVID-19 mRNA vaccine - [nucleoside-modified]) - Spikevax",
+     "substances": [
+      "elasomeran - spikevax"
+     ],
+     "atc3": [
+      "J07B"
+     ],
+     "sig": "Capillary leak syndrome",
+     "yr": 2022,
+     "mo": 3
+    }
+   ],
+   "same_class_earlier": []
+  },
+  {
+   "qid": "Q25",
+   "row": "R105",
+   "reaction": "erythema multiforme",
+   "sig": "Erythema multiforme",
+   "inn": "Enzalutamide",
+   "atc3": [
+    "L02B"
+   ],
+   "cross_rows": [
+    {
+     "id": "R090",
+     "inn": "COVID-19 mRNA vaccine (nucleoside-modified) - Comirnaty",
+     "substances": [
+      "covid-19 mrna vaccine - comirnaty"
+     ],
+     "atc3": [
+      "J07B"
+     ],
+     "sig": "Erythema multiforme",
+     "yr": 2021,
+     "mo": 9
+    },
+    {
+     "id": "R091",
+     "inn": "COVID-19 mRNA vaccine (nucleoside-modified) - Spikevax (previously COVID-19 Vaccine Modern",
+     "substances": [
+      "covid-19 mrna vaccine - spikevax"
+     ],
+     "atc3": [
+      "J07B"
+     ],
+     "sig": "Erythema multiforme",
+     "yr": 2021,
+     "mo": 9
+    }
+   ],
+   "same_class_earlier": []
+  },
+  {
+   "qid": "Q26",
+   "row": "R137",
+   "reaction": "erythema multiforme",
+   "sig": "Erythema multiforme",
+   "inn": "Abemaciclib; palbociclib; ribociclib",
+   "atc3": [
+    "L01E"
+   ],
+   "cross_rows": [
+    {
+     "id": "R090",
+     "inn": "COVID-19 mRNA vaccine (nucleoside-modified) - Comirnaty",
+     "substances": [
+      "covid-19 mrna vaccine - comirnaty"
+     ],
+     "atc3": [
+      "J07B"
+     ],
+     "sig": "Erythema multiforme",
+     "yr": 2021,
+     "mo": 9
+    },
+    {
+     "id": "R091",
+     "inn": "COVID-19 mRNA vaccine (nucleoside-modified) - Spikevax (previously COVID-19 Vaccine Modern",
+     "substances": [
+      "covid-19 mrna vaccine - spikevax"
+     ],
+     "atc3": [
+      "J07B"
+     ],
+     "sig": "Erythema multiforme",
+     "yr": 2021,
+     "mo": 9
+    },
+    {
+     "id": "R105",
+     "inn": "Enzalutamide",
+     "substances": [
+      "enzalutamide"
+     ],
+     "atc3": [
+      "L02B"
+     ],
+     "sig": "Erythema multiforme",
+     "yr": 2022,
+     "mo": 2
+    }
+   ],
+   "same_class_earlier": []
+  },
+  {
+   "qid": "Q27",
+   "row": "R149",
+   "reaction": "toxic epidermal necrolysis",
+   "sig": "Toxic epidermal necrolysis and Stevens-Johnson syndrome",
+   "inn": "Bumetanide",
+   "atc3": [
+    "C03C"
+   ],
+   "cross_rows": [
+    {
+     "id": "R104",
+     "inn": "Pregabalin",
+     "substances": [
+      "pregabalin"
+     ],
+     "atc3": [
+      "N02B",
+      "N03A"
+     ],
+     "sig": "Toxic epidermal necrolysis",
+     "yr": 2022,
+     "mo": 1
+    }
+   ],
+   "same_class_earlier": []
+  },
+  {
+   "qid": "Q28",
+   "row": "R184",
+   "reaction": "thrombotic microangiopathy",
+   "sig": "Renal-limited thrombotic microangiopathy",
+   "inn": "Pegylated liposomal doxorubicin",
+   "atc3": [
+    "L01D"
+   ],
+   "cross_rows": [
+    {
+     "id": "R118",
+     "inn": "Regorafenib",
+     "substances": [
+      "regorafenib"
+     ],
+     "atc3": [
+      "L01E"
+     ],
+     "sig": "Thrombotic microangiopathy",
+     "yr": 2023,
+     "mo": 1
+    }
+   ],
+   "same_class_earlier": []
+  },
+  {
+   "qid": "Q29",
+   "row": "R179",
+   "reaction": "cutaneous vasculitis",
+   "sig": "Cutaneous vasculitis",
+   "inn": "Bosutinib",
+   "atc3": [
+    "L01E"
+   ],
+   "cross_rows": [
+    {
+     "id": "R128",
+     "inn": "Azacitidine",
+     "substances": [
+      "azacitidine"
+     ],
+     "atc3": [
+      "L01B"
+     ],
+     "sig": "Cutaneous vasculitis",
+     "yr": 2023,
+     "mo": 9
+    }
+   ],
+   "same_class_earlier": []
+  },
+  {
+   "qid": "Q30",
+   "row": "R157",
+   "reaction": "pulmonary oedema",
+   "sig": "Pulmonary oedema in patients with veno-occlusive disease",
+   "inn": "Nitric oxide",
+   "atc3": [
+    "R07A"
+   ],
+   "cross_rows": [
+    {
+     "id": "R148",
+     "inn": "Acetazolamide",
+     "substances": [
+      "acetazolamide"
+     ],
+     "atc3": [
+      "S01E"
+     ],
+     "sig": "Pulmonary oedemas",
+     "yr": 2024,
+     "mo": 7
+    }
+   ],
+   "same_class_earlier": []
+  },
+  {
+   "qid": "Q31",
+   "row": "R164",
+   "reaction": "hyperammonaemia",
+   "sig": "Hyperammonaemia, hyperammonaemic encephalopathy",
+   "inn": "Regorafenib",
+   "atc3": [
+    "L01E"
+   ],
+   "cross_rows": [
+    {
+     "id": "R162",
+     "inn": "Tegafur, gimeracil, oteracil",
+     "substances": [
+      "tegafur",
+      "gimeracil",
+      "oteracil"
+     ],
+     "atc3": [
+      "L01B"
+     ],
+     "sig": "Hyperammonaemia",
+     "yr": 2025,
+     "mo": 3
+    }
+   ],
+   "same_class_earlier": []
+  }
+ ],
+ "row_rkey": {
+  "R001": null,
+  "R002": null,
+  "R003": null,
+  "R004": null,
+  "R005": null,
+  "R006": null,
+  "R007": null,
+  "R008": null,
+  "R009": null,
+  "R010": "microscopic colitis",
+  "R011": null,
+  "R012": null,
+  "R013": null,
+  "R014": null,
+  "R015": null,
+  "R016": null,
+  "R017": "DRESS",
+  "R018": null,
+  "R019": null,
+  "R020": null,
+  "R021": null,
+  "R022": null,
+  "R023": null,
+  "R024": null,
+  "R025": null,
+  "R026": null,
+  "R027": "myasthenia gravis",
+  "R028": null,
+  "R029": null,
+  "R030": null,
+  "R031": null,
+  "R032": "HLH",
+  "R033": "microscopic colitis",
+  "R034": "choroidal effusion",
+  "R035": null,
+  "R036": null,
+  "R037": "DRESS",
+  "R038": null,
+  "R039": null,
+  "R040": null,
+  "R041": null,
+  "R042": null,
+  "R043": "DRESS",
+  "R044": "microscopic colitis",
+  "R045": "suppressed lactation",
+  "R046": null,
+  "R047": "QT prolongation",
+  "R048": null,
+  "R049": "anaphylaxis",
+  "R050": null,
+  "R051": null,
+  "R052": "PML",
+  "R053": null,
+  "R054": null,
+  "R055": null,
+  "R056": "sarcoidosis",
+  "R057": null,
+  "R058": null,
+  "R059": null,
+  "R060": "anaphylaxis",
+  "R061": null,
+  "R062": null,
+  "R063": null,
+  "R064": null,
+  "R065": null,
+  "R066": null,
+  "R067": "DRESS",
+  "R068": "anaphylaxis",
+  "R069": "embolic and thrombotic events",
+  "R070": null,
+  "R071": null,
+  "R072": "embolic and thrombotic events",
+  "R073": "embolic and thrombotic events",
+  "R074": "sarcoidosis",
+  "R075": null,
+  "R076": null,
+  "R077": "embolic and thrombotic events",
+  "R078": null,
+  "R079": null,
+  "R080": "HLH",
+  "R081": null,
+  "R082": null,
+  "R083": "capillary leak syndrome",
+  "R084": null,
+  "R085": "myocarditis/pericarditis",
+  "R086": "myocarditis/pericarditis",
+  "R087": "QT prolongation",
+  "R088": null,
+  "R089": null,
+  "R090": "erythema multiforme",
+  "R091": "erythema multiforme",
+  "R092": null,
+  "R093": "PML",
+  "R094": "HLH",
+  "R095": null,
+  "R096": null,
+  "R097": null,
+  "R098": "suppressed lactation",
+  "R099": "colitis",
+  "R100": "myocarditis/pericarditis",
+  "R101": null,
+  "R102": "myocarditis/pericarditis",
+  "R103": null,
+  "R104": "toxic epidermal necrolysis",
+  "R105": "erythema multiforme",
+  "R106": null,
+  "R107": "tumour lysis syndrome",
+  "R108": null,
+  "R109": null,
+  "R110": "capillary leak syndrome",
+  "R111": null,
+  "R112": null,
+  "R113": null,
+  "R114": "heavy menstrual bleeding",
+  "R115": "heavy menstrual bleeding",
+  "R116": "myasthenia gravis",
+  "R117": "HLH",
+  "R118": "thrombotic microangiopathy",
+  "R119": null,
+  "R120": null,
+  "R121": null,
+  "R122": null,
+  "R123": null,
+  "R124": "capillary leak syndrome",
+  "R125": null,
+  "R126": null,
+  "R127": "choroidal effusion",
+  "R128": "cutaneous vasculitis",
+  "R129": null,
+  "R130": "PML",
+  "R131": null,
+  "R132": "DRESS",
+  "R133": null,
+  "R134": null,
+  "R135": "DRESS",
+  "R136": null,
+  "R137": "erythema multiforme",
+  "R138": null,
+  "R139": null,
+  "R140": null,
+  "R141": null,
+  "R142": "DRESS",
+  "R143": null,
+  "R144": null,
+  "R145": null,
+  "R146": null,
+  "R147": null,
+  "R148": "pulmonary oedema",
+  "R149": "toxic epidermal necrolysis",
+  "R150": null,
+  "R151": null,
+  "R152": null,
+  "R153": "meningioma",
+  "R154": null,
+  "R155": null,
+  "R156": null,
+  "R157": "pulmonary oedema",
+  "R158": null,
+  "R159": null,
+  "R160": "tumour lysis syndrome",
+  "R161": "colitis",
+  "R162": "hyperammonaemia",
+  "R163": null,
+  "R164": "hyperammonaemia",
+  "R165": null,
+  "R166": null,
+  "R167": null,
+  "R168": null,
+  "R169": null,
+  "R170": null,
+  "R171": "PML",
+  "R172": null,
+  "R173": null,
+  "R174": null,
+  "R175": null,
+  "R176": null,
+  "R177": null,
+  "R178": null,
+  "R179": "cutaneous vasculitis",
+  "R180": "anaphylaxis",
+  "R181": null,
+  "R182": null,
+  "R183": null,
+  "R184": "thrombotic microangiopathy",
+  "R185": null,
+  "R186": null,
+  "R187": null,
+  "R188": null,
+  "R189": null,
+  "R190": null,
+  "R191": "DRESS",
+  "R192": null,
+  "R193": null,
+  "R194": null,
+  "R195": "meningioma",
+  "R196": null,
+  "R197": "DRESS"
+ }
+}

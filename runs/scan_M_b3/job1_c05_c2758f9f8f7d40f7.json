@@ -1,0 +1,18 @@
+{
+ "tag": "job1_c05",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {},
+ "latency": 85.339,
+ "hadThink": true,
+ "tries": 1,
+ "call": {
+  "stream": true,
+  "tierSplit": false,
+  "isoScope": true
+ },
+ "promptTokensEstimated": 936,
+ "rawChars": 1145,
+ "task": "Continuing a chunked research run. Goal (truncated): Scan PRAC rows batch 1-22 into the divergence ledger and keep the cross-entry index in CONTEXT.\n\n[CARRYOVER STATE]\nCOMPLETED: R012\nREMAINING: 10\nDECISIONS: -\nCONTEXT: Interference with clinical laboratory tests: R001 Biotin A11H nf; Dysphagia: R002 Gabapentin N02B nf; Hypoparathyroidism: R003 Nivolumab L01F/L01X w; Paracetamol pregnancy neurodevelopment: R004 Paracetamol N02B nf; Foetal outcomes congenital anomalies: R005 Armodafinil/Modafinil N06B nf; Recurrent thrombosis antiphospholipid syndrome: R006 Rivaroxaban+ B01A nf; Drug interaction with fluconazole: R007 Citalopram/Escitalopram N06A nf; Persistent sexual dysfunction after drug withdrawal: R008 Clomipramine/SNRI N06A nf; Interaction with boosted antiviral HIV therapy: R009 Clopidogrel B01A nf; Colitis microscopic: R010 Pantoprazole A02B nf; Maculopathy: R011 Sertraline N06A nf; Brugada syndrome (loperamide abuse): R012 Loperamide A07D nf\n\nContinue exactly where the state leaves off. Do not repeat completed work.\n\n[BATCH 5 of 66; chunk 5 of 22 in this job]\nR013 | PRAC 2019-06 | Propylthiouracil | ATC3 H03B | signal: Congenital anomalies | US label: not found (propylthiouracil, label effective 20260827)\nR014 | PRAC 2019-06 | Rivaroxaban | ATC3 B01A | signal: Premature ending of the GALILEO study in patients who have received an artificial heart valve through a transcatheter ao | US label: not found (rivaroxaban, label effective 20260904)\nR015 | PRAC 2019-06 | Secukinumab | ATC3 L04A | signal: Dermatitis exfoliative generalised | US label: not found (secukinumab, label effective 20260825)\n\nEnd every non-final chunk with [STATE_CHECKPOINT] followed by a concise state block:\nCOMPLETED: ...\nREMAINING: ...\nDECISIONS: ...\nCONTEXT: ...\nEnd the final chunk with [TASK_COMPLETE]. Exactly one marker per chunk. Never narrate the markers.",
+ "text": "{\"id\":\"R013\",\"us\":\"not found\",\"cross\":[{\"row\":\"R005\",\"substance\":\"Armodafinil/Modafinil\",\"us\":\"not found\"}]}\n{\"id\":\"R014\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R015\",\"us\":\"not found\",\"cross\":[]}\n[STATE_CHECKPOINT]\nCOMPLETED: R015\nREMAINING: 7\nDECISIONS: -\nCONTEXT: Interference with clinical laboratory tests: R001 Biotin A11H nf; Dysphagia: R002 Gabapentin N02B nf; Hypoparathyroidism: R003 Nivolumab L01F/L01X w; Paracetamol pregnancy neurodevelopment: R004 Paracetamol N02B nf; Foetal outcomes congenital anomalies: R005 Armodafinil/Modafinil N06B nf, R013 Propylthiouracil H03B nf; Recurrent thrombosis antiphospholipid syndrome: R006 Rivaroxaban+ B01A nf; Drug interaction with fluconazole: R007 Citalopram/Escitalopram N06A nf; Persistent sexual dysfunction after drug withdrawal: R008 Clomipramine/SNRI N06A nf; Interaction with boosted antiviral HIV therapy: R009 Clopidogrel B01A nf; Colitis microscopic: R010 Pantoprazole A02B nf; Maculopathy: R011 Sertraline N06A nf; Brugada syndrome (loperamide abuse): R012 Loperamide A07D nf; Transcatheter valve thrombosis: R014 Rivaroxaban B01A nf; Exfoliative dermatitis: R015 Secukinumab L04A nf"
+}

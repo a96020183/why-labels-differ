@@ -1,0 +1,18 @@
+{
+ "tag": "job2_c04",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {},
+ "latency": 65.596,
+ "hadThink": true,
+ "tries": 1,
+ "call": {
+  "stream": true,
+  "tierSplit": false,
+  "isoScope": true
+ },
+ "promptTokensEstimated": 932,
+ "rawChars": 586,
+ "task": "Continuing a chunked research run. Goal (truncated): Scan PRAC rows batch 23-44 into the divergence ledger and keep the cross-entry index in CONTEXT.\n\n[CARRYOVER STATE]\nCOMPLETED: R075\nREMAINING: 57\nDECISIONS: -\nCONTEXT: Hypoparathyroidism: ; Embolic and thrombotic events: R069 ChAdOx1-S J07B nm, R072 Ad26.COV2-S J07B nm, R073 ChAdOx1-S J07B nm; Sarcoidosis: R056 Dabrafenib/trametinib L01E p, R074 Alemtuzumab L01X,L04A p; Acute renal failure: R075 Clindamycin D10A nf\n\nContinue exactly where the state leaves off. Do not repeat completed work.\n\n[BATCH 26 of 66; chunk 4 of 22 in this job]\nR076 | PRAC 2021-05 | COVID-19 mRNA vaccine (nucleoside-modified) - Comirnaty | ATC3 J07B | signal: Localised swelling in persons with history of dermal filler injections | US label: unknown (covid-19 mrna vaccine - comirnaty)\nR077 | PRAC 2021-05 | COVID-19 vaccine (Ad26.COV2-S [recombinant]) - COVID-19 Vaccine Janssen | ATC3 J07B | signal: Embolic and thrombotic events | US label: not marketed (Ad26.COV2.S: US EUA revoked 2023-06)\nR078 | PRAC 2021-05 | Secukinumab | ATC3 L04A | signal: Henoch-Schonlein purpura | US label: not found (secukinumab, label effective 20260825)\n[NAME-INDEX CANDIDATES - earlier rows whose reaction name shares most words; check class and meaning yourself]\nR077: R069 COVID-19 vaccine (ChAdOx1-S [recombinant ATC3 J07B US not marketed (\"Embolic and thrombotic events\"); R072 COVID-19 vaccine (Ad26.COV2-S [recombina ATC3 J07B US not marketed (\"Embolic and thrombotic events\"); R073 COVID-19 vaccine (ChAdOx1-S [recombinant ATC3 J07B US not marketed (\"Embolic and thrombotic events\")\n\nEnd every non-final chunk with [STATE_CHECKPOINT] followed by a concise state block:\nCOMPLETED: ...\nREMAINING: ...\nDECISIONS: ...\nCONTEXT: ...\nEnd the final chunk with [TASK_COMPLETE]. Exactly one marker per chunk. Never narrate the markers.",
+ "text": "{\"id\":\"R076\",\"us\":\"unknown\",\"cross\":[]}\n{\"id\":\"R077\",\"us\":\"not marketed\",\"cross\":[]}\n{\"id\":\"R078\",\"us\":\"not found\",\"cross\":[]}\n[STATE_CHECKPOINT]\nCOMPLETED: R078\nREMAINING: 54\nDECISIONS: -\nCONTEXT: Hypoparathyroidism: ; Embolic and thrombotic events: R069 ChAdOx1-S J07B nm, R072 Ad26.COV2-S J07B nm, R073 ChAdOx1-S J07B nm, R077 Ad26.COV2-S J07B nm; Sarcoidosis: R056 Dabrafenib/trametinib L01E p, R074 Alemtuzumab L01X,L04A p; Acute renal failure: R075 Clindamycin D10A nf; Localised swelling (dermal filler): R076 Comirnaty J07B nf; Henoch-Schonlein purpura: R078 Secukinumab L04A nf"
+}

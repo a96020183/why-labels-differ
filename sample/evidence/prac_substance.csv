@@ -1,0 +1,411 @@
+row_id,substance
+R001,biotin
+R002,gabapentin
+R003,nivolumab
+R004,paracetamol
+R005,armodafinil
+R005,modafinil
+R006,rivaroxaban
+R006,apixaban
+R006,dabigatran
+R006,edoxaban
+R007,citalopram
+R007,escitalopram
+R008,desvenlafaxine
+R008,duloxetine
+R008,milnacipran
+R008,venlafaxine
+R008,selective serotonin reuptake inhibitors : citalopram
+R008,escitalopram
+R008,fluoxetine
+R008,fluvoxamine
+R008,paroxetine
+R008,sertraline
+R008,vortioxetine
+R009,clopidogrel
+R009,acetylsalicylic acid
+R010,pantoprazole
+R011,sertraline
+R012,loperamide
+R013,propylthiouracil
+R014,rivaroxaban
+R015,secukinumab
+R016,sulfasalazine
+R017,temozolomide
+R018,topiramate
+R019,amino acids
+R019,or lipids with or without admixture of vitamins or trace elements
+R020,mesalazine
+R021,ondansetron
+R022,aflibercept
+R022,axitinib
+R022,bevacizumab
+R022,cabozantinib
+R022,lenvatinib
+R022,nintedanib
+R022,pazopanib
+R022,ponatinib
+R022,ramucirumab
+R022,regorafenib
+R022,sorafenib
+R022,sunitinib
+R022,tivozanib
+R022,vandetanib
+R023,ibrutinib
+R024,ibuprofen
+R025,canagliflozin
+R025,metformin
+R025,dapagliflozin
+R025,empagliflozin
+R025,linagliptin
+R025,ertugliflozin
+R025,sitagliptin
+R025,saxagliptin
+R026,teriflunomide
+R027,durvalumab
+R028,ferric carboxymaltose
+R028,iron
+R028,iron dextran
+R028,iron isomaltoside
+R028,iron sucrose
+R028,sodium ferric gluconate
+R029,lithium
+R030,abiraterone
+R031,golimumab
+R032,nivolumab
+R033,paroxetine
+R034,thiazide
+R034,thiazide-like diuretics
+R034,combinations
+R035,andexanet alfa
+R036,ibuprofen
+R036,ketoprofen
+R037,idelalisib
+R038,insulin aspart
+R038,insulin degludec
+R038,insulin bovine
+R038,liraglutide
+R038,insulin determir
+R038,insulin glulisine
+R038,insulin human
+R038,insulin lispro
+R038,insulin glargine
+R038,insulin porcine
+R039,baricitinib
+R040,buprenorphine
+R040,naloxone
+R041,chlorotrianisene
+R041,conjugated estrogens
+R041,bazedoxifene
+R041,dienestrol
+R041,diethylstilbestrol
+R041,estradiol
+R041,norethisterone
+R041,estriol
+R041,estrone
+R041,ethinylestradiol
+R041,methallenestril
+R041,moxestrol
+R041,promestriene
+R041,tibolone
+R042,mirtazapine
+R043,mirtazapine
+R044,sertraline
+R045,desogestrel
+R046,macrogol-containing products for bowel preparation
+R047,lisdexamfetamine
+R048,adalimumab
+R048,certolizumab pegol
+R048,etanercept
+R048,golimumab
+R048,infliximab
+R049,abiraterone
+R050,ciprofloxacin
+R050,delafloxacin
+R050,levofloxacin
+R050,lomefloxacin
+R050,moxifloxacin
+R050,norfloxacin
+R050,ofloxacin
+R050,pefloxacin
+R050,prulifloxacin
+R050,rufloxacin
+R051,interferon alfa-2a
+R051,interferon alfa-2b
+R051,peginterferon alfa-2a
+R051,peginterferon alfa-2b
+R052,pomalidomide
+R053,amitriptyline
+R053,bupropion
+R053,citalopram
+R053,desvenlafaxine
+R053,duloxetine
+R053,escitalopram
+R053,fluoxetine
+R053,fluvoxamine
+R053,milnacipran
+R053,mirtazapine
+R053,paroxetine
+R053,sertraline
+R053,trazodone
+R053,venlafaxine
+R053,vortioxetine
+R054,cannabidiol
+R054,calcineurin inhibitors
+R054,mammalian target of rapamycin inhibitors
+R055,ceftriaxone
+R056,dabrafenib
+R056,trametinib
+R057,ibrutinib
+R058,lamotrigine
+R059,pembrolizumab
+R060,capecitabine
+R061,chloroquine
+R061,hydroxychloroquine
+R062,pembrolizumab
+R063,adalimumab
+R064,anastrozole
+R065,hydrocortisone
+R066,prednisolone
+R066,prednisone
+R067,anakinra
+R067,canakinumab
+R068,covid-19 vaccine
+R069,covid-19 vaccine
+R070,trastuzumab emtansine
+R071,azathioprine
+R072,covid-19 vaccine - covid-19 vaccine janssen
+R073,covid-19 vaccine - vaxzevria
+R074,alemtuzumab
+R075,clindamycin
+R076,covid-19 mrna vaccine - comirnaty
+R077,covid-19 vaccine - covid-19 vaccine janssen
+R078,secukinumab
+R079,sulfamethoxazole
+R079,trimethoprim
+R080,sulfamethoxazole
+R080,trimethoprim
+R081,tramadol
+R081,dexketoprofen
+R081,paracetamol
+R082,ceftriaxone
+R083,covid-19 vaccine - vaxzevria
+R084,tofacitinib
+R085,covid-19 mrna vaccine - comirnaty
+R086,covid-19 mrna vaccine - spikevax
+R087,donepezil
+R088,atezolizumab
+R088,avelumab
+R088,cemiplimab
+R088,durvalumab
+R088,ipilimumab
+R088,pembrolizumab
+R088,nivolumab
+R089,octreotide
+R090,covid-19 mrna vaccine - comirnaty
+R091,covid-19 mrna vaccine - spikevax
+R092,covid-19 vaccine - vaxzevria
+R093,methotrexate
+R094,piperacillin
+R094,tazobactam
+R095,ponatinib
+R096,warfarin
+R097,ertapenem
+R098,labetalol
+R099,lenvatinib
+R100,covid-19 mrna vaccine - spikevax
+R101,olmesartan
+R101,amlodipine
+R101,hydrochlorothiazide
+R101,olmesartan medoxomil
+R101,amlodipine besilate
+R102,tozinameran - comirnaty
+R103,durvalumab
+R104,pregabalin
+R105,enzalutamide
+R106,obinutuzumab
+R107,sorafenib
+R108,alemtuzumab
+R109,cannabidiol
+R109,calcineurin inhibitors
+R109,mammalian target of rapamycin inhibitors
+R110,elasomeran - spikevax
+R111,codeine
+R111,ibuprofen
+R112,pneumococcal polysaccharide vaccine
+R113,durvalumab
+R114,elasomeran - spikevax
+R115,tozinameran - comirnaty
+R116,atorvastatin
+R116,fluvastatin
+R116,lovastatin
+R116,pitavastatin
+R116,pravastatin
+R116,rosuvastatin
+R116,simvastatin
+R116,fenofibrate
+R117,dabrafenib
+R117,trametinib
+R118,regorafenib
+R119,bosutinib
+R120,colistimethate sodium
+R121,propofol
+R122,voriconazole
+R123,lenvatinib
+R124,ipilimumab
+R124,nivolumab
+R124,pembrolizumab
+R125,tofacitinib
+R126,olaparib
+R127,acetazolamide
+R128,azacitidine
+R129,dapagliflozin
+R129,metformin
+R129,saxagliptin
+R130,axicabtagene ciloleucel
+R131,dabrafenib
+R131,trametinib
+R132,pirfenidone
+R133,amphotericin b
+R134,avatrombopag
+R135,cefotaxime
+R136,cobimetinib
+R136,vemurafenib
+R137,abemaciclib
+R137,palbociclib
+R137,ribociclib
+R138,adagrasib
+R139,atezolizumab
+R139,avelumab
+R139,cemiplimab
+R139,dostarlimab
+R139,durvalumab
+R139,ipilimumab
+R139,nivolumab
+R139,relatlimab
+R139,pembrolizumab
+R139,tislelizumab
+R139,tremelimumab
+R140,atezolizumab
+R140,avelumab
+R140,cemiplimab
+R140,dostarlimab
+R140,durvalumab
+R140,ipilimumab
+R140,nivolumab
+R140,relatlimab
+R140,pembrolizumab
+R140,tislelizumab
+R140,tremelimumab
+R141,chlorhexidine
+R141,other relevant fixed-dose combinations
+R142,ethambutol
+R143,baricitinib
+R144,dabrafenib
+R144,trametinib
+R145,manidipine
+R146,propofol
+R147,axicabtagene ciloleucel
+R147,brexucabtagene autoleucel
+R147,ciltabtagene autoleucel
+R147,idecabtagene vicleucel
+R147,lisocabtagene maraleucel
+R147,tisagenlecleucel
+R148,acetazolamide
+R149,bumetanide
+R150,glofitamab
+R151,dulaglutide
+R151,exenatide
+R151,insulin degludec
+R151,liraglutide
+R151,insulin glargine
+R151,lixisenatide
+R151,semaglutide
+R151,tirzepatide
+R152,human papillomavirus 9-valent vaccine
+R152,human papillomavirus vaccine [types 6
+R152,18]
+R153,medroxyprogesterone acetate
+R154,amlodipine
+R154,valsartan
+R154,hydrochlorothiazide
+R154,azilsartan medoxomil
+R154,irbesartan
+R154,telmisartan
+R154,sacubitril
+R154,other relevant fixed dose combinations containing angiotensin ii receptor blockers
+R155,paracetamol
+R155,fixed dose combinations containing paracetamol
+R156,azathioprine
+R157,nitric oxide
+R158,risperidone oral solution
+R159,afatinib
+R160,lenvatinib
+R161,mogamulizumab
+R162,tegafur
+R162,gimeracil
+R162,oteracil
+R163,oxytetracycline hydrochloride
+R163,hydrocortisone acetate
+R163,polymyxin b sulfate
+R164,regorafenib
+R165,sertraline
+R166,sulfamethoxazole
+R166,trimethoprim
+R167,axicabtagene ciloleucel
+R167,brexucabtagene autoleucel
+R167,ciltabtagene autoleucel
+R167,idecabtagene vicleucel
+R167,lisocabtagene maraleucel
+R167,tisagenlecleucel
+R168,brodalumab
+R169,enzalutamide
+R169,digoxin
+R170,vortioxetine
+R171,ciltacabtagene autoleucel
+R171,idecabtagene vicleucel
+R171,tisagenlecleucel
+R172,clozapine
+R173,varicella vaccine
+R173,measles
+R173,mumps
+R173,rubella
+R174,binimetinib
+R174,cobimetinib
+R174,dabrafenib
+R174,encorafenib
+R174,trametinib
+R174,vemurafenib
+R175,diazoxide
+R176,dinutuximab beta
+R177,osimertinib
+R178,somatrogon
+R179,bosutinib
+R180,datopotamab deruxtecan
+R181,epcoritamab
+R182,cefazolin
+R182,lidocaine hydrochloride
+R183,erdafitinib
+R184,pegylated liposomal doxorubicin
+R185,chikungunya vaccine
+R186,galantamine
+R187,axicabtagene ciloleucel
+R188,ponatinib
+R189,pancreatin
+R190,darolutamide
+R191,gemcitabine
+R192,valproate
+R192,related substances
+R193,iobitridol
+R193,iodixanol
+R193,iohexol
+R193,iomeprol
+R193,iopamidol
+R193,iopromide
+R193,ioversol
+R193,ioxitalamic acid
+R194,zolbetuximab
+R195,desogestrel
+R195,etonogestrel
+R196,levonorgestrel intrauterine device 13.5 mg
+R197,oxacillin

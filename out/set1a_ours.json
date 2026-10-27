@@ -1,0 +1,847 @@
+{
+ "arm": "Why Labels Differ agents (Nemotron via Nightshift, evidence via Zetaris)",
+ "run_at": "2026-10-23",
+ "sampleMode": false,
+ "models_served": {
+  "nvidia/nemotron-3-ultra-550b-a55b": 29,
+  "nvidia/nemotron-3.5-lightning-30b-a3b": 6,
+  "nvidia/nemotron-3.5-super-vl-120b-a12b": 7
+ },
+ "model_sources": {
+  "live": 42
+ },
+ "zetaris_backends": {
+  "zetaris": 70
+ },
+ "answers": [
+  {
+   "id": "R159",
+   "us_status": "not found",
+   "passage": 0,
+   "quote": "",
+   "reason": "The label contains no mention of eyelash growth or related terms.",
+   "section": "",
+   "terms": [
+    "eyelash growth",
+    "eyelash elongation",
+    "trichomegaly",
+    "hypertrichosis",
+    "long eyelashes",
+    "increased eyelash",
+    "eyelash hyperplasia",
+    "lash growth"
+   ],
+   "qids": [
+    "S-001",
+    "S-002"
+   ],
+   "calls": 1
+  },
+  {
+   "id": "R160",
+   "us_status": "not found",
+   "passage": 0,
+   "quote": "",
+   "reason": "Tumor lysis syndrome is not mentioned in the label.",
+   "section": "",
+   "terms": [
+    "tumor lysis",
+    "tumour lysis",
+    "tumor lysis syndrome",
+    "tumour lysis syndrome",
+    "metabolic lysis",
+    "acute tumor lysis",
+    "lysis syndrome",
+    "tls syndrome"
+   ],
+   "qids": [
+    "S-003",
+    "S-004"
+   ],
+   "calls": 1
+  },
+  {
+   "id": "R161",
+   "us_status": "partial",
+   "passage": 1,
+   "quote": "Gastrointestinal disorders: Immune-mediated colitis",
+   "reason": "Colitis is described only in the postmarketing Adverse Reactions section, not in Boxed Warning, Warnings and Precautions, Warnings, Precautions, or Contraindications.",
+   "section": "6 ADVERSE REACTIONS > 6.2 Postmarketing Experience",
+   "terms": [
+    "colitis",
+    "colon inflammation",
+    "colonic inflammation",
+    "inflammatory colitis",
+    "ulcerative colitis",
+    "microscopic colitis",
+    "colitis symptoms",
+    "colonic ulceration"
+   ],
+   "qids": [
+    "S-005",
+    "S-006"
+   ],
+   "calls": 1
+  },
+  {
+   "id": "R162",
+   "us_status": "not marketed",
+   "why": "no U.S. product named for this question; no U.S. label in Zetaris",
+   "calls": 0
+  },
+  {
+   "id": "R163",
+   "us_status": "not marketed",
+   "why": "no U.S. product named for this question; no U.S. label in Zetaris",
+   "calls": 0
+  },
+  {
+   "id": "R164",
+   "us_status": "written",
+   "passage": 1,
+   "quote": "Additionally, hyperammonemic encephalopathy, including fatal cases, have been reported in the postmarketing setting in patients treated with STIVARGA.",
+   "reason": "Described in Warnings and Precautions section 5.1 Hepatotoxicity.",
+   "section": "5 WARNINGS AND PRECAUTIONS > 5.1 Hepatotoxicity",
+   "terms": [
+    "hyperammonemia",
+    "hyperammonaemia",
+    "hyperammonemic encephalopathy",
+    "hyperammonaemic encephalopathy",
+    "ammonia encephalopathy",
+    "elevated ammonia encephalopathy",
+    "hepatic encephalopathy",
+    "ammonia brain toxicity"
+   ],
+   "qids": [
+    "S-007",
+    "S-008"
+   ],
+   "calls": 1
+  },
+  {
+   "id": "R165",
+   "us_status": "not found",
+   "passage": 0,
+   "quote": "",
+   "reason": "No label passage contains the search term for multiple acyl-coenzyme A dehydrogenase deficiency.",
+   "section": "",
+   "terms": [
+    "multiple acyl-coa dehydrogenase deficiency",
+    "glutaric aciduria type 2",
+    "ethylmalonic adipic aciduria",
+    "fatty acid oxidation disorder",
+    "acyl-coa dehydrogenase deficiency",
+    "metabolic myopathy",
+    "madd syndrome",
+    "ga2 disorder"
+   ],
+   "qids": [
+    "S-009",
+    "S-010"
+   ],
+   "calls": 1
+  },
+  {
+   "id": "R166",
+   "us_status": "written",
+   "passage": 1,
+   "quote": "anaphylaxis and circulatory shock have occurred with the administration of sulfamethoxazole and trimethoprim products, including BACTRIM (see ADVERSE REACTIONS ).",
+   "reason": "Circulatory shock is explicitly listed in the Warning Section of the Bactrim label.",
+   "section": "WARNINGS > Hypersensitivity and Other Serious or Fatal Reactions",
+   "terms": [
+    "circulatory shock",
+    "hemodynamic shock",
+    "cardiovascular shock",
+    "hypotensive shock",
+    "distributive shock",
+    "septic shock",
+    "anaphylactic shock",
+    "shock state"
+   ],
+   "qids": [
+    "S-011",
+    "S-012"
+   ],
+   "calls": 1
+  },
+  {
+   "id": "R167",
+   "us_status": "not found",
+   "passage": 0,
+   "quote": "",
+   "reason": "No passage mentions the search term in the current U.S. Yescarta label context.",
+   "section": "",
+   "terms": [
+    "immune-mediated enterocolitis",
+    "immune effector cell enteritis",
+    "car-t enteritis",
+    "car t cell enteritis",
+    "icas enteritis",
+    "enterocolitis",
+    "immune enterocolitis",
+    "car-t colitis"
+   ],
+   "qids": [
+    "S-013",
+    "S-014"
+   ],
+   "calls": 1
+  },
+  {
+   "id": "R168",
+   "us_status": "not found",
+   "passage": 0,
+   "quote": "",
+   "reason": "No mention of pyoderma gangrenosum or related terms in the label.",
+   "section": "",
+   "terms": [
+    "pyoderma gangrenosum",
+    "neutrophilic dermatosis",
+    "pyoderma",
+    "gangrenous pyoderma",
+    "ulcerative pyoderma",
+    "skin ulceration pyoderma",
+    "sterile neutrophilic dermatosis",
+    "pg dermatosis"
+   ],
+   "qids": [
+    "S-015",
+    "S-016"
+   ],
+   "calls": 1
+  },
+  {
+   "id": "R169",
+   "us_status": "written",
+   "passage": 2,
+   "quote": "XTANDI can interfere with certain digoxin immunoassays (e.g., Chemiluminescent Microparticle Immunoassays), resulting in falsely elevated digoxin plasma concentration results.",
+   "reason": "The label contains a dedicated warning in Warnings and Precautions (section 5.8) describing digoxin immunoassay interference causing falsely elevated results.",
+   "section": "5 WARNINGS AND PRECAUTIONS > 5.8 Interference with Immunoassay Measurement of Digoxin",
+   "terms": [
+    "digoxin assay interference",
+    "falsely elevated digoxin",
+    "digoxin test interference",
+    "enzalutamide digoxin interference",
+    "digoxin false positive",
+    "digoxin level interference",
+    "assay interference digoxin",
+    "digoxin measurement error"
+   ],
+   "qids": [
+    "S-017",
+    "S-018"
+   ],
+   "calls": 1
+  },
+  {
+   "id": "R170",
+   "us_status": "not found",
+   "passage": 1,
+   "quote": "Serotonin syndrome signs and symptoms may include mental status changes (e.g., agitation, hallucinations, delirium, and coma), autonomic instability (e.g., tachycardia, labile blood pressure, dizziness, diaphoresis, flushing, hyperthermia), neuromuscular symptoms (e.g., tremor, rigidity, myoclonus, hyperreflexia, incoordination), seizures, and gastrointestinal symptoms (e.g., nausea, vomiting, diarrhea).",
+   "reason": "Hallucinations are only mentioned as a symptom of serotonin syndrome, not as an independent adverse reaction.",
+   "section": "5 WARNINGS AND PRECAUTIONS > 5.2 Serotonin Syndrome",
+   "terms": [
+    "hallucinations",
+    "visual hallucinations",
+    "auditory hallucinations",
+    "psychotic hallucinations",
+    "non-serotonergic hallucinations",
+    "drug-induced hallucinations",
+    "hallucinatory episodes",
+    "perceptual disturbances"
+   ],
+   "qids": [
+    "S-019",
+    "S-020"
+   ],
+   "calls": 1
+  },
+  {
+   "id": "R171",
+   "us_status": "written",
+   "passage": 1,
+   "quote": "Reactivation of John Cunningham (JC) virus, leading to progressive multifocal leukoencephalopathy (PML), including cases with fatal outcomes, have been reported following treatment with CARVYKTI [see Adverse Reactions (6.2) ].",
+   "reason": "The label includes PML in the Warnings and Precautions section (5.6 Infections) as a reported reaction.",
+   "section": "5 WARNINGS AND PRECAUTIONS > 5.6 Infections > SPL UNCLASSIFIED SECTION",
+   "terms": [
+    "progressive multifocal leukoencephalopathy",
+    "multifocal leukoencephalopathy",
+    "jcv encephalopathy",
+    "jc virus encephalopathy",
+    "demyelinating encephalopathy",
+    "progressive leukoencephalopathy",
+    "subacute encephalopathy",
+    "pml syndrome"
+   ],
+   "qids": [
+    "S-021",
+    "S-022"
+   ],
+   "calls": 1
+  },
+  {
+   "id": "R172",
+   "us_status": "written",
+   "passage": 1,
+   "quote": "CLOZARIL has caused severe neutropenia which is associated with an increased risk of serious and potentially fatal infections.",
+   "reason": "Severe neutropenia is described in the Boxed Warning.",
+   "section": "WARNING: SEVERE NEUTROPENIA; ORTHOSTATIC HYPOTENSION, BRADYCARDIA, AND SYNCOPE; SEIZURE; MYOCARDITIS, PERICARDITIS AND CARDIOMYOPATHY; INCREASED MORTALITY IN ELDERLY PATIENTS WITH DEMENTIA-RELATED PSYCHOSIS",
+   "terms": [
+    "neutropenia",
+    "agranulocytosis",
+    "leucopenia",
+    "leukopenia",
+    "granulocytopenia",
+    "low white count",
+    "anc low",
+    "absolute neutrophil count low"
+   ],
+   "qids": [
+    "S-023",
+    "S-024"
+   ],
+   "calls": 1
+  },
+  {
+   "id": "R173",
+   "us_status": "partial",
+   "passage": 1,
+   "quote": "Cases of encephalitis or meningitis caused by vaccine strain varicella virus have been reported in immunocompromised and immunocompetent individuals previously vaccinated with VARIVAX months to years after vaccination.",
+   "reason": "Encephalitis is described only in post-marketing Adverse Reactions and patient information, not in Boxed Warning, Warnings and Precautions, or Contraindications.",
+   "section": "6 ADVERSE REACTIONS > 6.2 Post-Marketing Experience",
+   "terms": [
+    "encephalitis",
+    "encephalopathy",
+    "brain inflammation",
+    "acute encephalitis",
+    "viral encephalitis",
+    "postvaccinal encephalitis",
+    "meningoencephalitis",
+    "cerebellitis"
+   ],
+   "qids": [
+    "S-025",
+    "S-026"
+   ],
+   "calls": 1
+  },
+  {
+   "id": "R174",
+   "us_status": "not found",
+   "passage": 0,
+   "quote": "",
+   "reason": "No label passage mentions tattoo-associated skin reaction or any related search term.",
+   "section": "",
+   "terms": [
+    "tattoo reaction",
+    "tattoo inflammation",
+    "tattoo granuloma",
+    "tattoo sarcoidosis",
+    "tattoo hypersensitivity",
+    "skin reaction tattoo",
+    "tattoo site reaction",
+    "koebner phenomenon"
+   ],
+   "qids": [
+    "S-027",
+    "S-028"
+   ],
+   "calls": 1
+  },
+  {
+   "id": "R175",
+   "us_status": "written",
+   "passage": 1,
+   "quote": "There have been postmarketing reports of necrotizing enterocolitis in neonates and infants treated with diazoxide, including fatal cases in neonates.",
+   "reason": "The label describes necrotizing enterocolitis in neonates/infants in the WARNINGS section.",
+   "section": "WARNINGS",
+   "terms": [
+    "necrotising enterocolitis",
+    "necrotizing enterocolitis",
+    "nec neonatal",
+    "neonatal nec",
+    "bowel necrosis",
+    "intestinal necrosis",
+    "necrotising enterocolitis newborn",
+    "necrotizing enterocolitis neonate"
+   ],
+   "qids": [
+    "S-029",
+    "S-030"
+   ],
+   "calls": 1
+  },
+  {
+   "id": "R176",
+   "us_status": "not marketed",
+   "why": "no U.S. product named for this question; no U.S. label in Zetaris",
+   "calls": 0
+  },
+  {
+   "id": "R177",
+   "us_status": "not found",
+   "passage": 0,
+   "quote": "",
+   "reason": "No passage in the Tagrisso U.S. label (v37) mentions Hepatitis B reactivation.",
+   "section": "",
+   "terms": [
+    "hepatitis b reactivation",
+    "hbv reactivation",
+    "hepatitis b flare",
+    "hbv flare",
+    "hepatitis b recurrence",
+    "hbv recurrence",
+    "viral reactivation",
+    "hbv reactivation hepatitis"
+   ],
+   "qids": [
+    "S-031",
+    "S-032"
+   ],
+   "calls": 1
+  },
+  {
+   "id": "R178",
+   "us_status": "written",
+   "passage": 2,
+   "quote": "When NGENLA is administered subcutaneously at the same site over a long period of time, lipoatrophy may result.",
+   "reason": "Lipoatrophy is described in Warnings and Precautions section 5.12, which is a warning section.",
+   "section": "5 WARNINGS AND PRECAUTIONS > 5.12 Lipoatrophy",
+   "terms": [
+    "lipoatrophy",
+    "lipodystrophy",
+    "fat loss",
+    "subcutaneous fat loss",
+    "injection site lipoatrophy",
+    "localized lipoatrophy",
+    "fat atrophy",
+    "adipose tissue loss"
+   ],
+   "qids": [
+    "S-033",
+    "S-034"
+   ],
+   "calls": 1
+  },
+  {
+   "id": "R179",
+   "us_status": "partial",
+   "passage": 1,
+   "quote": "Skin and Subcutaneous Disorders : 0.1% and less than 1% - Erythema multiforme, Cutaneous vasculitis",
+   "reason": "Listed in Adverse Reactions (Clinical Trials Experience) but not in a warning section.",
+   "section": "6 ADVERSE REACTIONS > 6.1 Clinical Trials Experience > SPL UNCLASSIFIED SECTION",
+   "terms": [
+    "cutaneous vasculitis",
+    "skin vasculitis",
+    "leukocytoclastic vasculitis",
+    "lcv",
+    "hypersensitivity vasculitis",
+    "vasculitic rash",
+    "cutaneous small vessel vasculitis",
+    "skin vessel inflammation"
+   ],
+   "qids": [
+    "S-035",
+    "S-036"
+   ],
+   "calls": 2
+  },
+  {
+   "id": "R180",
+   "us_status": "partial",
+   "passage": 2,
+   "quote": "Clinically relevant adverse reactions occurring in <10% of patients who received DATROWAY included infusion-related reactions including anaphylactic reaction, diarrhea, conjunctivitis, lacrimation increased, dry mouth, dry skin, pruritus, rhinorrhea, blepharitis, meibomian gland dysfunction, blurred vision, ILD/pneumonitis, visual impairment, photophobia, and madarosis.",
+   "reason": "Anaphylactic reaction is described in the Adverse Reactions section and dosage modifications, but not in a Boxed Warning, Warnings and Precautions, or Contraindications.",
+   "section": "6 ADVERSE REACTIONS > 6.1 Clinical Trials Experience",
+   "terms": [
+    "anaphylaxis",
+    "anaphylactic reaction",
+    "anaphylactic shock",
+    "severe allergic reaction",
+    "hypersensitivity reaction",
+    "type i hypersensitivity",
+    "anaphylactoid reaction",
+    "allergic reaction severe"
+   ],
+   "qids": [
+    "S-037",
+    "S-038"
+   ],
+   "calls": 2
+  },
+  {
+   "id": "R181",
+   "us_status": "partial",
+   "passage": 1,
+   "quote": "The following adverse reactions have been reported following administration of epcoritamab-bysp: hypogammaglobulinemia.",
+   "reason": "Hypogammaglobulinemia appears only in the Adverse Reactions section (Clinical Trials Experience), not in a boxed warning or warnings/precautions.",
+   "section": "6 ADVERSE REACTIONS > 6.1 Clinical Trials Experience",
+   "terms": [
+    "hypogammaglobulinaemia",
+    "hypogammaglobulinemia",
+    "low immunoglobulins",
+    "low igg",
+    "immunoglobulin deficiency",
+    "antibody deficiency",
+    "humoral immunodeficiency",
+    "reduced immunoglobulins"
+   ],
+   "qids": [
+    "S-039",
+    "S-040"
+   ],
+   "calls": 1
+  },
+  {
+   "id": "R182",
+   "us_status": "not found",
+   "passage": 0,
+   "quote": "",
+   "reason": "Kounis syndrome is not mentioned in the label.",
+   "section": "",
+   "terms": [
+    "kounis syndrome",
+    "allergic angina",
+    "allergic myocardial infarction",
+    "hypersensitivity coronary disorder",
+    "allergic acute coronary syndrome",
+    "kounis hypersensitivity",
+    "coronary hypersensitivity",
+    "allergic vasospasm"
+   ],
+   "qids": [
+    "S-041",
+    "S-042"
+   ],
+   "calls": 1
+  },
+  {
+   "id": "R183",
+   "us_status": "not found",
+   "passage": 0,
+   "quote": "",
+   "reason": "No mention of accelerated growth or related terms in the label.",
+   "section": "",
+   "terms": [
+    "accelerated growth",
+    "increased growth velocity",
+    "rapid growth",
+    "growth acceleration",
+    "excessive growth",
+    "tall stature",
+    "growth spurt",
+    "increased height velocity"
+   ],
+   "qids": [
+    "S-043",
+    "S-044"
+   ],
+   "calls": 1
+  },
+  {
+   "id": "R184",
+   "us_status": "not found",
+   "passage": 0,
+   "quote": "",
+   "reason": "The adverse reaction 'renal-limited thrombotic microangiopathy' is not described in the current Doxil U.S. label.",
+   "section": "",
+   "terms": [
+    "renal thrombotic microangiopathy",
+    "renal tma",
+    "kidney tma",
+    "renal limited tma",
+    "thrombotic microangiopathy kidney",
+    "renal microangiopathy",
+    "kidney microangiopathy",
+    "renal vascular thrombosis"
+   ],
+   "qids": [
+    "S-045",
+    "S-046"
+   ],
+   "calls": 1
+  },
+  {
+   "id": "R185",
+   "us_status": "not marketed",
+   "why": "no U.S. product named for this question; no U.S. label in Zetaris",
+   "calls": 0
+  },
+  {
+   "id": "R186",
+   "us_status": "not found",
+   "passage": 0,
+   "quote": "",
+   "reason": "No mention of nightmares or related terms in the label.",
+   "section": "",
+   "terms": [
+    "nightmares",
+    "bad dreams",
+    "sleep terrors",
+    "night terrors",
+    "dream anxiety",
+    "parasomnia",
+    "sleep disturbance",
+    "vivid dreams"
+   ],
+   "qids": [
+    "S-047",
+    "S-048"
+   ],
+   "calls": 1
+  },
+  {
+   "id": "R187",
+   "us_status": "written",
+   "passage": 1,
+   "quote": "Cerebral edema occurred at a higher frequency in patients with primary mediastinal large B-cell lymphoma (PMBCL).",
+   "reason": "The Warnings and Precautions section explicitly notes higher frequency of cerebral edema in PMBCL patients.",
+   "section": "5 WARNINGS AND PRECAUTIONS > 5.2 Neurologic Toxicities",
+   "terms": [
+    "brain edema",
+    "brain oedema",
+    "cerebral edema",
+    "cerebral oedema",
+    "intracranial edema",
+    "brain swelling",
+    "increased intracranial pressure",
+    "pmbl brain edema"
+   ],
+   "qids": [
+    "S-049",
+    "S-050"
+   ],
+   "calls": 1
+  },
+  {
+   "id": "R188",
+   "us_status": "not found",
+   "passage": 0,
+   "quote": "",
+   "reason": "The label does not mention congenital megacolon or related terms in any section.",
+   "section": "",
+   "terms": [
+    "congenital megacolon",
+    "hirschsprung disease",
+    "hirschsprung s disease",
+    "aganglionic megacolon",
+    "colonic aganglionosis",
+    "megacolon congenital",
+    "intestinal aganglionosis",
+    "hirschprung disease"
+   ],
+   "qids": [
+    "S-051",
+    "S-052"
+   ],
+   "calls": 1
+  },
+  {
+   "id": "R189",
+   "us_status": "written",
+   "passage": 1,
+   "quote": "Risk of Viral Transmission: The presence of porcine viruses that might infect humans cannot be definitely excluded.",
+   "reason": "Described in the Warnings and Precautions section (5.3).",
+   "section": "5 WARNINGS AND PRECAUTIONS",
+   "terms": [
+    "viral transmission",
+    "viral infection",
+    "virus transmission",
+    "bloodborne virus",
+    "viral contamination",
+    "adventitious virus",
+    "viral safety",
+    "pathogen transmission"
+   ],
+   "qids": [
+    "S-053",
+    "S-054"
+   ],
+   "calls": 2
+  },
+  {
+   "id": "R190",
+   "us_status": "partial",
+   "passage": 1,
+   "quote": "Skin and Subcutaneous Tissue Disorders: Angioedema (includes laryngeal edema, lip swelling, swelling face and swollen tongue)",
+   "reason": "Angioedema is listed only in the Postmarketing Experience subsection of Adverse Reactions, not in a warning section.",
+   "section": "6 ADVERSE REACTIONS > 6.2 Postmarketing Experience",
+   "terms": [
+    "angioedema",
+    "angioneurotic edema",
+    "angio-oedema",
+    "giant urticaria",
+    "quincke edema",
+    "swelling face",
+    "laryngeal edema",
+    "subcutaneous edema"
+   ],
+   "qids": [
+    "S-055",
+    "S-056"
+   ],
+   "calls": 1
+  },
+  {
+   "id": "R191",
+   "us_status": "written",
+   "passage": 1,
+   "quote": "SCARs, including Stevens-Johnson syndrome (SJS), toxic epidermal necrolysis (TEN), drug reaction with eosinophilia and systemic symptoms (DRESS), and acute generalized exanthematous pustulosis (AGEP), which can be life-threatening or fatal, have been reported in association with gemcitabine treatment [see Adverse Reactions (6.2) ].",
+   "reason": "DRESS is explicitly listed in the Warnings and Precautions section (5.3) as a severe cutaneous adverse reaction.",
+   "section": "5 WARNINGS AND PRECAUTIONS > 5.3 Severe Cutaneous Adverse Reactions (SCARs)",
+   "terms": [
+    "dress syndrome",
+    "drug reaction eosinophilia systemic symptoms",
+    "dress",
+    "drug induced hypersensitivity syndrome",
+    "dihs",
+    "hypersensitivity syndrome",
+    "eosinophilic systemic reaction",
+    "drug rash eosinophilia"
+   ],
+   "qids": [
+    "S-057",
+    "S-058"
+   ],
+   "calls": 2
+  },
+  {
+   "id": "R192",
+   "us_status": "not found",
+   "passage": 0,
+   "quote": "",
+   "reason": "Label only describes neurodevelopmental disorders from in utero (maternal) exposure, not paternal exposure.",
+   "section": "",
+   "terms": [
+    "neurodevelopmental disorders",
+    "neurodevelopmental delay",
+    "developmental delay",
+    "cognitive impairment",
+    "autism spectrum disorder",
+    "intellectual disability",
+    "developmental disorders",
+    "paternal exposure valproate"
+   ],
+   "qids": [
+    "S-059",
+    "S-060"
+   ],
+   "calls": 1
+  },
+  {
+   "id": "R193",
+   "us_status": "not found",
+   "passage": 0,
+   "quote": "",
+   "reason": "Fixed drug eruption is not mentioned in the current US label.",
+   "section": "",
+   "terms": [
+    "fixed drug eruption",
+    "fixed drug reaction",
+    "fde",
+    "fixed eruption",
+    "drug induced fixed eruption",
+    "recurrent fixed eruption",
+    "pigmented fixed eruption",
+    "contrast induced fixed eruption"
+   ],
+   "qids": [
+    "S-061",
+    "S-062"
+   ],
+   "calls": 1
+  },
+  {
+   "id": "R194",
+   "us_status": "not found",
+   "passage": 0,
+   "quote": "",
+   "reason": "The label does not mention protein-losing gastroenteropathy.",
+   "section": "",
+   "terms": [
+    "protein losing gastroenteropathy",
+    "protein-losing enteropathy",
+    "intestinal protein loss",
+    "gastrointestinal protein loss",
+    "hypoproteinemia gi",
+    "enteropathy protein loss",
+    "gut protein loss",
+    "protein losing gi"
+   ],
+   "qids": [
+    "S-063",
+    "S-064"
+   ],
+   "calls": 1
+  },
+  {
+   "id": "R195",
+   "us_status": "not found",
+   "passage": 0,
+   "quote": "",
+   "reason": "Meningioma is not mentioned in the label.",
+   "section": "",
+   "terms": [
+    "meningioma",
+    "meningiomas",
+    "brain meningioma",
+    "intracranial meningioma",
+    "benign meningioma",
+    "meningeal tumor",
+    "meningeal neoplasm",
+    "progestin meningioma"
+   ],
+   "qids": [
+    "S-065",
+    "S-066"
+   ],
+   "calls": 1
+  },
+  {
+   "id": "R196",
+   "us_status": "written",
+   "passage": 2,
+   "quote": "If a pregnancy occurs, there is increased risk of ectopic pregnancy including loss of fertility, pregnancy loss, septic abortion (including septicemia, shock and death), and premature labor and delivery.",
+   "reason": "The increased risk of ectopic pregnancy is explicitly stated in the Warnings and Precautions section (5.1 and bullet list).",
+   "section": "5 WARNINGS AND PRECAUTIONS",
+   "terms": [
+    "ectopic pregnancy",
+    "tubal pregnancy",
+    "extrauterine pregnancy",
+    "pregnancy ectopic",
+    "fallopian tube pregnancy",
+    "heterotopic pregnancy",
+    "iud ectopic pregnancy",
+    "levonorgestrel ectopic"
+   ],
+   "qids": [
+    "S-067",
+    "S-068"
+   ],
+   "calls": 1
+  },
+  {
+   "id": "R197",
+   "us_status": "partial",
+   "passage": 1,
+   "quote": "Drug reaction with eosinophilia and systemic symptoms (DRESS) has been identified during postapproval use of oxacillin.",
+   "reason": "DRESS is mentioned only in the Adverse Reactions/Postmarketing section, not in a boxed warning, warnings and precautions, warnings, precautions, or contraindications.",
+   "section": "ADVERSE REACTIONS > Skin and Subcutaneous Tissue Disorders",
+   "terms": [
+    "dress syndrome",
+    "drug reaction eosinophilia systemic symptoms",
+    "dress",
+    "drug induced hypersensitivity syndrome",
+    "dihs",
+    "hypersensitivity syndrome",
+    "eosinophilic systemic reaction",
+    "drug rash eosinophilia"
+   ],
+   "qids": [
+    "S-069",
+    "S-070"
+   ],
+   "calls": 1
+  }
+ ]
+}

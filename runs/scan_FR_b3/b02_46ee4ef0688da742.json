@@ -1,0 +1,18 @@
+{
+ "tag": "b02",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {},
+ "latency": 27.29,
+ "hadThink": true,
+ "tries": 1,
+ "call": {
+  "stream": true,
+  "tierSplit": false,
+  "isoScope": true
+ },
+ "promptTokensEstimated": 610,
+ "rawChars": 123,
+ "task": "[FULL LEDGER SO FAR - every earlier row with its ledger line]\nR001 | PRAC 2019-01 | Biotin | ATC3 A11H | signal: Interference with clinical laboratory tests | US label: not found (biotin, label effective 20260720) | ledger: {\"id\":\"R001\",\"us\":\"not found\",\"cross\":[]}\nR002 | PRAC 2019-01 | Gabapentin | ATC3 N02B | signal: Dysphagia | US label: not found (gabapentin, label effective 20260911) | ledger: {\"id\":\"R002\",\"us\":\"not found\",\"cross\":[]}\nR003 | PRAC 2019-03 | Nivolumab | ATC3 L01F,L01X | signal: Hypoparathyroidism | US label: written (nivolumab, label effective 20260812, section: warnings_and_cautions) | ledger: {\"id\":\"R003\",\"us\":\"written\",\"cross\":[]}\n\n[BATCH 2 of 66]\nR004 | PRAC 2019-03 | Paracetamol | ATC3 N02B | signal: Paracetamol use in pregnancy and child neurodevelopment and effects on the urogenital apparatus | US label: unknown (paracetamol)\nR005 | PRAC 2019-04 | Armodafinil; modafinil | ATC3 N06B | signal: Evaluation of data on foetal outcomes including congenital anomalies from a single observational study in the US | US label: not found (armodafinil, label effective 20260306)\nR006 | PRAC 2019-04 | Rivaroxaban; apixaban; dabigatran; edoxaban | ATC3 B01A | signal: Recurrent thrombosis in patients with antiphospholipid syndrome | US label: not found (rivaroxaban, label effective 20260904)",
+ "text": "{\"id\":\"R004\",\"us\":\"unknown\",\"cross\":[]}\n{\"id\":\"R005\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R006\",\"us\":\"not found\",\"cross\":[]}"
+}

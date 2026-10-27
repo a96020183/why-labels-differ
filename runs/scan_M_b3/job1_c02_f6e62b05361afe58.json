@@ -1,0 +1,18 @@
+{
+ "tag": "job1_c02",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {},
+ "latency": 129.255,
+ "hadThink": true,
+ "tries": 1,
+ "call": {
+  "stream": true,
+  "tierSplit": false,
+  "isoScope": true
+ },
+ "promptTokensEstimated": 813,
+ "rawChars": 560,
+ "task": "Continuing a chunked research run. Goal (truncated): Scan PRAC rows batch 1-22 into the divergence ledger and keep the cross-entry index in CONTEXT.\n\n[CARRYOVER STATE]\nCOMPLETED: R003\nREMAINING: 19\nDECISIONS: -\nCONTEXT: Interference with clinical laboratory tests: R001 Biotin A11H nf; Dysphagia: R002 Gabapentin N02B nf; Hypoparathyroidism: R003 Nivolumab L01F/L01X w\n\nContinue exactly where the state leaves off. Do not repeat completed work.\n\n[BATCH 2 of 66; chunk 2 of 22 in this job]\nR004 | PRAC 2019-03 | Paracetamol | ATC3 N02B | signal: Paracetamol use in pregnancy and child neurodevelopment and effects on the urogenital apparatus | US label: unknown (paracetamol)\nR005 | PRAC 2019-04 | Armodafinil; modafinil | ATC3 N06B | signal: Evaluation of data on foetal outcomes including congenital anomalies from a single observational study in the US | US label: not found (armodafinil, label effective 20260306)\nR006 | PRAC 2019-04 | Rivaroxaban; apixaban; dabigatran; edoxaban | ATC3 B01A | signal: Recurrent thrombosis in patients with antiphospholipid syndrome | US label: not found (rivaroxaban, label effective 20260904)\n\nEnd every non-final chunk with [STATE_CHECKPOINT] followed by a concise state block:\nCOMPLETED: ...\nREMAINING: ...\nDECISIONS: ...\nCONTEXT: ...\nEnd the final chunk with [TASK_COMPLETE]. Exactly one marker per chunk. Never narrate the markers.",
+ "text": "{\"id\":\"R004\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R005\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R006\",\"us\":\"not found\",\"cross\":[]}\n[STATE_CHECKPOINT]\nCOMPLETED: R006\nREMAINING: 16\nDECISIONS: -\nCONTEXT: Interference with clinical laboratory tests: R001 Biotin A11H nf; Dysphagia: R002 Gabapentin N02B nf; Hypoparathyroidism: R003 Nivolumab L01F/L01X w; Paracetamol pregnancy neurodevelopment: R004 Paracetamol N02B nf; Foetal outcomes congenital anomalies: R005 Armodafinil/Modafinil N06B nf; Recurrent thrombosis antiphospholipid syndrome: R006 Rivaroxaban+ B01A nf"
+}

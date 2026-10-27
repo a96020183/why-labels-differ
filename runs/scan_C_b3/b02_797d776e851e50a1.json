@@ -1,0 +1,18 @@
+{
+ "tag": "b02",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {},
+ "latency": 58.442,
+ "hadThink": true,
+ "tries": 1,
+ "call": {
+  "stream": true,
+  "tierSplit": false,
+  "isoScope": true
+ },
+ "promptTokensEstimated": 520,
+ "rawChars": 123,
+ "task": "[RETRIEVED EVIDENCE LEDGER ROWS - same ingredient or same ATC level 3 as a row in this batch; 1 of 1 matches, most recent]\nR002 | PRAC 2019-01 | Gabapentin | ATC3 N02B | signal: Dysphagia | US label: not found (gabapentin, label effective 20260911) | ledger: {\"id\":\"R002\",\"us\":\"not found\",\"cross\":[]}\n\n[BATCH 2 of 66]\nR004 | PRAC 2019-03 | Paracetamol | ATC3 N02B | signal: Paracetamol use in pregnancy and child neurodevelopment and effects on the urogenital apparatus | US label: unknown (paracetamol)\nR005 | PRAC 2019-04 | Armodafinil; modafinil | ATC3 N06B | signal: Evaluation of data on foetal outcomes including congenital anomalies from a single observational study in the US | US label: not found (armodafinil, label effective 20260306)\nR006 | PRAC 2019-04 | Rivaroxaban; apixaban; dabigatran; edoxaban | ATC3 B01A | signal: Recurrent thrombosis in patients with antiphospholipid syndrome | US label: not found (rivaroxaban, label effective 20260904)",
+ "text": "{\"id\":\"R004\",\"us\":\"unknown\",\"cross\":[]}\n{\"id\":\"R005\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R006\",\"us\":\"not found\",\"cross\":[]}"
+}

@@ -1,0 +1,14 @@
+{
+ "tag": "b17",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {
+  "prompt_tokens": 5464,
+  "completion_tokens": 3472,
+  "total_tokens": 8936
+ },
+ "latency": 44.904,
+ "hadThink": true,
+ "promptTokensEstimated": 2339,
+ "text": "{\"id\":\"R129\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R130\",\"us\":\"written\",\"cross\":[{\"row\":\"R093\",\"substance\":\"Methotrexate\",\"us\":\"not found\"}]}\n{\"id\":\"R131\",\"us\":\"partial\",\"cross\":[]}\n{\"id\":\"R132\",\"us\":\"written\",\"cross\":[]}\n{\"id\":\"R133\",\"us\":\"partial\",\"cross\":[]}\n{\"id\":\"R134\",\"us\":\"written\",\"cross\":[]}\n{\"id\":\"R135\",\"us\":\"not found\",\"cross\":[{\"row\":\"R067\",\"substance\":\"Anakinra; canakinumab\",\"us\":\"written\"},{\"row\":\"R132\",\"substance\":\"Pirfenidone\",\"us\":\"written\"}]}\n{\"id\":\"R136\",\"us\":\"not found\",\"cross\":[]}"
+}

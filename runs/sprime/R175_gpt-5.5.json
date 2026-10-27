@@ -1,0 +1,21 @@
+{
+ "id": "R175",
+ "model_requested": "gpt-5.5",
+ "model_served": "gpt-5.5-2026-04-23",
+ "secs": 68.5,
+ "usage": {
+  "input_tokens": 83501,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 3712
+  },
+  "output_tokens": 3167,
+  "output_tokens_details": {
+   "reasoning_tokens": 2645
+  },
+  "total_tokens": 86668
+ },
+ "text": "{\"us_status\":\"written\",\"label_product\":\"PROGLYCEM (diazoxide) oral suspension, 50 mg/mL — Teva Pharmaceuticals USA, Inc.\",\"label_version_or_date\":\"DailyMed current version 17; updated 2026-10-06; Rev. 10/2026\",\"label_section\":\"WARNINGS — Necrotizing Enterocolitis in Neonates and Infants\",\"quote\":\"There have been postmarketing reports of necrotizing enterocolitis in neonates and infants treated with diazoxide, including fatal cases in neonates.\",\"eu\":\"EMA PRAC adopted 2025-09-04/published 2025-09-29: update diazoxide SmPC 4.4 and 4.8 for 'Necrotising enterocolitis neonatal'.\",\"uk\":\"UK Eudemine diazoxide SmPC includes 'Necrotising enterocolitis neonatal' in 4.4 Special warnings and precautions and 4.8 Undesirable effects; text revision 2025-11-21.\",\"us_regulator\":\"FDA: Drugs@FDA lists SUPPL-25 Labeling-Package Insert approved 2026-10-06; no separate diazoxide-NEC AEMS/FAERS potential-signal or Sentinel evaluation found.\",\"sources\":[\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b16c7832-2fd9-49af-b923-1dc0d91fd6e2\",\"https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/017453s025lbl.pdf\",\"https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?ApplNo=017453&event=overview.process\",\"https://www.ema.europa.eu/system/files/documents/prac-recommendation/prac-recommendations-signals-adopted-1-4-september-2025-prac_en.pdf\",\"https://www.gov.uk/guidance/find-product-information-about-medicines\",\"https://products.mhra.gov.uk/\",\"https://www.medicines.org.uk/emc/product/9136/smpc\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/april-june-2026-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse\",\"https://www.sentinelinitiative.org/studies/drugs/individual-drug-analyses\"]}",
+ "annotation_urls": [],
+ "at": "2026-10-24T01:54:54"
+}

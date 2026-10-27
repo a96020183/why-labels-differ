@@ -1,0 +1,21 @@
+{
+ "id": "R167",
+ "model_requested": "gpt-5.5",
+ "model_served": "gpt-5.5-2026-04-23",
+ "secs": 89.6,
+ "usage": {
+  "input_tokens": 91201,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 3712
+  },
+  "output_tokens": 5171,
+  "output_tokens_details": {
+   "reasoning_tokens": 4555
+  },
+  "total_tokens": 96372
+ },
+ "text": "{\"us_status\":\"partial\",\"label_product\":\"YESCARTA (axicabtagene ciloleucel) suspension for intravenous infusion\",\"label_version_or_date\":\"U.S. PI revised 8/2026; DailyMed updated 2026-08-06\",\"label_section\":\"Adverse Reactions (6.1), Clinical Trials Experience, Table 8 footnote a (relapsed/refractory follicular lymphoma); nonspecific only, as part of the Diarrhea composite—not as 'immune-mediated enterocolitis' or 'immune effector cell-associated enteritis' in Boxed Warning/W&P/Contraindications.\",\"quote\":\"Diarrhea includes diarrhea, colitis, enteritis.\",\"eu\":\"EU: PRAC June 2025 (EPITT 20133) found sufficient evidence/update only for Carvykti; for Yescarta evidence was insufficient to warrant PI/RMP update, routine pharmacovigilance to continue.\",\"uk\":\"UK/MHRA: current GB Yescarta SmPC (rev. 2026-09-01; emc last updated 2026-09-08) likewise has no specific immune-mediated enterocolitis/IEC-enteritis warning; only 'Diarrhoea includes diarrhoea, colitis, enteritis.'\",\"us_regulator\":\"FDA: public IEC-EC evaluation/labeling action found for CARVYKTI (2025-10-10 boxed-warning/W&P/postmarketing update after clinical-trial and postmarketing review); no public FDA AEMS/FAERS potential-signal or Sentinel evaluation found for Yescarta/axi-cel IEC-EC.\",\"sources\":[\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9b70606e-b99c-4272-a0f1-b5523cce0c59\",\"https://www.fda.gov/media/193167/download\",\"https://www.fda.gov/vaccines-blood-biologics/cellular-gene-therapy-products/yescarta\",\"https://www.ema.europa.eu/system/files/documents/minutes/minutes-prac-meeting-02-05-june-2025-revision-1-en.pdf\",\"https://www.ema.europa.eu/en/documents/product-information/yescarta-epar-product-information_en.pdf\",\"https://www.medicines.org.uk/emc/product/9439/smpc\",\"https://products.mhra.gov.uk/substance/?substance=AXICABTAGENE+CILOLEUCEL\",\"https://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/fda-approves-labeling-changes-include-boxed-warning-immune-effector-cell-associated-enterocolitis\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/october-december-2025-new-safety-information-or-potential-signals-serious-risks-identified-fda\"]}",
+ "annotation_urls": [],
+ "at": "2026-10-24T01:51:44"
+}

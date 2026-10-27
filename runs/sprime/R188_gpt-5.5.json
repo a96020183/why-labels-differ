@@ -1,0 +1,21 @@
+{
+ "id": "R188",
+ "model_requested": "gpt-5.5",
+ "model_served": "gpt-5.5-2026-04-23",
+ "secs": 106.4,
+ "usage": {
+  "input_tokens": 92703,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 3712
+  },
+  "output_tokens": 3848,
+  "output_tokens_details": {
+   "reasoning_tokens": 3302
+  },
+  "total_tokens": 96551
+ },
+ "text": "{\"us_status\":\"not found\",\"label_product\":\"ICLUSIG (ponatinib hydrochloride) tablets, for oral use\",\"label_version_or_date\":\"DailyMed current label updated August 14, 2026\",\"label_section\":\"Not mentioned; searched current U.S. label including Boxed Warning, Warnings and Precautions, Adverse Reactions/Postmarketing, Use in Specific Populations, and Medication Guide; no 'congenital megacolon' or 'Hirschsprung' found.\",\"quote\":\"\",\"eu\":\"EMA/PRAC Apr 2026 recommended PI update; current EU Iclusig SmPC section 4.6 states congenital megacolon/Hirschsprung’s cases after first-trimester ponatinib exposure.\",\"uk\":\"UK SmPC for Ponatinib Incyte/Iclusig-aligned ponatinib product includes the same warning in section 4.6 Pregnancy; text revised 26 Jun 2026 and eMC updated 15 Jul 2026.\",\"us_regulator\":\"No FDA public evaluation found for this signal: not listed on FDA AEMS potential-signal reports through Apr-Jun 2026, and no Sentinel study specific to ponatinib/congenital megacolon identified.\",\"sources\":[\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=16d804b6-4957-43ee-b18c-3b36ec37c5ac\",\"https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-7-10-april-2026-prac-meeting_en.pdf\",\"https://www.ema.europa.eu/en/documents/product-information/iclusig-epar-product-information_en.pdf\",\"https://www.medicines.org.uk/emc/product/1212/smpc\",\"https://products.mhra.gov.uk/\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/january-march-2026-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/april-june-2026-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse\",\"https://www.sentinelinitiative.org/studies/drugs\"]}",
+ "annotation_urls": [],
+ "at": "2026-10-24T02:01:41"
+}

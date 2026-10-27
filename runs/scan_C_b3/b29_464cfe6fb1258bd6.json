@@ -1,0 +1,18 @@
+{
+ "tag": "b29",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {},
+ "latency": 22.924,
+ "hadThink": true,
+ "tries": 1,
+ "call": {
+  "stream": true,
+  "tierSplit": false,
+  "isoScope": true
+ },
+ "promptTokensEstimated": 957,
+ "rawChars": 119,
+ "task": "[RETRIEVED EVIDENCE LEDGER ROWS - same ingredient or same ATC level 3 as a row in this batch; 7 of 7 matches, most recent]\nR068 | PRAC 2021-03 | COVID-19 vaccine (ChAdOx1-S [recombinant]) (COVID-19 Vaccine AstraZeneca) | ATC3 J07B | signal: Anaphylactic reaction | US label: not marketed (ChAdOx1-S (AstraZeneca) never licensed in the US) | ledger: {\"id\":\"R068\",\"us\":\"not marketed\",\"cross\":[]}\nR069 | PRAC 2021-03 | COVID-19 vaccine (ChAdOx1-S [recombinant]) (COVID-19 Vaccine AstraZeneca) | ATC3 J07B | signal: Embolic and thrombotic events | US label: not marketed (ChAdOx1-S never licensed in the US) | ledger: {\"id\":\"R069\",\"us\":\"not marketed\",\"cross\":[]}\nR072 | PRAC 2021-04 | COVID-19 vaccine (Ad26.COV2-S [recombinant]) - COVID-19 Vaccine Janssen | ATC3 J07B | signal: Embolic and thrombotic events | US label: not marketed (Ad26.COV2.S: US EUA revoked 2023-06) | ledger: {\"id\":\"R072\",\"us\":\"not marketed\",\"cross\":[]}\nR073 | PRAC 2021-04 | COVID-19 vaccine (ChAdOx1-S [recombinant]) - Vaxzevria (previously COVID-19 Vaccine AstraZeneca) | ATC3 J07B | signal: Embolic and thrombotic events | US label: not marketed (ChAdOx1-S never licensed in the US) | ledger: {\"id\":\"R073\",\"us\":\"not marketed\",\"cross\":[]}\nR076 | PRAC 2021-05 | COVID-19 mRNA vaccine (nucleoside-modified) - Comirnaty | ATC3 J07B | signal: Localised swelling in persons with history of dermal filler injections | US label: unknown (covid-19 mrna vaccine - comirnaty) | ledger: {\"id\":\"R076\",\"us\":\"unknown\",\"cross\":[]}\nR077 | PRAC 2021-05 | COVID-19 vaccine (Ad26.COV2-S [recombinant]) - COVID-19 Vaccine Janssen | ATC3 J07B | signal: Embolic and thrombotic events | US label: not marketed (Ad26.COV2.S: US EUA revoked 2023-06) | ledger: {\"id\":\"R077\",\"us\":\"not marketed\",\"cross\":[]}\nR083 | PRAC 2021-06 | COVID-19 vaccine (ChAdOx1-S [recombinant]) - Vaxzevria | ATC3 J07B | signal: Capillary leak syndrome | US label: not marketed (ChAdOx1-S never licensed in the US) | ledger: {\"id\":\"R083\",\"us\":\"not marketed\",\"cross\":[]}\n\n[BATCH 29 of 66]\nR085 | PRAC 2021-07 | COVID-19 mRNA vaccine (nucleoside-modified) - Comirnaty | ATC3 J07B | signal: Myocarditis and pericarditis | US label: written (comirnaty, label effective Sep 07, 2026, section: warnings_and_cautions)\nR086 | PRAC 2021-07 | COVID-19 mRNA vaccine (nucleoside-modified) - Spikevax (previously COVID-19 Vaccine Moderna) | ATC3 J07B | signal: Myocarditis and pericarditis | US label: written (spikevax, label effective Aug 31, 2026, section: warnings_and_cautions)\nR087 | PRAC 2021-07 | Donepezil | ATC3 N06D | signal: Cardiac conduction disorders including QT prolongation and torsades de pointes | US label: partial (aricept, label effective 20211230, section: adverse_reactions)",
+ "text": "{\"id\":\"R085\",\"us\":\"written\",\"cross\":[]}\n{\"id\":\"R086\",\"us\":\"written\",\"cross\":[]}\n{\"id\":\"R087\",\"us\":\"partial\",\"cross\":[]}"
+}

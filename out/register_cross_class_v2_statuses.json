@@ -1,0 +1,2541 @@
+{
+ "created": "2026-10-23",
+ "rule": "X counts if >=1 earlier row in the same reaction group shares no ATC level-3 code and no substance with X",
+ "n_questions": 31,
+ "n_groups": 17,
+ "annotator": "v2 independent AI reviewer (not a pharmacist); see answer_key_v2_independent.json",
+ "questions": [
+  {
+   "qid": "Q01",
+   "row": "R033",
+   "reaction": "microscopic colitis",
+   "sig": "Microscopic colitis",
+   "inn": "Paroxetine",
+   "atc3": [
+    "N06A"
+   ],
+   "answer": [
+    {
+     "id": "R010",
+     "substances": [
+      "pantoprazole"
+     ],
+     "atc3": [
+      "A02B"
+     ],
+     "sig": "Colitis microscopic",
+     "us_status": "not found",
+     "note": "",
+     "evidence": [
+      {
+       "search": "protonix",
+       "setid": "08098cb2-c048-4640-f387-6beec4a38936",
+       "title": "Protonix Delayed-Release (PANTOPRAZOLE SODIUM) Wyeth Pharmaceuticals LLC, a subsidiary of ",
+       "published": "20260518",
+       "status": "not found",
+       "section": null,
+       "snippet": null,
+       "note": null
+      }
+     ],
+     "same_batch": false
+    }
+   ],
+   "aems": [],
+   "all_cross_in_same_batch": false
+  },
+  {
+   "qid": "Q02",
+   "row": "R044",
+   "reaction": "microscopic colitis",
+   "sig": "Microscopic colitis",
+   "inn": "Sertraline",
+   "atc3": [
+    "N06A"
+   ],
+   "answer": [
+    {
+     "id": "R010",
+     "substances": [
+      "pantoprazole"
+     ],
+     "atc3": [
+      "A02B"
+     ],
+     "sig": "Colitis microscopic",
+     "us_status": "not found",
+     "note": "",
+     "evidence": [
+      {
+       "search": "protonix",
+       "setid": "08098cb2-c048-4640-f387-6beec4a38936",
+       "title": "Protonix Delayed-Release (PANTOPRAZOLE SODIUM) Wyeth Pharmaceuticals LLC, a subsidiary of ",
+       "published": "20260518",
+       "status": "not found",
+       "section": null,
+       "snippet": null,
+       "note": null
+      }
+     ],
+     "same_batch": false
+    }
+   ],
+   "aems": [],
+   "all_cross_in_same_batch": false
+  },
+  {
+   "qid": "Q03",
+   "row": "R037",
+   "reaction": "DRESS",
+   "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+   "inn": "Idelalisib",
+   "atc3": [
+    "L01E",
+    "L01X"
+   ],
+   "answer": [
+    {
+     "id": "R017",
+     "substances": [
+      "temozolomide"
+     ],
+     "atc3": [
+      "L01A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "us_status": "not found",
+     "note": "",
+     "evidence": [
+      {
+       "search": "temodar",
+       "setid": "046a9011-3911-4d3f-a15f-fbb56d5aad56",
+       "title": "TEMODAR (TEMOZOLOMIDE) Merck Sharp & Dohme LLC",
+       "published": "20260220",
+       "status": "not found",
+       "section": null,
+       "snippet": null,
+       "note": null
+      }
+     ],
+     "same_batch": false
+    }
+   ],
+   "aems": [
+    {
+     "page": "july-september-2023-potential-",
+     "row": "Elepsia XR (levetiracetam) Keppra (levetiracetam) Keppra XR (levetiracetam) Levetiracetam in Sodium Chloride Spritam (levetiracetam) | Drug reaction with eosinophilia and systemic symptoms | An FDA Drug Safety Communication was issued on November 28, 2023. The"
+    },
+    {
+     "page": "july-september-2023-potential-",
+     "row": "Gemcitabine Infugem (gemcitabine in sodium chloride injection) | Drug reaction with eosinophilia and systemic symptoms | Updated The “Dosage and Administration”, “Warnings and Precautions”, “Adverse Reactions”, and “Patient Counseling Information” sections of "
+    },
+    {
+     "page": "july-september-2023-potential-",
+     "row": "Onfi (clobazam) Sympazan (clobazam) | Drug reaction with eosinophilia and systemic symptoms | An FDA Drug Safety Communication was issued on November 28, 2023. The FDA is requiring applicants of these medicines to add new warnings about drug reaction with eosi"
+    }
+   ],
+   "all_cross_in_same_batch": false
+  },
+  {
+   "qid": "Q04",
+   "row": "R043",
+   "reaction": "DRESS",
+   "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+   "inn": "Mirtazapine",
+   "atc3": [
+    "N06A"
+   ],
+   "answer": [
+    {
+     "id": "R017",
+     "substances": [
+      "temozolomide"
+     ],
+     "atc3": [
+      "L01A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "us_status": "not found",
+     "note": "",
+     "evidence": [
+      {
+       "search": "temodar",
+       "setid": "046a9011-3911-4d3f-a15f-fbb56d5aad56",
+       "title": "TEMODAR (TEMOZOLOMIDE) Merck Sharp & Dohme LLC",
+       "published": "20260220",
+       "status": "not found",
+       "section": null,
+       "snippet": null,
+       "note": null
+      }
+     ],
+     "same_batch": false
+    },
+    {
+     "id": "R037",
+     "substances": [
+      "idelalisib"
+     ],
+     "atc3": [
+      "L01E",
+      "L01X"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "us_status": "written",
+     "note": "",
+     "evidence": [
+      {
+       "search": "zydelig",
+       "setid": "efbdafa9-d18c-4e85-b4a2-1e620fc74e50",
+       "title": "ZYDELIG (IDELALISIB) TABLET, FILM COATED [GILEAD SCIENCES, I () ",
+       "published": "Sep 21, 2026",
+       "status": "written",
+       "section": "warnings_and_cautions",
+       "snippet": "toxic epidermal necrolysis (TEN) have occurred in patients treated with Zydelig. Cases of drug reaction with eosinophilia and systemic symptoms (DRESS) have also occurred [see Adverse Reactions (6.2)]. Zydelig i",
+       "note": null
+      }
+     ],
+     "same_batch": false
+    }
+   ],
+   "aems": [
+    {
+     "page": "july-september-2023-potential-",
+     "row": "Elepsia XR (levetiracetam) Keppra (levetiracetam) Keppra XR (levetiracetam) Levetiracetam in Sodium Chloride Spritam (levetiracetam) | Drug reaction with eosinophilia and systemic symptoms | An FDA Drug Safety Communication was issued on November 28, 2023. The"
+    },
+    {
+     "page": "july-september-2023-potential-",
+     "row": "Gemcitabine Infugem (gemcitabine in sodium chloride injection) | Drug reaction with eosinophilia and systemic symptoms | Updated The “Dosage and Administration”, “Warnings and Precautions”, “Adverse Reactions”, and “Patient Counseling Information” sections of "
+    },
+    {
+     "page": "july-september-2023-potential-",
+     "row": "Onfi (clobazam) Sympazan (clobazam) | Drug reaction with eosinophilia and systemic symptoms | An FDA Drug Safety Communication was issued on November 28, 2023. The FDA is requiring applicants of these medicines to add new warnings about drug reaction with eosi"
+    }
+   ],
+   "all_cross_in_same_batch": false
+  },
+  {
+   "qid": "Q05",
+   "row": "R067",
+   "reaction": "DRESS",
+   "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+   "inn": "Anakinra; canakinumab",
+   "atc3": [
+    "L04A"
+   ],
+   "answer": [
+    {
+     "id": "R017",
+     "substances": [
+      "temozolomide"
+     ],
+     "atc3": [
+      "L01A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "us_status": "not found",
+     "note": "",
+     "evidence": [
+      {
+       "search": "temodar",
+       "setid": "046a9011-3911-4d3f-a15f-fbb56d5aad56",
+       "title": "TEMODAR (TEMOZOLOMIDE) Merck Sharp & Dohme LLC",
+       "published": "20260220",
+       "status": "not found",
+       "section": null,
+       "snippet": null,
+       "note": null
+      }
+     ],
+     "same_batch": false
+    },
+    {
+     "id": "R037",
+     "substances": [
+      "idelalisib"
+     ],
+     "atc3": [
+      "L01E",
+      "L01X"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "us_status": "written",
+     "note": "",
+     "evidence": [
+      {
+       "search": "zydelig",
+       "setid": "efbdafa9-d18c-4e85-b4a2-1e620fc74e50",
+       "title": "ZYDELIG (IDELALISIB) TABLET, FILM COATED [GILEAD SCIENCES, I () ",
+       "published": "Sep 21, 2026",
+       "status": "written",
+       "section": "warnings_and_cautions",
+       "snippet": "toxic epidermal necrolysis (TEN) have occurred in patients treated with Zydelig. Cases of drug reaction with eosinophilia and systemic symptoms (DRESS) have also occurred [see Adverse Reactions (6.2)]. Zydelig i",
+       "note": null
+      }
+     ],
+     "same_batch": false
+    },
+    {
+     "id": "R043",
+     "substances": [
+      "mirtazapine"
+     ],
+     "atc3": [
+      "N06A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "us_status": "written",
+     "note": "",
+     "evidence": [
+      {
+       "search": "remeron",
+       "setid": "98ad1917-a094-44f5-a28f-a64a8cfcd887",
+       "title": "REMERONSOLTAB (MIRTAZAPINE) Organon LLC",
+       "published": "20250806",
+       "status": "written",
+       "section": "warnings_and_cautions",
+       "snippet": "REMERONSolTab with caution in patients with risk factors for QT prolongation. ( 5.5 , 7 ) Drug Reaction with Eosinophilia and System Symptoms (DRESS) : Discontinue REMERON/REMERONSolTab if DRESS is suspected. ( ",
+       "note": null
+      }
+     ],
+     "same_batch": false
+    }
+   ],
+   "aems": [
+    {
+     "page": "july-september-2023-potential-",
+     "row": "Elepsia XR (levetiracetam) Keppra (levetiracetam) Keppra XR (levetiracetam) Levetiracetam in Sodium Chloride Spritam (levetiracetam) | Drug reaction with eosinophilia and systemic symptoms | An FDA Drug Safety Communication was issued on November 28, 2023. The"
+    },
+    {
+     "page": "july-september-2023-potential-",
+     "row": "Gemcitabine Infugem (gemcitabine in sodium chloride injection) | Drug reaction with eosinophilia and systemic symptoms | Updated The “Dosage and Administration”, “Warnings and Precautions”, “Adverse Reactions”, and “Patient Counseling Information” sections of "
+    },
+    {
+     "page": "july-september-2023-potential-",
+     "row": "Onfi (clobazam) Sympazan (clobazam) | Drug reaction with eosinophilia and systemic symptoms | An FDA Drug Safety Communication was issued on November 28, 2023. The FDA is requiring applicants of these medicines to add new warnings about drug reaction with eosi"
+    }
+   ],
+   "all_cross_in_same_batch": false
+  },
+  {
+   "qid": "Q06",
+   "row": "R132",
+   "reaction": "DRESS",
+   "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+   "inn": "Pirfenidone",
+   "atc3": [
+    "L04A"
+   ],
+   "answer": [
+    {
+     "id": "R017",
+     "substances": [
+      "temozolomide"
+     ],
+     "atc3": [
+      "L01A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "us_status": "not found",
+     "note": "",
+     "evidence": [
+      {
+       "search": "temodar",
+       "setid": "046a9011-3911-4d3f-a15f-fbb56d5aad56",
+       "title": "TEMODAR (TEMOZOLOMIDE) Merck Sharp & Dohme LLC",
+       "published": "20260220",
+       "status": "not found",
+       "section": null,
+       "snippet": null,
+       "note": null
+      }
+     ],
+     "same_batch": false
+    },
+    {
+     "id": "R037",
+     "substances": [
+      "idelalisib"
+     ],
+     "atc3": [
+      "L01E",
+      "L01X"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "us_status": "written",
+     "note": "",
+     "evidence": [
+      {
+       "search": "zydelig",
+       "setid": "efbdafa9-d18c-4e85-b4a2-1e620fc74e50",
+       "title": "ZYDELIG (IDELALISIB) TABLET, FILM COATED [GILEAD SCIENCES, I () ",
+       "published": "Sep 21, 2026",
+       "status": "written",
+       "section": "warnings_and_cautions",
+       "snippet": "toxic epidermal necrolysis (TEN) have occurred in patients treated with Zydelig. Cases of drug reaction with eosinophilia and systemic symptoms (DRESS) have also occurred [see Adverse Reactions (6.2)]. Zydelig i",
+       "note": null
+      }
+     ],
+     "same_batch": false
+    },
+    {
+     "id": "R043",
+     "substances": [
+      "mirtazapine"
+     ],
+     "atc3": [
+      "N06A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "us_status": "written",
+     "note": "",
+     "evidence": [
+      {
+       "search": "remeron",
+       "setid": "98ad1917-a094-44f5-a28f-a64a8cfcd887",
+       "title": "REMERONSOLTAB (MIRTAZAPINE) Organon LLC",
+       "published": "20250806",
+       "status": "written",
+       "section": "warnings_and_cautions",
+       "snippet": "REMERONSolTab with caution in patients with risk factors for QT prolongation. ( 5.5 , 7 ) Drug Reaction with Eosinophilia and System Symptoms (DRESS) : Discontinue REMERON/REMERONSolTab if DRESS is suspected. ( ",
+       "note": null
+      }
+     ],
+     "same_batch": false
+    }
+   ],
+   "aems": [
+    {
+     "page": "july-september-2023-potential-",
+     "row": "Elepsia XR (levetiracetam) Keppra (levetiracetam) Keppra XR (levetiracetam) Levetiracetam in Sodium Chloride Spritam (levetiracetam) | Drug reaction with eosinophilia and systemic symptoms | An FDA Drug Safety Communication was issued on November 28, 2023. The"
+    },
+    {
+     "page": "july-september-2023-potential-",
+     "row": "Gemcitabine Infugem (gemcitabine in sodium chloride injection) | Drug reaction with eosinophilia and systemic symptoms | Updated The “Dosage and Administration”, “Warnings and Precautions”, “Adverse Reactions”, and “Patient Counseling Information” sections of "
+    },
+    {
+     "page": "july-september-2023-potential-",
+     "row": "Onfi (clobazam) Sympazan (clobazam) | Drug reaction with eosinophilia and systemic symptoms | An FDA Drug Safety Communication was issued on November 28, 2023. The FDA is requiring applicants of these medicines to add new warnings about drug reaction with eosi"
+    }
+   ],
+   "all_cross_in_same_batch": false
+  },
+  {
+   "qid": "Q07",
+   "row": "R135",
+   "reaction": "DRESS",
+   "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+   "inn": "Cefotaxime",
+   "atc3": [
+    "J01D"
+   ],
+   "answer": [
+    {
+     "id": "R017",
+     "substances": [
+      "temozolomide"
+     ],
+     "atc3": [
+      "L01A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "us_status": "not found",
+     "note": "",
+     "evidence": [
+      {
+       "search": "temodar",
+       "setid": "046a9011-3911-4d3f-a15f-fbb56d5aad56",
+       "title": "TEMODAR (TEMOZOLOMIDE) Merck Sharp & Dohme LLC",
+       "published": "20260220",
+       "status": "not found",
+       "section": null,
+       "snippet": null,
+       "note": null
+      }
+     ],
+     "same_batch": false
+    },
+    {
+     "id": "R037",
+     "substances": [
+      "idelalisib"
+     ],
+     "atc3": [
+      "L01E",
+      "L01X"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "us_status": "written",
+     "note": "",
+     "evidence": [
+      {
+       "search": "zydelig",
+       "setid": "efbdafa9-d18c-4e85-b4a2-1e620fc74e50",
+       "title": "ZYDELIG (IDELALISIB) TABLET, FILM COATED [GILEAD SCIENCES, I () ",
+       "published": "Sep 21, 2026",
+       "status": "written",
+       "section": "warnings_and_cautions",
+       "snippet": "toxic epidermal necrolysis (TEN) have occurred in patients treated with Zydelig. Cases of drug reaction with eosinophilia and systemic symptoms (DRESS) have also occurred [see Adverse Reactions (6.2)]. Zydelig i",
+       "note": null
+      }
+     ],
+     "same_batch": false
+    },
+    {
+     "id": "R043",
+     "substances": [
+      "mirtazapine"
+     ],
+     "atc3": [
+      "N06A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "us_status": "written",
+     "note": "",
+     "evidence": [
+      {
+       "search": "remeron",
+       "setid": "98ad1917-a094-44f5-a28f-a64a8cfcd887",
+       "title": "REMERONSOLTAB (MIRTAZAPINE) Organon LLC",
+       "published": "20250806",
+       "status": "written",
+       "section": "warnings_and_cautions",
+       "snippet": "REMERONSolTab with caution in patients with risk factors for QT prolongation. ( 5.5 , 7 ) Drug Reaction with Eosinophilia and System Symptoms (DRESS) : Discontinue REMERON/REMERONSolTab if DRESS is suspected. ( ",
+       "note": null
+      }
+     ],
+     "same_batch": false
+    },
+    {
+     "id": "R067",
+     "substances": [
+      "anakinra",
+      "canakinumab"
+     ],
+     "atc3": [
+      "L04A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "us_status": "written",
+     "note": "",
+     "evidence": [
+      {
+       "search": "kineret",
+       "setid": "d9d74915-6606-4570-9c52-c4001d3177de",
+       "title": "Kineret (ANAKINRA) Swedish Orphan Biovitrum AB (publ)",
+       "published": "20260403",
+       "status": "written",
+       "section": "warnings_and_cautions",
+       "snippet": "ncluding anaphylactic reactions and angioedema, and serious cutaneous reactions including Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS) can occur; discontinue KINERET, treat promptly, and monitor",
+       "note": null
+      },
+      {
+       "search": "ilaris",
+       "setid": "7d271f3b-e4f9-4d80-8dcf-28d49123f80e",
+       "title": "Ilaris (CANAKINUMAB) Novartis Pharmaceuticals Corporation",
+       "published": "20260608",
+       "status": "written",
+       "section": "warnings_and_cautions",
+       "snippet": "n active infection requiring medical intervention. ( 5.1 ) Hypersensitivity Reactions and Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS) can occur; discontinue ILARIS, treat promptly, and monitor ",
+       "note": null
+      }
+     ],
+     "same_batch": false
+    },
+    {
+     "id": "R132",
+     "substances": [
+      "pirfenidone"
+     ],
+     "atc3": [
+      "L04A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "us_status": "written",
+     "note": "",
+     "evidence": [
+      {
+       "search": "esbriet",
+       "setid": "2e8c3537-36d7-4de5-9b5c-7a624b9a9e6e",
+       "title": "ESBRIET (PIRFENIDONE) Genentech, Inc.",
+       "published": "20251205",
+       "status": "written",
+       "section": "warnings_and_cautions",
+       "snippet": "c epidermal necrolysis (TEN), and drug reactions with eosinophilia and systemic symptoms (DRESS) have been reported in association with the use of ESBRIET in the postmarketing setting. ",
+       "note": null
+      }
+     ],
+     "same_batch": true
+    }
+   ],
+   "aems": [
+    {
+     "page": "july-september-2023-potential-",
+     "row": "Elepsia XR (levetiracetam) Keppra (levetiracetam) Keppra XR (levetiracetam) Levetiracetam in Sodium Chloride Spritam (levetiracetam) | Drug reaction with eosinophilia and systemic symptoms | An FDA Drug Safety Communication was issued on November 28, 2023. The"
+    },
+    {
+     "page": "july-september-2023-potential-",
+     "row": "Gemcitabine Infugem (gemcitabine in sodium chloride injection) | Drug reaction with eosinophilia and systemic symptoms | Updated The “Dosage and Administration”, “Warnings and Precautions”, “Adverse Reactions”, and “Patient Counseling Information” sections of "
+    },
+    {
+     "page": "july-september-2023-potential-",
+     "row": "Onfi (clobazam) Sympazan (clobazam) | Drug reaction with eosinophilia and systemic symptoms | An FDA Drug Safety Communication was issued on November 28, 2023. The FDA is requiring applicants of these medicines to add new warnings about drug reaction with eosi"
+    }
+   ],
+   "all_cross_in_same_batch": false
+  },
+  {
+   "qid": "Q08",
+   "row": "R142",
+   "reaction": "DRESS",
+   "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+   "inn": "Ethambutol",
+   "atc3": [
+    "J04A"
+   ],
+   "answer": [
+    {
+     "id": "R017",
+     "substances": [
+      "temozolomide"
+     ],
+     "atc3": [
+      "L01A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "us_status": "not found",
+     "note": "",
+     "evidence": [
+      {
+       "search": "temodar",
+       "setid": "046a9011-3911-4d3f-a15f-fbb56d5aad56",
+       "title": "TEMODAR (TEMOZOLOMIDE) Merck Sharp & Dohme LLC",
+       "published": "20260220",
+       "status": "not found",
+       "section": null,
+       "snippet": null,
+       "note": null
+      }
+     ],
+     "same_batch": false
+    },
+    {
+     "id": "R037",
+     "substances": [
+      "idelalisib"
+     ],
+     "atc3": [
+      "L01E",
+      "L01X"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "us_status": "written",
+     "note": "",
+     "evidence": [
+      {
+       "search": "zydelig",
+       "setid": "efbdafa9-d18c-4e85-b4a2-1e620fc74e50",
+       "title": "ZYDELIG (IDELALISIB) TABLET, FILM COATED [GILEAD SCIENCES, I () ",
+       "published": "Sep 21, 2026",
+       "status": "written",
+       "section": "warnings_and_cautions",
+       "snippet": "toxic epidermal necrolysis (TEN) have occurred in patients treated with Zydelig. Cases of drug reaction with eosinophilia and systemic symptoms (DRESS) have also occurred [see Adverse Reactions (6.2)]. Zydelig i",
+       "note": null
+      }
+     ],
+     "same_batch": false
+    },
+    {
+     "id": "R043",
+     "substances": [
+      "mirtazapine"
+     ],
+     "atc3": [
+      "N06A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "us_status": "written",
+     "note": "",
+     "evidence": [
+      {
+       "search": "remeron",
+       "setid": "98ad1917-a094-44f5-a28f-a64a8cfcd887",
+       "title": "REMERONSOLTAB (MIRTAZAPINE) Organon LLC",
+       "published": "20250806",
+       "status": "written",
+       "section": "warnings_and_cautions",
+       "snippet": "REMERONSolTab with caution in patients with risk factors for QT prolongation. ( 5.5 , 7 ) Drug Reaction with Eosinophilia and System Symptoms (DRESS) : Discontinue REMERON/REMERONSolTab if DRESS is suspected. ( ",
+       "note": null
+      }
+     ],
+     "same_batch": false
+    },
+    {
+     "id": "R067",
+     "substances": [
+      "anakinra",
+      "canakinumab"
+     ],
+     "atc3": [
+      "L04A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "us_status": "written",
+     "note": "",
+     "evidence": [
+      {
+       "search": "kineret",
+       "setid": "d9d74915-6606-4570-9c52-c4001d3177de",
+       "title": "Kineret (ANAKINRA) Swedish Orphan Biovitrum AB (publ)",
+       "published": "20260403",
+       "status": "written",
+       "section": "warnings_and_cautions",
+       "snippet": "ncluding anaphylactic reactions and angioedema, and serious cutaneous reactions including Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS) can occur; discontinue KINERET, treat promptly, and monitor",
+       "note": null
+      },
+      {
+       "search": "ilaris",
+       "setid": "7d271f3b-e4f9-4d80-8dcf-28d49123f80e",
+       "title": "Ilaris (CANAKINUMAB) Novartis Pharmaceuticals Corporation",
+       "published": "20260608",
+       "status": "written",
+       "section": "warnings_and_cautions",
+       "snippet": "n active infection requiring medical intervention. ( 5.1 ) Hypersensitivity Reactions and Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS) can occur; discontinue ILARIS, treat promptly, and monitor ",
+       "note": null
+      }
+     ],
+     "same_batch": false
+    },
+    {
+     "id": "R132",
+     "substances": [
+      "pirfenidone"
+     ],
+     "atc3": [
+      "L04A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "us_status": "written",
+     "note": "",
+     "evidence": [
+      {
+       "search": "esbriet",
+       "setid": "2e8c3537-36d7-4de5-9b5c-7a624b9a9e6e",
+       "title": "ESBRIET (PIRFENIDONE) Genentech, Inc.",
+       "published": "20251205",
+       "status": "written",
+       "section": "warnings_and_cautions",
+       "snippet": "c epidermal necrolysis (TEN), and drug reactions with eosinophilia and systemic symptoms (DRESS) have been reported in association with the use of ESBRIET in the postmarketing setting. ",
+       "note": null
+      }
+     ],
+     "same_batch": false
+    },
+    {
+     "id": "R135",
+     "substances": [
+      "cefotaxime"
+     ],
+     "atc3": [
+      "J01D"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "us_status": "not found",
+     "note": "",
+     "evidence": [
+      {
+       "search": "cefotaxime",
+       "setid": "ed23b6bc-32c7-4c50-a53d-313ae78e5623",
+       "title": "Cefotaxime (CEFOTAXIME) Hikma Pharmaceuticals USA Inc.",
+       "published": "20240411",
+       "status": "not found",
+       "section": null,
+       "snippet": null,
+       "note": null
+      }
+     ],
+     "same_batch": false
+    }
+   ],
+   "aems": [
+    {
+     "page": "july-september-2023-potential-",
+     "row": "Elepsia XR (levetiracetam) Keppra (levetiracetam) Keppra XR (levetiracetam) Levetiracetam in Sodium Chloride Spritam (levetiracetam) | Drug reaction with eosinophilia and systemic symptoms | An FDA Drug Safety Communication was issued on November 28, 2023. The"
+    },
+    {
+     "page": "july-september-2023-potential-",
+     "row": "Gemcitabine Infugem (gemcitabine in sodium chloride injection) | Drug reaction with eosinophilia and systemic symptoms | Updated The “Dosage and Administration”, “Warnings and Precautions”, “Adverse Reactions”, and “Patient Counseling Information” sections of "
+    },
+    {
+     "page": "july-september-2023-potential-",
+     "row": "Onfi (clobazam) Sympazan (clobazam) | Drug reaction with eosinophilia and systemic symptoms | An FDA Drug Safety Communication was issued on November 28, 2023. The FDA is requiring applicants of these medicines to add new warnings about drug reaction with eosi"
+    }
+   ],
+   "all_cross_in_same_batch": false
+  },
+  {
+   "qid": "Q09",
+   "row": "R191",
+   "reaction": "DRESS",
+   "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+   "inn": "Gemcitabine",
+   "atc3": [
+    "L01B"
+   ],
+   "answer": [
+    {
+     "id": "R017",
+     "substances": [
+      "temozolomide"
+     ],
+     "atc3": [
+      "L01A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "us_status": "not found",
+     "note": "",
+     "evidence": [
+      {
+       "search": "temodar",
+       "setid": "046a9011-3911-4d3f-a15f-fbb56d5aad56",
+       "title": "TEMODAR (TEMOZOLOMIDE) Merck Sharp & Dohme LLC",
+       "published": "20260220",
+       "status": "not found",
+       "section": null,
+       "snippet": null,
+       "note": null
+      }
+     ],
+     "same_batch": false
+    },
+    {
+     "id": "R037",
+     "substances": [
+      "idelalisib"
+     ],
+     "atc3": [
+      "L01E",
+      "L01X"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "us_status": "written",
+     "note": "",
+     "evidence": [
+      {
+       "search": "zydelig",
+       "setid": "efbdafa9-d18c-4e85-b4a2-1e620fc74e50",
+       "title": "ZYDELIG (IDELALISIB) TABLET, FILM COATED [GILEAD SCIENCES, I () ",
+       "published": "Sep 21, 2026",
+       "status": "written",
+       "section": "warnings_and_cautions",
+       "snippet": "toxic epidermal necrolysis (TEN) have occurred in patients treated with Zydelig. Cases of drug reaction with eosinophilia and systemic symptoms (DRESS) have also occurred [see Adverse Reactions (6.2)]. Zydelig i",
+       "note": null
+      }
+     ],
+     "same_batch": false
+    },
+    {
+     "id": "R043",
+     "substances": [
+      "mirtazapine"
+     ],
+     "atc3": [
+      "N06A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "us_status": "written",
+     "note": "",
+     "evidence": [
+      {
+       "search": "remeron",
+       "setid": "98ad1917-a094-44f5-a28f-a64a8cfcd887",
+       "title": "REMERONSOLTAB (MIRTAZAPINE) Organon LLC",
+       "published": "20250806",
+       "status": "written",
+       "section": "warnings_and_cautions",
+       "snippet": "REMERONSolTab with caution in patients with risk factors for QT prolongation. ( 5.5 , 7 ) Drug Reaction with Eosinophilia and System Symptoms (DRESS) : Discontinue REMERON/REMERONSolTab if DRESS is suspected. ( ",
+       "note": null
+      }
+     ],
+     "same_batch": false
+    },
+    {
+     "id": "R067",
+     "substances": [
+      "anakinra",
+      "canakinumab"
+     ],
+     "atc3": [
+      "L04A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "us_status": "written",
+     "note": "",
+     "evidence": [
+      {
+       "search": "kineret",
+       "setid": "d9d74915-6606-4570-9c52-c4001d3177de",
+       "title": "Kineret (ANAKINRA) Swedish Orphan Biovitrum AB (publ)",
+       "published": "20260403",
+       "status": "written",
+       "section": "warnings_and_cautions",
+       "snippet": "ncluding anaphylactic reactions and angioedema, and serious cutaneous reactions including Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS) can occur; discontinue KINERET, treat promptly, and monitor",
+       "note": null
+      },
+      {
+       "search": "ilaris",
+       "setid": "7d271f3b-e4f9-4d80-8dcf-28d49123f80e",
+       "title": "Ilaris (CANAKINUMAB) Novartis Pharmaceuticals Corporation",
+       "published": "20260608",
+       "status": "written",
+       "section": "warnings_and_cautions",
+       "snippet": "n active infection requiring medical intervention. ( 5.1 ) Hypersensitivity Reactions and Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS) can occur; discontinue ILARIS, treat promptly, and monitor ",
+       "note": null
+      }
+     ],
+     "same_batch": false
+    },
+    {
+     "id": "R132",
+     "substances": [
+      "pirfenidone"
+     ],
+     "atc3": [
+      "L04A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "us_status": "written",
+     "note": "",
+     "evidence": [
+      {
+       "search": "esbriet",
+       "setid": "2e8c3537-36d7-4de5-9b5c-7a624b9a9e6e",
+       "title": "ESBRIET (PIRFENIDONE) Genentech, Inc.",
+       "published": "20251205",
+       "status": "written",
+       "section": "warnings_and_cautions",
+       "snippet": "c epidermal necrolysis (TEN), and drug reactions with eosinophilia and systemic symptoms (DRESS) have been reported in association with the use of ESBRIET in the postmarketing setting. ",
+       "note": null
+      }
+     ],
+     "same_batch": false
+    },
+    {
+     "id": "R135",
+     "substances": [
+      "cefotaxime"
+     ],
+     "atc3": [
+      "J01D"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "us_status": "not found",
+     "note": "",
+     "evidence": [
+      {
+       "search": "cefotaxime",
+       "setid": "ed23b6bc-32c7-4c50-a53d-313ae78e5623",
+       "title": "Cefotaxime (CEFOTAXIME) Hikma Pharmaceuticals USA Inc.",
+       "published": "20240411",
+       "status": "not found",
+       "section": null,
+       "snippet": null,
+       "note": null
+      }
+     ],
+     "same_batch": false
+    },
+    {
+     "id": "R142",
+     "substances": [
+      "ethambutol"
+     ],
+     "atc3": [
+      "J04A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "us_status": "partial",
+     "note": "",
+     "evidence": [
+      {
+       "search": "ethambutol",
+       "setid": "c12b3482-55f0-4324-bdcd-b129ca2dae73",
+       "title": "Ethambutol Hydrochloride (ETHAMBUTOL HYDROCHLORIDE) REMEDYREPACK INC.",
+       "published": "20260731",
+       "status": "not found",
+       "section": null,
+       "snippet": null,
+       "note": null
+      }
+     ],
+     "same_batch": false
+    }
+   ],
+   "aems": [
+    {
+     "page": "july-september-2023-potential-",
+     "row": "Elepsia XR (levetiracetam) Keppra (levetiracetam) Keppra XR (levetiracetam) Levetiracetam in Sodium Chloride Spritam (levetiracetam) | Drug reaction with eosinophilia and systemic symptoms | An FDA Drug Safety Communication was issued on November 28, 2023. The"
+    },
+    {
+     "page": "july-september-2023-potential-",
+     "row": "Gemcitabine Infugem (gemcitabine in sodium chloride injection) | Drug reaction with eosinophilia and systemic symptoms | Updated The “Dosage and Administration”, “Warnings and Precautions”, “Adverse Reactions”, and “Patient Counseling Information” sections of "
+    },
+    {
+     "page": "july-september-2023-potential-",
+     "row": "Onfi (clobazam) Sympazan (clobazam) | Drug reaction with eosinophilia and systemic symptoms | An FDA Drug Safety Communication was issued on November 28, 2023. The FDA is requiring applicants of these medicines to add new warnings about drug reaction with eosi"
+    }
+   ],
+   "all_cross_in_same_batch": false
+  },
+  {
+   "qid": "Q10",
+   "row": "R197",
+   "reaction": "DRESS",
+   "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+   "inn": "Oxacillin",
+   "atc3": [
+    "J01C"
+   ],
+   "answer": [
+    {
+     "id": "R017",
+     "substances": [
+      "temozolomide"
+     ],
+     "atc3": [
+      "L01A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "us_status": "not found",
+     "note": "",
+     "evidence": [
+      {
+       "search": "temodar",
+       "setid": "046a9011-3911-4d3f-a15f-fbb56d5aad56",
+       "title": "TEMODAR (TEMOZOLOMIDE) Merck Sharp & Dohme LLC",
+       "published": "20260220",
+       "status": "not found",
+       "section": null,
+       "snippet": null,
+       "note": null
+      }
+     ],
+     "same_batch": false
+    },
+    {
+     "id": "R037",
+     "substances": [
+      "idelalisib"
+     ],
+     "atc3": [
+      "L01E",
+      "L01X"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "us_status": "written",
+     "note": "",
+     "evidence": [
+      {
+       "search": "zydelig",
+       "setid": "efbdafa9-d18c-4e85-b4a2-1e620fc74e50",
+       "title": "ZYDELIG (IDELALISIB) TABLET, FILM COATED [GILEAD SCIENCES, I () ",
+       "published": "Sep 21, 2026",
+       "status": "written",
+       "section": "warnings_and_cautions",
+       "snippet": "toxic epidermal necrolysis (TEN) have occurred in patients treated with Zydelig. Cases of drug reaction with eosinophilia and systemic symptoms (DRESS) have also occurred [see Adverse Reactions (6.2)]. Zydelig i",
+       "note": null
+      }
+     ],
+     "same_batch": false
+    },
+    {
+     "id": "R043",
+     "substances": [
+      "mirtazapine"
+     ],
+     "atc3": [
+      "N06A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "us_status": "written",
+     "note": "",
+     "evidence": [
+      {
+       "search": "remeron",
+       "setid": "98ad1917-a094-44f5-a28f-a64a8cfcd887",
+       "title": "REMERONSOLTAB (MIRTAZAPINE) Organon LLC",
+       "published": "20250806",
+       "status": "written",
+       "section": "warnings_and_cautions",
+       "snippet": "REMERONSolTab with caution in patients with risk factors for QT prolongation. ( 5.5 , 7 ) Drug Reaction with Eosinophilia and System Symptoms (DRESS) : Discontinue REMERON/REMERONSolTab if DRESS is suspected. ( ",
+       "note": null
+      }
+     ],
+     "same_batch": false
+    },
+    {
+     "id": "R067",
+     "substances": [
+      "anakinra",
+      "canakinumab"
+     ],
+     "atc3": [
+      "L04A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "us_status": "written",
+     "note": "",
+     "evidence": [
+      {
+       "search": "kineret",
+       "setid": "d9d74915-6606-4570-9c52-c4001d3177de",
+       "title": "Kineret (ANAKINRA) Swedish Orphan Biovitrum AB (publ)",
+       "published": "20260403",
+       "status": "written",
+       "section": "warnings_and_cautions",
+       "snippet": "ncluding anaphylactic reactions and angioedema, and serious cutaneous reactions including Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS) can occur; discontinue KINERET, treat promptly, and monitor",
+       "note": null
+      },
+      {
+       "search": "ilaris",
+       "setid": "7d271f3b-e4f9-4d80-8dcf-28d49123f80e",
+       "title": "Ilaris (CANAKINUMAB) Novartis Pharmaceuticals Corporation",
+       "published": "20260608",
+       "status": "written",
+       "section": "warnings_and_cautions",
+       "snippet": "n active infection requiring medical intervention. ( 5.1 ) Hypersensitivity Reactions and Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS) can occur; discontinue ILARIS, treat promptly, and monitor ",
+       "note": null
+      }
+     ],
+     "same_batch": false
+    },
+    {
+     "id": "R132",
+     "substances": [
+      "pirfenidone"
+     ],
+     "atc3": [
+      "L04A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "us_status": "written",
+     "note": "",
+     "evidence": [
+      {
+       "search": "esbriet",
+       "setid": "2e8c3537-36d7-4de5-9b5c-7a624b9a9e6e",
+       "title": "ESBRIET (PIRFENIDONE) Genentech, Inc.",
+       "published": "20251205",
+       "status": "written",
+       "section": "warnings_and_cautions",
+       "snippet": "c epidermal necrolysis (TEN), and drug reactions with eosinophilia and systemic symptoms (DRESS) have been reported in association with the use of ESBRIET in the postmarketing setting. ",
+       "note": null
+      }
+     ],
+     "same_batch": false
+    },
+    {
+     "id": "R135",
+     "substances": [
+      "cefotaxime"
+     ],
+     "atc3": [
+      "J01D"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "us_status": "not found",
+     "note": "",
+     "evidence": [
+      {
+       "search": "cefotaxime",
+       "setid": "ed23b6bc-32c7-4c50-a53d-313ae78e5623",
+       "title": "Cefotaxime (CEFOTAXIME) Hikma Pharmaceuticals USA Inc.",
+       "published": "20240411",
+       "status": "not found",
+       "section": null,
+       "snippet": null,
+       "note": null
+      }
+     ],
+     "same_batch": false
+    },
+    {
+     "id": "R142",
+     "substances": [
+      "ethambutol"
+     ],
+     "atc3": [
+      "J04A"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "us_status": "partial",
+     "note": "",
+     "evidence": [
+      {
+       "search": "ethambutol",
+       "setid": "c12b3482-55f0-4324-bdcd-b129ca2dae73",
+       "title": "Ethambutol Hydrochloride (ETHAMBUTOL HYDROCHLORIDE) REMEDYREPACK INC.",
+       "published": "20260731",
+       "status": "not found",
+       "section": null,
+       "snippet": null,
+       "note": null
+      }
+     ],
+     "same_batch": false
+    },
+    {
+     "id": "R191",
+     "substances": [
+      "gemcitabine"
+     ],
+     "atc3": [
+      "L01B"
+     ],
+     "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "us_status": "written",
+     "note": "",
+     "evidence": [
+      {
+       "search": "gemcitabine",
+       "setid": "dc02a23b-3ff9-4441-aa91-8e9e629a7315",
+       "title": "Gemcitabine (GEMCITABINE) Hospira, Inc.",
+       "published": "20260427",
+       "status": "written",
+       "section": "warnings_and_cautions",
+       "snippet": "SCARs) SCARs, including Stevens-Johnson syndrome (SJS), toxic epidermal necrolysis (TEN), drug reaction with eosinophilia and systemic symptoms (DRESS), and acute generalized exanthematous pustulosis (AGEP), whi",
+       "note": null
+      }
+     ],
+     "same_batch": false
+    }
+   ],
+   "aems": [
+    {
+     "page": "july-september-2023-potential-",
+     "row": "Elepsia XR (levetiracetam) Keppra (levetiracetam) Keppra XR (levetiracetam) Levetiracetam in Sodium Chloride Spritam (levetiracetam) | Drug reaction with eosinophilia and systemic symptoms | An FDA Drug Safety Communication was issued on November 28, 2023. The"
+    },
+    {
+     "page": "july-september-2023-potential-",
+     "row": "Gemcitabine Infugem (gemcitabine in sodium chloride injection) | Drug reaction with eosinophilia and systemic symptoms | Updated The “Dosage and Administration”, “Warnings and Precautions”, “Adverse Reactions”, and “Patient Counseling Information” sections of "
+    },
+    {
+     "page": "july-september-2023-potential-",
+     "row": "Onfi (clobazam) Sympazan (clobazam) | Drug reaction with eosinophilia and systemic symptoms | An FDA Drug Safety Communication was issued on November 28, 2023. The FDA is requiring applicants of these medicines to add new warnings about drug reaction with eosi"
+    }
+   ],
+   "all_cross_in_same_batch": false
+  },
+  {
+   "qid": "Q11",
+   "row": "R116",
+   "reaction": "myasthenia gravis",
+   "sig": "Myasthenia gravis",
+   "inn": "3-hydroxy 3-methylglutaryl coenzyme A (HMG-CoA) reductase inhibitors (statins): atorvastat",
+   "atc3": [
+    "A10B",
+    "C10A",
+    "C10B"
+   ],
+   "answer": [
+    {
+     "id": "R027",
+     "substances": [
+      "durvalumab"
+     ],
+     "atc3": [
+      "L01F",
+      "L01X"
+     ],
+     "sig": "Myasthenia gravis",
+     "us_status": "written",
+     "note": "",
+     "evidence": [
+      {
+       "search": "imfinzi",
+       "setid": "8baba4ea-2855-42fa-9bd9-5a7548d4cec3",
+       "title": "IMFINZI (DURVALUMAB) AstraZeneca Pharmaceuticals LP",
+       "published": "20260831",
+       "status": "written",
+       "section": "warnings_and_cautions",
+       "snippet": "Nervous system: Meningitis, encephalitis, myelitis and demyelination, myasthenic syndrome/myasthenia gravis (including exacerbation), Guillain-Barré syndrome, nerve paresis, autoimmune neuro",
+       "note": null
+      }
+     ],
+     "same_batch": false
+    }
+   ],
+   "aems": [
+    {
+     "page": "april-june-2023-potential-sign",
+     "row": "HMG-CoA reductase inhibitors Altoprev (lovastatin extended-release) Atorvaliq (atorvastatin calcium) Caduet (amlodipine and atorvastatin) Crestor (rosuvastatin) Ezallor Sprinkle (rosuvastatin) Flolipid (simvastatin) Lescol XL (fluvastatin sodium) Liptruzet (ez"
+    }
+   ],
+   "all_cross_in_same_batch": false
+  },
+  {
+   "qid": "Q12",
+   "row": "R080",
+   "reaction": "HLH",
+   "sig": "Haemophagocytic lymphohistiocytosis",
+   "inn": "Sulfamethoxazole, trimethoprim (co-trimoxazole)",
+   "atc3": [
+    "J01E"
+   ],
+   "answer": [
+    {
+     "id": "R032",
+     "substances": [
+      "nivolumab"
+     ],
+     "atc3": [
+      "L01F",
+      "L01X"
+     ],
+     "sig": "Haemophagocytic lymphohistiocytosis",
+     "us_status": "written",
+     "note": "",
+     "evidence": [
+      {
+       "search": "opdivo",
+       "setid": "f570b9c4-6846-4de2-abfa-4d0a4ae4e394",
+       "title": "OPDIVO (NIVOLUMAB) E.R. Squibb & Sons, L.L.C.",
+       "published": "20260812",
+       "status": "written",
+       "section": "warnings_and_cautions",
+       "snippet": "atic Endocrine: Hypoparathyroidism Hematologic/Immune: Hemolytic anemia, aplastic anemia, hemophagocytic lymphohistiocytosis, systemic inflammatory response syndrome, histiocytic necrotizing lym",
+       "note": null
+      }
+     ],
+     "same_batch": false
+    }
+   ],
+   "aems": [
+    {
+     "page": "july-september-2023-potential-",
+     "row": "Bactrim (sulfamethoxazole and trimethoprim) Bactrim DS (sulfamethoxazole and trimethoprim) Septra (sulfamethoxazole and trimethoprim) Septra DS (sulfamethoxazole and trimethoprim) Sulfatrim (sulfamethoxazole and trimethoprim) Sulfamethoxazole and Trimethoprim "
+    },
+    {
+     "page": "october-december-2023-potentia",
+     "row": "Braftovi (encorafenib) Zelboraf (vemurafenib) | Hemophagocytic lymphohistiocytosis | Updated FDA determined that no action was necessary at the time based on available information."
+    },
+    {
+     "page": "october-december-2024-new-safe",
+     "row": "Blincyto (blinatumomab) for injection Columvi (glofitamab-gxbm) injection Elrexfio (elranatamab-bcmm) injection Epkinly (epcoritamab-bysp) injection Imdelltra (tarlatamab-dlle) for injection Kimmtrak (tebentafusp-tebn) injection Talvey (talquetamab-tgvs) injec"
+    }
+   ],
+   "all_cross_in_same_batch": false
+  },
+  {
+   "qid": "Q13",
+   "row": "R094",
+   "reaction": "HLH",
+   "sig": "Haemophagocytic lymphohistiocytosis",
+   "inn": "Piperacillin; piperacillin, tazobactam",
+   "atc3": [
+    "J01C",
+    "J01D"
+   ],
+   "answer": [
+    {
+     "id": "R032",
+     "substances": [
+      "nivolumab"
+     ],
+     "atc3": [
+      "L01F",
+      "L01X"
+     ],
+     "sig": "Haemophagocytic lymphohistiocytosis",
+     "us_status": "written",
+     "note": "",
+     "evidence": [
+      {
+       "search": "opdivo",
+       "setid": "f570b9c4-6846-4de2-abfa-4d0a4ae4e394",
+       "title": "OPDIVO (NIVOLUMAB) E.R. Squibb & Sons, L.L.C.",
+       "published": "20260812",
+       "status": "written",
+       "section": "warnings_and_cautions",
+       "snippet": "atic Endocrine: Hypoparathyroidism Hematologic/Immune: Hemolytic anemia, aplastic anemia, hemophagocytic lymphohistiocytosis, systemic inflammatory response syndrome, histiocytic necrotizing lym",
+       "note": null
+      }
+     ],
+     "same_batch": false
+    },
+    {
+     "id": "R080",
+     "substances": [
+      "sulfamethoxazole",
+      "trimethoprim"
+     ],
+     "atc3": [
+      "J01E"
+     ],
+     "sig": "Haemophagocytic lymphohistiocytosis",
+     "us_status": "written",
+     "note": "",
+     "evidence": [
+      {
+       "search": "bactrim",
+       "setid": "f59d0c04-9c66-4d53-a0e1-cb55570deb62",
+       "title": "Bactrim (SULFAMETHOXAZOLE AND TRIMETHOPRIM) Sun Pharmaceutical Industries, Inc",
+       "published": "20241230",
+       "status": "written",
+       "section": "warnings",
+       "snippet": "pain, dyspnea, pallor, purpura or jaundice may be early indications of serious reactions. Hemophagocytic Lymphohistiocytosis Cases of hemophagocytic lymphohistiocytosis (HLH) have been reported ",
+       "note": null
+      }
+     ],
+     "same_batch": false
+    }
+   ],
+   "aems": [
+    {
+     "page": "july-september-2023-potential-",
+     "row": "Bactrim (sulfamethoxazole and trimethoprim) Bactrim DS (sulfamethoxazole and trimethoprim) Septra (sulfamethoxazole and trimethoprim) Septra DS (sulfamethoxazole and trimethoprim) Sulfatrim (sulfamethoxazole and trimethoprim) Sulfamethoxazole and Trimethoprim "
+    },
+    {
+     "page": "october-december-2023-potentia",
+     "row": "Braftovi (encorafenib) Zelboraf (vemurafenib) | Hemophagocytic lymphohistiocytosis | Updated FDA determined that no action was necessary at the time based on available information."
+    },
+    {
+     "page": "october-december-2024-new-safe",
+     "row": "Blincyto (blinatumomab) for injection Columvi (glofitamab-gxbm) injection Elrexfio (elranatamab-bcmm) injection Epkinly (epcoritamab-bysp) injection Imdelltra (tarlatamab-dlle) for injection Kimmtrak (tebentafusp-tebn) injection Talvey (talquetamab-tgvs) injec"
+    }
+   ],
+   "all_cross_in_same_batch": false
+  },
+  {
+   "qid": "Q14",
+   "row": "R117",
+   "reaction": "HLH",
+   "sig": "Haemophagocytic lymphohistiocytosis",
+   "inn": "Dabrafenib; trametinib",
+   "atc3": [
+    "L01E"
+   ],
+   "answer": [
+    {
+     "id": "R032",
+     "substances": [
+      "nivolumab"
+     ],
+     "atc3": [
+      "L01F",
+      "L01X"
+     ],
+     "sig": "Haemophagocytic lymphohistiocytosis",
+     "us_status": "written",
+     "note": "",
+     "evidence": [
+      {
+       "search": "opdivo",
+       "setid": "f570b9c4-6846-4de2-abfa-4d0a4ae4e394",
+       "title": "OPDIVO (NIVOLUMAB) E.R. Squibb & Sons, L.L.C.",
+       "published": "20260812",
+       "status": "written",
+       "section": "warnings_and_cautions",
+       "snippet": "atic Endocrine: Hypoparathyroidism Hematologic/Immune: Hemolytic anemia, aplastic anemia, hemophagocytic lymphohistiocytosis, systemic inflammatory response syndrome, histiocytic necrotizing lym",
+       "note": null
+      }
+     ],
+     "same_batch": false
+    },
+    {
+     "id": "R080",
+     "substances": [
+      "sulfamethoxazole",
+      "trimethoprim"
+     ],
+     "atc3": [
+      "J01E"
+     ],
+     "sig": "Haemophagocytic lymphohistiocytosis",
+     "us_status": "written",
+     "note": "",
+     "evidence": [
+      {
+       "search": "bactrim",
+       "setid": "f59d0c04-9c66-4d53-a0e1-cb55570deb62",
+       "title": "Bactrim (SULFAMETHOXAZOLE AND TRIMETHOPRIM) Sun Pharmaceutical Industries, Inc",
+       "published": "20241230",
+       "status": "written",
+       "section": "warnings",
+       "snippet": "pain, dyspnea, pallor, purpura or jaundice may be early indications of serious reactions. Hemophagocytic Lymphohistiocytosis Cases of hemophagocytic lymphohistiocytosis (HLH) have been reported ",
+       "note": null
+      }
+     ],
+     "same_batch": false
+    },
+    {
+     "id": "R094",
+     "substances": [
+      "piperacillin",
+      "tazobactam"
+     ],
+     "atc3": [
+      "J01C",
+      "J01D"
+     ],
+     "sig": "Haemophagocytic lymphohistiocytosis",
+     "us_status": "written",
+     "note": "",
+     "evidence": [
+      {
+       "search": "zosyn",
+       "setid": "8db6bd91-2106-4bfd-8cc8-38aaf1e18d17",
+       "title": "Zosyn (PIPERACILLIN SODIUM AND TAZOBACTAM SODIUM) Baxter Healthcare Corporation",
+       "published": "20260515",
+       "status": "written",
+       "section": "warnings_and_cautions",
+       "snippet": "generalized exanthematous pustulosis. Discontinue ZOSYN for progressive rashes. ( 5.2 ) • Hemophagocytic lymphohistiocytosis (HLH) has been reported with the use of ZOSYN. If HLH is suspected, d",
+       "note": null
+      }
+     ],
+     "same_batch": false
+    }
+   ],
+   "aems": [
+    {
+     "page": "july-september-2023-potential-",
+     "row": "Bactrim (sulfamethoxazole and trimethoprim) Bactrim DS (sulfamethoxazole and trimethoprim) Septra (sulfamethoxazole and trimethoprim) Septra DS (sulfamethoxazole and trimethoprim) Sulfatrim (sulfamethoxazole and trimethoprim) Sulfamethoxazole and Trimethoprim "
+    },
+    {
+     "page": "october-december-2023-potentia",
+     "row": "Braftovi (encorafenib) Zelboraf (vemurafenib) | Hemophagocytic lymphohistiocytosis | Updated FDA determined that no action was necessary at the time based on available information."
+    },
+    {
+     "page": "october-december-2024-new-safe",
+     "row": "Blincyto (blinatumomab) for injection Columvi (glofitamab-gxbm) injection Elrexfio (elranatamab-bcmm) injection Epkinly (epcoritamab-bysp) injection Imdelltra (tarlatamab-dlle) for injection Kimmtrak (tebentafusp-tebn) injection Talvey (talquetamab-tgvs) injec"
+    }
+   ],
+   "all_cross_in_same_batch": false
+  },
+  {
+   "qid": "Q15",
+   "row": "R127",
+   "reaction": "choroidal effusion",
+   "sig": "Choroidal effusion and choroidal detachment",
+   "inn": "Acetazolamide",
+   "atc3": [
+    "S01E"
+   ],
+   "answer": [
+    {
+     "id": "R034",
+     "substances": [
+      "thiazide",
+      "thiazide-like diuretics",
+      "combinations"
+     ],
+     "atc3": [
+      "C03A",
+      "C03B"
+     ],
+     "sig": "Choroidal effusion",
+     "us_status": "not found",
+     "note": "",
+     "evidence": [
+      {
+       "search": "hydrochlorothiazide",
+       "setid": "1b303136-dccd-178b-e063-6394a90a35f8",
+       "title": "Telmisartan and Hydrochlorothiazide (TELMISARTAN AND HYDROCHLOROTHIAZIDE) AvKARE",
+       "published": "20260908",
+       "status": "not found",
+       "section": null,
+       "snippet": null,
+       "note": null
+      }
+     ],
+     "same_batch": false
+    }
+   ],
+   "aems": [],
+   "all_cross_in_same_batch": false
+  },
+  {
+   "qid": "Q16",
+   "row": "R098",
+   "reaction": "suppressed lactation",
+   "sig": "Nipple pain and suppressed lactation",
+   "inn": "Labetalol",
+   "atc3": [
+    "C07A"
+   ],
+   "answer": [
+    {
+     "id": "R045",
+     "substances": [
+      "desogestrel"
+     ],
+     "atc3": [
+      "G03A"
+     ],
+     "sig": "Suppressed lactation",
+     "us_status": "not marketed",
+     "note": "",
+     "evidence": [
+      {
+       "search": "desogestrel",
+       "setid": "78454ebf-f1a3-4ca0-b32e-88c51bc57773",
+       "title": "Desogestrel and Ethinyl Estradiol (DESOGESTREL AND ETHINYL ESTRADIOL) Camber Pharmaceutica",
+       "published": "20260624",
+       "status": "written",
+       "section": "precautions",
+       "snippet": "ition, oral contraceptives given in the postpartum period may interfere with lactation by decreasing the quantity and quality of breast milk. If possible, the nursing mother should be advised not to use oral contraceptives but to ",
+       "note": null
+      }
+     ],
+     "same_batch": false
+    }
+   ],
+   "aems": [],
+   "all_cross_in_same_batch": false
+  },
+  {
+   "qid": "Q17",
+   "row": "R087",
+   "reaction": "QT prolongation",
+   "sig": "Cardiac conduction disorders including QT prolongation and torsades de pointes",
+   "inn": "Donepezil",
+   "atc3": [
+    "N06D"
+   ],
+   "answer": [
+    {
+     "id": "R047",
+     "substances": [
+      "lisdexamfetamine"
+     ],
+     "atc3": [
+      "N06B"
+     ],
+     "sig": "QT prolongation and cardiac arrhythmia",
+     "us_status": "not found",
+     "note": "",
+     "evidence": [
+      {
+       "search": "vyvanse",
+       "setid": "704e4378-ca83-445c-8b45-3cfa51c1ecad",
+       "title": "Vyvanse (LISDEXAMFETAMINE DIMESYLATE) Takeda Pharmaceuticals America, Inc.",
+       "published": "20260430",
+       "status": "not found",
+       "section": null,
+       "snippet": null,
+       "note": null
+      }
+     ],
+     "same_batch": false
+    }
+   ],
+   "aems": [
+    {
+     "page": "april-june-2023-potential-sign",
+     "row": "Cholinesterase inhibitors Adlarity (donepezil transdermal system) Aricept (donepezil hydrochloride) Aricept ODT (donepezil hydrochloride) Bloxiverz (neostigmine methylsulfate) Enlon-Plus (edrophonium chloride and atropine sulfate) Exelon Patch (rivastigmine tr"
+    },
+    {
+     "page": "april-june-2023-potential-sign",
+     "row": "Cholinesterase inhibitors Adlarity (donepezil transdermal system) Aricept (donepezil hydrochloride) Aricept ODT (donepezil hydrochloride) Bloxiverz (neostigmine methylsulfate) Enlon-Plus (edrophonium chloride and atropine sulfate) Exelon Patch (rivastigmine tr"
+    },
+    {
+     "page": "october-december-2023-potentia",
+     "row": "Central Nervous System (CNS) stimulants | Electrocardiogram QT prolonged | Updated FDA determined that no action was necessary at the time based on available information."
+    }
+   ],
+   "all_cross_in_same_batch": false
+  },
+  {
+   "qid": "Q18",
+   "row": "R060",
+   "reaction": "anaphylaxis",
+   "sig": "Anaphylactic reaction",
+   "inn": "Capecitabine",
+   "atc3": [
+    "L01B"
+   ],
+   "answer": [
+    {
+     "id": "R049",
+     "substances": [
+      "abiraterone"
+     ],
+     "atc3": [
+      "L01X",
+      "L02B"
+     ],
+     "sig": "Anaphylactic reaction",
+     "us_status": "partial",
+     "note": "",
+     "evidence": [
+      {
+       "search": "zytiga",
+       "setid": "4e338e89-3cf2-48eb-b6e2-a06c608c6513",
+       "title": "Zytiga (ABIRATERONE ACETATE) Janssen Biotech, Inc.",
+       "published": "20250328",
+       "status": "partial",
+       "section": "adverse_reactions",
+       "snippet": "or had underlying cardiovascular conditions). Immune System Disorders – Hypersensitivity: anaphylactic reactions (severe allergic reactions that include, but are not limited to difficulty ",
+       "note": null
+      }
+     ],
+     "same_batch": false
+    }
+   ],
+   "aems": [
+    {
+     "page": "april-june-2023-potential-sign",
+     "row": "Acetadote (acetylcysteine) | Overdose | Updated The “Warnings and Precautions,” “Adverse Reactions,” and “Overdosage” sections of the Prescribing Information were updated in November 2024 to describe fatal outcomes associated with acetylcysteine overdosage, in"
+    },
+    {
+     "page": "april-june-2023-potential-sign",
+     "row": "Mounjaro (tirzepatide) | Hypersensitivity | The “Contraindications”, “Warnings and Precautions”, and “Postmarketing Experience” sections of the labeling were updated July 2023 to include serious hypersensitivity reactions, including anaphylaxis and angioedema."
+    },
+    {
+     "page": "april-june-2023-potential-sign",
+     "row": "Vyvgart (efgartigimod alfa-fcab) Vyvgart Hytrulo (efgartigimod alfa and hyaluronidase-qvfc) | Anaphylactic reaction | Updated The “Contraindications”, “Warnings and Precautions”, “Adverse Reactions”, and the \"Patient Counseling Information\" sections of the lab"
+    },
+    {
+     "page": "april-june-2024-new-safety-inf",
+     "row": "Copaxone (glatiramer acetate) | Anaphylactic reaction | FDA is evaluating the need for regulatory action."
+    },
+    {
+     "page": "april-june-2025-new-safety-inf",
+     "row": "Acetaminophen-containing products | Anaphylactic reaction | FDA is evaluating the need for regulatory action."
+    },
+    {
+     "page": "april-june-2025-new-safety-inf",
+     "row": "Barium sulfate-containing products Entero Vu 24% (barium sulfate) oral suspension E-Z-Disk (barium sulfate) tablets Liquid E-Z-Paque (barium sulfate) oral suspension Readi-Cat 2 (barium sulfate) oral suspension Readi-Cat 2 Smoothie (barium sulfate) oral suspen"
+    }
+   ],
+   "all_cross_in_same_batch": false
+  },
+  {
+   "qid": "Q19",
+   "row": "R068",
+   "reaction": "anaphylaxis",
+   "sig": "Anaphylactic reaction",
+   "inn": "COVID-19 vaccine (ChAdOx1-S [recombinant]) (COVID-19 Vaccine AstraZeneca)",
+   "atc3": [
+    "J07B"
+   ],
+   "answer": [
+    {
+     "id": "R049",
+     "substances": [
+      "abiraterone"
+     ],
+     "atc3": [
+      "L01X",
+      "L02B"
+     ],
+     "sig": "Anaphylactic reaction",
+     "us_status": "partial",
+     "note": "",
+     "evidence": [
+      {
+       "search": "zytiga",
+       "setid": "4e338e89-3cf2-48eb-b6e2-a06c608c6513",
+       "title": "Zytiga (ABIRATERONE ACETATE) Janssen Biotech, Inc.",
+       "published": "20250328",
+       "status": "partial",
+       "section": "adverse_reactions",
+       "snippet": "or had underlying cardiovascular conditions). Immune System Disorders – Hypersensitivity: anaphylactic reactions (severe allergic reactions that include, but are not limited to difficulty ",
+       "note": null
+      }
+     ],
+     "same_batch": false
+    },
+    {
+     "id": "R060",
+     "substances": [
+      "capecitabine"
+     ],
+     "atc3": [
+      "L01B"
+     ],
+     "sig": "Anaphylactic reaction",
+     "us_status": "partial",
+     "note": "",
+     "evidence": [
+      {
+       "search": "xeloda",
+       "setid": "e702d84d-7162-4751-bf37-d724cc7e45a5",
+       "title": "XELODA (CAPECITABINE) H2-Pharma, LLC",
+       "published": "20260205",
+       "status": "not found",
+       "section": null,
+       "snippet": null,
+       "note": null
+      }
+     ],
+     "same_batch": false
+    }
+   ],
+   "aems": [
+    {
+     "page": "april-june-2023-potential-sign",
+     "row": "Acetadote (acetylcysteine) | Overdose | Updated The “Warnings and Precautions,” “Adverse Reactions,” and “Overdosage” sections of the Prescribing Information were updated in November 2024 to describe fatal outcomes associated with acetylcysteine overdosage, in"
+    },
+    {
+     "page": "april-june-2023-potential-sign",
+     "row": "Mounjaro (tirzepatide) | Hypersensitivity | The “Contraindications”, “Warnings and Precautions”, and “Postmarketing Experience” sections of the labeling were updated July 2023 to include serious hypersensitivity reactions, including anaphylaxis and angioedema."
+    },
+    {
+     "page": "april-june-2023-potential-sign",
+     "row": "Vyvgart (efgartigimod alfa-fcab) Vyvgart Hytrulo (efgartigimod alfa and hyaluronidase-qvfc) | Anaphylactic reaction | Updated The “Contraindications”, “Warnings and Precautions”, “Adverse Reactions”, and the \"Patient Counseling Information\" sections of the lab"
+    },
+    {
+     "page": "april-june-2024-new-safety-inf",
+     "row": "Copaxone (glatiramer acetate) | Anaphylactic reaction | FDA is evaluating the need for regulatory action."
+    },
+    {
+     "page": "april-june-2025-new-safety-inf",
+     "row": "Acetaminophen-containing products | Anaphylactic reaction | FDA is evaluating the need for regulatory action."
+    },
+    {
+     "page": "april-june-2025-new-safety-inf",
+     "row": "Barium sulfate-containing products Entero Vu 24% (barium sulfate) oral suspension E-Z-Disk (barium sulfate) tablets Liquid E-Z-Paque (barium sulfate) oral suspension Readi-Cat 2 (barium sulfate) oral suspension Readi-Cat 2 Smoothie (barium sulfate) oral suspen"
+    }
+   ],
+   "all_cross_in_same_batch": false
+  },
+  {
+   "qid": "Q20",
+   "row": "R180",
+   "reaction": "anaphylaxis",
+   "sig": "Anaphylactic reaction",
+   "inn": "Datopotamab deruxtecan",
+   "atc3": [
+    "L01F"
+   ],
+   "answer": [
+    {
+     "id": "R049",
+     "substances": [
+      "abiraterone"
+     ],
+     "atc3": [
+      "L01X",
+      "L02B"
+     ],
+     "sig": "Anaphylactic reaction",
+     "us_status": "partial",
+     "note": "",
+     "evidence": [
+      {
+       "search": "zytiga",
+       "setid": "4e338e89-3cf2-48eb-b6e2-a06c608c6513",
+       "title": "Zytiga (ABIRATERONE ACETATE) Janssen Biotech, Inc.",
+       "published": "20250328",
+       "status": "partial",
+       "section": "adverse_reactions",
+       "snippet": "or had underlying cardiovascular conditions). Immune System Disorders – Hypersensitivity: anaphylactic reactions (severe allergic reactions that include, but are not limited to difficulty ",
+       "note": null
+      }
+     ],
+     "same_batch": false
+    },
+    {
+     "id": "R060",
+     "substances": [
+      "capecitabine"
+     ],
+     "atc3": [
+      "L01B"
+     ],
+     "sig": "Anaphylactic reaction",
+     "us_status": "partial",
+     "note": "",
+     "evidence": [
+      {
+       "search": "xeloda",
+       "setid": "e702d84d-7162-4751-bf37-d724cc7e45a5",
+       "title": "XELODA (CAPECITABINE) H2-Pharma, LLC",
+       "published": "20260205",
+       "status": "not found",
+       "section": null,
+       "snippet": null,
+       "note": null
+      }
+     ],
+     "same_batch": false
+    },
+    {
+     "id": "R068",
+     "substances": [
+      "covid-19 vaccine"
+     ],
+     "atc3": [
+      "J07B"
+     ],
+     "sig": "Anaphylactic reaction",
+     "us_status": "not marketed",
+     "note": "ChAdOx1-S (AstraZeneca) never licensed in the US",
+     "evidence": [],
+     "same_batch": false
+    }
+   ],
+   "aems": [
+    {
+     "page": "april-june-2023-potential-sign",
+     "row": "Acetadote (acetylcysteine) | Overdose | Updated The “Warnings and Precautions,” “Adverse Reactions,” and “Overdosage” sections of the Prescribing Information were updated in November 2024 to describe fatal outcomes associated with acetylcysteine overdosage, in"
+    },
+    {
+     "page": "april-june-2023-potential-sign",
+     "row": "Mounjaro (tirzepatide) | Hypersensitivity | The “Contraindications”, “Warnings and Precautions”, and “Postmarketing Experience” sections of the labeling were updated July 2023 to include serious hypersensitivity reactions, including anaphylaxis and angioedema."
+    },
+    {
+     "page": "april-june-2023-potential-sign",
+     "row": "Vyvgart (efgartigimod alfa-fcab) Vyvgart Hytrulo (efgartigimod alfa and hyaluronidase-qvfc) | Anaphylactic reaction | Updated The “Contraindications”, “Warnings and Precautions”, “Adverse Reactions”, and the \"Patient Counseling Information\" sections of the lab"
+    },
+    {
+     "page": "april-june-2024-new-safety-inf",
+     "row": "Copaxone (glatiramer acetate) | Anaphylactic reaction | FDA is evaluating the need for regulatory action."
+    },
+    {
+     "page": "april-june-2025-new-safety-inf",
+     "row": "Acetaminophen-containing products | Anaphylactic reaction | FDA is evaluating the need for regulatory action."
+    },
+    {
+     "page": "april-june-2025-new-safety-inf",
+     "row": "Barium sulfate-containing products Entero Vu 24% (barium sulfate) oral suspension E-Z-Disk (barium sulfate) tablets Liquid E-Z-Paque (barium sulfate) oral suspension Readi-Cat 2 (barium sulfate) oral suspension Readi-Cat 2 Smoothie (barium sulfate) oral suspen"
+    }
+   ],
+   "all_cross_in_same_batch": false
+  },
+  {
+   "qid": "Q21",
+   "row": "R130",
+   "reaction": "PML",
+   "sig": "Progressive multifocal leukoencephalopathy (PML)",
+   "inn": "Axicabtagene ciloleucel",
+   "atc3": [
+    "L01X"
+   ],
+   "answer": [
+    {
+     "id": "R052",
+     "substances": [
+      "pomalidomide"
+     ],
+     "atc3": [
+      "L04A"
+     ],
+     "sig": "Progressive multifocal leukoencephalopathy (PML)",
+     "us_status": "partial",
+     "note": "",
+     "evidence": [
+      {
+       "search": "pomalyst",
+       "setid": "2b25ef01-5c9e-11e1-b86c-0800200c9a66",
+       "title": "Pomalyst (POMALIDOMIDE) Celgene Corporation",
+       "published": "20250226",
+       "status": "partial",
+       "section": "adverse_reactions",
+       "snippet": "ant rejection Infections and Infestations: Hepatitis B virus reactivation, Herpes zoster, progressive multifocal leukoencephalopathy (PML) Neoplasms benign, malignant and unspecified (incl cysts and polyps): Tumor lysis sy",
+       "note": null
+      }
+     ],
+     "same_batch": false
+    },
+    {
+     "id": "R093",
+     "substances": [
+      "methotrexate"
+     ],
+     "atc3": [
+      "L01B",
+      "L04A"
+     ],
+     "sig": "Progressive multifocal leukoencephalopathy (PML)",
+     "us_status": "not found",
+     "note": "",
+     "evidence": [
+      {
+       "search": "trexall",
+       "setid": "e942f8db-510f-44d6-acb5-b822196f5e8c",
+       "title": "Trexall (METHOTREXATE) Teva Women's Health LLC",
+       "published": "20260617",
+       "status": "not found",
+       "section": null,
+       "snippet": null,
+       "note": null
+      }
+     ],
+     "same_batch": false
+    }
+   ],
+   "aems": [
+    {
+     "page": "april-june-2025-new-safety-inf",
+     "row": "Blincyto (blinatumomab) for injection Columvi (glofitamab-gxbm) injection Elrexfio (elranatamab-bcmm) injection Epkinly (epcoritamab-bysp) injection Imdelltra (tarlatamab-dlle) for injection Kimmtrak (tebentafusp-tebn) injection Lunsumio (mosunetuzumab-axgb) i"
+    },
+    {
+     "page": "july-september-2023-potential-",
+     "row": "Gilenya (fingolimod) Mayzent (siponimod) Ponvory (ponesimod) Tascenso ODT (fingolimod) Zeposia (ozanimod) | Progressive multifocal leukoencephalopathy | Updated The “Warnings and Precautions” section of the labeling was updated in June 2024 to include informat"
+    }
+   ],
+   "all_cross_in_same_batch": false
+  },
+  {
+   "qid": "Q22",
+   "row": "R171",
+   "reaction": "PML",
+   "sig": "Progressive multifocal leukoencephalopathy",
+   "inn": "Ciltacabtagene autoleucel; idecabtagene vicleucel; tisagenlecleucel",
+   "atc3": [
+    "L01X"
+   ],
+   "answer": [
+    {
+     "id": "R052",
+     "substances": [
+      "pomalidomide"
+     ],
+     "atc3": [
+      "L04A"
+     ],
+     "sig": "Progressive multifocal leukoencephalopathy (PML)",
+     "us_status": "partial",
+     "note": "",
+     "evidence": [
+      {
+       "search": "pomalyst",
+       "setid": "2b25ef01-5c9e-11e1-b86c-0800200c9a66",
+       "title": "Pomalyst (POMALIDOMIDE) Celgene Corporation",
+       "published": "20250226",
+       "status": "partial",
+       "section": "adverse_reactions",
+       "snippet": "ant rejection Infections and Infestations: Hepatitis B virus reactivation, Herpes zoster, progressive multifocal leukoencephalopathy (PML) Neoplasms benign, malignant and unspecified (incl cysts and polyps): Tumor lysis sy",
+       "note": null
+      }
+     ],
+     "same_batch": false
+    },
+    {
+     "id": "R093",
+     "substances": [
+      "methotrexate"
+     ],
+     "atc3": [
+      "L01B",
+      "L04A"
+     ],
+     "sig": "Progressive multifocal leukoencephalopathy (PML)",
+     "us_status": "not found",
+     "note": "",
+     "evidence": [
+      {
+       "search": "trexall",
+       "setid": "e942f8db-510f-44d6-acb5-b822196f5e8c",
+       "title": "Trexall (METHOTREXATE) Teva Women's Health LLC",
+       "published": "20260617",
+       "status": "not found",
+       "section": null,
+       "snippet": null,
+       "note": null
+      }
+     ],
+     "same_batch": false
+    }
+   ],
+   "aems": [
+    {
+     "page": "april-june-2025-new-safety-inf",
+     "row": "Blincyto (blinatumomab) for injection Columvi (glofitamab-gxbm) injection Elrexfio (elranatamab-bcmm) injection Epkinly (epcoritamab-bysp) injection Imdelltra (tarlatamab-dlle) for injection Kimmtrak (tebentafusp-tebn) injection Lunsumio (mosunetuzumab-axgb) i"
+    },
+    {
+     "page": "july-september-2023-potential-",
+     "row": "Gilenya (fingolimod) Mayzent (siponimod) Ponvory (ponesimod) Tascenso ODT (fingolimod) Zeposia (ozanimod) | Progressive multifocal leukoencephalopathy | Updated The “Warnings and Precautions” section of the labeling was updated in June 2024 to include informat"
+    }
+   ],
+   "all_cross_in_same_batch": false
+  },
+  {
+   "qid": "Q23",
+   "row": "R074",
+   "reaction": "sarcoidosis",
+   "sig": "Sarcoidosis",
+   "inn": "Alemtuzumab",
+   "atc3": [
+    "L01X",
+    "L04A"
+   ],
+   "answer": [
+    {
+     "id": "R056",
+     "substances": [
+      "dabrafenib",
+      "trametinib"
+     ],
+     "atc3": [
+      "L01E"
+     ],
+     "sig": "Sarcoidosis",
+     "us_status": "partial",
+     "note": "",
+     "evidence": [
+      {
+       "search": "tafinlar",
+       "setid": "fee1e6b1-e1a5-4254-9f2e-a70e0f8dbdea",
+       "title": "Tafinlar (DABRAFENIB) Novartis Pharmaceuticals Corporation",
+       "published": "20260520",
+       "status": "partial",
+       "section": "adverse_reactions",
+       "snippet": "lock Gastrointestinal: Colitis, gastrointestinal perforation, pancreatitis Immune System: Sarcoidosis Nervous System: Peripheral neuropathy, Guillain-Barré syndrome Skin and Subcutaneous ",
+       "note": null
+      },
+      {
+       "search": "mekinist",
+       "setid": "0002ad27-779d-42ab-83b5-bc65453412a1",
+       "title": "Mekinist (TRAMETINIB) Novartis Pharmaceuticals Corporation",
+       "published": "20260507",
+       "status": "partial",
+       "section": "adverse_reactions",
+       "snippet": "ib were: Cardiac: Bradycardia, atrioventricular block, bundle branch block Immune System: Sarcoidosis Musculoskeletal and Connective Tissue: Rhabdomyolysis Nervous System: Peripheral neur",
+       "note": null
+      }
+     ],
+     "same_batch": false
+    }
+   ],
+   "aems": [
+    {
+     "page": "july-september-2025-new-safety",
+     "row": "Braftovi (encorafenib) capsules Tafinlar (dabrafenib) capsules; tablets Zelboraf (vemurafenib) tablet | Sarcoidosis | FDA is evaluating the need for regulatory action."
+    },
+    {
+     "page": "july-september-2025-new-safety",
+     "row": "Cotellic (cobimetinib) tablets Mekinist (trametinib) tablets; oral solution Mektovi (binimetinib) tablets | Sarcoidosis | FDA is evaluating the need for regulatory action."
+    }
+   ],
+   "all_cross_in_same_batch": false
+  },
+  {
+   "qid": "Q24",
+   "row": "R124",
+   "reaction": "capillary leak syndrome",
+   "sig": "Capillary leak syndrome (Opdivo, Yervoy, Keytruda) and cytokine release syndrome (Opdivo)",
+   "inn": "Ipilimumab; nivolumab; pembrolizumab",
+   "atc3": [
+    "L01F",
+    "L01X"
+   ],
+   "answer": [
+    {
+     "id": "R083",
+     "substances": [
+      "covid-19 vaccine - vaxzevria"
+     ],
+     "atc3": [
+      "J07B"
+     ],
+     "sig": "Capillary leak syndrome",
+     "us_status": "not marketed",
+     "note": "ChAdOx1-S never licensed in the US",
+     "evidence": [],
+     "same_batch": false
+    },
+    {
+     "id": "R110",
+     "substances": [
+      "elasomeran - spikevax"
+     ],
+     "atc3": [
+      "J07B"
+     ],
+     "sig": "Capillary leak syndrome",
+     "us_status": "not found",
+     "note": "",
+     "evidence": [
+      {
+       "search": "spikevax",
+       "setid": "f96b315c-fa57-4876-a7e5-a9b584d8e6e6",
+       "title": "SPIKEVAX (COVID-19 VACCINE, MRNA) INJECTION, SUSPENSION [MOD () ",
+       "published": "Aug 31, 2026",
+       "status": "not found",
+       "section": null,
+       "snippet": null,
+       "note": null
+      }
+     ],
+     "same_batch": false
+    }
+   ],
+   "aems": [],
+   "all_cross_in_same_batch": false
+  },
+  {
+   "qid": "Q25",
+   "row": "R105",
+   "reaction": "erythema multiforme",
+   "sig": "Erythema multiforme",
+   "inn": "Enzalutamide",
+   "atc3": [
+    "L02B"
+   ],
+   "answer": [
+    {
+     "id": "R090",
+     "substances": [
+      "covid-19 mrna vaccine - comirnaty"
+     ],
+     "atc3": [
+      "J07B"
+     ],
+     "sig": "Erythema multiforme",
+     "us_status": "not found",
+     "note": "",
+     "evidence": [
+      {
+       "search": "comirnaty",
+       "setid": "48c86164-de07-4041-b9dc-f2b5744714e5",
+       "title": "COMIRNATY (COVID-19 VACCINE, MRNA) INJECTION, SUSPENSION [PF () ",
+       "published": "Sep 07, 2026",
+       "status": "not found",
+       "section": null,
+       "snippet": null,
+       "note": null
+      }
+     ],
+     "same_batch": false
+    },
+    {
+     "id": "R091",
+     "substances": [
+      "covid-19 mrna vaccine - spikevax"
+     ],
+     "atc3": [
+      "J07B"
+     ],
+     "sig": "Erythema multiforme",
+     "us_status": "partial",
+     "note": "",
+     "evidence": [
+      {
+       "search": "spikevax",
+       "setid": "f96b315c-fa57-4876-a7e5-a9b584d8e6e6",
+       "title": "SPIKEVAX (COVID-19 VACCINE, MRNA) INJECTION, SUSPENSION [MOD () ",
+       "published": "Aug 31, 2026",
+       "status": "partial",
+       "section": "adverse_reactions",
+       "snippet": "t least 28 days of follow-up after Dose 2. A 3-year-old male participant experienced mild erythema multiforme (bilateral arms) 3 days after receiving Dose 2 which resolved the next day without treatm",
+       "note": null
+      }
+     ],
+     "same_batch": false
+    }
+   ],
+   "aems": [],
+   "all_cross_in_same_batch": false
+  },
+  {
+   "qid": "Q26",
+   "row": "R137",
+   "reaction": "erythema multiforme",
+   "sig": "Erythema multiforme",
+   "inn": "Abemaciclib; palbociclib; ribociclib",
+   "atc3": [
+    "L01E"
+   ],
+   "answer": [
+    {
+     "id": "R090",
+     "substances": [
+      "covid-19 mrna vaccine - comirnaty"
+     ],
+     "atc3": [
+      "J07B"
+     ],
+     "sig": "Erythema multiforme",
+     "us_status": "not found",
+     "note": "",
+     "evidence": [
+      {
+       "search": "comirnaty",
+       "setid": "48c86164-de07-4041-b9dc-f2b5744714e5",
+       "title": "COMIRNATY (COVID-19 VACCINE, MRNA) INJECTION, SUSPENSION [PF () ",
+       "published": "Sep 07, 2026",
+       "status": "not found",
+       "section": null,
+       "snippet": null,
+       "note": null
+      }
+     ],
+     "same_batch": false
+    },
+    {
+     "id": "R091",
+     "substances": [
+      "covid-19 mrna vaccine - spikevax"
+     ],
+     "atc3": [
+      "J07B"
+     ],
+     "sig": "Erythema multiforme",
+     "us_status": "partial",
+     "note": "",
+     "evidence": [
+      {
+       "search": "spikevax",
+       "setid": "f96b315c-fa57-4876-a7e5-a9b584d8e6e6",
+       "title": "SPIKEVAX (COVID-19 VACCINE, MRNA) INJECTION, SUSPENSION [MOD () ",
+       "published": "Aug 31, 2026",
+       "status": "partial",
+       "section": "adverse_reactions",
+       "snippet": "t least 28 days of follow-up after Dose 2. A 3-year-old male participant experienced mild erythema multiforme (bilateral arms) 3 days after receiving Dose 2 which resolved the next day without treatm",
+       "note": null
+      }
+     ],
+     "same_batch": false
+    },
+    {
+     "id": "R105",
+     "substances": [
+      "enzalutamide"
+     ],
+     "atc3": [
+      "L02B"
+     ],
+     "sig": "Erythema multiforme",
+     "us_status": "partial",
+     "note": "",
+     "evidence": [
+      {
+       "search": "xtandi",
+       "setid": "b129fdc9-1d8e-425c-a5a9-8a2ed36dfbdf",
+       "title": "Xtandi (ENZALUTAMIDE) Astellas Pharma US, Inc.",
+       "published": "20260728",
+       "status": "partial",
+       "section": "adverse_reactions",
+       "snippet": "ders: rash, severe cutaneous adverse reactions (including Stevens-Johnson syndrome (SJS), erythema multiforme, toxic epidermal necrolysis (TEN), drug reaction with eosinophilia and systemic symptoms ",
+       "note": null
+      }
+     ],
+     "same_batch": false
+    }
+   ],
+   "aems": [],
+   "all_cross_in_same_batch": false
+  },
+  {
+   "qid": "Q27",
+   "row": "R149",
+   "reaction": "toxic epidermal necrolysis",
+   "sig": "Toxic epidermal necrolysis and Stevens-Johnson syndrome",
+   "inn": "Bumetanide",
+   "atc3": [
+    "C03C"
+   ],
+   "answer": [
+    {
+     "id": "R104",
+     "substances": [
+      "pregabalin"
+     ],
+     "atc3": [
+      "N02B",
+      "N03A"
+     ],
+     "sig": "Toxic epidermal necrolysis",
+     "us_status": "not found",
+     "note": "",
+     "evidence": [
+      {
+       "search": "lyrica",
+       "setid": "f280bbd8-2af2-444a-bd96-e409337ca6dd",
+       "title": "Lyrica CR (PREGABALIN) Viatris Specialty LLC",
+       "published": "20260312",
+       "status": "not found",
+       "section": null,
+       "snippet": null,
+       "note": null
+      }
+     ],
+     "same_batch": false
+    }
+   ],
+   "aems": [
+    {
+     "page": "january-march-2024-new-safety-",
+     "row": "Krazati (adagrasib) | Toxic epidermal necrolysis | FDA is evaluating the need for regulatory action."
+    }
+   ],
+   "all_cross_in_same_batch": false
+  },
+  {
+   "qid": "Q28",
+   "row": "R184",
+   "reaction": "thrombotic microangiopathy",
+   "sig": "Renal-limited thrombotic microangiopathy",
+   "inn": "Pegylated liposomal doxorubicin",
+   "atc3": [
+    "L01D"
+   ],
+   "answer": [
+    {
+     "id": "R118",
+     "substances": [
+      "regorafenib"
+     ],
+     "atc3": [
+      "L01E"
+     ],
+     "sig": "Thrombotic microangiopathy",
+     "us_status": "not found",
+     "note": "",
+     "evidence": [
+      {
+       "search": "stivarga",
+       "setid": "824f19c9-0546-4a8a-8d8f-c4055c04f7c7",
+       "title": "Stivarga (REGORAFENIB) Bayer HealthCare Pharmaceuticals Inc.",
+       "published": "20260209",
+       "status": "not found",
+       "section": null,
+       "snippet": null,
+       "note": null
+      }
+     ],
+     "same_batch": false
+    }
+   ],
+   "aems": [
+    {
+     "page": "april-june-2023-potential-sign",
+     "row": "Acetadote (acetylcysteine) | Overdose | Updated The “Warnings and Precautions,” “Adverse Reactions,” and “Overdosage” sections of the Prescribing Information were updated in November 2024 to describe fatal outcomes associated with acetylcysteine overdosage, in"
+    },
+    {
+     "page": "july-september-2023-potential-",
+     "row": "Stivarga (regorafenib) | Thrombotic microangiopathy | Updated FDA determined that no action was necessary at the time based on available information."
+    },
+    {
+     "page": "july-september-2025-new-safety",
+     "row": "Cabometyx (cabozantinib) tablets Cometriq (cabozantinib) capsules Lenvima (lenvatinib) capsules | Thrombotic microangiopathy | FDA is evaluating the need for regulatory action."
+    }
+   ],
+   "all_cross_in_same_batch": false
+  },
+  {
+   "qid": "Q29",
+   "row": "R179",
+   "reaction": "cutaneous vasculitis",
+   "sig": "Cutaneous vasculitis",
+   "inn": "Bosutinib",
+   "atc3": [
+    "L01E"
+   ],
+   "answer": [
+    {
+     "id": "R128",
+     "substances": [
+      "azacitidine"
+     ],
+     "atc3": [
+      "L01B"
+     ],
+     "sig": "Cutaneous vasculitis",
+     "us_status": "partial",
+     "note": "",
+     "evidence": [
+      {
+       "search": "vidaza",
+       "setid": "3495a71a-cc04-4776-851f-f185956f32af",
+       "title": "VIDAZA (AZACITIDINE) Celgene Corporation",
+       "published": "20240129",
+       "status": "partial",
+       "section": "adverse_reactions",
+       "snippet": "fatal cases) ‑ Differentiation syndrome ‑ Pericardial effusion ‑ Pericarditis ‑ Cutaneous vasculitis",
+       "note": null
+      }
+     ],
+     "same_batch": false
+    }
+   ],
+   "aems": [
+    {
+     "page": "january-march-2025-new-safety-",
+     "row": "Poly (ADP-ribose) polymerase (PARP) inhibitors Akeega (niraparib and abiraterone acetate) tablets Lynparza (olaparib) tablets Rubraca (rucaparib) tablets Talzenna (talazoparib) capsules Zejula (niraparib) tablets | Vasculitis | FDA is evaluating the need for r"
+    },
+    {
+     "page": "july-september-2023-potential-",
+     "row": "Syfovre (pegcetacoplan injection) | Retinal vasculitis | The “Warnings and Precautions”, “Postmarketing Experience”, and “Patient Counseling Information” sections of the labeling were updated in November 2023 to include retinal vasculitis and/or retinal vascul"
+    },
+    {
+     "page": "october-december-2024-new-safe",
+     "row": "Celexa (citalopram) tablets Citalopram capsules Lexapro (escitalopram) oral solution; tablets | Cutaneous vasculitis | FDA is evaluating the need for regulatory action."
+    }
+   ],
+   "all_cross_in_same_batch": false
+  },
+  {
+   "qid": "Q30",
+   "row": "R157",
+   "reaction": "pulmonary oedema",
+   "sig": "Pulmonary oedema in patients with veno-occlusive disease",
+   "inn": "Nitric oxide",
+   "atc3": [
+    "R07A"
+   ],
+   "answer": [
+    {
+     "id": "R148",
+     "substances": [
+      "acetazolamide"
+     ],
+     "atc3": [
+      "S01E"
+     ],
+     "sig": "Pulmonary oedemas",
+     "us_status": "partial",
+     "note": "override: only hit is high-altitude pulmonary edema as a disease context, not a drug-induced reaction",
+     "evidence": [
+      {
+       "search": "acetazolamide",
+       "setid": "4813b9dd-5f58-44bb-ad64-cdb331828080",
+       "title": "Acetazolamide (ACETAZOLAMIDE) Strides Pharma Science Limited",
+       "published": "20260819",
+       "status": "written",
+       "section": "precautions",
+       "snippet": "eed for prompt descent if severe forms of high altitude sickness occur, ie, high altitude pulmonary edema (HAPE) or high altitude cerebral edema. Caution is advised for patients receiving concomi",
+       "note": null
+      }
+     ],
+     "same_batch": false
+    }
+   ],
+   "aems": [],
+   "all_cross_in_same_batch": false
+  },
+  {
+   "qid": "Q31",
+   "row": "R164",
+   "reaction": "hyperammonaemia",
+   "sig": "Hyperammonaemia, hyperammonaemic encephalopathy",
+   "inn": "Regorafenib",
+   "atc3": [
+    "L01E"
+   ],
+   "answer": [
+    {
+     "id": "R162",
+     "substances": [
+      "tegafur",
+      "gimeracil",
+      "oteracil"
+     ],
+     "atc3": [
+      "L01B"
+     ],
+     "sig": "Hyperammonaemia",
+     "us_status": "not marketed",
+     "note": "tegafur/gimeracil/oteracil not approved in the US",
+     "evidence": [],
+     "same_batch": true
+    }
+   ],
+   "aems": [],
+   "all_cross_in_same_batch": true
+  }
+ ]
+}

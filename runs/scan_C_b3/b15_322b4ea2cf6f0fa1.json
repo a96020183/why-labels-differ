@@ -1,0 +1,18 @@
+{
+ "tag": "b15",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {},
+ "latency": 18.808,
+ "hadThink": true,
+ "tries": 1,
+ "call": {
+  "stream": true,
+  "tierSplit": false,
+  "isoScope": true
+ },
+ "promptTokensEstimated": 808,
+ "rawChars": 121,
+ "task": "[RETRIEVED EVIDENCE LEDGER ROWS - same ingredient or same ATC level 3 as a row in this batch; 6 of 6 matches, most recent]\nR007 | PRAC 2019-04 | Selective serotonin reuptake inhibitors (SSRI): citalopram; escitalopram | ATC3 N06A | signal: Drug interaction with fluconazole | US label: not found (citalopram, label effective 20260904) | ledger: {\"id\":\"R007\",\"us\":\"not found\",\"cross\":[]}\nR008 | PRAC 2019-05 | Clomipramine; Serotonin and noradrenaline reuptake inhibitors (SNRI): desvenlafaxine; duloxetine; milnacipran; | ATC3 N06A | signal: Persistent sexual dysfunction after drug withdrawal | US label: not found (desvenlafaxine, label effective 20260821) | ledger: {\"id\":\"R008\",\"us\":\"not found\",\"cross\":[]}\nR011 | PRAC 2019-05 | Sertraline | ATC3 N06A | signal: Maculopathy | US label: not found (sertraline, label effective 20260903) | ledger: {\"id\":\"R011\",\"us\":\"not found\",\"cross\":[]}\nR033 | PRAC 2020-03 | Paroxetine | ATC3 N06A | signal: Microscopic colitis | US label: not found (paxil, label effective Oct 02, 2026) | ledger: {\"id\":\"R033\",\"us\":\"not found\",\"cross\":[]}\nR041 | PRAC 2020-05 | Hormone replacement therapy (HRT): chlorotrianisene; conjugated estrogens; conjugated estrogens, bazedoxifene; | ATC3 G03A,G03C,G03D,G03X,H01C,L02A | signal: New information on the known risk of breast cancer | US label: unknown (chlorotrianisene) | ledger: {\"id\":\"R041\",\"us\":\"unknown\",\"cross\":[]}\nR042 | PRAC 2020-05 | Mirtazapine | ATC3 N06A | signal: Amnesia | US label: partial (mirtazapine, label effective 20260916, section: adverse_reactions) | ledger: {\"id\":\"R042\",\"us\":\"partial\",\"cross\":[]}\n\n[BATCH 15 of 66]\nR043 | PRAC 2020-05 | Mirtazapine | ATC3 N06A | signal: Drug reaction with eosinophilia and systemic symptoms (DRESS) | US label: written (remeron, label effective 20250806, section: warnings_and_cautions)\nR044 | PRAC 2020-05 | Sertraline | ATC3 N06A | signal: Microscopic colitis | US label: not found (zoloft, label effective 20230808)\nR045 | PRAC 2020-06 | Desogestrel | ATC3 G03A | signal: Suppressed lactation | US label: written (desogestrel, label effective 20260624, section: precautions)",
+ "text": "{\"id\":\"R043\",\"us\":\"written\",\"cross\":[]}\n{\"id\":\"R044\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R045\",\"us\":\"written\",\"cross\":[]}"
+}

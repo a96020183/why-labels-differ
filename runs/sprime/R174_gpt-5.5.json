@@ -1,0 +1,21 @@
+{
+ "id": "R174",
+ "model_requested": "gpt-5.5",
+ "model_served": "gpt-5.5-2026-04-23",
+ "secs": 78.4,
+ "usage": {
+  "input_tokens": 100876,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 3712
+  },
+  "output_tokens": 3375,
+  "output_tokens_details": {
+   "reasoning_tokens": 2765
+  },
+  "total_tokens": 104251
+ },
+ "text": "{\"us_status\":\"not found\",\"label_product\":\"MEKTOVI (binimetinib) tablets, for oral use\",\"label_version_or_date\":\"DailyMed current label; Revised: 3/2025\",\"label_section\":\"Not found in the current U.S. prescribing information; full-label text search for 'tattoo' was negative.\",\"quote\":\"\",\"eu\":\"EMA PRAC Sep 2025 EPITT 20160: tattoo-associated skin reaction; PI update for dabrafenib/trametinib, but for binimetinib/encorafenib PRAC says monitor in PSUR; current EMA Mektovi PI has no tattoo mention.\",\"uk\":\"MHRA/UK current Mektovi SmPC revised 28/09/2026, last updated on emc 12 Oct 2026; no tattoo mention found.\",\"us_regulator\":\"No FDA public evaluation found for tattoo-associated skin reaction; FDA AEMS/FAERS pages list other Mektovi/MEK-inhibitor signals (e.g., photosensitivity, sarcoidosis, severe cutaneous adverse reaction, myocarditis), not tattoo-associated skin reaction.\",\"sources\":[\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6c3408ac-d401-4925-8a03-26591afbc240\",\"https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/210498s011lbl.pdf\",\"https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-1-4-september-2025-prac-meeting_en.pdf\",\"https://www.ema.europa.eu/en/documents/product-information/mektovi-epar-product-information_en.pdf\",\"https://www.gov.uk/guidance/find-product-information-about-medicines\",\"https://products.mhra.gov.uk/substance/?substance=BINIMETINIB\",\"https://www.medicines.org.uk/emc/product/9501/smpc\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/january-march-2023-potential-signals-serious-risksnew-safety-information-identified-fda-adverse\",\"https://www.fda.gov/drugs/fdas-adverse-event-reporting-system-faers/july-september-2025-potential-signals-serious-risksnew-safety-information-identified-fda-adverse\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/january-march-2026-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/april-june-2026-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse\"]}",
+ "annotation_urls": [],
+ "at": "2026-10-24T01:54:40"
+}

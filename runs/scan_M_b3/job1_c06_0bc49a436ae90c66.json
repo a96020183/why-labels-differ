@@ -1,0 +1,18 @@
+{
+ "tag": "job1_c06",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {},
+ "latency": 95.642,
+ "hadThink": true,
+ "tries": 1,
+ "call": {
+  "stream": true,
+  "tierSplit": false,
+  "isoScope": true
+ },
+ "promptTokensEstimated": 973,
+ "rawChars": 1204,
+ "task": "Continuing a chunked research run. Goal (truncated): Scan PRAC rows batch 1-22 into the divergence ledger and keep the cross-entry index in CONTEXT.\n\n[CARRYOVER STATE]\nCOMPLETED: R015\nREMAINING: 7\nDECISIONS: -\nCONTEXT: Interference with clinical laboratory tests: R001 Biotin A11H nf; Dysphagia: R002 Gabapentin N02B nf; Hypoparathyroidism: R003 Nivolumab L01F/L01X w; Paracetamol pregnancy neurodevelopment: R004 Paracetamol N02B nf; Foetal outcomes congenital anomalies: R005 Armodafinil/Modafinil N06B nf, R013 Propylthiouracil H03B nf; Recurrent thrombosis antiphospholipid syndrome: R006 Rivaroxaban+ B01A nf; Drug interaction with fluconazole: R007 Citalopram/Escitalopram N06A nf; Persistent sexual dysfunction after drug withdrawal: R008 Clomipramine/SNRI N06A nf; Interaction with boosted antiviral HIV therapy: R009 Clopidogrel B01A nf; Colitis microscopic: R010 Pantoprazole A02B nf; Maculopathy: R011 Sertraline N06A nf; Brugada syndrome (loperamide abuse): R012 Loperamide A07D nf; Transcatheter valve thrombosis: R014 Rivaroxaban B01A nf; Exfoliative dermatitis: R015 Secukinumab L04A nf\n\nContinue exactly where the state leaves off. Do not repeat completed work.\n\n[BATCH 6 of 66; chunk 6 of 22 in this job]\nR016 | PRAC 2019-06 | Sulfasalazine | ATC3 A07E | signal: Interference with dihydronicotinamide-adenine dinucleotide / dihydronicotinamide-adenine dinucleotide phosphate (NADH/NA | US label: not found (sulfasalazine, label effective 20260825)\nR017 | PRAC 2019-06 | Temozolomide | ATC3 L01A | signal: Drug reaction with eosinophilia and systemic symptoms (DRESS) | US label: not found (temodar, label effective 20260220)\nR018 | PRAC 2019-06 | Topiramate | ATC3 A08A,N03A | signal: Uveitis | US label: not found (topiramate, label effective 20260904)\n\nEnd every non-final chunk with [STATE_CHECKPOINT] followed by a concise state block:\nCOMPLETED: ...\nREMAINING: ...\nDECISIONS: ...\nCONTEXT: ...\nEnd the final chunk with [TASK_COMPLETE]. Exactly one marker per chunk. Never narrate the markers.",
+ "text": "{\"id\":\"R016\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R017\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R018\",\"us\":\"not found\",\"cross\":[]}\n[STATE_CHECKPOINT]\nCOMPLETED: R018\nREMAINING: 4\nDECISIONS: -\nCONTEXT: Interference with clinical laboratory tests: R001 Biotin A11H nf; Dysphagia: R002 Gabapentin N02B nf; Hypoparathyroidism: R003 Nivolumab L01F/L01X w; Paracetamol pregnancy neurodevelopment: R004 Paracetamol N02B nf; Foetal outcomes congenital anomalies: R005 Armodafinil/Modafinil N06B nf, R013 Propylthiouracil H03B nf; Recurrent thrombosis antiphospholipid syndrome: R006 Rivaroxaban+ B01A nf; Drug interaction with fluconazole: R007 Citalopram/Escitalopram N06A nf; Persistent sexual dysfunction after drug withdrawal: R008 Clomipramine/SNRI N06A nf; Interaction with boosted antiviral HIV therapy: R009 Clopidogrel B01A nf; Colitis microscopic: R010 Pantoprazole A02B nf; Maculopathy: R011 Sertraline N06A nf; Brugada syndrome (loperamide abuse): R012 Loperamide A07D nf; Transcatheter valve thrombosis: R014 Rivaroxaban B01A nf; Exfoliative dermatitis: R015 Secukinumab L04A nf; NADH/NADPH interference: R016 Sulfasalazine A07E nf; DRESS: R017 Temozolomide L01A nf; Uveitis: R018 Topiramate A08A/N03A nf"
+}

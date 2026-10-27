@@ -1,0 +1,5 @@
+{
+ "served": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {},
+ "text": "{\"id\":\"R163\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R164\",\"us\":\"written\",\"cross\":[{\"row\":\"R162\",\"substance\":\"Tegafur combo\",\"us\":\"not marketed\"}]}\n{\"id\":\"R165\",\"us\":\"not found\",\"cross\":[]}\n[STATE_CHECKPOINT]\nCOMPLETED: R165\nREMAINING"
+}

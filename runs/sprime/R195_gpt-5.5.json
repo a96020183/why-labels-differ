@@ -1,0 +1,21 @@
+{
+ "id": "R195",
+ "model_requested": "gpt-5.5",
+ "model_served": "gpt-5.5-2026-04-23",
+ "secs": 85.3,
+ "usage": {
+  "input_tokens": 94662,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 3712
+  },
+  "output_tokens": 4210,
+  "output_tokens_details": {
+   "reasoning_tokens": 3500
+  },
+  "total_tokens": 98872
+ },
+ "text": "{\"us_status\":\"not found\",\"label_product\":\"NEXPLANON (etonogestrel implant), for subdermal use\",\"label_version_or_date\":\"DailyMed current SPL version 13; revised 5/2026; uspi-og8415-iptx-2605r004\",\"label_section\":\"Not found in Boxed Warning, Contraindications, Warnings and Precautions, Adverse Reactions/Postmarketing, Use in Specific Populations, or Patient Package Insert; DailyMed text search found no 'meningioma'.\",\"quote\":\"\",\"eu\":\"EU/EMA PRAC: July 2026 signal recommendation adopted 9 July 2026; product information to add meningioma/history of meningioma as a contraindication, a warning/monitoring/discontinuation advice, and meningioma as an adverse reaction of unknown frequency; DHPC published/disseminated 6 Aug 2026.\",\"uk\":\"UK/MHRA: no GOV.UK/MHRA Drug Safety Update or MHRA public desogestrel/etonogestrel-meningioma communication located; MHRA products service is the official current SPC/PIL source, but I found no UK Nexplanon meningioma update in the public search results reviewed.\",\"us_regulator\":\"FDA: no public FDA meningioma-specific evaluation for Nexplanon/etonogestrel found; AEMS potential-signal pages reviewed did not list meningioma, although Nexplanon appeared for site-specific procedural complications, and Sentinel lists an etonogestrel implant insertion/removal descriptive analysis, not meningioma.\",\"sources\":[\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=487f8a62-e142-457c-97cc-2e398fde7594\",\"https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-6-9-july-2026-prac-meeting_en.pdf\",\"https://www.ema.europa.eu/en/news/meeting-highlights-pharmacovigilance-risk-assessment-committee-prac-6-9-july-2026\",\"https://www.ema.europa.eu/en/medicines/dhpc/desogestrel-etonogestrel\",\"https://www.gov.uk/guidance/find-product-information-about-medicines\",\"https://products.mhra.gov.uk/product/?product=NEXPLANON+68+MG+IMPLANT+FOR+SUBDERMAL+USE\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/april-june-2026-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/october-december-2024-new-safety-information-or-potential-signals-serious-risks-identified-fda?Fds-Load-Behavior=force-external\",\"https://www.sentinelinitiative.org/studies/drugs/individual-drug-analyses/etonogestrel-implant-insertions-and-removals-among-females\"]}",
+ "annotation_urls": [],
+ "at": "2026-10-24T02:04:32"
+}

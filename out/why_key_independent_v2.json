@@ -1,0 +1,934 @@
+{
+ "name": "A-prime why key (EU / UK / U.S. regulator stage), labelled by a separate AI reviewer (v2)",
+ "created": "2026-10-24",
+ "annotator": "Separate AI reviewer (Claude, in its own session), NOT a pharmacist; it did not read the system outputs",
+ "method": [
+  "Read only set1a_questions.json from the project folder; no other project files, outputs, logs or keys opened.",
+  "US: downloaded all 14 FDA AEMS quarterly \"New Safety Information or Potential Signals of Serious Risks\" pages (Jan-Mar 2023 through Apr-Jun 2026, links from the AEMS index page) with a browser User-Agent, parsed every table row (295 rows), keyword-matched drug, brand, class and reaction terms per question, matched the reaction by meaning, and took the label from the status column.",
+  "US: scanned the FDA Drug Safety Communications index for each drug; fetched the clozapine REMS DSC; searched fda.gov for CBER safety communications on Ixchiq and for valproate paternal exposure.",
+  "UK: listed all 869 Drug Safety Update documents via the gov.uk search API (filter_format=drug_safety_update), fetched each body through the gov.uk content API, and full-text searched drug/brand/class names (this includes the monthly Letters and medicine recalls round-ups).",
+  "UK: fetched all 19 MHRA Safety Roundups (Mar 2025-Sep 2026) and full-text searched them the same way, plus reaction keywords.",
+  "UK: ran gov.uk search API queries per question (drug alone and drug+reaction), with and without filter_format, and reviewed MHRA items dated 2025-2026.",
+  "EU: kept \"concluded\" for all rows by construction; looked at EMA PRAC extracts only for R183 (erdafitinib growth accelerated / epiphysiolysis) and R185 (Ixchiq aseptic meningitis).",
+  "Confidence: high = exact drug+reaction entry, or a thorough negative search; medium = class/partial-product or meaning-based match; low = related but not identical reaction."
+ ],
+ "rows": {
+  "R159": {
+   "eu": {
+    "label": "concluded",
+    "note": "by construction (PRAC 2025-01 recommended EU product-information update); not re-verified"
+   },
+   "uk": {
+    "label": "no_public_communication_found",
+    "sources": [
+     "https://www.gov.uk/api/search.json?filter_format=drug_safety_update",
+     "https://www.gov.uk/drug-safety-update"
+    ],
+    "quote": "searched: gov.uk search API [\"afatinib\", \"afatinib eyelash\"] (with and without filter_format=drug_safety_update); full-text grep of all 869 DSU articles and 19 MHRA Safety Roundups (Mar 2025-Sep 2026) for [\"afatinib\", \"giotrif\"]; nothing found on this drug+reaction.",
+    "confidence": "high"
+   },
+   "us_regulator": {
+    "label": "no_public_action_found",
+    "sources": [
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring",
+     "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications"
+    ],
+    "quote": "searched: all 14 AEMS quarterly pages 2023 Q1-2026 Q2 (295 table rows) for [\"afatinib\", \"gilotrif\", \"tyrosine kinase\", \"egfr\", \"eyelash\", \"trichomegaly\"]; FDA Drug Safety Communications index; nothing found. Only near entry: Oct-Dec 2023 Gilotrif/Iressa/Tarceva | Cardiac failure (different reaction).",
+    "confidence": "high"
+   }
+  },
+  "R160": {
+   "eu": {
+    "label": "concluded",
+    "note": "by construction (PRAC 2025-01 recommended EU product-information update); not re-verified"
+   },
+   "uk": {
+    "label": "no_public_communication_found",
+    "sources": [
+     "https://www.gov.uk/api/search.json?filter_format=drug_safety_update",
+     "https://www.gov.uk/drug-safety-update"
+    ],
+    "quote": "searched: gov.uk search API [\"lenvatinib\", \"lenvatinib tumour lysis syndrome\"] (with and without filter_format=drug_safety_update); full-text grep of all 869 DSU articles and 19 MHRA Safety Roundups (Mar 2025-Sep 2026) for [\"lenvatinib\", \"lenvima\", \"kisplyx\"]; nothing found on this drug+reaction.",
+    "confidence": "high"
+   },
+   "us_regulator": {
+    "label": "concluded_no_action",
+    "sources": [
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/july-september-2024-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse"
+    ],
+    "quote": "Jul-Sep 2024: \"Lenvima (lenvatinib) capsules Nexavar (sorafenib) tablets | Tumor lysis syndrome | FDA determined that no action was necessary at the time based on available information.\"",
+    "confidence": "high"
+   }
+  },
+  "R161": {
+   "eu": {
+    "label": "concluded",
+    "note": "by construction (PRAC 2025-02 recommended EU product-information update); not re-verified"
+   },
+   "uk": {
+    "label": "no_public_communication_found",
+    "sources": [
+     "https://www.gov.uk/api/search.json?filter_format=drug_safety_update",
+     "https://www.gov.uk/drug-safety-update"
+    ],
+    "quote": "searched: gov.uk search API [\"mogamulizumab\", \"mogamulizumab colitis\"] (with and without filter_format=drug_safety_update); full-text grep of all 869 DSU articles and 19 MHRA Safety Roundups (Mar 2025-Sep 2026) for [\"mogamulizumab\", \"poteligeo\"]; nothing found on this drug+reaction.",
+    "confidence": "high"
+   },
+   "us_regulator": {
+    "label": "concluded_label_updated",
+    "basis": "U.S. label Poteligeo v21 (effective 2026-03-02, setid e53960ab-42a1-40d1-9c7d-eb013fe7f18f) names the reaction (partial); the label in force at PRAC's signal, v16, did not (not found). An FDA-approved label change is an FDA action (the product's own rule).",
+    "previous_label_v1": "no_public_action_found",
+    "previous_quote_v1": "searched: all 14 AEMS quarterly pages 2023 Q1-2026 Q2 (295 table rows) for [\"mogamulizumab\", \"poteligeo\", \"colitis\"]; FDA Drug Safety Communications index; nothing found."
+   }
+  },
+  "R162": {
+   "eu": {
+    "label": "concluded",
+    "note": "by construction (PRAC 2025-03 recommended EU product-information update); not re-verified"
+   },
+   "uk": {
+    "label": "no_public_communication_found",
+    "sources": [
+     "https://www.gov.uk/api/search.json?filter_format=drug_safety_update",
+     "https://www.gov.uk/drug-safety-update"
+    ],
+    "quote": "searched: gov.uk search API [\"tegafur gimeracil oteracil\", \"Teysuno\", \"tegafur hyperammonaemia\"] (with and without filter_format=drug_safety_update); full-text grep of all 869 DSU articles and 19 MHRA Safety Roundups (Mar 2025-Sep 2026) for [\"teysuno\", \"gimeracil\"]; nothing found on this drug+reaction.",
+    "confidence": "high"
+   },
+   "us_regulator": {
+    "label": "no_public_action_found",
+    "sources": [
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring",
+     "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications"
+    ],
+    "quote": "searched: all 14 AEMS quarterly pages 2023 Q1-2026 Q2 (295 table rows) for [\"tegafur\", \"gimeracil\", \"fluoropyrimidine\", \"hyperammon\"]; FDA Drug Safety Communications index; nothing found.",
+    "confidence": "high"
+   }
+  },
+  "R163": {
+   "eu": {
+    "label": "concluded",
+    "note": "by construction (PRAC 2025-04 recommended EU product-information update); not re-verified"
+   },
+   "uk": {
+    "label": "no_public_communication_found",
+    "sources": [
+     "https://www.gov.uk/api/search.json?filter_format=drug_safety_update",
+     "https://www.gov.uk/drug-safety-update"
+    ],
+    "quote": "searched: gov.uk search API [\"oxytetracycline hydrocortisone polymyxin\", \"Otosporin ototoxicity\", \"polymyxin ear drops hearing\"] (with and without filter_format=drug_safety_update); full-text grep of all 869 DSU articles and 19 MHRA Safety Roundups (Mar 2025-Sep 2026) for [\"oxytetracycline\", \"polymyxin\", \"otosporin\", \"terra-cortril\"]; nothing found on this drug+reaction.",
+    "confidence": "high"
+   },
+   "us_regulator": {
+    "label": "no_public_action_found",
+    "sources": [
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring",
+     "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications"
+    ],
+    "quote": "searched: all 14 AEMS quarterly pages 2023 Q1-2026 Q2 (295 table rows) for [\"oxytetracycline\", \"polymyxin\", \"otic\", \"ototox\", \"hearing\", \"vestibular\"]; FDA Drug Safety Communications index; nothing found.",
+    "confidence": "high"
+   }
+  },
+  "R164": {
+   "eu": {
+    "label": "concluded",
+    "note": "by construction (PRAC 2025-04 recommended EU product-information update); not re-verified"
+   },
+   "uk": {
+    "label": "no_public_communication_found",
+    "sources": [
+     "https://www.gov.uk/api/search.json?filter_format=drug_safety_update",
+     "https://www.gov.uk/drug-safety-update"
+    ],
+    "quote": "searched: gov.uk search API [\"regorafenib\", \"regorafenib hyperammonaemia\"] (with and without filter_format=drug_safety_update); full-text grep of all 869 DSU articles and 19 MHRA Safety Roundups (Mar 2025-Sep 2026) for [\"regorafenib\", \"stivarga\"]; nothing found on this drug+reaction.",
+    "confidence": "high"
+   },
+   "us_regulator": {
+    "label": "concluded_label_updated",
+    "basis": "U.S. label Stivarga v36 (effective 2026-02-09, setid 824f19c9-0546-4a8a-8d8f-c4055c04f7c7) names the reaction (written); the label in force at PRAC's signal, v35, did not (not found). An FDA-approved label change is an FDA action (the product's own rule).",
+    "previous_label_v1": "no_public_action_found",
+    "previous_quote_v1": "searched: all 14 AEMS quarterly pages 2023 Q1-2026 Q2 (295 table rows) for [\"regorafenib\", \"stivarga\", \"hyperammon\"]; FDA Drug Safety Communications index; nothing found. Only near entry: Jul-Sep 2023 Stivarga | Thrombotic microangiopathy (different reaction)."
+   }
+  },
+  "R165": {
+   "eu": {
+    "label": "concluded",
+    "note": "by construction (PRAC 2025-05 recommended EU product-information update); not re-verified"
+   },
+   "uk": {
+    "label": "no_public_communication_found",
+    "sources": [
+     "https://www.gov.uk/api/search.json?filter_format=drug_safety_update",
+     "https://www.gov.uk/drug-safety-update"
+    ],
+    "quote": "searched: gov.uk search API [\"sertraline\", \"sertraline acyl-coenzyme A dehydrogenase deficiency\"] (with and without filter_format=drug_safety_update); full-text grep of all 869 DSU articles and 19 MHRA Safety Roundups (Mar 2025-Sep 2026) for [\"sertraline\"]; nothing found on this drug+reaction.",
+    "confidence": "high"
+   },
+   "us_regulator": {
+    "label": "no_public_action_found",
+    "sources": [
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring",
+     "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications"
+    ],
+    "quote": "searched: all 14 AEMS quarterly pages 2023 Q1-2026 Q2 (295 table rows) for [\"sertraline\", \"zoloft\", \"acyl\", \"dehydrogenase\", \"ssri\", \"selective serotonin\"]; FDA Drug Safety Communications index; nothing found. Antidepressant class entry (Oct-Dec 2024) is discontinuation-emergent cataplexy, not MADD.",
+    "confidence": "high"
+   }
+  },
+  "R166": {
+   "eu": {
+    "label": "concluded",
+    "note": "by construction (PRAC 2025-05 recommended EU product-information update); not re-verified"
+   },
+   "uk": {
+    "label": "no_public_communication_found",
+    "sources": [
+     "https://www.gov.uk/api/search.json?filter_format=drug_safety_update",
+     "https://www.gov.uk/drug-safety-update"
+    ],
+    "quote": "searched: gov.uk search API [\"co-trimoxazole\", \"co-trimoxazole shock\", \"trimethoprim sulfamethoxazole\"] (with and without filter_format=drug_safety_update); full-text grep of all 869 DSU articles and 19 MHRA Safety Roundups (Mar 2025-Sep 2026) for [\"co-trimoxazole\", \"sulfamethoxazole\", \"septrin\"]; nothing found on this drug+reaction.",
+    "confidence": "high"
+   },
+   "us_regulator": {
+    "label": "no_public_action_found",
+    "sources": [
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring",
+     "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications"
+    ],
+    "quote": "searched: all 14 AEMS quarterly pages 2023 Q1-2026 Q2 (295 table rows) for [\"sulfamethoxazole\", \"trimethoprim\", \"bactrim\", \"shock\"]; FDA Drug Safety Communications index; nothing found. Bactrim entries are acute respiratory failure (Apr-Jun 2023) and HLH (Jul-Sep 2023), not circulatory shock.",
+    "confidence": "high"
+   }
+  },
+  "R167": {
+   "eu": {
+    "label": "concluded",
+    "note": "by construction (PRAC 2025-06 recommended EU product-information update); not re-verified"
+   },
+   "uk": {
+    "label": "no_public_communication_found",
+    "sources": [
+     "https://www.gov.uk/api/search.json?filter_format=drug_safety_update",
+     "https://www.gov.uk/drug-safety-update"
+    ],
+    "quote": "searched: gov.uk search API [\"CAR-T\", \"CAR T-cell enterocolitis\", \"axicabtagene ciloleucel\", \"tisagenlecleucel\"] (with and without filter_format=drug_safety_update); full-text grep of all 869 DSU articles and 19 MHRA Safety Roundups (Mar 2025-Sep 2026) for [\"ciloleucel\", \"autoleucel\", \"vicleucel\", \"maraleucel\", \"lecleucel\", \"car-t\", \"car t\"]; nothing found on this drug+reaction. July 2024 letters round-up lists CAR-T DHPC on secondary T-cell malignancy only.",
+    "confidence": "high"
+   },
+   "us_regulator": {
+    "label": "under_evaluation",
+    "sources": [
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/april-june-2026-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse"
+    ],
+    "quote": "Apr-Jun 2026: \"ABECMA (idecabtagene vicleucel) | Immune effector cell-associated enterocolitis | FDA is evaluating the need for regulatory action.\" and \"BREYANZI (lisocabtagene maraleucel) | Immune effector cell-associated enterocolitis | FDA is evaluating the need for regulatory action.\" Covers 2 of the 6 CAR-T products in the EU signal; Yescarta itself not listed.",
+    "confidence": "medium"
+   }
+  },
+  "R168": {
+   "eu": {
+    "label": "concluded",
+    "note": "by construction (PRAC 2025-06 recommended EU product-information update); not re-verified"
+   },
+   "uk": {
+    "label": "no_public_communication_found",
+    "sources": [
+     "https://www.gov.uk/api/search.json?filter_format=drug_safety_update",
+     "https://www.gov.uk/drug-safety-update"
+    ],
+    "quote": "searched: gov.uk search API [\"brodalumab\", \"brodalumab pyoderma gangrenosum\"] (with and without filter_format=drug_safety_update); full-text grep of all 869 DSU articles and 19 MHRA Safety Roundups (Mar 2025-Sep 2026) for [\"brodalumab\", \"kyntheum\"]; nothing found on this drug+reaction.",
+    "confidence": "high"
+   },
+   "us_regulator": {
+    "label": "no_public_action_found",
+    "sources": [
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring",
+     "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications"
+    ],
+    "quote": "searched: all 14 AEMS quarterly pages 2023 Q1-2026 Q2 (295 table rows) for [\"brodalumab\", \"siliq\", \"pyoderma\", \"il-17\", \"interleukin-17\"]; FDA Drug Safety Communications index; nothing found.",
+    "confidence": "high"
+   }
+  },
+  "R169": {
+   "eu": {
+    "label": "concluded",
+    "note": "by construction (PRAC 2025-06 recommended EU product-information update); not re-verified"
+   },
+   "uk": {
+    "label": "drug_safety_update",
+    "sources": [
+     "https://www.gov.uk/drug-device-alerts/mhra-safety-roundup-september-2026",
+     "https://www.gov.uk/drug-device-alerts/mhra-safety-roundup-april-2026"
+    ],
+    "quote": "MHRA Safety Roundup Sep 2026: \"Apalutamide and enzalutamide: laboratory test interference leading to falsely elevated digoxin plasma level results ... The product information for apalutamide and enzalutamide has been updated to include this risk\". April 2026 roundup lists DHPC: \"Enzalutamide Astellas 40mg film-coated tablet: enzalutamide laboratory test interference leading to falsely elevated digoxin plasma levels\".",
+    "confidence": "high"
+   },
+   "us_regulator": {
+    "label": "concluded_label_updated",
+    "basis": "U.S. label Xtandi v24 (effective 2026-07-28, setid b129fdc9-1d8e-425c-a5a9-8a2ed36dfbdf) names the reaction (written); the label in force at PRAC's signal, v21, did not (not found). An FDA-approved label change is an FDA action (the product's own rule).",
+    "previous_label_v1": "no_public_action_found",
+    "previous_quote_v1": "searched: all 14 AEMS quarterly pages 2023 Q1-2026 Q2 (295 table rows) for [\"enzalutamide\", \"xtandi\", \"digoxin\", \"interference\"]; FDA Drug Safety Communications index; nothing found."
+   }
+  },
+  "R170": {
+   "eu": {
+    "label": "concluded",
+    "note": "by construction (PRAC 2025-06 recommended EU product-information update); not re-verified"
+   },
+   "uk": {
+    "label": "no_public_communication_found",
+    "sources": [
+     "https://www.gov.uk/api/search.json?filter_format=drug_safety_update",
+     "https://www.gov.uk/drug-safety-update"
+    ],
+    "quote": "searched: gov.uk search API [\"vortioxetine\", \"vortioxetine hallucinations\"] (with and without filter_format=drug_safety_update); full-text grep of all 869 DSU articles and 19 MHRA Safety Roundups (Mar 2025-Sep 2026) for [\"vortioxetine\", \"brintellix\"]; nothing found on this drug+reaction.",
+    "confidence": "high"
+   },
+   "us_regulator": {
+    "label": "no_public_action_found",
+    "sources": [
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring",
+     "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications"
+    ],
+    "quote": "searched: all 14 AEMS quarterly pages 2023 Q1-2026 Q2 (295 table rows) for [\"vortioxetine\", \"trintellix\", \"hallucinat\"]; FDA Drug Safety Communications index; nothing found. Antidepressant class entry incl. Trintellix (Oct-Dec 2024) is discontinuation-emergent cataplexy, not hallucinations.",
+    "confidence": "high"
+   }
+  },
+  "R171": {
+   "eu": {
+    "label": "concluded",
+    "note": "by construction (PRAC 2025-07 recommended EU product-information update); not re-verified"
+   },
+   "uk": {
+    "label": "no_public_communication_found",
+    "sources": [
+     "https://www.gov.uk/api/search.json?filter_format=drug_safety_update",
+     "https://www.gov.uk/drug-safety-update"
+    ],
+    "quote": "searched: gov.uk search API [\"ciltacabtagene autoleucel\", \"CAR-T progressive multifocal leukoencephalopathy\", \"idecabtagene vicleucel\"] (with and without filter_format=drug_safety_update); full-text grep of all 869 DSU articles and 19 MHRA Safety Roundups (Mar 2025-Sep 2026) for [\"ciloleucel\", \"autoleucel\", \"vicleucel\", \"lecleucel\", \"car-t\", \"car t\"]; nothing found on this drug+reaction. July 2024 letters round-up lists CAR-T DHPC on secondary T-cell malignancy only; Aug 2026 roundup PML item is elranatamab.",
+    "confidence": "high"
+   },
+   "us_regulator": {
+    "label": "concluded_label_updated",
+    "basis": "U.S. label Carvykti v19 (effective 2025-10-16, setid 7d040b91-3fb8-41db-ba7f-60a36f06e2c2) names the reaction (written); the label in force at PRAC's signal, v13, did not (not found). An FDA-approved label change is an FDA action (the product's own rule).",
+    "previous_label_v1": "no_public_action_found",
+    "previous_quote_v1": "searched: all 14 AEMS quarterly pages 2023 Q1-2026 Q2 (295 table rows) for [\"leukoencephalopathy\", \"pml\"]; FDA Drug Safety Communications index; nothing found. PML entry Apr-Jun 2025 is for bispecific T-cell engagers, not CAR-T products."
+   }
+  },
+  "R172": {
+   "eu": {
+    "label": "concluded",
+    "note": "by construction (PRAC 2025-07 recommended EU product-information update); not re-verified"
+   },
+   "uk": {
+    "label": "no_public_communication_found",
+    "sources": [
+     "https://www.gov.uk/api/search.json?filter_format=drug_safety_update",
+     "https://www.gov.uk/drug-safety-update"
+    ],
+    "quote": "searched: gov.uk search API [\"clozapine\", \"clozapine neutropenia monitoring\", \"clozapine agranulocytosis\"] (with and without filter_format=drug_safety_update); full-text grep of all 869 DSU articles and 19 MHRA Safety Roundups (Mar 2025-Sep 2026) for [\"clozapine\"]; nothing found on this drug+reaction. Only clozapine DSUs are 2017 (constipation/ileus) and 2020 (blood level monitoring for toxicity); nothing on neutropenia monitoring changes 2024-2026.",
+    "confidence": "high"
+   },
+   "us_regulator": {
+    "label": "drug_safety_communication",
+    "sources": [
+     "https://www.fda.gov/drugs/drug-safety-communications/fda-removes-risk-evaluation-and-mitigation-strategy-rems-program-antipsychotic-drug-clozapine"
+    ],
+    "quote": "DSC 08-27-2025: \"FDA removed the risk evaluation and mitigation strategy (REMS) for clozapine ... effective June 13, 2025 ... Although there remains a risk of severe neutropenia with clozapine use, clozapine labeling (including a new Medication Guide) is sufficient to mitigate this risk\".",
+    "confidence": "high"
+   }
+  },
+  "R173": {
+   "eu": {
+    "label": "concluded",
+    "note": "by construction (PRAC 2025-07 recommended EU product-information update); not re-verified"
+   },
+   "uk": {
+    "label": "no_public_communication_found",
+    "sources": [
+     "https://www.gov.uk/api/search.json?filter_format=drug_safety_update",
+     "https://www.gov.uk/drug-safety-update"
+    ],
+    "quote": "searched: gov.uk search API [\"varicella vaccine\", \"varicella vaccine encephalitis\", \"MMRV vaccine\"] (with and without filter_format=drug_safety_update); full-text grep of all 869 DSU articles and 19 MHRA Safety Roundups (Mar 2025-Sep 2026) for [\"varicella\", \"varivax\", \"varilrix\", \"proquad\", \"priorix-tetra\"]; nothing found on this drug+reaction. Only MMRV programme/factsheet and a reconstitution DHPC (May 2026); nothing on encephalitis.",
+    "confidence": "high"
+   },
+   "us_regulator": {
+    "label": "no_public_action_found",
+    "sources": [
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring",
+     "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications"
+    ],
+    "quote": "searched: all 14 AEMS quarterly pages 2023 Q1-2026 Q2 (295 table rows) for [\"varicella\", \"varivax\", \"proquad\", \"encephalitis\", \"vaccine\"]; FDA Drug Safety Communications index; nothing found.",
+    "confidence": "high"
+   }
+  },
+  "R174": {
+   "eu": {
+    "label": "concluded",
+    "note": "by construction (PRAC 2025-09 recommended EU product-information update); not re-verified"
+   },
+   "uk": {
+    "label": "no_public_communication_found",
+    "sources": [
+     "https://www.gov.uk/api/search.json?filter_format=drug_safety_update",
+     "https://www.gov.uk/drug-safety-update"
+    ],
+    "quote": "searched: gov.uk search API [\"BRAF MEK inhibitors\", \"dabrafenib trametinib\", \"tattoo\", \"encorafenib binimetinib\"] (with and without filter_format=drug_safety_update); full-text grep of all 869 DSU articles and 19 MHRA Safety Roundups (Mar 2025-Sep 2026) for [\"binimetinib\", \"cobimetinib\", \"dabrafenib\", \"encorafenib\", \"trametinib\", \"vemurafenib\", \"tattoo\"]; nothing found on this drug+reaction.",
+    "confidence": "high"
+   },
+   "us_regulator": {
+    "label": "no_public_action_found",
+    "sources": [
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring",
+     "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications"
+    ],
+    "quote": "searched: all 14 AEMS quarterly pages 2023 Q1-2026 Q2 (295 table rows) for [\"binimetinib\", \"cobimetinib\", \"dabrafenib\", \"encorafenib\", \"trametinib\", \"vemurafenib\", \"mek inhib\", \"braf\", \"tattoo\"]; FDA Drug Safety Communications index; nothing found. BRAF/MEK entries exist (photosensitivity, colitis, gingival hypertrophy, sarcoidosis, SCAR, myocarditis) but none on tattoo-associated skin reaction.",
+    "confidence": "high"
+   }
+  },
+  "R175": {
+   "eu": {
+    "label": "concluded",
+    "note": "by construction (PRAC 2025-09 recommended EU product-information update); not re-verified"
+   },
+   "uk": {
+    "label": "no_public_communication_found",
+    "sources": [
+     "https://www.gov.uk/api/search.json?filter_format=drug_safety_update",
+     "https://www.gov.uk/drug-safety-update"
+    ],
+    "quote": "searched: gov.uk search API [\"diazoxide\", \"diazoxide necrotising enterocolitis\"] (with and without filter_format=drug_safety_update); full-text grep of all 869 DSU articles and 19 MHRA Safety Roundups (Mar 2025-Sep 2026) for [\"diazoxide\", \"proglycem\", \"eudemine\"]; nothing found on this drug+reaction.",
+    "confidence": "high"
+   },
+   "us_regulator": {
+    "label": "concluded_label_updated",
+    "basis": "U.S. label Proglycem (Teva) v17 (effective 2026-10-06, setid b16c7832-2fd9-49af-b923-1dc0d91fd6e2) names the reaction (written); the label in force at PRAC's signal, v15, did not (partial). An FDA-approved label change is an FDA action (the product's own rule).",
+    "previous_label_v1": "no_public_action_found",
+    "previous_quote_v1": "searched: all 14 AEMS quarterly pages 2023 Q1-2026 Q2 (295 table rows) for [\"diazoxide\", \"proglycem\", \"necrotizing\", \"necrotising\"]; FDA Drug Safety Communications index; nothing found. Only Vykat XR (diazoxide choline) | Fluid retention (Apr-Jun 2026), different product/reaction."
+   }
+  },
+  "R176": {
+   "eu": {
+    "label": "concluded",
+    "note": "by construction (PRAC 2025-09 recommended EU product-information update); not re-verified"
+   },
+   "uk": {
+    "label": "no_public_communication_found",
+    "sources": [
+     "https://www.gov.uk/api/search.json?filter_format=drug_safety_update",
+     "https://www.gov.uk/drug-safety-update"
+    ],
+    "quote": "searched: gov.uk search API [\"dinutuximab beta\", \"Qarziba\", \"dinutuximab haemolytic uraemic syndrome\"] (with and without filter_format=drug_safety_update); full-text grep of all 869 DSU articles and 19 MHRA Safety Roundups (Mar 2025-Sep 2026) for [\"dinutuximab\", \"qarziba\"]; nothing found on this drug+reaction.",
+    "confidence": "high"
+   },
+   "us_regulator": {
+    "label": "no_public_action_found",
+    "sources": [
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring",
+     "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications"
+    ],
+    "quote": "searched: all 14 AEMS quarterly pages 2023 Q1-2026 Q2 (295 table rows) for [\"dinutuximab\", \"unituxin\", \"hemolytic uremic\", \"haemolytic\", \"ahus\", \"thrombotic microangiopathy\"]; FDA Drug Safety Communications index; nothing found.",
+    "confidence": "high"
+   }
+  },
+  "R177": {
+   "eu": {
+    "label": "concluded",
+    "note": "by construction (PRAC 2025-09 recommended EU product-information update); not re-verified"
+   },
+   "uk": {
+    "label": "no_public_communication_found",
+    "sources": [
+     "https://www.gov.uk/api/search.json?filter_format=drug_safety_update",
+     "https://www.gov.uk/drug-safety-update"
+    ],
+    "quote": "searched: gov.uk search API [\"osimertinib\", \"osimertinib hepatitis B reactivation\"] (with and without filter_format=drug_safety_update); full-text grep of all 869 DSU articles and 19 MHRA Safety Roundups (Mar 2025-Sep 2026) for [\"osimertinib\", \"tagrisso\"]; nothing found on this drug+reaction.",
+    "confidence": "high"
+   },
+   "us_regulator": {
+    "label": "no_public_action_found",
+    "sources": [
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring",
+     "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications"
+    ],
+    "quote": "searched: all 14 AEMS quarterly pages 2023 Q1-2026 Q2 (295 table rows) for [\"osimertinib\", \"tagrisso\", \"hepatitis b\"]; FDA Drug Safety Communications index; nothing found. Hepatitis B reactivation entry Oct-Dec 2025 is pralsetinib only.",
+    "confidence": "high"
+   }
+  },
+  "R178": {
+   "eu": {
+    "label": "concluded",
+    "note": "by construction (PRAC 2025-09 recommended EU product-information update); not re-verified"
+   },
+   "uk": {
+    "label": "no_public_communication_found",
+    "sources": [
+     "https://www.gov.uk/api/search.json?filter_format=drug_safety_update",
+     "https://www.gov.uk/drug-safety-update"
+    ],
+    "quote": "searched: gov.uk search API [\"somatrogon\", \"somatrogon lipoatrophy\", \"growth hormone lipoatrophy\"] (with and without filter_format=drug_safety_update); full-text grep of all 869 DSU articles and 19 MHRA Safety Roundups (Mar 2025-Sep 2026) for [\"somatrogon\", \"ngenla\", \"lipoatrophy\"]; nothing found on this drug+reaction.",
+    "confidence": "high"
+   },
+   "us_regulator": {
+    "label": "no_public_action_found",
+    "sources": [
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring",
+     "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications"
+    ],
+    "quote": "searched: all 14 AEMS quarterly pages 2023 Q1-2026 Q2 (295 table rows) for [\"somatrogon\", \"ngenla\", \"somatropin\", \"growth hormone\", \"lipoatrophy\", \"lipodystrophy\"]; FDA Drug Safety Communications index; nothing found. GH class entry incl. Ngenla (Jan-Mar 2024) is osteonecrosis, not lipoatrophy.",
+    "confidence": "high"
+   }
+  },
+  "R179": {
+   "eu": {
+    "label": "concluded",
+    "note": "by construction (PRAC 2025-10 recommended EU product-information update); not re-verified"
+   },
+   "uk": {
+    "label": "no_public_communication_found",
+    "sources": [
+     "https://www.gov.uk/api/search.json?filter_format=drug_safety_update",
+     "https://www.gov.uk/drug-safety-update"
+    ],
+    "quote": "searched: gov.uk search API [\"bosutinib\", \"bosutinib vasculitis\"] (with and without filter_format=drug_safety_update); full-text grep of all 869 DSU articles and 19 MHRA Safety Roundups (Mar 2025-Sep 2026) for [\"bosutinib\", \"bosulif\"]; nothing found on this drug+reaction.",
+    "confidence": "high"
+   },
+   "us_regulator": {
+    "label": "concluded_label_updated",
+    "basis": "U.S. label Bosulif (Pfizer) v32 (effective 2026-03-10, setid adc84ad5-a04d-4fee-9ba8-91f7abd928e3) names the reaction (partial); the label in force at PRAC's signal, v31, did not (not found). An FDA-approved label change is an FDA action (the product's own rule).",
+    "previous_label_v1": "no_public_action_found",
+    "previous_quote_v1": "searched: all 14 AEMS quarterly pages 2023 Q1-2026 Q2 (295 table rows) for [\"bosutinib\", \"bosulif\", \"vasculitis\"]; FDA Drug Safety Communications index; nothing found. Cutaneous vasculitis entry (Oct-Dec 2024) is citalopram/escitalopram only."
+   }
+  },
+  "R180": {
+   "eu": {
+    "label": "concluded",
+    "note": "by construction (PRAC 2025-10 recommended EU product-information update); not re-verified"
+   },
+   "uk": {
+    "label": "no_public_communication_found",
+    "sources": [
+     "https://www.gov.uk/api/search.json?filter_format=drug_safety_update",
+     "https://www.gov.uk/drug-safety-update"
+    ],
+    "quote": "searched: gov.uk search API [\"datopotamab deruxtecan\", \"datopotamab anaphylaxis\"] (with and without filter_format=drug_safety_update); full-text grep of all 869 DSU articles and 19 MHRA Safety Roundups (Mar 2025-Sep 2026) for [\"datopotamab\", \"datroway\"]; nothing found on this drug+reaction.",
+    "confidence": "high"
+   },
+   "us_regulator": {
+    "label": "concluded_label_updated",
+    "basis": "U.S. label Datroway v18 (effective 2026-05-27, setid 2950227c-6230-4ca4-a135-46e44d9424a0) names the reaction (partial); the label in force at PRAC's signal, v11, did not (not found). An FDA-approved label change is an FDA action (the product's own rule).",
+    "previous_label_v1": "no_public_action_found",
+    "previous_quote_v1": "searched: all 14 AEMS quarterly pages 2023 Q1-2026 Q2 (295 table rows) for [\"datopotamab\", \"datroway\", \"anaphyla\"]; FDA Drug Safety Communications index; nothing found."
+   }
+  },
+  "R181": {
+   "eu": {
+    "label": "concluded",
+    "note": "by construction (PRAC 2025-10 recommended EU product-information update); not re-verified"
+   },
+   "uk": {
+    "label": "no_public_communication_found",
+    "sources": [
+     "https://www.gov.uk/api/search.json?filter_format=drug_safety_update",
+     "https://www.gov.uk/drug-safety-update"
+    ],
+    "quote": "searched: gov.uk search API [\"epcoritamab\", \"epcoritamab hypogammaglobulinaemia\", \"bispecific antibodies hypogammaglobulinaemia\"] (with and without filter_format=drug_safety_update); full-text grep of all 869 DSU articles and 19 MHRA Safety Roundups (Mar 2025-Sep 2026) for [\"epcoritamab\", \"tepkinly\"]; nothing found on this drug+reaction.",
+    "confidence": "high"
+   },
+   "us_regulator": {
+    "label": "concluded_label_updated",
+    "basis": "U.S. label Epkinly v11 (effective 2026-06-22, setid d7836711-b677-412d-bf2d-0f7c8444103a) names the reaction (partial); the label in force at PRAC's signal, v8, did not (not found). An FDA-approved label change is an FDA action (the product's own rule).",
+    "previous_label_v1": "under_evaluation",
+    "previous_quote_v1": "Oct-Dec 2025: \"Bispecific T-cell engager therapies ... Epkinly (epcoritamab-bysp) injection ... | Hypogammaglobulinemia | FDA is evaluating the need for regulatory action.\""
+   }
+  },
+  "R182": {
+   "eu": {
+    "label": "concluded",
+    "note": "by construction (PRAC 2026-01 recommended EU product-information update); not re-verified"
+   },
+   "uk": {
+    "label": "no_public_communication_found",
+    "sources": [
+     "https://www.gov.uk/api/search.json?filter_format=drug_safety_update",
+     "https://www.gov.uk/drug-safety-update"
+    ],
+    "quote": "searched: gov.uk search API [\"cefazolin\", \"cefazolin Kounis syndrome\", \"Kounis syndrome\"] (with and without filter_format=drug_safety_update); full-text grep of all 869 DSU articles and 19 MHRA Safety Roundups (Mar 2025-Sep 2026) for [\"cefazolin\", \"kounis\"]; nothing found on this drug+reaction.",
+    "confidence": "high"
+   },
+   "us_regulator": {
+    "label": "no_public_action_found",
+    "sources": [
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring",
+     "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications"
+    ],
+    "quote": "searched: all 14 AEMS quarterly pages 2023 Q1-2026 Q2 (295 table rows) for [\"cefazolin\", \"cephalosporin\", \"kounis\"]; FDA Drug Safety Communications index; nothing found.",
+    "confidence": "high"
+   }
+  },
+  "R183": {
+   "eu": {
+    "label": "concluded",
+    "note": "by construction (PRAC 2026-01 recommended EU product-information update); EMA PRAC wording extract also seen"
+   },
+   "uk": {
+    "label": "no_public_communication_found",
+    "sources": [
+     "https://www.gov.uk/api/search.json?filter_format=drug_safety_update",
+     "https://www.gov.uk/drug-safety-update"
+    ],
+    "quote": "searched: gov.uk search API [\"erdafitinib\", \"erdafitinib growth\"] (with and without filter_format=drug_safety_update); full-text grep of all 869 DSU articles and 19 MHRA Safety Roundups (Mar 2025-Sep 2026) for [\"erdafitinib\", \"balversa\"]; nothing found on this drug+reaction.",
+    "confidence": "high"
+   },
+   "us_regulator": {
+    "label": "under_evaluation",
+    "sources": [
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/october-december-2024-new-safety-information-or-potential-signals-serious-risks-identified-fda",
+     "https://www.ema.europa.eu/en/documents/prac-recommendation/new-product-information-wording-extracts-prac-recommendations-signals-adopted-12-15-january-2026-prac_en.pdf"
+    ],
+    "quote": "Oct-Dec 2024: \"Balversa (erdafitinib) tablets | Epiphyseal disorders | FDA is evaluating the need for regulatory action.\" Matched by meaning: the EU signal (EPITT 20194) adds growth acceleration and epiphysiolysis of the femoral head in under-18s, i.e. the same paediatric growth-plate effect.",
+    "confidence": "medium"
+   }
+  },
+  "R184": {
+   "eu": {
+    "label": "concluded",
+    "note": "by construction (PRAC 2026-01 recommended EU product-information update); not re-verified"
+   },
+   "uk": {
+    "label": "no_public_communication_found",
+    "sources": [
+     "https://www.gov.uk/api/search.json?filter_format=drug_safety_update",
+     "https://www.gov.uk/drug-safety-update"
+    ],
+    "quote": "searched: gov.uk search API [\"pegylated liposomal doxorubicin\", \"liposomal doxorubicin thrombotic microangiopathy\", \"Caelyx\"] (with and without filter_format=drug_safety_update); full-text grep of all 869 DSU articles and 19 MHRA Safety Roundups (Mar 2025-Sep 2026) for [\"liposomal doxorubicin\", \"caelyx\"]; nothing found on this drug+reaction.",
+    "confidence": "high"
+   },
+   "us_regulator": {
+    "label": "no_public_action_found",
+    "sources": [
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring",
+     "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications"
+    ],
+    "quote": "searched: all 14 AEMS quarterly pages 2023 Q1-2026 Q2 (295 table rows) for [\"doxorubicin\", \"doxil\", \"thrombotic microangiopathy\"]; FDA Drug Safety Communications index; nothing found.",
+    "confidence": "high"
+   }
+  },
+  "R185": {
+   "eu": {
+    "label": "concluded",
+    "note": "by construction (PRAC 2026-03 recommended EU product-information update); EMA PRAC wording extract also seen"
+   },
+   "uk": {
+    "label": "drug_safety_update",
+    "sources": [
+     "https://www.gov.uk/drug-safety-update/ixchiq-chikungunya-vaccine-updates-to-restrictions-of-use-following-safety-review",
+     "https://www.gov.uk/drug-safety-update/ixchiq-chikungunya-vaccine-uk-marketing-authorisation-withdrawn-following-safety-review"
+    ],
+    "quote": "DSU Feb 2026: \"neurological symptoms including encephalopathy (stiff neck, fever, confusion, memory loss, personality changes or loss of consciousness)\"; DSU 20 Oct 2026: \"serious adverse reactions have been reported, including chikungunya-like symptoms and rare neurological events such as encephalitis\" (UK MA withdrawn). Aseptic meningitis is not named; match is by meaning (vaccine-strain CNS inflammation).",
+    "confidence": "medium"
+   },
+   "us_regulator": {
+    "label": "drug_safety_communication",
+    "sources": [
+     "https://www.fda.gov/safety/medical-product-safety-information/fda-update-safety-ixchiq-chikungunya-vaccine-live-fda-suspends-biologics-license-fda-safety",
+     "https://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/fda-and-cdc-recommend-pause-use-ixchiq-chikungunya-vaccine-live-individuals-60-years-age-and-older"
+    ],
+    "quote": "FDA Safety Communication 22 Aug 2025 (licence suspended): \"There has been one death from encephalitis directly attributable to the vaccine\"; May 2025: \"postmarketing reports of serious adverse events, including neurologic and cardiac events\". Aseptic meningitis not named; this is a CBER safety communication (not a CDER DSC). Label relies on a meaning match of serious CNS events.",
+    "confidence": "low"
+   }
+  },
+  "R186": {
+   "eu": {
+    "label": "concluded",
+    "note": "by construction (PRAC 2026-03 recommended EU product-information update); not re-verified"
+   },
+   "uk": {
+    "label": "no_public_communication_found",
+    "sources": [
+     "https://www.gov.uk/api/search.json?filter_format=drug_safety_update",
+     "https://www.gov.uk/drug-safety-update"
+    ],
+    "quote": "searched: gov.uk search API [\"galantamine\", \"galantamine nightmares\"] (with and without filter_format=drug_safety_update); full-text grep of all 869 DSU articles and 19 MHRA Safety Roundups (Mar 2025-Sep 2026) for [\"galantamine\", \"reminyl\"]; nothing found on this drug+reaction.",
+    "confidence": "high"
+   },
+   "us_regulator": {
+    "label": "no_public_action_found",
+    "sources": [
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring",
+     "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications"
+    ],
+    "quote": "searched: all 14 AEMS quarterly pages 2023 Q1-2026 Q2 (295 table rows) for [\"galantamine\", \"razadyne\", \"cholinesterase\", \"nightmare\", \"abnormal dream\"]; FDA Drug Safety Communications index; nothing found. Cholinesterase inhibitor class entries incl. Razadyne (Apr-Jun 2023) are QT prolongation/torsade, not nightmares.",
+    "confidence": "high"
+   }
+  },
+  "R187": {
+   "eu": {
+    "label": "concluded",
+    "note": "by construction (PRAC 2026-04 recommended EU product-information update); not re-verified"
+   },
+   "uk": {
+    "label": "no_public_communication_found",
+    "sources": [
+     "https://www.gov.uk/api/search.json?filter_format=drug_safety_update",
+     "https://www.gov.uk/drug-safety-update"
+    ],
+    "quote": "searched: gov.uk search API [\"axicabtagene ciloleucel\", \"Yescarta\", \"CAR-T cerebral oedema\"] (with and without filter_format=drug_safety_update); full-text grep of all 869 DSU articles and 19 MHRA Safety Roundups (Mar 2025-Sep 2026) for [\"axicabtagene\", \"yescarta\"]; nothing found on this drug+reaction. Yescarta appears only in July 2024 CAR-T secondary malignancy letter listing.",
+    "confidence": "high"
+   },
+   "us_regulator": {
+    "label": "concluded_label_updated",
+    "basis": "U.S. label Yescarta v23 (effective 2026-08-06, setid 9b70606e-b99c-4272-a0f1-b5523cce0c59) names the reaction (written); the label in force at PRAC's signal, v21, did not (not found). An FDA-approved label change is an FDA action (the product's own rule).",
+    "previous_label_v1": "no_public_action_found",
+    "previous_quote_v1": "searched: all 14 AEMS quarterly pages 2023 Q1-2026 Q2 (295 table rows) for [\"axicabtagene\", \"yescarta\", \"cerebral edema\", \"brain edema\", \"mediastinal\"]; FDA Drug Safety Communications index; nothing found. Yescarta appears only in the CAR-T T-cell malignancy entry; nothing on cerebral oedema in PMBCL."
+   }
+  },
+  "R188": {
+   "eu": {
+    "label": "concluded",
+    "note": "by construction (PRAC 2026-04 recommended EU product-information update); not re-verified"
+   },
+   "uk": {
+    "label": "no_public_communication_found",
+    "sources": [
+     "https://www.gov.uk/api/search.json?filter_format=drug_safety_update",
+     "https://www.gov.uk/drug-safety-update"
+    ],
+    "quote": "searched: gov.uk search API [\"ponatinib\", \"ponatinib pregnancy\", \"Iclusig\"] (with and without filter_format=drug_safety_update); full-text grep of all 869 DSU articles and 19 MHRA Safety Roundups (Mar 2025-Sep 2026) for [\"ponatinib\", \"iclusig\"]; nothing found on this drug+reaction.",
+    "confidence": "high"
+   },
+   "us_regulator": {
+    "label": "no_public_action_found",
+    "sources": [
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring",
+     "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications"
+    ],
+    "quote": "searched: all 14 AEMS quarterly pages 2023 Q1-2026 Q2 (295 table rows) for [\"ponatinib\", \"iclusig\", \"megacolon\", \"hirschsprung\"]; FDA Drug Safety Communications index; nothing found. Iclusig entries are panniculitis and drug interaction, not pregnancy/megacolon.",
+    "confidence": "high"
+   }
+  },
+  "R189": {
+   "eu": {
+    "label": "concluded",
+    "note": "by construction (PRAC 2026-05 recommended EU product-information update); not re-verified"
+   },
+   "uk": {
+    "label": "no_public_communication_found",
+    "sources": [
+     "https://www.gov.uk/api/search.json?filter_format=drug_safety_update",
+     "https://www.gov.uk/drug-safety-update"
+    ],
+    "quote": "searched: gov.uk search API [\"pancreatin\", \"pancreatin viral transmission\", \"Creon\"] (with and without filter_format=drug_safety_update); full-text grep of all 869 DSU articles and 19 MHRA Safety Roundups (Mar 2025-Sep 2026) for [\"pancreatin\", \"creon\", \"nutrizym\", \"pancrex\"]; nothing found on this drug+reaction.",
+    "confidence": "high"
+   },
+   "us_regulator": {
+    "label": "no_public_action_found",
+    "sources": [
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring",
+     "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications"
+    ],
+    "quote": "searched: all 14 AEMS quarterly pages 2023 Q1-2026 Q2 (295 table rows) for [\"pancrelipase\", \"pancreatin\", \"creon\", \"zenpep\", \"pertzye\", \"viral\"]; FDA Drug Safety Communications index; nothing found.",
+    "confidence": "high"
+   }
+  },
+  "R190": {
+   "eu": {
+    "label": "concluded",
+    "note": "by construction (PRAC 2026-06 recommended EU product-information update); not re-verified"
+   },
+   "uk": {
+    "label": "no_public_communication_found",
+    "sources": [
+     "https://www.gov.uk/api/search.json?filter_format=drug_safety_update",
+     "https://www.gov.uk/drug-safety-update"
+    ],
+    "quote": "searched: gov.uk search API [\"darolutamide\", \"darolutamide angioedema\"] (with and without filter_format=drug_safety_update); full-text grep of all 869 DSU articles and 19 MHRA Safety Roundups (Mar 2025-Sep 2026) for [\"darolutamide\", \"nubeqa\"]; nothing found on this drug+reaction. June 2026 angioedema DSU is about ACE inhibitors.",
+    "confidence": "high"
+   },
+   "us_regulator": {
+    "label": "concluded_label_updated",
+    "basis": "U.S. label Nubeqa v24 (effective 2026-09-28, setid 1a7cb212-56e4-4b9d-a73d-bfee7fe4735e) names the reaction (partial); the label in force at PRAC's signal, v23, did not (not found). An FDA-approved label change is an FDA action (the product's own rule).",
+    "previous_label_v1": "no_public_action_found",
+    "previous_quote_v1": "searched: all 14 AEMS quarterly pages 2023 Q1-2026 Q2 (295 table rows) for [\"darolutamide\", \"nubeqa\", \"angioedema\", \"androgen receptor\"]; FDA Drug Safety Communications index; nothing found. Angioedema entries are for other drugs (GBCAs, tirzepatide, Ninlaro)."
+   }
+  },
+  "R191": {
+   "eu": {
+    "label": "concluded",
+    "note": "by construction (PRAC 2026-06 recommended EU product-information update); not re-verified"
+   },
+   "uk": {
+    "label": "no_public_communication_found",
+    "sources": [
+     "https://www.gov.uk/api/search.json?filter_format=drug_safety_update",
+     "https://www.gov.uk/drug-safety-update"
+    ],
+    "quote": "searched: gov.uk search API [\"gemcitabine\", \"gemcitabine DRESS\"] (with and without filter_format=drug_safety_update); full-text grep of all 869 DSU articles and 19 MHRA Safety Roundups (Mar 2025-Sep 2026) for [\"gemcitabine\"]; nothing found on this drug+reaction.",
+    "confidence": "high"
+   },
+   "us_regulator": {
+    "label": "concluded_label_updated",
+    "sources": [
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/july-september-2023-potential-signals-serious-risksnew-safety-information-identified-fda-adverse"
+    ],
+    "quote": "Jul-Sep 2023: \"Gemcitabine Infugem (gemcitabine in sodium chloride injection) | Drug reaction with eosinophilia and systemic symptoms | ... labeling were updated between May 2024 and September 2024 to include information about Severe Cutaneous Adverse Reactions (SCARs).\"",
+    "confidence": "high"
+   }
+  },
+  "R192": {
+   "eu": {
+    "label": "concluded",
+    "note": "EU first acted in January 2024 (CMDh endorsed PRAC's precautionary measures for male patients: https://www.ema.europa.eu/en/news/precautionary-measures-address-potential-risk-neurodevelopmental-disorders-children-born-men-treated-valproate-medicines). The June 2026 PRAC signal (EMA/PRAC/124080/2026) is a re-review: evidence inconsistent, measures maintained, product information updated to describe the other studies. Corrected on 2026-10-24 after review E; the label was already 'concluded'."
+   },
+   "uk": {
+    "label": "drug_safety_update",
+    "sources": [
+     "https://www.gov.uk/drug-safety-update/valproate-use-in-men-as-a-precaution-men-and-their-partners-should-use-effective-contraception",
+     "https://www.gov.uk/drug-safety-update/letters-and-medicine-recalls-sent-to-healthcare-professionals-in-september-2024"
+    ],
+    "quote": "DSU 5 Sep 2024: \"indicate a possible increased risk of neurodevelopmental disorders in children born to men treated with valproate in the 3 months prior to conception\". Also Feb 2025 and Jun 2025 valproate DSUs.",
+    "confidence": "high"
+   },
+   "us_regulator": {
+    "label": "no_public_action_found",
+    "sources": [
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring",
+     "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications"
+    ],
+    "quote": "searched: all 14 AEMS quarterly pages 2023 Q1-2026 Q2 (295 table rows) for [\"valpro\", \"depakote\", \"divalproex\", \"paternal\"]; FDA Drug Safety Communications index; nothing found. Valproate entry Jan-Mar 2026 is pleural effusion; no paternal-exposure item; FDA labels address in-utero exposure only.",
+    "confidence": "high"
+   }
+  },
+  "R193": {
+   "eu": {
+    "label": "concluded",
+    "note": "by construction (PRAC 2026-06 recommended EU product-information update); not re-verified"
+   },
+   "uk": {
+    "label": "no_public_communication_found",
+    "sources": [
+     "https://www.gov.uk/api/search.json?filter_format=drug_safety_update",
+     "https://www.gov.uk/drug-safety-update"
+    ],
+    "quote": "searched: gov.uk search API [\"iodinated contrast\", \"iodinated contrast fixed drug eruption\", \"iohexol\"] (with and without filter_format=drug_safety_update); full-text grep of all 869 DSU articles and 19 MHRA Safety Roundups (Mar 2025-Sep 2026) for [\"iobitridol\", \"iodixanol\", \"iohexol\", \"iomeprol\", \"iopamidol\", \"iopromide\", \"ioversol\", \"ioxitalam\", \"iodinated contrast\"]; nothing found on this drug+reaction.",
+    "confidence": "high"
+   },
+   "us_regulator": {
+    "label": "no_public_action_found",
+    "sources": [
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring",
+     "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications"
+    ],
+    "quote": "searched: all 14 AEMS quarterly pages 2023 Q1-2026 Q2 (295 table rows) for [\"contrast\", \"iodinated\", \"iohexol\", \"iodixanol\", \"iopamidol\", \"ioversol\", \"iopromide\", \"fixed drug\"]; FDA Drug Safety Communications index; nothing found. Fixed drug eruption entry (Jan-Mar 2024) is tetracyclines; contrast entries are gadolinium agents.",
+    "confidence": "high"
+   }
+  },
+  "R194": {
+   "eu": {
+    "label": "concluded",
+    "note": "by construction (PRAC 2026-06 recommended EU product-information update); not re-verified"
+   },
+   "uk": {
+    "label": "no_public_communication_found",
+    "sources": [
+     "https://www.gov.uk/api/search.json?filter_format=drug_safety_update",
+     "https://www.gov.uk/drug-safety-update"
+    ],
+    "quote": "searched: gov.uk search API [\"zolbetuximab\", \"zolbetuximab protein-losing\"] (with and without filter_format=drug_safety_update); full-text grep of all 869 DSU articles and 19 MHRA Safety Roundups (Mar 2025-Sep 2026) for [\"zolbetuximab\", \"vyloy\"]; nothing found on this drug+reaction.",
+    "confidence": "high"
+   },
+   "us_regulator": {
+    "label": "concluded_label_updated",
+    "basis": "U.S. label Vyloy v5 (effective 2026-08-11, setid e7695a21-abb6-47ac-93f8-0ece5a9c4409) names the reaction (partial); the label in force at PRAC's signal, v4, did not (not found). An FDA-approved label change is an FDA action (the product's own rule).",
+    "previous_label_v1": "no_public_action_found",
+    "previous_quote_v1": "searched: all 14 AEMS quarterly pages 2023 Q1-2026 Q2 (295 table rows) for [\"zolbetuximab\", \"vyloy\", \"protein-losing\", \"protein losing\"]; FDA Drug Safety Communications index; nothing found."
+   }
+  },
+  "R195": {
+   "eu": {
+    "label": "concluded",
+    "note": "by construction (PRAC 2026-07 recommended EU product-information update); not re-verified"
+   },
+   "uk": {
+    "label": "no_public_communication_found",
+    "sources": [
+     "https://www.gov.uk/api/search.json?filter_format=drug_safety_update",
+     "https://www.gov.uk/drug-safety-update"
+    ],
+    "quote": "searched: gov.uk search API [\"desogestrel meningioma\", \"etonogestrel\", \"progestogen meningioma\"] (with and without filter_format=drug_safety_update); full-text grep of all 869 DSU articles and 19 MHRA Safety Roundups (Mar 2025-Sep 2026) for [\"desogestrel\", \"etonogestrel\", \"nexplanon\", \"cerazette\"]; nothing found on this drug+reaction.",
+    "confidence": "high"
+   },
+   "us_regulator": {
+    "label": "no_public_action_found",
+    "sources": [
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring",
+     "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications"
+    ],
+    "quote": "searched: all 14 AEMS quarterly pages 2023 Q1-2026 Q2 (295 table rows) for [\"etonogestrel\", \"desogestrel\", \"nexplanon\", \"progestin\", \"meningioma\"]; FDA Drug Safety Communications index; nothing found. Nexplanon entry (Oct-Dec 2024) is site-specific procedural complications, not meningioma.",
+    "confidence": "high"
+   }
+  },
+  "R196": {
+   "eu": {
+    "label": "concluded",
+    "note": "by construction (PRAC 2026-07 recommended EU product-information update); not re-verified"
+   },
+   "uk": {
+    "label": "no_public_communication_found",
+    "sources": [
+     "https://www.gov.uk/api/search.json?filter_format=drug_safety_update",
+     "https://www.gov.uk/drug-safety-update"
+    ],
+    "quote": "searched: gov.uk search API [\"levonorgestrel intrauterine\", \"Jaydess ectopic pregnancy\", \"levonorgestrel IUS ectopic\"] (with and without filter_format=drug_safety_update); full-text grep of all 869 DSU articles and 19 MHRA Safety Roundups (Mar 2025-Sep 2026) for [\"jaydess\", \"levonorgestrel intrauterine\", \"levonorgestrel-releasing intrauterine\", \"13.5 mg\", \"13.5mg\"]; nothing found on this drug+reaction.",
+    "confidence": "high"
+   },
+   "us_regulator": {
+    "label": "no_public_action_found",
+    "sources": [
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring",
+     "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications"
+    ],
+    "quote": "searched: all 14 AEMS quarterly pages 2023 Q1-2026 Q2 (295 table rows) for [\"levonorgestrel\", \"skyla\", \"kyleena\", \"mirena\", \"intrauterine\", \"ectopic\"]; FDA Drug Safety Communications index; nothing found.",
+    "confidence": "high"
+   }
+  },
+  "R197": {
+   "eu": {
+    "label": "concluded",
+    "note": "by construction (PRAC 2026-09 recommended EU product-information update); not re-verified"
+   },
+   "uk": {
+    "label": "no_public_communication_found",
+    "sources": [
+     "https://www.gov.uk/api/search.json?filter_format=drug_safety_update",
+     "https://www.gov.uk/drug-safety-update"
+    ],
+    "quote": "searched: gov.uk search API [\"oxacillin\", \"flucloxacillin DRESS\", \"oxacillin DRESS\"] (with and without filter_format=drug_safety_update); full-text grep of all 869 DSU articles and 19 MHRA Safety Roundups (Mar 2025-Sep 2026) for [\"oxacillin\"]; nothing found on this drug+reaction.",
+    "confidence": "high"
+   },
+   "us_regulator": {
+    "label": "no_public_action_found",
+    "sources": [
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring",
+     "https://www.fda.gov/drugs/drug-safety-and-availability/drug-safety-communications"
+    ],
+    "quote": "searched: all 14 AEMS quarterly pages 2023 Q1-2026 Q2 (295 table rows) for [\"oxacillin\", \"penicillin\", \"nafcillin\", \"dress\", \"eosinophilia\"]; FDA Drug Safety Communications index; nothing found. DRESS entries are levetiracetam/clobazam (DSC Nov 2023) and gemcitabine; none for oxacillin or penicillins.",
+    "confidence": "high"
+   }
+  }
+ },
+ "revision": {
+  "date": "2026-10-26",
+  "rows": [
+   "R161",
+   "R164",
+   "R169",
+   "R171",
+   "R175",
+   "R179",
+   "R180",
+   "R181",
+   "R187",
+   "R190",
+   "R194"
+  ],
+  "rule": "U.S. FDA column: a U.S. label version approved after PRAC's signal that adds the reaction counts as an FDA action (concluded_label_updated), the same rule the agents' must-hold check uses; v1 had these rows as no public action (R181: under evaluation).",
+  "source_of_label_versions": "out/answer_key_v2_independent.json (status_at_prac, status_current, label, label_at_prac)"
+ }
+}

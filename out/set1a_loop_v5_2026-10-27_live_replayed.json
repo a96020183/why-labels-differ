@@ -1,0 +1,264 @@
+{
+ "arm": "Full multi-agent loop (Planner, Research, chronology, Skeptic, Writer, Evaluator; up to two rounds of search, then up to three repair drafts)",
+ "ids": [
+  "R159",
+  "R160",
+  "R161",
+  "R164",
+  "R165",
+  "R166",
+  "R167",
+  "R168",
+  "R169",
+  "R170"
+ ],
+ "label": "v5_2026-10-27_live_replayed",
+ "traces": "out/set1a_loop_v5_2026-10-27_live_replayed_traces/",
+ "selection": "the first 10 set-1a questions with a named U.S. product, in file order, fixed before any run",
+ "run_at": "2026-10-27",
+ "run_at_note": "local date (UTC+8) when the run finished",
+ "sampleMode": true,
+ "answers": [
+  {
+   "id": "R159",
+   "us_status": "no answer",
+   "read_label": false,
+   "raw_status": "not found",
+   "finding": "No U.S. label record for afatinib available in the provided evidence.",
+   "cites": [],
+   "outcome": "needs-person",
+   "rounds": 5,
+   "modelCalls": 19,
+   "rejections": 5,
+   "errors": 0,
+   "secs": 0,
+   "sources": {
+    "models": {
+     "replay": 19
+    },
+    "sql": {
+     "replay": 24
+    }
+   }
+  },
+  {
+   "id": "R160",
+   "us_status": "no answer",
+   "read_label": false,
+   "raw_status": "no_action_by_fda",
+   "finding": "FDA AEMS Q3 2024 reviewed TLS signal for lenvatinib and determined no action necessary; no US label update indicated.",
+   "cites": [
+    "AEMS-Q32024-Tumor_lysis_syndrome"
+   ],
+   "outcome": "approved",
+   "rounds": 3,
+   "modelCalls": 12,
+   "rejections": 2,
+   "errors": 0,
+   "secs": 0,
+   "sources": {
+    "models": {
+     "replay": 12
+    },
+    "sql": {
+     "replay": 23
+    }
+   }
+  },
+  {
+   "id": "R161",
+   "us_status": "partial",
+   "read_label": true,
+   "raw_status": "partial",
+   "finding": "US label (Poteligeo v21) lists immune-mediated colitis in section 6.2 Postmarketing Experience only.",
+   "cites": [
+    "SPL-Poteligeo-v21-6.2-1alq"
+   ],
+   "outcome": "needs-person",
+   "rounds": 5,
+   "modelCalls": 18,
+   "rejections": 5,
+   "errors": 0,
+   "secs": 0,
+   "sources": {
+    "models": {
+     "replay": 18
+    },
+    "sql": {
+     "replay": 39
+    }
+   }
+  },
+  {
+   "id": "R164",
+   "us_status": "written",
+   "read_label": true,
+   "raw_status": "written",
+   "finding": "US label v36 (effective 2026-02-09) includes hyperammonemic encephalopathy warning in section 5.1 Hepatotoxicity",
+   "cites": [
+    "SPL-Stivarga-v36-5.1-q0y0"
+   ],
+   "outcome": "approved",
+   "rounds": 2,
+   "modelCalls": 9,
+   "rejections": 1,
+   "errors": 0,
+   "secs": 0,
+   "sources": {
+    "models": {
+     "replay": 9
+    },
+    "sql": {
+     "replay": 21
+    }
+   }
+  },
+  {
+   "id": "R165",
+   "us_status": "not found",
+   "read_label": true,
+   "raw_status": "not found",
+   "finding": "The US label for Zoloft (sertraline) version 7 (published 2025-07-24) contains no mention of MADD, glutaric acidemia type II, acyl-CoA dehydrogenase deficiency, fatty acid oxidation disorder, metabolic decompensation, or mitochondrial fatty acid oxidation defect in any section.",
+   "cites": [
+    "US-LABELS-SEARCHED"
+   ],
+   "outcome": "needs-person",
+   "rounds": 5,
+   "modelCalls": 19,
+   "rejections": 5,
+   "errors": 0,
+   "secs": 0,
+   "sources": {
+    "models": {
+     "replay": 19
+    },
+    "sql": {
+     "replay": 39
+    }
+   }
+  },
+  {
+   "id": "R166",
+   "us_status": "written",
+   "read_label": true,
+   "raw_status": "written",
+   "finding": "Bactrim (sulfamethoxazole/trimethoprim) U.S. label v18 (effective 2024-12-30) includes circulatory shock in WARNINGS and ADVERSE REACTIONS sections.",
+   "cites": [
+    "SPL-Bactrim-v18-s-1dvl",
+    "SPL-Bactrim-v18-s-t3wu"
+   ],
+   "outcome": "needs-person",
+   "rounds": 5,
+   "modelCalls": 18,
+   "rejections": 5,
+   "errors": 0,
+   "secs": 0,
+   "sources": {
+    "models": {
+     "replay": 18
+    },
+    "sql": {
+     "replay": 42
+    }
+   }
+  },
+  {
+   "id": "R167",
+   "us_status": "not found",
+   "read_label": true,
+   "raw_status": "not found",
+   "finding": "U.S. label for axicabtagene ciloleucel (Yescarta v23, effective 2026-08-06) does not list immune-mediated enterocolitis or immune effector cell-associated enteritis; full-label search found 2 sections matching related terms but not the specific reaction.",
+   "cites": [
+    "US-LABELS-SEARCHED",
+    "SPL-Yescarta-v23-6-tz5o"
+   ],
+   "outcome": "needs-person",
+   "rounds": 5,
+   "modelCalls": 21,
+   "rejections": 5,
+   "errors": 0,
+   "secs": 0,
+   "sources": {
+    "models": {
+     "replay": 21
+    },
+    "sql": {
+     "replay": 43
+    }
+   }
+  },
+  {
+   "id": "R168",
+   "us_status": "no answer",
+   "read_label": false,
+   "raw_status": "not_searched",
+   "finding": "US label not searched.",
+   "cites": [],
+   "outcome": "needs-person",
+   "rounds": 5,
+   "modelCalls": 19,
+   "rejections": 5,
+   "errors": 0,
+   "secs": 0,
+   "sources": {
+    "models": {
+     "replay": 19
+    },
+    "sql": {
+     "replay": 29
+    }
+   }
+  },
+  {
+   "id": "R169",
+   "us_status": "written",
+   "read_label": true,
+   "raw_status": "written",
+   "finding": "Xtandi US label v24 (effective 2026-07-28) includes warning in Section 5.8 and Drug Interactions 7.3 about interference with certain digoxin immunoassays causing falsely elevated digoxin plasma concentrations.",
+   "cites": [
+    "SPL-Xtandi-v24-5.8-103w",
+    "SPL-Xtandi-v24-7.3-u7yp"
+   ],
+   "outcome": "needs-person",
+   "rounds": 5,
+   "modelCalls": 18,
+   "rejections": 5,
+   "errors": 0,
+   "secs": 0,
+   "sources": {
+    "models": {
+     "replay": 18
+    },
+    "sql": {
+     "replay": 41
+    }
+   }
+  },
+  {
+   "id": "R170",
+   "us_status": "not found",
+   "read_label": true,
+   "raw_status": "not found",
+   "finding": "US label (v18, March 2025) does not list hallucinations unrelated to serotonin syndrome in warnings, contraindications, adverse reactions, or patient counseling; cited sections (Contraindications 4, Adverse Reactions 6, Patient Counseling 17) address serotonin syndrome but not hallucinations as a separate non-serotonin-syndrome reaction. Section 5 (Warnings and Precautions) was not provided in the records, so its content cannot be confirmed.",
+   "cites": [
+    "SPL-Trintellix-v18-4-76zm",
+    "SPL-Trintellix-v18-6-ptsr",
+    "SPL-Trintellix-v18-17-1pgq"
+   ],
+   "outcome": "needs-person",
+   "rounds": 5,
+   "modelCalls": 20,
+   "rejections": 5,
+   "errors": 0,
+   "secs": 0,
+   "sources": {
+    "models": {
+     "replay": 20
+    },
+    "sql": {
+     "replay": 45
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,186 @@
+# Offline re-judgement with the final checks of every draft the Evaluator saw in the QA round 4 recordings (five questions and loop v6).
+# Snapshot taken with the recording code (commit 71a5a4d) in a separate worktree; judged with the final code: node scripts/rejudge.ts judge out/qa5_snapshot_v6loop.json
+# 'recorded' = the recorded decision on that draft; 'model said' = the Evaluator model's own verdict on it. The check on sections the Skeptic's sweep read as the same reaction needs that reading, which the snapshot does not hold; the full replays (docs/traces, out/set1a_loop_v6_2026-10-27_live_rejudged_final_traces/) apply it.
+semaglutide-naion          r1  must-hold 0  coverage 2  (recorded: revise, model said revise)
+semaglutide-naion          r2  must-hold 2  coverage 1  (recorded: revise, model said revise)
+    The UK (MHRA) stage changed from "agreed_with_noted_conflict" to "concluded" with no new record for it and no check asking for it. Keep "agreed_with_n
+    Dates that the records each sentence cites do not contain: June 2025 (EU (EMA / PRAC) cell; it is in EU-NEWS-NAION-02, EU-NEWS-NAION-03, which it does
+semaglutide-naion          r3  must-hold 1  coverage 0  (recorded: revise, model said revise)
+    Sent back after draft 2 and not answered: H1, H2, H4 still hold though they were found to restate the difference (judge them not_a_cause, or open). Re
+semaglutide-naion          r4  must-hold 3  coverage 0  (recorded: revise, model said revise)
+    Sent back after draft 3 and not answered: H1, H2, H4 still hold though they were found to restate the difference (judge them not_a_cause, or open). Re
+    The why says the cause cannot be determined, yet H1, H2, H4 hold. Name the main cause, or judge them open.
+    The why says the cause cannot be determined, but the Skeptic reads H1 as a cause of the difference, shown by EU-EPAR-STEPS-OZEMPIC-01, EU-SMPC-OZEMPIC
+semaglutide-naion          r5  must-hold 1  coverage 0  (recorded: approve, model said approve)
+    The why says the cause cannot be determined, but the Skeptic reads H4 as a cause of the difference, shown by AEMS-Q42024-Non_arteritic_anterior_i. Jud
+sertraline-pssd            r1  must-hold 3  coverage 3  (recorded: revise, model said revise)
+    Held partly on a search that found nothing: H4 divergent postmarketing surveillance signal detection. Not finding a record does not show a reason: jud
+    The why rests partly on a search that found nothing (FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a record does not show a reason: cite a re
+    The UK (MHRA) cell mentions a boxed warning, but its record says the boxed warning is about suicidal thoughts. Say what each measure is about, as the 
+sertraline-pssd            r2  must-hold 2  coverage 1  (recorded: revise, model said revise)
+    Values outside the allowed lists: why type "unclear". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_action_found | not_
+    No explanation is judged to hold, yet the why gives a reason. If a record shows the reason, judge that explanation holds and name it the main cause; i
+sertraline-pssd            r3  must-hold 0  coverage 0  (recorded: revise, model said revise)
+sertraline-pssd            r4  must-hold 2  coverage 1  (recorded: revise, model said revise)
+    Ruled out, but no record filed against it shows it is false (a record that does not mention it is silent): H3: The explanation posits EU action was pr
+    Ruled out with no record against it: H3 class vs product specific regulatory action. Put the record that shows it false under "against", or, if no rec
+sertraline-pssd            r5  must-hold 2  coverage 1  (recorded: revise, model said approve)
+    Ruled out, but no record filed against it shows it is false (a record that does not mention it is silent): H3: The explanation claims both EU and UK a
+    The why says the cause cannot be determined, but the Skeptic reads H3 as a cause of the difference, shown by EU-PRAC-REC-2019-05-01, UK-DSU-2026-10-15
+darolutamide-angioedema    r1  must-hold 3  coverage 1  (recorded: revise, model said revise)
+    Held partly on a search that found nothing: H1 eu signal detected only. Not finding a record does not show a reason: judge it open, or cite a record t
+    The why rests partly on a search that found nothing (FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND, MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND). Not finding a 
+    The draft cites a U.S. label version from the last year that mentions the reaction, yet the U.S. FDA cell says no public action. The FDA approves ever
+darolutamide-angioedema    r2  must-hold 2  coverage 0  (recorded: revise, model said approve)
+    The why rests partly on a search that found nothing (MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND, FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a 
+    An undetermined why claims no cause: it gives 1 reason(s). Give no reasons, and say only where each regulator stands and that the public records do no
+darolutamide-angioedema    r3  must-hold 2  coverage 0  (recorded: revise, model said approve)
+    The why rests partly on a search that found nothing (MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND, FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a 
+    An undetermined why claims no cause: it gives 1 reason(s). Give no reasons, and say only where each regulator stands and that the public records do no
+darolutamide-angioedema    r4  must-hold 0  coverage 0  (recorded: revise, model said approve)
+darolutamide-angioedema    r5  must-hold 0  coverage 0  (recorded: revise, model said approve)
+gemcitabine-dress          r1  must-hold 3  coverage 0  (recorded: revise, model said revise)
+    Values outside the allowed lists: why type "unclear". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_action_found | not_
+    gemcitabine's own U.S. label already warned by 2026-04-27 (SPL-Gemcitabine (Hospira)-v28-5.3-qhg2), before the first EU or UK action in the records (2
+    No explanation is judged to hold, yet the why gives a reason. If a record shows the reason, judge that explanation holds and name it the main cause; i
+gemcitabine-dress          r2  must-hold 2  coverage 0  (recorded: revise, model said revise)
+    Explanations judged to hold that no cited record shows (the Skeptic read every record filed for them): H6 (main cause): The SPL record does not provid
+    Dates that the records each sentence cites do not contain: May 2024 (H6; it is in AEMS-Q32023-Drug_reaction_with_eosin, which it does not cite), May 2
+gemcitabine-dress          r3  must-hold 0  coverage 0  (recorded: approve, model said approve)
+valproate-paternal         r1  must-hold 1  coverage 1  (recorded: revise, model said revise)
+    The why rests partly on a search that found nothing (FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a record does not show a reason: cite a re
+valproate-paternal         r2  must-hold 6  coverage 1  (recorded: revise, model said revise)
+    Ruled out, but no record filed against it shows it is false (a record that does not mention it is silent): H1: Record describes 2018 European review a
+    Values outside the allowed lists: why type "unclear". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_action_found | not_
+    The U.S. label status changed from "related_only" to "not found" with no new record for it and no check asking for it. Keep "related_only", or cite th
+    The Skeptic found a related form of the reaction in valproate's own label (SPL-Depakote-v1621-8-1azh): the U.S. label status is related_only, not "not
+    Dates that the records each sentence cites do not contain: January 2024 (EU (EMA / PRAC) cell; it is in EU-NEWS-VALPROATE-2024-01-01, EU-NEWS-VALPROAT
+    No explanation is judged to hold, yet the why gives a reason. If a record shows the reason, judge that explanation holds and name it the main cause; i
+valproate-paternal         r3  must-hold 1  coverage 0  (recorded: revise, model said revise)
+    The why says the cause cannot be determined, but the Skeptic reads H2 as a cause of the difference, shown by UK-DSU-2024-09-05-01, EU-NEWS-VALPROATE-2
+valproate-paternal         r4  must-hold 1  coverage 0  (recorded: revise, model said revise)
+    Dates that the records each sentence cites do not contain: 2024 (H2; it is in UK-DSU-2024-09-05-01, UK-DSU-2024-09-05-04, which it does not cite). Eve
+valproate-paternal         r5  must-hold 1  coverage 0  (recorded: revise, model said revise)
+    Values outside the allowed lists: U.S. FDA stage "uncertain". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_action_foun
+set1a-R159                 r1  must-hold 4  coverage 1  (recorded: revise, model said revise)
+    No citation for: EU (EMA / PRAC).
+    Values outside the allowed lists: why type "unclear". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_action_found | not_
+    Dates that the records each sentence cites do not contain: 2025 (H3; no record has it). Every date must come from a record the same sentence cites; do
+    No explanation is judged to hold, yet the why gives a reason. If a record shows the reason, judge that explanation holds and name it the main cause; i
+set1a-R159                 r2  must-hold 3  coverage 1  (recorded: revise, model said revise)
+    No citation for: EU (EMA / PRAC).
+    Values outside the allowed lists: why type "unclear". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_action_found | not_
+    No explanation is judged to hold, yet the why gives a reason. If a record shows the reason, judge that explanation holds and name it the main cause; i
+set1a-R159                 r3  must-hold 1  coverage 1  (recorded: revise, model said revise)
+    No citation for: EU (EMA / PRAC).
+set1a-R159                 r4  must-hold 1  coverage 1  (recorded: revise, model said approve)
+    Values outside the allowed lists: EU (EMA / PRAC) stage "not_searched". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_a
+set1a-R159                 r5  must-hold 1  coverage 1  (recorded: revise, model said revise)
+    No citation for: EU (EMA / PRAC).
+set1a-R160                 r1  must-hold 2  coverage 0  (recorded: revise, model said revise)
+    Held partly on a search that found nothing: H1 eu updated smPC uk us not yet, H4 timing difference recent eu action. Not finding a record does not sho
+    The why rests partly on a search that found nothing (MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND). Not finding a record does not show a reason: cite a reco
+set1a-R160                 r2  must-hold 3  coverage 1  (recorded: revise, model said revise)
+    Explanations judged to hold that no cited record shows (the Skeptic read every record filed for them): H2 (main cause): Records show regulatory action
+    The U.S. FDA stage changed from "concluded" to "no_public_action_found" with no new record for it and no check asking for it. Keep "concluded", or cit
+    Dates that the records each sentence cites do not contain: 2025 (H4; it is in PRAC-R160, AEMS-Q32024-Tumor_lysis_syndrome, which it does not cite), Q3
+set1a-R160                 r3  must-hold 0  coverage 0  (recorded: approve, model said approve)
+set1a-R161                 r1  must-hold 3  coverage 1  (recorded: revise, model said revise)
+    No citation for: EU (EMA / PRAC).
+    Values outside the allowed lists: why type "unclear". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_action_found | not_
+    No explanation is judged to hold, yet the why gives a reason. If a record shows the reason, judge that explanation holds and name it the main cause; i
+set1a-R161                 r2  must-hold 4  coverage 0  (recorded: revise, model said revise)
+    Values outside the allowed lists: why type "unclear". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_action_found | not_
+    The U.S. label status changed from "partial" to "related_only" with no new record for it and no check asking for it. Keep "partial", or cite the new r
+    Dates that the records each sentence cites do not contain: 2025 (H4; it is in PRAC-R161, which it does not cite), 2025 (why sentence; it is in PRAC-R1
+    No explanation is judged to hold, yet the why gives a reason. If a record shows the reason, judge that explanation holds and name it the main cause; i
+set1a-R161                 r3  must-hold 1  coverage 0  (recorded: revise, model said approve)
+    Dates that the records each sentence cites do not contain: 2025 (H4; it is in PRAC-R161, which it does not cite). Every date must come from a record t
+set1a-R161                 r4  must-hold 0  coverage 0  (recorded: approve, model said approve)
+set1a-R164                 r1  must-hold 5  coverage 1  (recorded: revise, model said revise)
+    Explanations judged to hold that no cited record shows (the Skeptic read every record filed for them): H3: Search found nothing is silent per instruct
+    Held partly on a search that found nothing: H1 eu prac signal not mirrored in fda faers, H3 uk has not adopted eu position. Not finding a record does 
+    The why rests partly on a search that found nothing (FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND, MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND). Not finding a 
+    The draft cites a U.S. label version from the last year that mentions the reaction, yet the U.S. FDA cell says no public action. The FDA approves ever
+    Dates that the records each sentence cites do not contain: April 2025 (UK (MHRA) cell; it is in PRAC-R164, which it does not cite), April 2025 (H3; it
+set1a-R164                 r2  must-hold 4  coverage 1  (recorded: revise, model said revise)
+    Ruled out, but no record filed against it shows it is false (a record that does not mention it is silent): H4: Record shows US label includes warning 
+    The why rests partly on a search that found nothing (MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND). Not finding a record does not show a reason: cite a reco
+    Dates that the records each sentence cites do not contain: April 2025 (UK (MHRA) cell; it is in PRAC-R164, which it does not cite), April 2025 (H3; it
+    An undetermined why claims no cause: it gives 1 reason(s). Give no reasons, and say only where each regulator stands and that the public records do no
+set1a-R164                 r3  must-hold 0  coverage 1  (recorded: revise, model said revise)
+set1a-R164                 r4  must-hold 4  coverage 1  (recorded: revise, model said revise)
+    Ruled out, but no record filed against it shows it is false (a record that does not mention it is silent): H4: PRAC-R164 shows the EU side (PRAC) cons
+    Ruled out with no record against it: H4 different causality assessment. Put the record that shows it false under "against", or, if no record does, jud
+    Dates that the records each sentence cites do not contain: April 2025 (UK (MHRA) cell; it is in PRAC-R164, which it does not cite), April 2025 (H3; it
+    The why says the cause cannot be determined, but the Skeptic reads H4 as a cause of the difference, shown by PRAC-R164. Judge it on those records (hol
+set1a-R164                 r5  must-hold 2  coverage 2  (recorded: revise, model said approve)
+    Dates that the records each sentence cites do not contain: April 2025 (H3; it is in PRAC-R164, which it does not cite). Every date must come from a re
+    The why says the cause cannot be determined, but the Skeptic reads H4 as a cause of the difference, shown by PRAC-R164. Judge it on those records (hol
+set1a-R165                 r1  must-hold 2  coverage 1  (recorded: revise, model said revise)
+    Values outside the allowed lists: why type "unclear". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_action_found | not_
+    No explanation is judged to hold, yet the why gives a reason. If a record shows the reason, judge that explanation holds and name it the main cause; i
+set1a-R165                 r2  must-hold 3  coverage 1  (recorded: revise, model said revise)
+    Ruled out, but no record filed against it shows it is false (a record that does not mention it is silent): H2: PRAC-R165 shows the EU assessment was d
+    Values outside the allowed lists: why type "unclear". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_action_found | not_
+    No explanation is judged to hold, yet the why gives a reason. If a record shows the reason, judge that explanation holds and name it the main cause; i
+set1a-R165                 r3  must-hold 0  coverage 1  (recorded: approve, model said approve)
+set1a-R166                 r1  must-hold 5  coverage 3  (recorded: revise, model said revise)
+    Ruled out, but no record filed against it shows it is false (a record that does not mention it is silent): H2: PRAC-R166 indicates the signal is for t
+    Values outside the allowed lists: why type "unclear". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_action_found | not_
+    Ruled out with no record against it: H2 eu class wide sulfonamide action versus single agent review elsewhere. Put the record that shows it false unde
+    Dates that the records each sentence cites do not contain: May 2025 (why sentence; it is in PRAC-R166, which it does not cite). Every date must come f
+    No explanation is judged to hold, yet the why gives a reason. If a record shows the reason, judge that explanation holds and name it the main cause; i
+set1a-R166                 r2  must-hold 4  coverage 0  (recorded: revise, model said revise)
+    Values outside the allowed lists: why type "unclear". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_action_found | not_
+    sulfamethoxazole's own U.S. label already warned by 2024-12-30 (SPL-Bactrim-v18-s-1dvl), before the first EU or UK action in the records (2025-05, PRA
+    Dates that the records each sentence cites do not contain: May 2025 (why sentence; it is in PRAC-R166, which it does not cite). Every date must come f
+    No explanation is judged to hold, yet the why gives a reason. If a record shows the reason, judge that explanation holds and name it the main cause; i
+set1a-R166                 r3  must-hold 2  coverage 0  (recorded: revise, model said revise)
+    The why rests partly on a search that found nothing (MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND, FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a 
+    No explanation is judged to hold, yet the why gives a reason. If a record shows the reason, judge that explanation holds and name it the main cause; i
+set1a-R166                 r4  must-hold 1  coverage 0  (recorded: revise, model said revise)
+    sulfamethoxazole's own U.S. label already warned by 2024-12-30 (SPL-Bactrim-v18-s-1dvl), before the first EU or UK action in the records (2025-05, PRA
+set1a-R166                 r5  must-hold 3  coverage 0  (recorded: revise, model said revise)
+    Explanations judged to hold that no cited record shows (the Skeptic read every record filed for them): H6: H6 is a potential causal explanation (US wa
+    The why rests partly on a search that found nothing (MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND, FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a 
+    1 explanations hold but none is named the main cause. Name exactly one main cause and say why it weighs more than the others.
+set1a-R167                 r1  must-hold 4  coverage 1  (recorded: revise, model said revise)
+    No citation for: EU (EMA / PRAC).
+    Values outside the allowed lists: why type "unclear". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_action_found | not_
+    No explanation is judged to hold, yet the why gives a reason. If a record shows the reason, judge that explanation holds and name it the main cause; i
+    Ruled out only on a search that found nothing: H3 uk adopted eu position, H5 fda potential signal listed, H6 us sentinel studies ongoing. Not finding 
+set1a-R167                 r2  must-hold 3  coverage 1  (recorded: revise, model said approve)
+    Values outside the allowed lists: why type "unclear". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_action_found | not_
+    The EU cell cites a PRAC recommendation that updated the product information, yet calls the EU stage "under evaluation".
+    No explanation is judged to hold, yet the why gives a reason. If a record shows the reason, judge that explanation holds and name it the main cause; i
+set1a-R167                 r3  must-hold 0  coverage 1  (recorded: approve, model said approve)
+set1a-R168                 r1  must-hold 3  coverage 1  (recorded: revise, model said revise)
+    Values outside the allowed lists: recommendation "none". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_action_found | n
+    Held partly on a search that found nothing: H1 eu signal first timing difference, H5 label implementation status differs. Not finding a record does no
+    The why rests partly on a search that found nothing (MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND, FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a 
+set1a-R168                 r2  must-hold 3  coverage 0  (recorded: revise, model said revise)
+    No record given for: H5 label implementation status differs.
+    Values outside the allowed lists: why type "unclear". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_action_found | not_
+    No explanation is judged to hold, yet the why gives a reason. If a record shows the reason, judge that explanation holds and name it the main cause; i
+set1a-R168                 r3  must-hold 0  coverage 0  (recorded: approve, model said approve)
+set1a-R169                 r1  must-hold 3  coverage 1  (recorded: revise, model said revise)
+    Values outside the allowed lists: why type "unclear". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_action_found | not_
+    Dates that the records each sentence cites do not contain: June 2025 (why sentence; it is in PRAC-R169, which it does not cite). Every date must come 
+    Ruled out only on a search that found nothing: H2 mhra issued dsu, H3 fda on potential signal list. Not finding a record is not a record against it: j
+set1a-R169                 r2  must-hold 1  coverage 0  (recorded: revise, model said revise)
+    The draft cites a U.S. label version from the last year that mentions the reaction, yet the U.S. FDA cell says no public action. The FDA approves ever
+set1a-R169                 r3  must-hold 0  coverage 0  (recorded: approve, model said approve)
+set1a-R170                 r1  must-hold 2  coverage 1  (recorded: revise, model said revise)
+    The Skeptic's independent check contradicts: MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND: an MHRA record on vortioxetine does mention it (UK-DSU-2026-10-15
+    Ruled out, but no record filed against it shows it is false (a record that does not mention it is silent): H3: PRAC-R170 dates the EU recommendation t
+set1a-R170                 r2  must-hold 2  coverage 2  (recorded: revise, model said revise)
+    Cites ids that Research never returned: UK-DSU-2026-10-15-04.
+    The explanation contradicts the cells: H2 says the U.S. already has it, but the U.S. label cell says related_only and the FDA cell no public action fo
+set1a-R170                 r3  must-hold 1  coverage 1  (recorded: revise, model said revise)
+    No citation for: UK (MHRA).
+set1a-R170                 r4  must-hold 1  coverage 1  (recorded: revise, model said revise)
+    The Skeptic's independent check contradicts: MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND: an MHRA record on vortioxetine does mention it (UK-DSU-2026-10-15
+set1a-R170                 r5  must-hold 2  coverage 2  (recorded: revise, model said revise)
+    The Skeptic's independent check contradicts: MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND: an MHRA record on vortioxetine does mention it (UK-DSU-2026-10-15
+    Values outside the allowed lists: UK (MHRA) stage "inconclusive". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_action_

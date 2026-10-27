@@ -1,0 +1,21 @@
+{
+ "id": "R197",
+ "model_requested": "gpt-5.5",
+ "model_served": "gpt-5.5-2026-04-23",
+ "secs": 79.3,
+ "usage": {
+  "input_tokens": 63454,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 2688
+  },
+  "output_tokens": 2905,
+  "output_tokens_details": {
+   "reasoning_tokens": 2344
+  },
+  "total_tokens": 66359
+ },
+ "text": "{\"us_status\":\"partial\",\"label_product\":\"Oxacillin Injection, USP in Plastic Container; Baxter Healthcare Corporation; NDA 050640\",\"label_version_or_date\":\"DailyMed updated August 31, 2026; label Rev. August 2026\",\"label_section\":\"ADVERSE REACTIONS — Skin and Subcutaneous Tissue Disorders\",\"quote\":\"Drug reaction with eosinophilia and systemic symptoms (DRESS) has been identified during postapproval use of oxacillin.\",\"eu\":\"EMA/PRAC adopted 3 September 2026: recommends adding DRESS warning to SmPC section 4.4 and DRESS as frequency not known in section 4.8 for oxacillin-containing products.\",\"uk\":\"MHRA/GOV.UK: no UK MHRA oxacillin SmPC/PIL or UK-specific DRESS update located in MHRA product-information searches.\",\"us_regulator\":\"FDA: public supplement-approval letter NDA 050640/S-024 dated 31 August 2026 says the CBE sNDA revised ADVERSE REACTIONS to add DRESS; no oxacillin/DRESS entry found on 2026 AEMS potential-signals pages or Sentinel search.\",\"sources\":[\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d893e45b-7f18-4c67-b10c-1e2e52a6b3ef\",\"https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/050640Orig1s024ltr.pdf\",\"https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-31-august-3-september-2026-prac-meeting_en.pdf\",\"https://www.gov.uk/guidance/find-product-information-about-medicines\",\"https://products.mhra.gov.uk/substance-index\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/january-march-2026-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/april-june-2026-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse\",\"https://www.fda.gov/safety/fdas-sentinel-initiative/fdas-sentinel-initiative-ongoing-projects\"]}",
+ "annotation_urls": [],
+ "at": "2026-10-24T02:05:51"
+}

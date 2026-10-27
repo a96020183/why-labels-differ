@@ -1,0 +1,18 @@
+{
+ "tag": "job3_c12",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {},
+ "latency": 31.752,
+ "hadThink": true,
+ "tries": 1,
+ "call": {
+  "stream": true,
+  "tierSplit": false,
+  "isoScope": true
+ },
+ "promptTokensEstimated": 968,
+ "rawChars": 1088,
+ "task": "Continuing a chunked research run. Goal (truncated): Scan PRAC rows batch 45-66 into the divergence ledger and keep the cross-entry index in CONTEXT.\n\n[CARRYOVER STATE]\nCOMPLETED: R165\nREMAINING: 5\nDECISIONS: -\nCONTEXT: Myocarditis and pericarditis: R085 mRNA vac J07B w, R086 mRNA vac J07B w, R100 Spikevax J07B w, R102 Comirnaty J07B w; Autoimmune hepatitis: R101 Olmesartan C09C nf; Hepatitis E: R057 Ibrutinib L01E p; Hepatitis: R082 Ceftriaxone J01D nf, R126 Olaparib L01X nf; Arthralgia: R103 Durvalumab L01F p; Toxic epidermal necrolysis: R104 Pregabalin N02B nf, R149 Bumetanide C03C p; Erythema multiforme: R090 mRNA vac J07B nf, R091 mRNA vac J07B p, R105 Enzalutamide L02B p, R137 Abemaciclib/palbociclib/ribociclib L01E nf; DIC: R106 Obinutuzumab L01F nf; Capillary leak syndrome: R083 ChAdOx1-S J07B nm, R110 Elasomeran J07B nf, R124 Ipilimumab/nivolumab/pembrolizumab L01F/L01X nf; Cytokine release syndrome: R124 Ipilimumab/nivolumab/pembrolizumab L01F/L\n\nContinue exactly where the state leaves off. Do not repeat completed work.\n\n[BATCH 56 of 66; chunk 12 of 22 in this job]\nR166 | PRAC 2025-05 | Sulfamethoxazole, trimethoprim (co-trimoxazole) | ATC3 J01E | signal: Circulatory shock | US label: written (sulfamethoxazole, label effective 20260902, section: warnings)\nR167 | PRAC 2025-06 | Axicabtagene ciloleucel; brexucabtagene autoleucel; ciltabtagene autoleucel; idecabtagene vicleucel; lisocabta | ATC3 L01X | signal: Immune-mediated enterocolitis / immune effector cell-associated enteritis with CAR T-cell products | US label: not found (axicabtagene ciloleucel, label effective 20260806)\nR168 | PRAC 2025-06 | Brodalumab | ATC3 L04A | signal: Pyoderma gangrenosum | US label: not found (brodalumab, label effective 20260528)\n\nEnd every non-final chunk with [STATE_CHECKPOINT] followed by a concise state block:\nCOMPLETED: ...\nREMAINING: ...\nDECISIONS: ...\nCONTEXT: ...\nEnd the final chunk with [TASK_COMPLETE]. Exactly one marker per chunk. Never narrate the markers.",
+ "text": "{\"id\":\"R166\",\"us\":\"written\",\"cross\":[]}\n{\"id\":\"R167\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R168\",\"us\":\"not found\",\"cross\":[]}\n[STATE_CHECKPOINT]\nCOMPLETED: R168\nREMAINING: 2\nDECISIONS: -\nCONTEXT: Myocarditis and pericarditis: R085 mRNA vac J07B w, R086 mRNA vac J07B w, R100 Spikevax J07B w, R102 Comirnaty J07B w; Autoimmune hepatitis: R101 Olmesartan C09C nf; Hepatitis E: R057 Ibrutinib L01E p; Hepatitis: R082 Ceftriaxone J01D nf, R126 Olaparib L01X nf; Arthralgia: R103 Durvalumab L01F p; Toxic epidermal necrolysis: R104 Pregabalin N02B nf, R149 Bumetanide C03C p; Erythema multiforme: R090 mRNA vac J07B nf, R091 mRNA vac J07B p, R105 Enzalutamide L02B p, R137 Abemaciclib/palbociclib/ribociclib L01E nf; DIC: R106 Obinutuzumab L01F nf; Capillary leak syndrome: R083 ChAdOx1-S J07B nm, R110 Elasomeran J07B nf, R124 Ipilimumab/nivolumab/pembrolizumab L01F/L01X nf; Cytokine release syndrome: R124 Ipilimumab/nivolumab/pembrolizumab L01F/L; Circulatory shock: R166 co-trimoxazole J01E w; Immune-mediated enterocolitis: R167 CAR-T L01X nf; Pyoderma gangrenosum: R168 brodalumab L04A nf"
+}

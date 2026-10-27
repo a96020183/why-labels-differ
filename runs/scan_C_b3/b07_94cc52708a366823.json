@@ -1,0 +1,18 @@
+{
+ "tag": "b07",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {},
+ "latency": 77.605,
+ "hadThink": true,
+ "tries": 2,
+ "call": {
+  "stream": true,
+  "tierSplit": false,
+  "isoScope": true
+ },
+ "promptTokensEstimated": 540,
+ "rawChars": 121,
+ "task": "[RETRIEVED EVIDENCE LEDGER ROWS - same ingredient or same ATC level 3 as a row in this batch; 1 of 1 matches, most recent]\nR016 | PRAC 2019-06 | Sulfasalazine | ATC3 A07E | signal: Interference with dihydronicotinamide-adenine dinucleotide / dihydronicotinamide-adenine dinucleotide phosphate (NADH/NA | US label: not found (sulfasalazine, label effective 20260825) | ledger: {\"id\":\"R016\",\"us\":\"not found\",\"cross\":[]}\n\n[BATCH 7 of 66]\nR019 | PRAC 2019-07 | Amino acids and/or lipids with or without admixture of vitamins or trace elements (for parenteral nutrition) | ATC3 B05B | signal: Adverse outcomes in neonates treated with solutions not protected from light | US label: unknown (amino acids)\nR020 | PRAC 2019-07 | Mesalazine | ATC3 A07E | signal: Nephrolithiasis | US label: unknown (mesalazine)\nR021 | PRAC 2019-07 | Ondansetron | ATC3 A04A | signal: Signal of birth defects following in-utero exposure during the first trimester of pregnancy arising from recent publicat | US label: not found (ondansetron, label effective 20260901)",
+ "text": "{\"id\":\"R019\",\"us\":\"unknown\",\"cross\":[]}\n{\"id\":\"R020\",\"us\":\"unknown\",\"cross\":[]}\n{\"id\":\"R021\",\"us\":\"not found\",\"cross\":[]}"
+}

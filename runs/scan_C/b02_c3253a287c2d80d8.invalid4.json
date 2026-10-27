@@ -1,0 +1,9 @@
+{
+ "served": "nvidia/nemotron-3.5-super-vl-120b-a12b",
+ "usage": {
+  "prompt_tokens": 1417,
+  "completion_tokens": 3731,
+  "total_tokens": 5148
+ },
+ "text": "{\"id\":\"R009\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R010\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R011\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R012\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R013\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R014\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R015\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R016\",\"us\":\"not found\",\"cross\":[]}"
+}

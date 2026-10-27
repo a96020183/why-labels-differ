@@ -1,0 +1,14 @@
+{
+ "tag": "job1_c01",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {
+  "prompt_tokens": 3597,
+  "completion_tokens": 1836,
+  "total_tokens": 5433
+ },
+ "latency": 45.229,
+ "hadThink": true,
+ "promptTokensEstimated": 861,
+ "text": ">> Processing batch 1 (R001-R008) into divergence ledger\n{\"id\":\"R001\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R002\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R003\",\"us\":\"written\",\"cross\":[]}\n{\"id\":\"R004\",\"us\":\"unknown\",\"cross\":[]}\n{\"id\":\"R005\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R006\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R007\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R008\",\"us\":\"not found\",\"cross\":[]}\n[STATE_CHECKPOINT]\nCOMPLETED: R008\nREMAINING: 4 (R009-R012 of this 12-row job; 24 batches remain overall)\nDECISIONS: All 8 signals unique; no cross-class matches. R004 US status \"unknown\" kept verbatim per fact line.\nCONTEXT: Interference with clinical laboratory tests: R001 Biotin A11H not found; Dysphagia: R002 Gabapentin N02B not found; Hypoparathyroidism: R003 Nivolumab L01F,L01X written; Paracetamol use in pregnancy and child neurodevelopment and effects on the urogenital apparatus: R004 Paracetamol N02B unknown; Evaluation of data on foetal outcomes including congenital anomalies from a single observational study in the US: R005 Armodafinil; modafinil N06B not found; Recurrent thrombosis in patients with antiphospholipid syndrome: R006 Rivaroxaban; apixaban; dabigatran; edoxaban B01A not found; Drug interaction with fluconazole: R007 SSRI: citalopram; escitalopram N06A not found; Persistent sexual dysfunction after drug withdrawal: R008 Clomipramine; SNRI: desvenlafaxine; duloxetine; milnacipran N06A not found"
+}

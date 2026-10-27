@@ -1,0 +1,9 @@
+{
+ "built": "2026-10-24",
+ "aems_source": "fda.gov AEMS quarterly pages saved in data/evidence_raw/aems",
+ "sentinel_snapshot": "2026-09-22",
+ "docs": 13,
+ "passages": 39,
+ "spl_sections": 510,
+ "aems_rows": 280
+}

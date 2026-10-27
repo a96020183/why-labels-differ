@@ -1,0 +1,18 @@
+{
+ "tag": "b14",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {},
+ "latency": 36.218,
+ "hadThink": true,
+ "tries": 1,
+ "call": {
+  "stream": true,
+  "tierSplit": false,
+  "isoScope": true
+ },
+ "promptTokensEstimated": 905,
+ "rawChars": 121,
+ "task": "[RETRIEVED EVIDENCE LEDGER ROWS - same ingredient or same ATC level 3 as a row in this batch; 7 of 7 matches, most recent]\nR007 | PRAC 2019-04 | Selective serotonin reuptake inhibitors (SSRI): citalopram; escitalopram | ATC3 N06A | signal: Drug interaction with fluconazole | US label: not found (citalopram, label effective 20260904) | ledger: {\"id\":\"R007\",\"us\":\"not found\",\"cross\":[]}\nR008 | PRAC 2019-05 | Clomipramine; Serotonin and noradrenaline reuptake inhibitors (SNRI): desvenlafaxine; duloxetine; milnacipran; | ATC3 N06A | signal: Persistent sexual dysfunction after drug withdrawal | US label: not found (desvenlafaxine, label effective 20260821) | ledger: {\"id\":\"R008\",\"us\":\"not found\",\"cross\":[]}\nR011 | PRAC 2019-05 | Sertraline | ATC3 N06A | signal: Maculopathy | US label: not found (sertraline, label effective 20260903) | ledger: {\"id\":\"R011\",\"us\":\"not found\",\"cross\":[]}\nR024 | PRAC 2019-09 | Ibuprofen | ATC3 C01E,G02C,M01A,M02A,N02A,R02A | signal: Acute generalised exanthematous pustulosis (AGEP) | US label: not found (ibuprofen, label effective 20260909) | ledger: {\"id\":\"R024\",\"us\":\"not found\",\"cross\":[]}\nR033 | PRAC 2020-03 | Paroxetine | ATC3 N06A | signal: Microscopic colitis | US label: not found (paxil, label effective Oct 02, 2026) | ledger: {\"id\":\"R033\",\"us\":\"not found\",\"cross\":[]}\nR035 | PRAC 2020-04 | Andexanet alfa | ATC3 V03A | signal: Erroneous assay results for levels of anti-factor Xa activity with use of andexanet alfa | US label: not found (andexanet alfa, label effective 20250523) | ledger: {\"id\":\"R035\",\"us\":\"not found\",\"cross\":[]}\nR036 | PRAC 2020-04 | Ibuprofen; ketoprofen | ATC3 C01E,G02C,M01A,M02A,N02A,R02A | signal: Serious exacerbation of infections | US label: not found (ibuprofen, label effective 20260909) | ledger: {\"id\":\"R036\",\"us\":\"not found\",\"cross\":[]}\n\n[BATCH 14 of 66]\nR040 | PRAC 2020-05 | Buprenorphine; buprenorphine, naloxone | ATC3 A06A,N02A,N07B,V03A | signal: Drug-drug interaction with serotonergic drugs leading to serotonin syndrome | US label: not found (buprenorphine, label effective 20260817)\nR041 | PRAC 2020-05 | Hormone replacement therapy (HRT): chlorotrianisene; conjugated estrogens; conjugated estrogens, bazedoxifene; | ATC3 G03A,G03C,G03D,G03X,H01C,L02A | signal: New information on the known risk of breast cancer | US label: unknown (chlorotrianisene)\nR042 | PRAC 2020-05 | Mirtazapine | ATC3 N06A | signal: Amnesia | US label: partial (mirtazapine, label effective 20260916, section: adverse_reactions)",
+ "text": "{\"id\":\"R040\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R041\",\"us\":\"unknown\",\"cross\":[]}\n{\"id\":\"R042\",\"us\":\"partial\",\"cross\":[]}"
+}

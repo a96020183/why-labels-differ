@@ -1,0 +1,270 @@
+{
+ "arm": "Full multi-agent loop (Planner, Research, chronology, Skeptic, Writer, Evaluator; up to two rounds of search, then up to three repair drafts)",
+ "ids": [
+  "R159",
+  "R160",
+  "R161",
+  "R164",
+  "R165",
+  "R166",
+  "R167",
+  "R168",
+  "R169",
+  "R170"
+ ],
+ "label": "v6_2026-10-27_live",
+ "traces": "out/set1a_loop_v6_2026-10-27_live_traces/",
+ "selection": "the first 10 set-1a questions with a named U.S. product, in file order, fixed before any run",
+ "run_at": "2026-10-27",
+ "run_at_note": "local date (UTC+8) when the run finished",
+ "sampleMode": false,
+ "answers": [
+  {
+   "id": "R159",
+   "us_status": "not found",
+   "read_label": true,
+   "raw_status": "not found",
+   "finding": "No U.S. label for afatinib found in searched database; no mention of trichomegaly or eyelash growth in any section.",
+   "cites": [
+    "US-LABELS-SEARCHED"
+   ],
+   "outcome": "needs-person",
+   "rounds": 5,
+   "modelCalls": 19,
+   "rejections": 5,
+   "errors": 0,
+   "secs": 846,
+   "sources": {
+    "models": {
+     "live": 19
+    },
+    "sql": {
+     "zetaris": 34
+    }
+   }
+  },
+  {
+   "id": "R160",
+   "us_status": "not found",
+   "read_label": true,
+   "raw_status": "related_only",
+   "finding": "U.S. label sections reviewed (Lenvima v82, effective 2026-10-14) include renal failure/impairment in dosage modifications and warnings but do not mention tumour lysis syndrome.",
+   "cites": [
+    "SPL-Lenvima-v82-2-itec",
+    "SPL-Lenvima-v82-2.5-1tgz",
+    "SPL-Lenvima-v82-8.6-1xlb"
+   ],
+   "outcome": "approved",
+   "rounds": 3,
+   "modelCalls": 13,
+   "rejections": 2,
+   "errors": 0,
+   "secs": 550,
+   "sources": {
+    "models": {
+     "live": 13
+    },
+    "sql": {
+     "zetaris": 35
+    }
+   }
+  },
+  {
+   "id": "R161",
+   "us_status": "not found",
+   "read_label": true,
+   "raw_status": "related_only",
+   "finding": "U.S. label (Poteligeo v21) lists 'Immune-mediated colitis' in Section 6.2 Postmarketing Experience; a search of the label for colitis terms (colitis, ulcerative colitis, microscopic colitis, ischemic colitis, infectious colitis, drug-induced colitis, enterocolitis, typhlitis) found matches only in Section 6.2, not in Warnings and Precautions or Boxed Warning.",
+   "cites": [
+    "SPL-Poteligeo-v21-6.2-1alq",
+    "US-LABELS-SEARCHED"
+   ],
+   "outcome": "approved",
+   "rounds": 4,
+   "modelCalls": 15,
+   "rejections": 3,
+   "errors": 0,
+   "secs": 728,
+   "sources": {
+    "models": {
+     "live": 15
+    },
+    "sql": {
+     "zetaris": 36
+    }
+   }
+  },
+  {
+   "id": "R164",
+   "us_status": "written",
+   "read_label": true,
+   "raw_status": "written",
+   "finding": "US label v36 (effective 2026-02-09) includes hyperammonemic encephalopathy in section 5.1 Hepatotoxicity with warning to withhold and consider discontinuation if confirmed.",
+   "cites": [
+    "SPL-Stivarga-v36-5.1-q0y0"
+   ],
+   "outcome": "needs-person",
+   "rounds": 5,
+   "modelCalls": 18,
+   "rejections": 5,
+   "errors": 0,
+   "secs": 1591,
+   "sources": {
+    "models": {
+     "live": 18
+    },
+    "sql": {
+     "zetaris": 33
+    }
+   }
+  },
+  {
+   "id": "R165",
+   "us_status": "not found",
+   "read_label": true,
+   "raw_status": "not found",
+   "finding": "Zoloft v7 (2025-07-24) contains no mention of MADD in any section.",
+   "cites": [
+    "US-LABELS-SEARCHED"
+   ],
+   "outcome": "approved",
+   "rounds": 3,
+   "modelCalls": 13,
+   "rejections": 2,
+   "errors": 0,
+   "secs": 999,
+   "sources": {
+    "models": {
+     "live": 13
+    },
+    "sql": {
+     "zetaris": 28
+    }
+   }
+  },
+  {
+   "id": "R166",
+   "us_status": "written",
+   "read_label": true,
+   "raw_status": "written",
+   "finding": "US label (Bactrim) includes circulatory shock in WARNINGS (Hypersensitivity and Other Serious or Fatal Reactions) and ADVERSE REACTIONS sections.",
+   "cites": [
+    "SPL-Bactrim-v18-s-1dvl",
+    "SPL-Bactrim-v18-s-t3wu"
+   ],
+   "outcome": "needs-person",
+   "rounds": 5,
+   "modelCalls": 18,
+   "rejections": 5,
+   "errors": 0,
+   "secs": 1515,
+   "sources": {
+    "models": {
+     "live": 18
+    },
+    "sql": {
+     "zetaris": 44
+    }
+   }
+  },
+  {
+   "id": "R167",
+   "us_status": "not found",
+   "read_label": true,
+   "raw_status": "related_only",
+   "finding": "US label (v23, 2026-08-06) lists colitis under diarrhea in Adverse Reactions (section 6.1) but does not mention immune-mediated enterocolitis or immune effector cell-associated enteritis.",
+   "cites": [
+    "SPL-Yescarta-v23-6-tz5o",
+    "US-LABELS-SEARCHED"
+   ],
+   "outcome": "approved",
+   "rounds": 3,
+   "modelCalls": 14,
+   "rejections": 2,
+   "errors": 0,
+   "secs": 828,
+   "sources": {
+    "models": {
+     "live": 14
+    },
+    "sql": {
+     "zetaris": 32
+    }
+   }
+  },
+  {
+   "id": "R168",
+   "us_status": "not found",
+   "read_label": true,
+   "raw_status": "not found",
+   "finding": "No U.S. label version of brodalumab found in label table; search for pyoderma gangrenosum terms matched 0 sections.",
+   "cites": [
+    "US-LABELS-SEARCHED"
+   ],
+   "outcome": "approved",
+   "rounds": 3,
+   "modelCalls": 13,
+   "rejections": 2,
+   "errors": 0,
+   "secs": 709,
+   "sources": {
+    "models": {
+     "live": 13
+    },
+    "sql": {
+     "zetaris": 27
+    }
+   }
+  },
+  {
+   "id": "R169",
+   "us_status": "written",
+   "read_label": true,
+   "raw_status": "written",
+   "finding": "US label (v24, effective 2026-07-28) includes digoxin immunoassay interference warning in Warnings and Precautions (5.8) and Drug Interactions (7.3).",
+   "cites": [
+    "SPL-Xtandi-v24-5.8-103w",
+    "SPL-Xtandi-v24-7.3-u7yp"
+   ],
+   "outcome": "approved",
+   "rounds": 3,
+   "modelCalls": 12,
+   "rejections": 2,
+   "errors": 0,
+   "secs": 710,
+   "sources": {
+    "models": {
+     "live": 12
+    },
+    "sql": {
+     "zetaris": 34
+    }
+   }
+  },
+  {
+   "id": "R170",
+   "us_status": "not found",
+   "read_label": true,
+   "raw_status": "related_only",
+   "finding": "US label (v18, March 2025) lists hallucinations only as a symptom of serotonin syndrome (Section 5.2), not as a separate adverse reaction unrelated to serotonin syndrome.",
+   "cites": [
+    "SPL-Trintellix-v18-5.2-5lt4",
+    "US-LABELS-SEARCHED"
+   ],
+   "outcome": "needs-person",
+   "rounds": 5,
+   "modelCalls": 19,
+   "rejections": 5,
+   "errors": 0,
+   "secs": 1888,
+   "sources": {
+    "models": {
+     "live": 19
+    },
+    "sql": {
+     "zetaris": 42
+    }
+   }
+  }
+ ]
+}

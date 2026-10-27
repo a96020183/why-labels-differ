@@ -1,0 +1,235 @@
+{
+ "arm": "Full multi-agent loop (Planner, Research, chronology, Skeptic, Writer, Evaluator; up to two rounds of search, then up to three repair drafts), re-judged offline with today's checks",
+ "ids": [
+  "R159",
+  "R160",
+  "R161",
+  "R164",
+  "R165",
+  "R166",
+  "R167",
+  "R168",
+  "R169",
+  "R170"
+ ],
+ "label": "v5_2026-10-27_live_rejudged",
+ "selection": "the first 10 set-1a questions with a named U.S. product, in file order, fixed before any run",
+ "run_at": "2026-10-27",
+ "rejudged_at": "2026-10-27",
+ "rejudged_with": "the must-hold and coverage checks of this commit, on the recorded drafts, Skeptic readings and Evaluator model verdicts (scripts/rejudge.ts outcomes)",
+ "complete": true,
+ "answers": [
+  {
+   "id": "R159",
+   "us_status": "no answer",
+   "read_label": false,
+   "raw_status": "not found",
+   "cites": [],
+   "outcome": "needs-person",
+   "rounds": 5,
+   "recorded": {
+    "outcome": "needs-person",
+    "rounds": 5,
+    "us_status": "no answer"
+   },
+   "open_items": [
+    "No citation for: EU (EMA / PRAC), U.S. label.",
+    "The U.S. label cell does not cite afatinib's own label. Cite the label sections it read, or the \"U.S. labels searched\" record (US-LABELS-SEARCHED) when none of them says it; an FDA list entry or any o",
+    "Values outside the allowed lists: why type \"insufficient_evidence\". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_action_found | not_found_in_sources. U.S. label status:",
+    "The why rests partly on a search that found nothing (FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND, MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND). Not finding a record does not show a reason: cite a record that ",
+    "No explanation is judged to hold, yet the why gives a reason. If a record shows the reason, judge that explanation holds and name it the main cause; if no record does, make the why undetermined: say w",
+    "Ruled out only on a search that found nothing: H1 eu signal detected only, H2 different clinical significance, H3 class effect vs drug specific, H4 timing of review, H5 different reporting thresholds."
+   ]
+  },
+  {
+   "id": "R160",
+   "us_status": "no answer",
+   "read_label": false,
+   "raw_status": "no_action_by_fda",
+   "cites": [
+    "AEMS-Q32024-Tumor_lysis_syndrome"
+   ],
+   "outcome": "needs-person",
+   "rounds": 3,
+   "recorded": {
+    "outcome": "approved",
+    "rounds": 3,
+    "us_status": "no answer"
+   },
+   "open_items": [
+    "The U.S. label cell does not cite lenvatinib's own label. Cite the label sections it read, or the \"U.S. labels searched\" record (US-LABELS-SEARCHED) when none of them says it; an FDA list entry or any",
+    "Values outside the allowed lists: U.S. label status \"no_action_by_fda\". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_action_found | not_found_in_sources. U.S. label sta",
+    "The why rests partly on a search that found nothing (MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND). Not finding a record does not show a reason: cite a record that shows the reason, or, if no record does, m"
+   ]
+  },
+  {
+   "id": "R161",
+   "us_status": "partial",
+   "read_label": true,
+   "raw_status": "partial",
+   "cites": [
+    "SPL-Poteligeo-v21-6.2-1alq"
+   ],
+   "outcome": "needs-person",
+   "rounds": 5,
+   "recorded": {
+    "outcome": "needs-person",
+    "rounds": 5,
+    "us_status": "partial"
+   },
+   "open_items": []
+  },
+  {
+   "id": "R164",
+   "us_status": "written",
+   "read_label": true,
+   "raw_status": "written",
+   "cites": [
+    "SPL-Stivarga-v36-5.1-q0y0"
+   ],
+   "outcome": "approved",
+   "rounds": 2,
+   "recorded": {
+    "outcome": "approved",
+    "rounds": 2,
+    "us_status": "written"
+   },
+   "open_items": []
+  },
+  {
+   "id": "R165",
+   "us_status": "not found",
+   "read_label": true,
+   "raw_status": "not found",
+   "cites": [
+    "US-LABELS-SEARCHED"
+   ],
+   "outcome": "needs-person",
+   "rounds": 5,
+   "recorded": {
+    "outcome": "needs-person",
+    "rounds": 5,
+    "us_status": "not found"
+   },
+   "open_items": [
+    "The why rests partly on a search that found nothing (MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND, FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a record does not show a reason: cite a record that ",
+    "No explanation is judged to hold, yet the why gives a reason. If a record shows the reason, judge that explanation holds and name it the main cause; if no record does, make the why undetermined: say w"
+   ]
+  },
+  {
+   "id": "R166",
+   "us_status": "written",
+   "read_label": true,
+   "raw_status": "written",
+   "cites": [
+    "SPL-Bactrim-v18-s-1dvl",
+    "SPL-Bactrim-v18-s-t3wu"
+   ],
+   "outcome": "needs-person",
+   "rounds": 5,
+   "recorded": {
+    "outcome": "needs-person",
+    "rounds": 5,
+    "us_status": "written"
+   },
+   "open_items": [
+    "Values outside the allowed lists: EU (EMA / PRAC) stage \"prac_recommendation\"; why type \"us_label_already_warns\". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_action_fo",
+    "The EU cell cites a PRAC recommendation that updated the product information, yet calls the EU stage \"prac recommendation\".",
+    "The why rests partly on a search that found nothing (MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND, FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a record does not show a reason: cite a record that ",
+    "sulfamethoxazole's own U.S. label already warned by 2024-12-30 (SPL-Bactrim-v18-s-1dvl), before the first EU or UK action in the records (2025-05, PRAC-R166). The main cause is then that the U.S. had "
+   ]
+  },
+  {
+   "id": "R167",
+   "us_status": "not found",
+   "read_label": true,
+   "raw_status": "not found",
+   "cites": [
+    "US-LABELS-SEARCHED",
+    "SPL-Yescarta-v23-6-tz5o"
+   ],
+   "outcome": "needs-person",
+   "rounds": 5,
+   "recorded": {
+    "outcome": "needs-person",
+    "rounds": 5,
+    "us_status": "not found"
+   },
+   "open_items": [
+    "No record given for: H5 indication specific risk pmbcl brain oedema confounding.",
+    "The Skeptic's independent check contradicts: FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND: an FDA row for axicabtagene ciloleucel does mention it (Q3 2023: Post-treatment T-cell malignancy).",
+    "Values outside the allowed lists: why type \"unknown\". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_action_found | not_found_in_sources. U.S. label status: written | par",
+    "The why rests partly on a search that found nothing (FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a record does not show a reason: cite a record that shows the reason, or, if no record does,",
+    "Ruled out with no record against it: H5 indication specific risk pmbcl brain oedema confounding. Put the record that shows it false under \"against\", or, if no record does, judge it open.",
+    "No explanation is judged to hold, yet the why gives a reason. If a record shows the reason, judge that explanation holds and name it the main cause; if no record does, make the why undetermined: say w"
+   ]
+  },
+  {
+   "id": "R168",
+   "us_status": "no answer",
+   "read_label": false,
+   "raw_status": "not_searched",
+   "cites": [],
+   "outcome": "needs-person",
+   "rounds": 5,
+   "recorded": {
+    "outcome": "needs-person",
+    "rounds": 5,
+    "us_status": "no answer"
+   },
+   "open_items": [
+    "The U.S. label cell does not cite brodalumab's own label. Cite the label sections it read, or the \"U.S. labels searched\" record (US-LABELS-SEARCHED) when none of them says it; an FDA list entry or any",
+    "Values outside the allowed lists: U.S. label status \"not_searched\"; why type \"holds\". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_action_found | not_found_in_sources. ",
+    "Held partly on a search that found nothing: H1 eu signal led to label change while us has not evaluated. Not finding a record does not show a reason: judge it open, or cite a record that shows it.",
+    "The why rests partly on a search that found nothing (MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND, FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a record does not show a reason: cite a record that ",
+    "1 explanations hold but none is named the main cause. Name exactly one main cause and say why it weighs more than the others."
+   ]
+  },
+  {
+   "id": "R169",
+   "us_status": "written",
+   "read_label": true,
+   "raw_status": "written",
+   "cites": [
+    "SPL-Xtandi-v24-5.8-103w",
+    "SPL-Xtandi-v24-7.3-u7yp"
+   ],
+   "outcome": "needs-person",
+   "rounds": 5,
+   "recorded": {
+    "outcome": "needs-person",
+    "rounds": 5,
+    "us_status": "written"
+   },
+   "open_items": [
+    "Values outside the allowed lists: why type \"already_covered\". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_action_found | not_found_in_sources. U.S. label status: writt",
+    "The why rests partly on a search that found nothing (MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND). Not finding a record does not show a reason: cite a record that shows the reason, or, if no record does, m",
+    "Dates that the records each sentence cites do not contain: July 2026 (H1; it is in SPL-Xtandi-v24-7.3-u7yp, SPL-Xtandi-v24-5-1k58, which it does not cite). Every date must come from a record the same ",
+    "No explanation is judged to hold, yet the why gives a reason. If a record shows the reason, judge that explanation holds and name it the main cause; if no record does, make the why undetermined: say w"
+   ]
+  },
+  {
+   "id": "R170",
+   "us_status": "not found",
+   "read_label": true,
+   "raw_status": "not found",
+   "cites": [
+    "SPL-Trintellix-v18-4-76zm",
+    "SPL-Trintellix-v18-6-ptsr",
+    "SPL-Trintellix-v18-17-1pgq"
+   ],
+   "outcome": "needs-person",
+   "rounds": 5,
+   "recorded": {
+    "outcome": "needs-person",
+    "rounds": 5,
+    "us_status": "not found"
+   },
+   "open_items": [
+    "No citation for: UK (MHRA).",
+    "Explanations judged to hold that no cited record shows (the Skeptic read every record filed for them): H4: US label date not present in provided records; cannot confirm timing difference.. An inferenc",
+    "Values outside the allowed lists: why type \"different_class_effect\". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_action_found | not_found_in_sources. U.S. label status"
+   ]
+  }
+ ]
+}

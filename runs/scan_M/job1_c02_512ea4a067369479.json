@@ -1,0 +1,15 @@
+{
+ "tag": "job1_c02",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3.5-super-vl-120b-a12b",
+ "usage": {
+  "prompt_tokens": 3310,
+  "completion_tokens": 9381,
+  "total_tokens": 12691
+ },
+ "latency": 90.295,
+ "hadThink": false,
+ "promptTokensEstimated": 1073,
+ "rawChars": 1052,
+ "text": "{\"id\":\"R009\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R010\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R011\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R012\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R013\",\"us\":\"not found\",\"cross\":[{\"row\":\"R005\",\"substance\":\"Armodafinil; modafinil\",\"us\":\"not found\"}]}\n{\"id\":\"R014\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R015\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R016\",\"us\":\"not found\",\"cross\":[]}\n[STATE_CHECKPOINT]\nCOMPLETED: R016\nREMAINING: 0\nDECISIONS: R013 congenital anomalies cross-matches R005 (N06B vs H03B); no other same-reaction different-class pairs in this batch.\nCONTEXT: Interference with clinical laboratory tests: R001 Biotin A11H not found; Congenital anomalies: R005 Armodafinil; modafinil N06B not found; R013 Propylthiouracil H03B not found; Colitis microscopic: R010 Pantoprazole A02B not found; Maculopathy: R011 Sertraline N06A not found; Brugada syndrome: R012 Loperamide A07D not found; Dermatitis exfoliative generalised: R015 Secukinumab L04A not found; Interference with NADH/NADPH: R016 Sulfasalazine A07E not found"
+}

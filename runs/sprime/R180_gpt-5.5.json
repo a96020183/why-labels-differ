@@ -1,0 +1,21 @@
+{
+ "id": "R180",
+ "model_requested": "gpt-5.5",
+ "model_served": "gpt-5.5-2026-04-23",
+ "secs": 88.2,
+ "usage": {
+  "input_tokens": 89526,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 3712
+  },
+  "output_tokens": 4285,
+  "output_tokens_details": {
+   "reasoning_tokens": 3724
+  },
+  "total_tokens": 93811
+ },
+ "text": "{\"us_status\":\"partial\",\"label_product\":\"DATROWAY (datopotamab deruxtecan-dlnk) for injection, for intravenous use\",\"label_version_or_date\":\"DailyMed SPL version 18; effective time 2026-05-27; revised 5/2026\",\"label_section\":\"Adverse Reactions (6.1); also Dosage and Administration (2.4) dose-modification table for infusion-related reactions\",\"quote\":\"Clinically relevant adverse reactions occurring in <10% of patients who received DATROWAY included infusion-related reactions including anaphylactic reaction, diarrhea, conjunctivitis, lacrimation increased, dry mouth, dry skin, pruritus, rhinorrhea, blepharitis, meibomian gland dysfunction, blurred vision, ILD/pneumonitis, visual impairment, photophobia, and madarosis.\",\"eu\":\"EU: PRAC Oct 2025 recommended adding hypersensitivity/anaphylactic-reaction wording; current EMA SmPC includes section 4.4 Hypersensitivity and section 4.8 lists anaphylactic reaction.\",\"uk\":\"UK MHRA: no Datroway SmPC/PIL product-information entry found on MHRA Products/GOV.UK; only MHRA PIP waiver records for datopotamab deruxtecan were found.\",\"us_regulator\":\"FDA: yes—AEMS Oct-Dec 2025 potential-signals list includes Datroway for “Infusion related reaction, including anaphylaxis,” with FDA evaluating need for regulatory action.\",\"sources\":[\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2950227c-6230-4ca4-a135-46e44d9424a0\",\"https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761394s003lbl.pdf\",\"https://www.ema.europa.eu/en/documents/prac-recommendation/new-product-information-wording-extracts-prac-recommendations-signals-adopted-27-30-october-2025-prac_en.pdf\",\"https://www.ema.europa.eu/en/documents/product-information/datroway-epar-product-information_en.pdf\",\"https://www.gov.uk/guidance/find-product-information-about-medicines\",\"https://products.mhra.gov.uk/search/?search=Datroway\",\"https://cms.mhra.gov.uk/pip/mhra-100385-pip01-21\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/october-december-2025-new-safety-information-or-potential-signals-serious-risks-identified-fda\"]}",
+ "annotation_urls": [],
+ "at": "2026-10-24T01:57:26"
+}

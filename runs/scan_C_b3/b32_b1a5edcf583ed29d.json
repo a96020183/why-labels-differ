@@ -1,0 +1,18 @@
+{
+ "tag": "b32",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {},
+ "latency": 56.512,
+ "hadThink": true,
+ "tries": 1,
+ "call": {
+  "stream": true,
+  "tierSplit": false,
+  "isoScope": true
+ },
+ "promptTokensEstimated": 1059,
+ "rawChars": 121,
+ "task": "[RETRIEVED EVIDENCE LEDGER ROWS - same ingredient or same ATC level 3 as a row in this batch; 10 of 10 matches, most recent]\nR006 | PRAC 2019-04 | Rivaroxaban; apixaban; dabigatran; edoxaban | ATC3 B01A | signal: Recurrent thrombosis in patients with antiphospholipid syndrome | US label: not found (rivaroxaban, label effective 20260904) | ledger: {\"id\":\"R006\",\"us\":\"not found\",\"cross\":[]}\nR009 | PRAC 2019-05 | Clopidogrel; clopidogrel, acetylsalicylic acid | ATC3 B01A | signal: Interaction with boosted antiviral human immunodeficiency virus (HIV) therapy leading to insufficient inhibition of plat | US label: not found (clopidogrel, label effective 20260929) | ledger: {\"id\":\"R009\",\"us\":\"not found\",\"cross\":[]}\nR014 | PRAC 2019-06 | Rivaroxaban | ATC3 B01A | signal: Premature ending of the GALILEO study in patients who have received an artificial heart valve through a transcatheter ao | US label: not found (rivaroxaban, label effective 20260904) | ledger: {\"id\":\"R014\",\"us\":\"not found\",\"cross\":[]}\nR022 | PRAC 2019-07 | Vascular endothelial growth factor (VEGF) inhibitors for systemic administration: aflibercept; axitinib; bevac | ATC3 L01E,L01F,L01X,S01L | signal: Artery dissections and aneurysms | US label: not found (aflibercept, label effective 20260707) | ledger: {\"id\":\"R022\",\"us\":\"not found\",\"cross\":[]}\nR023 | PRAC 2019-09 | Ibrutinib | ATC3 L01E | signal: Ischaemic stroke | US label: partial (ibrutinib, label effective 20251021, section: adverse_reactions) | ledger: {\"id\":\"R023\",\"us\":\"partial\",\"cross\":[]}\nR037 | PRAC 2020-04 | Idelalisib | ATC3 L01E,L01X | signal: Drug reaction with eosinophilia and systemic symptoms (DRESS) | US label: written (zydelig, label effective Sep 21, 2026, section: warnings_and_cautions) | ledger: {\"id\":\"R037\",\"us\":\"written\",\"cross\":[]}\nR055 | PRAC 2020-10 | Ceftriaxone | ATC3 J01D | signal: Encephalopathy | US label: written (ceftriaxone, label effective 20260723, section: warnings) | ledger: {\"id\":\"R055\",\"us\":\"written\",\"cross\":[]}\nR056 | PRAC 2020-10 | Dabrafenib; trametinib | ATC3 L01E | signal: Sarcoidosis | US label: partial (tafinlar, label effective 20260520, section: adverse_reactions) | ledger: {\"id\":\"R056\",\"us\":\"partial\",\"cross\":[]}\nR057 | PRAC 2020-10 | Ibrutinib | ATC3 L01E | signal: Hepatitis E | US label: partial (ibrutinib, label effective 20251021, section: adverse_reactions) | ledger: {\"id\":\"R057\",\"us\":\"partial\",\"cross\":[]}\nR082 | PRAC 2021-06 | Ceftriaxone | ATC3 J01D | signal: Hepatitis | US label: not found (ceftriaxone, label effective 20260723) | ledger: {\"id\":\"R082\",\"us\":\"not found\",\"cross\":[]}\n\n[BATCH 32 of 66]\nR094 | PRAC 2021-09 | Piperacillin; piperacillin, tazobactam | ATC3 J01C,J01D | signal: Haemophagocytic lymphohistiocytosis | US label: written (zosyn, label effective 20260515, section: warnings_and_cautions)\nR095 | PRAC 2021-09 | Ponatinib | ATC3 L01E | signal: Panniculitis | US label: partial (ponatinib, label effective 20260814, section: adverse_reactions)\nR096 | PRAC 2021-09 | Warfarin | ATC3 B01A | signal: Anticoagulant-related nephropathy | US label: not found (warfarin, label effective 20260831)",
+ "text": "{\"id\":\"R094\",\"us\":\"written\",\"cross\":[]}\n{\"id\":\"R095\",\"us\":\"partial\",\"cross\":[]}\n{\"id\":\"R096\",\"us\":\"not found\",\"cross\":[]}"
+}

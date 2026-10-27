@@ -1,0 +1,18 @@
+{
+ "tag": "job2_c14",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {},
+ "latency": 45.654,
+ "hadThink": true,
+ "tries": 1,
+ "call": {
+  "stream": true,
+  "tierSplit": false,
+  "isoScope": true
+ },
+ "promptTokensEstimated": 834,
+ "rawChars": 751,
+ "task": "Continuing a chunked research run. Goal (truncated): Scan PRAC rows batch 23-44 into the divergence ledger and keep the cross-entry index in CONTEXT.\n\n[CARRYOVER STATE]\nCOMPLETED: R105\nREMAINING: 27\nDECISIONS: -\nCONTEXT: Myocarditis and pericarditis: R085 mRNA vaccine J07B w, R086 mRNA vaccine J07B w, R100 Spikevax J07B w, R102 Comirnaty J07B w; Autoimmune hepatitis: R101 Olmesartan C09C nf; Hepatitis E: R057 Ibrutinib L01E p; Hepatitis: R082 Ceftriaxone J01D nf; Arthralgia: R103 Durvalumab L01F p; Toxic epidermal necrolysis: R104 Pregabalin N02B nf; Erythema multiforme: R090 COVID-19 mRNA vaccine J07B nf, R091 COVID-19 mRNA vaccine J07B p, R105 Enzalutamide L02B p\n\nContinue exactly where the state leaves off. Do not repeat completed work.\n\n[BATCH 36 of 66; chunk 14 of 22 in this job]\nR106 | PRAC 2022-02 | Obinutuzumab | ATC3 L01F | signal: Non-overt disseminated intravascular coagulation (DIC) | US label: unknown (obinutuzumab)\nR107 | PRAC 2022-02 | Sorafenib | ATC3 L01E | signal: Tumour lysis syndrome (TLS) | US label: not found (nexavar, label effective 20230828)\nR108 | PRAC 2022-03 | Alemtuzumab | ATC3 L01X,L04A | signal: Vitiligo | US label: not found (alemtuzumab, label effective 20251105)\n\nEnd every non-final chunk with [STATE_CHECKPOINT] followed by a concise state block:\nCOMPLETED: ...\nREMAINING: ...\nDECISIONS: ...\nCONTEXT: ...\nEnd the final chunk with [TASK_COMPLETE]. Exactly one marker per chunk. Never narrate the markers.",
+ "text": "{\"id\":\"R106\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R107\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R108\",\"us\":\"not found\",\"cross\":[]}\n[STATE_CHECKPOINT]\nCOMPLETED: R108\nREMAINING: 24\nDECISIONS: -\nCONTEXT: Myocarditis and pericarditis: R085 mRNA vaccine J07B w, R086 mRNA vaccine J07B w, R100 Spikevax J07B w, R102 Comirnaty J07B w; Autoimmune hepatitis: R101 Olmesartan C09C nf; Hepatitis E: R057 Ibrutinib L01E p; Hepatitis: R082 Ceftriaxone J01D nf; Arthralgia: R103 Durvalumab L01F p; Toxic epidermal necrolysis: R104 Pregabalin N02B nf; Erythema multiforme: R090 COVID-19 mRNA vaccine J07B nf, R091 COVID-19 mRNA vaccine J07B p, R105 Enzalutamide L02B p; DIC: R106 Obinutuzumab L01F nf; TLS: R107 Sorafenib L01E nf; Vitiligo: R108 Alemtuzumab L01X,L04A nf"
+}

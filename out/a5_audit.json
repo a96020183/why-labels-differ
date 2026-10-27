@@ -1,0 +1,57 @@
+{
+ "M": {
+  "answers": 74,
+  "served": {
+   "nvidia/nemotron-3-ultra-550b-a55b": 74
+  },
+  "calls": {
+   "{\"isoScope\": true, \"stream\": true, \"tierSplit\": false}": 74
+  },
+  "tries": {
+   "1": 62,
+   "2": 10,
+   "3": 1,
+   "4": 1
+  },
+  "latency_s": {
+   "median": 127.322,
+   "max": 341.324
+  },
+  "prompt_tokens_estimated": {
+   "median": 1387.5,
+   "max": 1852
+  },
+  "batch": 3,
+  "skipped": [],
+  "ledger_rows": 197
+ },
+ "C": {
+  "answers": 66,
+  "served": {
+   "nvidia/nemotron-3-ultra-550b-a55b": 59,
+   "nvidia/nemotron-3.5-super-vl-120b-a12b": 7
+  },
+  "calls": {
+   "{\"isoScope\": true, \"stream\": true, \"tierSplit\": false}": 66
+  },
+  "tries": {
+   "1": 62,
+   "2": 4
+  },
+  "latency_s": {
+   "median": 38.905,
+   "max": 188.391
+  },
+  "prompt_tokens_estimated": {
+   "median": 1353.5,
+   "max": 2412
+  },
+  "batch": 3,
+  "skipped": [],
+  "ledger_rows": 197
+ },
+ "same_settings": true,
+ "C_tasks_with_markovian_markers": [],
+ "C_embedded_lines_not_its_own": [],
+ "C_embedded_lines_equal_to_M_only": []
+}

@@ -1,0 +1,21 @@
+{
+ "id": "R181",
+ "model_requested": "gpt-5.5",
+ "model_served": "gpt-5.5-2026-04-23",
+ "secs": 64.4,
+ "usage": {
+  "input_tokens": 69985,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 3712
+  },
+  "output_tokens": 3477,
+  "output_tokens_details": {
+   "reasoning_tokens": 2842
+  },
+  "total_tokens": 73462
+ },
+ "text": "{\"us_status\":\"partial\",\"label_product\":\"EPKINLY (epcoritamab-bysp) injection, for subcutaneous use\",\"label_version_or_date\":\"DailyMed current version 11; Revised 6/2026; DailyMed updated June 22, 2026 / published June 30, 2026\",\"label_section\":\"Section 6.1 Adverse Reactions—Clinical Trials Experience, Other Clinical Trials Experience; Section 5.3 Infections separately advises immunoglobulin-level monitoring but does not name hypogammaglobulinemia\",\"quote\":\"The following adverse reactions have been reported following administration of epcoritamab-bysp: hypogammaglobulinemia.\",\"eu\":\"EU: PRAC Oct 2025 recommended Tepkinly SmPC update; current EMA PI includes hypogammaglobulinaemia in section 4.4 Serious infections and section 4.8 as very common all grades / uncommon grade 3-4.\",\"uk\":\"UK MHRA/GB: Tepkinly is authorised; current UK SmPC on emc, updated 03 Aug 2026, includes hypogammaglobulinaemia in section 4.4 Serious infections and section 4.8 undesirable effects.\",\"us_regulator\":\"FDA: AEMS Oct-Dec 2025 potential-signals list included bispecific T-cell engager therapies including Epkinly—hypogammaglobulinemia, with FDA evaluating need for regulatory action; FDA then approved sBLA S-011 on 2026-06-17 adding Ig monitoring in 5.3 and risk in 6.1.\",\"sources\":[\"https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d7836711-b677-412d-bf2d-0f7c8444103a\",\"https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=d7836711-b677-412d-bf2d-0f7c8444103a&type=display\",\"https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/761324Orig1s011ltr.pdf\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/october-december-2025-new-safety-information-or-potential-signals-serious-risks-identified-fda\",\"https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-27-30-october-2025-prac-meeting_en.pdf\",\"https://www.ema.europa.eu/en/documents/product-information/tepkinly-epar-product-information_en.pdf\",\"https://www.medicines.org.uk/emc/product/15188/smpc\",\"https://www.gov.uk/government/news/mhra-authorises-monoclonal-antibody-therapy-tepkinly-as-a-treatment-for-diffuse-large-b-cell-lymphoma-in-adults\"]}",
+ "annotation_urls": [],
+ "at": "2026-10-24T01:57:06"
+}

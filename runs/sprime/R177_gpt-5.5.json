@@ -1,0 +1,21 @@
+{
+ "id": "R177",
+ "model_requested": "gpt-5.5",
+ "model_served": "gpt-5.5-2026-04-23",
+ "secs": 81.2,
+ "usage": {
+  "input_tokens": 96856,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 3712
+  },
+  "output_tokens": 3081,
+  "output_tokens_details": {
+   "reasoning_tokens": 2592
+  },
+  "total_tokens": 99937
+ },
+ "text": "{\"us_status\":\"not found\",\"label_product\":\"TAGRISSO (osimertinib) tablets, for oral use\",\"label_version_or_date\":\"DailyMed updated September 14, 2026; Recent Major Changes 09/2026\",\"label_section\":\"Not found in current U.S. prescribing information (DailyMed text search found no 'hepatitis', 'hepat', or 'reactivation').\",\"quote\":\"\",\"eu\":\"EMA/PRAC: HBV reactivation added/recommended as SmPC 4.4 warning and 4.8 undesirable effect, frequency not known; current EMA product information includes the HBV warning.\",\"uk\":\"UK MHRA/eMC: current UK SmPC for TAGRISSO, last updated 24 Sep 2026, includes HBV reactivation in section 4.4 and as an infection/infestation adverse reaction in section 4.8, frequency not known.\",\"us_regulator\":\"FDA: no HBV-reactivation public evaluation found for Tagrisso/osimertinib in AEMS/FAERS potential-signal materials searched; FDA has a different public Tagrisso/EGFR-TKI signal, radiation recall phenomenon, with no action needed.\",\"sources\":[\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5e81b4a7-b971-45e1-9c31-29cea8c87ce7\",\"https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-1-4-september-2025-prac-meeting_en.pdf\",\"https://www.ema.europa.eu/en/documents/product-information/tagrisso-epar-product-information_en.pdf\",\"https://www.gov.uk/guidance/find-product-information-about-medicines\",\"https://www.medicines.org.uk/emc/product/7615/smpc\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/july-september-2022-potential-signals-serious-risksnew-safety-information-identified-fda-adverse\"]}",
+ "annotation_urls": [],
+ "at": "2026-10-24T01:56:01"
+}

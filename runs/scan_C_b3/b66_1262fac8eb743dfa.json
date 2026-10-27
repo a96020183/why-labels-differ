@@ -1,0 +1,18 @@
+{
+ "tag": "b66",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {},
+ "latency": 79.744,
+ "hadThink": true,
+ "tries": 1,
+ "call": {
+  "stream": true,
+  "tierSplit": false,
+  "isoScope": true
+ },
+ "promptTokensEstimated": 477,
+ "rawChars": 79,
+ "task": "[RETRIEVED EVIDENCE LEDGER ROWS - same ingredient or same ATC level 3 as a row in this batch; 1 of 1 matches, most recent]\nR094 | PRAC 2021-09 | Piperacillin; piperacillin, tazobactam | ATC3 J01C,J01D | signal: Haemophagocytic lymphohistiocytosis | US label: written (zosyn, label effective 20260515, section: warnings_and_cautions) | ledger: {\"id\":\"R094\",\"us\":\"written\",\"cross\":[]}\n\n[BATCH 66 of 66]\nR196 | PRAC 2026-07 | Levonorgestrel intrauterine device 13.5 mg | ATC3 G02B | signal: Increased risk of ectopic pregnancy | US label: unknown (levonorgestrel intrauterine device 13.5 mg)\nR197 | PRAC 2026-09 | Oxacillin | ATC3 J01C | signal: Drug reaction with eosinophilia and systemic symptoms (DRESS) | US label: partial (oxacillin, label effective 20260831, section: adverse_reactions)",
+ "text": "{\"id\":\"R196\",\"us\":\"unknown\",\"cross\":[]}\n{\"id\":\"R197\",\"us\":\"partial\",\"cross\":[]}"
+}

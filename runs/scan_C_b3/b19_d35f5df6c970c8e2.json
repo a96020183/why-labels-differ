@@ -1,0 +1,18 @@
+{
+ "tag": "b19",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {},
+ "latency": 15.768,
+ "hadThink": true,
+ "tries": 1,
+ "call": {
+  "stream": true,
+  "tierSplit": false,
+  "isoScope": true
+ },
+ "promptTokensEstimated": 628,
+ "rawChars": 119,
+ "task": "[RETRIEVED EVIDENCE LEDGER ROWS - same ingredient or same ATC level 3 as a row in this batch; 3 of 3 matches, most recent]\nR022 | PRAC 2019-07 | Vascular endothelial growth factor (VEGF) inhibitors for systemic administration: aflibercept; axitinib; bevac | ATC3 L01E,L01F,L01X,S01L | signal: Artery dissections and aneurysms | US label: not found (aflibercept, label effective 20260707) | ledger: {\"id\":\"R022\",\"us\":\"not found\",\"cross\":[]}\nR023 | PRAC 2019-09 | Ibrutinib | ATC3 L01E | signal: Ischaemic stroke | US label: partial (ibrutinib, label effective 20251021, section: adverse_reactions) | ledger: {\"id\":\"R023\",\"us\":\"partial\",\"cross\":[]}\nR037 | PRAC 2020-04 | Idelalisib | ATC3 L01E,L01X | signal: Drug reaction with eosinophilia and systemic symptoms (DRESS) | US label: written (zydelig, label effective Sep 21, 2026, section: warnings_and_cautions) | ledger: {\"id\":\"R037\",\"us\":\"written\",\"cross\":[]}\n\n[BATCH 19 of 66]\nR055 | PRAC 2020-10 | Ceftriaxone | ATC3 J01D | signal: Encephalopathy | US label: written (ceftriaxone, label effective 20260723, section: warnings)\nR056 | PRAC 2020-10 | Dabrafenib; trametinib | ATC3 L01E | signal: Sarcoidosis | US label: partial (tafinlar, label effective 20260520, section: adverse_reactions)\nR057 | PRAC 2020-10 | Ibrutinib | ATC3 L01E | signal: Hepatitis E | US label: partial (ibrutinib, label effective 20251021, section: adverse_reactions)",
+ "text": "{\"id\":\"R055\",\"us\":\"written\",\"cross\":[]}\n{\"id\":\"R056\",\"us\":\"partial\",\"cross\":[]}\n{\"id\":\"R057\",\"us\":\"partial\",\"cross\":[]}"
+}

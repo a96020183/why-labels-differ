@@ -1,0 +1,21 @@
+{
+ "id": "R193",
+ "model_requested": "gpt-5.5",
+ "model_served": "gpt-5.5-2026-04-23",
+ "secs": 104.3,
+ "usage": {
+  "input_tokens": 100102,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 3712
+  },
+  "output_tokens": 3699,
+  "output_tokens_details": {
+   "reasoning_tokens": 3196
+  },
+  "total_tokens": 103801
+ },
+ "text": "{\"us_status\":\"not found\",\"label_product\":\"VISIPAQUE (iodixanol) injection, for intra-arterial or intra-venous use\",\"label_version_or_date\":\"DailyMed current version 14; published Nov 17, 2025; DailyMed updated Oct 10, 2025; PI revised 8/2025\",\"label_section\":\"None for fixed drug eruption; term not found in current U.S. label. Related nonspecific skin terms appear only in Adverse Reactions/Postmarketing Experience, but not fixed drug eruption.\",\"quote\":\"\",\"eu\":\"EU PRAC: June 8-11, 2026 signal recommendation to update SmPC section 4.8 (Skin and subcutaneous tissue disorders; frequency Not known) to add “Fixed drug eruption,” with corresponding package leaflet wording.\",\"uk\":\"UK: current UK SmPC for VISIPAQUE 320 lists “Fixed drug eruption” in section 4.8, Skin and subcutaneous system disorders, frequency Not known; eMC last updated Sept 23, 2026.\",\"us_regulator\":\"No FDA public evaluation found for fixed drug eruption with iodixanol/Visipaque or iodinated contrast media; FDA’s public ICM safety page addresses thyroid monitoring, and the FDA AEMS/FAERS potential-signal entry found for fixed drug eruption concerns NSAIDs, not iodixanol/ICM.\",\"sources\":[\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e9d87b8c-7695-4c0f-8e81-000dedb5f66d\",\"https://www.ema.europa.eu/fr/media/74502\",\"https://www.ema.europa.eu/en/human-regulatory-overview/post-authorisation/pharmacovigilance-post-authorisation/signal-management/prac-recommendations-safety-signals\",\"https://www.medicines.org.uk/emc/product/14804/smpc\",\"https://www.gov.uk/guidance/find-product-information-about-medicines\",\"https://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers/iodinated-contrast-media-icm\",\"https://www.fda.gov/drugs/fdas-adverse-event-reporting-system-faers/october-december-2022-potential-signals-serious-risksnew-safety-information-identified-fda-adverse\"]}",
+ "annotation_urls": [],
+ "at": "2026-10-24T02:03:25"
+}

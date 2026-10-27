@@ -1,0 +1,1090 @@
+{
+ "system": "C",
+ "requestedModel": "nvidia/nemotron-3-ultra-550b-a55b",
+ "ledger": {
+  "R001": {
+   "id": "R001",
+   "us": "not found",
+   "cross": []
+  },
+  "R002": {
+   "id": "R002",
+   "us": "not found",
+   "cross": []
+  },
+  "R003": {
+   "id": "R003",
+   "us": "written",
+   "cross": []
+  },
+  "R004": {
+   "id": "R004",
+   "us": "unknown",
+   "cross": []
+  },
+  "R005": {
+   "id": "R005",
+   "us": "not found",
+   "cross": []
+  },
+  "R006": {
+   "id": "R006",
+   "us": "not found",
+   "cross": []
+  },
+  "R007": {
+   "id": "R007",
+   "us": "not found",
+   "cross": []
+  },
+  "R008": {
+   "id": "R008",
+   "us": "not found",
+   "cross": []
+  },
+  "R009": {
+   "id": "R009",
+   "us": "not found",
+   "cross": []
+  },
+  "R010": {
+   "id": "R010",
+   "us": "not found",
+   "cross": []
+  },
+  "R011": {
+   "id": "R011",
+   "us": "not found",
+   "cross": []
+  },
+  "R012": {
+   "id": "R012",
+   "us": "not found",
+   "cross": []
+  },
+  "R013": {
+   "id": "R013",
+   "us": "not found",
+   "cross": []
+  },
+  "R014": {
+   "id": "R014",
+   "us": "not found",
+   "cross": []
+  },
+  "R015": {
+   "id": "R015",
+   "us": "not found",
+   "cross": []
+  },
+  "R016": {
+   "id": "R016",
+   "us": "not found",
+   "cross": []
+  },
+  "R017": {
+   "id": "R017",
+   "us": "not found",
+   "cross": []
+  },
+  "R018": {
+   "id": "R018",
+   "us": "not found",
+   "cross": []
+  },
+  "R019": {
+   "id": "R019",
+   "us": "unknown",
+   "cross": []
+  },
+  "R020": {
+   "id": "R020",
+   "us": "unknown",
+   "cross": []
+  },
+  "R021": {
+   "id": "R021",
+   "us": "not found",
+   "cross": []
+  },
+  "R022": {
+   "id": "R022",
+   "us": "not found",
+   "cross": []
+  },
+  "R023": {
+   "id": "R023",
+   "us": "partial",
+   "cross": []
+  },
+  "R024": {
+   "id": "R024",
+   "us": "not found",
+   "cross": []
+  },
+  "R025": {
+   "id": "R025",
+   "us": "partial",
+   "cross": []
+  },
+  "R026": {
+   "id": "R026",
+   "us": "partial",
+   "cross": []
+  },
+  "R027": {
+   "id": "R027",
+   "us": "written",
+   "cross": []
+  },
+  "R028": {
+   "id": "R028",
+   "us": "not found",
+   "cross": []
+  },
+  "R029": {
+   "id": "R029",
+   "us": "not found",
+   "cross": []
+  },
+  "R030": {
+   "id": "R030",
+   "us": "not found",
+   "cross": []
+  },
+  "R031": {
+   "id": "R031",
+   "us": "not found",
+   "cross": []
+  },
+  "R032": {
+   "id": "R032",
+   "us": "written",
+   "cross": []
+  },
+  "R033": {
+   "id": "R033",
+   "us": "not found",
+   "cross": []
+  },
+  "R034": {
+   "id": "R034",
+   "us": "not found",
+   "cross": []
+  },
+  "R035": {
+   "id": "R035",
+   "us": "not found",
+   "cross": []
+  },
+  "R036": {
+   "id": "R036",
+   "us": "not found",
+   "cross": []
+  },
+  "R037": {
+   "id": "R037",
+   "us": "written",
+   "cross": []
+  },
+  "R038": {
+   "id": "R038",
+   "us": "written",
+   "cross": []
+  },
+  "R039": {
+   "id": "R039",
+   "us": "unknown",
+   "cross": []
+  },
+  "R040": {
+   "id": "R040",
+   "us": "not found",
+   "cross": []
+  },
+  "R041": {
+   "id": "R041",
+   "us": "unknown",
+   "cross": []
+  },
+  "R042": {
+   "id": "R042",
+   "us": "partial",
+   "cross": []
+  },
+  "R043": {
+   "id": "R043",
+   "us": "written",
+   "cross": []
+  },
+  "R044": {
+   "id": "R044",
+   "us": "not found",
+   "cross": []
+  },
+  "R045": {
+   "id": "R045",
+   "us": "written",
+   "cross": []
+  },
+  "R046": {
+   "id": "R046",
+   "us": "unknown",
+   "cross": []
+  },
+  "R047": {
+   "id": "R047",
+   "us": "not found",
+   "cross": []
+  },
+  "R048": {
+   "id": "R048",
+   "us": "not found",
+   "cross": []
+  },
+  "R049": {
+   "id": "R049",
+   "us": "partial",
+   "cross": []
+  },
+  "R050": {
+   "id": "R050",
+   "us": "not found",
+   "cross": []
+  },
+  "R051": {
+   "id": "R051",
+   "us": "unknown",
+   "cross": []
+  },
+  "R052": {
+   "id": "R052",
+   "us": "partial",
+   "cross": []
+  },
+  "R053": {
+   "id": "R053",
+   "us": "not found",
+   "cross": []
+  },
+  "R054": {
+   "id": "R054",
+   "us": "not found",
+   "cross": []
+  },
+  "R055": {
+   "id": "R055",
+   "us": "written",
+   "cross": []
+  },
+  "R056": {
+   "id": "R056",
+   "us": "partial",
+   "cross": []
+  },
+  "R057": {
+   "id": "R057",
+   "us": "partial",
+   "cross": []
+  },
+  "R058": {
+   "id": "R058",
+   "us": "partial",
+   "cross": []
+  },
+  "R059": {
+   "id": "R059",
+   "us": "not found",
+   "cross": []
+  },
+  "R060": {
+   "id": "R060",
+   "us": "not found",
+   "cross": [
+    {
+     "row": "R049",
+     "substance": "Abiraterone",
+     "us": "partial"
+    }
+   ]
+  },
+  "R061": {
+   "id": "R061",
+   "us": "partial",
+   "cross": []
+  },
+  "R062": {
+   "id": "R062",
+   "us": "written",
+   "cross": []
+  },
+  "R063": {
+   "id": "R063",
+   "us": "not found",
+   "cross": []
+  },
+  "R064": {
+   "id": "R064",
+   "us": "not found",
+   "cross": []
+  },
+  "R065": {
+   "id": "R065",
+   "us": "not found",
+   "cross": []
+  },
+  "R066": {
+   "id": "R066",
+   "us": "not found",
+   "cross": []
+  },
+  "R067": {
+   "id": "R067",
+   "us": "written",
+   "cross": []
+  },
+  "R068": {
+   "id": "R068",
+   "us": "not marketed",
+   "cross": []
+  },
+  "R069": {
+   "id": "R069",
+   "us": "not marketed",
+   "cross": []
+  },
+  "R070": {
+   "id": "R070",
+   "us": "not found",
+   "cross": []
+  },
+  "R071": {
+   "id": "R071",
+   "us": "not found",
+   "cross": []
+  },
+  "R072": {
+   "id": "R072",
+   "us": "not marketed",
+   "cross": []
+  },
+  "R073": {
+   "id": "R073",
+   "us": "not marketed",
+   "cross": []
+  },
+  "R074": {
+   "id": "R074",
+   "us": "partial",
+   "cross": []
+  },
+  "R075": {
+   "id": "R075",
+   "us": "not found",
+   "cross": []
+  },
+  "R076": {
+   "id": "R076",
+   "us": "unknown",
+   "cross": []
+  },
+  "R077": {
+   "id": "R077",
+   "us": "not marketed",
+   "cross": []
+  },
+  "R078": {
+   "id": "R078",
+   "us": "not found",
+   "cross": []
+  },
+  "R079": {
+   "id": "R079",
+   "us": "partial",
+   "cross": []
+  },
+  "R080": {
+   "id": "R080",
+   "us": "written",
+   "cross": [
+    {
+     "row": "R032",
+     "substance": "Nivolumab",
+     "us": "written"
+    }
+   ]
+  },
+  "R081": {
+   "id": "R081",
+   "us": "written",
+   "cross": []
+  },
+  "R082": {
+   "id": "R082",
+   "us": "not found",
+   "cross": []
+  },
+  "R083": {
+   "id": "R083",
+   "us": "not marketed",
+   "cross": []
+  },
+  "R084": {
+   "id": "R084",
+   "us": "written",
+   "cross": []
+  },
+  "R085": {
+   "id": "R085",
+   "us": "written",
+   "cross": []
+  },
+  "R086": {
+   "id": "R086",
+   "us": "written",
+   "cross": []
+  },
+  "R087": {
+   "id": "R087",
+   "us": "partial",
+   "cross": []
+  },
+  "R088": {
+   "id": "R088",
+   "us": "unknown",
+   "cross": []
+  },
+  "R089": {
+   "id": "R089",
+   "us": "written",
+   "cross": []
+  },
+  "R090": {
+   "id": "R090",
+   "us": "not found",
+   "cross": []
+  },
+  "R091": {
+   "id": "R091",
+   "us": "partial",
+   "cross": []
+  },
+  "R092": {
+   "id": "R092",
+   "us": "unknown",
+   "cross": []
+  },
+  "R093": {
+   "id": "R093",
+   "us": "not found",
+   "cross": []
+  },
+  "R094": {
+   "id": "R094",
+   "us": "written",
+   "cross": []
+  },
+  "R095": {
+   "id": "R095",
+   "us": "partial",
+   "cross": []
+  },
+  "R096": {
+   "id": "R096",
+   "us": "not found",
+   "cross": []
+  },
+  "R097": {
+   "id": "R097",
+   "us": "not found",
+   "cross": []
+  },
+  "R098": {
+   "id": "R098",
+   "us": "not found",
+   "cross": []
+  },
+  "R099": {
+   "id": "R099",
+   "us": "partial",
+   "cross": []
+  },
+  "R100": {
+   "id": "R100",
+   "us": "written",
+   "cross": []
+  },
+  "R101": {
+   "id": "R101",
+   "us": "not found",
+   "cross": []
+  },
+  "R102": {
+   "id": "R102",
+   "us": "written",
+   "cross": []
+  },
+  "R103": {
+   "id": "R103",
+   "us": "partial",
+   "cross": []
+  },
+  "R104": {
+   "id": "R104",
+   "us": "not found",
+   "cross": []
+  },
+  "R105": {
+   "id": "R105",
+   "us": "partial",
+   "cross": [
+    {
+     "row": "R090",
+     "substance": "COVID-19 mRNA vaccine (nucleoside-modified) - Comirnaty",
+     "us": "not found"
+    },
+    {
+     "row": "R091",
+     "substance": "COVID-19 mRNA vaccine (nucleoside-modified) - Spikevax (previously COVID-19 Vaccine Moderna)",
+     "us": "partial"
+    }
+   ]
+  },
+  "R106": {
+   "id": "R106",
+   "us": "unknown",
+   "cross": []
+  },
+  "R107": {
+   "id": "R107",
+   "us": "not found",
+   "cross": []
+  },
+  "R108": {
+   "id": "R108",
+   "us": "not found",
+   "cross": []
+  },
+  "R109": {
+   "id": "R109",
+   "us": "not found",
+   "cross": []
+  },
+  "R110": {
+   "id": "R110",
+   "us": "not found",
+   "cross": []
+  },
+  "R111": {
+   "id": "R111",
+   "us": "not found",
+   "cross": []
+  },
+  "R112": {
+   "id": "R112",
+   "us": "unknown",
+   "cross": []
+  },
+  "R113": {
+   "id": "R113",
+   "us": "not found",
+   "cross": []
+  },
+  "R114": {
+   "id": "R114",
+   "us": "not found",
+   "cross": []
+  },
+  "R115": {
+   "id": "R115",
+   "us": "not found",
+   "cross": []
+  },
+  "R116": {
+   "id": "R116",
+   "us": "partial",
+   "cross": []
+  },
+  "R117": {
+   "id": "R117",
+   "us": "written",
+   "cross": []
+  },
+  "R118": {
+   "id": "R118",
+   "us": "not found",
+   "cross": []
+  },
+  "R119": {
+   "id": "R119",
+   "us": "partial",
+   "cross": []
+  },
+  "R120": {
+   "id": "R120",
+   "us": "written",
+   "cross": []
+  },
+  "R129": {
+   "id": "R129",
+   "us": "not found",
+   "cross": []
+  },
+  "R130": {
+   "id": "R130",
+   "us": "written",
+   "cross": [
+    {
+     "row": "R093",
+     "substance": "Methotrexate",
+     "us": "not found"
+    }
+   ]
+  },
+  "R131": {
+   "id": "R131",
+   "us": "partial",
+   "cross": []
+  },
+  "R132": {
+   "id": "R132",
+   "us": "written",
+   "cross": []
+  },
+  "R133": {
+   "id": "R133",
+   "us": "partial",
+   "cross": []
+  },
+  "R134": {
+   "id": "R134",
+   "us": "written",
+   "cross": []
+  },
+  "R135": {
+   "id": "R135",
+   "us": "not found",
+   "cross": [
+    {
+     "row": "R067",
+     "substance": "Anakinra; canakinumab",
+     "us": "written"
+    },
+    {
+     "row": "R132",
+     "substance": "Pirfenidone",
+     "us": "written"
+    }
+   ]
+  },
+  "R136": {
+   "id": "R136",
+   "us": "not found",
+   "cross": []
+  },
+  "R137": {
+   "id": "R137",
+   "us": "not found",
+   "cross": []
+  },
+  "R138": {
+   "id": "R138",
+   "us": "not found",
+   "cross": []
+  },
+  "R139": {
+   "id": "R139",
+   "us": "unknown",
+   "cross": []
+  },
+  "R140": {
+   "id": "R140",
+   "us": "unknown",
+   "cross": []
+  },
+  "R141": {
+   "id": "R141",
+   "us": "not found",
+   "cross": []
+  },
+  "R142": {
+   "id": "R142",
+   "us": "not found",
+   "cross": [
+    {
+     "row": "R067",
+     "substance": "Anakinra; canakinumab",
+     "us": "written"
+    },
+    {
+     "row": "R132",
+     "substance": "Pirfenidone",
+     "us": "written"
+    }
+   ]
+  },
+  "R143": {
+   "id": "R143",
+   "us": "unknown",
+   "cross": []
+  },
+  "R144": {
+   "id": "R144",
+   "us": "not found",
+   "cross": []
+  },
+  "R145": {
+   "id": "R145",
+   "us": "unknown",
+   "cross": []
+  },
+  "R146": {
+   "id": "R146",
+   "us": "not found",
+   "cross": []
+  },
+  "R147": {
+   "id": "R147",
+   "us": "written",
+   "cross": []
+  },
+  "R148": {
+   "id": "R148",
+   "us": "not found",
+   "cross": []
+  },
+  "R149": {
+   "id": "R149",
+   "us": "partial",
+   "cross": []
+  },
+  "R150": {
+   "id": "R150",
+   "us": "written",
+   "cross": []
+  },
+  "R151": {
+   "id": "R151",
+   "us": "not found",
+   "cross": []
+  },
+  "R152": {
+   "id": "R152",
+   "us": "unknown",
+   "cross": []
+  },
+  "R153": {
+   "id": "R153",
+   "us": "written",
+   "cross": []
+  },
+  "R154": {
+   "id": "R154",
+   "us": "not found",
+   "cross": []
+  },
+  "R155": {
+   "id": "R155",
+   "us": "unknown",
+   "cross": []
+  },
+  "R156": {
+   "id": "R156",
+   "us": "not found",
+   "cross": []
+  },
+  "R157": {
+   "id": "R157",
+   "us": "written",
+   "cross": []
+  },
+  "R158": {
+   "id": "R158",
+   "us": "unknown",
+   "cross": []
+  },
+  "R159": {
+   "id": "R159",
+   "us": "not found",
+   "cross": []
+  },
+  "R160": {
+   "id": "R160",
+   "us": "not found",
+   "cross": []
+  },
+  "R161": {
+   "id": "R161",
+   "us": "partial",
+   "cross": []
+  },
+  "R169": {
+   "id": "R169",
+   "us": "not found",
+   "cross": []
+  },
+  "R170": {
+   "id": "R170",
+   "us": "not found",
+   "cross": []
+  },
+  "R171": {
+   "id": "R171",
+   "us": "written",
+   "cross": []
+  },
+  "R172": {
+   "id": "R172",
+   "us": "not found",
+   "cross": []
+  },
+  "R173": {
+   "id": "R173",
+   "us": "unknown",
+   "cross": []
+  },
+  "R174": {
+   "id": "R174",
+   "us": "not found",
+   "cross": []
+  },
+  "R175": {
+   "id": "R175",
+   "us": "not found",
+   "cross": []
+  },
+  "R176": {
+   "id": "R176",
+   "us": "unknown",
+   "cross": []
+  },
+  "R193": {
+   "id": "R193",
+   "us": "unknown",
+   "cross": []
+  },
+  "R194": {
+   "id": "R194",
+   "us": "partial",
+   "cross": []
+  },
+  "R195": {
+   "id": "R195",
+   "us": "not found",
+   "cross": []
+  },
+  "R196": {
+   "id": "R196",
+   "us": "unknown",
+   "cross": []
+  },
+  "R197": {
+   "id": "R197",
+   "us": "partial",
+   "cross": []
+  }
+ },
+ "report": [
+  {
+   "batch": 1,
+   "retrieved": 0,
+   "matched": 0,
+   "inputTokens": 4775,
+   "outputTokens": 1613,
+   "served": "nvidia/nemotron-3-ultra-550b-a55b"
+  },
+  {
+   "batch": 2,
+   "retrieved": 3,
+   "matched": 3,
+   "inputTokens": 5060,
+   "outputTokens": 2258,
+   "served": "nvidia/nemotron-3-ultra-550b-a55b"
+  },
+  {
+   "batch": 3,
+   "retrieved": 2,
+   "matched": 2,
+   "inputTokens": 4711,
+   "outputTokens": 2779,
+   "served": "nvidia/nemotron-3-ultra-550b-a55b"
+  },
+  {
+   "batch": 4,
+   "retrieved": 3,
+   "matched": 3,
+   "inputTokens": 3775,
+   "outputTokens": 2077,
+   "served": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+  },
+  {
+   "batch": 5,
+   "retrieved": 14,
+   "matched": 14,
+   "inputTokens": 3813,
+   "outputTokens": 2941,
+   "served": "nvidia/nemotron-3-ultra-550b-a55b"
+  },
+  {
+   "batch": 6,
+   "retrieved": 10,
+   "matched": 10,
+   "inputTokens": 5689,
+   "outputTokens": 2272,
+   "served": "nvidia/nemotron-3-ultra-550b-a55b"
+  },
+  {
+   "batch": 7,
+   "retrieved": 20,
+   "matched": 20,
+   "inputTokens": 5615,
+   "outputTokens": 2385,
+   "served": "nvidia/nemotron-3-ultra-550b-a55b"
+  },
+  {
+   "batch": 8,
+   "retrieved": 17,
+   "matched": 17,
+   "inputTokens": 5208,
+   "outputTokens": 3601,
+   "served": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+  },
+  {
+   "batch": 9,
+   "retrieved": 16,
+   "matched": 16,
+   "inputTokens": 5272,
+   "outputTokens": 2565,
+   "served": "nvidia/nemotron-3-ultra-550b-a55b"
+  },
+  {
+   "batch": 10,
+   "retrieved": 20,
+   "matched": 20,
+   "inputTokens": 5731,
+   "outputTokens": 2847,
+   "served": "nvidia/nemotron-3-ultra-550b-a55b"
+  },
+  {
+   "batch": 11,
+   "retrieved": 30,
+   "matched": 34,
+   "inputTokens": 6746,
+   "outputTokens": 3914,
+   "served": "nvidia/nemotron-3-ultra-550b-a55b"
+  },
+  {
+   "batch": 12,
+   "retrieved": 30,
+   "matched": 34,
+   "inputTokens": 7858,
+   "outputTokens": 3677,
+   "served": "nvidia/nemotron-3-ultra-550b-a55b"
+  },
+  {
+   "batch": 13,
+   "retrieved": 30,
+   "matched": 38,
+   "inputTokens": 6868,
+   "outputTokens": 3537,
+   "served": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+  },
+  {
+   "batch": 14,
+   "retrieved": 30,
+   "matched": 53,
+   "inputTokens": 5662,
+   "outputTokens": 3573,
+   "served": "nvidia/nemotron-3-ultra-550b-a55b"
+  },
+  {
+   "batch": 15,
+   "retrieved": 30,
+   "matched": 39,
+   "inputTokens": 6854,
+   "outputTokens": 3991,
+   "served": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+  },
+  {
+   "batch": 16,
+   "retrieved": 30,
+   "matched": 40,
+   "inputTokens": 5388,
+   "outputTokens": 4000,
+   "served": "nvidia/nemotron-3-ultra-550b-a55b"
+  },
+  {
+   "batch": 17,
+   "retrieved": 30,
+   "matched": 51,
+   "inputTokens": 5464,
+   "outputTokens": 3472,
+   "served": "nvidia/nemotron-3-ultra-550b-a55b"
+  },
+  {
+   "batch": 18,
+   "retrieved": 30,
+   "matched": 54,
+   "inputTokens": 6622,
+   "outputTokens": 3422,
+   "served": "nvidia/nemotron-3-ultra-550b-a55b"
+  },
+  {
+   "batch": 19,
+   "retrieved": 30,
+   "matched": 49,
+   "inputTokens": 7979,
+   "outputTokens": 3205,
+   "served": "nvidia/nemotron-3-ultra-550b-a55b"
+  },
+  {
+   "batch": 20,
+   "retrieved": 30,
+   "matched": 61,
+   "inputTokens": 7839,
+   "outputTokens": 3278,
+   "served": "nvidia/nemotron-3-ultra-550b-a55b"
+  },
+  {
+   "batch": 21,
+   "retrieved": 30,
+   "matched": 79,
+   "inputTokens": 7877,
+   "outputTokens": 4000,
+   "served": "nvidia/nemotron-3-ultra-550b-a55b"
+  },
+  {
+   "batch": 22,
+   "retrieved": 30,
+   "matched": 76,
+   "inputTokens": 11544,
+   "outputTokens": 5555,
+   "served": "nvidia/nemotron-3-ultra-550b-a55b"
+  },
+  {
+   "batch": 23,
+   "retrieved": 30,
+   "matched": 58,
+   "inputTokens": 8152,
+   "outputTokens": 4000,
+   "served": "nvidia/nemotron-3-ultra-550b-a55b"
+  },
+  {
+   "batch": 24,
+   "retrieved": 30,
+   "matched": 75,
+   "inputTokens": 17268,
+   "outputTokens": 7149,
+   "served": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+  },
+  {
+   "batch": 25,
+   "retrieved": 23,
+   "matched": 23,
+   "inputTokens": 6918,
+   "outputTokens": 2686,
+   "served": "nvidia/nemotron-3-ultra-550b-a55b"
+  }
+ ],
+ "seconds": 1896.285
+}

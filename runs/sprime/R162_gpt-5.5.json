@@ -1,0 +1,21 @@
+{
+ "id": "R162",
+ "model_requested": "gpt-5.5",
+ "model_served": "gpt-5.5-2026-04-23",
+ "secs": 100.6,
+ "usage": {
+  "input_tokens": 90638,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 3712
+  },
+  "output_tokens": 4147,
+  "output_tokens_details": {
+   "reasoning_tokens": 3566
+  },
+  "total_tokens": 94785
+ },
+ "text": "{\"us_status\":\"not marketed\",\"label_product\":\"No U.S.-approved tegafur/gimeracil/oteracil product found (Teysuno/S-1; tegafur/gimeracil/oteracil potassium). FDA review text states S-1 is not approved for marketing in the US.\",\"label_version_or_date\":\"N/A; searched DailyMed/FDA on 2026-10-24\",\"label_section\":\"N/A\",\"quote\":\"\",\"eu\":\"EMA/PRAC: March 13, 2025 signal recommendation found; current EMA Teysuno product information includes hyperammonaemia in SmPC 4.4 Special warnings and precautions for use and 4.8 Undesirable effects, product information last updated 2025-10-30.\",\"uk\":\"UK MHRA/GOV.UK: Teysuno UK marketing authorisations were granted 2025-11-28; no GOV.UK Drug Safety Update specific to hyperammonaemia was found in the searched MHRA/GOV.UK materials.\",\"us_regulator\":\"FDA: no TGO-specific public FDA AEMS/FAERS potential-signal entry or Sentinel study was found; FDA public review located says tegafur/gimeracil/oteracil potassium (S-1) is not approved for marketing in the US.\",\"sources\":[\"https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=tegafur%20gimeracil%20oteracil&searchdb=all\",\"https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/125554Orig1s091.pdf\",\"https://www.ema.europa.eu/en/medicines/human/EPAR/teysuno\",\"https://www.ema.europa.eu/en/documents/product-information/teysuno-epar-product-information_en.pdf\",\"https://www.ema.europa.eu/system/files/documents/prac-recommendation/prac-recommendations-signals-adopted-10-13-march-2025-prac_en.pdf\",\"https://assets.publishing.service.gov.uk/media/6932b8cfcdec734f4dff42dc/MAs_Granted_15_Nov_to_30_Nov_2025.pdf\",\"https://www.gov.uk/guidance/find-product-information-about-medicines\",\"https://www.gov.uk/drug-safety-update?keywords=tegafur+%2B+gimeracil+%2B+oteracil\",\"https://www.fda.gov/drugs/surveillance-post-drug-approval-activities/fda-adverse-event-monitoring-system-aems\",\"https://www.fda.gov/safety/fdas-sentinel-initiative/fdas-sentinel-initiative-ongoing-projects\"]}",
+ "annotation_urls": [],
+ "at": "2026-10-24T01:49:43"
+}

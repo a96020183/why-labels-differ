@@ -1,0 +1,14 @@
+{
+ "tag": "job1_compress",
+ "requested": "nvidia/nemotron-3-super-120b-a12b",
+ "served": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {
+  "prompt_tokens": 2017,
+  "completion_tokens": 1278,
+  "total_tokens": 3295
+ },
+ "latency": 44.582,
+ "hadThink": true,
+ "promptTokensEstimated": 365,
+ "text": "COMPLETED: R001–R014 (14 rows fully processed), R015 partially processed (truncated in chunk)\nREMAINING: unknown (batch may be complete after R015)\nDECISIONS: R004 US status \"unknown\" used verbatim from fact line despite not being in enumerated set; all rows R009–R014 have us=\"not found\" and cross=[]\nCONTEXT: R001 biotin A11H not found; R002 gabapentin N02B not found; R003 nivolumab L01F,L01X written; R004 paracetamol N02B unknown; R005 armodafinil/modafinil N06B not found; R006 rivaroxaban/apixaban/dabigatran/edoxaban B01A not found; R007 citalopram/escitalopram N06A not found; R008 clomipramine/desvenlafaxine/duloxetine/milnacipran N06A not found; R009–R014 all not found, cross empty (no same-signal earlier rows with different ATC3)"
+}

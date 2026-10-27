@@ -1,0 +1,893 @@
+{
+ "arm": "Why Labels Differ agents: EU / UK / U.S. FDA stage from Zetaris records, Nemotron deep lane",
+ "run_at": "2026-10-23",
+ "sampleMode": false,
+ "models_served": {
+  "nvidia/nemotron-3.5-super-vl-120b-a12b": 6,
+  "nvidia/nemotron-3-ultra-550b-a55b": 28,
+  "nvidia/nemotron-3.5-lightning-30b-a3b": 5
+ },
+ "answers": [
+  {
+   "id": "R159",
+   "eu": "concluded",
+   "uk": "no_public_communication_found",
+   "us_regulator": "no_public_action_found",
+   "cites": {
+    "eu": [
+     "EU-R159"
+    ],
+    "uk": [],
+    "us_regulator": []
+   },
+   "reason": "EU PRAC recommended updating afatinib product information for eyelash growth; no UK communication was found; the sole FDA entry concerns cardiac failure, not eyelash growth.",
+   "served": "nvidia/nemotron-3.5-super-vl-120b-a12b",
+   "source": "live",
+   "qids": [
+    "W-001",
+    "W-002",
+    "W-003",
+    "W-004"
+   ]
+  },
+  {
+   "id": "R160",
+   "eu": "concluded",
+   "uk": "no_public_communication_found",
+   "us_regulator": "concluded_no_action",
+   "cites": {
+    "eu": [
+     "EU-R160"
+    ],
+    "uk": [],
+    "us_regulator": [
+     "FDA-R160-1"
+    ]
+   },
+   "reason": "EU PRAC recommended product information update; FDA determined no action needed for tumor lysis syndrome with lenvatinib; no MHRA communication found.",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "qids": [
+    "W-005",
+    "W-006",
+    "W-007",
+    "W-008"
+   ]
+  },
+  {
+   "id": "R161",
+   "eu": "concluded",
+   "uk": "no_public_communication_found",
+   "us_regulator": "no_public_action_found",
+   "cites": {
+    "eu": [
+     "EU-R161"
+    ],
+    "uk": [],
+    "us_regulator": []
+   },
+   "reason": "PRAC recommended updating EU product information for colitis with mogamulizumab, while no UK MHRA or FDA public record for this reaction was listed.",
+   "served": "nvidia/nemotron-3.5-super-vl-120b-a12b",
+   "source": "live",
+   "qids": [
+    "W-009",
+    "W-010",
+    "W-011",
+    "W-012"
+   ]
+  },
+  {
+   "id": "R162",
+   "eu": "concluded",
+   "uk": "no_public_communication_found",
+   "us_regulator": "no_public_action_found",
+   "cites": {
+    "eu": [
+     "EU-R162"
+    ],
+    "uk": [],
+    "us_regulator": []
+   },
+   "reason": "EU PRAC recommended product information update for hyperammonaemia with tegafur/gimeracil/oteracil in March 2025; no UK or US regulatory communications found in provided records.",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "qids": [
+    "W-013",
+    "W-014",
+    "W-015",
+    "W-016"
+   ]
+  },
+  {
+   "id": "R163",
+   "eu": "concluded",
+   "uk": "no_public_communication_found",
+   "us_regulator": "no_public_action_found",
+   "cites": {
+    "eu": [
+     "EU-R163"
+    ],
+    "uk": [],
+    "us_regulator": []
+   },
+   "reason": "EU PRAC recommended updating product information for hearing and vestibular disorders; no UK or US communications found.",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "qids": [
+    "W-017",
+    "W-018",
+    "W-019",
+    "W-020"
+   ]
+  },
+  {
+   "id": "R164",
+   "eu": "concluded",
+   "uk": "no_public_communication_found",
+   "us_regulator": "no_public_action_found",
+   "cites": {
+    "eu": [
+     "EU-R164"
+    ],
+    "uk": [],
+    "us_regulator": []
+   },
+   "reason": "EU PRAC recommended product information update for hyperammonaemia; no MHRA communication or FDA signal for this reaction found.",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "qids": [
+    "W-021",
+    "W-022",
+    "W-023",
+    "W-024"
+   ]
+  },
+  {
+   "id": "R165",
+   "eu": "concluded",
+   "uk": "no_public_communication_found",
+   "us_regulator": "no_public_action_found",
+   "cites": {
+    "eu": [
+     "EU-R165"
+    ],
+    "uk": [],
+    "us_regulator": []
+   },
+   "reason": "PRAC concluded the sertraline–MAD deficiency signal and recommended EU product-information updates, with no matching UK MHRA or FDA record found.",
+   "served": "nvidia/nemotron-3.5-super-vl-120b-a12b",
+   "source": "live",
+   "qids": [
+    "W-025",
+    "W-026",
+    "W-027",
+    "W-028"
+   ]
+  },
+  {
+   "id": "R166",
+   "eu": "concluded",
+   "uk": "no_public_communication_found",
+   "us_regulator": "no_public_action_found",
+   "cites": {
+    "eu": [
+     "EU-R166"
+    ],
+    "uk": [],
+    "us_regulator": []
+   },
+   "reason": "PRAC concluded the circulatory-shock signal and recommended EU product-information updates, while no MHRA communication and no matching FDA circulatory-shock signal are listed.",
+   "served": "nvidia/nemotron-3.5-super-vl-120b-a12b",
+   "source": "live",
+   "qids": [
+    "W-029",
+    "W-030",
+    "W-031",
+    "W-032"
+   ]
+  },
+  {
+   "id": "R167",
+   "eu": "concluded",
+   "uk": "no_public_communication_found",
+   "us_regulator": "under_evaluation",
+   "cites": {
+    "eu": [
+     "EU-R167"
+    ],
+    "uk": [],
+    "us_regulator": [
+     "FDA-R167-1",
+     "FDA-R167-2"
+    ]
+   },
+   "reason": "EU PRAC recommended product information update for immune-mediated enterocolitis with CAR T-cell products; FDA is evaluating potential signal for immune effector cell-associated enterocolitis for idecabtagene vicleucel and lisocabtagene maraleucel; no MHRA communication found.",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "qids": [
+    "W-033",
+    "W-034",
+    "W-035",
+    "W-036"
+   ]
+  },
+  {
+   "id": "R168",
+   "eu": "concluded",
+   "uk": "no_public_communication_found",
+   "us_regulator": "no_public_action_found",
+   "cites": {
+    "eu": [
+     "EU-R168"
+    ],
+    "uk": [],
+    "us_regulator": []
+   },
+   "reason": "EU PRAC recommended product information update; no UK or US communications found.",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "qids": [
+    "W-037",
+    "W-038",
+    "W-039",
+    "W-040"
+   ]
+  },
+  {
+   "id": "R169",
+   "eu": "concluded",
+   "uk": "no_public_communication_found",
+   "us_regulator": "no_public_action_found",
+   "cites": {
+    "eu": [
+     "EU-R169"
+    ],
+    "uk": [],
+    "us_regulator": []
+   },
+   "reason": "EU PRAC recommended EU product information update; no UK or FDA records listed for this signal.",
+   "served": "nvidia/nemotron-3.5-lightning-30b-a3b",
+   "source": "live",
+   "qids": [
+    "W-041",
+    "W-042",
+    "W-043",
+    "W-044"
+   ]
+  },
+  {
+   "id": "R170",
+   "eu": "concluded",
+   "uk": "no_public_communication_found",
+   "us_regulator": "no_public_action_found",
+   "cites": {
+    "eu": [
+     "EU-R170"
+    ],
+    "uk": [],
+    "us_regulator": []
+   },
+   "reason": "Only EU PRAC signal identified; no MHRA or FDA communications found for this signal.",
+   "served": "nvidia/nemotron-3.5-lightning-30b-a3b",
+   "source": "live",
+   "qids": [
+    "W-045",
+    "W-046",
+    "W-047",
+    "W-048"
+   ]
+  },
+  {
+   "id": "R171",
+   "eu": "concluded",
+   "uk": "no_public_communication_found",
+   "us_regulator": "no_public_action_found",
+   "cites": {
+    "eu": [
+     "EU-R171"
+    ],
+    "uk": [],
+    "us_regulator": []
+   },
+   "reason": "EU PRAC recommended EU product information update for the signal; no UK MHRA communication or FDA public action found for Progressive multifocal leukoencephalopathy in the provided records.",
+   "served": "nvidia/nemotron-3.5-lightning-30b-a3b",
+   "source": "live",
+   "qids": [
+    "W-049",
+    "W-050",
+    "W-051",
+    "W-052"
+   ]
+  },
+  {
+   "id": "R172",
+   "eu": "concluded",
+   "uk": "no_public_communication_found",
+   "us_regulator": "no_public_action_found",
+   "cites": {
+    "eu": [
+     "EU-R172"
+    ],
+    "uk": [],
+    "us_regulator": []
+   },
+   "reason": "EU PRAC recommended updating product information for clozapine neutropenia/agranulocytosis risk; no UK or FDA communications found.",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "qids": [
+    "W-053",
+    "W-054",
+    "W-055",
+    "W-056"
+   ]
+  },
+  {
+   "id": "R173",
+   "eu": "concluded",
+   "uk": "no_public_communication_found",
+   "us_regulator": "no_public_action_found",
+   "cites": {
+    "eu": [
+     "EU-R173"
+    ],
+    "uk": [],
+    "us_regulator": []
+   },
+   "reason": "EMA PRAC recommended updating EU product information for encephalitis risk with varicella and MMR vaccines; no UK or US communications found.",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "qids": [
+    "W-057",
+    "W-058",
+    "W-059",
+    "W-060"
+   ]
+  },
+  {
+   "id": "R174",
+   "eu": "concluded",
+   "uk": "no_public_communication_found",
+   "us_regulator": "no_public_action_found",
+   "cites": {
+    "eu": [
+     "EU-R174"
+    ],
+    "uk": [],
+    "us_regulator": []
+   },
+   "reason": "EU PRAC recommended product information update for tattoo associated skin reaction; no MHRA or FDA records found for this reaction.",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "qids": [
+    "W-061",
+    "W-062",
+    "W-063",
+    "W-064"
+   ]
+  },
+  {
+   "id": "R175",
+   "eu": "concluded",
+   "uk": "no_public_communication_found",
+   "us_regulator": "no_public_action_found",
+   "cites": {
+    "eu": [
+     "EU-R175"
+    ],
+    "uk": [],
+    "us_regulator": []
+   },
+   "reason": "EU PRAC recommended product information update for necrotising enterocolitis neonatal with diazoxide; no UK or US regulatory communications found for this reaction.",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "qids": [
+    "W-065",
+    "W-066",
+    "W-067",
+    "W-068"
+   ]
+  },
+  {
+   "id": "R176",
+   "eu": "concluded",
+   "uk": "no_public_communication_found",
+   "us_regulator": "no_public_action_found",
+   "cites": {
+    "eu": [
+     "EU-R176"
+    ],
+    "uk": [],
+    "us_regulator": []
+   },
+   "reason": "EU PRAC concluded evaluation; no UK MHRA communication or FDA public action found for this signal.",
+   "served": "nvidia/nemotron-3.5-lightning-30b-a3b",
+   "source": "live",
+   "qids": [
+    "W-069",
+    "W-070",
+    "W-071",
+    "W-072"
+   ]
+  },
+  {
+   "id": "R177",
+   "eu": "concluded",
+   "uk": "no_public_communication_found",
+   "us_regulator": "no_public_action_found",
+   "cites": {
+    "eu": [
+     "EU-R177"
+    ],
+    "uk": [],
+    "us_regulator": []
+   },
+   "reason": "EU PRAC recommended product information update in September 2025; no UK or US regulatory communications found in searched records.",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "qids": [
+    "W-073",
+    "W-074",
+    "W-075",
+    "W-076"
+   ]
+  },
+  {
+   "id": "R178",
+   "eu": "concluded",
+   "uk": "no_public_communication_found",
+   "us_regulator": "no_public_action_found",
+   "cites": {
+    "eu": [
+     "EU-R178"
+    ],
+    "uk": [],
+    "us_regulator": []
+   },
+   "reason": "EU PRAC recommended product information update for lipoatrophy with somatrogon; no MHRA or FDA signal for this reaction.",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "qids": [
+    "W-077",
+    "W-078",
+    "W-079",
+    "W-080"
+   ]
+  },
+  {
+   "id": "R179",
+   "eu": "concluded",
+   "uk": "no_public_communication_found",
+   "us_regulator": "no_public_action_found",
+   "cites": {
+    "eu": [
+     "EU-R179"
+    ],
+    "uk": [],
+    "us_regulator": []
+   },
+   "reason": "EU PRAC recommended product information update for bosutinib cutaneous vasculitis; no UK or US communications found in provided records.",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "qids": [
+    "W-081",
+    "W-082",
+    "W-083",
+    "W-084"
+   ]
+  },
+  {
+   "id": "R180",
+   "eu": "concluded",
+   "uk": "no_public_communication_found",
+   "us_regulator": "under_evaluation",
+   "cites": {
+    "eu": [
+     "EU-R180"
+    ],
+    "uk": [],
+    "us_regulator": [
+     "FDA-R180-1"
+    ]
+   },
+   "reason": "EU PRAC recommended product information update; FDA is evaluating the need for regulatory action for infusion related reaction including anaphylaxis; no MHRA communication found.",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "qids": [
+    "W-085",
+    "W-086",
+    "W-087",
+    "W-088"
+   ]
+  },
+  {
+   "id": "R181",
+   "eu": "concluded",
+   "uk": "no_public_communication_found",
+   "us_regulator": "under_evaluation",
+   "cites": {
+    "eu": [
+     "EU-R181"
+    ],
+    "uk": [],
+    "us_regulator": [
+     "FDA-R181-3"
+    ]
+   },
+   "reason": "EU PRAC recommended product information update; FDA evaluating need for regulatory action on hypogammaglobulinemia for bispecific T-cell engagers including epcoritamab; no MHRA communication found.",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "qids": [
+    "W-089",
+    "W-090",
+    "W-091",
+    "W-092"
+   ]
+  },
+  {
+   "id": "R182",
+   "eu": "concluded",
+   "uk": "no_public_communication_found",
+   "us_regulator": "no_public_action_found",
+   "cites": {
+    "eu": [
+     "EU-R182"
+    ],
+    "uk": [],
+    "us_regulator": []
+   },
+   "reason": "EU PRAC recommended product information update; no UK or US communications found.",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "qids": [
+    "W-093",
+    "W-094",
+    "W-095",
+    "W-096"
+   ]
+  },
+  {
+   "id": "R183",
+   "eu": "concluded",
+   "uk": "no_public_communication_found",
+   "us_regulator": "no_public_action_found",
+   "cites": {
+    "eu": [
+     "EU-R183"
+    ],
+    "uk": [],
+    "us_regulator": []
+   },
+   "reason": "EU PRAC recommended product information update for growth accelerated; no UK or FDA signals for this reaction.",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "qids": [
+    "W-097",
+    "W-098",
+    "W-099",
+    "W-100"
+   ]
+  },
+  {
+   "id": "R184",
+   "eu": "concluded",
+   "uk": "no_public_communication_found",
+   "us_regulator": "no_public_action_found",
+   "cites": {
+    "eu": [
+     "EU-R184"
+    ],
+    "uk": [],
+    "us_regulator": []
+   },
+   "reason": "EU PRAC recommended product information update; no MHRA or FDA signals found for this reaction.",
+   "served": "nvidia/nemotron-3.5-lightning-30b-a3b",
+   "source": "live",
+   "qids": [
+    "W-101",
+    "W-102",
+    "W-103",
+    "W-104"
+   ]
+  },
+  {
+   "id": "R185",
+   "eu": "concluded",
+   "uk": "no_public_communication_found",
+   "us_regulator": "no_public_action_found",
+   "cites": {
+    "eu": [
+     "EU-R185"
+    ],
+    "uk": [],
+    "us_regulator": []
+   },
+   "reason": "EU PRAC concluded and recommended product information update; no MHRA or FDA records found for this drug-reaction pair.",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "qids": [
+    "W-105",
+    "W-106",
+    "W-107",
+    "W-108"
+   ]
+  },
+  {
+   "id": "R186",
+   "eu": "concluded",
+   "uk": "no_public_communication_found",
+   "us_regulator": "no_public_action_found",
+   "cites": {
+    "eu": [
+     "EU-R186"
+    ],
+    "uk": [],
+    "us_regulator": []
+   },
+   "reason": "EMA PRAC recommended updating EU product information for galantamine-related nightmares in March 2026; no UK or US regulatory actions found in provided records.",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "qids": [
+    "W-109",
+    "W-110",
+    "W-111",
+    "W-112"
+   ]
+  },
+  {
+   "id": "R187",
+   "eu": "concluded",
+   "uk": "no_public_communication_found",
+   "us_regulator": "no_public_action_found",
+   "cites": {
+    "eu": [
+     "EU-R187"
+    ],
+    "uk": [],
+    "us_regulator": []
+   },
+   "reason": "EU PRAC recommended product information update; no UK MHRA communication; FDA signal is for different reaction (T-cell malignancy).",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "qids": [
+    "W-113",
+    "W-114",
+    "W-115",
+    "W-116"
+   ]
+  },
+  {
+   "id": "R188",
+   "eu": "concluded",
+   "uk": "no_public_communication_found",
+   "us_regulator": "no_public_action_found",
+   "cites": {
+    "eu": [
+     "EU-R188"
+    ],
+    "uk": [],
+    "us_regulator": []
+   },
+   "reason": "EU PRAC recommended product information update; no MHRA or FDA signal for this reaction found.",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "qids": [
+    "W-117",
+    "W-118",
+    "W-119",
+    "W-120"
+   ]
+  },
+  {
+   "id": "R189",
+   "eu": "concluded",
+   "uk": "no_public_communication_found",
+   "us_regulator": "no_public_action_found",
+   "cites": {
+    "eu": [
+     "EU-R189"
+    ],
+    "uk": [],
+    "us_regulator": []
+   },
+   "reason": "EU PRAC recommended updating product information for pancreatin regarding viral transmission infection; no UK or US communications found.",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "qids": [
+    "W-121",
+    "W-122",
+    "W-123",
+    "W-124"
+   ]
+  },
+  {
+   "id": "R190",
+   "eu": "concluded",
+   "uk": "no_public_communication_found",
+   "us_regulator": "no_public_action_found",
+   "cites": {
+    "eu": [
+     "EU-R190"
+    ],
+    "uk": [],
+    "us_regulator": []
+   },
+   "reason": "PRAC concluded the darolutamide angioedema signal by recommending EU product-information updates, while no UK MHRA or FDA records for this pair were listed.",
+   "served": "nvidia/nemotron-3.5-super-vl-120b-a12b",
+   "source": "live",
+   "qids": [
+    "W-125",
+    "W-126",
+    "W-127",
+    "W-128"
+   ]
+  },
+  {
+   "id": "R191",
+   "eu": "concluded",
+   "uk": "no_public_communication_found",
+   "us_regulator": "concluded_label_updated",
+   "cites": {
+    "eu": [
+     "EU-R191"
+    ],
+    "uk": [],
+    "us_regulator": [
+     "FDA-R191-1"
+    ]
+   },
+   "reason": "EU PRAC recommended product information update in June 2026; FDA updated gemcitabine labeling for DRESS in 2024; no MHRA communication found.",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "qids": [
+    "W-129",
+    "W-130",
+    "W-131",
+    "W-132"
+   ]
+  },
+  {
+   "id": "R192",
+   "eu": "concluded",
+   "uk": "drug_safety_update",
+   "us_regulator": "no_public_action_found",
+   "cites": {
+    "eu": [
+     "EU-R192"
+    ],
+    "uk": [
+     "UK-DSU-2024-09-05-01",
+     "UK-DSU-2024-09-05-04"
+    ],
+    "us_regulator": []
+   },
+   "reason": "EU PRAC recommended product information update; UK issued Drug Safety Updates on paternal valproate exposure and neurodevelopmental disorders; FDA record concerns pleural effusion, not this reaction.",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "replay",
+   "qids": [
+    "W-001",
+    "W-002",
+    "W-003",
+    "W-004"
+   ]
+  },
+  {
+   "id": "R193",
+   "eu": "concluded",
+   "uk": "no_public_communication_found",
+   "us_regulator": "no_public_action_found",
+   "cites": {
+    "eu": [
+     "EU-R193"
+    ],
+    "uk": [],
+    "us_regulator": []
+   },
+   "reason": "PRAC recommended updating EU product information for fixed drug eruption with these iodinated contrast agents in June 2026; no MHRA or FDA actions cited.",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "qids": [
+    "W-137",
+    "W-138",
+    "W-139",
+    "W-140"
+   ]
+  },
+  {
+   "id": "R194",
+   "eu": "concluded",
+   "uk": "no_public_communication_found",
+   "us_regulator": "no_public_action_found",
+   "cites": {
+    "eu": [
+     "EU-R194"
+    ],
+    "uk": [],
+    "us_regulator": []
+   },
+   "reason": "EU PRAC concluded with recommendation to update product information; no UK MHRA or US FDA public communications identified in the provided records.",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "qids": [
+    "W-141",
+    "W-142",
+    "W-143",
+    "W-144"
+   ]
+  },
+  {
+   "id": "R195",
+   "eu": "concluded",
+   "uk": "no_public_communication_found",
+   "us_regulator": "no_public_action_found",
+   "cites": {
+    "eu": [
+     "EU-R195"
+    ],
+    "uk": [],
+    "us_regulator": []
+   },
+   "reason": "EU PRAC concluded the meningioma signal for desogestrel/etonogestrel and recommended product-information updates, while no UK communication or matching FDA meningioma signal for these drugs was found.",
+   "served": "nvidia/nemotron-3.5-super-vl-120b-a12b",
+   "source": "live",
+   "qids": [
+    "W-145",
+    "W-146",
+    "W-147",
+    "W-148"
+   ]
+  },
+  {
+   "id": "R196",
+   "eu": "concluded",
+   "uk": "no_public_communication_found",
+   "us_regulator": "no_public_action_found",
+   "cites": {
+    "eu": [
+     "EU-R196"
+    ],
+    "uk": [],
+    "us_regulator": []
+   },
+   "reason": "EMA PRAC recommended updating EU product information for levonorgestrel IUD 13.5 mg regarding ectopic pregnancy risk; no UK or US regulatory communications found.",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "qids": [
+    "W-149",
+    "W-150",
+    "W-151",
+    "W-152"
+   ]
+  },
+  {
+   "id": "R197",
+   "eu": "concluded",
+   "uk": "no_public_communication_found",
+   "us_regulator": "no_public_action_found",
+   "cites": {
+    "eu": [
+     "EU-R197"
+    ],
+    "uk": [],
+    "us_regulator": []
+   },
+   "reason": "EMA PRAC recommended updating EU product information for oxacillin regarding DRESS; no UK or US regulatory communications found.",
+   "served": "nvidia/nemotron-3-ultra-550b-a55b",
+   "source": "live",
+   "qids": [
+    "W-153",
+    "W-154",
+    "W-155",
+    "W-156"
+   ]
+  }
+ ],
+ "reruns": [
+  {
+   "ids": [
+    "R192"
+   ],
+   "at": "2026-10-24",
+   "why": "MHRA 2024-09-05 and EMA 2024/2026 valproate records added after review E; re-run live on 2026-10-24"
+  }
+ ]
+}

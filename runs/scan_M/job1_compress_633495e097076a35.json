@@ -1,0 +1,15 @@
+{
+ "tag": "job1_compress",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {
+  "prompt_tokens": 12178,
+  "completion_tokens": 830,
+  "total_tokens": 13008
+ },
+ "latency": 20.431,
+ "hadThink": true,
+ "promptTokensEstimated": 1571,
+ "rawChars": 694,
+ "text": "COMPLETED: R032 (4/12 chunks done)\nREMAINING: 8 chunks (R033-R096 estimated)\nDECISIONS: Chunk 4 (R025-R032) processed — 8 rows, zero cross-class matches. Cumulative: 1 cross-class match total (R021 birth defects A04A vs R013 congenital anomalies H03B). All new reactions added to tracking index.\nCONTEXT: 32 reactions now indexed across ATC classes. Key additions this chunk: diabetic ketoacidosis (A10B), psoriasis (L04A), myasthenia gravis (L01F/L01X), coronary arteriospasm (B03A), lichenoid reaction (N05A), sulphonylurea hypoglycaemia interaction (L01X/L02B), inflammatory myopathy (L04A), haemophagocytic lymphohistiocytosis (L01F/L01X). No duplicate reaction terms detected within chunk."
+}

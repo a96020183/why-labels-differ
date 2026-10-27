@@ -1,0 +1,21 @@
+{
+ "id": "R192",
+ "model_requested": "gpt-5.5",
+ "model_served": "gpt-5.5-2026-04-23",
+ "secs": 90.0,
+ "usage": {
+  "input_tokens": 104790,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 3712
+  },
+  "output_tokens": 3460,
+  "output_tokens_details": {
+   "reasoning_tokens": 2781
+  },
+  "total_tokens": 108250
+ },
+ "text": "{\"us_status\":\"not found\",\"label_product\":\"Depakote (divalproex sodium) delayed-release tablets, AbbVie Inc. (U.S.-approved/marketed)\",\"label_version_or_date\":\"DailyMed updated March 31, 2026; FDA label revised 3/2026, Reference ID 5770126\",\"label_section\":\"Not found for neurodevelopmental disorders with paternal exposure; the U.S. PI discusses neurodevelopmental disorders only following in utero exposure (Boxed Warning, Warnings and Precautions 5.3, Use in Specific Populations 8.1) and discusses male fertility/infertility separately (8.3/Medication Guide).\",\"quote\":\"\",\"eu\":\"EU PRAC (8-11 Jun 2026): evidence for NDDs in children born to men treated with valproate is inconsistent and causality uncertain; 2024 male-patient precautionary measures remain and PI/HCP/male-patient guides are to be updated.\",\"uk\":\"UK MHRA: current reproductive-risk materials warn that men taking valproate in the 3 months before conception may have about 5/100 children with neurodevelopmental conditions; causality unclear; contraception is advised during treatment and for 3 months after, with under-55 initiation safeguards.\",\"us_regulator\":\"FDA: no public FDA evaluation found for paternal-exposure NDD; AEMS Jan-Mar 2026 lists valproate for pleural effusion only and Apr-Jun 2026 has no valproate entry; no Sentinel study on this paternal-exposure NDD signal was found.\",\"sources\":[\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=08a65cf4-7749-4ceb-6895-8f4805e2b01f\",\"https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/018723s073lbl.pdf\",\"https://www.ema.europa.eu/en/news/meeting-highlights-pharmacovigilance-risk-assessment-committee-prac-8-11-june-2026\",\"https://www.ema.europa.eu/en/human-regulatory-overview/post-authorisation/pharmacovigilance-post-authorisation/signal-management/prac-recommendations-safety-signals\",\"https://www.gov.uk/guidance/valproate-reproductive-risks\",\"https://www.gov.uk/drug-safety-update/valproate-belvo-convulex-depakote-dyzantil-epilim-epilim-chrono-or-chronosphere-episenta-epival-and-syonellv-updated-safety-and-educational-materials-to-support-patient-discussion-on-reproductive-risks\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/january-march-2026-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/april-june-2026-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse\",\"https://www.sentinelinitiative.org/studies/drugs\"]}",
+ "annotation_urls": [],
+ "at": "2026-10-24T02:03:05"
+}

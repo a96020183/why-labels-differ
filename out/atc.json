@@ -1,0 +1,4492 @@
+{
+ "substances": {
+  "abemaciclib": {
+   "codes": [
+    "L01EF",
+    "L01EF03"
+   ],
+   "atc3": [
+    "L01E"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "abiraterone": {
+   "codes": [
+    "L01XK",
+    "L02BX",
+    "L02BX03"
+   ],
+   "atc3": [
+    "L01X",
+    "L02B"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "acetazolamide": {
+   "codes": [
+    "S01EC"
+   ],
+   "atc3": [
+    "S01E"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "acetylsalicylic acid": {
+   "codes": [
+    "B01AC30"
+   ],
+   "atc3": [
+    "B01A"
+   ],
+   "sources": [
+    "ema"
+   ]
+  },
+  "adagrasib": {
+   "codes": [
+    "L01XX",
+    "L01XX77"
+   ],
+   "atc3": [
+    "L01X"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "adalimumab": {
+   "codes": [
+    "L04AA17",
+    "L04AB",
+    "L04AB04"
+   ],
+   "atc3": [
+    "L04A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "afatinib": {
+   "codes": [
+    "L01EB",
+    "L01XE13"
+   ],
+   "atc3": [
+    "L01E",
+    "L01X"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "aflibercept": {
+   "codes": [
+    "L01XX",
+    "L01XX44",
+    "S01LA",
+    "S01LA05"
+   ],
+   "atc3": [
+    "L01X",
+    "S01L"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "alemtuzumab": {
+   "codes": [
+    "L01XC04",
+    "L04AA34",
+    "L04AG"
+   ],
+   "atc3": [
+    "L01X",
+    "L04A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "amino acids": {
+   "codes": [
+    "B05BA",
+    "B05BA01"
+   ],
+   "atc3": [
+    "B05B"
+   ],
+   "sources": [
+    "ema",
+    "manual"
+   ]
+  },
+  "amitriptyline": {
+   "codes": [
+    "N06AA"
+   ],
+   "atc3": [
+    "N06A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "amlodipine": {
+   "codes": [
+    "C08CA",
+    "C09BB",
+    "C09DB",
+    "C09DB01",
+    "C09DB04",
+    "C09DX",
+    "C09DX01",
+    "C09XA",
+    "C09XA53",
+    "C09XA54",
+    "C10BX"
+   ],
+   "atc3": [
+    "C08C",
+    "C09B",
+    "C09D",
+    "C09X",
+    "C10B"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "amlodipine besilate": {
+   "codes": [
+    "C08CA",
+    "C09DB01",
+    "C09DX01",
+    "C09XA53"
+   ],
+   "atc3": [
+    "C08C",
+    "C09D",
+    "C09X"
+   ],
+   "sources": [
+    "ema",
+    "manual"
+   ]
+  },
+  "amphotericin b": {
+   "codes": [
+    "A01AB",
+    "A07AA",
+    "G01AA",
+    "J02AA"
+   ],
+   "atc3": [
+    "A01A",
+    "A07A",
+    "G01A",
+    "J02A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "anakinra": {
+   "codes": [
+    "L04AC",
+    "L04AC03"
+   ],
+   "atc3": [
+    "L04A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "anastrozole": {
+   "codes": [
+    "L02BG"
+   ],
+   "atc3": [
+    "L02B"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "andexanet alfa": {
+   "codes": [
+    "V03AB"
+   ],
+   "atc3": [
+    "V03A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "apixaban": {
+   "codes": [
+    "B01AF",
+    "B01AF02"
+   ],
+   "atc3": [
+    "B01A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "armodafinil": {
+   "codes": [
+    "N06BA"
+   ],
+   "atc3": [
+    "N06B"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "atezolizumab": {
+   "codes": [
+    "L01FF",
+    "L01XC32"
+   ],
+   "atc3": [
+    "L01F",
+    "L01X"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "atorvastatin": {
+   "codes": [
+    "C10AA",
+    "C10BA",
+    "C10BX"
+   ],
+   "atc3": [
+    "C10A",
+    "C10B"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "avatrombopag": {
+   "codes": [
+    "B02BX"
+   ],
+   "atc3": [
+    "B02B"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "avelumab": {
+   "codes": [
+    "L01FF",
+    "L01FF04"
+   ],
+   "atc3": [
+    "L01F"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "axicabtagene ciloleucel": {
+   "codes": [
+    "L01XL",
+    "L01XX70"
+   ],
+   "atc3": [
+    "L01X"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "axitinib": {
+   "codes": [
+    "L01EK",
+    "L01EK01"
+   ],
+   "atc3": [
+    "L01E"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "azacitidine": {
+   "codes": [
+    "L01BC",
+    "L01BC07"
+   ],
+   "atc3": [
+    "L01B"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "azathioprine": {
+   "codes": [
+    "L04AX",
+    "L04AX01"
+   ],
+   "atc3": [
+    "L04A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "azilsartan medoxomil": {
+   "codes": [
+    "C09CA",
+    "C09CA09"
+   ],
+   "atc3": [
+    "C09C"
+   ],
+   "sources": [
+    "ema",
+    "rxclass",
+    "manual"
+   ]
+  },
+  "baricitinib": {
+   "codes": [
+    "L04AA37",
+    "L04AF"
+   ],
+   "atc3": [
+    "L04A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "bazedoxifene": {
+   "codes": [
+    "G03CC",
+    "G03CC07",
+    "G03XC",
+    "G03XC02"
+   ],
+   "atc3": [
+    "G03C",
+    "G03X"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "bevacizumab": {
+   "codes": [
+    "L01FG",
+    "L01FG01",
+    "L01XC07",
+    "S01LA",
+    "S01LA04",
+    "S01LA08"
+   ],
+   "atc3": [
+    "L01F",
+    "L01X",
+    "S01L"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "binimetinib": {
+   "codes": [
+    "L01EE",
+    "L01EE03",
+    "L01XE"
+   ],
+   "atc3": [
+    "L01E",
+    "L01X"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "biotin": {
+   "codes": [
+    "A11HA"
+   ],
+   "atc3": [
+    "A11H"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "bosutinib": {
+   "codes": [
+    "L01EA",
+    "L01EA04"
+   ],
+   "atc3": [
+    "L01E"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "brexucabtagene autoleucel": {
+   "codes": [
+    "L01X",
+    "L01XL"
+   ],
+   "atc3": [
+    "L01X"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "brodalumab": {
+   "codes": [
+    "L04AC",
+    "L04AC12"
+   ],
+   "atc3": [
+    "L04A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "bumetanide": {
+   "codes": [
+    "C03CA",
+    "C03CB"
+   ],
+   "atc3": [
+    "C03C"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "buprenorphine": {
+   "codes": [
+    "N02AE",
+    "N07BC",
+    "N07BC01",
+    "N07BC51"
+   ],
+   "atc3": [
+    "N02A",
+    "N07B"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "bupropion": {
+   "codes": [
+    "A08AA",
+    "N06AX"
+   ],
+   "atc3": [
+    "A08A",
+    "N06A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "cabozantinib": {
+   "codes": [
+    "L01EX",
+    "L01EX07",
+    "L01XE"
+   ],
+   "atc3": [
+    "L01E",
+    "L01X"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "calcineurin inhibitors": {
+   "codes": [
+    "L04AD"
+   ],
+   "atc3": [
+    "L04A"
+   ],
+   "sources": [
+    "manual"
+   ]
+  },
+  "canagliflozin": {
+   "codes": [
+    "A10BD",
+    "A10BD16",
+    "A10BK",
+    "A10BK02"
+   ],
+   "atc3": [
+    "A10B"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "canakinumab": {
+   "codes": [
+    "L04AC",
+    "L04AC08"
+   ],
+   "atc3": [
+    "L04A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "cannabidiol": {
+   "codes": [
+    "N03AX"
+   ],
+   "atc3": [
+    "N03A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "capecitabine": {
+   "codes": [
+    "L01BC",
+    "L01BC06"
+   ],
+   "atc3": [
+    "L01B"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "cefazolin": {
+   "codes": [
+    "J01DB"
+   ],
+   "atc3": [
+    "J01D"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "cefotaxime": {
+   "codes": [
+    "J01DD"
+   ],
+   "atc3": [
+    "J01D"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "ceftriaxone": {
+   "codes": [
+    "J01DD"
+   ],
+   "atc3": [
+    "J01D"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "cemiplimab": {
+   "codes": [
+    "L01FF",
+    "L01XC33"
+   ],
+   "atc3": [
+    "L01F",
+    "L01X"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "certolizumab pegol": {
+   "codes": [
+    "L04AB",
+    "L04AB05"
+   ],
+   "atc3": [
+    "L04A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "chikungunya vaccine": {
+   "codes": [
+    "J07BX"
+   ],
+   "atc3": [
+    "J07B"
+   ],
+   "sources": [
+    "manual"
+   ]
+  },
+  "chlorhexidine": {
+   "codes": [
+    "A01AB",
+    "B05CA",
+    "D08AC",
+    "D09AA",
+    "R02AA",
+    "S01AX",
+    "S02AA",
+    "S03AA"
+   ],
+   "atc3": [
+    "A01A",
+    "B05C",
+    "D08A",
+    "D09A",
+    "R02A",
+    "S01A",
+    "S02A",
+    "S03A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "chloroquine": {
+   "codes": [
+    "P01BA",
+    "P01BB"
+   ],
+   "atc3": [
+    "P01B"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "chlorotrianisene": {
+   "codes": [
+    "G03CA"
+   ],
+   "atc3": [
+    "G03C"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "ciltabtagene autoleucel": {
+   "codes": [
+    "L01XL"
+   ],
+   "atc3": [
+    "L01X"
+   ],
+   "sources": [
+    "manual"
+   ]
+  },
+  "ciltacabtagene autoleucel": {
+   "codes": [
+    "L01XL",
+    "L01XL05"
+   ],
+   "atc3": [
+    "L01X"
+   ],
+   "sources": [
+    "ema",
+    "rxclass",
+    "manual"
+   ]
+  },
+  "ciprofloxacin": {
+   "codes": [
+    "J01MA",
+    "S01AE",
+    "S02AA",
+    "S03AA"
+   ],
+   "atc3": [
+    "J01M",
+    "S01A",
+    "S02A",
+    "S03A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "citalopram": {
+   "codes": [
+    "N06AB"
+   ],
+   "atc3": [
+    "N06A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "clindamycin": {
+   "codes": [
+    "D10AF",
+    "G01AA",
+    "J01FF"
+   ],
+   "atc3": [
+    "D10A",
+    "G01A",
+    "J01F"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "clopidogrel": {
+   "codes": [
+    "B01AC",
+    "B01AC03",
+    "B01AC04",
+    "B01AC06",
+    "B01AC30"
+   ],
+   "atc3": [
+    "B01A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "clozapine": {
+   "codes": [
+    "N05AH"
+   ],
+   "atc3": [
+    "N05A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "cobimetinib": {
+   "codes": [
+    "L01EE",
+    "L01XE38"
+   ],
+   "atc3": [
+    "L01E",
+    "L01X"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "codeine": {
+   "codes": [
+    "N02AJ",
+    "R05DA"
+   ],
+   "atc3": [
+    "N02A",
+    "R05D"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "colistimethate sodium": {
+   "codes": [
+    "A07AA",
+    "J01XB",
+    "J01XB01"
+   ],
+   "atc3": [
+    "A07A",
+    "J01X"
+   ],
+   "sources": [
+    "ema",
+    "rxclass",
+    "manual"
+   ]
+  },
+  "conjugated estrogens": {
+   "codes": [
+    "G03CA",
+    "G03CC"
+   ],
+   "atc3": [
+    "G03C"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "covid-19 mrna vaccine - comirnaty": {
+   "codes": [
+    "J07BN"
+   ],
+   "atc3": [
+    "J07B"
+   ],
+   "sources": [
+    "manual"
+   ]
+  },
+  "covid-19 mrna vaccine - spikevax": {
+   "codes": [
+    "J07BN"
+   ],
+   "atc3": [
+    "J07B"
+   ],
+   "sources": [
+    "manual"
+   ]
+  },
+  "covid-19 vaccine": {
+   "codes": [
+    "J07BN"
+   ],
+   "atc3": [
+    "J07B"
+   ],
+   "sources": [
+    "manual"
+   ]
+  },
+  "covid-19 vaccine - covid-19 vaccine janssen": {
+   "codes": [
+    "J07BN"
+   ],
+   "atc3": [
+    "J07B"
+   ],
+   "sources": [
+    "manual"
+   ]
+  },
+  "covid-19 vaccine - vaxzevria": {
+   "codes": [
+    "J07BN"
+   ],
+   "atc3": [
+    "J07B"
+   ],
+   "sources": [
+    "manual"
+   ]
+  },
+  "dabigatran": {
+   "codes": [
+    "B01AE"
+   ],
+   "atc3": [
+    "B01A"
+   ],
+   "sources": [
+    "manual"
+   ]
+  },
+  "dabrafenib": {
+   "codes": [
+    "L01EC",
+    "L01EC02"
+   ],
+   "atc3": [
+    "L01E"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "dapagliflozin": {
+   "codes": [
+    "A10BD",
+    "A10BD15",
+    "A10BD21",
+    "A10BK",
+    "A10BK01"
+   ],
+   "atc3": [
+    "A10B"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "darolutamide": {
+   "codes": [
+    "L02BB"
+   ],
+   "atc3": [
+    "L02B"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "datopotamab deruxtecan": {
+   "codes": [
+    "L01FX",
+    "L01FX35"
+   ],
+   "atc3": [
+    "L01F"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "delafloxacin": {
+   "codes": [
+    "J01MA",
+    "J01MA23"
+   ],
+   "atc3": [
+    "J01M"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "desogestrel": {
+   "codes": [
+    "G03AA",
+    "G03AB",
+    "G03AC"
+   ],
+   "atc3": [
+    "G03A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "desvenlafaxine": {
+   "codes": [
+    "N06AX"
+   ],
+   "atc3": [
+    "N06A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "dexketoprofen": {
+   "codes": [
+    "M01AE",
+    "M02AA"
+   ],
+   "atc3": [
+    "M01A",
+    "M02A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "diazoxide": {
+   "codes": [
+    "C02DA",
+    "V03AH"
+   ],
+   "atc3": [
+    "C02D",
+    "V03A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "dienestrol": {
+   "codes": [
+    "G03CB",
+    "G03CC"
+   ],
+   "atc3": [
+    "G03C"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "diethylstilbestrol": {
+   "codes": [
+    "G03CB",
+    "G03CC",
+    "L02AA"
+   ],
+   "atc3": [
+    "G03C",
+    "L02A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "digoxin": {
+   "codes": [
+    "C01AA"
+   ],
+   "atc3": [
+    "C01A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "dinutuximab beta": {
+   "codes": [
+    "L01FX06"
+   ],
+   "atc3": [
+    "L01F"
+   ],
+   "sources": [
+    "ema"
+   ]
+  },
+  "donepezil": {
+   "codes": [
+    "N06DA"
+   ],
+   "atc3": [
+    "N06D"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "dostarlimab": {
+   "codes": [
+    "L01FF",
+    "L01FF07"
+   ],
+   "atc3": [
+    "L01F"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "dulaglutide": {
+   "codes": [
+    "A10BJ",
+    "A10BJ05"
+   ],
+   "atc3": [
+    "A10B"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "duloxetine": {
+   "codes": [
+    "N06AX",
+    "N06AX21"
+   ],
+   "atc3": [
+    "N06A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "durvalumab": {
+   "codes": [
+    "L01FF",
+    "L01XC28"
+   ],
+   "atc3": [
+    "L01F",
+    "L01X"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "edoxaban": {
+   "codes": [
+    "B01AF",
+    "B01AF03"
+   ],
+   "atc3": [
+    "B01A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "elasomeran - spikevax": {
+   "codes": [
+    "J07BN"
+   ],
+   "atc3": [
+    "J07B"
+   ],
+   "sources": [
+    "manual"
+   ]
+  },
+  "empagliflozin": {
+   "codes": [
+    "A10BD",
+    "A10BD19",
+    "A10BD20",
+    "A10BK",
+    "A10BK03"
+   ],
+   "atc3": [
+    "A10B"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "encorafenib": {
+   "codes": [
+    "L01EC",
+    "L01EC03"
+   ],
+   "atc3": [
+    "L01E"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "enzalutamide": {
+   "codes": [
+    "L02BB",
+    "L02BB04"
+   ],
+   "atc3": [
+    "L02B"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "epcoritamab": {
+   "codes": [
+    "L01FX",
+    "L01FX27"
+   ],
+   "atc3": [
+    "L01F"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "erdafitinib": {
+   "codes": [
+    "L01EN",
+    "L01EN01"
+   ],
+   "atc3": [
+    "L01E"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "ertapenem": {
+   "codes": [
+    "J01DH",
+    "J01DH03"
+   ],
+   "atc3": [
+    "J01D"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "ertugliflozin": {
+   "codes": [
+    "A10BD",
+    "A10BD23",
+    "A10BD24",
+    "A10BK",
+    "A10BK04"
+   ],
+   "atc3": [
+    "A10B"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "escitalopram": {
+   "codes": [
+    "N06AB"
+   ],
+   "atc3": [
+    "N06A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "estradiol": {
+   "codes": [
+    "G03AA",
+    "G03AA14",
+    "G03AB",
+    "G03CA",
+    "H01CC54"
+   ],
+   "atc3": [
+    "G03A",
+    "G03C",
+    "H01C"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "estriol": {
+   "codes": [
+    "G03CA",
+    "G03CC"
+   ],
+   "atc3": [
+    "G03C"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "estrone": {
+   "codes": [
+    "G03CA",
+    "G03CC"
+   ],
+   "atc3": [
+    "G03C"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "etanercept": {
+   "codes": [
+    "L04AB",
+    "L04AB01"
+   ],
+   "atc3": [
+    "L04A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "ethambutol": {
+   "codes": [
+    "J04AK",
+    "J04AM"
+   ],
+   "atc3": [
+    "J04A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "ethinylestradiol": {
+   "codes": [
+    "G03CA"
+   ],
+   "atc3": [
+    "G03C"
+   ],
+   "sources": [
+    "manual"
+   ]
+  },
+  "etonogestrel": {
+   "codes": [
+    "G03AC"
+   ],
+   "atc3": [
+    "G03A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "exenatide": {
+   "codes": [
+    "A10BJ",
+    "A10BJ01"
+   ],
+   "atc3": [
+    "A10B"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "fenofibrate": {
+   "codes": [
+    "C10AB",
+    "C10BA",
+    "C10BA03",
+    "C10BA04"
+   ],
+   "atc3": [
+    "C10A",
+    "C10B"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "ferric carboxymaltose": {
+   "codes": [
+    "B03AC"
+   ],
+   "atc3": [
+    "B03A"
+   ],
+   "sources": [
+    "manual"
+   ]
+  },
+  "fixed dose combinations containing paracetamol": {
+   "codes": [
+    "N02BE"
+   ],
+   "atc3": [
+    "N02B"
+   ],
+   "sources": [
+    "manual"
+   ]
+  },
+  "fluoxetine": {
+   "codes": [
+    "N06AB"
+   ],
+   "atc3": [
+    "N06A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "fluvastatin": {
+   "codes": [
+    "C10AA"
+   ],
+   "atc3": [
+    "C10A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "fluvoxamine": {
+   "codes": [
+    "N06AB"
+   ],
+   "atc3": [
+    "N06A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "gabapentin": {
+   "codes": [
+    "N02BF"
+   ],
+   "atc3": [
+    "N02B"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "galantamine": {
+   "codes": [
+    "N06DA"
+   ],
+   "atc3": [
+    "N06D"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "gemcitabine": {
+   "codes": [
+    "L01BC"
+   ],
+   "atc3": [
+    "L01B"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "gimeracil": {
+   "codes": [
+    "L01BC53"
+   ],
+   "atc3": [
+    "L01B"
+   ],
+   "sources": [
+    "ema"
+   ]
+  },
+  "glofitamab": {
+   "codes": [
+    "L01FX",
+    "L01FX28"
+   ],
+   "atc3": [
+    "L01F"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "golimumab": {
+   "codes": [
+    "L04AB",
+    "L04AB06"
+   ],
+   "atc3": [
+    "L04A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "human papillomavirus 9-valent vaccine": {
+   "codes": [
+    "J07BM"
+   ],
+   "atc3": [
+    "J07B"
+   ],
+   "sources": [
+    "manual"
+   ]
+  },
+  "hydrochlorothiazide": {
+   "codes": [
+    "C03AA",
+    "C09DA04",
+    "C09DA07",
+    "C09DX",
+    "C09DX01",
+    "C09XA",
+    "C09XA52",
+    "C09XA54"
+   ],
+   "atc3": [
+    "C03A",
+    "C09D",
+    "C09X"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "hydrocortisone": {
+   "codes": [
+    "A01AC",
+    "A07EA",
+    "C05AA",
+    "D07AA",
+    "D07AB",
+    "D07AC",
+    "D07XA",
+    "H02AB",
+    "H02AB09",
+    "S01BA",
+    "S01CB",
+    "S02BA"
+   ],
+   "atc3": [
+    "A01A",
+    "A07E",
+    "C05A",
+    "D07A",
+    "D07X",
+    "H02A",
+    "S01B",
+    "S01C",
+    "S02B"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "hydrocortisone acetate": {
+   "codes": [
+    "A01AC",
+    "A07EA",
+    "C05AA",
+    "D07AA",
+    "D07XA",
+    "H02AB",
+    "S01BA",
+    "S01CB",
+    "S02BA"
+   ],
+   "atc3": [
+    "A01A",
+    "A07E",
+    "C05A",
+    "D07A",
+    "D07X",
+    "H02A",
+    "S01B",
+    "S01C",
+    "S02B"
+   ],
+   "sources": [
+    "rxclass",
+    "manual"
+   ]
+  },
+  "hydroxychloroquine": {
+   "codes": [
+    "P01BA"
+   ],
+   "atc3": [
+    "P01B"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "ibrutinib": {
+   "codes": [
+    "L01EL",
+    "L01EL01"
+   ],
+   "atc3": [
+    "L01E"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "ibuprofen": {
+   "codes": [
+    "C01EB",
+    "C01EB16",
+    "G02CC",
+    "M01AE",
+    "M02AA",
+    "N02AJ",
+    "R02AX"
+   ],
+   "atc3": [
+    "C01E",
+    "G02C",
+    "M01A",
+    "M02A",
+    "N02A",
+    "R02A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "idecabtagene vicleucel": {
+   "codes": [
+    "L01XL"
+   ],
+   "atc3": [
+    "L01X"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "idelalisib": {
+   "codes": [
+    "L01EM",
+    "L01XX47"
+   ],
+   "atc3": [
+    "L01E",
+    "L01X"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "infliximab": {
+   "codes": [
+    "L04AB",
+    "L04AB02"
+   ],
+   "atc3": [
+    "L04A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "insulin aspart": {
+   "codes": [
+    "A10AB05",
+    "A10AD05",
+    "A10AD06"
+   ],
+   "atc3": [
+    "A10A"
+   ],
+   "sources": [
+    "ema"
+   ]
+  },
+  "insulin bovine": {
+   "codes": [
+    "A10AB"
+   ],
+   "atc3": [
+    "A10A"
+   ],
+   "sources": [
+    "manual"
+   ]
+  },
+  "insulin degludec": {
+   "codes": [
+    "A10AD06",
+    "A10AE",
+    "A10AE06",
+    "A10AE56"
+   ],
+   "atc3": [
+    "A10A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "insulin determir": {
+   "codes": [
+    "A10AE"
+   ],
+   "atc3": [
+    "A10A"
+   ],
+   "sources": [
+    "manual"
+   ]
+  },
+  "insulin glargine": {
+   "codes": [
+    "A10AE",
+    "A10AE04",
+    "A10AE54"
+   ],
+   "atc3": [
+    "A10A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "insulin glulisine": {
+   "codes": [
+    "A10AB",
+    "A10AB06"
+   ],
+   "atc3": [
+    "A10A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "insulin human": {
+   "codes": [
+    "A10AB01",
+    "A10AC01",
+    "A10AD01",
+    "A10AE01",
+    "A10AF01"
+   ],
+   "atc3": [
+    "A10A"
+   ],
+   "sources": [
+    "ema"
+   ]
+  },
+  "insulin lispro": {
+   "codes": [
+    "A10AB",
+    "A10AB04",
+    "A10AC",
+    "A10AD",
+    "A10AD04"
+   ],
+   "atc3": [
+    "A10A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "insulin porcine": {
+   "codes": [
+    "A10AB"
+   ],
+   "atc3": [
+    "A10A"
+   ],
+   "sources": [
+    "manual"
+   ]
+  },
+  "interferon alfa-2a": {
+   "codes": [
+    "L03AB",
+    "L03AB04"
+   ],
+   "atc3": [
+    "L03A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "interferon alfa-2b": {
+   "codes": [
+    "L03AB",
+    "L03AB05"
+   ],
+   "atc3": [
+    "L03A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "iobitridol": {
+   "codes": [
+    "V08AB"
+   ],
+   "atc3": [
+    "V08A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "iodixanol": {
+   "codes": [
+    "V08AB"
+   ],
+   "atc3": [
+    "V08A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "iohexol": {
+   "codes": [
+    "V08AB"
+   ],
+   "atc3": [
+    "V08A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "iomeprol": {
+   "codes": [
+    "V08AB"
+   ],
+   "atc3": [
+    "V08A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "iopamidol": {
+   "codes": [
+    "V08AB"
+   ],
+   "atc3": [
+    "V08A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "iopromide": {
+   "codes": [
+    "V08AB"
+   ],
+   "atc3": [
+    "V08A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "ioversol": {
+   "codes": [
+    "V08AB"
+   ],
+   "atc3": [
+    "V08A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "ioxitalamic acid": {
+   "codes": [
+    "V08AA"
+   ],
+   "atc3": [
+    "V08A"
+   ],
+   "sources": [
+    "manual"
+   ]
+  },
+  "ipilimumab": {
+   "codes": [
+    "L01FX",
+    "L01FX04"
+   ],
+   "atc3": [
+    "L01F"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "irbesartan": {
+   "codes": [
+    "C09CA",
+    "C09CA04",
+    "C09DA04"
+   ],
+   "atc3": [
+    "C09C",
+    "C09D"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "iron": {
+   "codes": [
+    "B03AC"
+   ],
+   "atc3": [
+    "B03A"
+   ],
+   "sources": [
+    "manual"
+   ]
+  },
+  "iron dextran": {
+   "codes": [
+    "B03AC"
+   ],
+   "atc3": [
+    "B03A"
+   ],
+   "sources": [
+    "manual"
+   ]
+  },
+  "iron isomaltoside": {
+   "codes": [
+    "B03AC"
+   ],
+   "atc3": [
+    "B03A"
+   ],
+   "sources": [
+    "manual"
+   ]
+  },
+  "iron sucrose": {
+   "codes": [
+    "B03AB"
+   ],
+   "atc3": [
+    "B03A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "ketoprofen": {
+   "codes": [
+    "M01AE",
+    "M02AA"
+   ],
+   "atc3": [
+    "M01A",
+    "M02A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "labetalol": {
+   "codes": [
+    "C07AG"
+   ],
+   "atc3": [
+    "C07A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "lamotrigine": {
+   "codes": [
+    "N03AX"
+   ],
+   "atc3": [
+    "N03A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "lenvatinib": {
+   "codes": [
+    "L01EX",
+    "L01XE",
+    "L01XE29"
+   ],
+   "atc3": [
+    "L01E",
+    "L01X"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "levofloxacin": {
+   "codes": [
+    "J01MA",
+    "J01MA12",
+    "S01AE"
+   ],
+   "atc3": [
+    "J01M",
+    "S01A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "levonorgestrel intrauterine device 13.5 mg": {
+   "codes": [
+    "G02BA"
+   ],
+   "atc3": [
+    "G02B"
+   ],
+   "sources": [
+    "manual"
+   ]
+  },
+  "lidocaine hydrochloride": {
+   "codes": [
+    "C01BB",
+    "C05AD",
+    "D04AB",
+    "N01BB",
+    "R02AD",
+    "S01HA",
+    "S02DA"
+   ],
+   "atc3": [
+    "C01B",
+    "C05A",
+    "D04A",
+    "N01B",
+    "R02A",
+    "S01H",
+    "S02D"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "linagliptin": {
+   "codes": [
+    "A10BD",
+    "A10BD11",
+    "A10BD19",
+    "A10BH",
+    "A10BH05"
+   ],
+   "atc3": [
+    "A10B"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "liraglutide": {
+   "codes": [
+    "A10AE",
+    "A10AE56",
+    "A10BJ",
+    "A10BJ02"
+   ],
+   "atc3": [
+    "A10A",
+    "A10B"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "lisdexamfetamine": {
+   "codes": [
+    "N06BA"
+   ],
+   "atc3": [
+    "N06B"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "lisocabtagene maraleucel": {
+   "codes": [
+    "L01XL",
+    "L01XL08"
+   ],
+   "atc3": [
+    "L01X"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "lithium": {
+   "codes": [
+    "N05AN"
+   ],
+   "atc3": [
+    "N05A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "lixisenatide": {
+   "codes": [
+    "A10AE",
+    "A10AE54",
+    "A10BJ",
+    "A10BJ03"
+   ],
+   "atc3": [
+    "A10A",
+    "A10B"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "lomefloxacin": {
+   "codes": [
+    "J01MA",
+    "S01AE"
+   ],
+   "atc3": [
+    "J01M",
+    "S01A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "loperamide": {
+   "codes": [
+    "A07DA"
+   ],
+   "atc3": [
+    "A07D"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "lovastatin": {
+   "codes": [
+    "C10AA",
+    "C10BA"
+   ],
+   "atc3": [
+    "C10A",
+    "C10B"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "macrogol-containing products for bowel preparation": {
+   "codes": [
+    "A06AD"
+   ],
+   "atc3": [
+    "A06A"
+   ],
+   "sources": [
+    "manual"
+   ]
+  },
+  "mammalian target of rapamycin inhibitors": {
+   "codes": [
+    "L04AH"
+   ],
+   "atc3": [
+    "L04A"
+   ],
+   "sources": [
+    "manual"
+   ]
+  },
+  "manidipine": {
+   "codes": [
+    "C08CA"
+   ],
+   "atc3": [
+    "C08C"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "measles": {
+   "codes": [
+    "J07BD",
+    "J07BD52",
+    "J07BD54"
+   ],
+   "atc3": [
+    "J07B"
+   ],
+   "sources": [
+    "ema",
+    "manual"
+   ]
+  },
+  "medroxyprogesterone acetate": {
+   "codes": [
+    "G03AA",
+    "G03AC",
+    "G03DA",
+    "L02AB"
+   ],
+   "atc3": [
+    "G03A",
+    "G03D",
+    "L02A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "mesalazine": {
+   "codes": [
+    "A07EC"
+   ],
+   "atc3": [
+    "A07E"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "metformin": {
+   "codes": [
+    "A10BA",
+    "A10BD",
+    "A10BD03",
+    "A10BD05",
+    "A10BD07",
+    "A10BD08",
+    "A10BD11",
+    "A10BD13",
+    "A10BD15",
+    "A10BD16",
+    "A10BD20"
+   ],
+   "atc3": [
+    "A10B"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "methallenestril": {
+   "codes": [
+    "G03CB"
+   ],
+   "atc3": [
+    "G03C"
+   ],
+   "sources": [
+    "manual"
+   ]
+  },
+  "methotrexate": {
+   "codes": [
+    "L01BA",
+    "L04AX",
+    "L04AX03"
+   ],
+   "atc3": [
+    "L01B",
+    "L04A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "milnacipran": {
+   "codes": [
+    "N06AX"
+   ],
+   "atc3": [
+    "N06A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "mirtazapine": {
+   "codes": [
+    "N06AX"
+   ],
+   "atc3": [
+    "N06A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "modafinil": {
+   "codes": [
+    "N06BA"
+   ],
+   "atc3": [
+    "N06B"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "mogamulizumab": {
+   "codes": [
+    "L01FX",
+    "L01XC25"
+   ],
+   "atc3": [
+    "L01F",
+    "L01X"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "moxestrol": {
+   "codes": [
+    "G03CB"
+   ],
+   "atc3": [
+    "G03C"
+   ],
+   "sources": [
+    "manual"
+   ]
+  },
+  "moxifloxacin": {
+   "codes": [
+    "J01MA",
+    "S01AE"
+   ],
+   "atc3": [
+    "J01M",
+    "S01A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "mumps": {
+   "codes": [
+    "J07BD",
+    "J07BD52",
+    "J07BD54"
+   ],
+   "atc3": [
+    "J07B"
+   ],
+   "sources": [
+    "ema",
+    "manual"
+   ]
+  },
+  "naloxone": {
+   "codes": [
+    "A06AH",
+    "N02AA",
+    "N02AD",
+    "N02AX",
+    "N07BC51",
+    "V03AB",
+    "V03AB15"
+   ],
+   "atc3": [
+    "A06A",
+    "N02A",
+    "N07B",
+    "V03A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "nintedanib": {
+   "codes": [
+    "L01EX",
+    "L01EX09"
+   ],
+   "atc3": [
+    "L01E"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "nitric oxide": {
+   "codes": [
+    "R07AX"
+   ],
+   "atc3": [
+    "R07A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "nivolumab": {
+   "codes": [
+    "L01FF",
+    "L01FF01",
+    "L01FY",
+    "L01FY02",
+    "L01XC17"
+   ],
+   "atc3": [
+    "L01F",
+    "L01X"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "norethisterone": {
+   "codes": [
+    "G03AC",
+    "G03DC"
+   ],
+   "atc3": [
+    "G03A",
+    "G03D"
+   ],
+   "sources": [
+    "manual"
+   ]
+  },
+  "norfloxacin": {
+   "codes": [
+    "J01MA",
+    "S01AE"
+   ],
+   "atc3": [
+    "J01M",
+    "S01A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "obinutuzumab": {
+   "codes": [
+    "L01FA",
+    "L01FA03"
+   ],
+   "atc3": [
+    "L01F"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "octreotide": {
+   "codes": [
+    "H01CB",
+    "H01CB02"
+   ],
+   "atc3": [
+    "H01C"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "ofloxacin": {
+   "codes": [
+    "J01MA",
+    "S01AE",
+    "S02AA"
+   ],
+   "atc3": [
+    "J01M",
+    "S01A",
+    "S02A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "olaparib": {
+   "codes": [
+    "L01XK",
+    "L01XK01"
+   ],
+   "atc3": [
+    "L01X"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "olmesartan": {
+   "codes": [
+    "C09CA"
+   ],
+   "atc3": [
+    "C09C"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "olmesartan medoxomil": {
+   "codes": [
+    "C09CA"
+   ],
+   "atc3": [
+    "C09C"
+   ],
+   "sources": [
+    "rxclass",
+    "manual"
+   ]
+  },
+  "ondansetron": {
+   "codes": [
+    "A04AA"
+   ],
+   "atc3": [
+    "A04A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "or lipids with or without admixture of vitamins or trace elements": {
+   "codes": [
+    "B05BA"
+   ],
+   "atc3": [
+    "B05B"
+   ],
+   "sources": [
+    "manual"
+   ]
+  },
+  "osimertinib": {
+   "codes": [
+    "L01EB",
+    "L01XE"
+   ],
+   "atc3": [
+    "L01E",
+    "L01X"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "oteracil": {
+   "codes": [
+    "L01BC53"
+   ],
+   "atc3": [
+    "L01B"
+   ],
+   "sources": [
+    "ema"
+   ]
+  },
+  "other relevant fixed dose combinations containing angiotensin ii receptor blockers": {
+   "codes": [
+    "C09DA"
+   ],
+   "atc3": [
+    "C09D"
+   ],
+   "sources": [
+    "manual"
+   ]
+  },
+  "oxacillin": {
+   "codes": [
+    "J01CF"
+   ],
+   "atc3": [
+    "J01C"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "oxytetracycline hydrochloride": {
+   "codes": [
+    "A01AB",
+    "D06AA",
+    "G01AA",
+    "J01AA",
+    "S01AA"
+   ],
+   "atc3": [
+    "A01A",
+    "D06A",
+    "G01A",
+    "J01A",
+    "S01A"
+   ],
+   "sources": [
+    "rxclass",
+    "manual"
+   ]
+  },
+  "palbociclib": {
+   "codes": [
+    "L01EF",
+    "L01EF01"
+   ],
+   "atc3": [
+    "L01E"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "pancreatin": {
+   "codes": [
+    "A09AA"
+   ],
+   "atc3": [
+    "A09A"
+   ],
+   "sources": [
+    "manual"
+   ]
+  },
+  "pantoprazole": {
+   "codes": [
+    "A02BC",
+    "A02BC02"
+   ],
+   "atc3": [
+    "A02B"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "paracetamol": {
+   "codes": [
+    "N02BE"
+   ],
+   "atc3": [
+    "N02B"
+   ],
+   "sources": [
+    "manual"
+   ]
+  },
+  "paroxetine": {
+   "codes": [
+    "N06AB"
+   ],
+   "atc3": [
+    "N06A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "pazopanib": {
+   "codes": [
+    "L01EX",
+    "L01XE11"
+   ],
+   "atc3": [
+    "L01E",
+    "L01X"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "pefloxacin": {
+   "codes": [
+    "J01MA"
+   ],
+   "atc3": [
+    "J01M"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "peginterferon alfa-2a": {
+   "codes": [
+    "L03AB",
+    "L03AB11"
+   ],
+   "atc3": [
+    "L03A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "peginterferon alfa-2b": {
+   "codes": [
+    "L03AB",
+    "L03AB10"
+   ],
+   "atc3": [
+    "L03A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "pegylated liposomal doxorubicin": {
+   "codes": [
+    "L01DB"
+   ],
+   "atc3": [
+    "L01D"
+   ],
+   "sources": [
+    "manual"
+   ]
+  },
+  "pembrolizumab": {
+   "codes": [
+    "L01FF",
+    "L01FF02"
+   ],
+   "atc3": [
+    "L01F"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "piperacillin": {
+   "codes": [
+    "J01CA"
+   ],
+   "atc3": [
+    "J01C"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "pirfenidone": {
+   "codes": [
+    "L04AX",
+    "L04AX05"
+   ],
+   "atc3": [
+    "L04A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "pitavastatin": {
+   "codes": [
+    "C10AA"
+   ],
+   "atc3": [
+    "C10A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "pneumococcal polysaccharide vaccine": {
+   "codes": [
+    "J07AL"
+   ],
+   "atc3": [
+    "J07A"
+   ],
+   "sources": [
+    "manual"
+   ]
+  },
+  "polymyxin b sulfate": {
+   "codes": [
+    "A07AA",
+    "J01XB",
+    "S01AA",
+    "S02AA",
+    "S03AA"
+   ],
+   "atc3": [
+    "A07A",
+    "J01X",
+    "S01A",
+    "S02A",
+    "S03A"
+   ],
+   "sources": [
+    "rxclass",
+    "manual"
+   ]
+  },
+  "pomalidomide": {
+   "codes": [
+    "L04AX",
+    "L04AX06"
+   ],
+   "atc3": [
+    "L04A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "ponatinib": {
+   "codes": [
+    "L01EA",
+    "L01EA05"
+   ],
+   "atc3": [
+    "L01E"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "pravastatin": {
+   "codes": [
+    "C10AA",
+    "C10BA03"
+   ],
+   "atc3": [
+    "C10A",
+    "C10B"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "prednisolone": {
+   "codes": [
+    "A01AC",
+    "A07EA",
+    "C05AA",
+    "D07AA",
+    "D07XA",
+    "H02AB",
+    "R01AD",
+    "S01BA",
+    "S01CB",
+    "S02BA",
+    "S03BA"
+   ],
+   "atc3": [
+    "A01A",
+    "A07E",
+    "C05A",
+    "D07A",
+    "D07X",
+    "H02A",
+    "R01A",
+    "S01B",
+    "S01C",
+    "S02B",
+    "S03B"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "prednisone": {
+   "codes": [
+    "A07EA",
+    "H02AB"
+   ],
+   "atc3": [
+    "A07E",
+    "H02A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "pregabalin": {
+   "codes": [
+    "N02BF",
+    "N02BF02",
+    "N03AX16"
+   ],
+   "atc3": [
+    "N02B",
+    "N03A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "promestriene": {
+   "codes": [
+    "G03CA"
+   ],
+   "atc3": [
+    "G03C"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "propofol": {
+   "codes": [
+    "N01AX"
+   ],
+   "atc3": [
+    "N01A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "propylthiouracil": {
+   "codes": [
+    "H03BA"
+   ],
+   "atc3": [
+    "H03B"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "prulifloxacin": {
+   "codes": [
+    "J01MA"
+   ],
+   "atc3": [
+    "J01M"
+   ],
+   "sources": [
+    "manual"
+   ]
+  },
+  "ramucirumab": {
+   "codes": [
+    "L01FG",
+    "L01FX06"
+   ],
+   "atc3": [
+    "L01F"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "regorafenib": {
+   "codes": [
+    "L01EX",
+    "L01EX05"
+   ],
+   "atc3": [
+    "L01E"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "relatlimab": {
+   "codes": [
+    "L01FY",
+    "L01FY02"
+   ],
+   "atc3": [
+    "L01F"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "ribociclib": {
+   "codes": [
+    "L01EF",
+    "L01EF02"
+   ],
+   "atc3": [
+    "L01E"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "risperidone oral solution": {
+   "codes": [
+    "N05AX"
+   ],
+   "atc3": [
+    "N05A"
+   ],
+   "sources": [
+    "rxclass",
+    "manual"
+   ]
+  },
+  "rivaroxaban": {
+   "codes": [
+    "B01AF",
+    "B01AF01"
+   ],
+   "atc3": [
+    "B01A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "rosuvastatin": {
+   "codes": [
+    "C10AA",
+    "C10BA"
+   ],
+   "atc3": [
+    "C10A",
+    "C10B"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "rubella": {
+   "codes": [
+    "J07BD",
+    "J07BD54"
+   ],
+   "atc3": [
+    "J07B"
+   ],
+   "sources": [
+    "ema",
+    "manual"
+   ]
+  },
+  "rufloxacin": {
+   "codes": [
+    "J01MA"
+   ],
+   "atc3": [
+    "J01M"
+   ],
+   "sources": [
+    "manual"
+   ]
+  },
+  "sacubitril": {
+   "codes": [
+    "C09DX",
+    "C09DX04"
+   ],
+   "atc3": [
+    "C09D"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "saxagliptin": {
+   "codes": [
+    "A10BD",
+    "A10BD10",
+    "A10BD21",
+    "A10BH",
+    "A10BH03"
+   ],
+   "atc3": [
+    "A10B"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "secukinumab": {
+   "codes": [
+    "L04AC",
+    "L04AC10"
+   ],
+   "atc3": [
+    "L04A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "selective serotonin reuptake inhibitors : citalopram": {
+   "codes": [
+    "N06AB"
+   ],
+   "atc3": [
+    "N06A"
+   ],
+   "sources": [
+    "manual"
+   ]
+  },
+  "semaglutide": {
+   "codes": [
+    "A10AE57",
+    "A10BJ",
+    "A10BJ06"
+   ],
+   "atc3": [
+    "A10A",
+    "A10B"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "sertraline": {
+   "codes": [
+    "N06AB"
+   ],
+   "atc3": [
+    "N06A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "simvastatin": {
+   "codes": [
+    "A10BH",
+    "C10AA",
+    "C10BA",
+    "C10BA04"
+   ],
+   "atc3": [
+    "A10B",
+    "C10A",
+    "C10B"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "sitagliptin": {
+   "codes": [
+    "A10BD",
+    "A10BD07",
+    "A10BD24",
+    "A10BH",
+    "A10BH01"
+   ],
+   "atc3": [
+    "A10B"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "sodium ferric gluconate": {
+   "codes": [
+    "B03AC"
+   ],
+   "atc3": [
+    "B03A"
+   ],
+   "sources": [
+    "manual"
+   ]
+  },
+  "somatrogon": {
+   "codes": [
+    "H01AC",
+    "H01AC08"
+   ],
+   "atc3": [
+    "H01A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "sorafenib": {
+   "codes": [
+    "L01EX",
+    "L01EX02"
+   ],
+   "atc3": [
+    "L01E"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "sulfamethoxazole": {
+   "codes": [
+    "J01EC",
+    "J01EE"
+   ],
+   "atc3": [
+    "J01E"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "sulfasalazine": {
+   "codes": [
+    "A07EC"
+   ],
+   "atc3": [
+    "A07E"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "sunitinib": {
+   "codes": [
+    "L01EX",
+    "L01EX01"
+   ],
+   "atc3": [
+    "L01E"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "tazobactam": {
+   "codes": [
+    "J01CG",
+    "J01DI54"
+   ],
+   "atc3": [
+    "J01C",
+    "J01D"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "tegafur": {
+   "codes": [
+    "L01BC",
+    "L01BC53"
+   ],
+   "atc3": [
+    "L01B"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "telmisartan": {
+   "codes": [
+    "C09CA",
+    "C09CA07",
+    "C09DA07",
+    "C09DB",
+    "C09DB04"
+   ],
+   "atc3": [
+    "C09C",
+    "C09D"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "temozolomide": {
+   "codes": [
+    "L01AX",
+    "L01AX03"
+   ],
+   "atc3": [
+    "L01A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "teriflunomide": {
+   "codes": [
+    "L04AK",
+    "L04AK02"
+   ],
+   "atc3": [
+    "L04A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "thiazide": {
+   "codes": [
+    "C03AA"
+   ],
+   "atc3": [
+    "C03A"
+   ],
+   "sources": [
+    "manual"
+   ]
+  },
+  "thiazide-like diuretics": {
+   "codes": [
+    "C03BA"
+   ],
+   "atc3": [
+    "C03B"
+   ],
+   "sources": [
+    "manual"
+   ]
+  },
+  "tibolone": {
+   "codes": [
+    "G03CX"
+   ],
+   "atc3": [
+    "G03C"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "tirzepatide": {
+   "codes": [
+    "A10BX",
+    "A10BX16"
+   ],
+   "atc3": [
+    "A10B"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "tisagenlecleucel": {
+   "codes": [
+    "L01XL",
+    "L01XL04"
+   ],
+   "atc3": [
+    "L01X"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "tislelizumab": {
+   "codes": [
+    "L01FF",
+    "L01FF09"
+   ],
+   "atc3": [
+    "L01F"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "tivozanib": {
+   "codes": [
+    "L01EK",
+    "L01EK03"
+   ],
+   "atc3": [
+    "L01E"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "tofacitinib": {
+   "codes": [
+    "L04AF",
+    "L04AF01"
+   ],
+   "atc3": [
+    "L04A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "topiramate": {
+   "codes": [
+    "A08AA",
+    "N03AX"
+   ],
+   "atc3": [
+    "A08A",
+    "N03A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "tozinameran - comirnaty": {
+   "codes": [
+    "J07BN"
+   ],
+   "atc3": [
+    "J07B"
+   ],
+   "sources": [
+    "manual"
+   ]
+  },
+  "tramadol": {
+   "codes": [
+    "N02AJ",
+    "N02AX"
+   ],
+   "atc3": [
+    "N02A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "trametinib": {
+   "codes": [
+    "L01EE",
+    "L01EE01"
+   ],
+   "atc3": [
+    "L01E"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "trastuzumab emtansine": {
+   "codes": [
+    "L01FD",
+    "L01FD03"
+   ],
+   "atc3": [
+    "L01F"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "trazodone": {
+   "codes": [
+    "N06AX"
+   ],
+   "atc3": [
+    "N06A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "tremelimumab": {
+   "codes": [
+    "L01FX",
+    "L01FX20"
+   ],
+   "atc3": [
+    "L01F"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "trimethoprim": {
+   "codes": [
+    "J01EA",
+    "J01EE"
+   ],
+   "atc3": [
+    "J01E"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "valproate": {
+   "codes": [
+    "N03AG"
+   ],
+   "atc3": [
+    "N03A"
+   ],
+   "sources": [
+    "rxclass",
+    "manual"
+   ]
+  },
+  "valsartan": {
+   "codes": [
+    "C09CA",
+    "C09DB",
+    "C09DB01",
+    "C09DX",
+    "C09DX01",
+    "C09DX04"
+   ],
+   "atc3": [
+    "C09C",
+    "C09D"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "vandetanib": {
+   "codes": [
+    "L01EX",
+    "L01XE"
+   ],
+   "atc3": [
+    "L01E",
+    "L01X"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "varicella vaccine": {
+   "codes": [
+    "J07BK"
+   ],
+   "atc3": [
+    "J07B"
+   ],
+   "sources": [
+    "manual"
+   ]
+  },
+  "vemurafenib": {
+   "codes": [
+    "L01EC",
+    "L01EC01"
+   ],
+   "atc3": [
+    "L01E"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "venlafaxine": {
+   "codes": [
+    "N06AX"
+   ],
+   "atc3": [
+    "N06A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "voriconazole": {
+   "codes": [
+    "J02AC",
+    "J02AC03"
+   ],
+   "atc3": [
+    "J02A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "vortioxetine": {
+   "codes": [
+    "N06AX",
+    "N06AX26"
+   ],
+   "atc3": [
+    "N06A"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  },
+  "warfarin": {
+   "codes": [
+    "B01AA"
+   ],
+   "atc3": [
+    "B01A"
+   ],
+   "sources": [
+    "rxclass"
+   ]
+  },
+  "zolbetuximab": {
+   "codes": [
+    "L01FX",
+    "L01FX31"
+   ],
+   "atc3": [
+    "L01F"
+   ],
+   "sources": [
+    "ema",
+    "rxclass"
+   ]
+  }
+ },
+ "unresolved": [],
+ "rows": {
+  "R001": [
+   "A11H"
+  ],
+  "R002": [
+   "N02B"
+  ],
+  "R003": [
+   "L01F",
+   "L01X"
+  ],
+  "R004": [
+   "N02B"
+  ],
+  "R005": [
+   "N06B"
+  ],
+  "R006": [
+   "B01A"
+  ],
+  "R007": [
+   "N06A"
+  ],
+  "R008": [
+   "N06A"
+  ],
+  "R009": [
+   "B01A"
+  ],
+  "R010": [
+   "A02B"
+  ],
+  "R011": [
+   "N06A"
+  ],
+  "R012": [
+   "A07D"
+  ],
+  "R013": [
+   "H03B"
+  ],
+  "R014": [
+   "B01A"
+  ],
+  "R015": [
+   "L04A"
+  ],
+  "R016": [
+   "A07E"
+  ],
+  "R017": [
+   "L01A"
+  ],
+  "R018": [
+   "A08A",
+   "N03A"
+  ],
+  "R019": [
+   "B05B"
+  ],
+  "R020": [
+   "A07E"
+  ],
+  "R021": [
+   "A04A"
+  ],
+  "R022": [
+   "L01E",
+   "L01F",
+   "L01X",
+   "S01L"
+  ],
+  "R023": [
+   "L01E"
+  ],
+  "R024": [
+   "C01E",
+   "G02C",
+   "M01A",
+   "M02A",
+   "N02A",
+   "R02A"
+  ],
+  "R025": [
+   "A10B"
+  ],
+  "R026": [
+   "L04A"
+  ],
+  "R027": [
+   "L01F",
+   "L01X"
+  ],
+  "R028": [
+   "B03A"
+  ],
+  "R029": [
+   "N05A"
+  ],
+  "R030": [
+   "L01X",
+   "L02B"
+  ],
+  "R031": [
+   "L04A"
+  ],
+  "R032": [
+   "L01F",
+   "L01X"
+  ],
+  "R033": [
+   "N06A"
+  ],
+  "R034": [
+   "C03A",
+   "C03B"
+  ],
+  "R035": [
+   "V03A"
+  ],
+  "R036": [
+   "C01E",
+   "G02C",
+   "M01A",
+   "M02A",
+   "N02A",
+   "R02A"
+  ],
+  "R037": [
+   "L01E",
+   "L01X"
+  ],
+  "R038": [
+   "A10A",
+   "A10B"
+  ],
+  "R039": [
+   "L04A"
+  ],
+  "R040": [
+   "A06A",
+   "N02A",
+   "N07B",
+   "V03A"
+  ],
+  "R041": [
+   "G03A",
+   "G03C",
+   "G03D",
+   "G03X",
+   "H01C",
+   "L02A"
+  ],
+  "R042": [
+   "N06A"
+  ],
+  "R043": [
+   "N06A"
+  ],
+  "R044": [
+   "N06A"
+  ],
+  "R045": [
+   "G03A"
+  ],
+  "R046": [
+   "A06A"
+  ],
+  "R047": [
+   "N06B"
+  ],
+  "R048": [
+   "L04A"
+  ],
+  "R049": [
+   "L01X",
+   "L02B"
+  ],
+  "R050": [
+   "J01M",
+   "S01A",
+   "S02A",
+   "S03A"
+  ],
+  "R051": [
+   "L03A"
+  ],
+  "R052": [
+   "L04A"
+  ],
+  "R053": [
+   "A08A",
+   "N06A"
+  ],
+  "R054": [
+   "L04A",
+   "N03A"
+  ],
+  "R055": [
+   "J01D"
+  ],
+  "R056": [
+   "L01E"
+  ],
+  "R057": [
+   "L01E"
+  ],
+  "R058": [
+   "N03A"
+  ],
+  "R059": [
+   "L01F"
+  ],
+  "R060": [
+   "L01B"
+  ],
+  "R061": [
+   "P01B"
+  ],
+  "R062": [
+   "L01F"
+  ],
+  "R063": [
+   "L04A"
+  ],
+  "R064": [
+   "L02B"
+  ],
+  "R065": [
+   "A01A",
+   "A07E",
+   "C05A",
+   "D07A",
+   "D07X",
+   "H02A",
+   "S01B",
+   "S01C",
+   "S02B"
+  ],
+  "R066": [
+   "A01A",
+   "A07E",
+   "C05A",
+   "D07A",
+   "D07X",
+   "H02A",
+   "R01A",
+   "S01B",
+   "S01C",
+   "S02B",
+   "S03B"
+  ],
+  "R067": [
+   "L04A"
+  ],
+  "R068": [
+   "J07B"
+  ],
+  "R069": [
+   "J07B"
+  ],
+  "R070": [
+   "L01F"
+  ],
+  "R071": [
+   "L04A"
+  ],
+  "R072": [
+   "J07B"
+  ],
+  "R073": [
+   "J07B"
+  ],
+  "R074": [
+   "L01X",
+   "L04A"
+  ],
+  "R075": [
+   "D10A",
+   "G01A",
+   "J01F"
+  ],
+  "R076": [
+   "J07B"
+  ],
+  "R077": [
+   "J07B"
+  ],
+  "R078": [
+   "L04A"
+  ],
+  "R079": [
+   "J01E"
+  ],
+  "R080": [
+   "J01E"
+  ],
+  "R081": [
+   "M01A",
+   "M02A",
+   "N02A",
+   "N02B"
+  ],
+  "R082": [
+   "J01D"
+  ],
+  "R083": [
+   "J07B"
+  ],
+  "R084": [
+   "L04A"
+  ],
+  "R085": [
+   "J07B"
+  ],
+  "R086": [
+   "J07B"
+  ],
+  "R087": [
+   "N06D"
+  ],
+  "R088": [
+   "L01F",
+   "L01X"
+  ],
+  "R089": [
+   "H01C"
+  ],
+  "R090": [
+   "J07B"
+  ],
+  "R091": [
+   "J07B"
+  ],
+  "R092": [
+   "J07B"
+  ],
+  "R093": [
+   "L01B",
+   "L04A"
+  ],
+  "R094": [
+   "J01C",
+   "J01D"
+  ],
+  "R095": [
+   "L01E"
+  ],
+  "R096": [
+   "B01A"
+  ],
+  "R097": [
+   "J01D"
+  ],
+  "R098": [
+   "C07A"
+  ],
+  "R099": [
+   "L01E",
+   "L01X"
+  ],
+  "R100": [
+   "J07B"
+  ],
+  "R101": [
+   "C03A",
+   "C08C",
+   "C09B",
+   "C09C",
+   "C09D",
+   "C09X",
+   "C10B"
+  ],
+  "R102": [
+   "J07B"
+  ],
+  "R103": [
+   "L01F",
+   "L01X"
+  ],
+  "R104": [
+   "N02B",
+   "N03A"
+  ],
+  "R105": [
+   "L02B"
+  ],
+  "R106": [
+   "L01F"
+  ],
+  "R107": [
+   "L01E"
+  ],
+  "R108": [
+   "L01X",
+   "L04A"
+  ],
+  "R109": [
+   "L04A",
+   "N03A"
+  ],
+  "R110": [
+   "J07B"
+  ],
+  "R111": [
+   "C01E",
+   "G02C",
+   "M01A",
+   "M02A",
+   "N02A",
+   "R02A",
+   "R05D"
+  ],
+  "R112": [
+   "J07A"
+  ],
+  "R113": [
+   "L01F",
+   "L01X"
+  ],
+  "R114": [
+   "J07B"
+  ],
+  "R115": [
+   "J07B"
+  ],
+  "R116": [
+   "A10B",
+   "C10A",
+   "C10B"
+  ],
+  "R117": [
+   "L01E"
+  ],
+  "R118": [
+   "L01E"
+  ],
+  "R119": [
+   "L01E"
+  ],
+  "R120": [
+   "A07A",
+   "J01X"
+  ],
+  "R121": [
+   "N01A"
+  ],
+  "R122": [
+   "J02A"
+  ],
+  "R123": [
+   "L01E",
+   "L01X"
+  ],
+  "R124": [
+   "L01F",
+   "L01X"
+  ],
+  "R125": [
+   "L04A"
+  ],
+  "R126": [
+   "L01X"
+  ],
+  "R127": [
+   "S01E"
+  ],
+  "R128": [
+   "L01B"
+  ],
+  "R129": [
+   "A10B"
+  ],
+  "R130": [
+   "L01X"
+  ],
+  "R131": [
+   "L01E"
+  ],
+  "R132": [
+   "L04A"
+  ],
+  "R133": [
+   "A01A",
+   "A07A",
+   "G01A",
+   "J02A"
+  ],
+  "R134": [
+   "B02B"
+  ],
+  "R135": [
+   "J01D"
+  ],
+  "R136": [
+   "L01E",
+   "L01X"
+  ],
+  "R137": [
+   "L01E"
+  ],
+  "R138": [
+   "L01X"
+  ],
+  "R139": [
+   "L01F",
+   "L01X"
+  ],
+  "R140": [
+   "L01F",
+   "L01X"
+  ],
+  "R141": [
+   "A01A",
+   "B05C",
+   "D08A",
+   "D09A",
+   "R02A",
+   "S01A",
+   "S02A",
+   "S03A"
+  ],
+  "R142": [
+   "J04A"
+  ],
+  "R143": [
+   "L04A"
+  ],
+  "R144": [
+   "L01E"
+  ],
+  "R145": [
+   "C08C"
+  ],
+  "R146": [
+   "N01A"
+  ],
+  "R147": [
+   "L01X"
+  ],
+  "R148": [
+   "S01E"
+  ],
+  "R149": [
+   "C03C"
+  ],
+  "R150": [
+   "L01F"
+  ],
+  "R151": [
+   "A10A",
+   "A10B"
+  ],
+  "R152": [
+   "J07B"
+  ],
+  "R153": [
+   "G03A",
+   "G03D",
+   "L02A"
+  ],
+  "R154": [
+   "C03A",
+   "C08C",
+   "C09B",
+   "C09C",
+   "C09D",
+   "C09X",
+   "C10B"
+  ],
+  "R155": [
+   "N02B"
+  ],
+  "R156": [
+   "L04A"
+  ],
+  "R157": [
+   "R07A"
+  ],
+  "R158": [
+   "N05A"
+  ],
+  "R159": [
+   "L01E",
+   "L01X"
+  ],
+  "R160": [
+   "L01E",
+   "L01X"
+  ],
+  "R161": [
+   "L01F",
+   "L01X"
+  ],
+  "R162": [
+   "L01B"
+  ],
+  "R163": [
+   "A01A",
+   "A07A",
+   "A07E",
+   "C05A",
+   "D06A",
+   "D07A",
+   "D07X",
+   "G01A",
+   "H02A",
+   "J01A",
+   "J01X",
+   "S01A",
+   "S01B",
+   "S01C",
+   "S02A",
+   "S02B",
+   "S03A"
+  ],
+  "R164": [
+   "L01E"
+  ],
+  "R165": [
+   "N06A"
+  ],
+  "R166": [
+   "J01E"
+  ],
+  "R167": [
+   "L01X"
+  ],
+  "R168": [
+   "L04A"
+  ],
+  "R169": [
+   "C01A",
+   "L02B"
+  ],
+  "R170": [
+   "N06A"
+  ],
+  "R171": [
+   "L01X"
+  ],
+  "R172": [
+   "N05A"
+  ],
+  "R173": [
+   "J07B"
+  ],
+  "R174": [
+   "L01E",
+   "L01X"
+  ],
+  "R175": [
+   "C02D",
+   "V03A"
+  ],
+  "R176": [
+   "L01F"
+  ],
+  "R177": [
+   "L01E",
+   "L01X"
+  ],
+  "R178": [
+   "H01A"
+  ],
+  "R179": [
+   "L01E"
+  ],
+  "R180": [
+   "L01F"
+  ],
+  "R181": [
+   "L01F"
+  ],
+  "R182": [
+   "C01B",
+   "C05A",
+   "D04A",
+   "J01D",
+   "N01B",
+   "R02A",
+   "S01H",
+   "S02D"
+  ],
+  "R183": [
+   "L01E"
+  ],
+  "R184": [
+   "L01D"
+  ],
+  "R185": [
+   "J07B"
+  ],
+  "R186": [
+   "N06D"
+  ],
+  "R187": [
+   "L01X"
+  ],
+  "R188": [
+   "L01E"
+  ],
+  "R189": [
+   "A09A"
+  ],
+  "R190": [
+   "L02B"
+  ],
+  "R191": [
+   "L01B"
+  ],
+  "R192": [
+   "N03A"
+  ],
+  "R193": [
+   "V08A"
+  ],
+  "R194": [
+   "L01F"
+  ],
+  "R195": [
+   "G03A"
+  ],
+  "R196": [
+   "G02B"
+  ],
+  "R197": [
+   "J01C"
+  ]
+ }
+}

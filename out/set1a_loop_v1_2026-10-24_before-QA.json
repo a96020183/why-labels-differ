@@ -1,0 +1,166 @@
+{
+ "arm": "Full multi-agent loop (Planner, Research, Skeptic, Writer, Evaluator; up to two rounds)",
+ "ids": [
+  "R159",
+  "R160",
+  "R161",
+  "R164",
+  "R165",
+  "R166",
+  "R167",
+  "R168",
+  "R169",
+  "R170"
+ ],
+ "selection": "the first 10 set-1a questions with a named U.S. product, in file order, fixed before any run",
+ "run_at": "2026-10-24",
+ "sampleMode": false,
+ "answers": [
+  {
+   "id": "R159",
+   "us_status": "not found",
+   "raw_status": "not found",
+   "finding": "No U.S. label content for afatinib trichomegaly found in provided sources.",
+   "cites": [],
+   "outcome": "needs-person",
+   "rounds": 2,
+   "modelCalls": 9,
+   "rejections": 2,
+   "errors": 0,
+   "secs": 366
+  },
+  {
+   "id": "R160",
+   "us_status": "not found",
+   "raw_status": "not found",
+   "finding": "No U.S. prescribing information (DailyMed) record provided to confirm TLS inclusion.",
+   "cites": [],
+   "outcome": "needs-person",
+   "rounds": 2,
+   "modelCalls": 9,
+   "rejections": 2,
+   "errors": 0,
+   "secs": 516
+  },
+  {
+   "id": "R161",
+   "us_status": "partial",
+   "raw_status": "partial",
+   "finding": "US label mentions immune-mediated colitis in postmarketing experience (section 6.2) but not in boxed warning, warnings and precautions, or contraindications.",
+   "cites": [
+    "SPL-Poteligeo-v21-6.2-1alq"
+   ],
+   "outcome": "needs-person",
+   "rounds": 2,
+   "modelCalls": 9,
+   "rejections": 2,
+   "errors": 0,
+   "secs": 411
+  },
+  {
+   "id": "R164",
+   "us_status": "written",
+   "raw_status": "written (warnings and precautions)",
+   "finding": "US label Section 5.1 Hepatotoxicity states risk of hyperammonemic encephalopathy increased in patients with liver dysfunction/metastases; recommends withhold/consider discontinuation if confirmed.",
+   "cites": [
+    "SPL-Stivarga-v36-5.1-q0y0"
+   ],
+   "outcome": "approved",
+   "rounds": 1,
+   "modelCalls": 5,
+   "rejections": 0,
+   "errors": 0,
+   "secs": 245
+  },
+  {
+   "id": "R165",
+   "us_status": "not found",
+   "raw_status": "not found",
+   "finding": "Zoloft v7 (2025-07-24) contains no mention of MADD or related terms in any section.",
+   "cites": [
+    "US-LABELS-SEARCHED"
+   ],
+   "outcome": "approved",
+   "rounds": 1,
+   "modelCalls": 5,
+   "rejections": 0,
+   "errors": 0,
+   "secs": 162
+  },
+  {
+   "id": "R166",
+   "us_status": "written",
+   "raw_status": "written",
+   "finding": "US label (Bactrim v18, Dec 2024) includes circulatory shock in WARNINGS and ADVERSE REACTIONS, describing occurrence with re-challenge.",
+   "cites": [
+    "SPL-Bactrim-v18-s-1dvl",
+    "SPL-Bactrim-v18-s-t3wu"
+   ],
+   "outcome": "approved",
+   "rounds": 1,
+   "modelCalls": 6,
+   "rejections": 0,
+   "errors": 0,
+   "secs": 321
+  },
+  {
+   "id": "R167",
+   "us_status": "not found",
+   "raw_status": "not found",
+   "finding": "U.S. label for axicabtagene ciloleucel (Yescarta v23, 2026-08-17) contains no mention of immune-mediated enterocolitis or immune effector cell-associated enteritis in any section.",
+   "cites": [
+    "US-LABELS-SEARCHED"
+   ],
+   "outcome": "needs-person",
+   "rounds": 2,
+   "modelCalls": 10,
+   "rejections": 2,
+   "errors": 0,
+   "secs": 352
+  },
+  {
+   "id": "R168",
+   "us_status": "not found",
+   "raw_status": "not found",
+   "finding": "US label (Siliq) does not mention pyoderma gangrenosum in any section per label sweep (no evidence item)",
+   "cites": [],
+   "outcome": "approved",
+   "rounds": 1,
+   "modelCalls": 5,
+   "rejections": 0,
+   "errors": 0,
+   "secs": 245
+  },
+  {
+   "id": "R169",
+   "us_status": "written",
+   "raw_status": "written",
+   "finding": "US label (Xtandi v24, effective 2026-07-28) includes warning in Section 5.8 (Warnings and Precautions) and Section 7.3 about digoxin immunoassay interference.",
+   "cites": [
+    "SPL-Xtandi-v24-5.8-103w",
+    "SPL-Xtandi-v24-7.3-u7yp"
+   ],
+   "outcome": "approved",
+   "rounds": 1,
+   "modelCalls": 6,
+   "rejections": 0,
+   "errors": 0,
+   "secs": 325
+  },
+  {
+   "id": "R170",
+   "us_status": "partial",
+   "raw_status": "partial",
+   "finding": "US label includes hallucinations only within serotonin syndrome warning (Section 5.2); no separate hallucination warning unrelated to serotonin syndrome.",
+   "cites": [
+    "SPL-Trintellix-v18-5.2-5lt4"
+   ],
+   "outcome": "needs-person",
+   "rounds": 2,
+   "modelCalls": 9,
+   "rejections": 2,
+   "errors": 0,
+   "secs": 387
+  }
+ ]
+}

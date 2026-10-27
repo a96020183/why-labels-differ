@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Why Labels Differ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Serif:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400&display=swap">
+<link rel="stylesheet" href="/ui/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">Why Labels Differ</div>
+  <nav aria-label="Views">
+    <button data-view="chain" class="on">Evidence chain</button>
+    <button data-view="trace">How the agents got there</button>
+    <button data-view="scan">Night scan</button>
+    <button data-view="reopen">Reopen</button>
+    <button data-view="board">Scoreboard</button>
+  </nav>
+  <div id="mode" class="mode"></div>
+</header>
+
+<main>
+  <section id="view-chain" class="view on">
+    <div class="ask">
+      <label for="q">Question</label>
+      <select id="q"></select>
+      <button id="go" class="primary">Investigate</button>
+    </div>
+    <h1 id="title"></h1>
+    <p id="lede" class="lede"></p>
+
+    <div id="why" class="why" aria-live="polite"></div>
+    <div id="trail" class="trail"></div>
+    <div id="ladder" class="ladder"></div>
+    <p class="caveat">Absence from the U.S. label does not mean the risk exists or does not exist.</p>
+
+    <div id="exposure" class="exposure"></div>
+
+    <div id="vote" class="vote" hidden>
+      <h2>Put this on next month's P&amp;T agenda?</h2>
+      <p id="rec" class="rec"></p>
+      <div class="vote-buttons">
+        <button data-vote="propose">Propose an in-house reminder</button>
+        <button data-vote="wait">Wait for the U.S., reopen on a condition</button>
+        <button data-vote="no_action">No action</button>
+        <button data-vote="already_covered">Already covered</button>
+      </div>
+    </div>
+
+    <div id="after" class="after" hidden></div>
+  </section>
+
+  <section id="view-trace" class="view">
+    <h1>How the agents got there</h1>
+    <p class="lede">Every step, in order. Each piece of evidence came from one SQL query through Zetaris; click a query to see it.</p>
+    <div id="tstats" class="tstats" aria-live="polite"></div>
+    <ol id="timeline" class="timeline"></ol>
+  </section>
+
+  <section id="view-scan" class="view">
+    <h1>Night scan</h1>
+    <p class="lede">Every night the agents read EMA's catalogue of PRAC safety signals in order, 197 entries since 2019, and keep a ledger of where the U.S. label stands. The scan runs on the Meterless Markovian engine: each step carries a small, bounded state forward instead of re-reading the whole ledger, so the cost of a step stays flat however long the chain gets.</p>
+    <div id="scan-chart" class="chart"></div>
+    <div class="scan-actions"><button id="rescan">Re-run tonight's scan from the recorded steps</button><span id="scan-status" class="muted"></span></div>
+    <h2>Divergences that touch this hospital</h2>
+    <p class="muted small">Ranked by patients on the drug. One query across the pharmacy (MySQL), the regulatory records (Postgres) and FDA's lists (S3). U.S. status here is a keyword pre-screen; the agents verify it.</p>
+    <div class="table-wrap"><table id="ledger" class="table"></table></div>
+    <h2>What the index carried across drug classes</h2>
+    <div id="cross" class="cross"></div>
+  </section>
+
+  <section id="view-reopen" class="view">
+    <h1>Reopen when the condition comes true</h1>
+    <p class="lede">A decision to wait names what it waits for. Each condition is a Zetaris query that returns rows only when it has come true. Below, two real U.S. label changes from 2026, replayed version by version. The committee decisions are illustrative.</p>
+    <button id="replay" class="primary">Replay 2026</button>
+    <div id="replay-out" class="replay"></div>
+  </section>
+
+  <section id="view-board" class="view">
+    <h1>Scoreboard</h1>
+    <div id="board"></div>
+  </section>
+</main>
+
+<aside id="drawer" class="drawer" hidden>
+  <button class="close" id="drawer-close" aria-label="Close">Close</button>
+  <div id="drawer-body"></div>
+</aside>
+
+<footer class="status">
+  <div id="activity" class="activity">Ready.</div>
+  <div class="pace">
+    <label for="speed">Playback</label>
+    <select id="speed"><option value="140">Normal</option><option value="700">Slow</option><option value="0">Instant</option></select>
+  </div>
+  <div class="fine">Synthetic patients (Synthea). Real regulatory records. Decision support for pharmacists, not medical advice. Not reviewed by a pharmacist.</div>
+</footer>
+<script src="/ui/app.js"></script>
+</body>
+</html>

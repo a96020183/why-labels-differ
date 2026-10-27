@@ -1,0 +1,18 @@
+{
+ "tag": "job2_c15",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {},
+ "latency": 34.292,
+ "hadThink": true,
+ "tries": 1,
+ "call": {
+  "stream": true,
+  "tierSplit": false,
+  "isoScope": true
+ },
+ "promptTokensEstimated": 1029,
+ "rawChars": 1014,
+ "task": "Continuing a chunked research run. Goal (truncated): Scan PRAC rows batch 23-44 into the divergence ledger and keep the cross-entry index in CONTEXT.\n\n[CARRYOVER STATE]\nCOMPLETED: R108\nREMAINING: 24\nDECISIONS: -\nCONTEXT: Myocarditis and pericarditis: R085 mRNA vaccine J07B w, R086 mRNA vaccine J07B w, R100 Spikevax J07B w, R102 Comirnaty J07B w; Autoimmune hepatitis: R101 Olmesartan C09C nf; Hepatitis E: R057 Ibrutinib L01E p; Hepatitis: R082 Ceftriaxone J01D nf; Arthralgia: R103 Durvalumab L01F p; Toxic epidermal necrolysis: R104 Pregabalin N02B nf; Erythema multiforme: R090 COVID-19 mRNA vaccine J07B nf, R091 COVID-19 mRNA vaccine J07B p, R105 Enzalutamide L02B p; DIC: R106 Obinutuzumab L01F nf; TLS: R107 Sorafenib L01E nf; Vitiligo: R108 Alemtuzumab L01X,L04A nf\n\nContinue exactly where the state leaves off. Do not repeat completed work.\n\n[BATCH 37 of 66; chunk 15 of 22 in this job]\nR109 | PRAC 2022-03 | Cannabidiol; calcineurin inhibitors (tacrolimus, ciclosporin); mammalian target of rapamycin (mTOR) inhibitors | ATC3 L04A,N03A | signal: Drug interaction with cannabidiol leading to calcineurin inhibitors and mTOR inhibitors serum levels increased and toxic | US label: not found (cannabidiol, label effective 20260529)\nR110 | PRAC 2022-03 | Elasomeran (COVID-19 mRNA vaccine - [nucleoside-modified]) - Spikevax | ATC3 J07B | signal: Capillary leak syndrome | US label: not found (spikevax, label effective Aug 31, 2026)\nR111 | PRAC 2022-09 | Codeine, ibuprofen | ATC3 C01E,G02C,M01A,M02A,N02A,R02A,R05D | signal: Renal tubular acidosis and hypokalaemia | US label: not found (codeine, label effective 20260827)\n[NAME-INDEX CANDIDATES - earlier rows whose reaction name shares most words; check class and meaning yourself]\nR109: R054 Cannabidiol; calcineurin inhibitors (tac ATC3 L04A,N03A US not found (\"Drug interaction with cannabidiol leading to calcineurin inh\")\nR110: R083 COVID-19 vaccine (ChAdOx1-S [recombinant ATC3 J07B US not marketed (\"Capillary leak syndrome\")\n\nEnd every non-final chunk with [STATE_CHECKPOINT] followed by a concise state block:\nCOMPLETED: ...\nREMAINING: ...\nDECISIONS: ...\nCONTEXT: ...\nEnd the final chunk with [TASK_COMPLETE]. Exactly one marker per chunk. Never narrate the markers.",
+ "text": "{\"id\":\"R109\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R110\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R111\",\"us\":\"not found\",\"cross\":[]}\n[STATE_CHECKPOINT]\nCOMPLETED: R111\nREMAINING: 21\nDECISIONS: -\nCONTEXT: Myocarditis and pericarditis: R085 mRNA vaccine J07B w, R086 mRNA vaccine J07B w, R100 Spikevax J07B w, R102 Comirnaty J07B w; Autoimmune hepatitis: R101 Olmesartan C09C nf; Hepatitis E: R057 Ibrutinib L01E p; Hepatitis: R082 Ceftriaxone J01D nf; Arthralgia: R103 Durvalumab L01F p; Toxic epidermal necrolysis: R104 Pregabalin N02B nf; Erythema multiforme: R090 COVID-19 mRNA vaccine J07B nf, R091 COVID-19 mRNA vaccine J07B p, R105 Enzalutamide L02B p; DIC: R106 Obinutuzumab L01F nf; TLS: R107 Sorafenib L01E nf; Vitiligo: R108 Alemtuzumab L01X,L04A nf; Cannabidiol drug interaction: R109 Cannabidiol; calcineurin inhibitors; mTOR inhibitors L04A,N03A nf; Capillary leak syndrome: R110 Elasomeran (Spikevax) J07B nf; Renal tubular acidosis hypokalaemia: R111 Codeine, ibuprofen C01E,G02C,M01A,M02A,N02A,R02A,R05D nf"
+}

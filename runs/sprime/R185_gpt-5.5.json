@@ -1,0 +1,21 @@
+{
+ "id": "R185",
+ "model_requested": "gpt-5.5",
+ "model_served": "gpt-5.5-2026-04-23",
+ "secs": 117.5,
+ "usage": {
+  "input_tokens": 87141,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 3712
+  },
+  "output_tokens": 4555,
+  "output_tokens_details": {
+   "reasoning_tokens": 3868
+  },
+  "total_tokens": 91696
+ },
+ "text": "{\"us_status\":\"partial\",\"label_product\":\"IXCHIQ (Chikungunya Vaccine, Live)\",\"label_version_or_date\":\"FDA Prescribing Information revised 8/2025\",\"label_section\":\"6.2 Postmarketing Experience, under Adverse Reactions\",\"quote\":\"Adverse reactions in postmarketing reports which are consistent with serious chikungunya-like illness [see Warnings and Precautions (5.2) and Adverse Reactions (6.1)] include arthralgia, asthenia, atrial flutter, back pain, encephalitis (fatal), encephalopathy, headache, meningismus/aseptic meningitis, myalgia, photophobia, tachycardia, thrombocytopenia, and troponin increased.\",\"eu\":\"EMA/PRAC: March 2026 signal review recommended PI wording update for the known risk, including serious reactions in young adults with no relevant comorbidities; EU PI/wording includes aseptic meningitis.\",\"uk\":\"MHRA/GB: Feb 2026 safety review restricted IXCHIQ use (not >60; added contraindications); GB SmPC lists aseptic meningitis as a Not known nervous-system adverse reaction, while eMC marks the product discontinued.\",\"us_regulator\":\"FDA: public safety communications describe VAERS/postmarketing evaluation, 8/2025 label update, and 8/22/2025 suspension of the IXCHIQ biologics license; no separate FDA FAERS/AEMS potential-signals listing or Sentinel study for aseptic meningitis was found.\",\"sources\":[\"https://www.fda.gov/media/173758/download?attachment=\",\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=63d5cd82-02e3-4436-b81a-12d45bb6a90b\",\"https://purplebooksearch.fda.gov/index.cfm?blaNo=125777&event=productdetails\",\"https://www.fda.gov/safety/medical-product-safety-information/fda-update-safety-ixchiq-chikungunya-vaccine-live-fda-safety-communication\",\"https://www.fda.gov/safety/medical-product-safety-information/fda-update-safety-ixchiq-chikungunya-vaccine-live-fda-suspends-biologics-license-fda-safety\",\"https://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/cber-regulated-products-permanent-discontinuations\",\"https://www.ema.europa.eu/en/documents/prac-recommendation/new-product-information-wording-extracts-prac-recommendations-signals-adopted-9-12-march-2026-prac_en.pdf\",\"https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-9-12-march-2026-prac-meeting_en.pdf\",\"https://www.ema.europa.eu/en/medicines/human/EPAR/ixchiq\",\"https://www.gov.uk/drug-safety-update/ixchiq-chikungunya-vaccine-updates-to-restrictions-of-use-following-safety-review\",\"https://www.medicines.org.uk/emc/product/100652/smpc\"]}",
+ "annotation_urls": [],
+ "at": "2026-10-24T02:00:18"
+}

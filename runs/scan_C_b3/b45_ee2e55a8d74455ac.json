@@ -1,0 +1,18 @@
+{
+ "tag": "b45",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {},
+ "latency": 36.542,
+ "hadThink": true,
+ "tries": 2,
+ "call": {
+  "stream": true,
+  "tierSplit": false,
+  "isoScope": true
+ },
+ "promptTokensEstimated": 959,
+ "rawChars": 121,
+ "task": "[RETRIEVED EVIDENCE LEDGER ROWS - same ingredient or same ATC level 3 as a row in this batch; 9 of 9 matches, most recent]\nR055 | PRAC 2020-10 | Ceftriaxone | ATC3 J01D | signal: Encephalopathy | US label: written (ceftriaxone, label effective 20260723, section: warnings) | ledger: {\"id\":\"R055\",\"us\":\"written\",\"cross\":[]}\nR065 | PRAC 2021-01 | Hydrocortisone | ATC3 A01A,A07E,C05A,D07A,D07X,H02A,S01B,S01C,S02B | signal: Adrenal crisis | US label: not found (hydrocortisone, label effective 20260901) | ledger: {\"id\":\"R065\",\"us\":\"not found\",\"cross\":[]}\nR066 | PRAC 2021-02 | Prednisolone; prednisone | ATC3 A01A,A07E,C05A,D07A,D07X,H02A,R01A,S01B,S01C,S02B,S03B | signal: Bradycardia | US label: not found (prednisolone, label effective 20260904) | ledger: {\"id\":\"R066\",\"us\":\"not found\",\"cross\":[]}\nR075 | PRAC 2021-05 | Clindamycin | ATC3 D10A,G01A,J01F | signal: Acute renal failure | US label: not found (clindamycin, label effective 20260908) | ledger: {\"id\":\"R075\",\"us\":\"not found\",\"cross\":[]}\nR082 | PRAC 2021-06 | Ceftriaxone | ATC3 J01D | signal: Hepatitis | US label: not found (ceftriaxone, label effective 20260723) | ledger: {\"id\":\"R082\",\"us\":\"not found\",\"cross\":[]}\nR094 | PRAC 2021-09 | Piperacillin; piperacillin, tazobactam | ATC3 J01C,J01D | signal: Haemophagocytic lymphohistiocytosis | US label: written (zosyn, label effective 20260515, section: warnings_and_cautions) | ledger: {\"id\":\"R094\",\"us\":\"written\",\"cross\":[]}\nR097 | PRAC 2021-10 | Ertapenem | ATC3 J01D | signal: Toxic encephalopathy in patients with renal impairment | US label: not found (ertapenem, label effective 20260302) | ledger: {\"id\":\"R097\",\"us\":\"not found\",\"cross\":[]}\nR120 | PRAC 2023-02 | Colistimethate sodium (intravenous use) | ATC3 A07A,J01X | signal: Pseudo-Bartter syndrome | US label: written (colistimethate sodium, label effective 20260112, section: warnings) | ledger: {\"id\":\"R120\",\"us\":\"written\",\"cross\":[]}\nR122 | PRAC 2023-03 | Voriconazole | ATC3 J02A | signal: Drug interaction with flucloxacillin leading to subtherapeutic voriconazole levels | US label: not found (voriconazole, label effective 20260827) | ledger: {\"id\":\"R122\",\"us\":\"not found\",\"cross\":[]}\n\n[BATCH 45 of 66]\nR133 | PRAC 2024-01 | Amphotericin B | ATC3 A01A,A07A,G01A,J02A | signal: Hyperkalaemia | US label: partial (amphotericin b, label effective 20260420, section: adverse_reactions)\nR134 | PRAC 2024-01 | Avatrombopag | ATC3 B02B | signal: Antiphospholipid syndrome | US label: written (avatrombopag, label effective 20250813, section: warnings_and_cautions)\nR135 | PRAC 2024-01 | Cefotaxime | ATC3 J01D | signal: Drug reaction with eosinophilia and systemic symptoms (DRESS) | US label: not found (cefotaxime, label effective 20240411)",
+ "text": "{\"id\":\"R133\",\"us\":\"partial\",\"cross\":[]}\n{\"id\":\"R134\",\"us\":\"written\",\"cross\":[]}\n{\"id\":\"R135\",\"us\":\"not found\",\"cross\":[]}"
+}

@@ -1,0 +1,18 @@
+{
+ "tag": "job2_c16",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3.5-super-vl-120b-a12b",
+ "usage": {},
+ "latency": 91.019,
+ "hadThink": false,
+ "tries": 1,
+ "call": {
+  "stream": true,
+  "tierSplit": false,
+  "isoScope": true
+ },
+ "promptTokensEstimated": 954,
+ "rawChars": 1118,
+ "task": "Continuing a chunked research run. Goal (truncated): Scan PRAC rows batch 23-44 into the divergence ledger and keep the cross-entry index in CONTEXT.\n\n[CARRYOVER STATE]\nCOMPLETED: R111\nREMAINING: 21\nDECISIONS: -\nCONTEXT: Myocarditis and pericarditis: R085 mRNA vaccine J07B w, R086 mRNA vaccine J07B w, R100 Spikevax J07B w, R102 Comirnaty J07B w; Autoimmune hepatitis: R101 Olmesartan C09C nf; Hepatitis E: R057 Ibrutinib L01E p; Hepatitis: R082 Ceftriaxone J01D nf; Arthralgia: R103 Durvalumab L01F p; Toxic epidermal necrolysis: R104 Pregabalin N02B nf; Erythema multiforme: R090 COVID-19 mRNA vaccine J07B nf, R091 COVID-19 mRNA vaccine J07B p, R105 Enzalutamide L02B p; DIC: R106 Obinutuzumab L01F nf; TLS: R107 Sorafenib L01E nf; Vitiligo: R108 Alemtuzumab L01X,L04A nf; Cannabidiol drug interaction: R109 Cannabidiol; calcineurin inhibitors; mTOR inhibitors L04A,N03A nf; Capillary leak syndrome: R110 Elasomeran (Spikevax) J07B nf; Renal tubular acidosis hypokalaemia: R111 Codeine, ibuprofen C01E,G02C,M01A,M02A,N02A,R02A,R05D nf\n\nContinue exactly where the state leaves off. Do not repeat completed work.\n\n[BATCH 38 of 66; chunk 16 of 22 in this job]\nR112 | PRAC 2022-09 | Pneumococcal polysaccharide vaccine (23 serotypes) | ATC3 J07A | signal: Extensive swelling of vaccinated limb | US label: unknown (pneumococcal polysaccharide vaccine)\nR113 | PRAC 2022-10 | Durvalumab | ATC3 L01F,L01X | signal: Myelitis transverse | US label: not found (durvalumab, label effective 20260831)\nR114 | PRAC 2022-10 | Elasomeran (COVID-19 mRNA vaccine - [nucleoside-modified]) - Spikevax | ATC3 J07B | signal: Heavy menstrual bleeding | US label: not found (spikevax, label effective Aug 31, 2026)\n\nEnd every non-final chunk with [STATE_CHECKPOINT] followed by a concise state block:\nCOMPLETED: ...\nREMAINING: ...\nDECISIONS: ...\nCONTEXT: ...\nEnd the final chunk with [TASK_COMPLETE]. Exactly one marker per chunk. Never narrate the markers.",
+ "text": "{\"id\":\"R112\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R113\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R114\",\"us\":\"not found\",\"cross\":[]}\n[STATE_CHECKPOINT]\nCOMPLETED: R114\nREMAINING: 18\nDECISIONS: -\nCONTEXT: Myocarditis and pericarditis: R085 mRNA vac J07B w, R086 mRNA vac J07B w, R100 Spikevax J07B w, R102 Comirnaty J07B w; Autoimmune hepatitis: R101 Olmesartan C09C nf; Hepatitis E: R057 Ibrutinib L01E p; Hepatitis: R082 Ceftriaxone J01D nf; Arthralgia: R103 Durvalumab L01F p; Toxic epidermal necrolysis: R104 Pregabalin N02B nf; Erythema multiforme: R090 mRNA vac J07B nf, R091 mRNA vac J07B p, R105 Enzalutamide L02B p; DIC: R106 Obinutuzumab L01F nf; TLS: R107 Sorafenib L01E nf; Vitiligo: R108 Alemtuzumab L01X,L04A nf; Cannabidiol drug interaction: R109 Cannabidiol L04A,N03A nf; Capillary leak syndrome: R110 Elasomeran J07B nf; Renal tubular acidosis hypokalaemia: R111 Codeine,ibuprofen C01E,G02C,M01A,M02A,N02A,R02A,R05D nf; Extensive swelling of vaccinated limb: R112 Pneumococcal polysaccharide vaccine J07A nf; Myelitis transverse: R113 Durvalumab L01F,L01X nf; Heavy menstrual bleeding: R114 Elasomeran J07B nf"
+}

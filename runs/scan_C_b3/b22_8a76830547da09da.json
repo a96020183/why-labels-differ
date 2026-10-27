@@ -1,0 +1,18 @@
+{
+ "tag": "b22",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {},
+ "latency": 26.735,
+ "hadThink": true,
+ "tries": 1,
+ "call": {
+  "stream": true,
+  "tierSplit": false,
+  "isoScope": true
+ },
+ "promptTokensEstimated": 668,
+ "rawChars": 125,
+ "task": "[RETRIEVED EVIDENCE LEDGER ROWS - same ingredient or same ATC level 3 as a row in this batch; 4 of 4 matches, most recent]\nR016 | PRAC 2019-06 | Sulfasalazine | ATC3 A07E | signal: Interference with dihydronicotinamide-adenine dinucleotide / dihydronicotinamide-adenine dinucleotide phosphate (NADH/NA | US label: not found (sulfasalazine, label effective 20260825) | ledger: {\"id\":\"R016\",\"us\":\"not found\",\"cross\":[]}\nR020 | PRAC 2019-07 | Mesalazine | ATC3 A07E | signal: Nephrolithiasis | US label: unknown (mesalazine) | ledger: {\"id\":\"R020\",\"us\":\"unknown\",\"cross\":[]}\nR030 | PRAC 2020-01 | Abiraterone | ATC3 L01X,L02B | signal: Interaction with sulphonylureas leading to hypoglycaemia | US label: not found (abiraterone, label effective 20260903) | ledger: {\"id\":\"R030\",\"us\":\"not found\",\"cross\":[]}\nR049 | PRAC 2020-09 | Abiraterone | ATC3 L01X,L02B | signal: Anaphylactic reaction | US label: partial (zytiga, label effective 20250328, section: adverse_reactions) | ledger: {\"id\":\"R049\",\"us\":\"partial\",\"cross\":[]}\n\n[BATCH 22 of 66]\nR064 | PRAC 2021-01 | Anastrozole | ATC3 L02B | signal: Depressed mood disorders | US label: not found (anastrozole, label effective 20260820)\nR065 | PRAC 2021-01 | Hydrocortisone | ATC3 A01A,A07E,C05A,D07A,D07X,H02A,S01B,S01C,S02B | signal: Adrenal crisis | US label: not found (hydrocortisone, label effective 20260901)\nR066 | PRAC 2021-02 | Prednisolone; prednisone | ATC3 A01A,A07E,C05A,D07A,D07X,H02A,R01A,S01B,S01C,S02B,S03B | signal: Bradycardia | US label: not found (prednisolone, label effective 20260904)",
+ "text": "{\"id\":\"R064\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R065\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R066\",\"us\":\"not found\",\"cross\":[]}"
+}

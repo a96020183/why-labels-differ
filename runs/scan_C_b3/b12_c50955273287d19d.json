@@ -1,0 +1,18 @@
+{
+ "tag": "b12",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {},
+ "latency": 20.192,
+ "hadThink": true,
+ "tries": 1,
+ "call": {
+  "stream": true,
+  "tierSplit": false,
+  "isoScope": true
+ },
+ "promptTokensEstimated": 522,
+ "rawChars": 125,
+ "task": "[RETRIEVED EVIDENCE LEDGER ROWS - same ingredient or same ATC level 3 as a row in this batch; 1 of 1 matches, most recent]\nR024 | PRAC 2019-09 | Ibuprofen | ATC3 C01E,G02C,M01A,M02A,N02A,R02A | signal: Acute generalised exanthematous pustulosis (AGEP) | US label: not found (ibuprofen, label effective 20260909) | ledger: {\"id\":\"R024\",\"us\":\"not found\",\"cross\":[]}\n\n[BATCH 12 of 66]\nR034 | PRAC 2020-03 | Thiazide, thiazide-like diuretics and combinations | ATC3 C03A,C03B | signal: Choroidal effusion | US label: not found (hydrochlorothiazide, label effective 20260908)\nR035 | PRAC 2020-04 | Andexanet alfa | ATC3 V03A | signal: Erroneous assay results for levels of anti-factor Xa activity with use of andexanet alfa | US label: not found (andexanet alfa, label effective 20250523)\nR036 | PRAC 2020-04 | Ibuprofen; ketoprofen | ATC3 C01E,G02C,M01A,M02A,N02A,R02A | signal: Serious exacerbation of infections | US label: not found (ibuprofen, label effective 20260909)",
+ "text": "{\"id\":\"R034\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R035\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R036\",\"us\":\"not found\",\"cross\":[]}"
+}

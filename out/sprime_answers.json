@@ -1,0 +1,1055 @@
+{
+ "arm": "S' (OpenAI reasoning model + web search; offline comparison only)",
+ "model_requested": "gpt-5.5",
+ "run_at": "2026-10-24",
+ "answers": [
+  {
+   "id": "R159",
+   "model_served": "gpt-5.5-2026-04-23",
+   "answer": {
+    "us_status": "not found",
+    "label_product": "GILOTRIF (afatinib tablets), for oral use",
+    "label_version_or_date": "DailyMed/FDA SPL version 20; Effective Time 2025-11-13; Revised 11/2025",
+    "label_section": "Not found in current U.S. prescribing information or patient information; searched label text for eyelash, lashes, trichiasis, and hair",
+    "quote": "",
+    "eu": "EU/EMA: Giotrif product information lists section 4.8 Eye disorders, uncommon: Aberrant eyelash growth; PRAC Jan 2025 recommended this update.",
+    "uk": "UK/MHRA: UK Giotrif SmPC section 4.8 lists Eye disorders, uncommon: Keratitis; Aberrant eyelash growth.",
+    "us_regulator": "FDA: no public FDA evaluation specific to afatinib-growth of eyelashes found in AEMS/FAERS potential-signal or Sentinel sources searched; FDA's 2026 generic-afatinib notice repeats existing Gilotrif warnings/common adverse reactions without eyelash growth.",
+    "sources": [
+     "https://www.dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=fd638e5e-8032-e7ca-0179-95e96ab5d387&type=display",
+     "https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fd638e5e-8032-e7ca-0179-95e96ab5d387",
+     "https://www.ema.europa.eu/en/documents/other/new-product-information-wording-extracts-prac-recommendations-signals-adopted-13-16-january-2025-prac_en.pdf",
+     "https://www.ema.europa.eu/en/documents/product-information/giotrif-epar-product-information_en.pdf",
+     "https://www.medicines.org.uk/emc/product/7699/smpc",
+     "https://products.mhra.gov.uk/",
+     "https://www.gov.uk/guidance/find-product-information-about-medicines",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring",
+     "https://www.fda.gov/drugs/drug-alerts-and-statements/fda-approves-first-generics-gilotrif-afatinib-tablets",
+     "https://www.sentinelinitiative.org/studies/drugs"
+    ]
+   },
+   "annotation_urls": [],
+   "error": null
+  },
+  {
+   "id": "R160",
+   "model_served": "gpt-5.5-2026-04-23",
+   "answer": {
+    "us_status": "not found",
+    "label_product": "LENVIMA (lenvatinib) capsules, for oral use",
+    "label_version_or_date": "DailyMed updated October 14, 2026",
+    "label_section": "Not mentioned in U.S. prescribing information; DailyMed search found no 'lysis' or 'tumor lysis' text.",
+    "quote": "",
+    "eu": "EMA/PRAC Jan 13-16, 2025 concluded a causal association and recommended adding TLS as a warning and rare undesirable effect; current EU Lenvima PI includes SmPC sections 4.4 and 4.8 plus PL wording.",
+    "uk": "UK SmPC text for lenvatinib includes TLS as a section 4.4 warning and rare adverse reaction in section 4.8.",
+    "us_regulator": "FDA AEMS/FAERS potential-signals list for July-Sept 2024 listed Lenvima (lenvatinib) and Nexavar (sorafenib) for tumor lysis syndrome; FDA later stated no action was necessary at the time based on available information.",
+    "sources": [
+     "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f4bedd21-efde-44c6-9d9c-b48b78d7ed1e",
+     "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/206947s035lbl.pdf",
+     "https://www.ema.europa.eu/en/documents/minutes/minutes-prac-meeting-13-16-january-2025_en.pdf",
+     "https://www.ema.europa.eu/en/documents/product-information/lenvima-epar-product-information_en.pdf",
+     "https://products.mhra.gov.uk/product/?product=LENVIMA+4MG+HARD+CAPSULES",
+     "https://www.medicines.org.uk/emc/product/7881/smpc",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/july-september-2024-potential-signals-serious-risksnew-safety-information-identified-fda-adverse"
+    ]
+   },
+   "annotation_urls": [],
+   "error": null
+  },
+  {
+   "id": "R161",
+   "model_served": "gpt-5.5-2026-04-23",
+   "answer": {
+    "us_status": "partial",
+    "label_product": "POTELIGEO (mogamulizumab-kpkc) injection, for intravenous use",
+    "label_version_or_date": "DailyMed setid e53960ab-42a1-40d1-9c7d-eb013fe7f18f; version 21; effective time 20260302; Revised 3/2026",
+    "label_section": "6.2 Postmarketing Experience",
+    "quote": "Gastrointestinal disorders: Immune-mediated colitis",
+    "eu": "EU: PRAC Feb 2025 recommended adding colitis to SmPC 4.8 as common and to the package leaflet; current EMA PI lists colitis as common and describes watery diarrhoea.",
+    "uk": "UK: MHRA product information/SmPC lists gastrointestinal disorders: common colitis and describes it as mainly watery diarrhoea.",
+    "us_regulator": "FDA: public sBLA S-025 approval letter states immune-mediated colitis was added to Section 6.2; no colitis-specific AEMS/FAERS potential-signal listing found, but FDA/Sentinel has public descriptive mogamulizumab-kpkc NME utilization queries not specific to colitis.",
+    "sources": [
+     "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=e53960ab-42a1-40d1-9c7d-eb013fe7f18f&type=display",
+     "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761051s025lbl.pdf",
+     "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/761051Orig1s025ltr.pdf",
+     "https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-10-13-february-2025-meeting_en.pdf",
+     "https://www.ema.europa.eu/en/documents/product-information/poteligeo-epar-product-information_en.pdf",
+     "https://mhraproducts4853.blob.core.windows.net/docs/bb77da17615e79603c91ab3a89d30d23e305dae1",
+     "https://www.gov.uk/guidance/find-product-information-about-medicines",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring",
+     "https://www.sentinelinitiative.org/sites/default/files/documents/Sentinel_Report2_cder_mpl1r_wp298.pdf"
+    ]
+   },
+   "annotation_urls": [],
+   "error": null
+  },
+  {
+   "id": "R162",
+   "model_served": "gpt-5.5-2026-04-23",
+   "answer": {
+    "us_status": "not marketed",
+    "label_product": "No U.S.-approved tegafur/gimeracil/oteracil product found (Teysuno/S-1; tegafur/gimeracil/oteracil potassium). FDA review text states S-1 is not approved for marketing in the US.",
+    "label_version_or_date": "N/A; searched DailyMed/FDA on 2026-10-24",
+    "label_section": "N/A",
+    "quote": "",
+    "eu": "EMA/PRAC: March 13, 2025 signal recommendation found; current EMA Teysuno product information includes hyperammonaemia in SmPC 4.4 Special warnings and precautions for use and 4.8 Undesirable effects, product information last updated 2025-10-30.",
+    "uk": "UK MHRA/GOV.UK: Teysuno UK marketing authorisations were granted 2025-11-28; no GOV.UK Drug Safety Update specific to hyperammonaemia was found in the searched MHRA/GOV.UK materials.",
+    "us_regulator": "FDA: no TGO-specific public FDA AEMS/FAERS potential-signal entry or Sentinel study was found; FDA public review located says tegafur/gimeracil/oteracil potassium (S-1) is not approved for marketing in the US.",
+    "sources": [
+     "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=tegafur%20gimeracil%20oteracil&searchdb=all",
+     "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/125554Orig1s091.pdf",
+     "https://www.ema.europa.eu/en/medicines/human/EPAR/teysuno",
+     "https://www.ema.europa.eu/en/documents/product-information/teysuno-epar-product-information_en.pdf",
+     "https://www.ema.europa.eu/system/files/documents/prac-recommendation/prac-recommendations-signals-adopted-10-13-march-2025-prac_en.pdf",
+     "https://assets.publishing.service.gov.uk/media/6932b8cfcdec734f4dff42dc/MAs_Granted_15_Nov_to_30_Nov_2025.pdf",
+     "https://www.gov.uk/guidance/find-product-information-about-medicines",
+     "https://www.gov.uk/drug-safety-update?keywords=tegafur+%2B+gimeracil+%2B+oteracil",
+     "https://www.fda.gov/drugs/surveillance-post-drug-approval-activities/fda-adverse-event-monitoring-system-aems",
+     "https://www.fda.gov/safety/fdas-sentinel-initiative/fdas-sentinel-initiative-ongoing-projects"
+    ]
+   },
+   "annotation_urls": [],
+   "error": null
+  },
+  {
+   "id": "R163",
+   "model_served": "gpt-5.5-2026-04-23",
+   "answer": {
+    "us_status": "not marketed",
+    "label_product": "No current U.S. human product found for oxytetracycline hydrochloride + hydrocortisone acetate + polymyxin B sulfate ear/eye drops/suspension/ointment; closest U.S. DailyMed/Orange Book product located was Terra-Cortril ophthalmic suspension, which contains oxytetracycline hydrochloride + hydrocortisone acetate only and has an inactivated NDC/discontinued Orange Book listing.",
+    "label_version_or_date": "DailyMed Terra-Cortril updated 2006-04-07; DailyMed NDC 0049-0670-48 inactivated; FDA Orange Book 46th Edition lists hydrocortisone acetate; oxytetracycline hydrochloride Terra-Cortril as discontinued.",
+    "label_section": "N/A (no current U.S. marketed/approved human label for the triple combination found)",
+    "quote": "",
+    "eu": "EMA/PRAC adopted EPITT 20120 on 2025-04-10: PRAC found sufficient evidence of a causal association with hearing and vestibular disorders and recommended MAHs submit variations to update product information for auricular-use ear/eye drops/ointment.",
+    "uk": "GOV.UK/MHRA products sources searched: no MHRA/GOV.UK product-information or safety update for the triple oxytetracycline/hydrocortisone/polymyxin B ear/eye product was located; UK product-information routes point to the MHRA products service.",
+    "us_regulator": "No FDA public evaluation specific to oxytetracycline/hydrocortisone/polymyxin B and hearing/vestibular disorders was found in public FDA AEMS/FAERS potential-signal pages or Sentinel materials searched; FDA public sources instead show no current U.S. triple-combination human product.",
+    "sources": [
+     "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7bff901e-0496-4818-813a-108b762b83a8",
+     "https://www.fda.gov/media/71474/download",
+     "https://www.fda.gov/drugs/drug-approvals-and-databases/approved-drug-products-therapeutic-equivalence-evaluations-orange-book",
+     "https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-7-10-april-2025-meeting_en.pdf",
+     "https://www.ema.europa.eu/en/documents/prac-recommendation/new-product-information-wording-extracts-prac-recommendations-signals-adopted-7-10-april-2025-prac_en.pdf",
+     "https://www.gov.uk/guidance/find-product-information-about-medicines",
+     "https://products.mhra.gov.uk/",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring",
+     "https://www.fda.gov/drugs/fdas-adverse-event-reporting-system-faers/fda-adverse-event-reporting-system-faers-latest-quarterly-data-files",
+     "https://sentinelinitiative.org/sites/default/files/documents/Final_Sentinel_Report_cder_mpl1r_wp193.pdf"
+    ]
+   },
+   "annotation_urls": [],
+   "error": null
+  },
+  {
+   "id": "R164",
+   "model_served": "gpt-5.5-2026-04-23",
+   "answer": {
+    "us_status": "written",
+    "label_product": "STIVARGA (regorafenib) tablets, for oral use",
+    "label_version_or_date": "DailyMed updated February 9, 2026; PI revised 2/2026",
+    "label_section": "Full Prescribing Information, Warnings and Precautions, 5.1 Hepatotoxicity",
+    "quote": "Additionally, hyperammonemic encephalopathy, including fatal cases, have been reported in the postmarketing setting in patients treated with STIVARGA.",
+    "eu": "EMA/PRAC Apr 2025 recommended adding hyperammonaemic encephalopathy to SmPC 4.4 and 4.8; current EMA PI updated 24 Mar 2026 includes it in 4.4 and 4.8.",
+    "uk": "UK SmPC for Stivarga, text revised 24 Apr 2026 / emc updated 02 Jun 2026, includes hyperammonaemic encephalopathy in sections 4.4 and 4.8.",
+    "us_regulator": "FDA has a public sNDA approval/labeling action for NDA 203085/S-018 signed 03 Feb 2026 to add hyperammonemic encephalopathy to Warnings and Precautions 5.1; no FDA AEMS/FAERS or Sentinel item for this specific signal was located.",
+    "sources": [
+     "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=824f19c9-0546-4a8a-8d8f-c4055c04f7c7",
+     "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/203085s018lbl.pdf",
+     "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/203085Orig1s018ltr.pdf",
+     "https://www.ema.europa.eu/system/files/documents/prac-recommendation/prac-recommendations-signals-adopted-7-10-april-2025-prac_en.pdf",
+     "https://www.ema.europa.eu/en/documents/product-information/stivarga-epar-product-information_en.pdf",
+     "https://www.ema.europa.eu/en/medicines/human/EPAR/stivarga",
+     "https://www.medicines.org.uk/emc/product/1263/smpc",
+     "https://www.gov.uk/guidance/find-product-information-about-medicines",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/july-september-2023-potential-signals-serious-risksnew-safety-information-identified-fda-adverse"
+    ]
+   },
+   "annotation_urls": [],
+   "error": null
+  },
+  {
+   "id": "R165",
+   "model_served": "gpt-5.5-2026-04-23",
+   "answer": {
+    "us_status": "not found",
+    "label_product": "ZOLOFT (sertraline hydrochloride) tablets and oral solution, Viatris Specialty LLC; NDA 019839/020990",
+    "label_version_or_date": "DailyMed updated 2023-08-08",
+    "label_section": "Not found in current U.S. ZOLOFT prescribing information/Medication Guide; DailyMed text search found no \"multiple acyl\", \"dehydrogenase\", or \"MADD\".",
+    "quote": "",
+    "eu": "EU PRAC adopted 2025-05-08 recommendation to add to SmPC section 4.8, frequency not known: \"Multiple acyl-coenzyme A dehydrogenase deficiency (MADD)-like disorder\"; package leaflet to mention muscle weakness and severe muscle pain as a sign.",
+    "uk": "UK MHRA product information/leaflet updated July 2025 lists under side effects, frequency not known: muscle weakness and severe muscle pain as a sign of MADD-like disorder.",
+    "us_regulator": "No FDA public evaluation found for sertraline/MADD in searched FDA AEMS/FAERS potential-signals quarterly reports through Apr-Jun 2026 or Sentinel searches.",
+    "sources": [
+     "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fda754f6-d0f3-4dce-a17a-927d64f912f7",
+     "https://nctr-crs.fda.gov/fdalabel/ui/spl-summaries/criteria/102754",
+     "https://www.ema.europa.eu/system/files/documents/prac-recommendation/prac-recommendations-signals-adopted-5-8-may-2025-prac_en.pdf",
+     "https://mhraproducts4853.blob.core.windows.net/docs/20ac3338eb2b7d232a14b24cd68796b0fe20b4ad",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/april-june-2026-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/january-march-2026-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/october-december-2025-new-safety-information-or-potential-signals-serious-risks-identified-fda",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/july-september-2025-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/april-june-2025-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/january-march-2025-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse"
+    ]
+   },
+   "annotation_urls": [],
+   "error": null
+  },
+  {
+   "id": "R166",
+   "model_served": "gpt-5.5-2026-04-23",
+   "answer": {
+    "us_status": "written",
+    "label_product": "BACTRIM DS- sulfamethoxazole and trimethoprim tablet; BACTRIM- sulfamethoxazole and trimethoprim tablet (Sun Pharmaceutical Industries, Inc.)",
+    "label_version_or_date": "DailyMed updated December 30, 2024; published January 1, 2025; version 18 (current)",
+    "label_section": "WARNINGS > Hypersensitivity and Other Serious or Fatal Reactions > Circulatory Shock",
+    "quote": "Circulatory shock with fever, severe hypotension, and confusion requiring intravenous fluid resuscitation and vasopressors has occurred within minutes to hours of re-challenge with sulfamethoxazole and trimethoprim products, including BACTRIM, in patients with history of recent (days to weeks) exposure to sulfamethoxazole and trimethoprim.",
+    "eu": "EMA PRAC adopted a signal recommendation on May 8, 2025 (EPITT 20135) to add circulatory shock to SmPC section 4.8 as frequency not known and update the package leaflet.",
+    "uk": "UK/MHRA product information found with circulatory shock in SmPC section 4.8, Vascular disorders, frequency not known, with the same selected-adverse-reaction description.",
+    "us_regulator": "FDA public materials found: labeling/approval-letter activity includes circulatory shock; FAERS/AEMS and Sentinel public items found for Bactrim/TMP-SMX acute respiratory failure, not a circulatory-shock-specific signal/study.",
+    "sources": [
+     "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f59d0c04-9c66-4d53-a0e1-cb55570deb62",
+     "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/017560s047lbl.pdf",
+     "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/018598Orig1s055ltr.pdf",
+     "https://www.ema.europa.eu/system/files/documents/prac-recommendation/prac-recommendations-signals-adopted-5-8-may-2025-prac_en.pdf",
+     "https://www.ema.europa.eu/en/documents/minutes/minutes-prac-meeting-5-8-may-2025_en.pdf",
+     "https://products.mhra.gov.uk/",
+     "https://mhraproducts4853.blob.core.windows.net/docs/f60a4757c4f2607fe10af199c9a2330ac4af6655",
+     "https://www.medicines.org.uk/emc/product/11465/smpc",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/april-june-2023-potential-signals-serious-risksnew-safety-information-identified-fda-adverse-event",
+     "https://www.sentinelinitiative.org/sites/default/files/Sentinel-Report_cder_mpl1r_wp167.pdf"
+    ]
+   },
+   "annotation_urls": [],
+   "error": null
+  },
+  {
+   "id": "R167",
+   "model_served": "gpt-5.5-2026-04-23",
+   "answer": {
+    "us_status": "partial",
+    "label_product": "YESCARTA (axicabtagene ciloleucel) suspension for intravenous infusion",
+    "label_version_or_date": "U.S. PI revised 8/2026; DailyMed updated 2026-08-06",
+    "label_section": "Adverse Reactions (6.1), Clinical Trials Experience, Table 8 footnote a (relapsed/refractory follicular lymphoma); nonspecific only, as part of the Diarrhea composite—not as 'immune-mediated enterocolitis' or 'immune effector cell-associated enteritis' in Boxed Warning/W&P/Contraindications.",
+    "quote": "Diarrhea includes diarrhea, colitis, enteritis.",
+    "eu": "EU: PRAC June 2025 (EPITT 20133) found sufficient evidence/update only for Carvykti; for Yescarta evidence was insufficient to warrant PI/RMP update, routine pharmacovigilance to continue.",
+    "uk": "UK/MHRA: current GB Yescarta SmPC (rev. 2026-09-01; emc last updated 2026-09-08) likewise has no specific immune-mediated enterocolitis/IEC-enteritis warning; only 'Diarrhoea includes diarrhoea, colitis, enteritis.'",
+    "us_regulator": "FDA: public IEC-EC evaluation/labeling action found for CARVYKTI (2025-10-10 boxed-warning/W&P/postmarketing update after clinical-trial and postmarketing review); no public FDA AEMS/FAERS potential-signal or Sentinel evaluation found for Yescarta/axi-cel IEC-EC.",
+    "sources": [
+     "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9b70606e-b99c-4272-a0f1-b5523cce0c59",
+     "https://www.fda.gov/media/193167/download",
+     "https://www.fda.gov/vaccines-blood-biologics/cellular-gene-therapy-products/yescarta",
+     "https://www.ema.europa.eu/system/files/documents/minutes/minutes-prac-meeting-02-05-june-2025-revision-1-en.pdf",
+     "https://www.ema.europa.eu/en/documents/product-information/yescarta-epar-product-information_en.pdf",
+     "https://www.medicines.org.uk/emc/product/9439/smpc",
+     "https://products.mhra.gov.uk/substance/?substance=AXICABTAGENE+CILOLEUCEL",
+     "https://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/fda-approves-labeling-changes-include-boxed-warning-immune-effector-cell-associated-enterocolitis",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/october-december-2025-new-safety-information-or-potential-signals-serious-risks-identified-fda"
+    ]
+   },
+   "annotation_urls": [],
+   "error": null
+  },
+  {
+   "id": "R168",
+   "model_served": "gpt-5.5-2026-04-23",
+   "answer": {
+    "us_status": "not found",
+    "label_product": "SILIQ (brodalumab) injection, for subcutaneous use",
+    "label_version_or_date": "DailyMed SPL version 24, effective 2026-05-28; DailyMed revised 5/2026; PI/Medication Guide revised 02/2026",
+    "label_section": "N/A - pyoderma gangrenosum is not mentioned in the current U.S. prescribing information, including Warnings and Precautions, Adverse Reactions/Postmarketing Experience, and patient labeling",
+    "quote": "",
+    "eu": "EMA/PRAC June 2025 recommended adding pyoderma gangrenosum to Kyntheum SmPC section 4.8; current EU product information lists Skin and subcutaneous tissue disorders: Pyoderma gangrenosum, frequency Not known.",
+    "uk": "UK MHRA Kyntheum SmPC lists Skin and subcutaneous tissue disorders: Pyoderma gangrenosum, frequency Not known, in section 4.8 Undesirable effects.",
+    "us_regulator": "No FDA public evaluation specific to Siliq/brodalumab and pyoderma gangrenosum found; FDA/Sentinel has Siliq assessments/study for hospitalized neutropenia, myocardial infarction/stroke, and serious infection, not pyoderma gangrenosum, and the AEMS potential-signals example found for pyoderma gangrenosum is Ocrevus, not Siliq.",
+    "sources": [
+     "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=1a550c33-456a-4833-814e-8591aea7c688",
+     "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761032s020lbl.pdf",
+     "https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-2-5-june-2025-prac-meeting_en.pdf",
+     "https://www.ema.europa.eu/en/documents/product-information/kyntheum-epar-product-information_en.pdf",
+     "https://www.ema.europa.eu/en/documents/procedural-steps-after/kyntheum-epar-procedural-steps-taken-scientific-information-after-authorisation_en.pdf",
+     "https://mhraproducts4853.blob.core.windows.net/docs/6c65002438cba50d7f07641a90658a4b9500c068",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/july-september-2022-potential-signals-serious-risksnew-safety-information-identified-fda-adverse",
+     "https://www.sentinelinitiative.org/studies/drugs/assessing-arias-ability-evaluate-safety-concern/siliq-brodalumab"
+    ]
+   },
+   "annotation_urls": [],
+   "error": null
+  },
+  {
+   "id": "R169",
+   "model_served": "gpt-5.5-2026-04-23",
+   "answer": {
+    "us_status": "written",
+    "label_product": "XTANDI (enzalutamide) capsules and tablets, for oral use",
+    "label_version_or_date": "DailyMed updated July 28, 2026; U.S. Prescribing Information revised 7/2026; Recent Major Changes: Warnings and Precautions (5.8) 12/2025",
+    "label_section": "Warnings and Precautions (5.8) Interference with Immunoassay Measurement of Digoxin; also Drug Interactions (7.3) Laboratory Test Interference",
+    "quote": "XTANDI can interfere with certain digoxin immunoassays (e.g., Chemiluminescent Microparticle Immunoassays), resulting in falsely elevated digoxin plasma concentration results.",
+    "eu": "EU: PRAC June 2025 recommended product-information updates for enzalutamide/digoxin; EMA Xtandi product information now includes CMIA falsely elevated digoxin plasma levels in SmPC section 4.5.",
+    "uk": "UK: MHRA issued an April 2026 DHPC and September 2026 Safety Roundup; product information for enzalutamide has been updated for CMIA falsely elevated digoxin plasma levels.",
+    "us_regulator": "FDA: yes—public supplement approval letter for NDA 203415/S-025 and 213674/S-015, approved Dec. 11, 2025, states the sNDAs add digoxin laboratory-test-interference information to Xtandi U.S. PI.",
+    "sources": [
+     "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b129fdc9-1d8e-425c-a5a9-8a2ed36dfbdf",
+     "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/203415s026lbl.pdf",
+     "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/203415Orig1s025,213674Orig1s015ltr.pdf",
+     "https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-2-5-june-2025-prac-meeting_en.pdf",
+     "https://www.ema.europa.eu/en/documents/product-information/xtandi-epar-product-information_en.pdf",
+     "https://assets.publishing.service.gov.uk/media/69ef587920a498c16734afe9/Enzalutamide_DHPC_United_Kingdom_v1.0_Mar2026_SIGNED.pdf",
+     "https://www.gov.uk/drug-device-alerts/mhra-safety-roundup-september-2026"
+    ]
+   },
+   "annotation_urls": [],
+   "error": null
+  },
+  {
+   "id": "R170",
+   "model_served": "gpt-5.5-2026-04-23",
+   "answer": {
+    "us_status": "not found",
+    "label_product": "TRINTELLIX (vortioxetine) tablets, for oral use",
+    "label_version_or_date": "DailyMed current U.S. PI; Revised 2/2025",
+    "label_section": "Not a standalone adverse reaction; term appears only as a symptom in section 5.2 Warnings and Precautions—Serotonin Syndrome, and in Medication Guide symptom lists for serotonin syndrome and severe hyponatremia.",
+    "quote": "Serotonin syndrome signs and symptoms may include mental status changes (e.g., agitation, hallucinations, delirium, and coma), autonomic instability (e.g., tachycardia, labile blood pressure, dizziness, diaphoresis, flushing, hyperthermia), neuromuscular symptoms (e.g., tremor, rigidity, myoclonus, hyperreflexia, incoordination), seizures, and gastrointestinal symptoms (e.g., nausea, vomiting, diarrhea).",
+    "eu": "EU: EMA/PRAC June 2025 signal led to Brintellix PI update; current EMA SmPC section 4.8 lists Psychiatric disorders—Uncommon—Hallucinations.",
+    "uk": "UK: MHRA/UK product information likewise lists Psychiatric disorders—Uncommon—Hallucinations in SmPC section 4.8.",
+    "us_regulator": "FDA: no public hallucinations-specific FDA AEMS/FAERS potential-signal or Sentinel evaluation found; public FDA items found were unrelated class/drug signals/reviews, including antidepressants/Trintellix discontinuation-emergent cataplexy, SSRI/SNRI anosmia/hyposmia, and a pediatric FAERS review with no new pediatric safety signals.",
+    "sources": [
+     "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1a5b68e2-14d0-419d-9ec6-1ca97145e838",
+     "https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-2-5-june-2025-prac-meeting_en.pdf",
+     "https://www.ema.europa.eu/en/documents/product-information/brintellix-epar-product-information_en.pdf",
+     "https://www.ema.europa.eu/en/medicines/human/EPAR/brintellix",
+     "https://products.mhra.gov.uk/substance/?substance=VORTIOXETINE",
+     "https://www.medicines.org.uk/emc/medicine/30904",
+     "https://www.gov.uk/guidance/find-product-information-about-medicines",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/october-december-2024-new-safety-information-or-potential-signals-serious-risks-identified-fda",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/january-march-2022-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse",
+     "https://www.fda.gov/media/189558/download"
+    ]
+   },
+   "annotation_urls": [],
+   "error": null
+  },
+  {
+   "id": "R171",
+   "model_served": "gpt-5.5-2026-04-23",
+   "answer": {
+    "us_status": "written",
+    "label_product": "CARVYKTI (ciltacabtagene autoleucel) suspension for intravenous infusion",
+    "label_version_or_date": "FDA PI revised 10/2025; DailyMed current version 18, published 2026-07-20",
+    "label_section": "Warnings and Precautions, 5.6 Infections, Viral Reactivation; also Adverse Reactions, 6.2 Postmarketing Experience",
+    "quote": "Reactivation of John Cunningham (JC) virus, leading to progressive multifocal leukoencephalopathy (PML), including cases with fatal outcomes, have been reported following treatment with CARVYKTI [see Adverse Reactions (6.2)].",
+    "eu": "EU: PRAC adopted the PML signal recommendation on 2025-07-10 (EPITT 20153); EMA/EPAR product information includes the warning in SmPC section 4.4 Viral reactivation.",
+    "uk": "UK/MHRA: UK SmPC for CARVYKTI (PLGB 00242/0745; text revised 05/06/2026) includes PML in section 4.4 Special warnings and precautions, Viral reactivation.",
+    "us_regulator": "FDA: PML is in the current label; no product-specific public FDA FAERS/AEMS potential-signal or Sentinel evaluation for CARVYKTI-PML was found; FDA’s public CARVYKTI safety item is IEC-EC dated 2025-10-10.",
+    "sources": [
+     "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7d040b91-3fb8-41db-ba7f-60a36f06e2c2",
+     "https://www.fda.gov/media/156560/download?attachment=",
+     "https://www.fda.gov/vaccines-blood-biologics/cellular-gene-therapy-products/carvykti",
+     "https://www.ema.europa.eu/en/documents/prac-recommendation/new-product-information-wording-extracts-prac-recommendations-signals-adopted-7-10-july-2025-prac_en.pdf",
+     "https://www.ema.europa.eu/en/documents/product-information/carvykti-epar-product-information_en.pdf",
+     "https://www.ema.europa.eu/en/documents/procedural-steps-after/carvykti-epar-procedural-steps-taken-scientific-information-after-authorisation_en.pdf",
+     "https://www.medicines.org.uk/emc/product/100341/smpc",
+     "https://www.gov.uk/drug-safety-update",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/july-september-2023-potential-signals-serious-risksnew-safety-information-identified-fda-adverse",
+     "https://www.sentinelinitiative.org/"
+    ]
+   },
+   "annotation_urls": [],
+   "error": null
+  },
+  {
+   "id": "R172",
+   "model_served": "gpt-5.5-2026-04-23",
+   "answer": {
+    "us_status": "written",
+    "label_product": "CLOZARIL (clozapine) tablets, for oral use",
+    "label_version_or_date": "Revised: 6/2025; DailyMed updated 2025-06-06",
+    "label_section": "Boxed Warning: Severe Neutropenia; Warnings and Precautions 5.1 Severe Neutropenia",
+    "quote": "CLOZARIL has caused severe neutropenia (absolute neutrophil count (ANC) less than 500/μL) [see Adverse Reactions (6.1, 6.2)] and is associated with an increased risk of serious and potentially fatal infections.",
+    "eu": "EMA/PRAC July 2025: variation/DHPC to update all clozapine PI with revised ANC-only thresholds and less frequent monitoring for clozapine-related agranulocytosis/neutropenia.",
+    "uk": "UK/MHRA: GOV.UK advice still refers to required blood tests to manage agranulocytosis risk; current UK SmPCs still require WBC+ANC monitoring and stopping rules.",
+    "us_regulator": "FDA has a public evaluation: clozapine REMS re-evaluation used literature, FAERS, VA/Brigham and Sentinel analyses; FDA removed the Clozapine REMS effective 2025-06-13 while retaining labeling/ANC monitoring.",
+    "sources": [
+     "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=90876802-0e3a-44c9-9ff7-1754dfbe736a",
+     "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/019758s107lbl.pdf",
+     "https://www.ema.europa.eu/en/medicines/dhpc/clozapine",
+     "https://www.ema.europa.eu/en/documents/dhpc/direct-healthcare-professional-communication-dhpc-clozapine-revised-recommendations-routine-blood-count-monitoring-risk-agranulocytosis_en.pdf",
+     "https://www.ema.europa.eu/system/files/documents/prac-recommendation/prac-recommendations-signals-adopted-7-10-july-2025-prac_en.pdf",
+     "https://www.gov.uk/drug-safety-update/clozapine-and-other-antipsychotics-monitoring-blood-concentrations-for-toxicity",
+     "https://products.mhra.gov.uk/substance/?substance=CLOZAPINE",
+     "https://www.medicines.org.uk/emc/product/102057/smpc",
+     "https://www.fda.gov/drugs/drug-safety-communications/fda-removes-risk-evaluation-and-mitigation-strategy-rems-program-antipsychotic-drug-clozapine",
+     "https://www.fda.gov/science-research/real-world-evidence/cder-postmarketing-studies-used-real-world-evidence"
+    ]
+   },
+   "annotation_urls": [],
+   "error": null
+  },
+  {
+   "id": "R173",
+   "model_served": "gpt-5.5-2026-04-23",
+   "answer": {
+    "us_status": "partial",
+    "label_product": "VARIVAX (Varicella Virus Vaccine Live), Merck Sharp & Dohme LLC",
+    "label_version_or_date": "DailyMed updated August 6, 2026; prescribing information revised 8/2026",
+    "label_section": "Adverse Reactions, 6.2 Post-Marketing Experience, Nervous/Psychiatric",
+    "quote": "Cases of encephalitis or meningitis caused by vaccine strain varicella virus have been reported in immunocompromised and immunocompetent individuals previously vaccinated with VARIVAX months to years after vaccination.",
+    "eu": "EMA PRAC July 2025: recommended product-information update for Varilrix/Varivax and aligned MMRV vaccines to further describe severity of the known encephalitis risk; variations requested within 30 days.",
+    "uk": "GOV.UK/MHRA-facing public guidance acknowledges rare post-vaccination encephalitis reports with varicella-containing vaccines, says association has not been quantified, and directs suspected reactions to MHRA Yellow Card.",
+    "us_regulator": "No product-specific FDA public evaluation found for Varivax/varicella vaccine encephalitis in AEMS/FAERS potential-signals or Sentinel pages; FDA’s public product page/label is the identified U.S. source.",
+    "sources": [
+     "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?lang=en&setid=524cf052-e90e-4595-af0a-608edbe9bd31",
+     "https://www.fda.gov/vaccines-blood-biologics/vaccines/varivax-refrigerated-and-frozen-formulations",
+     "https://www.ema.europa.eu/en/news/meeting-highlights-pharmacovigilance-risk-assessment-committee-prac-7-10-july-2025",
+     "https://www.ema.europa.eu/system/files/documents/prac-recommendation/prac-recommendations-signals-adopted-7-10-july-2025-prac_en.pdf",
+     "https://www.gov.uk/government/publications/mmrv-programme-information-for-healthcare-practitioners/mmrv-vaccination-information-for-healthcare-professionals",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring",
+     "https://www.fda.gov/vaccines-blood-biologics/biologics-post-market-activities/cbers-sentinel-program"
+    ]
+   },
+   "annotation_urls": [],
+   "error": null
+  },
+  {
+   "id": "R174",
+   "model_served": "gpt-5.5-2026-04-23",
+   "answer": {
+    "us_status": "not found",
+    "label_product": "MEKTOVI (binimetinib) tablets, for oral use",
+    "label_version_or_date": "DailyMed current label; Revised: 3/2025",
+    "label_section": "Not found in the current U.S. prescribing information; full-label text search for 'tattoo' was negative.",
+    "quote": "",
+    "eu": "EMA PRAC Sep 2025 EPITT 20160: tattoo-associated skin reaction; PI update for dabrafenib/trametinib, but for binimetinib/encorafenib PRAC says monitor in PSUR; current EMA Mektovi PI has no tattoo mention.",
+    "uk": "MHRA/UK current Mektovi SmPC revised 28/09/2026, last updated on emc 12 Oct 2026; no tattoo mention found.",
+    "us_regulator": "No FDA public evaluation found for tattoo-associated skin reaction; FDA AEMS/FAERS pages list other Mektovi/MEK-inhibitor signals (e.g., photosensitivity, sarcoidosis, severe cutaneous adverse reaction, myocarditis), not tattoo-associated skin reaction.",
+    "sources": [
+     "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6c3408ac-d401-4925-8a03-26591afbc240",
+     "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/210498s011lbl.pdf",
+     "https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-1-4-september-2025-prac-meeting_en.pdf",
+     "https://www.ema.europa.eu/en/documents/product-information/mektovi-epar-product-information_en.pdf",
+     "https://www.gov.uk/guidance/find-product-information-about-medicines",
+     "https://products.mhra.gov.uk/substance/?substance=BINIMETINIB",
+     "https://www.medicines.org.uk/emc/product/9501/smpc",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/january-march-2023-potential-signals-serious-risksnew-safety-information-identified-fda-adverse",
+     "https://www.fda.gov/drugs/fdas-adverse-event-reporting-system-faers/july-september-2025-potential-signals-serious-risksnew-safety-information-identified-fda-adverse",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/january-march-2026-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/april-june-2026-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse"
+    ]
+   },
+   "annotation_urls": [],
+   "error": null
+  },
+  {
+   "id": "R175",
+   "model_served": "gpt-5.5-2026-04-23",
+   "answer": {
+    "us_status": "written",
+    "label_product": "PROGLYCEM (diazoxide) oral suspension, 50 mg/mL — Teva Pharmaceuticals USA, Inc.",
+    "label_version_or_date": "DailyMed current version 17; updated 2026-10-06; Rev. 10/2026",
+    "label_section": "WARNINGS — Necrotizing Enterocolitis in Neonates and Infants",
+    "quote": "There have been postmarketing reports of necrotizing enterocolitis in neonates and infants treated with diazoxide, including fatal cases in neonates.",
+    "eu": "EMA PRAC adopted 2025-09-04/published 2025-09-29: update diazoxide SmPC 4.4 and 4.8 for 'Necrotising enterocolitis neonatal'.",
+    "uk": "UK Eudemine diazoxide SmPC includes 'Necrotising enterocolitis neonatal' in 4.4 Special warnings and precautions and 4.8 Undesirable effects; text revision 2025-11-21.",
+    "us_regulator": "FDA: Drugs@FDA lists SUPPL-25 Labeling-Package Insert approved 2026-10-06; no separate diazoxide-NEC AEMS/FAERS potential-signal or Sentinel evaluation found.",
+    "sources": [
+     "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b16c7832-2fd9-49af-b923-1dc0d91fd6e2",
+     "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/017453s025lbl.pdf",
+     "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?ApplNo=017453&event=overview.process",
+     "https://www.ema.europa.eu/system/files/documents/prac-recommendation/prac-recommendations-signals-adopted-1-4-september-2025-prac_en.pdf",
+     "https://www.gov.uk/guidance/find-product-information-about-medicines",
+     "https://products.mhra.gov.uk/",
+     "https://www.medicines.org.uk/emc/product/9136/smpc",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/april-june-2026-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse",
+     "https://www.sentinelinitiative.org/studies/drugs/individual-drug-analyses"
+    ]
+   },
+   "annotation_urls": [],
+   "error": null
+  },
+  {
+   "id": "R176",
+   "model_served": "gpt-5.5-2026-04-23",
+   "answer": {
+    "us_status": "written",
+    "label_product": "UNITUXIN (dinutuximab) injection; U.S.-approved dinutuximab product (no separate U.S.-approved Qarziba/dinutuximab beta product found)",
+    "label_version_or_date": "DailyMed current version 17, published Jul 8, 2026; label revised 10/2025; Drug Label Information updated Jul 6, 2026",
+    "label_section": "Warnings and Precautions, section 5.8 Atypical Hemolytic Uremic Syndrome",
+    "quote": "Atypical hemolytic uremic syndrome recurred following rechallenge with Unituxin in 1 patient.",
+    "eu": "EMA PRAC Sep 1-4, 2025 concluded sufficient evidence of a causal association for Qarziba (dinutuximab beta) and recommended adding a warning in SmPC 4.4 and adding aHUS as an undesirable effect in 4.8 with frequency not known; EMA Qarziba PI was updated afterward.",
+    "uk": "UK Qarziba SmPC includes aHUS in section 4.4 Special warnings and precautions and section 4.8 Undesirable effects as frequency not known.",
+    "us_regulator": "FDA has public documentation for Unituxin: BLA 125516/S-041 approval letter states aHUS was added to Dosage Modifications Table 3 to correspond to approved instructions in Warnings and Precautions 5.8; no dinutuximab/Unituxin aHUS entry was found in the FDA AEMS Apr-Jun 2025 potential-signals list.",
+    "sources": [
+     "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d66bdf0d-9d65-45de-ae5b-a58617c27492",
+     "https://precision.fda.gov/ginas/app/ui/substances/e7e2fb37-9e19-4c25-b948-ea49e4d9f284",
+     "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/125516Orig1s041ltr.pdf",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/april-june-2025-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse",
+     "https://www.ema.europa.eu/en/documents/minutes/minutes-prac-meeting-1-4-september-2025_en.pdf",
+     "https://www.ema.europa.eu/en/documents/prac-recommendation/new-product-information-wording-extracts-prac-recommendations-signals-adopted-1-4-september-2025-prac_en.pdf",
+     "https://www.ema.europa.eu/en/medicines/human/EPAR/qarziba",
+     "https://www.medicines.org.uk/emc/product/9441/smpc",
+     "https://products.mhra.gov.uk/product/?product=QARZIBA+4.5+MG/ML+CONCENTRATE+FOR+SOLUTION+FOR+INFUSION"
+    ]
+   },
+   "annotation_urls": [],
+   "error": null
+  },
+  {
+   "id": "R177",
+   "model_served": "gpt-5.5-2026-04-23",
+   "answer": {
+    "us_status": "not found",
+    "label_product": "TAGRISSO (osimertinib) tablets, for oral use",
+    "label_version_or_date": "DailyMed updated September 14, 2026; Recent Major Changes 09/2026",
+    "label_section": "Not found in current U.S. prescribing information (DailyMed text search found no 'hepatitis', 'hepat', or 'reactivation').",
+    "quote": "",
+    "eu": "EMA/PRAC: HBV reactivation added/recommended as SmPC 4.4 warning and 4.8 undesirable effect, frequency not known; current EMA product information includes the HBV warning.",
+    "uk": "UK MHRA/eMC: current UK SmPC for TAGRISSO, last updated 24 Sep 2026, includes HBV reactivation in section 4.4 and as an infection/infestation adverse reaction in section 4.8, frequency not known.",
+    "us_regulator": "FDA: no HBV-reactivation public evaluation found for Tagrisso/osimertinib in AEMS/FAERS potential-signal materials searched; FDA has a different public Tagrisso/EGFR-TKI signal, radiation recall phenomenon, with no action needed.",
+    "sources": [
+     "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5e81b4a7-b971-45e1-9c31-29cea8c87ce7",
+     "https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-1-4-september-2025-prac-meeting_en.pdf",
+     "https://www.ema.europa.eu/en/documents/product-information/tagrisso-epar-product-information_en.pdf",
+     "https://www.gov.uk/guidance/find-product-information-about-medicines",
+     "https://www.medicines.org.uk/emc/product/7615/smpc",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/july-september-2022-potential-signals-serious-risksnew-safety-information-identified-fda-adverse"
+    ]
+   },
+   "annotation_urls": [],
+   "error": null
+  },
+  {
+   "id": "R178",
+   "model_served": "gpt-5.5-2026-04-23",
+   "answer": {
+    "us_status": "written",
+    "label_product": "NGENLA (somatrogon-ghla) injection, for subcutaneous use",
+    "label_version_or_date": "DailyMed updated August 14, 2026; PI LAB-1433-5.0",
+    "label_section": "Warnings and Precautions, section 5.12 Lipoatrophy",
+    "quote": "When NGENLA is administered subcutaneously at the same site over a long period of time, lipoatrophy may result.",
+    "eu": "EU: PRAC (4 Sep 2025; EPITT 20173) recommended adding lipoatrophy; current EMA EPAR PI includes it in SmPC 4.2/4.8 and package leaflet §§3–4.",
+    "uk": "UK: MHRA-authorised GB SmPC/eMC updated 01 Sep 2026 lists lipoatrophy in SmPC 4.2 and 4.8 as frequency not known/post-marketing.",
+    "us_regulator": "FDA: public approval REMS/risk review identifies lipoatrophy as a risk managed by labeling/no REMS; no lipoatrophy-specific AEMS/Sentinel item found, though AEMS Jan-Mar 2024 listed human growth hormone products incl. Ngenla for osteonecrosis.",
+    "sources": [
+     "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=06dce529-b741-4a1b-8842-3ad77be6e308",
+     "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761184s008lbl.pdf",
+     "https://www.ema.europa.eu/system/files/documents/prac-recommendation/prac-recommendations-signals-adopted-1-4-september-2025-prac_en.pdf",
+     "https://www.ema.europa.eu/en/documents/product-information/ngenla-epar-product-information_en.pdf",
+     "https://www.ema.europa.eu/en/medicines/human/EPAR/ngenla",
+     "https://www.medicines.org.uk/emc/product/13476/smpc",
+     "https://www.gov.uk/government/publications/somapacitan-lonapegsomatropin-and-somatrogon-acmd-advice/acmd-advice-on-somapacitan-lonapegsomatropin-and-somatrogon-accessible",
+     "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/761184Orig1s000RiskR.pdf",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/january-march-2024-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse"
+    ]
+   },
+   "annotation_urls": [],
+   "error": null
+  },
+  {
+   "id": "R179",
+   "model_served": "gpt-5.5-2026-04-23",
+   "answer": {
+    "us_status": "partial",
+    "label_product": "BOSULIF (bosutinib) tablets and capsules; Pfizer Laboratories Div Pfizer Inc",
+    "label_version_or_date": "Revised 3/2026; DailyMed Pfizer label updated 2026-03-10",
+    "label_section": "6.1 Clinical Trials Experience — Additional Adverse Reactions From Multiple Clinical Trials",
+    "quote": "Skin and Subcutaneous Disorders: 0.1% and less than 1% - Erythema multiforme, Cutaneous vasculitis",
+    "eu": "EMA/PRAC recommended the bosutinib PI update on 2025-10-30; current EU Bosulif product information lists cutaneous vasculitis as an uncommon skin/subcutaneous adverse reaction, identified post marketing in adults.",
+    "uk": "MHRA products list Bosulif; UK Pfizer Bosulif SmPC (PLGB 00057/1551, text revised 02/2026) lists cutaneous vasculitis as an uncommon skin/subcutaneous adverse reaction, identified post marketing in adults.",
+    "us_regulator": "FDA publicly approved NDA 217729/S-002 to add cutaneous vasculitis to USPI Section 6.1 Clinical Trials Experience; no separate FAERS/AEMS potential-signal listing or Sentinel study was found in the searched FDA sources.",
+    "sources": [
+     "https://labeling.pfizer.com/ShowLabeling.aspx?id=884",
+     "https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=adc84ad5-a04d-4fee-9ba8-91f7abd928e3",
+     "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/217729s002lbl.pdf",
+     "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/217729Orig1s002ltr.pdf",
+     "https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-27-30-october-2025-prac-meeting_en.pdf",
+     "https://www.ema.europa.eu/en/documents/product-information/bosulif-epar-product-information_en.pdf",
+     "https://products.mhra.gov.uk/substance/?substance=BOSUTINIB",
+     "https://www.medicines.org.uk/emc/product/3147/smpc",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring"
+    ]
+   },
+   "annotation_urls": [],
+   "error": null
+  },
+  {
+   "id": "R180",
+   "model_served": "gpt-5.5-2026-04-23",
+   "answer": {
+    "us_status": "partial",
+    "label_product": "DATROWAY (datopotamab deruxtecan-dlnk) for injection, for intravenous use",
+    "label_version_or_date": "DailyMed SPL version 18; effective time 2026-05-27; revised 5/2026",
+    "label_section": "Adverse Reactions (6.1); also Dosage and Administration (2.4) dose-modification table for infusion-related reactions",
+    "quote": "Clinically relevant adverse reactions occurring in <10% of patients who received DATROWAY included infusion-related reactions including anaphylactic reaction, diarrhea, conjunctivitis, lacrimation increased, dry mouth, dry skin, pruritus, rhinorrhea, blepharitis, meibomian gland dysfunction, blurred vision, ILD/pneumonitis, visual impairment, photophobia, and madarosis.",
+    "eu": "EU: PRAC Oct 2025 recommended adding hypersensitivity/anaphylactic-reaction wording; current EMA SmPC includes section 4.4 Hypersensitivity and section 4.8 lists anaphylactic reaction.",
+    "uk": "UK MHRA: no Datroway SmPC/PIL product-information entry found on MHRA Products/GOV.UK; only MHRA PIP waiver records for datopotamab deruxtecan were found.",
+    "us_regulator": "FDA: yes—AEMS Oct-Dec 2025 potential-signals list includes Datroway for “Infusion related reaction, including anaphylaxis,” with FDA evaluating need for regulatory action.",
+    "sources": [
+     "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2950227c-6230-4ca4-a135-46e44d9424a0",
+     "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761394s003lbl.pdf",
+     "https://www.ema.europa.eu/en/documents/prac-recommendation/new-product-information-wording-extracts-prac-recommendations-signals-adopted-27-30-october-2025-prac_en.pdf",
+     "https://www.ema.europa.eu/en/documents/product-information/datroway-epar-product-information_en.pdf",
+     "https://www.gov.uk/guidance/find-product-information-about-medicines",
+     "https://products.mhra.gov.uk/search/?search=Datroway",
+     "https://cms.mhra.gov.uk/pip/mhra-100385-pip01-21",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/october-december-2025-new-safety-information-or-potential-signals-serious-risks-identified-fda"
+    ]
+   },
+   "annotation_urls": [],
+   "error": null
+  },
+  {
+   "id": "R181",
+   "model_served": "gpt-5.5-2026-04-23",
+   "answer": {
+    "us_status": "partial",
+    "label_product": "EPKINLY (epcoritamab-bysp) injection, for subcutaneous use",
+    "label_version_or_date": "DailyMed current version 11; Revised 6/2026; DailyMed updated June 22, 2026 / published June 30, 2026",
+    "label_section": "Section 6.1 Adverse Reactions—Clinical Trials Experience, Other Clinical Trials Experience; Section 5.3 Infections separately advises immunoglobulin-level monitoring but does not name hypogammaglobulinemia",
+    "quote": "The following adverse reactions have been reported following administration of epcoritamab-bysp: hypogammaglobulinemia.",
+    "eu": "EU: PRAC Oct 2025 recommended Tepkinly SmPC update; current EMA PI includes hypogammaglobulinaemia in section 4.4 Serious infections and section 4.8 as very common all grades / uncommon grade 3-4.",
+    "uk": "UK MHRA/GB: Tepkinly is authorised; current UK SmPC on emc, updated 03 Aug 2026, includes hypogammaglobulinaemia in section 4.4 Serious infections and section 4.8 undesirable effects.",
+    "us_regulator": "FDA: AEMS Oct-Dec 2025 potential-signals list included bispecific T-cell engager therapies including Epkinly—hypogammaglobulinemia, with FDA evaluating need for regulatory action; FDA then approved sBLA S-011 on 2026-06-17 adding Ig monitoring in 5.3 and risk in 6.1.",
+    "sources": [
+     "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d7836711-b677-412d-bf2d-0f7c8444103a",
+     "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=d7836711-b677-412d-bf2d-0f7c8444103a&type=display",
+     "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/761324Orig1s011ltr.pdf",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/october-december-2025-new-safety-information-or-potential-signals-serious-risks-identified-fda",
+     "https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-27-30-october-2025-prac-meeting_en.pdf",
+     "https://www.ema.europa.eu/en/documents/product-information/tepkinly-epar-product-information_en.pdf",
+     "https://www.medicines.org.uk/emc/product/15188/smpc",
+     "https://www.gov.uk/government/news/mhra-authorises-monoclonal-antibody-therapy-tepkinly-as-a-treatment-for-diffuse-large-b-cell-lymphoma-in-adults"
+    ]
+   },
+   "annotation_urls": [],
+   "error": null
+  },
+  {
+   "id": "R182",
+   "model_served": "gpt-5.5-2026-04-23",
+   "answer": {
+    "us_status": "not found",
+    "label_product": "Cefazolin for Injection USP and Dextrose Injection USP, in DUPLEX Container, B. Braun Medical Inc.",
+    "label_version_or_date": "DailyMed current label; Revised: 8/2024",
+    "label_section": "Not found in full U.S. PI; searched Warnings and Precautions, Contraindications, Adverse Reactions/Postmarketing, Patient Counseling, and full text for Kounis/coronary/myocardial.",
+    "quote": "",
+    "eu": "EU PRAC Jan 2026 recommended adding Kounis syndrome to SmPC 4.4 Special warnings/precautions and 4.8 Undesirable effects, Cardiac disorders, frequency not known.",
+    "uk": "UK MHRA product information appears aligned for at least Cefazolin 2 g powder for injection/infusion: SmPC 4.4 warning and 4.8 Cardiac disorders Kounis syndrome, revised 25/05/2026; no GOV.UK Drug Safety Update specifically found.",
+    "us_regulator": "FDA: no cefazolin/Kounis entry found on current AEMS/FAERS potential-signals pages through Apr-Jun 2026 and no Sentinel study found; a public FDA NDA review cited a cefazolin perioperative anaphylaxis case series with 1 Kounis case but concluded hypersensitivity/anaphylaxis were already labeled.",
+    "sources": [
+     "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=17f8f038-c204-4dab-80d7-6f7ac41ddbec",
+     "https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-12-15-january-2026-prac-meeting_en.pdf",
+     "https://www.ema.europa.eu/en/documents/prac-recommendation/new-product-information-wording-extracts-prac-recommendations-signals-adopted-12-15-january-2026-prac_en.pdf",
+     "https://www.gov.uk/drug-safety-update",
+     "https://patient-info.co.uk/cefazolin-2g-powder-for-solution-for-injection-infusion-91743/summary-of-medicine-characteristics",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/january-march-2026-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/april-june-2026-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse",
+     "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/211413Orig1s000MultidisciplineR.pdf",
+     "https://www.sentinelinitiative.org/"
+    ]
+   },
+   "annotation_urls": [],
+   "error": null
+  },
+  {
+   "id": "R183",
+   "model_served": "gpt-5.5-2026-04-23",
+   "answer": {
+    "us_status": "partial",
+    "label_product": "BALVERSA (erdafitinib) tablets, for oral use",
+    "label_version_or_date": "Revised: 10/2025; FDA label 212018s011, Reference ID 5678765",
+    "label_section": "Use in Specific Populations, 8.4 Pediatric Use",
+    "quote": "In the postmarket setting and in literature reports, cases of slipped capital femoral epiphysis and accelerated linear growth in patients treated with BALVERSA have been reported.",
+    "eu": "EU: PRAC Jan 2026 recommended adding growth acceleration/epiphysiolysis; current EMA SmPC section 4.8 includes it for paediatric/off-label use.",
+    "uk": "UK MHRA: current UK SmPC section 4.8 includes growth acceleration and epiphysiolysis in paediatric patients; text revision 20/05/2026.",
+    "us_regulator": "Yes—FDA pharmacovigilance authors published a public FAERS/literature postmarketing evaluation and state FDA revised the USPI; no Sentinel study found.",
+    "sources": [
+     "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2a8aa5c0-6c92-4566-8c45-e8f4d1fc20ee",
+     "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/212018s011lbl.pdf",
+     "https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-12-15-january-2026-prac-meeting_en.pdf",
+     "https://www.ema.europa.eu/en/documents/product-information/balversa-epar-product-information_en.pdf",
+     "https://www.ema.europa.eu/en/medicines/human/EPAR/balversa",
+     "https://www.medicines.org.uk/emc/product/100245/smpc",
+     "https://products.mhra.gov.uk/",
+     "https://www.gov.uk/guidance/find-product-information-about-medicines",
+     "https://pmc.ncbi.nlm.nih.gov/articles/PMC13008465/"
+    ]
+   },
+   "annotation_urls": [],
+   "error": null
+  },
+  {
+   "id": "R184",
+   "model_served": "gpt-5.5-2026-04-23",
+   "answer": {
+    "us_status": "not found",
+    "label_product": "DOXIL (doxorubicin hydrochloride liposome injection)",
+    "label_version_or_date": "DailyMed version 5 (current); Revised 3/2026; Updated March 10, 2026; Published March 18, 2026",
+    "label_section": "Not found in current U.S. label; no occurrences of thrombotic, microangiopathy, renal, kidney, creatinine, or hemolytic/haemolytic.",
+    "quote": "",
+    "eu": "EMA/PRAC adopted EPITT 20193 on 2026-01-15: add renal-limited thrombotic microangiopathy to SmPC 4.8 Renal and urinary disorders (frequency not known) and the package leaflet; Caelyx EPAR PI updated 2026-04-24 includes it.",
+    "uk": "UK/MHRA product information includes renal-limited thrombotic microangiopathy in SmPC section 4.8 Renal and urinary disorders (frequency not known); UK change history records implementation of PRAC EPITT 20193 in 2026.",
+    "us_regulator": "FDA: no Doxil/pegylated liposomal doxorubicin renal-limited TMA item found on the public AEMS potential-signal lists searched through Apr-Jun 2026; Sentinel has a public liposomal doxorubicin descriptive/generic-equivalence study, not a TMA safety evaluation.",
+    "sources": [
+     "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=917eddf9-1d3f-4abe-8c81-d33b066e5bae&version=5",
+     "https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-12-15-january-2026-prac-meeting_en.pdf",
+     "https://www.ema.europa.eu/en/documents/product-information/caelyx-pegylated-liposomal-epar-product-information_en.pdf",
+     "https://products.mhra.gov.uk/product?product=DOXORUBICIN+PEGYLATED+LIPOSOMAL+2+MG/ML+CONCENTRATE+FOR+SOLUTION+FOR+INFUSION",
+     "https://www.medicines.org.uk/emc/product/101446/smpc",
+     "https://www.accord-healthcare-products.co.uk/document/smpc-doxorubicin-pegylated-liposomal-2mgml-concentrate-for-solution-for-infusion/changes?back=doxorubicin-pegylated-liposomal",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/april-june-2026-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse",
+     "https://stg.sentinelinitiative.org/studies/drugs/liposomal-doxorubicin",
+     "https://stg.sentinelinitiative.org/studies/drugs/individual-drug-analyses/counts-and-characteristics-pegylated-liposomal-doxorubicin"
+    ]
+   },
+   "annotation_urls": [],
+   "error": null
+  },
+  {
+   "id": "R185",
+   "model_served": "gpt-5.5-2026-04-23",
+   "answer": {
+    "us_status": "partial",
+    "label_product": "IXCHIQ (Chikungunya Vaccine, Live)",
+    "label_version_or_date": "FDA Prescribing Information revised 8/2025",
+    "label_section": "6.2 Postmarketing Experience, under Adverse Reactions",
+    "quote": "Adverse reactions in postmarketing reports which are consistent with serious chikungunya-like illness [see Warnings and Precautions (5.2) and Adverse Reactions (6.1)] include arthralgia, asthenia, atrial flutter, back pain, encephalitis (fatal), encephalopathy, headache, meningismus/aseptic meningitis, myalgia, photophobia, tachycardia, thrombocytopenia, and troponin increased.",
+    "eu": "EMA/PRAC: March 2026 signal review recommended PI wording update for the known risk, including serious reactions in young adults with no relevant comorbidities; EU PI/wording includes aseptic meningitis.",
+    "uk": "MHRA/GB: Feb 2026 safety review restricted IXCHIQ use (not >60; added contraindications); GB SmPC lists aseptic meningitis as a Not known nervous-system adverse reaction, while eMC marks the product discontinued.",
+    "us_regulator": "FDA: public safety communications describe VAERS/postmarketing evaluation, 8/2025 label update, and 8/22/2025 suspension of the IXCHIQ biologics license; no separate FDA FAERS/AEMS potential-signals listing or Sentinel study for aseptic meningitis was found.",
+    "sources": [
+     "https://www.fda.gov/media/173758/download?attachment=",
+     "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=63d5cd82-02e3-4436-b81a-12d45bb6a90b",
+     "https://purplebooksearch.fda.gov/index.cfm?blaNo=125777&event=productdetails",
+     "https://www.fda.gov/safety/medical-product-safety-information/fda-update-safety-ixchiq-chikungunya-vaccine-live-fda-safety-communication",
+     "https://www.fda.gov/safety/medical-product-safety-information/fda-update-safety-ixchiq-chikungunya-vaccine-live-fda-suspends-biologics-license-fda-safety",
+     "https://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/cber-regulated-products-permanent-discontinuations",
+     "https://www.ema.europa.eu/en/documents/prac-recommendation/new-product-information-wording-extracts-prac-recommendations-signals-adopted-9-12-march-2026-prac_en.pdf",
+     "https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-9-12-march-2026-prac-meeting_en.pdf",
+     "https://www.ema.europa.eu/en/medicines/human/EPAR/ixchiq",
+     "https://www.gov.uk/drug-safety-update/ixchiq-chikungunya-vaccine-updates-to-restrictions-of-use-following-safety-review",
+     "https://www.medicines.org.uk/emc/product/100652/smpc"
+    ]
+   },
+   "annotation_urls": [],
+   "error": null
+  },
+  {
+   "id": "R186",
+   "model_served": "gpt-5.5-2026-04-23",
+   "answer": {
+    "us_status": "not found",
+    "label_product": "Galantamine Tablets, USP (Aurobindo Pharma Limited/Aurobindo Pharma USA, Inc.; NDC 65862-458, 65862-459, 65862-460)",
+    "label_version_or_date": "DailyMed current SPL version 14; updated 2024-02-08; label revised 08/2021",
+    "label_section": "Not mentioned in the current U.S. prescribing information; searched all sections including Adverse Reactions and Postmarketing Experience for nightmare/nightmares/dream.",
+    "quote": "",
+    "eu": "EMA PRAC: March 2026 signal recommendation adopted 2026-03-12 to add SmPC 4.8 Psychiatric disorders, frequency 'Uncommon': 'Nightmare' and PL section 4: 'Nightmares'.",
+    "uk": "UK MHRA: UK product information has implemented/approved the PRAC change in SmPC 4.8 and PIL section 4 for at least some galantamine products; example Accord/Lotprosin change approved 2026-05-15 to add ADR 'Nightmares'.",
+    "us_regulator": "FDA: no public FDA evaluation found for galantamine-nightmares; FAERS/AEMS public signal lists found an unrelated Apr-Jun 2023 cholinesterase-inhibitor QT-prolongation signal including Razadyne ER/galantamine, with no action for non-Exelon products.",
+    "sources": [
+     "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4e05d1da-0eb8-4fe0-8259-f1ebb170e0dc",
+     "https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-9-12-march-2026-prac-meeting_en.pdf",
+     "https://www.ema.europa.eu/en/documents/prac-recommendation/new-product-information-wording-extracts-prac-recommendations-signals-adopted-9-12-march-2026-prac_en.pdf",
+     "https://www.gov.uk/guidance/find-product-information-about-medicines",
+     "https://accord-healthcare-products.co.uk/products/g/galantamine-capsules",
+     "https://www.medicines.org.uk/emc/product/10499/smpc",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/april-june-2023-potential-signals-serious-risksnew-safety-information-identified-fda-adverse-event",
+     "https://www.fda.gov/drugs/fdas-adverse-event-reporting-system-faers/archived-reports-potential-signals-serious-risksnew-safety-information-identified-fda-adverse-event"
+    ]
+   },
+   "annotation_urls": [],
+   "error": null
+  },
+  {
+   "id": "R187",
+   "model_served": "gpt-5.5-2026-04-23",
+   "answer": {
+    "us_status": "written",
+    "label_product": "YESCARTA (axicabtagene ciloleucel) suspension for intravenous infusion",
+    "label_version_or_date": "DailyMed current version 23; published 2026-08-17; label Revised: 8/2026; DailyMed updated 2026-08-06",
+    "label_section": "Warnings and Precautions (5.2 Neurologic Toxicities)",
+    "quote": "Cerebral edema occurred at a higher frequency in patients with primary mediastinal large B-cell lymphoma (PMBCL).",
+    "eu": "EU: PRAC Apr 2026 recommended the Yescarta PI update; current EMA SmPC adds cerebral oedema as uncommon and states risk may be higher in PMBCL patients.",
+    "uk": "UK: MHRA/UK product information for Yescarta is marketed; UK SmPC text likewise states risk for cerebral oedema may be higher in PMBCL patients and lists cerebral oedema as uncommon.",
+    "us_regulator": "FDA: public action found—2026-08-06 supplement approval letter BL 125643/802 approved revisions to Sections 5 and 6 for increased cerebral edema risk in PMBCL; no separate FAERS potential-signal or Sentinel study located.",
+    "sources": [
+     "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?lang=en&setid=9b70606e-b99c-4272-a0f1-b5523cce0c59",
+     "https://www.fda.gov/media/194133/download?attachment=",
+     "https://www.fda.gov/vaccines-blood-biologics/cellular-gene-therapy-products/yescarta",
+     "https://www.ema.europa.eu/en/documents/prac-recommendation/new-product-information-wording-extracts-prac-recommendations-signals-adopted-7-10-april-2026-prac_en.pdf",
+     "https://www.ema.europa.eu/en/documents/product-information/yescarta-epar-product-information_en.pdf",
+     "https://products.mhra.gov.uk/substance/?substance=AXICABTAGENE+CILOLEUCEL",
+     "https://www.medicines.org.uk/emc/product/9439/smpc"
+    ]
+   },
+   "annotation_urls": [],
+   "error": null
+  },
+  {
+   "id": "R188",
+   "model_served": "gpt-5.5-2026-04-23",
+   "answer": {
+    "us_status": "not found",
+    "label_product": "ICLUSIG (ponatinib hydrochloride) tablets, for oral use",
+    "label_version_or_date": "DailyMed current label updated August 14, 2026",
+    "label_section": "Not mentioned; searched current U.S. label including Boxed Warning, Warnings and Precautions, Adverse Reactions/Postmarketing, Use in Specific Populations, and Medication Guide; no 'congenital megacolon' or 'Hirschsprung' found.",
+    "quote": "",
+    "eu": "EMA/PRAC Apr 2026 recommended PI update; current EU Iclusig SmPC section 4.6 states congenital megacolon/Hirschsprung’s cases after first-trimester ponatinib exposure.",
+    "uk": "UK SmPC for Ponatinib Incyte/Iclusig-aligned ponatinib product includes the same warning in section 4.6 Pregnancy; text revised 26 Jun 2026 and eMC updated 15 Jul 2026.",
+    "us_regulator": "No FDA public evaluation found for this signal: not listed on FDA AEMS potential-signal reports through Apr-Jun 2026, and no Sentinel study specific to ponatinib/congenital megacolon identified.",
+    "sources": [
+     "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=16d804b6-4957-43ee-b18c-3b36ec37c5ac",
+     "https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-7-10-april-2026-prac-meeting_en.pdf",
+     "https://www.ema.europa.eu/en/documents/product-information/iclusig-epar-product-information_en.pdf",
+     "https://www.medicines.org.uk/emc/product/1212/smpc",
+     "https://products.mhra.gov.uk/",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/january-march-2026-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/april-june-2026-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse",
+     "https://www.sentinelinitiative.org/studies/drugs"
+    ]
+   },
+   "annotation_urls": [],
+   "error": null
+  },
+  {
+   "id": "R189",
+   "model_served": "gpt-5.5-2026-04-23",
+   "answer": {
+    "us_status": "written",
+    "label_product": "CREON (pancrelipase) delayed-release capsules",
+    "label_version_or_date": "Revised: 2/2024; DailyMed current SPL set 073201aa-556d-4a70-918e-84e9616fd88d",
+    "label_section": "Warnings and Precautions, section 5.4 Risk of Viral Transmission",
+    "quote": "Although the risk that CREON will transmit an infectious agent to humans has been reduced by testing for certain viruses during manufacturing and by inactivating certain viruses during manufacturing, there is a theoretical risk for transmission of viral disease, including diseases caused by novel or unidentified viruses.",
+    "eu": "EU PRAC May 2026: product-information update recommended for pancreatin, SmPC section 4.4 and leaflet, adding Hepatitis E virus infection wording for porcine pancreas powder extracts.",
+    "uk": "UK/MHRA: UK product information for pancreatin products is published on the MHRA Products site; current UK Creon SmPC/PIL include Hepatitis E virus infection wording in section 4.4 / leaflet section 2.",
+    "us_regulator": "FDA: no current AEMS/FAERS potential-signal or Sentinel viral-transmission item found; FDA public approval/REMS reviews previously evaluated porcine-derived pancreatic enzyme products as carrying a theoretical/remote porcine-virus transmission risk.",
+    "sources": [
+     "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=073201aa-556d-4a70-918e-84e9616fd88d",
+     "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/020725s031lbl.pdf",
+     "https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-4-7-may-2026-prac-meeting_en.pdf",
+     "https://www.ema.europa.eu/en/documents/prac-recommendation/new-product-information-wording-extracts-prac-recommendations-signals-adopted-4-7-may-2026-prac_en.pdf",
+     "https://products.mhra.gov.uk/substance/?substance=PANCREATIN",
+     "https://www.gov.uk/guidance/find-product-information-about-medicines",
+     "https://www.medicines.org.uk/emc/product/1167/smpc",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/april-june-2026-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse",
+     "https://www.accessdata.fda.gov/drugsatfda_docs/pediatric/Creon-Clinical-Review.pdf"
+    ]
+   },
+   "annotation_urls": [],
+   "error": null
+  },
+  {
+   "id": "R190",
+   "model_served": "gpt-5.5-2026-04-23",
+   "answer": {
+    "us_status": "partial",
+    "label_product": "NUBEQA (darolutamide) tablets, for oral use",
+    "label_version_or_date": "Revised: 9/2026; FDA NDA 212099/S-016 label, Reference ID 5873203",
+    "label_section": "6.2 Postmarketing Experience",
+    "quote": "Skin and Subcutaneous Tissue Disorders: Angioedema (includes laryngeal edema, lip swelling, swelling face and swollen tongue)",
+    "eu": "EU PRAC adopted 11 Jun 2026 signal recommendation: update Nubeqa SmPC 4.8 and package leaflet to add angioedema under Skin/subcutaneous disorders, frequency not known, post-marketing.",
+    "uk": "UK MHRA/GB SmPC lists angioedema in section 4.8 as Not known under Skin and subcutaneous tissue disorders, with post-marketing footnote; emc last updated 17 Aug 2026.",
+    "us_regulator": "FDA public record: NDA 212099/S-016 supplement approval letter signed 22 Sep 2026 states the USPI was revised to include angioedema in Section 6.2; no separate FAERS potential-signals or Sentinel posting was found in the searched FDA pages.",
+    "sources": [
+     "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1a7cb212-56e4-4b9d-a73d-bfee7fe4735e",
+     "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/212099s016lbl.pdf",
+     "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/212099Orig1s016ltr.pdf",
+     "https://www.ema.europa.eu/sk/media/74502",
+     "https://www.ema.europa.eu/en/medicines/human/EPAR/nubeqa",
+     "https://www.gov.uk/guidance/find-product-information-about-medicines",
+     "https://www.medicines.org.uk/emc/product/11324/smpc"
+    ]
+   },
+   "annotation_urls": [],
+   "error": null
+  },
+  {
+   "id": "R191",
+   "model_served": "gpt-5.5-2026-04-23",
+   "answer": {
+    "us_status": "written",
+    "label_product": "Gemcitabine Injection, for intravenous use — Hospira, Inc.",
+    "label_version_or_date": "DailyMed updated April 27, 2026; U.S. PI revised 5/2024; LAB-1030-4.0",
+    "label_section": "Warnings and Precautions, 5.3 Severe Cutaneous Adverse Reactions (SCARs)",
+    "quote": "SCARs, including Stevens-Johnson syndrome (SJS), toxic epidermal necrolysis (TEN), drug reaction with eosinophilia and systemic symptoms (DRESS), and acute generalized exanthematous pustulosis (AGEP), which can be life-threatening or fatal, have been reported in association with gemcitabine treatment [see Adverse Reactions (6.2)]. Monitor patients for signs and symptoms of severe cutaneous adverse reactions. Permanently discontinue gemcitabine in patients who develop SCARs.",
+    "eu": "EU: PRAC signal EPITT 20256 adopted 11 June 2026 recommends adding DRESS to gemcitabine SmPC section 4.4 as a warning and section 4.8 as an undesirable effect with frequency not known.",
+    "uk": "UK: current UK SmPCs appear updated to include DRESS in sections 4.4 and 4.8; GOV.UK/MHRA had a September 2025 gemcitabine alert on serious skin reactions that did not yet list DRESS.",
+    "us_regulator": "FDA: yes—FAERS/AEMS potential-signals list for July–September 2023 listed Gemcitabine/Infugem for DRESS; FDA says gemcitabine labeling was updated May–September 2024 for SCARs.",
+    "sources": [
+     "https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e18ed1cb-7dd0-4001-bfda-17d1f4587fb8",
+     "https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-8-11-june-2026-prac-meeting_en.pdf",
+     "https://www.ema.europa.eu/en/documents/minutes/minutes-prac-meeting-8-11-june-2026_en.pdf",
+     "https://www.gov.uk/drug-device-alerts/class-4-medicines-defect-notification-hikma-farmaceutica-gemcitabine-2g-slash-52-dot-6ml-concentrate-for-solution-for-infusion-el-25-a-slash-43",
+     "https://www.medicines.org.uk/emc/product/4483/smpc",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/july-september-2023-potential-signals-serious-risksnew-safety-information-identified-fda-adverse"
+    ]
+   },
+   "annotation_urls": [],
+   "error": null
+  },
+  {
+   "id": "R192",
+   "model_served": "gpt-5.5-2026-04-23",
+   "answer": {
+    "us_status": "not found",
+    "label_product": "Depakote (divalproex sodium) delayed-release tablets, AbbVie Inc. (U.S.-approved/marketed)",
+    "label_version_or_date": "DailyMed updated March 31, 2026; FDA label revised 3/2026, Reference ID 5770126",
+    "label_section": "Not found for neurodevelopmental disorders with paternal exposure; the U.S. PI discusses neurodevelopmental disorders only following in utero exposure (Boxed Warning, Warnings and Precautions 5.3, Use in Specific Populations 8.1) and discusses male fertility/infertility separately (8.3/Medication Guide).",
+    "quote": "",
+    "eu": "EU PRAC (8-11 Jun 2026): evidence for NDDs in children born to men treated with valproate is inconsistent and causality uncertain; 2024 male-patient precautionary measures remain and PI/HCP/male-patient guides are to be updated.",
+    "uk": "UK MHRA: current reproductive-risk materials warn that men taking valproate in the 3 months before conception may have about 5/100 children with neurodevelopmental conditions; causality unclear; contraception is advised during treatment and for 3 months after, with under-55 initiation safeguards.",
+    "us_regulator": "FDA: no public FDA evaluation found for paternal-exposure NDD; AEMS Jan-Mar 2026 lists valproate for pleural effusion only and Apr-Jun 2026 has no valproate entry; no Sentinel study on this paternal-exposure NDD signal was found.",
+    "sources": [
+     "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=08a65cf4-7749-4ceb-6895-8f4805e2b01f",
+     "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/018723s073lbl.pdf",
+     "https://www.ema.europa.eu/en/news/meeting-highlights-pharmacovigilance-risk-assessment-committee-prac-8-11-june-2026",
+     "https://www.ema.europa.eu/en/human-regulatory-overview/post-authorisation/pharmacovigilance-post-authorisation/signal-management/prac-recommendations-safety-signals",
+     "https://www.gov.uk/guidance/valproate-reproductive-risks",
+     "https://www.gov.uk/drug-safety-update/valproate-belvo-convulex-depakote-dyzantil-epilim-epilim-chrono-or-chronosphere-episenta-epival-and-syonellv-updated-safety-and-educational-materials-to-support-patient-discussion-on-reproductive-risks",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/january-march-2026-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/april-june-2026-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse",
+     "https://www.sentinelinitiative.org/studies/drugs"
+    ]
+   },
+   "annotation_urls": [],
+   "error": null
+  },
+  {
+   "id": "R193",
+   "model_served": "gpt-5.5-2026-04-23",
+   "answer": {
+    "us_status": "not found",
+    "label_product": "VISIPAQUE (iodixanol) injection, for intra-arterial or intra-venous use",
+    "label_version_or_date": "DailyMed current version 14; published Nov 17, 2025; DailyMed updated Oct 10, 2025; PI revised 8/2025",
+    "label_section": "None for fixed drug eruption; term not found in current U.S. label. Related nonspecific skin terms appear only in Adverse Reactions/Postmarketing Experience, but not fixed drug eruption.",
+    "quote": "",
+    "eu": "EU PRAC: June 8-11, 2026 signal recommendation to update SmPC section 4.8 (Skin and subcutaneous tissue disorders; frequency Not known) to add “Fixed drug eruption,” with corresponding package leaflet wording.",
+    "uk": "UK: current UK SmPC for VISIPAQUE 320 lists “Fixed drug eruption” in section 4.8, Skin and subcutaneous system disorders, frequency Not known; eMC last updated Sept 23, 2026.",
+    "us_regulator": "No FDA public evaluation found for fixed drug eruption with iodixanol/Visipaque or iodinated contrast media; FDA’s public ICM safety page addresses thyroid monitoring, and the FDA AEMS/FAERS potential-signal entry found for fixed drug eruption concerns NSAIDs, not iodixanol/ICM.",
+    "sources": [
+     "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e9d87b8c-7695-4c0f-8e81-000dedb5f66d",
+     "https://www.ema.europa.eu/fr/media/74502",
+     "https://www.ema.europa.eu/en/human-regulatory-overview/post-authorisation/pharmacovigilance-post-authorisation/signal-management/prac-recommendations-safety-signals",
+     "https://www.medicines.org.uk/emc/product/14804/smpc",
+     "https://www.gov.uk/guidance/find-product-information-about-medicines",
+     "https://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers/iodinated-contrast-media-icm",
+     "https://www.fda.gov/drugs/fdas-adverse-event-reporting-system-faers/october-december-2022-potential-signals-serious-risksnew-safety-information-identified-fda-adverse"
+    ]
+   },
+   "annotation_urls": [],
+   "error": null
+  },
+  {
+   "id": "R194",
+   "model_served": "gpt-5.5-2026-04-23",
+   "answer": {
+    "us_status": "partial",
+    "label_product": "VYLOY (zolbetuximab-clzb) for injection, for intravenous use",
+    "label_version_or_date": "DailyMed current version 5; updated August 11, 2026; highlights revised 8/2026",
+    "label_section": "6.2 Post-Marketing Experience (under 6 Adverse Reactions)",
+    "quote": "Gastrointestinal Disorders: gastritis, protein-losing gastroenteropathy",
+    "eu": "EMA/PRAC June 2026 recommended adding protein-losing gastroenteropathy to SmPC 4.8 as a gastrointestinal adverse reaction with frequency not known; EMA EPAR product information is updated 11/09/2026.",
+    "uk": "MHRA approved Vyloy on 14 August 2024; current UK SmPC lists protein-losing gastroenteropathy under gastrointestinal disorders with frequency not known.",
+    "us_regulator": "FDA has an approved label update, but no public AEMS/FAERS potential-signal listing for Vyloy/zolbetuximab or Sentinel study on this risk was located in FDA public pages searched.",
+    "sources": [
+     "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e7695a21-abb6-47ac-93f8-0ece5a9c4409",
+     "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-zolbetuximab-clzb-chemotherapy-gastric-or-gastroesophageal-junction-adenocarcinoma",
+     "https://www.ema.europa.eu/fr/media/74502",
+     "https://www.ema.europa.eu/en/medicines/human/EPAR/vyloy",
+     "https://www.gov.uk/government/news/mhra-approves-zolbetuximab",
+     "https://www.medicines.org.uk/emc/product/15889/smpc",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/january-march-2026-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/april-june-2026-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse"
+    ]
+   },
+   "annotation_urls": [],
+   "error": null
+  },
+  {
+   "id": "R195",
+   "model_served": "gpt-5.5-2026-04-23",
+   "answer": {
+    "us_status": "not found",
+    "label_product": "NEXPLANON (etonogestrel implant), for subdermal use",
+    "label_version_or_date": "DailyMed current SPL version 13; revised 5/2026; uspi-og8415-iptx-2605r004",
+    "label_section": "Not found in Boxed Warning, Contraindications, Warnings and Precautions, Adverse Reactions/Postmarketing, Use in Specific Populations, or Patient Package Insert; DailyMed text search found no 'meningioma'.",
+    "quote": "",
+    "eu": "EU/EMA PRAC: July 2026 signal recommendation adopted 9 July 2026; product information to add meningioma/history of meningioma as a contraindication, a warning/monitoring/discontinuation advice, and meningioma as an adverse reaction of unknown frequency; DHPC published/disseminated 6 Aug 2026.",
+    "uk": "UK/MHRA: no GOV.UK/MHRA Drug Safety Update or MHRA public desogestrel/etonogestrel-meningioma communication located; MHRA products service is the official current SPC/PIL source, but I found no UK Nexplanon meningioma update in the public search results reviewed.",
+    "us_regulator": "FDA: no public FDA meningioma-specific evaluation for Nexplanon/etonogestrel found; AEMS potential-signal pages reviewed did not list meningioma, although Nexplanon appeared for site-specific procedural complications, and Sentinel lists an etonogestrel implant insertion/removal descriptive analysis, not meningioma.",
+    "sources": [
+     "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=487f8a62-e142-457c-97cc-2e398fde7594",
+     "https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-6-9-july-2026-prac-meeting_en.pdf",
+     "https://www.ema.europa.eu/en/news/meeting-highlights-pharmacovigilance-risk-assessment-committee-prac-6-9-july-2026",
+     "https://www.ema.europa.eu/en/medicines/dhpc/desogestrel-etonogestrel",
+     "https://www.gov.uk/guidance/find-product-information-about-medicines",
+     "https://products.mhra.gov.uk/product/?product=NEXPLANON+68+MG+IMPLANT+FOR+SUBDERMAL+USE",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/april-june-2026-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/october-december-2024-new-safety-information-or-potential-signals-serious-risks-identified-fda?Fds-Load-Behavior=force-external",
+     "https://www.sentinelinitiative.org/studies/drugs/individual-drug-analyses/etonogestrel-implant-insertions-and-removals-among-females"
+    ]
+   },
+   "annotation_urls": [],
+   "error": null
+  },
+  {
+   "id": "R196",
+   "model_served": "gpt-5.5-2026-04-23",
+   "answer": {
+    "us_status": "written",
+    "label_product": "Skyla (levonorgestrel-releasing intrauterine system), 13.5 mg levonorgestrel",
+    "label_version_or_date": "DailyMed current label updated 2026-03-04; full prescribing information revised 03/2023",
+    "label_section": "Warnings and Precautions, section 5.1 Risk of Ectopic Pregnancy",
+    "quote": "Evaluate women for ectopic pregnancy if they become pregnant with Skyla in place because the likelihood of a pregnancy being ectopic is increased with Skyla.",
+    "eu": "EMA/PRAC: July 2026 signal recommendation (EPITT 20251) asks Bayer/Jaydess to update SmPC 4.4 and 4.8/PL to state higher ectopic-pregnancy incidence with Jaydess 13.5 mg versus other IUSs and copper IUDs.",
+    "uk": "MHRA/GOV.UK: Jaydess is marketed/licensed in the UK; no GOV.UK MHRA 2026 ectopic-pregnancy Drug Safety Update found, while the UK SmPC already warns in section 4.4/4.8 about ectopic pregnancy but did not show the July 2026 PRAC comparative wording.",
+    "us_regulator": "FDA: public materials include the original NDA/PREA review and a 2016 pediatric FAERS safety/utilization review; the 2016 review found no new safety signals and recommended routine pharmacovigilance, and no public FDA AEMS potential-signal or Sentinel ectopic-pregnancy evaluation for Skyla was found.",
+    "sources": [
+     "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9f44ff35-e052-49cd-a1c2-0bfd87d49309",
+     "https://www.ema.europa.eu/mt/media/74874",
+     "https://www.gov.uk/drug-safety-update/levonorgestrel-releasing-intrauterine-systems-prescribe-by-brand-name",
+     "https://www.medicines.org.uk/emc/medicine/28672/SPC/jaydess%2013.5%20mg%20intrauterine%20delivery%20system",
+     "https://www.fda.gov/media/85815/download",
+     "https://www.fda.gov/media/96779/download",
+     "https://www.fda.gov/drugs/drug-safety-and-availability/postmarket-drug-safety-information-patients-and-providers",
+     "https://www.fda.gov/science-research/real-world-evidence/cder-postmarketing-studies-used-real-world-evidence"
+    ]
+   },
+   "annotation_urls": [],
+   "error": null
+  },
+  {
+   "id": "R197",
+   "model_served": "gpt-5.5-2026-04-23",
+   "answer": {
+    "us_status": "partial",
+    "label_product": "Oxacillin Injection, USP in Plastic Container; Baxter Healthcare Corporation; NDA 050640",
+    "label_version_or_date": "DailyMed updated August 31, 2026; label Rev. August 2026",
+    "label_section": "ADVERSE REACTIONS — Skin and Subcutaneous Tissue Disorders",
+    "quote": "Drug reaction with eosinophilia and systemic symptoms (DRESS) has been identified during postapproval use of oxacillin.",
+    "eu": "EMA/PRAC adopted 3 September 2026: recommends adding DRESS warning to SmPC section 4.4 and DRESS as frequency not known in section 4.8 for oxacillin-containing products.",
+    "uk": "MHRA/GOV.UK: no UK MHRA oxacillin SmPC/PIL or UK-specific DRESS update located in MHRA product-information searches.",
+    "us_regulator": "FDA: public supplement-approval letter NDA 050640/S-024 dated 31 August 2026 says the CBE sNDA revised ADVERSE REACTIONS to add DRESS; no oxacillin/DRESS entry found on 2026 AEMS potential-signals pages or Sentinel search.",
+    "sources": [
+     "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d893e45b-7f18-4c67-b10c-1e2e52a6b3ef",
+     "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/050640Orig1s024ltr.pdf",
+     "https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-31-august-3-september-2026-prac-meeting_en.pdf",
+     "https://www.gov.uk/guidance/find-product-information-about-medicines",
+     "https://products.mhra.gov.uk/substance-index",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/january-march-2026-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse",
+     "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/april-june-2026-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse",
+     "https://www.fda.gov/safety/fdas-sentinel-initiative/fdas-sentinel-initiative-ongoing-projects"
+    ]
+   },
+   "annotation_urls": [],
+   "error": null
+  }
+ ]
+}

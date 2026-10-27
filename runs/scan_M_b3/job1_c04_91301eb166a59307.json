@@ -1,0 +1,18 @@
+{
+ "tag": "job1_c04",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {},
+ "latency": 46.235,
+ "hadThink": true,
+ "tries": 1,
+ "call": {
+  "stream": true,
+  "tierSplit": false,
+  "isoScope": true
+ },
+ "promptTokensEstimated": 873,
+ "rawChars": 940,
+ "task": "Continuing a chunked research run. Goal (truncated): Scan PRAC rows batch 1-22 into the divergence ledger and keep the cross-entry index in CONTEXT.\n\n[CARRYOVER STATE]\nCOMPLETED: R009\nREMAINING: 13\nDECISIONS: -\nCONTEXT: Interference with clinical laboratory tests: R001 Biotin A11H nf; Dysphagia: R002 Gabapentin N02B nf; Hypoparathyroidism: R003 Nivolumab L01F/L01X w; Paracetamol pregnancy neurodevelopment: R004 Paracetamol N02B nf; Foetal outcomes congenital anomalies: R005 Armodafinil/Modafinil N06B nf; Recurrent thrombosis antiphospholipid syndrome: R006 Rivaroxaban+ B01A nf; Drug interaction with fluconazole: R007 Citalopram/Escitalopram N06A nf; Persistent sexual dysfunction after drug withdrawal: R008 Clomipramine/SNRI N06A nf; Interaction with boosted antiviral HIV therapy: R009 Clopidogrel B01A nf\n\nContinue exactly where the state leaves off. Do not repeat completed work.\n\n[BATCH 4 of 66; chunk 4 of 22 in this job]\nR010 | PRAC 2019-05 | Pantoprazole | ATC3 A02B | signal: Colitis microscopic | US label: not found (protonix, label effective 20260518)\nR011 | PRAC 2019-05 | Sertraline | ATC3 N06A | signal: Maculopathy | US label: not found (sertraline, label effective 20260903)\nR012 | PRAC 2019-06 | Loperamide | ATC3 A07D | signal: Brugada syndrome in the context of abuse with loperamide | US label: not found (loperamide, label effective 20260909)\n\nEnd every non-final chunk with [STATE_CHECKPOINT] followed by a concise state block:\nCOMPLETED: ...\nREMAINING: ...\nDECISIONS: ...\nCONTEXT: ...\nEnd the final chunk with [TASK_COMPLETE]. Exactly one marker per chunk. Never narrate the markers.",
+ "text": "{\"id\":\"R010\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R011\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R012\",\"us\":\"not found\",\"cross\":[]}\n[STATE_CHECKPOINT]\nCOMPLETED: R012\nREMAINING: 10\nDECISIONS: -\nCONTEXT: Interference with clinical laboratory tests: R001 Biotin A11H nf; Dysphagia: R002 Gabapentin N02B nf; Hypoparathyroidism: R003 Nivolumab L01F/L01X w; Paracetamol pregnancy neurodevelopment: R004 Paracetamol N02B nf; Foetal outcomes congenital anomalies: R005 Armodafinil/Modafinil N06B nf; Recurrent thrombosis antiphospholipid syndrome: R006 Rivaroxaban+ B01A nf; Drug interaction with fluconazole: R007 Citalopram/Escitalopram N06A nf; Persistent sexual dysfunction after drug withdrawal: R008 Clomipramine/SNRI N06A nf; Interaction with boosted antiviral HIV therapy: R009 Clopidogrel B01A nf; Colitis microscopic: R010 Pantoprazole A02B nf; Maculopathy: R011 Sertraline N06A nf; Brugada syndrome (loperamide abuse): R012 Loperamide A07D nf"
+}

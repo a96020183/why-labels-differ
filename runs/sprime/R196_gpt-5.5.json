@@ -1,0 +1,21 @@
+{
+ "id": "R196",
+ "model_requested": "gpt-5.5",
+ "model_served": "gpt-5.5-2026-04-23",
+ "secs": 70.5,
+ "usage": {
+  "input_tokens": 78578,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 3712
+  },
+  "output_tokens": 3302,
+  "output_tokens_details": {
+   "reasoning_tokens": 2759
+  },
+  "total_tokens": 81880
+ },
+ "text": "{\"us_status\":\"written\",\"label_product\":\"Skyla (levonorgestrel-releasing intrauterine system), 13.5 mg levonorgestrel\",\"label_version_or_date\":\"DailyMed current label updated 2026-03-04; full prescribing information revised 03/2023\",\"label_section\":\"Warnings and Precautions, section 5.1 Risk of Ectopic Pregnancy\",\"quote\":\"Evaluate women for ectopic pregnancy if they become pregnant with Skyla in place because the likelihood of a pregnancy being ectopic is increased with Skyla.\",\"eu\":\"EMA/PRAC: July 2026 signal recommendation (EPITT 20251) asks Bayer/Jaydess to update SmPC 4.4 and 4.8/PL to state higher ectopic-pregnancy incidence with Jaydess 13.5 mg versus other IUSs and copper IUDs.\",\"uk\":\"MHRA/GOV.UK: Jaydess is marketed/licensed in the UK; no GOV.UK MHRA 2026 ectopic-pregnancy Drug Safety Update found, while the UK SmPC already warns in section 4.4/4.8 about ectopic pregnancy but did not show the July 2026 PRAC comparative wording.\",\"us_regulator\":\"FDA: public materials include the original NDA/PREA review and a 2016 pediatric FAERS safety/utilization review; the 2016 review found no new safety signals and recommended routine pharmacovigilance, and no public FDA AEMS potential-signal or Sentinel ectopic-pregnancy evaluation for Skyla was found.\",\"sources\":[\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9f44ff35-e052-49cd-a1c2-0bfd87d49309\",\"https://www.ema.europa.eu/mt/media/74874\",\"https://www.gov.uk/drug-safety-update/levonorgestrel-releasing-intrauterine-systems-prescribe-by-brand-name\",\"https://www.medicines.org.uk/emc/medicine/28672/SPC/jaydess%2013.5%20mg%20intrauterine%20delivery%20system\",\"https://www.fda.gov/media/85815/download\",\"https://www.fda.gov/media/96779/download\",\"https://www.fda.gov/drugs/drug-safety-and-availability/postmarket-drug-safety-information-patients-and-providers\",\"https://www.fda.gov/science-research/real-world-evidence/cder-postmarketing-studies-used-real-world-evidence\"]}",
+ "annotation_urls": [],
+ "at": "2026-10-24T02:04:36"
+}

@@ -1,0 +1,14 @@
+{
+ "tag": "job2_c01",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3.5-super-vl-120b-a12b",
+ "usage": {
+  "prompt_tokens": 3283,
+  "completion_tokens": 1485,
+  "total_tokens": 4768
+ },
+ "latency": 34.293,
+ "hadThink": false,
+ "promptTokensEstimated": 1324,
+ "text": "1. Parse rows R097–R104: extract id, substance(s), ATC3 level 3, signal text, and US label status from each fact line.\n2. Load prior ledger state to identify all earlier scanned rows available as cross-reference candidates.\n3. Assign each row's \"us\" field strictly from its given fact line (written / partial / not found / not marketed); never infer or guess.\n4. Build each row's \"cross\" array: earlier rows with the identical signal but a different ATC3 level 3; include id, substance, and us; exclude same-class rows.\n5. Output exactly one JSON object per row on its own line in meeting order.\n6. Update the state block: COMPLETED, REMAINING, DECISIONS, and CONTEXT cross-entry index (reaction: R### substance ATC3 US-status; …), pruning least-likely-to-recur entries to stay under 3,000 characters.\n7. Close the chunk with [STATE_CHECKPOINT] if more rows remain, or [TASK_COMPLETE] if this is the final chunk."
+}

@@ -1,0 +1,21 @@
+{
+ "id": "R159",
+ "model_requested": "gpt-5.5",
+ "model_served": "gpt-5.5-2026-04-23",
+ "secs": 99.8,
+ "usage": {
+  "input_tokens": 90918,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 3712
+  },
+  "output_tokens": 3656,
+  "output_tokens_details": {
+   "reasoning_tokens": 3134
+  },
+  "total_tokens": 94574
+ },
+ "text": "{\"us_status\":\"not found\",\"label_product\":\"GILOTRIF (afatinib tablets), for oral use\",\"label_version_or_date\":\"DailyMed/FDA SPL version 20; Effective Time 2025-11-13; Revised 11/2025\",\"label_section\":\"Not found in current U.S. prescribing information or patient information; searched label text for eyelash, lashes, trichiasis, and hair\",\"quote\":\"\",\"eu\":\"EU/EMA: Giotrif product information lists section 4.8 Eye disorders, uncommon: Aberrant eyelash growth; PRAC Jan 2025 recommended this update.\",\"uk\":\"UK/MHRA: UK Giotrif SmPC section 4.8 lists Eye disorders, uncommon: Keratitis; Aberrant eyelash growth.\",\"us_regulator\":\"FDA: no public FDA evaluation specific to afatinib-growth of eyelashes found in AEMS/FAERS potential-signal or Sentinel sources searched; FDA's 2026 generic-afatinib notice repeats existing Gilotrif warnings/common adverse reactions without eyelash growth.\",\"sources\":[\"https://www.dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=fd638e5e-8032-e7ca-0179-95e96ab5d387&type=display\",\"https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fd638e5e-8032-e7ca-0179-95e96ab5d387\",\"https://www.ema.europa.eu/en/documents/other/new-product-information-wording-extracts-prac-recommendations-signals-adopted-13-16-january-2025-prac_en.pdf\",\"https://www.ema.europa.eu/en/documents/product-information/giotrif-epar-product-information_en.pdf\",\"https://www.medicines.org.uk/emc/product/7699/smpc\",\"https://products.mhra.gov.uk/\",\"https://www.gov.uk/guidance/find-product-information-about-medicines\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring\",\"https://www.fda.gov/drugs/drug-alerts-and-statements/fda-approves-first-generics-gilotrif-afatinib-tablets\",\"https://www.sentinelinitiative.org/studies/drugs\"]}",
+ "annotation_urls": [],
+ "at": "2026-10-24T01:48:40"
+}

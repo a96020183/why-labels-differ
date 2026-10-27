@@ -1,0 +1,18 @@
+{
+ "tag": "b27",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {},
+ "latency": 45.677,
+ "hadThink": true,
+ "tries": 2,
+ "call": {
+  "stream": true,
+  "tierSplit": false,
+  "isoScope": true
+ },
+ "promptTokensEstimated": 773,
+ "rawChars": 119,
+ "task": "[RETRIEVED EVIDENCE LEDGER ROWS - same ingredient or same ATC level 3 as a row in this batch; 5 of 5 matches, most recent]\nR002 | PRAC 2019-01 | Gabapentin | ATC3 N02B | signal: Dysphagia | US label: not found (gabapentin, label effective 20260911) | ledger: {\"id\":\"R002\",\"us\":\"not found\",\"cross\":[]}\nR004 | PRAC 2019-03 | Paracetamol | ATC3 N02B | signal: Paracetamol use in pregnancy and child neurodevelopment and effects on the urogenital apparatus | US label: unknown (paracetamol) | ledger: {\"id\":\"R004\",\"us\":\"unknown\",\"cross\":[]}\nR024 | PRAC 2019-09 | Ibuprofen | ATC3 C01E,G02C,M01A,M02A,N02A,R02A | signal: Acute generalised exanthematous pustulosis (AGEP) | US label: not found (ibuprofen, label effective 20260909) | ledger: {\"id\":\"R024\",\"us\":\"not found\",\"cross\":[]}\nR036 | PRAC 2020-04 | Ibuprofen; ketoprofen | ATC3 C01E,G02C,M01A,M02A,N02A,R02A | signal: Serious exacerbation of infections | US label: not found (ibuprofen, label effective 20260909) | ledger: {\"id\":\"R036\",\"us\":\"not found\",\"cross\":[]}\nR040 | PRAC 2020-05 | Buprenorphine; buprenorphine, naloxone | ATC3 A06A,N02A,N07B,V03A | signal: Drug-drug interaction with serotonergic drugs leading to serotonin syndrome | US label: not found (buprenorphine, label effective 20260817) | ledger: {\"id\":\"R040\",\"us\":\"not found\",\"cross\":[]}\n\n[BATCH 27 of 66]\nR079 | PRAC 2021-05 | Sulfamethoxazole, trimethoprim (co-trimoxazole) | ATC3 J01E | signal: Acute respiratory distress syndrome | US label: partial (sulfamethoxazole, label effective 20260902, section: adverse_reactions)\nR080 | PRAC 2021-05 | Sulfamethoxazole, trimethoprim (co-trimoxazole) | ATC3 J01E | signal: Haemophagocytic lymphohistiocytosis | US label: written (bactrim, label effective 20241230, section: warnings)\nR081 | PRAC 2021-05 | Tramadol; tramadol, dexketoprofen; tramadol, paracetamol | ATC3 M01A,M02A,N02A,N02B | signal: Serotonin syndrome | US label: written (tramadol, label effective 20260901, section: warnings_and_cautions)",
+ "text": "{\"id\":\"R079\",\"us\":\"partial\",\"cross\":[]}\n{\"id\":\"R080\",\"us\":\"written\",\"cross\":[]}\n{\"id\":\"R081\",\"us\":\"written\",\"cross\":[]}"
+}

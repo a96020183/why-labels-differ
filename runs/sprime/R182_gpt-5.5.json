@@ -1,0 +1,21 @@
+{
+ "id": "R182",
+ "model_requested": "gpt-5.5",
+ "model_served": "gpt-5.5-2026-04-23",
+ "secs": 104.7,
+ "usage": {
+  "input_tokens": 93796,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 3712
+  },
+  "output_tokens": 4184,
+  "output_tokens_details": {
+   "reasoning_tokens": 3532
+  },
+  "total_tokens": 97980
+ },
+ "text": "{\"us_status\":\"not found\",\"label_product\":\"Cefazolin for Injection USP and Dextrose Injection USP, in DUPLEX Container, B. Braun Medical Inc.\",\"label_version_or_date\":\"DailyMed current label; Revised: 8/2024\",\"label_section\":\"Not found in full U.S. PI; searched Warnings and Precautions, Contraindications, Adverse Reactions/Postmarketing, Patient Counseling, and full text for Kounis/coronary/myocardial.\",\"quote\":\"\",\"eu\":\"EU PRAC Jan 2026 recommended adding Kounis syndrome to SmPC 4.4 Special warnings/precautions and 4.8 Undesirable effects, Cardiac disorders, frequency not known.\",\"uk\":\"UK MHRA product information appears aligned for at least Cefazolin 2 g powder for injection/infusion: SmPC 4.4 warning and 4.8 Cardiac disorders Kounis syndrome, revised 25/05/2026; no GOV.UK Drug Safety Update specifically found.\",\"us_regulator\":\"FDA: no cefazolin/Kounis entry found on current AEMS/FAERS potential-signals pages through Apr-Jun 2026 and no Sentinel study found; a public FDA NDA review cited a cefazolin perioperative anaphylaxis case series with 1 Kounis case but concluded hypersensitivity/anaphylaxis were already labeled.\",\"sources\":[\"https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=17f8f038-c204-4dab-80d7-6f7ac41ddbec\",\"https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-12-15-january-2026-prac-meeting_en.pdf\",\"https://www.ema.europa.eu/en/documents/prac-recommendation/new-product-information-wording-extracts-prac-recommendations-signals-adopted-12-15-january-2026-prac_en.pdf\",\"https://www.gov.uk/drug-safety-update\",\"https://patient-info.co.uk/cefazolin-2g-powder-for-solution-for-injection-infusion-91743/summary-of-medicine-characteristics\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/january-march-2026-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/april-june-2026-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse\",\"https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/211413Orig1s000MultidisciplineR.pdf\",\"https://www.sentinelinitiative.org/\"]}",
+ "annotation_urls": [],
+ "at": "2026-10-24T01:58:49"
+}

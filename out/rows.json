@@ -1,0 +1,2382 @@
+[
+ {
+  "inn": "Biotin",
+  "substances": [
+   "biotin"
+  ],
+  "sig": "Interference with clinical laboratory tests",
+  "meeting": "14-17 January 2019 PRAC meeting minutes",
+  "yr": 2019,
+  "mo": 1,
+  "id": "R001"
+ },
+ {
+  "inn": "Gabapentin",
+  "substances": [
+   "gabapentin"
+  ],
+  "sig": "Dysphagia",
+  "meeting": "14-17 January 2019 PRAC meeting minutes",
+  "yr": 2019,
+  "mo": 1,
+  "id": "R002"
+ },
+ {
+  "inn": "Nivolumab",
+  "substances": [
+   "nivolumab"
+  ],
+  "sig": "Hypoparathyroidism",
+  "meeting": "12-15 March 2019 PRAC meeting minutes",
+  "yr": 2019,
+  "mo": 3,
+  "id": "R003"
+ },
+ {
+  "inn": "Paracetamol",
+  "substances": [
+   "paracetamol"
+  ],
+  "sig": "Paracetamol use in pregnancy and child neurodevelopment and effects on the urogenital apparatus",
+  "meeting": "12-15 March 2019 PRAC meeting minutes",
+  "yr": 2019,
+  "mo": 3,
+  "id": "R004"
+ },
+ {
+  "inn": "Armodafinil; modafinil",
+  "substances": [
+   "armodafinil",
+   "modafinil"
+  ],
+  "sig": "Evaluation of data on foetal outcomes including congenital anomalies from a single observational study in the US",
+  "meeting": "8-11 April 2019 PRAC meeting minutes",
+  "yr": 2019,
+  "mo": 4,
+  "id": "R005"
+ },
+ {
+  "inn": "Rivaroxaban; apixaban; dabigatran; edoxaban",
+  "substances": [
+   "rivaroxaban",
+   "apixaban",
+   "dabigatran",
+   "edoxaban"
+  ],
+  "sig": "Recurrent thrombosis in patients with antiphospholipid syndrome",
+  "meeting": "8-11 April 2019 PRAC meeting minutes",
+  "yr": 2019,
+  "mo": 4,
+  "id": "R006"
+ },
+ {
+  "inn": "Selective serotonin reuptake inhibitors (SSRI): citalopram; escitalopram",
+  "substances": [
+   "citalopram",
+   "escitalopram"
+  ],
+  "sig": "Drug interaction with fluconazole",
+  "meeting": "8-11 April 2019 PRAC meeting minutes",
+  "yr": 2019,
+  "mo": 4,
+  "id": "R007"
+ },
+ {
+  "inn": "Clomipramine; Serotonin and noradrenaline reuptake inhibitors (SNRI): desvenlafaxine; duloxetine; milnacipran; venlafaxine; Selective serotonin reuptake inhibitors (SSRI): citalopram; escitalopram; fluoxetine; fluvoxamine; paroxetine; sertraline; Vortioxetine",
+  "substances": [
+   "desvenlafaxine",
+   "duloxetine",
+   "milnacipran",
+   "venlafaxine",
+   "selective serotonin reuptake inhibitors : citalopram",
+   "escitalopram",
+   "fluoxetine",
+   "fluvoxamine",
+   "paroxetine",
+   "sertraline",
+   "vortioxetine"
+  ],
+  "sig": "Persistent sexual dysfunction after drug withdrawal",
+  "meeting": "13-16 May 2019 PRAC meeting minutes",
+  "yr": 2019,
+  "mo": 5,
+  "id": "R008"
+ },
+ {
+  "inn": "Clopidogrel; clopidogrel, acetylsalicylic acid",
+  "substances": [
+   "clopidogrel",
+   "acetylsalicylic acid"
+  ],
+  "sig": "Interaction with boosted antiviral human immunodeficiency virus (HIV) therapy leading to insufficient inhibition of platelet aggregation",
+  "meeting": "13-16 May 2019 PRAC meeting minutes",
+  "yr": 2019,
+  "mo": 5,
+  "id": "R009"
+ },
+ {
+  "inn": "Pantoprazole",
+  "substances": [
+   "pantoprazole"
+  ],
+  "sig": "Colitis microscopic",
+  "meeting": "13-16 May 2019 PRAC meeting minutes",
+  "yr": 2019,
+  "mo": 5,
+  "id": "R010"
+ },
+ {
+  "inn": "Sertraline",
+  "substances": [
+   "sertraline"
+  ],
+  "sig": "Maculopathy",
+  "meeting": "13-16 May 2019 PRAC meeting minutes",
+  "yr": 2019,
+  "mo": 5,
+  "id": "R011"
+ },
+ {
+  "inn": "Loperamide",
+  "substances": [
+   "loperamide"
+  ],
+  "sig": "Brugada syndrome in the context of abuse with loperamide",
+  "meeting": "11-14 June 2019 PRAC meeting minutes",
+  "yr": 2019,
+  "mo": 6,
+  "id": "R012"
+ },
+ {
+  "inn": "Propylthiouracil",
+  "substances": [
+   "propylthiouracil"
+  ],
+  "sig": "Congenital anomalies",
+  "meeting": "11-14 June 2019 PRAC meeting minutes",
+  "yr": 2019,
+  "mo": 6,
+  "id": "R013"
+ },
+ {
+  "inn": "Rivaroxaban",
+  "substances": [
+   "rivaroxaban"
+  ],
+  "sig": "Premature ending of the GALILEO study in patients who have received an artificial heart valve through a transcatheter aortic valve replacement (TAVR)",
+  "meeting": "11-14 June 2019 PRAC meeting minutes",
+  "yr": 2019,
+  "mo": 6,
+  "id": "R014"
+ },
+ {
+  "inn": "Secukinumab",
+  "substances": [
+   "secukinumab"
+  ],
+  "sig": "Dermatitis exfoliative generalised",
+  "meeting": "11-14 June 2019 PRAC meeting minutes",
+  "yr": 2019,
+  "mo": 6,
+  "id": "R015"
+ },
+ {
+  "inn": "Sulfasalazine",
+  "substances": [
+   "sulfasalazine"
+  ],
+  "sig": "Interference with dihydronicotinamide-adenine dinucleotide / dihydronicotinamide-adenine dinucleotide phosphate (NADH/NADP) reaction assays",
+  "meeting": "11-14 June 2019 PRAC meeting minutes",
+  "yr": 2019,
+  "mo": 6,
+  "id": "R016"
+ },
+ {
+  "inn": "Temozolomide",
+  "substances": [
+   "temozolomide"
+  ],
+  "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+  "meeting": "11-14 June 2019 PRAC meeting minutes",
+  "yr": 2019,
+  "mo": 6,
+  "id": "R017"
+ },
+ {
+  "inn": "Topiramate",
+  "substances": [
+   "topiramate"
+  ],
+  "sig": "Uveitis",
+  "meeting": "11-14 June 2019 PRAC meeting minutes",
+  "yr": 2019,
+  "mo": 6,
+  "id": "R018"
+ },
+ {
+  "inn": "Amino acids and/or lipids with or without admixture of vitamins or trace elements (for parenteral nutrition)",
+  "substances": [
+   "amino acids",
+   "or lipids with or without admixture of vitamins or trace elements"
+  ],
+  "sig": "Adverse outcomes in neonates treated with solutions not protected from light",
+  "meeting": "8-11 July 2019 PRAC meeting minutes",
+  "yr": 2019,
+  "mo": 7,
+  "id": "R019"
+ },
+ {
+  "inn": "Mesalazine",
+  "substances": [
+   "mesalazine"
+  ],
+  "sig": "Nephrolithiasis",
+  "meeting": "8-11 July 2019 PRAC meeting minutes",
+  "yr": 2019,
+  "mo": 7,
+  "id": "R020"
+ },
+ {
+  "inn": "Ondansetron",
+  "substances": [
+   "ondansetron"
+  ],
+  "sig": "Signal of birth defects following in-utero exposure during the first trimester of pregnancy arising from recent publications",
+  "meeting": "8-11 July 2019 PRAC meeting minutes",
+  "yr": 2019,
+  "mo": 7,
+  "id": "R021"
+ },
+ {
+  "inn": "Vascular endothelial growth factor (VEGF) inhibitors for systemic administration: aflibercept; axitinib; bevacizumab; cabozantinib; lenvatinib; nintedanib; pazopanib; ponatinib; ramucirumab; regorafenib; sorafenib; sunitinib; tivozanib; vandetanib",
+  "substances": [
+   "aflibercept",
+   "axitinib",
+   "bevacizumab",
+   "cabozantinib",
+   "lenvatinib",
+   "nintedanib",
+   "pazopanib",
+   "ponatinib",
+   "ramucirumab",
+   "regorafenib",
+   "sorafenib",
+   "sunitinib",
+   "tivozanib",
+   "vandetanib"
+  ],
+  "sig": "Artery dissections and aneurysms",
+  "meeting": "8-11 July 2019 PRAC meeting minutes",
+  "yr": 2019,
+  "mo": 7,
+  "id": "R022"
+ },
+ {
+  "inn": "Ibrutinib",
+  "substances": [
+   "ibrutinib"
+  ],
+  "sig": "Ischaemic stroke",
+  "meeting": "2-5 September 2019 PRAC meeting minutes",
+  "yr": 2019,
+  "mo": 9,
+  "id": "R023"
+ },
+ {
+  "inn": "Ibuprofen",
+  "substances": [
+   "ibuprofen"
+  ],
+  "sig": "Acute generalised exanthematous pustulosis (AGEP)",
+  "meeting": "2-5 September 2019 PRAC meeting minutes",
+  "yr": 2019,
+  "mo": 9,
+  "id": "R024"
+ },
+ {
+  "inn": "Sodium-glucose co-transporter 2 (SGLT2) inhibitors: canagliflozin; canagliflozin, metformin; dapagliflozin; dapagliflozin, metformin; empagliflozin; empagliflozin, metformin; empagliflozin, linagliptin; ertugliflozin, metformin; ertugliflozin, sitagliptin; saxagliptin, dapagliflozin",
+  "substances": [
+   "canagliflozin",
+   "metformin",
+   "dapagliflozin",
+   "empagliflozin",
+   "linagliptin",
+   "ertugliflozin",
+   "sitagliptin",
+   "saxagliptin"
+  ],
+  "sig": "New information on the known association between sodium-glucose co-transporter 2 (SGLT2) inhibitors and diabetic ketoacidosis (DKA) in surgical patients",
+  "meeting": "2-5 September 2019 PRAC meeting minutes",
+  "yr": 2019,
+  "mo": 9,
+  "id": "R025"
+ },
+ {
+  "inn": "Teriflunomide",
+  "substances": [
+   "teriflunomide"
+  ],
+  "sig": "Psoriasis",
+  "meeting": "2-5 September 2019 PRAC meeting minutes",
+  "yr": 2019,
+  "mo": 9,
+  "id": "R026"
+ },
+ {
+  "inn": "Durvalumab",
+  "substances": [
+   "durvalumab"
+  ],
+  "sig": "Myasthenia gravis",
+  "meeting": "30 September-3 October 2019 PRAC meeting minutes",
+  "yr": 2019,
+  "mo": 10,
+  "id": "R027"
+ },
+ {
+  "inn": "Ferric carboxymaltose; iron; iron dextran; iron (III) isomaltoside; iron sucrose; sodium ferric gluconate",
+  "substances": [
+   "ferric carboxymaltose",
+   "iron",
+   "iron dextran",
+   "iron isomaltoside",
+   "iron sucrose",
+   "sodium ferric gluconate"
+  ],
+  "sig": "Arteriospasm coronary",
+  "meeting": "28-31 October 2019 PRAC meeting minutes",
+  "yr": 2019,
+  "mo": 10,
+  "id": "R028"
+ },
+ {
+  "inn": "Lithium",
+  "substances": [
+   "lithium"
+  ],
+  "sig": "Drug induced lichenoid reaction",
+  "meeting": "30 September-3 October 2019 PRAC meeting minutes",
+  "yr": 2019,
+  "mo": 10,
+  "id": "R029"
+ },
+ {
+  "inn": "Abiraterone",
+  "substances": [
+   "abiraterone"
+  ],
+  "sig": "Interaction with sulphonylureas leading to hypoglycaemia",
+  "meeting": "13-16 January 2020 PRAC meeting minutes",
+  "yr": 2020,
+  "mo": 1,
+  "id": "R030"
+ },
+ {
+  "inn": "Golimumab",
+  "substances": [
+   "golimumab"
+  ],
+  "sig": "Inflammatory myopathy",
+  "meeting": "13-16 January 2020 PRAC meeting minutes",
+  "yr": 2020,
+  "mo": 1,
+  "id": "R031"
+ },
+ {
+  "inn": "Nivolumab",
+  "substances": [
+   "nivolumab"
+  ],
+  "sig": "Haemophagocytic lymphohistiocytosis",
+  "meeting": "10-13 February 2020 PRAC meeting minutes",
+  "yr": 2020,
+  "mo": 2,
+  "id": "R032"
+ },
+ {
+  "inn": "Paroxetine",
+  "substances": [
+   "paroxetine"
+  ],
+  "sig": "Microscopic colitis",
+  "meeting": "9-12 March 2020 PRAC meeting minutes",
+  "yr": 2020,
+  "mo": 3,
+  "id": "R033"
+ },
+ {
+  "inn": "Thiazide, thiazide-like diuretics and combinations",
+  "substances": [
+   "thiazide",
+   "thiazide-like diuretics",
+   "combinations"
+  ],
+  "sig": "Choroidal effusion",
+  "meeting": "9-12 March 2020 PRAC meeting minutes",
+  "yr": 2020,
+  "mo": 3,
+  "id": "R034"
+ },
+ {
+  "inn": "Andexanet alfa",
+  "substances": [
+   "andexanet alfa"
+  ],
+  "sig": "Erroneous assay results for levels of anti-factor Xa activity with use of andexanet alfa",
+  "meeting": "14-17 April 2020 PRAC meeting minutes",
+  "yr": 2020,
+  "mo": 4,
+  "id": "R035"
+ },
+ {
+  "inn": "Ibuprofen; ketoprofen",
+  "substances": [
+   "ibuprofen",
+   "ketoprofen"
+  ],
+  "sig": "Serious exacerbation of infections",
+  "meeting": "14-17 April 2020 PRAC meeting minutes",
+  "yr": 2020,
+  "mo": 4,
+  "id": "R036"
+ },
+ {
+  "inn": "Idelalisib",
+  "substances": [
+   "idelalisib"
+  ],
+  "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+  "meeting": "14-17 April 2020 PRAC meeting minutes",
+  "yr": 2020,
+  "mo": 4,
+  "id": "R037"
+ },
+ {
+  "inn": "Insulin aspart; insulin aspart/insulin degludec; insulin bovine; insulin degludec; insulin degludec/liraglutide; insulin determir; insulin glulisine; insulin human; insulin lispro; insulin glargine; insulin porcine",
+  "substances": [
+   "insulin aspart",
+   "insulin degludec",
+   "insulin bovine",
+   "liraglutide",
+   "insulin determir",
+   "insulin glulisine",
+   "insulin human",
+   "insulin lispro",
+   "insulin glargine",
+   "insulin porcine"
+  ],
+  "sig": "Cutaneous amyloidosis",
+  "meeting": "14-17 April 2020 PRAC meeting minutes",
+  "yr": 2020,
+  "mo": 4,
+  "id": "R038"
+ },
+ {
+  "inn": "Baricitinib",
+  "substances": [
+   "baricitinib"
+  ],
+  "sig": "Diverticulitis",
+  "meeting": "11-14 May 2020 PRAC meeting minutes",
+  "yr": 2020,
+  "mo": 5,
+  "id": "R039"
+ },
+ {
+  "inn": "Buprenorphine; buprenorphine, naloxone",
+  "substances": [
+   "buprenorphine",
+   "naloxone"
+  ],
+  "sig": "Drug-drug interaction with serotonergic drugs leading to serotonin syndrome",
+  "meeting": "11-14 May 2020 PRAC meeting minutes",
+  "yr": 2020,
+  "mo": 5,
+  "id": "R040"
+ },
+ {
+  "inn": "Hormone replacement therapy (HRT): chlorotrianisene; conjugated estrogens; conjugated estrogens, bazedoxifene; dienestrol; diethylstilbestrol; estradiol; estradiol, norethisterone; estriol; estrone; ethinylestradiol; methallenestril; moxestrol; promestriene; tibolone",
+  "substances": [
+   "chlorotrianisene",
+   "conjugated estrogens",
+   "bazedoxifene",
+   "dienestrol",
+   "diethylstilbestrol",
+   "estradiol",
+   "norethisterone",
+   "estriol",
+   "estrone",
+   "ethinylestradiol",
+   "methallenestril",
+   "moxestrol",
+   "promestriene",
+   "tibolone"
+  ],
+  "sig": "New information on the known risk of breast cancer",
+  "meeting": "11-14 May 2020 PRAC meeting minutes",
+  "yr": 2020,
+  "mo": 5,
+  "id": "R041"
+ },
+ {
+  "inn": "Mirtazapine",
+  "substances": [
+   "mirtazapine"
+  ],
+  "sig": "Amnesia",
+  "meeting": "11-14 May 2020 PRAC meeting minutes",
+  "yr": 2020,
+  "mo": 5,
+  "id": "R042"
+ },
+ {
+  "inn": "Mirtazapine",
+  "substances": [
+   "mirtazapine"
+  ],
+  "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+  "meeting": "11-14 May 2020 PRAC meeting minutes",
+  "yr": 2020,
+  "mo": 5,
+  "id": "R043"
+ },
+ {
+  "inn": "Sertraline",
+  "substances": [
+   "sertraline"
+  ],
+  "sig": "Microscopic colitis",
+  "meeting": "11-14 May 2020 PRAC meeting minutes",
+  "yr": 2020,
+  "mo": 5,
+  "id": "R044"
+ },
+ {
+  "inn": "Desogestrel",
+  "substances": [
+   "desogestrel"
+  ],
+  "sig": "Suppressed lactation",
+  "meeting": "8-11 June 2020 PRAC meeting minutes",
+  "yr": 2020,
+  "mo": 6,
+  "id": "R045"
+ },
+ {
+  "inn": "Macrogol-containing products (all molecular weights and combinations) for bowel preparation",
+  "substances": [
+   "macrogol-containing products for bowel preparation"
+  ],
+  "sig": "Colitis ischaemic",
+  "meeting": "8-11 June 2020 PRAC meeting minutes",
+  "yr": 2020,
+  "mo": 6,
+  "id": "R046"
+ },
+ {
+  "inn": "Lisdexamfetamine",
+  "substances": [
+   "lisdexamfetamine"
+  ],
+  "sig": "QT prolongation and cardiac arrhythmia",
+  "meeting": "6-9 July 2020 PRAC meeting minutes",
+  "yr": 2020,
+  "mo": 7,
+  "id": "R047"
+ },
+ {
+  "inn": "Tumour necrosis factor alpha inhibitors: adalimumab; certolizumab pegol; etanercept; golimumab; infliximab",
+  "substances": [
+   "adalimumab",
+   "certolizumab pegol",
+   "etanercept",
+   "golimumab",
+   "infliximab"
+  ],
+  "sig": "Kaposi’s sarcoma",
+  "meeting": "6-9 July 2020 PRAC meeting minutes",
+  "yr": 2020,
+  "mo": 7,
+  "id": "R048"
+ },
+ {
+  "inn": "Abiraterone",
+  "substances": [
+   "abiraterone"
+  ],
+  "sig": "Anaphylactic reaction",
+  "meeting": "31 August-3 September 2020 PRAC meeting minutes",
+  "yr": 2020,
+  "mo": 9,
+  "id": "R049"
+ },
+ {
+  "inn": "Fluoroquinolones for systemic and inhalation formulations: ciprofloxacin; delafloxacin; levofloxacin; lomefloxacin; moxifloxacin; norfloxacin; ofloxacin; pefloxacin; prulifloxacin; rufloxacin",
+  "substances": [
+   "ciprofloxacin",
+   "delafloxacin",
+   "levofloxacin",
+   "lomefloxacin",
+   "moxifloxacin",
+   "norfloxacin",
+   "ofloxacin",
+   "pefloxacin",
+   "prulifloxacin",
+   "rufloxacin"
+  ],
+  "sig": "Heart valve regurgitation, cervical artery dissection, and aortic aneurysm and dissection",
+  "meeting": "31 August-3 September 2020 PRAC meeting minutes",
+  "yr": 2020,
+  "mo": 9,
+  "id": "R050"
+ },
+ {
+  "inn": "Interferon alfa-2a; interferon alfa-2b; peginterferon alfa-2a; peginterferon alfa-2b",
+  "substances": [
+   "interferon alfa-2a",
+   "interferon alfa-2b",
+   "peginterferon alfa-2a",
+   "peginterferon alfa-2b"
+  ],
+  "sig": "Neuromyelitis optica spectrum disorder",
+  "meeting": "31 August-3 September 2020 PRAC meeting minutes",
+  "yr": 2020,
+  "mo": 9,
+  "id": "R051"
+ },
+ {
+  "inn": "Pomalidomide",
+  "substances": [
+   "pomalidomide"
+  ],
+  "sig": "Progressive multifocal leukoencephalopathy (PML)",
+  "meeting": "31 August-3 September 2020 PRAC meeting minutes",
+  "yr": 2020,
+  "mo": 9,
+  "id": "R052"
+ },
+ {
+  "inn": "Amitriptyline; bupropion (incl. its combination with naltrexone); citalopram; desvenlafaxine; duloxetine; escitalopram; fluoxetine; fluvoxamine; milnacipran; mirtazapine; paroxetine; sertraline; trazodone; venlafaxine; vortioxetine",
+  "substances": [
+   "amitriptyline",
+   "bupropion",
+   "citalopram",
+   "desvenlafaxine",
+   "duloxetine",
+   "escitalopram",
+   "fluoxetine",
+   "fluvoxamine",
+   "milnacipran",
+   "mirtazapine",
+   "paroxetine",
+   "sertraline",
+   "trazodone",
+   "venlafaxine",
+   "vortioxetine"
+  ],
+  "sig": "Postpartum haemorrhage",
+  "meeting": "28 September-1 October 2020 PRAC meeting minutes",
+  "yr": 2020,
+  "mo": 10,
+  "id": "R053"
+ },
+ {
+  "inn": "Cannabidiol; calcineurin inhibitors (tacrolimus, ciclosporin); mammalian target of rapamycin (mTOR) inhibitors (everolimus, sirolimus, temsirolimus)",
+  "substances": [
+   "cannabidiol",
+   "calcineurin inhibitors",
+   "mammalian target of rapamycin inhibitors"
+  ],
+  "sig": "Drug interaction with cannabidiol leading to calcineurin inhibitors and mTOR inhibitors plasma concentrations increase and toxicity",
+  "meeting": "26-29 October 2020 PRAC meeting minutes",
+  "yr": 2020,
+  "mo": 10,
+  "id": "R054"
+ },
+ {
+  "inn": "Ceftriaxone",
+  "substances": [
+   "ceftriaxone"
+  ],
+  "sig": "Encephalopathy",
+  "meeting": "26-29 October 2020 PRAC meeting minutes",
+  "yr": 2020,
+  "mo": 10,
+  "id": "R055"
+ },
+ {
+  "inn": "Dabrafenib; trametinib",
+  "substances": [
+   "dabrafenib",
+   "trametinib"
+  ],
+  "sig": "Sarcoidosis",
+  "meeting": "26-29 October 2020 PRAC meeting minutes",
+  "yr": 2020,
+  "mo": 10,
+  "id": "R056"
+ },
+ {
+  "inn": "Ibrutinib",
+  "substances": [
+   "ibrutinib"
+  ],
+  "sig": "Hepatitis E",
+  "meeting": "26-29 October 2020 PRAC meeting minutes",
+  "yr": 2020,
+  "mo": 10,
+  "id": "R057"
+ },
+ {
+  "inn": "Lamotrigine",
+  "substances": [
+   "lamotrigine"
+  ],
+  "sig": "Photosensitivity",
+  "meeting": "26-29 October 2020 PRAC meeting minutes",
+  "yr": 2020,
+  "mo": 10,
+  "id": "R058"
+ },
+ {
+  "inn": "Pembrolizumab",
+  "substances": [
+   "pembrolizumab"
+  ],
+  "sig": "Sjögren's syndrome",
+  "meeting": "28 September-1 October 2020 PRAC meeting minutes",
+  "yr": 2020,
+  "mo": 10,
+  "id": "R059"
+ },
+ {
+  "inn": "Capecitabine",
+  "substances": [
+   "capecitabine"
+  ],
+  "sig": "Anaphylactic reaction",
+  "meeting": "23-26 November 2020 PRAC meeting minutes",
+  "yr": 2020,
+  "mo": 11,
+  "id": "R060"
+ },
+ {
+  "inn": "Chloroquine; hydroxychloroquine",
+  "substances": [
+   "chloroquine",
+   "hydroxychloroquine"
+  ],
+  "sig": "Psychiatric disorders",
+  "meeting": "23-26 November 2020 PRAC meeting minutes",
+  "yr": 2020,
+  "mo": 11,
+  "id": "R061"
+ },
+ {
+  "inn": "Pembrolizumab",
+  "substances": [
+   "pembrolizumab"
+  ],
+  "sig": "Vasculitis",
+  "meeting": "23-26 November 2020 PRAC meeting minutes",
+  "yr": 2020,
+  "mo": 11,
+  "id": "R062"
+ },
+ {
+  "inn": "Adalimumab",
+  "substances": [
+   "adalimumab"
+  ],
+  "sig": "Abnormal weight gain",
+  "meeting": "11-14 January 2021 PRAC meeting minutes",
+  "yr": 2021,
+  "mo": 1,
+  "id": "R063"
+ },
+ {
+  "inn": "Anastrozole",
+  "substances": [
+   "anastrozole"
+  ],
+  "sig": "Depressed mood disorders",
+  "meeting": "11-14 January 2021 PRAC meeting minutes",
+  "yr": 2021,
+  "mo": 1,
+  "id": "R064"
+ },
+ {
+  "inn": "Hydrocortisone",
+  "substances": [
+   "hydrocortisone"
+  ],
+  "sig": "Adrenal crisis",
+  "meeting": "11-14 January 2021 PRAC meeting minutes",
+  "yr": 2021,
+  "mo": 1,
+  "id": "R065"
+ },
+ {
+  "inn": "Prednisolone; prednisone",
+  "substances": [
+   "prednisolone",
+   "prednisone"
+  ],
+  "sig": "Bradycardia",
+  "meeting": "8-11 February 2021 PRAC meeting minutes",
+  "yr": 2021,
+  "mo": 2,
+  "id": "R066"
+ },
+ {
+  "inn": "Anakinra; canakinumab",
+  "substances": [
+   "anakinra",
+   "canakinumab"
+  ],
+  "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+  "meeting": "8-11 March 2021 PRAC meeting minutes",
+  "yr": 2021,
+  "mo": 3,
+  "id": "R067"
+ },
+ {
+  "inn": "COVID-19 vaccine (ChAdOx1-S [recombinant]) (COVID-19 Vaccine AstraZeneca)",
+  "substances": [
+   "covid-19 vaccine"
+  ],
+  "sig": "Anaphylactic reaction",
+  "meeting": "8-11 March 2021 PRAC meeting minutes",
+  "yr": 2021,
+  "mo": 3,
+  "id": "R068"
+ },
+ {
+  "inn": "COVID-19 vaccine (ChAdOx1-S [recombinant]) (COVID-19 Vaccine AstraZeneca)",
+  "substances": [
+   "covid-19 vaccine"
+  ],
+  "sig": "Embolic and thrombotic events",
+  "meeting": "Signal assessment report adopted at the 18 March 2021 Extraordinary PRAC meeting",
+  "yr": 2021,
+  "mo": 3,
+  "id": "R069"
+ },
+ {
+  "inn": "Trastuzumab emtansine",
+  "substances": [
+   "trastuzumab emtansine"
+  ],
+  "sig": "Extravasation and epidermal necrosis",
+  "meeting": "8-11 March 2021 PRAC meeting minutes",
+  "yr": 2021,
+  "mo": 3,
+  "id": "R070"
+ },
+ {
+  "inn": "Azathioprine",
+  "substances": [
+   "azathioprine"
+  ],
+  "sig": "Erythema nodosum",
+  "meeting": "6-9 April 2021 PRAC meeting minutes",
+  "yr": 2021,
+  "mo": 4,
+  "id": "R071"
+ },
+ {
+  "inn": "COVID-19 vaccine (Ad26.COV2-S [recombinant]) - COVID-19 Vaccine Janssen",
+  "substances": [
+   "covid-19 vaccine - covid-19 vaccine janssen"
+  ],
+  "sig": "Embolic and thrombotic events",
+  "meeting": "Signal assessement report adopted at the 20 April 2021 Extraordinary PRAC meeting",
+  "yr": 2021,
+  "mo": 4,
+  "id": "R072"
+ },
+ {
+  "inn": "COVID-19 vaccine (ChAdOx1-S [recombinant]) - Vaxzevria (previously COVID-19 Vaccine AstraZeneca)",
+  "substances": [
+   "covid-19 vaccine - vaxzevria"
+  ],
+  "sig": "Embolic and thrombotic events",
+  "meeting": "Signal assessment report adopted at the 6-9 April 2021 PRAC meeting",
+  "yr": 2021,
+  "mo": 4,
+  "id": "R073"
+ },
+ {
+  "inn": "Alemtuzumab",
+  "substances": [
+   "alemtuzumab"
+  ],
+  "sig": "Sarcoidosis",
+  "meeting": "3-6 May 2021 PRAC meeting minutes",
+  "yr": 2021,
+  "mo": 5,
+  "id": "R074"
+ },
+ {
+  "inn": "Clindamycin",
+  "substances": [
+   "clindamycin"
+  ],
+  "sig": "Acute renal failure",
+  "meeting": "3-6 May 2021 PRAC meeting minutes",
+  "yr": 2021,
+  "mo": 5,
+  "id": "R075"
+ },
+ {
+  "inn": "COVID-19 mRNA vaccine (nucleoside-modified) - Comirnaty",
+  "substances": [
+   "covid-19 mrna vaccine - comirnaty"
+  ],
+  "sig": "Localised swelling in persons with history of dermal filler injections",
+  "meeting": "3-6 May 2021 PRAC meeting minutes",
+  "yr": 2021,
+  "mo": 5,
+  "id": "R076"
+ },
+ {
+  "inn": "COVID-19 vaccine (Ad26.COV2-S [recombinant]) - COVID-19 Vaccine Janssen",
+  "substances": [
+   "covid-19 vaccine - covid-19 vaccine janssen"
+  ],
+  "sig": "Embolic and thrombotic events",
+  "meeting": "Signal assessment report adopted at the 3-6 May 2021 PRAC meeting",
+  "yr": 2021,
+  "mo": 5,
+  "id": "R077"
+ },
+ {
+  "inn": "Secukinumab",
+  "substances": [
+   "secukinumab"
+  ],
+  "sig": "Henoch-Schonlein purpura",
+  "meeting": "3-6 May 2021 PRAC meeting minutes",
+  "yr": 2021,
+  "mo": 5,
+  "id": "R078"
+ },
+ {
+  "inn": "Sulfamethoxazole, trimethoprim (co-trimoxazole)",
+  "substances": [
+   "sulfamethoxazole",
+   "trimethoprim"
+  ],
+  "sig": "Acute respiratory distress syndrome",
+  "meeting": "3-6 May 2021 PRAC meeting minutes",
+  "yr": 2021,
+  "mo": 5,
+  "id": "R079"
+ },
+ {
+  "inn": "Sulfamethoxazole, trimethoprim (co-trimoxazole)",
+  "substances": [
+   "sulfamethoxazole",
+   "trimethoprim"
+  ],
+  "sig": "Haemophagocytic lymphohistiocytosis",
+  "meeting": "3-6 May 2021 PRAC meeting minutes",
+  "yr": 2021,
+  "mo": 5,
+  "id": "R080"
+ },
+ {
+  "inn": "Tramadol; tramadol, dexketoprofen; tramadol, paracetamol",
+  "substances": [
+   "tramadol",
+   "dexketoprofen",
+   "paracetamol"
+  ],
+  "sig": "Serotonin syndrome",
+  "meeting": "3-6 May 2021 PRAC meeting minutes",
+  "yr": 2021,
+  "mo": 5,
+  "id": "R081"
+ },
+ {
+  "inn": "Ceftriaxone",
+  "substances": [
+   "ceftriaxone"
+  ],
+  "sig": "Hepatitis",
+  "meeting": "7-10 June 2021 PRAC meeting minutes",
+  "yr": 2021,
+  "mo": 6,
+  "id": "R082"
+ },
+ {
+  "inn": "COVID-19 vaccine (ChAdOx1-S [recombinant]) - Vaxzevria",
+  "substances": [
+   "covid-19 vaccine - vaxzevria"
+  ],
+  "sig": "Capillary leak syndrome",
+  "meeting": "7-10 June 2021 PRAC meeting minutes",
+  "yr": 2021,
+  "mo": 6,
+  "id": "R083"
+ },
+ {
+  "inn": "Tofacitinib",
+  "substances": [
+   "tofacitinib"
+  ],
+  "sig": "Major adverse cardiovascular events (MACE) and malignancies excluding non-melanoma skin cancer (NMSC) from a clinical trial",
+  "meeting": "7-10 June 2021 PRAC meeting minutes",
+  "yr": 2021,
+  "mo": 6,
+  "id": "R084"
+ },
+ {
+  "inn": "COVID-19 mRNA vaccine (nucleoside-modified) - Comirnaty",
+  "substances": [
+   "covid-19 mrna vaccine - comirnaty"
+  ],
+  "sig": "Myocarditis and pericarditis",
+  "meeting": "5-8 July 2021 PRAC meeting minutes",
+  "yr": 2021,
+  "mo": 7,
+  "id": "R085"
+ },
+ {
+  "inn": "COVID-19 mRNA vaccine (nucleoside-modified) - Spikevax (previously COVID-19 Vaccine Moderna)",
+  "substances": [
+   "covid-19 mrna vaccine - spikevax"
+  ],
+  "sig": "Myocarditis and pericarditis",
+  "meeting": "5-8 July 2021 PRAC meeting minutes",
+  "yr": 2021,
+  "mo": 7,
+  "id": "R086"
+ },
+ {
+  "inn": "Donepezil",
+  "substances": [
+   "donepezil"
+  ],
+  "sig": "Cardiac conduction disorders including QT prolongation and torsades de pointes",
+  "meeting": "5-8 July 2021 PRAC meeting minutes",
+  "yr": 2021,
+  "mo": 7,
+  "id": "R087"
+ },
+ {
+  "inn": "Immune checkpoint inhibitors: atezolizumab; avelumab; cemiplimab; durvalumab; ipilimumab; pembrolizumab; nivolumab",
+  "substances": [
+   "atezolizumab",
+   "avelumab",
+   "cemiplimab",
+   "durvalumab",
+   "ipilimumab",
+   "pembrolizumab",
+   "nivolumab"
+  ],
+  "sig": "Immune-mediated cystitis",
+  "meeting": "5-8 July 2021 PRAC meeting minutes",
+  "yr": 2021,
+  "mo": 7,
+  "id": "R088"
+ },
+ {
+  "inn": "Octreotide",
+  "substances": [
+   "octreotide"
+  ],
+  "sig": "Pancreatic exocrine insufficiency",
+  "meeting": "5-8 July 2021 PRAC meeting minutes",
+  "yr": 2021,
+  "mo": 7,
+  "id": "R089"
+ },
+ {
+  "inn": "COVID-19 mRNA vaccine (nucleoside-modified) - Comirnaty",
+  "substances": [
+   "covid-19 mrna vaccine - comirnaty"
+  ],
+  "sig": "Erythema multiforme",
+  "meeting": "27-30 September 2021 PRAC meeting minutes",
+  "yr": 2021,
+  "mo": 9,
+  "id": "R090"
+ },
+ {
+  "inn": "COVID-19 mRNA vaccine (nucleoside-modified) - Spikevax (previously COVID-19 Vaccine Moderna)",
+  "substances": [
+   "covid-19 mrna vaccine - spikevax"
+  ],
+  "sig": "Erythema multiforme",
+  "meeting": "27-30 September 2021 PRAC meeting minutes",
+  "yr": 2021,
+  "mo": 9,
+  "id": "R091"
+ },
+ {
+  "inn": "COVID-19 vaccine (ChAdOx1-S [recombinant]) - Vaxzevria (previously COVID-19 Vaccine AstraZeneca)",
+  "substances": [
+   "covid-19 vaccine - vaxzevria"
+  ],
+  "sig": "Immune thrombocytopenia",
+  "meeting": "27-30 September 2021 PRAC meeting minutes",
+  "yr": 2021,
+  "mo": 9,
+  "id": "R092"
+ },
+ {
+  "inn": "Methotrexate",
+  "substances": [
+   "methotrexate"
+  ],
+  "sig": "Progressive multifocal leukoencephalopathy (PML)",
+  "meeting": "30 August-2 September 2021 PRAC meeting minutes",
+  "yr": 2021,
+  "mo": 9,
+  "id": "R093"
+ },
+ {
+  "inn": "Piperacillin; piperacillin, tazobactam",
+  "substances": [
+   "piperacillin",
+   "tazobactam"
+  ],
+  "sig": "Haemophagocytic lymphohistiocytosis",
+  "meeting": "27-30 September 2021 PRAC meeting minutes",
+  "yr": 2021,
+  "mo": 9,
+  "id": "R094"
+ },
+ {
+  "inn": "Ponatinib",
+  "substances": [
+   "ponatinib"
+  ],
+  "sig": "Panniculitis",
+  "meeting": "30 August-2 September 2021 PRAC meeting minutes",
+  "yr": 2021,
+  "mo": 9,
+  "id": "R095"
+ },
+ {
+  "inn": "Warfarin",
+  "substances": [
+   "warfarin"
+  ],
+  "sig": "Anticoagulant-related nephropathy",
+  "meeting": "27-30 September 2021 PRAC meeting minutes",
+  "yr": 2021,
+  "mo": 9,
+  "id": "R096"
+ },
+ {
+  "inn": "Ertapenem",
+  "substances": [
+   "ertapenem"
+  ],
+  "sig": "Toxic encephalopathy in patients with renal impairment",
+  "meeting": "25-28 October 2021 PRAC meeting minutes",
+  "yr": 2021,
+  "mo": 10,
+  "id": "R097"
+ },
+ {
+  "inn": "Labetalol",
+  "substances": [
+   "labetalol"
+  ],
+  "sig": "Nipple pain and suppressed lactation",
+  "meeting": "25-28 October 2021 PRAC meeting minutes",
+  "yr": 2021,
+  "mo": 10,
+  "id": "R098"
+ },
+ {
+  "inn": "Lenvatinib",
+  "substances": [
+   "lenvatinib"
+  ],
+  "sig": "Colitis",
+  "meeting": "25-28 October 2021 PRAC meeting minutes",
+  "yr": 2021,
+  "mo": 10,
+  "id": "R099"
+ },
+ {
+  "inn": "COVID-19 mRNA vaccine (nucleoside-modified) - Spikevax (previously COVID-19 Vaccine Moderna)",
+  "substances": [
+   "covid-19 mrna vaccine - spikevax"
+  ],
+  "sig": "Myocarditis and pericarditis",
+  "meeting": "29 November-2 December 2021 PRAC meeting minutes",
+  "yr": 2021,
+  "mo": 12,
+  "id": "R100"
+ },
+ {
+  "inn": "Olmesartan; olmesartan, amlodipine; olmesartan, hydrochlorothiazide; olmesartan medoxomil, amlodipine besilate, hydrochlorothiazide",
+  "substances": [
+   "olmesartan",
+   "amlodipine",
+   "hydrochlorothiazide",
+   "olmesartan medoxomil",
+   "amlodipine besilate"
+  ],
+  "sig": "Autoimmune hepatitis",
+  "meeting": "29 November-2 December 2021 PRAC meeting minutes",
+  "yr": 2021,
+  "mo": 12,
+  "id": "R101"
+ },
+ {
+  "inn": "Tozinameran (COVID-19 mRNA vaccine [nucleoside-modified]) - Comirnaty",
+  "substances": [
+   "tozinameran - comirnaty"
+  ],
+  "sig": "Myocarditis and pericarditis",
+  "meeting": "29 November-2 December 2021 PRAC meeting minutes",
+  "yr": 2021,
+  "mo": 12,
+  "id": "R102"
+ },
+ {
+  "inn": "Durvalumab",
+  "substances": [
+   "durvalumab"
+  ],
+  "sig": "Arthralgia",
+  "meeting": "10-13 January 2022 PRAC meeting minutes",
+  "yr": 2022,
+  "mo": 1,
+  "id": "R103"
+ },
+ {
+  "inn": "Pregabalin",
+  "substances": [
+   "pregabalin"
+  ],
+  "sig": "Toxic epidermal necrolysis",
+  "meeting": "10-13 January 2022 PRAC meeting minutes",
+  "yr": 2022,
+  "mo": 1,
+  "id": "R104"
+ },
+ {
+  "inn": "Enzalutamide",
+  "substances": [
+   "enzalutamide"
+  ],
+  "sig": "Erythema multiforme",
+  "meeting": "7-10 February 2022 PRAC meeting minutes",
+  "yr": 2022,
+  "mo": 2,
+  "id": "R105"
+ },
+ {
+  "inn": "Obinutuzumab",
+  "substances": [
+   "obinutuzumab"
+  ],
+  "sig": "Non-overt disseminated intravascular coagulation (DIC)",
+  "meeting": "7-10 February 2022 PRAC meeting minutes",
+  "yr": 2022,
+  "mo": 2,
+  "id": "R106"
+ },
+ {
+  "inn": "Sorafenib",
+  "substances": [
+   "sorafenib"
+  ],
+  "sig": "Tumour lysis syndrome (TLS)",
+  "meeting": "7-10 February 2022 PRAC meeting minutes",
+  "yr": 2022,
+  "mo": 2,
+  "id": "R107"
+ },
+ {
+  "inn": "Alemtuzumab",
+  "substances": [
+   "alemtuzumab"
+  ],
+  "sig": "Vitiligo",
+  "meeting": "7-10 March 2022 PRAC meeting minutes",
+  "yr": 2022,
+  "mo": 3,
+  "id": "R108"
+ },
+ {
+  "inn": "Cannabidiol; calcineurin inhibitors (tacrolimus, ciclosporin); mammalian target of rapamycin (mTOR) inhibitors (everolimus, sirolimus, temsirolimus)",
+  "substances": [
+   "cannabidiol",
+   "calcineurin inhibitors",
+   "mammalian target of rapamycin inhibitors"
+  ],
+  "sig": "Drug interaction with cannabidiol leading to calcineurin inhibitors and mTOR inhibitors serum levels increased and toxicity",
+  "meeting": "7-10 March 2022 PRAC meeting minutes",
+  "yr": 2022,
+  "mo": 3,
+  "id": "R109"
+ },
+ {
+  "inn": "Elasomeran (COVID-19 mRNA vaccine - [nucleoside-modified]) - Spikevax",
+  "substances": [
+   "elasomeran - spikevax"
+  ],
+  "sig": "Capillary leak syndrome",
+  "meeting": "7-10 March 2022 PRAC meeting minutes",
+  "yr": 2022,
+  "mo": 3,
+  "id": "R110"
+ },
+ {
+  "inn": "Codeine, ibuprofen",
+  "substances": [
+   "codeine",
+   "ibuprofen"
+  ],
+  "sig": "Renal tubular acidosis and hypokalaemia",
+  "meeting": "26-29 September 2022 PRAC meeting minutes",
+  "yr": 2022,
+  "mo": 9,
+  "id": "R111"
+ },
+ {
+  "inn": "Pneumococcal polysaccharide vaccine (23 serotypes)",
+  "substances": [
+   "pneumococcal polysaccharide vaccine"
+  ],
+  "sig": "Extensive swelling of vaccinated limb",
+  "meeting": "29 August-1 September 2022 PRAC meeting minutes",
+  "yr": 2022,
+  "mo": 9,
+  "id": "R112"
+ },
+ {
+  "inn": "Durvalumab",
+  "substances": [
+   "durvalumab"
+  ],
+  "sig": "Myelitis transverse",
+  "meeting": "24-27 October 2022 PRAC meeting minutes",
+  "yr": 2022,
+  "mo": 10,
+  "id": "R113"
+ },
+ {
+  "inn": "Elasomeran (COVID-19 mRNA vaccine - [nucleoside-modified]) - Spikevax",
+  "substances": [
+   "elasomeran - spikevax"
+  ],
+  "sig": "Heavy menstrual bleeding",
+  "meeting": "24-27 October 2022 PRAC meeting minutes",
+  "yr": 2022,
+  "mo": 10,
+  "id": "R114"
+ },
+ {
+  "inn": "Tozinameran (COVID-19 mRNA vaccine [nucleoside-modified]) - Comirnaty",
+  "substances": [
+   "tozinameran - comirnaty"
+  ],
+  "sig": "Heavy menstrual bleeding",
+  "meeting": "24-27 October 2022 PRAC meeting minutes",
+  "yr": 2022,
+  "mo": 10,
+  "id": "R115"
+ },
+ {
+  "inn": "3-hydroxy 3-methylglutaryl coenzyme A (HMG-CoA) reductase inhibitors (statins): atorvastatin; fluvastatin; lovastatin; pitavastatin; pravastatin; rosuvastatin; simvastatin and other relevant fixed dose combinations; pravastatin, fenofibrate; simvastatin, fenofibrate",
+  "substances": [
+   "atorvastatin",
+   "fluvastatin",
+   "lovastatin",
+   "pitavastatin",
+   "pravastatin",
+   "rosuvastatin",
+   "simvastatin",
+   "fenofibrate"
+  ],
+  "sig": "Myasthenia gravis",
+  "meeting": "9-13 January 2023 PRAC meeting minutes",
+  "yr": 2023,
+  "mo": 1,
+  "id": "R116"
+ },
+ {
+  "inn": "Dabrafenib; trametinib",
+  "substances": [
+   "dabrafenib",
+   "trametinib"
+  ],
+  "sig": "Haemophagocytic lymphohistiocytosis",
+  "meeting": "9-13 January 2023 PRAC meeting minutes",
+  "yr": 2023,
+  "mo": 1,
+  "id": "R117"
+ },
+ {
+  "inn": "Regorafenib",
+  "substances": [
+   "regorafenib"
+  ],
+  "sig": "Thrombotic microangiopathy",
+  "meeting": "9-13 January 2023 PRAC meeting minutes",
+  "yr": 2023,
+  "mo": 1,
+  "id": "R118"
+ },
+ {
+  "inn": "Bosutinib",
+  "substances": [
+   "bosutinib"
+  ],
+  "sig": "Interstitial lung disease (ILD)",
+  "meeting": "6-9 February 2023 PRAC meeting minutes",
+  "yr": 2023,
+  "mo": 2,
+  "id": "R119"
+ },
+ {
+  "inn": "Colistimethate sodium (intravenous use)",
+  "substances": [
+   "colistimethate sodium"
+  ],
+  "sig": "Pseudo-Bartter syndrome",
+  "meeting": "6-9 February 2023 PRAC meeting minutes",
+  "yr": 2023,
+  "mo": 2,
+  "id": "R120"
+ },
+ {
+  "inn": "Propofol",
+  "substances": [
+   "propofol"
+  ],
+  "sig": "Medication errors that could potentially lead to life-threatening/fatal cases",
+  "meeting": "13-16 March 2023 PRAC meeting minutes",
+  "yr": 2023,
+  "mo": 3,
+  "id": "R121"
+ },
+ {
+  "inn": "Voriconazole",
+  "substances": [
+   "voriconazole"
+  ],
+  "sig": "Drug interaction with flucloxacillin leading to subtherapeutic voriconazole levels",
+  "meeting": "13-16 March 2023 PRAC meeting minutes",
+  "yr": 2023,
+  "mo": 3,
+  "id": "R122"
+ },
+ {
+  "inn": "Lenvatinib",
+  "substances": [
+   "lenvatinib"
+  ],
+  "sig": "Adrenal insufficiency",
+  "meeting": "10-12 May 2023 PRAC meeting minutes",
+  "yr": 2023,
+  "mo": 5,
+  "id": "R123"
+ },
+ {
+  "inn": "Ipilimumab; nivolumab; pembrolizumab",
+  "substances": [
+   "ipilimumab",
+   "nivolumab",
+   "pembrolizumab"
+  ],
+  "sig": "Capillary leak syndrome (Opdivo, Yervoy, Keytruda) and cytokine release syndrome (Opdivo)",
+  "meeting": "5-8 June 2023 PRAC meeting minutes",
+  "yr": 2023,
+  "mo": 6,
+  "id": "R124"
+ },
+ {
+  "inn": "Tofacitinib",
+  "substances": [
+   "tofacitinib"
+  ],
+  "sig": "Acnes",
+  "meeting": "5-8 June 2023 PRAC meeting minutes",
+  "yr": 2023,
+  "mo": 6,
+  "id": "R125"
+ },
+ {
+  "inn": "Olaparib",
+  "substances": [
+   "olaparib"
+  ],
+  "sig": "Hepatocellular damage and hepatitis",
+  "meeting": "3-6 July 2023 PRAC meeting minutes",
+  "yr": 2023,
+  "mo": 7,
+  "id": "R126"
+ },
+ {
+  "inn": "Acetazolamide",
+  "substances": [
+   "acetazolamide"
+  ],
+  "sig": "Choroidal effusion and choroidal detachment",
+  "meeting": "28-31 August 2023 PRAC meeting minutes",
+  "yr": 2023,
+  "mo": 8,
+  "id": "R127"
+ },
+ {
+  "inn": "Azacitidine",
+  "substances": [
+   "azacitidine"
+  ],
+  "sig": "Cutaneous vasculitis",
+  "meeting": "25-28 September 2023 PRAC meeting minutes",
+  "yr": 2023,
+  "mo": 9,
+  "id": "R128"
+ },
+ {
+  "inn": "Dapagliflozin; dapagliflozin, metformin; dapagliflozin, saxagliptin",
+  "substances": [
+   "dapagliflozin",
+   "metformin",
+   "saxagliptin"
+  ],
+  "sig": "Acquired phimosis and phimosis",
+  "meeting": "23-26 October 2023 PRAC meeting minutes",
+  "yr": 2023,
+  "mo": 10,
+  "id": "R129"
+ },
+ {
+  "inn": "Axicabtagene ciloleucel",
+  "substances": [
+   "axicabtagene ciloleucel"
+  ],
+  "sig": "Progressive multifocal leukoencephalopathy (PML)",
+  "meeting": "27-30 November 2023 PRAC meeting minutes",
+  "yr": 2023,
+  "mo": 11,
+  "id": "R130"
+ },
+ {
+  "inn": "Dabrafenib; trametinib",
+  "substances": [
+   "dabrafenib",
+   "trametinib"
+  ],
+  "sig": "Peripheral neuropathy",
+  "meeting": "27-30 November 2023 PRAC meeting minutes",
+  "yr": 2023,
+  "mo": 11,
+  "id": "R131"
+ },
+ {
+  "inn": "Pirfenidone",
+  "substances": [
+   "pirfenidone"
+  ],
+  "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+  "meeting": "27-30 November 2023 PRAC meeting minutes",
+  "yr": 2023,
+  "mo": 11,
+  "id": "R132"
+ },
+ {
+  "inn": "Amphotericin B",
+  "substances": [
+   "amphotericin b"
+  ],
+  "sig": "Hyperkalaemia",
+  "meeting": "8-11 January 2024 PRAC meeting minutes",
+  "yr": 2024,
+  "mo": 1,
+  "id": "R133"
+ },
+ {
+  "inn": "Avatrombopag",
+  "substances": [
+   "avatrombopag"
+  ],
+  "sig": "Antiphospholipid syndrome",
+  "meeting": "8-11 January 2024 PRAC meeting minutes",
+  "yr": 2024,
+  "mo": 1,
+  "id": "R134"
+ },
+ {
+  "inn": "Cefotaxime",
+  "substances": [
+   "cefotaxime"
+  ],
+  "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+  "meeting": "8-11 January 2024 PRAC meeting minutes",
+  "yr": 2024,
+  "mo": 1,
+  "id": "R135"
+ },
+ {
+  "inn": "Cobimetinib; vemurafenib",
+  "substances": [
+   "cobimetinib",
+   "vemurafenib"
+  ],
+  "sig": "Aphthous ulcer, mouth ulceration, stomatitis",
+  "meeting": "8-11 January 2024 PRAC meeting minutes",
+  "yr": 2024,
+  "mo": 1,
+  "id": "R136"
+ },
+ {
+  "inn": "Abemaciclib; palbociclib; ribociclib",
+  "substances": [
+   "abemaciclib",
+   "palbociclib",
+   "ribociclib"
+  ],
+  "sig": "Erythema multiforme",
+  "meeting": "4-7 March 2024 PRAC meeting minutes",
+  "yr": 2024,
+  "mo": 3,
+  "id": "R137"
+ },
+ {
+  "inn": "Adagrasib",
+  "substances": [
+   "adagrasib"
+  ],
+  "sig": "Serious cutaneous adverse reactions (SCARs)",
+  "meeting": "8-11 April 2024 PRAC meeting minutes",
+  "yr": 2024,
+  "mo": 4,
+  "id": "R138"
+ },
+ {
+  "inn": "Atezolizumab; avelumab; cemiplimab; dostarlimab; durvalumab; ipilimumab; nivolumab; nivolumab, relatlimab; pembrolizumab; tislelizumab; tremelimumab",
+  "substances": [
+   "atezolizumab",
+   "avelumab",
+   "cemiplimab",
+   "dostarlimab",
+   "durvalumab",
+   "ipilimumab",
+   "nivolumab",
+   "relatlimab",
+   "pembrolizumab",
+   "tislelizumab",
+   "tremelimumab"
+  ],
+  "sig": "Coeliac disease",
+  "meeting": "8-11 April 2024 PRAC meeting minutes",
+  "yr": 2024,
+  "mo": 4,
+  "id": "R139"
+ },
+ {
+  "inn": "Atezolizumab; avelumab; cemiplimab; dostarlimab; durvalumab; ipilimumab; nivolumab; nivolumab, relatlimab; pembrolizumab; tislelizumab; tremelimumab",
+  "substances": [
+   "atezolizumab",
+   "avelumab",
+   "cemiplimab",
+   "dostarlimab",
+   "durvalumab",
+   "ipilimumab",
+   "nivolumab",
+   "relatlimab",
+   "pembrolizumab",
+   "tislelizumab",
+   "tremelimumab"
+  ],
+  "sig": "Pancreatic failure",
+  "meeting": "8-11 April 2024 PRAC meeting minutes",
+  "yr": 2024,
+  "mo": 4,
+  "id": "R140"
+ },
+ {
+  "inn": "Chlorhexidine and other relevant fixed-dose combinations",
+  "substances": [
+   "chlorhexidine",
+   "other relevant fixed-dose combinations"
+  ],
+  "sig": "Persistent corneal injury and significant visual impairment",
+  "meeting": "8-11 April 2024 PRAC meeting minutes",
+  "yr": 2024,
+  "mo": 4,
+  "id": "R141"
+ },
+ {
+  "inn": "Ethambutol",
+  "substances": [
+   "ethambutol"
+  ],
+  "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+  "meeting": "8-11 April 2024 PRAC meeting minutes",
+  "yr": 2024,
+  "mo": 4,
+  "id": "R142"
+ },
+ {
+  "inn": "Baricitinib",
+  "substances": [
+   "baricitinib"
+  ],
+  "sig": "Hypoglycaemia in diabetic patients",
+  "meeting": "13-16 May 2024 PRAC meeting minutes",
+  "yr": 2024,
+  "mo": 5,
+  "id": "R143"
+ },
+ {
+  "inn": "Dabrafenib; trametinib",
+  "substances": [
+   "dabrafenib",
+   "trametinib"
+  ],
+  "sig": "Acute febrile neutrophilic dermatosis",
+  "meeting": "13-16 May 2024 PRAC meeting minutes",
+  "yr": 2024,
+  "mo": 5,
+  "id": "R144"
+ },
+ {
+  "inn": "Manidipine",
+  "substances": [
+   "manidipine"
+  ],
+  "sig": "Ascites",
+  "meeting": "13-16 May 2024 PRAC meeting minutes",
+  "yr": 2024,
+  "mo": 5,
+  "id": "R145"
+ },
+ {
+  "inn": "Propofol",
+  "substances": [
+   "propofol"
+  ],
+  "sig": "Hepatic failure",
+  "meeting": "13-16 May 2024 PRAC meeting minutes",
+  "yr": 2024,
+  "mo": 5,
+  "id": "R146"
+ },
+ {
+  "inn": "Axicabtagene ciloleucel; brexucabtagene autoleucel; ciltabtagene autoleucel; idecabtagene vicleucel; lisocabtagene maraleucel; tisagenlecleucel",
+  "substances": [
+   "axicabtagene ciloleucel",
+   "brexucabtagene autoleucel",
+   "ciltabtagene autoleucel",
+   "idecabtagene vicleucel",
+   "lisocabtagene maraleucel",
+   "tisagenlecleucel"
+  ],
+  "sig": "Secondary malignancy of T-cell origin",
+  "meeting": "10-13 June 2024 PRAC meeting minutes",
+  "yr": 2024,
+  "mo": 6,
+  "id": "R147"
+ },
+ {
+  "inn": "Acetazolamide",
+  "substances": [
+   "acetazolamide"
+  ],
+  "sig": "Pulmonary oedemas",
+  "meeting": "8-11 July 2024 PRAC meeting minutes",
+  "yr": 2024,
+  "mo": 7,
+  "id": "R148"
+ },
+ {
+  "inn": "Bumetanide",
+  "substances": [
+   "bumetanide"
+  ],
+  "sig": "Toxic epidermal necrolysis and Stevens-Johnson syndrome",
+  "meeting": "8-11 July 2024 PRAC meeting minutes",
+  "yr": 2024,
+  "mo": 7,
+  "id": "R149"
+ },
+ {
+  "inn": "Glofitamab",
+  "substances": [
+   "glofitamab"
+  ],
+  "sig": "Immune effector cell-associated neurotoxicity syndrome",
+  "meeting": "8-11 July 2024 PRAC meeting minutes",
+  "yr": 2024,
+  "mo": 7,
+  "id": "R150"
+ },
+ {
+  "inn": "Glucagon-like peptide-1 (GLP-1) receptor agonists: dulaglutide; exenatide; insulin degludec, liraglutide; liraglutide; insulin glargine, lixisenatide; lixisenatide; semaglutide; tirzepatide",
+  "substances": [
+   "dulaglutide",
+   "exenatide",
+   "insulin degludec",
+   "liraglutide",
+   "insulin glargine",
+   "lixisenatide",
+   "semaglutide",
+   "tirzepatide"
+  ],
+  "sig": "Aspiration and pneumonia aspiration",
+  "meeting": "8-11 July 2024 PRAC meeting minutes",
+  "yr": 2024,
+  "mo": 7,
+  "id": "R151"
+ },
+ {
+  "inn": "Human papillomavirus 9-valent vaccine (recombinant, adsorbed); human papillomavirus vaccine [types 6, 11, 16, 18] (recombinant, adsorbed)",
+  "substances": [
+   "human papillomavirus 9-valent vaccine",
+   "human papillomavirus vaccine [types 6",
+   "18]"
+  ],
+  "sig": "Granuloma",
+  "meeting": "8-11 July 2024 PRAC meeting minutes",
+  "yr": 2024,
+  "mo": 7,
+  "id": "R152"
+ },
+ {
+  "inn": "Medroxyprogesterone acetate",
+  "substances": [
+   "medroxyprogesterone acetate"
+  ],
+  "sig": "Meningioma",
+  "meeting": "2-5 September 2024 PRAC meeting minutes",
+  "yr": 2024,
+  "mo": 9,
+  "id": "R153"
+ },
+ {
+  "inn": "Angiotensin II receptor blockers: amlodipine, valsartan; amlodipine, valsartan, hydrochlorothiazide; azilsartan medoxomil; irbesartan; irbesartan, hydrochlorothiazide; telmisartan, sacubitril, valsartan; telmisartan; telmisartan, amlodipine; telmisartan, hydrochlorothiazide; sacubitril, valsartan; other relevant fixed dose combinations containing angiotensin II receptor blockers",
+  "substances": [
+   "amlodipine",
+   "valsartan",
+   "hydrochlorothiazide",
+   "azilsartan medoxomil",
+   "irbesartan",
+   "telmisartan",
+   "sacubitril",
+   "other relevant fixed dose combinations containing angiotensin ii receptor blockers"
+  ],
+  "sig": "Intestinal angioedema",
+  "meeting": "28-31 October 2024 PRAC meeting minutes",
+  "yr": 2024,
+  "mo": 10,
+  "id": "R154"
+ },
+ {
+  "inn": "Paracetamol; fixed dose combinations containing paracetamol",
+  "substances": [
+   "paracetamol",
+   "fixed dose combinations containing paracetamol"
+  ],
+  "sig": "High anion gap metabolic acidosis (HAGMA) due to pyroglutamate acidosis",
+  "meeting": "28-31 October 2024 PRAC meeting minutes",
+  "yr": 2024,
+  "mo": 10,
+  "id": "R155"
+ },
+ {
+  "inn": "Azathioprine",
+  "substances": [
+   "azathioprine"
+  ],
+  "sig": "Non-cirrhotic portal hypertension / portosinusoidal vascular disease",
+  "meeting": "25-28 November 2024 PRAC meeting minutes",
+  "yr": 2024,
+  "mo": 11,
+  "id": "R156"
+ },
+ {
+  "inn": "Nitric oxide",
+  "substances": [
+   "nitric oxide"
+  ],
+  "sig": "Pulmonary oedema in patients with veno-occlusive disease",
+  "meeting": "25-28 November 2024 PRAC meeting minutes",
+  "yr": 2024,
+  "mo": 11,
+  "id": "R157"
+ },
+ {
+  "inn": "Risperidone oral solution",
+  "substances": [
+   "risperidone oral solution"
+  ],
+  "sig": "Medication errors associated with accidental overdoses in children and adolescents treated with risperidone 1 mg/mL oral solution",
+  "meeting": "25-28 November 2024 PRAC meeting minutes",
+  "yr": 2024,
+  "mo": 11,
+  "id": "R158"
+ },
+ {
+  "inn": "Afatinib",
+  "substances": [
+   "afatinib"
+  ],
+  "sig": "Growth of eyelashes",
+  "meeting": "13-16 January 2025 PRAC meeting minutes",
+  "yr": 2025,
+  "mo": 1,
+  "id": "R159"
+ },
+ {
+  "inn": "Lenvatinib",
+  "substances": [
+   "lenvatinib"
+  ],
+  "sig": "Tumour lysis syndrome",
+  "meeting": "13-16 January 2025 PRAC meeting minutes",
+  "yr": 2025,
+  "mo": 1,
+  "id": "R160"
+ },
+ {
+  "inn": "Mogamulizumab",
+  "substances": [
+   "mogamulizumab"
+  ],
+  "sig": "Colitis",
+  "meeting": "10-13 February 2025 PRAC meeting minutes",
+  "yr": 2025,
+  "mo": 2,
+  "id": "R161"
+ },
+ {
+  "inn": "Tegafur, gimeracil, oteracil",
+  "substances": [
+   "tegafur",
+   "gimeracil",
+   "oteracil"
+  ],
+  "sig": "Hyperammonaemia",
+  "meeting": "10-13 March 2025 PRAC meeting minutes",
+  "yr": 2025,
+  "mo": 3,
+  "id": "R162"
+ },
+ {
+  "inn": "Oxytetracycline hydrochloride, hydrocortisone acetate, polymyxin B sulfate (ear/eye drops/suspension/ointment)",
+  "substances": [
+   "oxytetracycline hydrochloride",
+   "hydrocortisone acetate",
+   "polymyxin b sulfate"
+  ],
+  "sig": "Hearing and vestibular disorders",
+  "meeting": "7-10 April 2025 PRAC meeting minutes",
+  "yr": 2025,
+  "mo": 4,
+  "id": "R163"
+ },
+ {
+  "inn": "Regorafenib",
+  "substances": [
+   "regorafenib"
+  ],
+  "sig": "Hyperammonaemia, hyperammonaemic encephalopathy",
+  "meeting": "7-10 April 2025 PRAC meeting minutes",
+  "yr": 2025,
+  "mo": 4,
+  "id": "R164"
+ },
+ {
+  "inn": "Sertraline",
+  "substances": [
+   "sertraline"
+  ],
+  "sig": "Multiple acyl-coenzyme A dehydrogenase deficiency",
+  "meeting": "5-8 May 2025 PRAC meeting minutes",
+  "yr": 2025,
+  "mo": 5,
+  "id": "R165"
+ },
+ {
+  "inn": "Sulfamethoxazole, trimethoprim (co-trimoxazole)",
+  "substances": [
+   "sulfamethoxazole",
+   "trimethoprim"
+  ],
+  "sig": "Circulatory shock",
+  "meeting": "5-8 May 2025 PRAC meeting minutes",
+  "yr": 2025,
+  "mo": 5,
+  "id": "R166"
+ },
+ {
+  "inn": "Axicabtagene ciloleucel; brexucabtagene autoleucel; ciltabtagene autoleucel; idecabtagene vicleucel; lisocabtagene maraleucel; tisagenlecleucel",
+  "substances": [
+   "axicabtagene ciloleucel",
+   "brexucabtagene autoleucel",
+   "ciltabtagene autoleucel",
+   "idecabtagene vicleucel",
+   "lisocabtagene maraleucel",
+   "tisagenlecleucel"
+  ],
+  "sig": "Immune-mediated enterocolitis / immune effector cell-associated enteritis with CAR T-cell products",
+  "meeting": "2-5 June 2025 PRAC meeting minutes",
+  "yr": 2025,
+  "mo": 6,
+  "id": "R167"
+ },
+ {
+  "inn": "Brodalumab",
+  "substances": [
+   "brodalumab"
+  ],
+  "sig": "Pyoderma gangrenosum",
+  "meeting": "2-5 June 2025 PRAC meeting minutes",
+  "yr": 2025,
+  "mo": 6,
+  "id": "R168"
+ },
+ {
+  "inn": "Enzalutamide; digoxin",
+  "substances": [
+   "enzalutamide",
+   "digoxin"
+  ],
+  "sig": "Laboratory test interference leading to falsely elevated digoxin plasma levels with enzalutamide",
+  "meeting": "2-5 June 2025 PRAC meeting minutes",
+  "yr": 2025,
+  "mo": 6,
+  "id": "R169"
+ },
+ {
+  "inn": "Vortioxetine",
+  "substances": [
+   "vortioxetine"
+  ],
+  "sig": "Hallucinations, not related to serotoninergic syndrome",
+  "meeting": "2-5 June 2025 PRAC meeting minutes",
+  "yr": 2025,
+  "mo": 6,
+  "id": "R170"
+ },
+ {
+  "inn": "Ciltacabtagene autoleucel; idecabtagene vicleucel; tisagenlecleucel",
+  "substances": [
+   "ciltacabtagene autoleucel",
+   "idecabtagene vicleucel",
+   "tisagenlecleucel"
+  ],
+  "sig": "Progressive multifocal leukoencephalopathy",
+  "meeting": "7-10 July 2025 PRAC meeting minutes",
+  "yr": 2025,
+  "mo": 7,
+  "id": "R171"
+ },
+ {
+  "inn": "Clozapine",
+  "substances": [
+   "clozapine"
+  ],
+  "sig": "New aspect of the known risk of neutropenia/agranulocytosis with potential impact on the risk minimisation measures",
+  "meeting": "7-10 July 2025 PRAC meeting minutes",
+  "yr": 2025,
+  "mo": 7,
+  "id": "R172"
+ },
+ {
+  "inn": "Varicella vaccine (live); measles, mumps, rubella and varicella vaccine (live)",
+  "substances": [
+   "varicella vaccine",
+   "measles",
+   "mumps",
+   "rubella"
+  ],
+  "sig": "New aspect of the known risk of encephalitis",
+  "meeting": "7-10 July 2025 PRAC meeting minutes",
+  "yr": 2025,
+  "mo": 7,
+  "id": "R173"
+ },
+ {
+  "inn": "Binimetinib; cobimetinib; dabrafenib; encorafenib; trametinib; vemurafenib",
+  "substances": [
+   "binimetinib",
+   "cobimetinib",
+   "dabrafenib",
+   "encorafenib",
+   "trametinib",
+   "vemurafenib"
+  ],
+  "sig": "Tattoo associated skin reaction",
+  "meeting": "1-4 September 2025 PRAC meeting minutes",
+  "yr": 2025,
+  "mo": 9,
+  "id": "R174"
+ },
+ {
+  "inn": "Diazoxide",
+  "substances": [
+   "diazoxide"
+  ],
+  "sig": "Necrotising enterocolitis neonatal",
+  "meeting": "1-4 September 2025 PRAC meeting minutes",
+  "yr": 2025,
+  "mo": 9,
+  "id": "R175"
+ },
+ {
+  "inn": "Dinutuximab beta",
+  "substances": [
+   "dinutuximab beta"
+  ],
+  "sig": "Atypical haemolytic uraemic syndrome",
+  "meeting": "1-4 September 2025 PRAC meeting minutes",
+  "yr": 2025,
+  "mo": 9,
+  "id": "R176"
+ },
+ {
+  "inn": "Osimertinib",
+  "substances": [
+   "osimertinib"
+  ],
+  "sig": "Hepatitis B reactivation",
+  "meeting": "1-4 September 2025 PRAC meeting minutes",
+  "yr": 2025,
+  "mo": 9,
+  "id": "R177"
+ },
+ {
+  "inn": "Somatrogon",
+  "substances": [
+   "somatrogon"
+  ],
+  "sig": "Lipoatrophy",
+  "meeting": "1-4 September 2025 PRAC meeting minutes",
+  "yr": 2025,
+  "mo": 9,
+  "id": "R178"
+ },
+ {
+  "inn": "Bosutinib",
+  "substances": [
+   "bosutinib"
+  ],
+  "sig": "Cutaneous vasculitis",
+  "meeting": "27-30 October 2025 PRAC meeting minutes",
+  "yr": 2025,
+  "mo": 10,
+  "id": "R179"
+ },
+ {
+  "inn": "Datopotamab deruxtecan",
+  "substances": [
+   "datopotamab deruxtecan"
+  ],
+  "sig": "Anaphylactic reaction",
+  "meeting": "27-30 October 2025 PRAC meeting minutes",
+  "yr": 2025,
+  "mo": 10,
+  "id": "R180"
+ },
+ {
+  "inn": "Epcoritamab",
+  "substances": [
+   "epcoritamab"
+  ],
+  "sig": "Hypogammaglobulinaemia",
+  "meeting": "27-30 October 2025 PRAC meeting minutes",
+  "yr": 2025,
+  "mo": 10,
+  "id": "R181"
+ },
+ {
+  "inn": "Cefazolin; cefazolin, lidocaine hydrochloride",
+  "substances": [
+   "cefazolin",
+   "lidocaine hydrochloride"
+  ],
+  "sig": "Kounis syndrome",
+  "meeting": "12-15 January 2026 PRAC meeting minutes",
+  "yr": 2026,
+  "mo": 1,
+  "id": "R182"
+ },
+ {
+  "inn": "Erdafitinib",
+  "substances": [
+   "erdafitinib"
+  ],
+  "sig": "Growth accelerated",
+  "meeting": "12-15 January 2026 PRAC meeting minutes",
+  "yr": 2026,
+  "mo": 1,
+  "id": "R183"
+ },
+ {
+  "inn": "Pegylated liposomal doxorubicin",
+  "substances": [
+   "pegylated liposomal doxorubicin"
+  ],
+  "sig": "Renal-limited thrombotic microangiopathy",
+  "meeting": "12-15 January 2026 PRAC meeting minutes",
+  "yr": 2026,
+  "mo": 1,
+  "id": "R184"
+ },
+ {
+  "inn": "Chikungunya vaccine (live)",
+  "substances": [
+   "chikungunya vaccine"
+  ],
+  "sig": "New aspect of the known risk of aseptic meningitis",
+  "meeting": "9-12 March 2026 PRAC meeting minutes",
+  "yr": 2026,
+  "mo": 3,
+  "id": "R185"
+ },
+ {
+  "inn": "Galantamine",
+  "substances": [
+   "galantamine"
+  ],
+  "sig": "Nightmares",
+  "meeting": "9-12 March 2026 PRAC meeting minutes",
+  "yr": 2026,
+  "mo": 3,
+  "id": "R186"
+ },
+ {
+  "inn": "Axicabtagene ciloleucel",
+  "substances": [
+   "axicabtagene ciloleucel"
+  ],
+  "sig": "Increased risk of brain oedema in primary mediastinal large B-cell lymphoma (PMBCL) patients",
+  "meeting": "7-10 April 2026 PRAC meeting minutes",
+  "yr": 2026,
+  "mo": 4,
+  "id": "R187"
+ },
+ {
+  "inn": "Ponatinib",
+  "substances": [
+   "ponatinib"
+  ],
+  "sig": "Congenital megacolon, maternal exposure during pregnancy",
+  "meeting": "7-10 April 2026 PRAC meeting minutes",
+  "yr": 2026,
+  "mo": 4,
+  "id": "R188"
+ },
+ {
+  "inn": "Pancreatin",
+  "substances": [
+   "pancreatin"
+  ],
+  "sig": "Infection due to viral transmission",
+  "meeting": "4-7 May 2026 PRAC meeting minutes",
+  "yr": 2026,
+  "mo": 5,
+  "id": "R189"
+ },
+ {
+  "inn": "Darolutamide",
+  "substances": [
+   "darolutamide"
+  ],
+  "sig": "Angioedema",
+  "meeting": "8-11 June 2026 PRAC meeting mintues",
+  "yr": 2026,
+  "mo": 6,
+  "id": "R190"
+ },
+ {
+  "inn": "Gemcitabine",
+  "substances": [
+   "gemcitabine"
+  ],
+  "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+  "meeting": "8-11 June 2026 PRAC meeting mintues",
+  "yr": 2026,
+  "mo": 6,
+  "id": "R191"
+ },
+ {
+  "inn": "Valproate and related substances",
+  "substances": [
+   "valproate",
+   "related substances"
+  ],
+  "sig": "Neurodevelopmental disorders with paternal exposure",
+  "meeting": "8-11 June 2026 PRAC meeting mintues",
+  "yr": 2026,
+  "mo": 6,
+  "id": "R192"
+ },
+ {
+  "inn": "X-ray contrast agents: iobitridol; iodixanol; iohexol; iomeprol; iopamidol; iopromide; ioversol; ioxitalamic acid",
+  "substances": [
+   "iobitridol",
+   "iodixanol",
+   "iohexol",
+   "iomeprol",
+   "iopamidol",
+   "iopromide",
+   "ioversol",
+   "ioxitalamic acid"
+  ],
+  "sig": "Fixed drug eruption",
+  "meeting": "8-11 June 2026 PRAC meeting mintues",
+  "yr": 2026,
+  "mo": 6,
+  "id": "R193"
+ },
+ {
+  "inn": "Zolbetuximab",
+  "substances": [
+   "zolbetuximab"
+  ],
+  "sig": "Protein-losing gastroenteropathy",
+  "meeting": "8-11 June 2026 PRAC meeting mintues",
+  "yr": 2026,
+  "mo": 6,
+  "id": "R194"
+ },
+ {
+  "inn": "Desogestrel; etonogestrel",
+  "substances": [
+   "desogestrel",
+   "etonogestrel"
+  ],
+  "sig": "Meningioma",
+  "meeting": "6-9 July 2026 PRAC meeting minutes",
+  "yr": 2026,
+  "mo": 7,
+  "id": "R195"
+ },
+ {
+  "inn": "Levonorgestrel intrauterine device 13.5 mg",
+  "substances": [
+   "levonorgestrel intrauterine device 13.5 mg"
+  ],
+  "sig": "Increased risk of ectopic pregnancy",
+  "meeting": "6-9 July 2026 PRAC meeting minutes",
+  "yr": 2026,
+  "mo": 7,
+  "id": "R196"
+ },
+ {
+  "inn": "Oxacillin",
+  "substances": [
+   "oxacillin"
+  ],
+  "sig": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+  "meeting": "31 August-3 September 2026 PRAC meeting minutes",
+  "yr": 2026,
+  "mo": 9,
+  "id": "R197"
+ }
+]

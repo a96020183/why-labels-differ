@@ -1,0 +1,198 @@
+row_id,us_status,label_name,setid,effective,section,auto_checked
+R001,not found,biotin,570899ce-bb74-b3f1-e063-6294a90a4497,20260720,"",t
+R002,not found,gabapentin,4a975ebe-ae0a-446a-8a3d-2ca325e28f93,20260911,"",t
+R003,written,nivolumab,f570b9c4-6846-4de2-abfa-4d0a4ae4e394,20260812,warnings_and_cautions,t
+R004,unknown,paracetamol,"","","",t
+R005,not found,armodafinil,4128759d-ed7c-4130-b24c-a0541f2b9e7f,20260306,"",t
+R006,not found,rivaroxaban,481b7802-5093-43e7-bbd9-1532197eb6e6,20260904,"",t
+R007,not found,citalopram,0109f365-bebd-4810-a56f-4451e10245db,20260904,"",t
+R008,not found,desvenlafaxine,ff837eb1-24c3-4c63-9b4b-c6b5935a9b47,20260821,"",t
+R009,not found,clopidogrel,bb3b5e96-e629-4db5-8ad5-40c17c6dae18,20260929,"",t
+R010,not found,protonix,08098cb2-c048-4640-f387-6beec4a38936,20260518,"",f
+R011,not found,sertraline,7d598f1a-6c76-458a-a155-7a6a0743a2d3,20260903,"",t
+R012,not found,loperamide,5a728c6d-26ec-3316-e063-6394a90ade08,20260909,"",t
+R013,not found,propylthiouracil,d819e532-09ac-434a-84a6-636c4204c7aa,20260827,"",t
+R014,not found,rivaroxaban,481b7802-5093-43e7-bbd9-1532197eb6e6,20260904,"",t
+R015,not found,secukinumab,77c4b13e-7df3-42d4-81db-3d0cddb7f67a,20260825,"",t
+R016,not found,sulfasalazine,257cee60-b68f-4c2b-b57d-8e4d73d17e09,20260825,"",t
+R017,not found,temodar,046a9011-3911-4d3f-a15f-fbb56d5aad56,20260220,"",f
+R018,not found,topiramate,3f99b26b-79b9-4efb-aa2c-2868e1e126c8,20260904,"",t
+R019,unknown,amino acids,"","","",t
+R020,unknown,mesalazine,"","","",t
+R021,not found,ondansetron,416be720-82e8-4a6d-8531-c1a29869daae,20260901,"",t
+R022,not found,aflibercept,f96cfd69-da34-41ee-90a9-610a4655cd1c,20260707,"",t
+R023,partial,ibrutinib,0dfd0279-ff17-4ea9-89be-9803c71bab44,20251021,adverse_reactions,t
+R024,not found,ibuprofen,0ca02f8b-4413-4e7c-a67b-8c67c53e1343,20260909,"",t
+R025,partial,canagliflozin,6868666b-c25e-40d1-9d1f-306bbe9390c1,20260824,information_for_patients,t
+R026,partial,teriflunomide,c424959d-00c9-4e76-aba6-cc7464d8e903,20260826,adverse_reactions,t
+R027,written,imfinzi,8baba4ea-2855-42fa-9bd9-5a7548d4cec3,20260831,warnings_and_cautions,f
+R028,not found,ferric carboxymaltose,bfdf7447-62e4-48ca-b903-11cb3b211064,20260902,"",t
+R029,not found,lithium,be1346df-4a39-45e8-874b-e2a496847fd5,20260831,"",t
+R030,not found,abiraterone,2ac063f0-4177-c90f-27c3-e70e29689255,20260903,"",t
+R031,not found,golimumab,9e260a47-55af-4c92-8d88-a86ccc767fff,20250909,"",t
+R032,written,opdivo,f570b9c4-6846-4de2-abfa-4d0a4ae4e394,20260812,warnings_and_cautions,f
+R033,not found,paxil,483bd97f-c4d0-4e23-aaa8-6334f4471e0c,"Oct 02, 2026","",f
+R034,not found,hydrochlorothiazide,1b303136-dccd-178b-e063-6394a90a35f8,20260908,"",f
+R035,not found,andexanet alfa,2d9d90a6-63e6-46ef-96ff-dd6519ae7b6c,20250523,"",t
+R036,not found,ibuprofen,0ca02f8b-4413-4e7c-a67b-8c67c53e1343,20260909,"",t
+R037,written,zydelig,efbdafa9-d18c-4e85-b4a2-1e620fc74e50,"Sep 21, 2026",warnings_and_cautions,f
+R038,written,insulin aspart,5d9f0e10-edb9-4960-bd62-cf406e75bbe7,20260407,warnings_and_cautions,t
+R039,unknown,baricitinib,"","","",t
+R040,not found,buprenorphine,4124c4ad-ef62-4c95-8e57-0d843862ae71,20260817,"",t
+R041,unknown,chlorotrianisene,"","","",t
+R042,partial,mirtazapine,63f140c2-2a18-4dea-96fe-2658dda28a0c,20260916,adverse_reactions,t
+R043,written,remeron,98ad1917-a094-44f5-a28f-a64a8cfcd887,20250806,warnings_and_cautions,f
+R044,not found,zoloft,fda754f6-d0f3-4dce-a17a-927d64f912f7,20230808,"",f
+R045,written,desogestrel,78454ebf-f1a3-4ca0-b32e-88c51bc57773,20260624,precautions,f
+R046,unknown,macrogol-containing products for bowel preparation,"","","",t
+R047,not found,vyvanse,704e4378-ca83-445c-8b45-3cfa51c1ecad,20260430,"",f
+R048,not found,adalimumab,c44365e9-d470-4e35-978d-8565a9e3471e,20260708,"",t
+R049,partial,zytiga,4e338e89-3cf2-48eb-b6e2-a06c608c6513,20250328,adverse_reactions,f
+R050,not found,ciprofloxacin,47d1e4c5-f669-4aca-9e8c-0d6bb833b859,20260831,"",t
+R051,unknown,interferon alfa-2a,"","","",t
+R052,partial,pomalyst,2b25ef01-5c9e-11e1-b86c-0800200c9a66,20250226,adverse_reactions,f
+R053,not found,amitriptyline,61b29703-cfc2-45c7-ae24-7bf3b77e8587,20260909,"",t
+R054,not found,cannabidiol,8bf27097-4870-43fb-94f0-f3d0871d1eec,20260529,"",t
+R055,written,ceftriaxone,ddbc3bf6-5bab-4851-ae5a-ef263cd8f255,20260723,warnings,t
+R056,partial,tafinlar,fee1e6b1-e1a5-4254-9f2e-a70e0f8dbdea,20260520,adverse_reactions,f
+R057,partial,ibrutinib,0dfd0279-ff17-4ea9-89be-9803c71bab44,20251021,adverse_reactions,t
+R058,partial,lamotrigine,20e156df-a2b6-4710-b526-0419cd17dd33,20260904,adverse_reactions,t
+R059,not found,pembrolizumab,097d166f-b73b-41d3-9b37-7653cd2a0c41,20260731,"",t
+R060,not found,xeloda,e702d84d-7162-4751-bf37-d724cc7e45a5,20260205,"",f
+R061,partial,chloroquine,06c69e2b-211b-4746-9f3a-f86d36520570,20260702,adverse_reactions,t
+R062,written,pembrolizumab,097d166f-b73b-41d3-9b37-7653cd2a0c41,20260731,warnings_and_cautions,t
+R063,not found,adalimumab,c44365e9-d470-4e35-978d-8565a9e3471e,20260708,"",t
+R064,not found,anastrozole,1d1d5818-1594-4f54-90a9-ae9a9afcdc67,20260820,"",t
+R065,not found,hydrocortisone,0d2c0c2c-370f-4adb-b0ea-1e218c927f8b,20260901,"",t
+R066,not found,prednisolone,96de9cad-2fb7-4947-87ae-4db57563a83a,20260904,"",t
+R067,written,kineret,d9d74915-6606-4570-9c52-c4001d3177de,20260403,warnings_and_cautions,f
+R068,not marketed,"","","","",f
+R069,not marketed,"","","","",f
+R070,not found,trastuzumab emtansine,23f3c1f4-0fc8-4804-a9e3-04cf25dd302e,20260401,"",t
+R071,not found,azathioprine,5116b22b-1460-5535-e063-6394a90acbe5,20260505,"",t
+R072,not marketed,"","","","",f
+R073,not marketed,"","","","",f
+R074,partial,lemtrada,6236b0bc-82e9-4447-9a78-f57d94770269,20251103,adverse_reactions,f
+R075,not found,clindamycin,fa084aad-07fa-44d2-8d01-d32f40acd2f3,20260908,"",t
+R076,unknown,covid-19 mrna vaccine - comirnaty,"","","",t
+R077,not marketed,"","","","",f
+R078,not found,secukinumab,77c4b13e-7df3-42d4-81db-3d0cddb7f67a,20260825,"",t
+R079,partial,sulfamethoxazole,c6171b62-835c-465e-905e-97f70438186e,20260902,adverse_reactions,t
+R080,written,bactrim,f59d0c04-9c66-4d53-a0e1-cb55570deb62,20241230,warnings,f
+R081,written,tramadol,c6104e62-5b2c-41a1-afb3-00dcf267a384,20260901,warnings_and_cautions,t
+R082,not found,ceftriaxone,ddbc3bf6-5bab-4851-ae5a-ef263cd8f255,20260723,"",t
+R083,not marketed,"","","","",f
+R084,written,tofacitinib,253635c8-1ea7-41ba-b216-dea5e3305c47,20260901,boxed_warning,t
+R085,written,comirnaty,48c86164-de07-4041-b9dc-f2b5744714e5,"Sep 07, 2026",warnings_and_cautions,f
+R086,written,spikevax,f96b315c-fa57-4876-a7e5-a9b584d8e6e6,"Aug 31, 2026",warnings_and_cautions,f
+R087,partial,aricept,98e451e1-e4d7-4439-a675-c5457ba20975,20211230,adverse_reactions,f
+R088,unknown,atezolizumab,"","","",t
+R089,written,octreotide,387d7f8d-9762-4f6b-99e1-bdc50b8a1633,20260130,warnings_and_cautions,t
+R090,not found,comirnaty,48c86164-de07-4041-b9dc-f2b5744714e5,"Sep 07, 2026","",f
+R091,partial,spikevax,f96b315c-fa57-4876-a7e5-a9b584d8e6e6,"Aug 31, 2026",adverse_reactions,f
+R092,unknown,covid-19 vaccine - vaxzevria,"","","",t
+R093,not found,trexall,e942f8db-510f-44d6-acb5-b822196f5e8c,20260617,"",f
+R094,written,zosyn,8db6bd91-2106-4bfd-8cc8-38aaf1e18d17,20260515,warnings_and_cautions,f
+R095,partial,ponatinib,16d804b6-4957-43ee-b18c-3b36ec37c5ac,20260814,adverse_reactions,t
+R096,not found,warfarin,5a5b5e3a-6556-a542-e063-6294a90a6d3f,20260831,"",t
+R097,not found,ertapenem,41304b1d-7db4-468a-ab1d-04e56fb50de4,20260302,"",t
+R098,not found,labetalol,abfc6b75-1ed5-41f1-0484-4597488237bc,20260914,"",f
+R099,partial,lenvima,f4bedd21-efde-44c6-9d9c-b48b78d7ed1e,"Oct 08, 2026",adverse_reactions,f
+R100,written,spikevax,f96b315c-fa57-4876-a7e5-a9b584d8e6e6,"Aug 31, 2026",warnings_and_cautions,f
+R101,not found,olmesartan,1be698df-30a0-4117-8c24-7253af94c8ad,20260827,"",t
+R102,written,comirnaty,48c86164-de07-4041-b9dc-f2b5744714e5,"Sep 07, 2026",warnings_and_cautions,f
+R103,partial,durvalumab,8baba4ea-2855-42fa-9bd9-5a7548d4cec3,20260831,adverse_reactions,t
+R104,not found,lyrica,f280bbd8-2af2-444a-bd96-e409337ca6dd,20260312,"",f
+R105,partial,xtandi,b129fdc9-1d8e-425c-a5a9-8a2ed36dfbdf,20260728,adverse_reactions,f
+R106,unknown,obinutuzumab,"","","",t
+R107,not found,nexavar,b50667e4-5ebc-4968-a646-d605058dbef0,20230828,"",f
+R108,not found,alemtuzumab,4f5f7255-7abc-4328-bd1a-ceaf139ef3e0,20251105,"",t
+R109,not found,cannabidiol,8bf27097-4870-43fb-94f0-f3d0871d1eec,20260529,"",t
+R110,not found,spikevax,f96b315c-fa57-4876-a7e5-a9b584d8e6e6,"Aug 31, 2026","",f
+R111,not found,codeine,40d4a71e-341e-48b3-b925-ba35b7910dff,20260827,"",t
+R112,unknown,pneumococcal polysaccharide vaccine,"","","",t
+R113,not found,durvalumab,8baba4ea-2855-42fa-9bd9-5a7548d4cec3,20260831,"",t
+R114,not found,spikevax,f96b315c-fa57-4876-a7e5-a9b584d8e6e6,"Aug 31, 2026","",f
+R115,not found,comirnaty,48c86164-de07-4041-b9dc-f2b5744714e5,"Sep 07, 2026","",f
+R116,partial,lipitor,a60cc18b-0631-4cf0-b021-9f52224ece65,20240415,adverse_reactions,f
+R117,written,tafinlar,fee1e6b1-e1a5-4254-9f2e-a70e0f8dbdea,20260520,warnings_and_cautions,f
+R118,not found,stivarga,824f19c9-0546-4a8a-8d8f-c4055c04f7c7,20260209,"",f
+R119,partial,bosutinib,cb7a8d1d-07c0-462d-960f-214d44705e76,20260525,adverse_reactions,t
+R120,written,colistimethate sodium,6a335659-03b0-4a2d-9cd4-7dcf7da96fe6,20260112,warnings,t
+R121,not found,propofol,9ba70032-40c2-41c5-9f99-d1f94032d3dc,20260918,"",t
+R122,not found,voriconazole,c620b2d7-3c2b-4252-8cfc-2f322d624435,20260827,"",t
+R123,unknown,lenvatinib,"","","",t
+R124,not found,yervoy,2265ef30-253e-11df-8a39-0800200c9a66,20260820,"",f
+R125,not found,tofacitinib,253635c8-1ea7-41ba-b216-dea5e3305c47,20260901,"",t
+R126,not found,olaparib,741ff3e3-dc1a-45a6-84e5-2481b27131aa,20250710,"",t
+R127,written,acetazolamide,4813b9dd-5f58-44bb-ad64-cdb331828080,20260819,precautions,f
+R128,partial,vidaza,3495a71a-cc04-4776-851f-f185956f32af,20240129,adverse_reactions,f
+R129,not found,dapagliflozin,05c3cf00-8c2a-4227-958a-fa5db34512b0,20260908,"",t
+R130,written,yescarta,9b70606e-b99c-4272-a0f1-b5523cce0c59,20260806,warnings_and_cautions,f
+R131,partial,dabrafenib,fee1e6b1-e1a5-4254-9f2e-a70e0f8dbdea,20260520,adverse_reactions,t
+R132,written,esbriet,2e8c3537-36d7-4de5-9b5c-7a624b9a9e6e,20251205,warnings_and_cautions,f
+R133,partial,amphotericin b,02aadef1-390b-4270-b56d-33452eb89dde,20260420,adverse_reactions,t
+R134,written,avatrombopag,e2d5960d-6c18-46cc-86bd-089222b09852,20250813,warnings_and_cautions,t
+R135,not found,cefotaxime,ed23b6bc-32c7-4c50-a53d-313ae78e5623,20240411,"",f
+R136,not found,cobimetinib,c387579e-cee0-4334-bd1e-73f93ac1bde6,20260729,"",t
+R137,not found,verzenio,be4bc0de-0fdc-4d46-8d25-be43c79e6a06,"Oct 01, 2026","",f
+R138,not found,adagrasib,0b8bf078-34c2-4f45-9012-38a8ac082b01,20260325,"",t
+R139,unknown,atezolizumab,"","","",t
+R140,unknown,atezolizumab,"","","",t
+R141,not found,chlorhexidine,583986f1-1cce-21c3-e063-6394a90aed1f,20260910,"",t
+R142,not found,ethambutol,c12b3482-55f0-4324-bdcd-b129ca2dae73,20260731,"",f
+R143,unknown,baricitinib,"","","",t
+R144,not found,dabrafenib,fee1e6b1-e1a5-4254-9f2e-a70e0f8dbdea,20260520,"",t
+R145,unknown,manidipine,"","","",t
+R146,not found,propofol,9ba70032-40c2-41c5-9f99-d1f94032d3dc,20260918,"",t
+R147,written,axicabtagene ciloleucel,9b70606e-b99c-4272-a0f1-b5523cce0c59,20260806,warnings_and_cautions,t
+R148,not found,"","","","",f
+R149,partial,bumetanide,0fb78afc-d8bc-4ae8-8c0a-6d9c6f7a22c5,20260909,adverse_reactions,f
+R150,written,glofitamab,3516e753-f064-4d30-9bd5-e3f2e143f75d,20260625,warnings_and_cautions,t
+R151,not found,dulaglutide,463050bd-2b1c-40f5-b3c3-0a04bb433309,20260616,"",t
+R152,unknown,human papillomavirus 9-valent vaccine,"","","",t
+R153,written,depo-provera,199cf13e-0859-4a73-9b45-e700d0cd1049,20260825,warnings_and_cautions,f
+R154,not found,amlodipine,27b0c628-820a-48bf-a411-86c0ebd4cc8d,20261006,"",t
+R155,unknown,paracetamol,"","","",t
+R156,not found,azathioprine,5116b22b-1460-5535-e063-6394a90acbe5,20260505,"",t
+R157,written,inomax,762b51be-1893-4cd1-9511-e645fc420d3a,20251212,warnings_and_cautions,f
+R158,unknown,risperidone oral solution,"","","",t
+R159,not found,afatinib,ec5b9e00-3eab-4dbd-9bb3-75865b1af485,20260903,"",t
+R160,not found,lenvima,f4bedd21-efde-44c6-9d9c-b48b78d7ed1e,"Oct 08, 2026","",f
+R161,partial,poteligeo,e53960ab-42a1-40d1-9c7d-eb013fe7f18f,"Oct 05, 2026",adverse_reactions,f
+R162,not marketed,"","","","",f
+R163,unknown,oxytetracycline hydrochloride,"","","",t
+R164,written,stivarga,824f19c9-0546-4a8a-8d8f-c4055c04f7c7,20260209,warnings_and_cautions,f
+R165,not found,sertraline,7d598f1a-6c76-458a-a155-7a6a0743a2d3,20260903,"",t
+R166,written,sulfamethoxazole,c6171b62-835c-465e-905e-97f70438186e,20260902,warnings,t
+R167,not found,axicabtagene ciloleucel,9b70606e-b99c-4272-a0f1-b5523cce0c59,20260806,"",t
+R168,not found,brodalumab,1a550c33-456a-4833-814e-8591aea7c688,20260528,"",t
+R169,not found,enzalutamide,b129fdc9-1d8e-425c-a5a9-8a2ed36dfbdf,20260728,"",t
+R170,not found,vortioxetine,239215eb-be32-4286-9677-1e5556c6cccf,20260423,"",t
+R171,written,carvykti,7d040b91-3fb8-41db-ba7f-60a36f06e2c2,20251016,warnings_and_cautions,f
+R172,not found,clozapine,61fe53d5-ed5c-4e45-9189-709d08d386cb,20260511,"",t
+R173,unknown,varicella vaccine,"","","",t
+R174,not found,binimetinib,6c3408ac-d401-4925-8a03-26591afbc240,20250320,"",t
+R175,not found,diazoxide,abe317a5-6c63-469c-89c8-9fedfe859c3d,20260807,"",t
+R176,unknown,dinutuximab beta,"","","",t
+R177,unknown,osimertinib,"","","",t
+R178,written,somatrogon,06dce529-b741-4a1b-8842-3ad77be6e308,20260814,warnings_and_cautions,t
+R179,partial,bosulif,d5929f91-6496-4c0e-97e8-0bd524e15763,20260528,adverse_reactions,f
+R180,partial,datroway,2950227c-6230-4ca4-a135-46e44d9424a0,20260527,adverse_reactions,f
+R181,partial,epcoritamab,d7836711-b677-412d-bf2d-0f7c8444103a,20260622,adverse_reactions,t
+R182,not found,cefazolin,1dc9de56-e259-4546-a1db-23119a8a088e,20260514,"",t
+R183,not found,erdafitinib,2a8aa5c0-6c92-4566-8c45-e8f4d1fc20ee,20251024,"",t
+R184,not found,doxil,917eddf9-1d3f-4abe-8c81-d33b066e5bae,20260310,"",f
+R185,unknown,chikungunya vaccine,"","","",t
+R186,not found,galantamine,261889d3-41c8-4655-98f7-41317778e7a1,20260702,"",t
+R187,not found,axicabtagene ciloleucel,9b70606e-b99c-4272-a0f1-b5523cce0c59,20260806,"",t
+R188,not found,ponatinib,16d804b6-4957-43ee-b18c-3b36ec37c5ac,20260814,"",t
+R189,not found,pancreatin,212f5059-da04-595d-e063-6394a90acc64,20240903,"",t
+R190,unknown,darolutamide,"","","",t
+R191,written,gemcitabine,dc02a23b-3ff9-4441-aa91-8e9e629a7315,20260427,warnings_and_cautions,f
+R192,written,valproate,8d5fc1c1-d3c0-497e-971b-6c4dba9a3fad,20260312,boxed_warning,t
+R193,unknown,iobitridol,"","","",t
+R194,partial,zolbetuximab,e7695a21-abb6-47ac-93f8-0ece5a9c4409,20260811,adverse_reactions,t
+R195,not found,nexplanon,487f8a62-e142-457c-97cc-2e398fde7594,20260528,"",f
+R196,unknown,levonorgestrel intrauterine device 13.5 mg,"","","",t
+R197,partial,oxacillin,d893e45b-7f18-4c67-b10c-1e2e52a6b3ef,20260831,adverse_reactions,f

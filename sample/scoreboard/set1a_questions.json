@@ -1,0 +1,280 @@
+{
+ "set": "1a",
+ "n": 39,
+ "note": "Question inputs only (no answers). Same inputs go to every arm.",
+ "questions": [
+  {
+   "id": "R159",
+   "inn": "Afatinib",
+   "signal": "Growth of eyelashes",
+   "prac_meeting": "2025-01",
+   "product": "Gilotrif"
+  },
+  {
+   "id": "R160",
+   "inn": "Lenvatinib",
+   "signal": "Tumour lysis syndrome",
+   "prac_meeting": "2025-01",
+   "product": "Lenvima"
+  },
+  {
+   "id": "R161",
+   "inn": "Mogamulizumab",
+   "signal": "Colitis",
+   "prac_meeting": "2025-02",
+   "product": "Poteligeo"
+  },
+  {
+   "id": "R162",
+   "inn": "Tegafur, gimeracil, oteracil",
+   "signal": "Hyperammonaemia",
+   "prac_meeting": "2025-03",
+   "product": null
+  },
+  {
+   "id": "R163",
+   "inn": "Oxytetracycline hydrochloride, hydrocortisone acetate, polymyxin B sulfate (ear/eye drops/suspension/ointment)",
+   "signal": "Hearing and vestibular disorders",
+   "prac_meeting": "2025-04",
+   "product": null
+  },
+  {
+   "id": "R164",
+   "inn": "Regorafenib",
+   "signal": "Hyperammonaemia, hyperammonaemic encephalopathy",
+   "prac_meeting": "2025-04",
+   "product": "Stivarga"
+  },
+  {
+   "id": "R165",
+   "inn": "Sertraline",
+   "signal": "Multiple acyl-coenzyme A dehydrogenase deficiency",
+   "prac_meeting": "2025-05",
+   "product": "Zoloft"
+  },
+  {
+   "id": "R166",
+   "inn": "Sulfamethoxazole, trimethoprim (co-trimoxazole)",
+   "signal": "Circulatory shock",
+   "prac_meeting": "2025-05",
+   "product": "Bactrim"
+  },
+  {
+   "id": "R167",
+   "inn": "Axicabtagene ciloleucel; brexucabtagene autoleucel; ciltabtagene autoleucel; idecabtagene vicleucel; lisocabtagene maraleucel; tisagenlecleucel",
+   "signal": "Immune-mediated enterocolitis / immune effector cell-associated enteritis with CAR T-cell products",
+   "prac_meeting": "2025-06",
+   "product": "Yescarta"
+  },
+  {
+   "id": "R168",
+   "inn": "Brodalumab",
+   "signal": "Pyoderma gangrenosum",
+   "prac_meeting": "2025-06",
+   "product": "Siliq"
+  },
+  {
+   "id": "R169",
+   "inn": "Enzalutamide; digoxin",
+   "signal": "Laboratory test interference leading to falsely elevated digoxin plasma levels with enzalutamide",
+   "prac_meeting": "2025-06",
+   "product": "Xtandi"
+  },
+  {
+   "id": "R170",
+   "inn": "Vortioxetine",
+   "signal": "Hallucinations, not related to serotoninergic syndrome",
+   "prac_meeting": "2025-06",
+   "product": "Trintellix"
+  },
+  {
+   "id": "R171",
+   "inn": "Ciltacabtagene autoleucel; idecabtagene vicleucel; tisagenlecleucel",
+   "signal": "Progressive multifocal leukoencephalopathy",
+   "prac_meeting": "2025-07",
+   "product": "Carvykti"
+  },
+  {
+   "id": "R172",
+   "inn": "Clozapine",
+   "signal": "New aspect of the known risk of neutropenia/agranulocytosis with potential impact on the risk minimisation measures",
+   "prac_meeting": "2025-07",
+   "product": "Clozaril"
+  },
+  {
+   "id": "R173",
+   "inn": "Varicella vaccine (live); measles, mumps, rubella and varicella vaccine (live)",
+   "signal": "New aspect of the known risk of encephalitis",
+   "prac_meeting": "2025-07",
+   "product": "Varivax"
+  },
+  {
+   "id": "R174",
+   "inn": "Binimetinib; cobimetinib; dabrafenib; encorafenib; trametinib; vemurafenib",
+   "signal": "Tattoo associated skin reaction",
+   "prac_meeting": "2025-09",
+   "product": "Mektovi"
+  },
+  {
+   "id": "R175",
+   "inn": "Diazoxide",
+   "signal": "Necrotising enterocolitis neonatal",
+   "prac_meeting": "2025-09",
+   "product": "Proglycem (Teva)"
+  },
+  {
+   "id": "R176",
+   "inn": "Dinutuximab beta",
+   "signal": "Atypical haemolytic uraemic syndrome",
+   "prac_meeting": "2025-09",
+   "product": null
+  },
+  {
+   "id": "R177",
+   "inn": "Osimertinib",
+   "signal": "Hepatitis B reactivation",
+   "prac_meeting": "2025-09",
+   "product": "Tagrisso"
+  },
+  {
+   "id": "R178",
+   "inn": "Somatrogon",
+   "signal": "Lipoatrophy",
+   "prac_meeting": "2025-09",
+   "product": "Ngenla"
+  },
+  {
+   "id": "R179",
+   "inn": "Bosutinib",
+   "signal": "Cutaneous vasculitis",
+   "prac_meeting": "2025-10",
+   "product": "Bosulif (Pfizer)"
+  },
+  {
+   "id": "R180",
+   "inn": "Datopotamab deruxtecan",
+   "signal": "Anaphylactic reaction",
+   "prac_meeting": "2025-10",
+   "product": "Datroway"
+  },
+  {
+   "id": "R181",
+   "inn": "Epcoritamab",
+   "signal": "Hypogammaglobulinaemia",
+   "prac_meeting": "2025-10",
+   "product": "Epkinly"
+  },
+  {
+   "id": "R182",
+   "inn": "Cefazolin; cefazolin, lidocaine hydrochloride",
+   "signal": "Kounis syndrome",
+   "prac_meeting": "2026-01",
+   "product": "Cefazolin (B. Braun Duplex)"
+  },
+  {
+   "id": "R183",
+   "inn": "Erdafitinib",
+   "signal": "Growth accelerated",
+   "prac_meeting": "2026-01",
+   "product": "Balversa"
+  },
+  {
+   "id": "R184",
+   "inn": "Pegylated liposomal doxorubicin",
+   "signal": "Renal-limited thrombotic microangiopathy",
+   "prac_meeting": "2026-01",
+   "product": "Doxil"
+  },
+  {
+   "id": "R185",
+   "inn": "Chikungunya vaccine (live)",
+   "signal": "New aspect of the known risk of aseptic meningitis",
+   "prac_meeting": "2026-03",
+   "product": null
+  },
+  {
+   "id": "R186",
+   "inn": "Galantamine",
+   "signal": "Nightmares",
+   "prac_meeting": "2026-03",
+   "product": "Galantamine tablets (Aurobindo)"
+  },
+  {
+   "id": "R187",
+   "inn": "Axicabtagene ciloleucel",
+   "signal": "Increased risk of brain oedema in primary mediastinal large B-cell lymphoma (PMBCL) patients",
+   "prac_meeting": "2026-04",
+   "product": "Yescarta"
+  },
+  {
+   "id": "R188",
+   "inn": "Ponatinib",
+   "signal": "Congenital megacolon, maternal exposure during pregnancy",
+   "prac_meeting": "2026-04",
+   "product": "Iclusig"
+  },
+  {
+   "id": "R189",
+   "inn": "Pancreatin",
+   "signal": "Infection due to viral transmission",
+   "prac_meeting": "2026-05",
+   "product": "Creon (pancrelipase)"
+  },
+  {
+   "id": "R190",
+   "inn": "Darolutamide",
+   "signal": "Angioedema",
+   "prac_meeting": "2026-06",
+   "product": "Nubeqa"
+  },
+  {
+   "id": "R191",
+   "inn": "Gemcitabine",
+   "signal": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+   "prac_meeting": "2026-06",
+   "product": "Gemcitabine (Hospira)"
+  },
+  {
+   "id": "R192",
+   "inn": "Valproate and related substances",
+   "signal": "Neurodevelopmental disorders with paternal exposure",
+   "prac_meeting": "2026-06",
+   "product": "Depakote"
+  },
+  {
+   "id": "R193",
+   "inn": "X-ray contrast agents: iobitridol; iodixanol; iohexol; iomeprol; iopamidol; iopromide; ioversol; ioxitalamic acid",
+   "signal": "Fixed drug eruption",
+   "prac_meeting": "2026-06",
+   "product": "Visipaque"
+  },
+  {
+   "id": "R194",
+   "inn": "Zolbetuximab",
+   "signal": "Protein-losing gastroenteropathy",
+   "prac_meeting": "2026-06",
+   "product": "Vyloy"
+  },
+  {
+   "id": "R195",
+   "inn": "Desogestrel; etonogestrel",
+   "signal": "Meningioma",
+   "prac_meeting": "2026-07",
+   "product": "Nexplanon"
+  },
+  {
+   "id": "R196",
+   "inn": "Levonorgestrel intrauterine device 13.5 mg",
+   "signal": "Increased risk of ectopic pregnancy",
+   "prac_meeting": "2026-07",
+   "product": "Skyla"
+  },
+  {
+   "id": "R197",
+   "inn": "Oxacillin",
+   "signal": "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+   "prac_meeting": "2026-09",
+   "product": "Oxacillin (Baxter)"
+  }
+ ]
+}

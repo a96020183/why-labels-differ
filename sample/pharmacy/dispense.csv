@@ -1,0 +1,1013 @@
+dispense_id,patient_id,inn,product,rxnorm,dept,last_fill,next_fill,origin
+1,b01df6c4-d0b3-07c2-cdfc-a21ca76cd7e3,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-10,2026-11-09,synthea
+2,b01df6c4-d0b3-07c2-cdfc-a21ca76cd7e3,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-19,2026-11-18,synthea
+3,b01df6c4-d0b3-07c2-cdfc-a21ca76cd7e3,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-12,2026-11-11,synthea
+4,ca4f5cc3-3b0f-b007-11c1-807338e457cc,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-02,2026-11-01,synthea
+5,ca4f5cc3-3b0f-b007-11c1-807338e457cc,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-09-30,2026-10-30,synthea
+6,0e4e87f6-a2bc-f4dd-155a-087bf845fae5,metformin,24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet,860975,endocrinology,2026-10-03,2026-11-02,synthea
+7,4c19b1a7-648f-6ac9-52c7-88a650e0bd15,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-01,2026-10-31,synthea
+8,3a89cfab-f574-e9ee-4ebc-0596240d7b40,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-03,2026-11-02,synthea
+9,3a89cfab-f574-e9ee-4ebc-0596240d7b40,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-01,2026-10-31,synthea
+10,3a89cfab-f574-e9ee-4ebc-0596240d7b40,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-07,2026-11-06,synthea
+11,3a89cfab-f574-e9ee-4ebc-0596240d7b40,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-13,2026-11-12,synthea
+12,3a89cfab-f574-e9ee-4ebc-0596240d7b40,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-04,2026-11-03,synthea
+13,caca15a0-13a2-a38c-1e15-8ab346dfefdc,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-12,2026-11-11,synthea
+14,baa5da11-a464-15cf-9282-7b4a4242ff7d,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-09,2026-11-08,synthea
+15,db68046b-6007-1cb8-c87f-f964b26b4772,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-14,2026-11-13,synthea
+16,db68046b-6007-1cb8-c87f-f964b26b4772,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-12,2026-11-11,synthea
+17,91bf6a84-ed1d-9777-3674-5245d52514ae,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-16,2026-11-15,synthea
+18,91bf6a84-ed1d-9777-3674-5245d52514ae,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-12,2026-11-11,synthea
+19,03e303ca-5b3b-b219-2246-f023588af618,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-19,2026-11-18,synthea
+20,95553fb0-ae2b-90f6-1e61-695029340a56,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-17,2026-11-16,synthea
+21,3871da2a-77a6-4f17-9aa3-6f7fdf3b5d90,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-15,2026-11-14,synthea
+22,eb3b2e6d-8ae9-5f0d-2634-c5397359d299,atorvastatin,atorvastatin 40 MG Oral Tablet,617311,internal medicine,2026-10-07,2026-11-06,synthea
+23,eb3b2e6d-8ae9-5f0d-2634-c5397359d299,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-18,2026-11-17,synthea
+24,eb3b2e6d-8ae9-5f0d-2634-c5397359d299,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-22,2026-11-21,synthea
+25,46a2aaf8-ec1b-b292-bee9-fd163bc5a011,atorvastatin,atorvastatin 20 MG Oral Tablet,617310,internal medicine,2026-10-12,2026-11-11,synthea
+26,46a2aaf8-ec1b-b292-bee9-fd163bc5a011,hydrochlorothiazide,hydrochlorothiazide 25 MG / losartan potassium 100 MG Oral Tablet,979471,internal medicine,2026-10-23,2026-11-22,synthea
+27,46a2aaf8-ec1b-b292-bee9-fd163bc5a011,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-21,2026-11-20,synthea
+28,6ffe36b6-110e-c046-ebbe-c075cd27d497,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-18,2026-11-17,synthea
+29,6ffe36b6-110e-c046-ebbe-c075cd27d497,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-09-27,2026-10-27,synthea
+30,de0a35a5-667d-e826-b50b-0111d21841ab,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-01,2026-10-31,synthea
+31,de0a35a5-667d-e826-b50b-0111d21841ab,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-09-27,2026-10-27,synthea
+32,8537c826-b65a-507c-6b88-dda563d29481,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-10,2026-11-09,synthea
+33,8537c826-b65a-507c-6b88-dda563d29481,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-22,2026-11-21,synthea
+34,b86804ce-48ae-a295-237f-148ac6927adb,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-07,2026-11-06,synthea
+35,c3578ad0-643a-60f0-431e-f622389264aa,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-20,2026-11-19,synthea
+36,f0dd97a5-39c2-ccd8-e490-1165f52e3c04,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-07,2026-11-06,synthea
+37,f0dd97a5-39c2-ccd8-e490-1165f52e3c04,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-09-27,2026-10-27,synthea
+38,feab2464-140e-40b1-281d-b161608426f7,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-16,2026-11-15,synthea
+39,feab2464-140e-40b1-281d-b161608426f7,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-11,2026-11-10,synthea
+40,feab2464-140e-40b1-281d-b161608426f7,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-09-28,2026-10-28,synthea
+41,feab2464-140e-40b1-281d-b161608426f7,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-09-28,2026-10-28,synthea
+42,f0dd97a5-39c2-ccd8-e490-1165f52e3c04,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-06,2026-11-05,synthea
+43,f0dd97a5-39c2-ccd8-e490-1165f52e3c04,metformin,24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet,860975,endocrinology,2026-10-17,2026-11-16,synthea
+44,f0dd97a5-39c2-ccd8-e490-1165f52e3c04,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-17,2026-11-16,synthea
+45,faf4be9b-e891-638f-ea5d-ea9be5d4ae21,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-09-29,2026-10-29,synthea
+46,faf4be9b-e891-638f-ea5d-ea9be5d4ae21,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-09-29,2026-10-29,synthea
+47,faf4be9b-e891-638f-ea5d-ea9be5d4ae21,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-03,2026-11-02,synthea
+48,dae1e4bd-ee2d-9822-a59f-7ea9f0c6fed4,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-09-27,2026-10-27,synthea
+49,7993e75c-f5a2-afc2-a211-61b626f2d605,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-17,2026-11-16,synthea
+50,7993e75c-f5a2-afc2-a211-61b626f2d605,metformin,24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet,860975,endocrinology,2026-10-04,2026-11-03,synthea
+51,c36ecd2e-244b-82e2-c93a-961486a3cce9,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-21,2026-11-20,synthea
+52,c36ecd2e-244b-82e2-c93a-961486a3cce9,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-10,2026-11-09,synthea
+53,c36ecd2e-244b-82e2-c93a-961486a3cce9,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-19,2026-11-18,synthea
+54,fd3e1f28-d152-ed77-d189-3c51bb1213f8,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-08,2026-11-07,synthea
+55,fd3e1f28-d152-ed77-d189-3c51bb1213f8,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-23,2026-11-22,synthea
+56,fd3e1f28-d152-ed77-d189-3c51bb1213f8,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-09-30,2026-10-30,synthea
+57,fd3e1f28-d152-ed77-d189-3c51bb1213f8,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-11,2026-11-10,synthea
+58,fd3e1f28-d152-ed77-d189-3c51bb1213f8,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-19,2026-11-18,synthea
+59,d25858ee-9630-be4a-4fb9-bf50af4b5437,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-09-28,2026-10-28,synthea
+60,d25858ee-9630-be4a-4fb9-bf50af4b5437,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-09-29,2026-10-29,synthea
+61,55332b44-a91e-428e-1417-6c3244465ef4,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-16,2026-11-15,synthea
+62,55332b44-a91e-428e-1417-6c3244465ef4,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-20,2026-11-19,synthea
+63,37bda061-8bde-3634-09c9-3aee752a2d5d,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-09-29,2026-10-29,synthea
+64,c97a5a59-9875-cd11-b253-a28ea86a23a8,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-17,2026-11-16,synthea
+65,c97a5a59-9875-cd11-b253-a28ea86a23a8,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-11,2026-11-10,synthea
+66,c97a5a59-9875-cd11-b253-a28ea86a23a8,metformin,24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet,860975,endocrinology,2026-09-30,2026-10-30,synthea
+67,92463d1e-eaca-aa17-5230-927feed70e0a,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-01,2026-10-31,synthea
+68,92463d1e-eaca-aa17-5230-927feed70e0a,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-11,2026-11-10,synthea
+69,ffb276e1-f46c-7d35-638f-390aa8c165f8,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-04,2026-11-03,synthea
+70,12e93e26-dd55-e700-f281-49d1f8bdb94c,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-18,2026-11-17,synthea
+71,12e93e26-dd55-e700-f281-49d1f8bdb94c,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-11,2026-11-10,synthea
+72,ad6339d8-dcc0-aba6-dddf-a8badf4a5ffa,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-07,2026-11-06,synthea
+73,ad6339d8-dcc0-aba6-dddf-a8badf4a5ffa,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-06,2026-11-05,synthea
+74,12e93e26-dd55-e700-f281-49d1f8bdb94c,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-23,2026-11-22,synthea
+75,12e93e26-dd55-e700-f281-49d1f8bdb94c,metformin,24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet,860975,endocrinology,2026-09-28,2026-10-28,synthea
+76,ad6339d8-dcc0-aba6-dddf-a8badf4a5ffa,metformin,24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet,860975,endocrinology,2026-10-01,2026-10-31,synthea
+77,ad6339d8-dcc0-aba6-dddf-a8badf4a5ffa,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-02,2026-11-01,synthea
+78,7d2506c2-0c64-24cf-37c4-5553e153f7a3,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-11,2026-11-10,synthea
+79,7d2506c2-0c64-24cf-37c4-5553e153f7a3,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-02,2026-11-01,synthea
+80,c8d53ed1-e197-f975-9870-e4206b5fc6f7,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-15,2026-11-14,synthea
+81,7d2506c2-0c64-24cf-37c4-5553e153f7a3,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-02,2026-11-01,synthea
+82,7d2506c2-0c64-24cf-37c4-5553e153f7a3,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-09-27,2026-10-27,synthea
+83,0457937b-f31d-3e22-8326-a55410a76e35,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-11,2026-11-10,synthea
+84,0457937b-f31d-3e22-8326-a55410a76e35,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-13,2026-11-12,synthea
+85,0457937b-f31d-3e22-8326-a55410a76e35,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-12,2026-11-11,synthea
+86,0457937b-f31d-3e22-8326-a55410a76e35,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-18,2026-11-17,synthea
+87,457643ef-49c2-4ced-b4e7-eb4f1d0db059,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-10,2026-11-09,synthea
+88,457643ef-49c2-4ced-b4e7-eb4f1d0db059,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-15,2026-11-14,synthea
+89,4ab16b22-6633-8fd5-4cf7-c72451bed2cb,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-12,2026-11-11,synthea
+90,4ab16b22-6633-8fd5-4cf7-c72451bed2cb,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-11,2026-11-10,synthea
+91,4ab16b22-6633-8fd5-4cf7-c72451bed2cb,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-09,2026-11-08,synthea
+92,631e5895-2ed7-dd55-7fc1-40a99bc6d996,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-04,2026-11-03,synthea
+93,631e5895-2ed7-dd55-7fc1-40a99bc6d996,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-17,2026-11-16,synthea
+94,5691b6d3-1441-8a79-15a0-bc7e6e5d4144,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-02,2026-11-01,synthea
+95,5691b6d3-1441-8a79-15a0-bc7e6e5d4144,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-03,2026-11-02,synthea
+96,7d5bed19-1836-68dd-3524-045f0b28e427,atorvastatin,atorvastatin 20 MG Oral Tablet,617310,internal medicine,2026-09-28,2026-10-28,synthea
+97,7d5bed19-1836-68dd-3524-045f0b28e427,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-11,2026-11-10,synthea
+98,7d5bed19-1836-68dd-3524-045f0b28e427,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-01,2026-10-31,synthea
+99,977a3dfb-aa15-3ddc-e176-4a0ad921b6ed,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-06,2026-11-05,synthea
+100,ab124566-016b-c1ce-1759-e7a1cb1b769d,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-10,2026-11-09,synthea
+101,ab124566-016b-c1ce-1759-e7a1cb1b769d,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-19,2026-11-18,synthea
+102,ab124566-016b-c1ce-1759-e7a1cb1b769d,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-22,2026-11-21,synthea
+103,ab124566-016b-c1ce-1759-e7a1cb1b769d,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-21,2026-11-20,synthea
+104,693901cf-d8ec-2124-1d68-48ce5e9ae1ec,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-09-30,2026-10-30,synthea
+105,693901cf-d8ec-2124-1d68-48ce5e9ae1ec,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-09-27,2026-10-27,synthea
+106,c39caf0d-f1b5-dd27-c302-b49e376e4253,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-01,2026-10-31,synthea
+107,63789fe0-2483-fdea-7096-452856e64d0c,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-08,2026-11-07,synthea
+108,25780fe2-41ff-2f78-53b9-2e21c781a4a5,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-09-27,2026-10-27,synthea
+109,25780fe2-41ff-2f78-53b9-2e21c781a4a5,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-09-27,2026-10-27,synthea
+110,0d6d06fc-5468-1faf-6b18-fdb573102ab4,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-10,2026-11-09,synthea
+111,1f140fdc-4e97-0aca-5fef-3028de7d2e6a,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-09,2026-11-08,synthea
+112,c18de0ae-4c2f-02dd-c994-015cbd0651b0,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-23,2026-11-22,synthea
+113,6f2a10a5-ffcd-a74b-9614-6ab00d0f767f,atorvastatin,atorvastatin 10 MG Oral Tablet,617312,internal medicine,2026-10-18,2026-11-17,synthea
+114,9145d2da-9af1-024e-bf8d-df7a79a96c9f,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-13,2026-11-12,synthea
+115,9145d2da-9af1-024e-bf8d-df7a79a96c9f,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-17,2026-11-16,synthea
+116,4c49ea40-ab16-ae46-5198-00c4d7b3aad5,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-06,2026-11-05,synthea
+117,4c49ea40-ab16-ae46-5198-00c4d7b3aad5,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-04,2026-11-03,synthea
+118,4c49ea40-ab16-ae46-5198-00c4d7b3aad5,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-14,2026-11-13,synthea
+119,4c49ea40-ab16-ae46-5198-00c4d7b3aad5,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-21,2026-11-20,synthea
+120,5b04ded0-9119-5284-c951-71eb08ea05df,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-15,2026-11-14,synthea
+121,5b04ded0-9119-5284-c951-71eb08ea05df,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-22,2026-11-21,synthea
+122,46865b0e-83c1-c859-c7e2-980dfd5e9072,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-15,2026-11-14,synthea
+123,46865b0e-83c1-c859-c7e2-980dfd5e9072,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-03,2026-11-02,synthea
+124,33e8feac-5460-8a4a-474e-1e4010f9572b,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-09-28,2026-10-28,synthea
+125,33e8feac-5460-8a4a-474e-1e4010f9572b,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-16,2026-11-15,synthea
+126,144653f0-bb49-b4b7-ab78-759b76802188,sertraline,Sertraline 100 MG Oral Tablet,312938,psychiatry,2026-10-02,2026-11-01,synthea
+127,144653f0-bb49-b4b7-ab78-759b76802188,atorvastatin,atorvastatin 40 MG Oral Tablet,617311,internal medicine,2026-10-05,2026-11-04,synthea
+128,144653f0-bb49-b4b7-ab78-759b76802188,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-09-29,2026-10-29,synthea
+129,2bf8915b-300c-89cf-a3fb-e63dfc4d78fb,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-05,2026-11-04,synthea
+130,2bf8915b-300c-89cf-a3fb-e63dfc4d78fb,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-01,2026-10-31,synthea
+131,60e4e37c-8532-18e4-379c-205256a0f458,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-18,2026-11-17,synthea
+132,41769c33-9cf0-cef9-c662-060d9e22529e,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-17,2026-11-16,synthea
+133,41769c33-9cf0-cef9-c662-060d9e22529e,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-03,2026-11-02,synthea
+134,58324f83-90fa-7ef4-b2fa-b9712185b1aa,simvastatin,simvastatin 40 MG Oral Tablet,198211,internal medicine,2026-10-07,2026-11-06,synthea
+135,bb6d3cc0-ad03-9c20-53f3-ae64afdce6ef,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-17,2026-11-16,synthea
+136,9a6c9458-54be-f92f-b76f-0bd2f21f0370,atorvastatin,atorvastatin 10 MG Oral Tablet,617312,internal medicine,2026-10-23,2026-11-22,synthea
+137,9a6c9458-54be-f92f-b76f-0bd2f21f0370,hydrochlorothiazide,hydrochlorothiazide 12.5 MG / lisinopril 10 MG Oral Tablet,197885,internal medicine,2026-10-14,2026-11-13,synthea
+138,9a6c9458-54be-f92f-b76f-0bd2f21f0370,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-17,2026-11-16,synthea
+139,9a6c9458-54be-f92f-b76f-0bd2f21f0370,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-14,2026-11-13,synthea
+140,edb46b6e-4dc6-e749-49e4-3ca66358f5ba,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-13,2026-11-12,synthea
+141,edb46b6e-4dc6-e749-49e4-3ca66358f5ba,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-01,2026-10-31,synthea
+142,92e84b57-16f8-ebcd-0d22-b12397161bcb,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-19,2026-11-18,synthea
+143,92e84b57-16f8-ebcd-0d22-b12397161bcb,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-16,2026-11-15,synthea
+144,08e990d8-199a-d26c-6738-8322082a59fb,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-15,2026-11-14,synthea
+145,08e990d8-199a-d26c-6738-8322082a59fb,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-16,2026-11-15,synthea
+146,08e990d8-199a-d26c-6738-8322082a59fb,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-08,2026-11-07,synthea
+147,08e990d8-199a-d26c-6738-8322082a59fb,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-06,2026-11-05,synthea
+148,3a338ff0-a5e7-9b2b-6512-86f77158242e,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-06,2026-11-05,synthea
+149,3a338ff0-a5e7-9b2b-6512-86f77158242e,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-11,2026-11-10,synthea
+150,85c654a3-8d4f-822e-e2b8-3ee5da1ae447,simvastatin,simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-13,2026-11-12,synthea
+151,debaaa3f-9f74-818e-5ec1-bd0de8a64e1f,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-10,2026-11-09,synthea
+152,85c654a3-8d4f-822e-e2b8-3ee5da1ae447,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-12,2026-11-11,synthea
+153,85c654a3-8d4f-822e-e2b8-3ee5da1ae447,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-23,2026-11-22,synthea
+154,22063ca0-dfe1-fadd-b4da-80fc45a42b34,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-22,2026-11-21,synthea
+155,22063ca0-dfe1-fadd-b4da-80fc45a42b34,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-21,2026-11-20,synthea
+156,a8d83d10-304c-07fc-d332-360b59c9fdab,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-14,2026-11-13,synthea
+157,a8d83d10-304c-07fc-d332-360b59c9fdab,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-04,2026-11-03,synthea
+158,22063ca0-dfe1-fadd-b4da-80fc45a42b34,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-17,2026-11-16,synthea
+159,a8d83d10-304c-07fc-d332-360b59c9fdab,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-12,2026-11-11,synthea
+160,a8d83d10-304c-07fc-d332-360b59c9fdab,metformin,24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet,860975,endocrinology,2026-09-30,2026-10-30,synthea
+161,a153a51c-6a9e-2984-7507-fa575aeccfc1,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-13,2026-11-12,synthea
+162,637616be-11f1-98c4-53d7-b22c392ed269,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-02,2026-11-01,synthea
+163,637616be-11f1-98c4-53d7-b22c392ed269,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-19,2026-11-18,synthea
+164,d7426039-2240-6673-6efe-0cdfcfd2a58f,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-07,2026-11-06,synthea
+165,d7426039-2240-6673-6efe-0cdfcfd2a58f,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-09-28,2026-10-28,synthea
+166,d7426039-2240-6673-6efe-0cdfcfd2a58f,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-11,2026-11-10,synthea
+167,d7426039-2240-6673-6efe-0cdfcfd2a58f,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-11,2026-11-10,synthea
+168,1a46f311-609b-6a92-fb50-b9f8d9ebc11b,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-04,2026-11-03,synthea
+169,94776f42-8840-696f-07f4-6a4924230d8b,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-09-27,2026-10-27,synthea
+170,64407826-b554-6e5e-02c0-fc35835a0a06,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-10,2026-11-09,synthea
+171,64407826-b554-6e5e-02c0-fc35835a0a06,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-05,2026-11-04,synthea
+172,64407826-b554-6e5e-02c0-fc35835a0a06,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-12,2026-11-11,synthea
+173,d7925ae4-4523-19bd-e131-be5d50ccd20b,atorvastatin,atorvastatin 10 MG Oral Tablet,617312,internal medicine,2026-10-09,2026-11-08,synthea
+174,6d335f0f-988d-5421-0e75-3de935a60413,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-18,2026-11-17,synthea
+175,d7925ae4-4523-19bd-e131-be5d50ccd20b,metformin,24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet,860975,endocrinology,2026-10-17,2026-11-16,synthea
+176,6d335f0f-988d-5421-0e75-3de935a60413,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-09-27,2026-10-27,synthea
+177,5e788cf8-5310-4a35-4d72-6e62c74df687,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-09-27,2026-10-27,synthea
+178,5e788cf8-5310-4a35-4d72-6e62c74df687,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-15,2026-11-14,synthea
+179,1a05bd5e-f868-e627-9a3a-722ed6956992,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-20,2026-11-19,synthea
+180,1a05bd5e-f868-e627-9a3a-722ed6956992,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-06,2026-11-05,synthea
+181,1a05bd5e-f868-e627-9a3a-722ed6956992,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-08,2026-11-07,synthea
+182,1a05bd5e-f868-e627-9a3a-722ed6956992,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-17,2026-11-16,synthea
+183,5b56b365-f9d8-738e-75b0-d57cdfb03663,metformin,24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet,860975,endocrinology,2026-10-20,2026-11-19,synthea
+184,2fafc0a5-34f5-68d0-1226-36abaecdae18,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-16,2026-11-15,synthea
+185,447b0981-a937-9a8e-5c87-bb91c935ca06,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-13,2026-11-12,synthea
+186,447b0981-a937-9a8e-5c87-bb91c935ca06,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-09-28,2026-10-28,synthea
+187,d3ca5def-56f4-22c5-de74-de04cc177b28,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-19,2026-11-18,synthea
+188,d3ca5def-56f4-22c5-de74-de04cc177b28,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-09-30,2026-10-30,synthea
+189,8d8d771e-c725-47c1-b5c1-7f8fb63c4a76,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-09,2026-11-08,synthea
+190,36abef8e-2a78-042f-b5f9-1ecfc99a40a7,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-09,2026-11-08,synthea
+191,dbe3a888-8722-19e2-e57c-381c9029196d,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-11,2026-11-10,synthea
+192,dbe3a888-8722-19e2-e57c-381c9029196d,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-04,2026-11-03,synthea
+193,9d5609a0-a443-1baa-4c28-67b08b720f4c,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-14,2026-11-13,synthea
+194,9d5609a0-a443-1baa-4c28-67b08b720f4c,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-02,2026-11-01,synthea
+195,9d5609a0-a443-1baa-4c28-67b08b720f4c,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-02,2026-11-01,synthea
+196,b7b89ba7-85a3-420b-c6b7-b2da129e0004,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-04,2026-11-03,synthea
+197,b7b89ba7-85a3-420b-c6b7-b2da129e0004,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-12,2026-11-11,synthea
+198,73662fcd-01fa-243b-f0ce-899ec96a0df3,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-06,2026-11-05,synthea
+199,d4f601b3-7cb0-3393-0743-4bd694966b16,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-21,2026-11-20,synthea
+200,beab3241-c685-cb61-033d-3d54bfda253e,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-23,2026-11-22,synthea
+201,beab3241-c685-cb61-033d-3d54bfda253e,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-15,2026-11-14,synthea
+202,beab3241-c685-cb61-033d-3d54bfda253e,atorvastatin,atorvastatin 20 MG Oral Tablet,617310,internal medicine,2026-10-22,2026-11-21,synthea
+203,b44f4d15-afb5-30c8-333f-dd624d354692,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-16,2026-11-15,synthea
+204,b44f4d15-afb5-30c8-333f-dd624d354692,metformin,24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet,860975,endocrinology,2026-10-13,2026-11-12,synthea
+205,b44f4d15-afb5-30c8-333f-dd624d354692,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-17,2026-11-16,synthea
+206,8017ce93-4cfb-41d3-6b93-65189dfafa44,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-15,2026-11-14,synthea
+207,842842a5-cd84-a4fe-bdd1-28b59f2aaf16,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-02,2026-11-01,synthea
+208,842842a5-cd84-a4fe-bdd1-28b59f2aaf16,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-04,2026-11-03,synthea
+209,842842a5-cd84-a4fe-bdd1-28b59f2aaf16,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-07,2026-11-06,synthea
+210,747f2328-e66a-16a3-e8fc-ae0f0c1ebc6e,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-13,2026-11-12,synthea
+211,d425f69b-090d-a7f9-8a2b-29d5026c99a8,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-15,2026-11-14,synthea
+212,d425f69b-090d-a7f9-8a2b-29d5026c99a8,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-11,2026-11-10,synthea
+213,1d0443ba-72fc-9436-f840-bd42575dc1da,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-09-30,2026-10-30,synthea
+214,1d0443ba-72fc-9436-f840-bd42575dc1da,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-01,2026-10-31,synthea
+215,1d0443ba-72fc-9436-f840-bd42575dc1da,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-09,2026-11-08,synthea
+216,1d0443ba-72fc-9436-f840-bd42575dc1da,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-01,2026-10-31,synthea
+217,977777e0-a090-3f52-13c1-22b4c2bb7e13,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-09-29,2026-10-29,synthea
+218,075da1e3-121d-fc69-c28a-69ff295f3a0c,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-22,2026-11-21,synthea
+219,075da1e3-121d-fc69-c28a-69ff295f3a0c,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-04,2026-11-03,synthea
+220,baa4186c-d802-72d7-5c34-24e1569cef14,metformin,24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet,860975,endocrinology,2026-10-02,2026-11-01,synthea
+221,55eaf9a7-a461-a578-68e9-b1d343db0a05,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-08,2026-11-07,synthea
+222,55eaf9a7-a461-a578-68e9-b1d343db0a05,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-09-28,2026-10-28,synthea
+223,64cea28a-337a-4fa0-684c-05a54f6c6a87,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-09-27,2026-10-27,synthea
+224,e6ccbc59-4113-188a-7fd8-5b2008107386,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-23,2026-11-22,synthea
+225,7624decf-30fa-ac49-8493-a59002215044,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-01,2026-10-31,synthea
+226,fc79c020-7927-af5c-d41d-5844c3b08dfb,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-06,2026-11-05,synthea
+227,fc79c020-7927-af5c-d41d-5844c3b08dfb,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-13,2026-11-12,synthea
+228,fc79c020-7927-af5c-d41d-5844c3b08dfb,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-05,2026-11-04,synthea
+229,fc79c020-7927-af5c-d41d-5844c3b08dfb,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-18,2026-11-17,synthea
+230,09f262bd-b9ad-e503-b262-df3f3200f02d,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-09,2026-11-08,synthea
+231,09f262bd-b9ad-e503-b262-df3f3200f02d,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-20,2026-11-19,synthea
+232,09f262bd-b9ad-e503-b262-df3f3200f02d,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-06,2026-11-05,synthea
+233,ec72eba6-003b-219e-b76d-72e49a4168cd,atorvastatin,atorvastatin 40 MG Oral Tablet,617311,internal medicine,2026-10-05,2026-11-04,synthea
+234,10f4367d-efe7-4cd3-0c85-0e6fcb595168,atorvastatin,atorvastatin 40 MG Oral Tablet,617311,internal medicine,2026-09-28,2026-10-28,synthea
+235,10f4367d-efe7-4cd3-0c85-0e6fcb595168,hydrochlorothiazide,hydrochlorothiazide 12.5 MG / valsartan 160 MG Oral Tablet,200285,internal medicine,2026-10-12,2026-11-11,synthea
+236,ec72eba6-003b-219e-b76d-72e49a4168cd,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-09-30,2026-10-30,synthea
+237,ec72eba6-003b-219e-b76d-72e49a4168cd,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-09-30,2026-10-30,synthea
+238,ec72eba6-003b-219e-b76d-72e49a4168cd,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-23,2026-11-22,synthea
+239,ec72eba6-003b-219e-b76d-72e49a4168cd,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-03,2026-11-02,synthea
+240,72139db2-1e13-adeb-b606-50707dd0bd6d,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-16,2026-11-15,synthea
+241,10f4367d-efe7-4cd3-0c85-0e6fcb595168,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-09-27,2026-10-27,synthea
+242,2b7efdd8-2394-108d-7aa7-de0d033657a0,atorvastatin,atorvastatin 10 MG Oral Tablet [Lipitor],617314,internal medicine,2026-10-11,2026-11-10,synthea
+243,2b7efdd8-2394-108d-7aa7-de0d033657a0,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-22,2026-11-21,synthea
+244,f42e3a96-f2e6-0d8b-d43d-be55dae9c1f4,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-09-28,2026-10-28,synthea
+245,936e43fb-a192-0b17-c4e9-db72e82bb4d1,metformin,24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet,860975,endocrinology,2026-10-08,2026-11-07,synthea
+246,05aa0f7d-1f58-b039-59cf-38f689d465eb,atorvastatin,atorvastatin 40 MG Oral Tablet,617311,internal medicine,2026-10-04,2026-11-03,synthea
+247,efafeb13-de51-6d12-7df2-4a0cbcfdfb49,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-10,2026-11-09,synthea
+248,597b739c-36d1-ce30-8e17-ec4fddd7dabb,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-06,2026-11-05,synthea
+249,597b739c-36d1-ce30-8e17-ec4fddd7dabb,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-21,2026-11-20,synthea
+250,597b739c-36d1-ce30-8e17-ec4fddd7dabb,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-20,2026-11-19,synthea
+251,597b739c-36d1-ce30-8e17-ec4fddd7dabb,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-10,2026-11-09,synthea
+252,597b739c-36d1-ce30-8e17-ec4fddd7dabb,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-23,2026-11-22,synthea
+253,05aa0f7d-1f58-b039-59cf-38f689d465eb,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-19,2026-11-18,synthea
+254,05aa0f7d-1f58-b039-59cf-38f689d465eb,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-10,2026-11-09,synthea
+255,881b3451-bafd-3312-dbd7-a645b543aa8b,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-10,2026-11-09,synthea
+256,881b3451-bafd-3312-dbd7-a645b543aa8b,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-02,2026-11-01,synthea
+257,392a8b2e-ef00-ccd5-dd10-8da625c5930c,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-09-28,2026-10-28,synthea
+258,392a8b2e-ef00-ccd5-dd10-8da625c5930c,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-08,2026-11-07,synthea
+259,392a8b2e-ef00-ccd5-dd10-8da625c5930c,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-09-30,2026-10-30,synthea
+260,321b0ac0-1092-07ef-773b-aaeca6c0ebd5,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-02,2026-11-01,synthea
+261,321b0ac0-1092-07ef-773b-aaeca6c0ebd5,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-13,2026-11-12,synthea
+262,6f7081fd-d69e-089c-9dc8-7c225d6b86be,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-19,2026-11-18,synthea
+263,0e5c5585-54dc-a820-6b2c-95e2aa4f3598,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-11,2026-11-10,synthea
+264,0e5c5585-54dc-a820-6b2c-95e2aa4f3598,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-06,2026-11-05,synthea
+265,71d349d2-cb0e-2cdf-0ba9-8ff5052e45ec,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-09-30,2026-10-30,synthea
+266,71d349d2-cb0e-2cdf-0ba9-8ff5052e45ec,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-19,2026-11-18,synthea
+267,b30e5d50-3ad2-e658-fc6a-4ac9469a3d83,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-19,2026-11-18,synthea
+268,b30e5d50-3ad2-e658-fc6a-4ac9469a3d83,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-18,2026-11-17,synthea
+269,7c863954-e3cb-128e-8b5c-a2c652afef29,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-05,2026-11-04,synthea
+270,7c863954-e3cb-128e-8b5c-a2c652afef29,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-08,2026-11-07,synthea
+271,382ee253-727f-9fdb-ec6d-a6db8768d4d0,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-02,2026-11-01,synthea
+272,5ad724d3-f11f-a9e1-f25e-30e0c4b46eb6,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-09-27,2026-10-27,synthea
+273,5ad724d3-f11f-a9e1-f25e-30e0c4b46eb6,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-16,2026-11-15,synthea
+274,b2155f31-4bd8-82b9-cfe1-69b305cf1936,atorvastatin,atorvastatin 10 MG Oral Tablet,617312,internal medicine,2026-10-14,2026-11-13,synthea
+275,0b69a803-b29a-08f0-66ce-c0d3b10d78de,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-11,2026-11-10,synthea
+276,0b69a803-b29a-08f0-66ce-c0d3b10d78de,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-12,2026-11-11,synthea
+277,cd9a1d4a-48aa-fb89-ac26-ed37cbf4af77,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-09-27,2026-10-27,synthea
+278,cd9a1d4a-48aa-fb89-ac26-ed37cbf4af77,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-20,2026-11-19,synthea
+279,cd9a1d4a-48aa-fb89-ac26-ed37cbf4af77,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-06,2026-11-05,synthea
+280,dcb95c43-c9de-2bf2-26ba-d721750f0475,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-04,2026-11-03,synthea
+281,82b8d088-a04d-a9fb-9186-f1ded8e2103c,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-10,2026-11-09,synthea
+282,82b8d088-a04d-a9fb-9186-f1ded8e2103c,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-16,2026-11-15,synthea
+283,82b8d088-a04d-a9fb-9186-f1ded8e2103c,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-17,2026-11-16,synthea
+284,f6adcd7c-512a-7104-3fba-7d75577180e3,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-11,2026-11-10,synthea
+285,e2957b25-cd58-b19e-3105-17808bba3c05,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-09-30,2026-10-30,synthea
+286,e2957b25-cd58-b19e-3105-17808bba3c05,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-21,2026-11-20,synthea
+287,e2957b25-cd58-b19e-3105-17808bba3c05,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-03,2026-11-02,synthea
+288,e2957b25-cd58-b19e-3105-17808bba3c05,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-16,2026-11-15,synthea
+289,a276bb11-5c9e-2af3-0d93-52e211e11aac,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-23,2026-11-22,synthea
+290,a276bb11-5c9e-2af3-0d93-52e211e11aac,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-03,2026-11-02,synthea
+291,152eb62e-1702-dda4-c433-3ac09fefcd07,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-20,2026-11-19,synthea
+292,bfdff73d-8e2f-1c9d-dc66-e699cc399fc8,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-16,2026-11-15,synthea
+293,bfdff73d-8e2f-1c9d-dc66-e699cc399fc8,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-11,2026-11-10,synthea
+294,bfdff73d-8e2f-1c9d-dc66-e699cc399fc8,metformin,24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet,860975,endocrinology,2026-10-20,2026-11-19,synthea
+295,cf7c2340-35eb-6f55-ad0c-9ad389f1ea11,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-16,2026-11-15,synthea
+296,cf7c2340-35eb-6f55-ad0c-9ad389f1ea11,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-21,2026-11-20,synthea
+297,e898a594-2991-c9ba-c99c-f80acab31ebf,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-09-27,2026-10-27,synthea
+298,cb52f238-9cee-da2e-7b45-ff7429aad3ee,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-16,2026-11-15,synthea
+299,cb52f238-9cee-da2e-7b45-ff7429aad3ee,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-17,2026-11-16,synthea
+300,cb52f238-9cee-da2e-7b45-ff7429aad3ee,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-07,2026-11-06,synthea
+301,cb52f238-9cee-da2e-7b45-ff7429aad3ee,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-05,2026-11-04,synthea
+302,c7637cc7-d405-a7c7-654f-355e65ccb312,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-18,2026-11-17,synthea
+303,44b4c2da-6762-458b-fcd0-db62099c1dab,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-09-28,2026-10-28,synthea
+304,3651c610-87b8-d0b1-5377-5275f7f62fb4,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-20,2026-11-19,synthea
+305,e522322e-066d-a03b-9a3e-9c14f52f3697,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-16,2026-11-15,synthea
+306,e522322e-066d-a03b-9a3e-9c14f52f3697,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-03,2026-11-02,synthea
+307,e522322e-066d-a03b-9a3e-9c14f52f3697,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-09,2026-11-08,synthea
+308,ff3c8a57-efc9-f98b-8c5e-1440dbba6638,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-08,2026-11-07,synthea
+309,9f5dcaff-68a8-08fa-eaa3-27e6792da7f7,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-16,2026-11-15,synthea
+310,9f5dcaff-68a8-08fa-eaa3-27e6792da7f7,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-17,2026-11-16,synthea
+311,9f5dcaff-68a8-08fa-eaa3-27e6792da7f7,metformin,24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet,860975,endocrinology,2026-10-14,2026-11-13,synthea
+312,d762d627-b72d-544d-ed5d-6906f4291faf,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-11,2026-11-10,synthea
+313,e7a15f6c-56b4-1f22-851e-2517c3eebec2,fluoxetine,FLUoxetine 20 MG Oral Capsule,310385,psychiatry,2026-09-29,2026-10-29,synthea
+314,e7a15f6c-56b4-1f22-851e-2517c3eebec2,sertraline,Sertraline 100 MG Oral Tablet,312938,psychiatry,2026-10-10,2026-11-09,synthea
+315,a030c475-c43a-0f99-4c70-0a9fcaf3d87b,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-13,2026-11-12,synthea
+316,e93f83a0-036a-3ce7-5e92-08ef66f28072,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-15,2026-11-14,synthea
+317,811f4aa3-0fb0-351c-3281-d484a544012b,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-19,2026-11-18,synthea
+318,811f4aa3-0fb0-351c-3281-d484a544012b,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-05,2026-11-04,synthea
+319,162e6efc-553f-46ef-921b-5bcb36cecc3e,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-10,2026-11-09,synthea
+320,162e6efc-553f-46ef-921b-5bcb36cecc3e,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-04,2026-11-03,synthea
+321,1ad037e8-8a7a-ab80-da4f-c877614fbdd0,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-16,2026-11-15,synthea
+322,1ad037e8-8a7a-ab80-da4f-c877614fbdd0,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-04,2026-11-03,synthea
+323,3ce6c4c2-a55e-52f5-eca0-d4349eb82b12,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-23,2026-11-22,synthea
+324,3ce6c4c2-a55e-52f5-eca0-d4349eb82b12,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-07,2026-11-06,synthea
+325,9c4e111d-636a-8682-320f-c65177c67ba5,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-19,2026-11-18,synthea
+326,9c4e111d-636a-8682-320f-c65177c67ba5,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-20,2026-11-19,synthea
+327,9c4e111d-636a-8682-320f-c65177c67ba5,atorvastatin,atorvastatin 20 MG Oral Tablet,617310,internal medicine,2026-10-15,2026-11-14,synthea
+328,9c4e111d-636a-8682-320f-c65177c67ba5,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-20,2026-11-19,synthea
+329,9c4e111d-636a-8682-320f-c65177c67ba5,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-04,2026-11-03,synthea
+330,b640b8a7-93b2-24ba-fa3c-9ba36c1afe5c,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-22,2026-11-21,synthea
+331,38e832a5-d94a-4f24-afe5-91adf6a16a4c,metformin,24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet,860975,endocrinology,2026-10-19,2026-11-18,synthea
+332,e484bb2d-45a7-b7df-11db-bc144293449e,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-09,2026-11-08,synthea
+333,3429361f-3266-f471-ffb9-30eac7611527,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-19,2026-11-18,synthea
+334,3429361f-3266-f471-ffb9-30eac7611527,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-02,2026-11-01,synthea
+335,a2880d76-b7d6-5125-84dc-a2f1c2363aca,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-21,2026-11-20,synthea
+336,8d7f4afb-845a-c756-ef86-b0858b430ea7,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-13,2026-11-12,synthea
+337,dd4cf1df-17cf-3940-2d1e-1fd02033d8ed,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-22,2026-11-21,synthea
+338,dd4cf1df-17cf-3940-2d1e-1fd02033d8ed,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-23,2026-11-22,synthea
+339,dd4cf1df-17cf-3940-2d1e-1fd02033d8ed,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-08,2026-11-07,synthea
+340,eb228790-a04d-6966-498b-522087a5bd70,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-09-29,2026-10-29,synthea
+341,eb228790-a04d-6966-498b-522087a5bd70,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-09-30,2026-10-30,synthea
+342,71f1de6d-49be-c716-5007-6683dd0576b7,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-12,2026-11-11,synthea
+343,b5752196-b46f-c571-2584-dfc425ff47a3,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-03,2026-11-02,synthea
+344,a45dc4ce-04d7-3902-3255-1a6af5c21d2a,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-12,2026-11-11,synthea
+345,a45dc4ce-04d7-3902-3255-1a6af5c21d2a,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-05,2026-11-04,synthea
+346,39f45984-7079-3bb2-3478-279748b1099f,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-18,2026-11-17,synthea
+347,39f45984-7079-3bb2-3478-279748b1099f,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-01,2026-10-31,synthea
+348,27ef099f-1a6f-79d2-6116-cc7c323ad2a7,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-17,2026-11-16,synthea
+349,39f45984-7079-3bb2-3478-279748b1099f,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-11,2026-11-10,synthea
+350,39f45984-7079-3bb2-3478-279748b1099f,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-08,2026-11-07,synthea
+351,71bf3907-5817-23e7-217c-a283405956c3,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-19,2026-11-18,synthea
+352,71bf3907-5817-23e7-217c-a283405956c3,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-06,2026-11-05,synthea
+353,34e49043-ccb1-9bac-d191-86f853b6be2c,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-21,2026-11-20,synthea
+354,34e49043-ccb1-9bac-d191-86f853b6be2c,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-19,2026-11-18,synthea
+355,34e49043-ccb1-9bac-d191-86f853b6be2c,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-13,2026-11-12,synthea
+356,34e49043-ccb1-9bac-d191-86f853b6be2c,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-09-29,2026-10-29,synthea
+357,e1135815-5584-fca7-9259-ea6b72f8dac4,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-08,2026-11-07,synthea
+358,e1135815-5584-fca7-9259-ea6b72f8dac4,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-03,2026-11-02,synthea
+359,dff4d550-8c0d-a2a0-e3aa-c34c57bb53bf,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-17,2026-11-16,synthea
+360,dff4d550-8c0d-a2a0-e3aa-c34c57bb53bf,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-09-30,2026-10-30,synthea
+361,dff4d550-8c0d-a2a0-e3aa-c34c57bb53bf,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-09-30,2026-10-30,synthea
+362,4e89e2f1-df1f-c7af-cae6-9837a7e34749,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-21,2026-11-20,synthea
+363,4e89e2f1-df1f-c7af-cae6-9837a7e34749,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-09-27,2026-10-27,synthea
+364,559b9056-66c5-bd43-76b5-c242dd7d65f2,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-17,2026-11-16,synthea
+365,559b9056-66c5-bd43-76b5-c242dd7d65f2,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-14,2026-11-13,synthea
+366,4e89e2f1-df1f-c7af-cae6-9837a7e34749,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-02,2026-11-01,synthea
+367,4e89e2f1-df1f-c7af-cae6-9837a7e34749,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-22,2026-11-21,synthea
+368,559b9056-66c5-bd43-76b5-c242dd7d65f2,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-11,2026-11-10,synthea
+369,559b9056-66c5-bd43-76b5-c242dd7d65f2,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-18,2026-11-17,synthea
+370,ec9898fb-3e99-a3dc-e115-9e00b5b9bfac,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-09-29,2026-10-29,synthea
+371,d464c8f4-f510-1a1c-6766-436913227322,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-18,2026-11-17,synthea
+372,612eaa2a-af81-c570-a099-0f2ede46f2a6,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-19,2026-11-18,synthea
+373,612eaa2a-af81-c570-a099-0f2ede46f2a6,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-09-30,2026-10-30,synthea
+374,612eaa2a-af81-c570-a099-0f2ede46f2a6,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-21,2026-11-20,synthea
+375,b9d4e185-5fe9-ed92-44de-0b2df15abd61,metformin,24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet,860975,endocrinology,2026-10-06,2026-11-05,synthea
+376,1a42b101-660a-f15e-c008-a0f1726e1bee,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-23,2026-11-22,synthea
+377,1a42b101-660a-f15e-c008-a0f1726e1bee,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-12,2026-11-11,synthea
+378,1a42b101-660a-f15e-c008-a0f1726e1bee,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-04,2026-11-03,synthea
+379,edd38085-634a-73e7-a922-66198eca1675,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-04,2026-11-03,synthea
+380,edd38085-634a-73e7-a922-66198eca1675,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-22,2026-11-21,synthea
+381,7a7724da-2c92-3b06-c029-ea3a0517df7a,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-08,2026-11-07,synthea
+382,7a7724da-2c92-3b06-c029-ea3a0517df7a,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-15,2026-11-14,synthea
+383,7a7724da-2c92-3b06-c029-ea3a0517df7a,atorvastatin,atorvastatin 20 MG Oral Tablet,617310,internal medicine,2026-10-05,2026-11-04,synthea
+384,7a7724da-2c92-3b06-c029-ea3a0517df7a,amlodipine,amlodipine 10 MG / benazepril hydrochloride 40 MG Oral Capsule,898346,internal medicine,2026-10-09,2026-11-08,synthea
+385,7cac89a6-d10f-9be1-55bb-5f351478810f,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-08,2026-11-07,synthea
+386,eb6bc686-18e4-47ad-39c5-84ea6b34d6f5,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-12,2026-11-11,synthea
+387,eb6bc686-18e4-47ad-39c5-84ea6b34d6f5,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-06,2026-11-05,synthea
+388,5625ba26-c8af-5415-3b62-e3b51e971819,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-03,2026-11-02,synthea
+389,5625ba26-c8af-5415-3b62-e3b51e971819,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-11,2026-11-10,synthea
+390,301201c2-b1ba-c29c-1842-3156753aa41b,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-13,2026-11-12,synthea
+391,189386e3-5a53-9815-4dc8-f297a978738b,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-03,2026-11-02,synthea
+392,189386e3-5a53-9815-4dc8-f297a978738b,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-09-30,2026-10-30,synthea
+393,fbc52796-47d6-ebae-608f-3504fa18b3d5,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-12,2026-11-11,synthea
+394,fbc52796-47d6-ebae-608f-3504fa18b3d5,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-09-29,2026-10-29,synthea
+395,ca3c0dd0-91dd-705f-fba8-4c835f27c759,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-06,2026-11-05,synthea
+396,404c0e4d-bc82-c416-4975-3796063a4fe3,fluoxetine,FLUoxetine 20 MG Oral Capsule,310385,psychiatry,2026-10-13,2026-11-12,synthea
+397,404c0e4d-bc82-c416-4975-3796063a4fe3,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-06,2026-11-05,synthea
+398,404c0e4d-bc82-c416-4975-3796063a4fe3,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-09-30,2026-10-30,synthea
+399,404c0e4d-bc82-c416-4975-3796063a4fe3,sertraline,Sertraline 100 MG Oral Tablet,312938,psychiatry,2026-10-01,2026-10-31,synthea
+400,673e061b-6a40-7285-2c69-6c2a9f2faaa7,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-08,2026-11-07,synthea
+401,aa74cff5-ce5b-6d8f-9672-9083cdcfe81c,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-03,2026-11-02,synthea
+402,aa74cff5-ce5b-6d8f-9672-9083cdcfe81c,metformin,24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet,860975,endocrinology,2026-10-02,2026-11-01,synthea
+403,404c0e4d-bc82-c416-4975-3796063a4fe3,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-11,2026-11-10,synthea
+404,ecbdcc42-008c-34c4-5857-367e067ed28c,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-09-28,2026-10-28,synthea
+405,ecbdcc42-008c-34c4-5857-367e067ed28c,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-02,2026-11-01,synthea
+406,ecbdcc42-008c-34c4-5857-367e067ed28c,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-03,2026-11-02,synthea
+407,ecbdcc42-008c-34c4-5857-367e067ed28c,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-17,2026-11-16,synthea
+408,0c34f924-ccdb-554f-7568-246d0907e787,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-09,2026-11-08,synthea
+409,0c34f924-ccdb-554f-7568-246d0907e787,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-09-27,2026-10-27,synthea
+410,f1643591-b7d2-2d23-b53c-9a19ef783d27,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-11,2026-11-10,synthea
+411,0c34f924-ccdb-554f-7568-246d0907e787,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-09-27,2026-10-27,synthea
+412,0cc92d7c-b5f0-0f2b-5288-5646ee16df44,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-04,2026-11-03,synthea
+413,0cc92d7c-b5f0-0f2b-5288-5646ee16df44,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-14,2026-11-13,synthea
+414,1975bbcd-dbb3-6710-f28c-18a678d9d5b8,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-13,2026-11-12,synthea
+415,1975bbcd-dbb3-6710-f28c-18a678d9d5b8,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-14,2026-11-13,synthea
+416,1975bbcd-dbb3-6710-f28c-18a678d9d5b8,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-09,2026-11-08,synthea
+417,a81aa5ed-2e1f-dd57-7241-9d3285aced40,atorvastatin,atorvastatin 80 MG Oral Tablet,259255,internal medicine,2026-10-14,2026-11-13,synthea
+418,a81aa5ed-2e1f-dd57-7241-9d3285aced40,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-13,2026-11-12,synthea
+419,91e24f7e-a710-6d62-ab0c-e521805cc77d,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-09,2026-11-08,synthea
+420,91e24f7e-a710-6d62-ab0c-e521805cc77d,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-09-29,2026-10-29,synthea
+421,91e24f7e-a710-6d62-ab0c-e521805cc77d,metformin,24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet,860975,endocrinology,2026-09-28,2026-10-28,synthea
+422,f354b68d-4086-fe70-35e3-bcaa28d3ae20,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-06,2026-11-05,synthea
+423,2db17efc-de04-2991-2724-d43bed327e8f,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-23,2026-11-22,synthea
+424,2db17efc-de04-2991-2724-d43bed327e8f,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-09,2026-11-08,synthea
+425,ae74dca2-8ba0-0a09-a942-8a32539ef38d,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-09-30,2026-10-30,synthea
+426,ae74dca2-8ba0-0a09-a942-8a32539ef38d,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-09-29,2026-10-29,synthea
+427,ae74dca2-8ba0-0a09-a942-8a32539ef38d,atorvastatin,atorvastatin 10 MG Oral Tablet,617312,internal medicine,2026-10-13,2026-11-12,synthea
+428,e955d548-3159-9d3e-dca5-123e5fbf01fa,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-20,2026-11-19,synthea
+429,e955d548-3159-9d3e-dca5-123e5fbf01fa,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-09-30,2026-10-30,synthea
+430,343756d4-296d-a266-8739-926600f63b51,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-02,2026-11-01,synthea
+431,e955d548-3159-9d3e-dca5-123e5fbf01fa,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-09-27,2026-10-27,synthea
+432,e955d548-3159-9d3e-dca5-123e5fbf01fa,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-04,2026-11-03,synthea
+433,205aab2a-4ee3-ea1c-c0ee-f5c7a9d5c798,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-04,2026-11-03,synthea
+434,205aab2a-4ee3-ea1c-c0ee-f5c7a9d5c798,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-08,2026-11-07,synthea
+435,05f8d67d-839b-c7f7-d1fc-de2cb30b42ad,metformin,24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet,860975,endocrinology,2026-10-02,2026-11-01,synthea
+436,1142e067-5a2e-afac-6804-183828c72937,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-18,2026-11-17,synthea
+437,9b29d7fb-c336-276c-6747-4f92bc636dca,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-15,2026-11-14,synthea
+438,2d97412c-f395-f546-ab6e-e6e01285370a,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-09-27,2026-10-27,synthea
+439,2d97412c-f395-f546-ab6e-e6e01285370a,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-16,2026-11-15,synthea
+440,73491d5a-3856-f4b3-bac8-fce1b9be9364,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-22,2026-11-21,synthea
+441,73491d5a-3856-f4b3-bac8-fce1b9be9364,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-17,2026-11-16,synthea
+442,77cf71d8-f68e-6518-7bb5-3e6c3b8ea925,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-04,2026-11-03,synthea
+443,77cf71d8-f68e-6518-7bb5-3e6c3b8ea925,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-02,2026-11-01,synthea
+444,77cf71d8-f68e-6518-7bb5-3e6c3b8ea925,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-03,2026-11-02,synthea
+445,77cf71d8-f68e-6518-7bb5-3e6c3b8ea925,metformin,24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet,860975,endocrinology,2026-10-15,2026-11-14,synthea
+446,77cf71d8-f68e-6518-7bb5-3e6c3b8ea925,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-05,2026-11-04,synthea
+447,f4b2b8c1-341c-88af-f002-35e09e6e8655,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-11,2026-11-10,synthea
+448,f159ff62-6425-ef16-c2fa-e46e9f6e9cf9,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-11,2026-11-10,synthea
+449,f159ff62-6425-ef16-c2fa-e46e9f6e9cf9,metformin,24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet,860975,endocrinology,2026-10-22,2026-11-21,synthea
+450,4c76c059-5435-9fd4-15d1-4f440745e8e1,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-14,2026-11-13,synthea
+451,4c76c059-5435-9fd4-15d1-4f440745e8e1,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-21,2026-11-20,synthea
+452,4c76c059-5435-9fd4-15d1-4f440745e8e1,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-21,2026-11-20,synthea
+453,68ce6cbc-1e6b-3235-6b23-9787629573a9,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-15,2026-11-14,synthea
+454,68ce6cbc-1e6b-3235-6b23-9787629573a9,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-09-27,2026-10-27,synthea
+455,68ce6cbc-1e6b-3235-6b23-9787629573a9,metformin,24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet,860975,endocrinology,2026-10-08,2026-11-07,synthea
+456,68ce6cbc-1e6b-3235-6b23-9787629573a9,atorvastatin,atorvastatin 10 MG Oral Tablet,617312,internal medicine,2026-10-13,2026-11-12,synthea
+457,68ce6cbc-1e6b-3235-6b23-9787629573a9,hydrochlorothiazide,benazepril hydrochloride 20 MG / hydrochlorothiazide 12.5 MG Oral Tablet,898367,internal medicine,2026-09-27,2026-10-27,synthea
+458,db7da352-2d08-e235-42f6-72430742af4f,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-02,2026-11-01,synthea
+459,db7da352-2d08-e235-42f6-72430742af4f,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-09-28,2026-10-28,synthea
+460,db7da352-2d08-e235-42f6-72430742af4f,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-01,2026-10-31,synthea
+461,db7da352-2d08-e235-42f6-72430742af4f,metformin,24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet,860975,endocrinology,2026-10-22,2026-11-21,synthea
+462,db7da352-2d08-e235-42f6-72430742af4f,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-13,2026-11-12,synthea
+463,1b12949d-4ea0-c80f-dc88-2e8d4bc8a397,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-04,2026-11-03,synthea
+464,1b12949d-4ea0-c80f-dc88-2e8d4bc8a397,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-03,2026-11-02,synthea
+465,b18e91a6-260a-1f4a-581f-235e8b38e110,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-14,2026-11-13,synthea
+466,b18e91a6-260a-1f4a-581f-235e8b38e110,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-04,2026-11-03,synthea
+467,b18e91a6-260a-1f4a-581f-235e8b38e110,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-09-30,2026-10-30,synthea
+468,05d61d05-8627-899b-8063-dbe5d6ec219b,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-05,2026-11-04,synthea
+469,05d61d05-8627-899b-8063-dbe5d6ec219b,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-08,2026-11-07,synthea
+470,546f8f10-22b4-52ce-aa9f-e443ae4c1549,atorvastatin,atorvastatin 10 MG Oral Tablet,617312,internal medicine,2026-10-10,2026-11-09,synthea
+471,05d61d05-8627-899b-8063-dbe5d6ec219b,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-04,2026-11-03,synthea
+472,860f7d76-c70b-a1ca-fc79-412f97eb9de7,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-03,2026-11-02,synthea
+473,d7b61588-999a-20cc-44b6-37ba1f756439,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-09,2026-11-08,synthea
+474,33617d67-84ae-e673-2cbb-c082ecb7072d,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-20,2026-11-19,synthea
+475,33617d67-84ae-e673-2cbb-c082ecb7072d,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-02,2026-11-01,synthea
+476,33617d67-84ae-e673-2cbb-c082ecb7072d,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-22,2026-11-21,synthea
+477,33617d67-84ae-e673-2cbb-c082ecb7072d,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-17,2026-11-16,synthea
+478,1bf90fc0-ab3c-c7e5-651a-7ebc4d1147b7,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-22,2026-11-21,synthea
+479,1bf90fc0-ab3c-c7e5-651a-7ebc4d1147b7,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-22,2026-11-21,synthea
+480,1bf90fc0-ab3c-c7e5-651a-7ebc4d1147b7,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-01,2026-10-31,synthea
+481,1bf90fc0-ab3c-c7e5-651a-7ebc4d1147b7,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-09-30,2026-10-30,synthea
+482,a262291b-8545-0d2e-1149-fd7b7e8f4337,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-07,2026-11-06,synthea
+483,a262291b-8545-0d2e-1149-fd7b7e8f4337,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-06,2026-11-05,synthea
+484,3bb1266c-cd59-30ff-6a5b-bb36a89eedf7,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-15,2026-11-14,synthea
+485,3bb1266c-cd59-30ff-6a5b-bb36a89eedf7,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-15,2026-11-14,synthea
+486,b4c56a94-3d50-f052-9ecc-81e26f2b98be,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-09,2026-11-08,synthea
+487,b4c56a94-3d50-f052-9ecc-81e26f2b98be,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-22,2026-11-21,synthea
+488,2697822f-0975-5ce4-ac17-c2bb651a7bd6,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-01,2026-10-31,synthea
+489,2697822f-0975-5ce4-ac17-c2bb651a7bd6,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-21,2026-11-20,synthea
+490,8b333dec-7f97-c5bc-bb78-c5c000dd0d46,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-09-27,2026-10-27,synthea
+491,4d30b2a7-b8f8-86cf-6560-dee3772635bc,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-06,2026-11-05,synthea
+492,4d30b2a7-b8f8-86cf-6560-dee3772635bc,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-17,2026-11-16,synthea
+493,a46679e4-a010-6985-2d89-dcdac04047e6,sertraline,Sertraline 100 MG Oral Tablet,312938,psychiatry,2026-10-13,2026-11-12,synthea
+494,a46679e4-a010-6985-2d89-dcdac04047e6,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-09,2026-11-08,synthea
+495,a46679e4-a010-6985-2d89-dcdac04047e6,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-21,2026-11-20,synthea
+496,a46679e4-a010-6985-2d89-dcdac04047e6,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-15,2026-11-14,synthea
+497,4d30b2a7-b8f8-86cf-6560-dee3772635bc,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-02,2026-11-01,synthea
+498,4d30b2a7-b8f8-86cf-6560-dee3772635bc,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-01,2026-10-31,synthea
+499,ef291483-b7f0-0ba5-1fd9-3b34b828ed5e,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-05,2026-11-04,synthea
+500,8b7ac54d-03a7-f7ae-273a-d7c47db16e57,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-10,2026-11-09,synthea
+501,8b7ac54d-03a7-f7ae-273a-d7c47db16e57,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-10,2026-11-09,synthea
+502,f94c6252-58a3-0d42-2ecf-70288942e88d,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-17,2026-11-16,synthea
+503,16cdc30c-45c3-dcd8-5fc0-281fb2350d38,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-17,2026-11-16,synthea
+504,16cdc30c-45c3-dcd8-5fc0-281fb2350d38,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-21,2026-11-20,synthea
+505,bb8546dc-29db-8ff2-252b-e9509482c417,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-20,2026-11-19,synthea
+506,bb8546dc-29db-8ff2-252b-e9509482c417,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-05,2026-11-04,synthea
+507,bb8546dc-29db-8ff2-252b-e9509482c417,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-10,2026-11-09,synthea
+508,58052ddd-519f-d639-b8a2-d5f1cac58893,atorvastatin,atorvastatin 40 MG Oral Tablet,617311,internal medicine,2026-10-15,2026-11-14,synthea
+509,f4f237dd-d8db-0ff0-3d83-780a52379abe,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-20,2026-11-19,synthea
+510,fefafb9c-210f-1a8b-d1b7-308e888c6451,metformin,24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet,860975,endocrinology,2026-09-27,2026-10-27,synthea
+511,fefafb9c-210f-1a8b-d1b7-308e888c6451,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-23,2026-11-22,synthea
+512,fefafb9c-210f-1a8b-d1b7-308e888c6451,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-13,2026-11-12,synthea
+513,53c8e16a-6563-5c16-d4c3-0b4de1c6ead1,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-09-27,2026-10-27,synthea
+514,27f52552-e7f4-6d0a-0be2-a8f1b6866f61,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-10,2026-11-09,synthea
+515,7edbe2ef-e994-30b5-71b4-c97c25c495d3,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-03,2026-11-02,synthea
+516,bcb04ae2-6c4e-12c8-e6d6-a7dd5702bdf1,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-16,2026-11-15,synthea
+517,bcb04ae2-6c4e-12c8-e6d6-a7dd5702bdf1,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-18,2026-11-17,synthea
+518,4378d3e9-0333-4e3e-9c8a-1d0cfcbeb49d,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-03,2026-11-02,synthea
+519,4378d3e9-0333-4e3e-9c8a-1d0cfcbeb49d,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-15,2026-11-14,synthea
+520,b1b98328-a7b7-8cd6-aeff-0840bb6a4c02,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-20,2026-11-19,synthea
+521,ef1a8949-59d0-fd46-56fe-4cd1c6a19bde,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-13,2026-11-12,synthea
+522,ef1a8949-59d0-fd46-56fe-4cd1c6a19bde,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-23,2026-11-22,synthea
+523,ef1a8949-59d0-fd46-56fe-4cd1c6a19bde,metformin,24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet,860975,endocrinology,2026-10-10,2026-11-09,synthea
+524,ef1a8949-59d0-fd46-56fe-4cd1c6a19bde,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-07,2026-11-06,synthea
+525,991aa423-6b03-afdb-806b-4537896ab863,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-05,2026-11-04,synthea
+526,991aa423-6b03-afdb-806b-4537896ab863,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-12,2026-11-11,synthea
+527,991aa423-6b03-afdb-806b-4537896ab863,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-09-29,2026-10-29,synthea
+528,9e62e88b-e6ca-a0f2-c158-0f8e1d5d9d5f,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-11,2026-11-10,synthea
+529,9e62e88b-e6ca-a0f2-c158-0f8e1d5d9d5f,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-04,2026-11-03,synthea
+530,9e62e88b-e6ca-a0f2-c158-0f8e1d5d9d5f,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-23,2026-11-22,synthea
+531,35587caf-455d-7c7b-089b-3de743ee28e3,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-21,2026-11-20,synthea
+532,35587caf-455d-7c7b-089b-3de743ee28e3,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-22,2026-11-21,synthea
+533,35587caf-455d-7c7b-089b-3de743ee28e3,atorvastatin,atorvastatin 20 MG Oral Tablet,617310,internal medicine,2026-10-03,2026-11-02,synthea
+534,35587caf-455d-7c7b-089b-3de743ee28e3,hydrochlorothiazide,hydrochlorothiazide 12.5 MG / losartan potassium 50 MG Oral Tablet,979468,internal medicine,2026-10-10,2026-11-09,synthea
+535,8ca5f571-b747-ebbf-4db5-645ddc5bb4cb,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-18,2026-11-17,synthea
+536,dd25e357-17f0-5331-3592-eddf611327dc,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-09-29,2026-10-29,synthea
+537,dd25e357-17f0-5331-3592-eddf611327dc,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-08,2026-11-07,synthea
+538,adbe7acf-dbc0-1100-9767-4595dd11085e,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-01,2026-10-31,synthea
+539,adbe7acf-dbc0-1100-9767-4595dd11085e,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-05,2026-11-04,synthea
+540,dd25e357-17f0-5331-3592-eddf611327dc,metformin,24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet,860975,endocrinology,2026-10-22,2026-11-21,synthea
+541,35587caf-455d-7c7b-089b-3de743ee28e3,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-20,2026-11-19,synthea
+542,35587caf-455d-7c7b-089b-3de743ee28e3,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-07,2026-11-06,synthea
+543,156298c3-e29e-fa43-4d7d-abb0fd060caf,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-14,2026-11-13,synthea
+544,156298c3-e29e-fa43-4d7d-abb0fd060caf,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-05,2026-11-04,synthea
+545,156298c3-e29e-fa43-4d7d-abb0fd060caf,hydrochlorothiazide,hydrochlorothiazide 25 MG / lisinopril 20 MG Oral Tablet,197887,internal medicine,2026-10-22,2026-11-21,synthea
+546,156298c3-e29e-fa43-4d7d-abb0fd060caf,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-09-30,2026-10-30,synthea
+547,156298c3-e29e-fa43-4d7d-abb0fd060caf,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-09-30,2026-10-30,synthea
+548,bc35f27c-74b8-132c-1cee-c68ebd5609a2,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-15,2026-11-14,synthea
+549,bc35f27c-74b8-132c-1cee-c68ebd5609a2,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-16,2026-11-15,synthea
+550,07d2bf98-80e7-d27c-0533-3c26c78ac00d,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-03,2026-11-02,synthea
+551,07d2bf98-80e7-d27c-0533-3c26c78ac00d,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-13,2026-11-12,synthea
+552,8d924e1c-8cc8-5767-2719-813e353efcf0,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-03,2026-11-02,synthea
+553,8d924e1c-8cc8-5767-2719-813e353efcf0,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-08,2026-11-07,synthea
+554,8d924e1c-8cc8-5767-2719-813e353efcf0,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-15,2026-11-14,synthea
+555,3c48f1e3-7ab4-1005-030b-e7d04039edde,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-11,2026-11-10,synthea
+556,b8a5d688-fde9-7f7d-7287-fdb04abcc5d2,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-09,2026-11-08,synthea
+557,b8a5d688-fde9-7f7d-7287-fdb04abcc5d2,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-20,2026-11-19,synthea
+558,9fdcfd17-008b-0d04-6732-bffdb1570204,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-01,2026-10-31,synthea
+559,9fdcfd17-008b-0d04-6732-bffdb1570204,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-14,2026-11-13,synthea
+560,7b44f6ac-b01c-8d25-fc3c-717ef95054d1,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-09-29,2026-10-29,synthea
+561,7b44f6ac-b01c-8d25-fc3c-717ef95054d1,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-19,2026-11-18,synthea
+562,7b44f6ac-b01c-8d25-fc3c-717ef95054d1,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-01,2026-10-31,synthea
+563,e223cdf3-9f3b-4c6b-d137-dd5e1c77df9f,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-09-30,2026-10-30,synthea
+564,e223cdf3-9f3b-4c6b-d137-dd5e1c77df9f,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-22,2026-11-21,synthea
+565,102a5ec5-8591-43c7-61f6-9bfb4f4890b9,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-14,2026-11-13,synthea
+566,102a5ec5-8591-43c7-61f6-9bfb4f4890b9,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-09-27,2026-10-27,synthea
+567,eb3c8ed3-02c0-799a-ea22-0e044518f66e,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-04,2026-11-03,synthea
+568,eb3c8ed3-02c0-799a-ea22-0e044518f66e,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-11,2026-11-10,synthea
+569,eb3c8ed3-02c0-799a-ea22-0e044518f66e,atorvastatin,atorvastatin 40 MG Oral Tablet,617311,internal medicine,2026-10-15,2026-11-14,synthea
+570,57cd53b4-fbe4-2649-5242-3b5565b0a48c,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-15,2026-11-14,synthea
+571,57cd53b4-fbe4-2649-5242-3b5565b0a48c,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-22,2026-11-21,synthea
+572,5b5fab21-4814-34da-77fa-bd110c84babf,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-08,2026-11-07,synthea
+573,6fa9a3b7-6147-1de2-e3e9-1565348c457a,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-09-28,2026-10-28,synthea
+574,4ec98490-a751-12be-f9e2-4906a305e452,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-08,2026-11-07,synthea
+575,4ec98490-a751-12be-f9e2-4906a305e452,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-23,2026-11-22,synthea
+576,a3c3cbec-3ba1-b891-ed16-38397a2731fe,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-09-28,2026-10-28,synthea
+577,a3c3cbec-3ba1-b891-ed16-38397a2731fe,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-15,2026-11-14,synthea
+578,b493624c-05c9-80b0-71b5-9fc4095bb7f7,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-14,2026-11-13,synthea
+579,b493624c-05c9-80b0-71b5-9fc4095bb7f7,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-18,2026-11-17,synthea
+580,b493624c-05c9-80b0-71b5-9fc4095bb7f7,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-09-29,2026-10-29,synthea
+581,7ae0c6e7-2c40-84f3-6ba8-f0049cfc2f92,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-17,2026-11-16,synthea
+582,7ae0c6e7-2c40-84f3-6ba8-f0049cfc2f92,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-09-30,2026-10-30,synthea
+583,7ae0c6e7-2c40-84f3-6ba8-f0049cfc2f92,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-19,2026-11-18,synthea
+584,7ae0c6e7-2c40-84f3-6ba8-f0049cfc2f92,metformin,24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet,860975,endocrinology,2026-10-11,2026-11-10,synthea
+585,7ae0c6e7-2c40-84f3-6ba8-f0049cfc2f92,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-09-28,2026-10-28,synthea
+586,12214ff2-690b-2078-f9ee-3a331879fac8,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-12,2026-11-11,synthea
+587,08652935-4b8d-537e-27ef-0b18700b48dd,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-20,2026-11-19,synthea
+588,87c7a62c-d7bb-a6d9-76d4-18551d2ebf88,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-05,2026-11-04,synthea
+589,87c7a62c-d7bb-a6d9-76d4-18551d2ebf88,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-14,2026-11-13,synthea
+590,87c7a62c-d7bb-a6d9-76d4-18551d2ebf88,metformin,24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet,860975,endocrinology,2026-10-13,2026-11-12,synthea
+591,4a2e270b-bd22-3b82-3420-e50faa198d15,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-14,2026-11-13,synthea
+592,4a2e270b-bd22-3b82-3420-e50faa198d15,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-20,2026-11-19,synthea
+593,7c275658-8c35-2a16-3624-80d19250fe9e,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-20,2026-11-19,synthea
+594,7c275658-8c35-2a16-3624-80d19250fe9e,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-09,2026-11-08,synthea
+595,f0ddd920-4ac8-430c-d78d-81bd99ac107d,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-16,2026-11-15,synthea
+596,f0ddd920-4ac8-430c-d78d-81bd99ac107d,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-02,2026-11-01,synthea
+597,d22b579a-1ff6-9383-534d-af0089e6dbd4,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-12,2026-11-11,synthea
+598,d22b579a-1ff6-9383-534d-af0089e6dbd4,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-15,2026-11-14,synthea
+599,396c2fde-3094-2f23-bde7-40ce8fa76ba0,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-10,2026-11-09,synthea
+600,396c2fde-3094-2f23-bde7-40ce8fa76ba0,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-18,2026-11-17,synthea
+601,71bb39fc-872c-a396-1d92-e1515fc82774,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-09-28,2026-10-28,synthea
+602,99210194-1c35-8f87-5e79-b53d2358d6be,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-20,2026-11-19,synthea
+603,99210194-1c35-8f87-5e79-b53d2358d6be,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-04,2026-11-03,synthea
+604,99210194-1c35-8f87-5e79-b53d2358d6be,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-22,2026-11-21,synthea
+605,99210194-1c35-8f87-5e79-b53d2358d6be,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-15,2026-11-14,synthea
+606,551ac141-7ee8-6c6d-ef07-692fac240ae1,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-04,2026-11-03,synthea
+607,551ac141-7ee8-6c6d-ef07-692fac240ae1,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-12,2026-11-11,synthea
+608,d22b579a-1ff6-9383-534d-af0089e6dbd4,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-15,2026-11-14,synthea
+609,d22b579a-1ff6-9383-534d-af0089e6dbd4,metformin,24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet,860975,endocrinology,2026-09-29,2026-10-29,synthea
+610,7c968911-a426-f7dd-3ae9-2a37bcd1976f,metformin,24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet,860975,endocrinology,2026-10-12,2026-11-11,synthea
+611,933e48c1-22d2-ad14-eaed-f1f86c556999,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-09-29,2026-10-29,synthea
+612,c13935f6-af6f-1df9-dae1-b8b96abae8ee,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-07,2026-11-06,synthea
+613,c13935f6-af6f-1df9-dae1-b8b96abae8ee,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-10,2026-11-09,synthea
+614,4929de23-beea-9699-9071-cdd19afb3c44,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-19,2026-11-18,synthea
+615,2a3f8538-5c1a-6883-c960-406b3c394345,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-01,2026-10-31,synthea
+616,2a3f8538-5c1a-6883-c960-406b3c394345,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-06,2026-11-05,synthea
+617,2a3f8538-5c1a-6883-c960-406b3c394345,insulin,insulin isophane  human 70 UNT/ML / insulin  regular  human 30 UNT/ML Injectable,106892,endocrinology,2026-10-10,2026-11-09,synthea
+618,2a3f8538-5c1a-6883-c960-406b3c394345,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-11,2026-11-10,synthea
+619,2a3f8538-5c1a-6883-c960-406b3c394345,metformin,24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet,860975,endocrinology,2026-10-02,2026-11-01,synthea
+620,2a3f8538-5c1a-6883-c960-406b3c394345,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-13,2026-11-12,synthea
+621,f67ce6ba-570c-0c23-664b-1be8617bfd5f,atorvastatin,atorvastatin 20 MG Oral Tablet,617310,internal medicine,2026-09-30,2026-10-30,synthea
+622,04966b24-2fa2-7169-9c4a-a3b74f087d80,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-03,2026-11-02,synthea
+623,8671ca8c-f350-52f9-53e1-0ea3d5327e19,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-02,2026-11-01,synthea
+624,8671ca8c-f350-52f9-53e1-0ea3d5327e19,atorvastatin,atorvastatin 40 MG Oral Tablet,617311,internal medicine,2026-10-02,2026-11-01,synthea
+625,c7c5e3af-9393-e45d-04b0-6e4e88e28b79,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-11,2026-11-10,synthea
+626,c7c5e3af-9393-e45d-04b0-6e4e88e28b79,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-05,2026-11-04,synthea
+627,8e3e59f8-d4cf-9c38-84dc-036f79cca8aa,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-19,2026-11-18,synthea
+628,8e3e59f8-d4cf-9c38-84dc-036f79cca8aa,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-12,2026-11-11,synthea
+629,f9c2c7cf-0018-7c74-b6b6-1c4f873e2160,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-09-28,2026-10-28,synthea
+630,f9c2c7cf-0018-7c74-b6b6-1c4f873e2160,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-11,2026-11-10,synthea
+631,e1badfca-26db-1bc9-c447-9795c4f6e68f,atorvastatin,atorvastatin 40 MG Oral Tablet,617311,internal medicine,2026-10-03,2026-11-02,synthea
+632,e1badfca-26db-1bc9-c447-9795c4f6e68f,hydrochlorothiazide,hydrochlorothiazide 12.5 MG / lisinopril 10 MG Oral Tablet,197885,internal medicine,2026-10-02,2026-11-01,synthea
+633,4d417d73-21ef-9ba7-3ccc-a3957528e3f2,amlodipine,amLODIPine 2.5 MG Oral Tablet,308136,internal medicine,2026-10-18,2026-11-17,synthea
+634,ce57755d-e123-3130-2b5d-3b5dbccc13fe,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-11,2026-11-10,synthea
+635,ce57755d-e123-3130-2b5d-3b5dbccc13fe,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-08,2026-11-07,synthea
+636,ce57755d-e123-3130-2b5d-3b5dbccc13fe,hydrochlorothiazide,Hydrochlorothiazide 25 MG Oral Tablet,310798,internal medicine,2026-10-01,2026-10-31,synthea
+637,b112d482-92f4-e178-d38d-787db522c4d5,simvastatin,Simvastatin 10 MG Oral Tablet,314231,internal medicine,2026-10-15,2026-11-14,synthea
+638,cd038f96-8b17-a303-0b25-a222d90e6774,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-12,2026-11-11,synthea
+639,cd038f96-8b17-a303-0b25-a222d90e6774,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-06,2026-11-05,synthea
+640,5a871498-96fc-6fce-5e70-4f0bbd858889,clopidogrel,Clopidogrel 75 MG Oral Tablet,309362,internal medicine,2026-10-20,2026-11-19,synthea
+641,5a871498-96fc-6fce-5e70-4f0bbd858889,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-05,2026-11-04,synthea
+642,84ed4c2c-2a90-ffa6-6f44-7500aafa3700,simvastatin,Simvastatin 20 MG Oral Tablet,312961,internal medicine,2026-10-12,2026-11-11,synthea
+643,3055eda5-a018-9dc0-098a-d31f3aa36103,sulfamethoxazole,sulfamethoxazole,,infectious diseases,2026-09-30,2026-10-30,overlay
+644,b01df6c4-d0b3-07c2-cdfc-a21ca76cd7e3,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-05,2026-11-04,overlay
+645,ca4f5cc3-3b0f-b007-11c1-807338e457cc,osimertinib,osimertinib,,oncology,2026-10-01,2026-10-31,overlay
+646,0e4e87f6-a2bc-f4dd-155a-087bf845fae5,pantoprazole,pantoprazole,,gastroenterology,2026-10-04,2026-11-03,overlay
+647,e424232e-f14a-014d-45e7-7d1e8d5cd39f,pirfenidone,pirfenidone,,pulmonology,2026-09-29,2026-10-29,overlay
+648,e424232e-f14a-014d-45e7-7d1e8d5cd39f,darolutamide,darolutamide,,oncology,2026-10-17,2026-11-16,overlay
+649,4c19b1a7-648f-6ac9-52c7-88a650e0bd15,osimertinib,osimertinib,,oncology,2026-10-21,2026-11-20,overlay
+650,2d3396ba-3f64-41c1-01ab-e09fca2b0ae6,semaglutide,Wegovy (semaglutide) injection,2553501,endocrinology,2026-10-06,2026-11-03,overlay
+651,3a89cfab-f574-e9ee-4ebc-0596240d7b40,semaglutide,Ozempic (semaglutide) injection,1991302,endocrinology,2026-10-18,2026-11-15,overlay
+652,96762f01-66da-7f1c-7c6c-39f871c171b9,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-01,2026-10-31,overlay
+653,9357117f-44a7-3548-3cef-9b0668f6f60c,clozapine,clozapine,,psychiatry,2026-10-15,2026-11-14,overlay
+654,03e303ca-5b3b-b219-2246-f023588af618,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-12,2026-11-11,overlay
+655,3871da2a-77a6-4f17-9aa3-6f7fdf3b5d90,semaglutide,Ozempic (semaglutide) injection,1991302,endocrinology,2026-10-19,2026-11-16,overlay
+656,3871da2a-77a6-4f17-9aa3-6f7fdf3b5d90,mirtazapine,mirtazapine,,psychiatry,2026-10-11,2026-11-10,overlay
+657,6ffe36b6-110e-c046-ebbe-c075cd27d497,vortioxetine,vortioxetine,,psychiatry,2026-10-13,2026-11-12,overlay
+658,8537c826-b65a-507c-6b88-dda563d29481,darolutamide,darolutamide,,oncology,2026-10-14,2026-11-13,overlay
+659,f0dd97a5-39c2-ccd8-e490-1165f52e3c04,semaglutide,Ozempic (semaglutide) injection,1991302,endocrinology,2026-10-11,2026-11-08,overlay
+660,f0dd97a5-39c2-ccd8-e490-1165f52e3c04,vortioxetine,vortioxetine,,psychiatry,2026-10-01,2026-10-31,overlay
+661,4f45db98-d826-ff7f-172e-68602e0b76e0,sulfamethoxazole,sulfamethoxazole,,infectious diseases,2026-10-02,2026-11-01,overlay
+662,b9c71e76-602c-b805-997c-6696320ec029,clozapine,clozapine,,psychiatry,2026-10-13,2026-11-12,overlay
+663,faf4be9b-e891-638f-ea5d-ea9be5d4ae21,semaglutide,Wegovy (semaglutide) injection,2553501,endocrinology,2026-10-17,2026-11-14,overlay
+664,559b81fd-c61d-afc2-c6ca-5ad4841ac238,acetazolamide,acetazolamide,,neurology,2026-09-30,2026-10-30,overlay
+665,559b81fd-c61d-afc2-c6ca-5ad4841ac238,gemcitabine,gemcitabine,,oncology,2026-10-14,2026-11-13,overlay
+666,7993e75c-f5a2-afc2-a211-61b626f2d605,semaglutide,Ozempic (semaglutide) injection,1991302,endocrinology,2026-10-07,2026-11-04,overlay
+667,c36ecd2e-244b-82e2-c93a-961486a3cce9,sulfamethoxazole,sulfamethoxazole,,infectious diseases,2026-09-28,2026-10-28,overlay
+668,55332b44-a91e-428e-1417-6c3244465ef4,darolutamide,darolutamide,,oncology,2026-10-16,2026-11-15,overlay
+669,8eeeceaf-88a3-c7d0-171f-3c27fe6713c9,gemcitabine,gemcitabine,,oncology,2026-10-03,2026-11-02,overlay
+670,21e8a7cc-832f-18d7-4e64-39b9547a240d,abiraterone,abiraterone,,oncology,2026-10-14,2026-11-13,overlay
+671,21e8a7cc-832f-18d7-4e64-39b9547a240d,pregabalin,pregabalin,,pain clinic,2026-10-10,2026-11-09,overlay
+672,06dc472c-e63c-1ead-11fb-1cb96afd9dfe,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-13,2026-11-12,overlay
+673,c97a5a59-9875-cd11-b253-a28ea86a23a8,semaglutide,Ozempic (semaglutide) injection,1991302,endocrinology,2026-10-01,2026-10-29,overlay
+674,7ec10940-e24a-5486-756e-4c9492262291,enzalutamide,enzalutamide,,oncology,2026-10-04,2026-11-03,overlay
+675,39ecd352-be25-0a41-761e-5846d5d26a0c,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-13,2026-11-12,overlay
+676,18417a5a-3416-de46-ea63-4d5fc05082d2,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-10,2026-11-09,overlay
+677,ffb276e1-f46c-7d35-638f-390aa8c165f8,donepezil,donepezil,,neurology,2026-10-01,2026-10-31,overlay
+678,12e93e26-dd55-e700-f281-49d1f8bdb94c,semaglutide,Ozempic (semaglutide) injection,1991302,endocrinology,2026-10-13,2026-11-10,overlay
+679,ad6339d8-dcc0-aba6-dddf-a8badf4a5ffa,semaglutide,Ozempic (semaglutide) injection,1991302,endocrinology,2026-10-09,2026-11-06,overlay
+680,7d2506c2-0c64-24cf-37c4-5553e153f7a3,clozapine,clozapine,,psychiatry,2026-10-09,2026-11-08,overlay
+681,c8d53ed1-e197-f975-9870-e4206b5fc6f7,osimertinib,osimertinib,,oncology,2026-10-02,2026-11-01,overlay
+682,c8d53ed1-e197-f975-9870-e4206b5fc6f7,vortioxetine,vortioxetine,,psychiatry,2026-10-01,2026-10-31,overlay
+683,f075ee1e-73bc-a4fa-8c98-51a0b0108562,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-07,2026-11-06,overlay
+684,c602d8f0-1609-808e-eb1b-7ed90d198b0b,pantoprazole,pantoprazole,,gastroenterology,2026-10-12,2026-11-11,overlay
+685,457643ef-49c2-4ced-b4e7-eb4f1d0db059,semaglutide,Ozempic (semaglutide) injection,1991302,endocrinology,2026-10-17,2026-11-14,overlay
+686,3923f8f5-a471-923a-bc6a-32bc865f6b94,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-21,2026-11-20,overlay
+687,4099f020-8dc8-ca0e-ee25-6670f0753587,osimertinib,osimertinib,,oncology,2026-10-17,2026-11-16,overlay
+688,e516ae78-bd16-6b30-0f98-16510372840b,gemcitabine,gemcitabine,,oncology,2026-10-04,2026-11-03,overlay
+689,e516ae78-bd16-6b30-0f98-16510372840b,pregabalin,pregabalin,,pain clinic,2026-10-07,2026-11-06,overlay
+690,e516ae78-bd16-6b30-0f98-16510372840b,vortioxetine,vortioxetine,,psychiatry,2026-10-02,2026-11-01,overlay
+691,d46cf02a-36da-3bab-8229-2f0101d363e4,enzalutamide,enzalutamide,,oncology,2026-10-11,2026-11-10,overlay
+692,58bfdc3e-6f29-76d4-d575-5d71d94936c1,semaglutide,Wegovy (semaglutide) injection,2553501,endocrinology,2026-10-17,2026-11-14,overlay
+693,529c565f-97a5-a44e-6e63-b1947e75364c,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-17,2026-11-16,overlay
+694,5691b6d3-1441-8a79-15a0-bc7e6e5d4144,semaglutide,Wegovy (semaglutide) injection,2553501,endocrinology,2026-10-14,2026-11-11,overlay
+695,c2a3c92d-e769-2d7d-84af-8ced2baf2cfb,regorafenib,regorafenib,,oncology,2026-10-03,2026-11-02,overlay
+696,63789fe0-2483-fdea-7096-452856e64d0c,enzalutamide,enzalutamide,,oncology,2026-10-20,2026-11-19,overlay
+697,a37315ea-48dc-90f2-2a0a-aa0ff6236452,mirtazapine,mirtazapine,,psychiatry,2026-10-18,2026-11-17,overlay
+698,9c896f64-0089-99f8-58b2-1369d1261391,semaglutide,Wegovy (semaglutide) injection,2553501,endocrinology,2026-10-07,2026-11-04,overlay
+699,c5988b45-c2a4-cfaa-b28f-61407040412c,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-03,2026-11-02,overlay
+700,c5988b45-c2a4-cfaa-b28f-61407040412c,enzalutamide,enzalutamide,,oncology,2026-10-09,2026-11-08,overlay
+701,1c21f2ed-6b90-80b5-202a-e20b14251981,pregabalin,pregabalin,,pain clinic,2026-10-08,2026-11-07,overlay
+702,21bb1e3f-57a2-973b-2121-e775d5ef28cc,vortioxetine,vortioxetine,,psychiatry,2026-10-21,2026-11-20,overlay
+703,e837b872-c165-d5e1-5493-8bfdebd5f3a7,darolutamide,darolutamide,,oncology,2026-09-27,2026-10-27,overlay
+704,36e49da5-5a03-09dd-dbcb-627e3cb6dd0e,sulfamethoxazole,sulfamethoxazole,,infectious diseases,2026-10-01,2026-10-31,overlay
+705,36e49da5-5a03-09dd-dbcb-627e3cb6dd0e,clozapine,clozapine,,psychiatry,2026-10-23,2026-11-22,overlay
+706,6f2a10a5-ffcd-a74b-9614-6ab00d0f767f,abiraterone,abiraterone,,oncology,2026-10-03,2026-11-02,overlay
+707,e0682fff-5b9c-4c16-9338-8c9e4c12d1df,sulfamethoxazole,sulfamethoxazole,,infectious diseases,2026-10-18,2026-11-17,overlay
+708,0a22e5f6-4ad1-4dc3-aa3e-e74447f4a33e,semaglutide,Wegovy (semaglutide) injection,2553501,endocrinology,2026-10-13,2026-11-10,overlay
+709,0a22e5f6-4ad1-4dc3-aa3e-e74447f4a33e,clozapine,clozapine,,psychiatry,2026-09-28,2026-10-28,overlay
+710,46865b0e-83c1-c859-c7e2-980dfd5e9072,semaglutide,Ozempic (semaglutide) injection,1991302,endocrinology,2026-10-14,2026-11-11,overlay
+711,92674b33-aca6-76cc-2880-6e47a226dae3,pregabalin,pregabalin,,pain clinic,2026-10-23,2026-11-22,overlay
+712,0de2d75d-8158-7c11-7e53-f8848b598419,osimertinib,osimertinib,,oncology,2026-10-19,2026-11-18,overlay
+713,60e4e37c-8532-18e4-379c-205256a0f458,donepezil,donepezil,,neurology,2026-10-03,2026-11-02,overlay
+714,41769c33-9cf0-cef9-c662-060d9e22529e,semaglutide,Wegovy (semaglutide) injection,2553501,endocrinology,2026-10-22,2026-11-19,overlay
+715,58324f83-90fa-7ef4-b2fa-b9712185b1aa,pirfenidone,pirfenidone,,pulmonology,2026-10-22,2026-11-21,overlay
+716,58324f83-90fa-7ef4-b2fa-b9712185b1aa,sulfamethoxazole,sulfamethoxazole,,infectious diseases,2026-10-03,2026-11-02,overlay
+717,20842094-40c0-6fad-f5b0-ce466a132255,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-09-27,2026-10-27,overlay
+718,20842094-40c0-6fad-f5b0-ce466a132255,osimertinib,osimertinib,,oncology,2026-10-02,2026-11-01,overlay
+719,1542c006-4c91-2517-a18e-139413223578,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-21,2026-11-20,overlay
+720,1e2d9bd0-ed41-5509-ea9c-423e44c8adc3,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-12,2026-11-11,overlay
+721,4de0eda5-ef8b-98e8-f650-fac200f9da96,regorafenib,regorafenib,,oncology,2026-10-01,2026-10-31,overlay
+722,1a90a595-e3bc-9586-c002-8838506567df,gemcitabine,gemcitabine,,oncology,2026-10-11,2026-11-10,overlay
+723,3a338ff0-a5e7-9b2b-6512-86f77158242e,semaglutide,Wegovy (semaglutide) injection,2553501,endocrinology,2026-10-08,2026-11-05,overlay
+724,a8d83d10-304c-07fc-d332-360b59c9fdab,semaglutide,Ozempic (semaglutide) injection,1991302,endocrinology,2026-10-14,2026-11-11,overlay
+725,a8d83d10-304c-07fc-d332-360b59c9fdab,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-23,2026-11-22,overlay
+726,a153a51c-6a9e-2984-7507-fa575aeccfc1,vortioxetine,vortioxetine,,psychiatry,2026-10-01,2026-10-31,overlay
+727,a153a51c-6a9e-2984-7507-fa575aeccfc1,clozapine,clozapine,,psychiatry,2026-10-22,2026-11-21,overlay
+728,637616be-11f1-98c4-53d7-b22c392ed269,regorafenib,regorafenib,,oncology,2026-10-13,2026-11-12,overlay
+729,94776f42-8840-696f-07f4-6a4924230d8b,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-08,2026-11-07,overlay
+730,2f64f608-fd0d-1ebc-463a-b2a2eab32805,abiraterone,abiraterone,,oncology,2026-10-17,2026-11-16,overlay
+731,b139b3e8-5003-5d0a-c92c-1885409e3491,acetazolamide,acetazolamide,,neurology,2026-10-20,2026-11-19,overlay
+732,ed2b238b-8a4c-e449-92c7-75999d381620,pirfenidone,pirfenidone,,pulmonology,2026-10-05,2026-11-04,overlay
+733,d7925ae4-4523-19bd-e131-be5d50ccd20b,semaglutide,Ozempic (semaglutide) injection,1991302,endocrinology,2026-10-19,2026-11-16,overlay
+734,1a05bd5e-f868-e627-9a3a-722ed6956992,mirtazapine,mirtazapine,,psychiatry,2026-10-15,2026-11-14,overlay
+735,e48adce1-897a-27eb-bca4-45fdcaa6704a,semaglutide,Wegovy (semaglutide) injection,2553501,endocrinology,2026-10-11,2026-11-08,overlay
+736,e48adce1-897a-27eb-bca4-45fdcaa6704a,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-01,2026-10-31,overlay
+737,447b0981-a937-9a8e-5c87-bb91c935ca06,semaglutide,Wegovy (semaglutide) injection,2553501,endocrinology,2026-10-21,2026-11-18,overlay
+738,d3ca5def-56f4-22c5-de74-de04cc177b28,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-17,2026-11-16,overlay
+739,36abef8e-2a78-042f-b5f9-1ecfc99a40a7,darolutamide,darolutamide,,oncology,2026-10-22,2026-11-21,overlay
+740,dbe3a888-8722-19e2-e57c-381c9029196d,regorafenib,regorafenib,,oncology,2026-10-05,2026-11-04,overlay
+741,d4f601b3-7cb0-3393-0743-4bd694966b16,pregabalin,pregabalin,,pain clinic,2026-10-11,2026-11-10,overlay
+742,7532033a-fcd8-0986-e03a-5ffcf5f3fc5b,pantoprazole,pantoprazole,,gastroenterology,2026-10-17,2026-11-16,overlay
+743,7532033a-fcd8-0986-e03a-5ffcf5f3fc5b,pregabalin,pregabalin,,pain clinic,2026-10-14,2026-11-13,overlay
+744,7532033a-fcd8-0986-e03a-5ffcf5f3fc5b,clozapine,clozapine,,psychiatry,2026-10-13,2026-11-12,overlay
+745,0b55bda5-834d-d356-3595-da0c5e70fde5,pirfenidone,pirfenidone,,pulmonology,2026-10-03,2026-11-02,overlay
+746,beab3241-c685-cb61-033d-3d54bfda253e,mirtazapine,mirtazapine,,psychiatry,2026-09-29,2026-10-29,overlay
+747,b44f4d15-afb5-30c8-333f-dd624d354692,semaglutide,Ozempic (semaglutide) injection,1991302,endocrinology,2026-10-12,2026-11-09,overlay
+748,d2fd9b13-f7c2-7c20-cc2d-af1b4561e204,enzalutamide,enzalutamide,,oncology,2026-10-14,2026-11-13,overlay
+749,225c3220-c5f9-da72-693d-2ec6cf9ae894,darolutamide,darolutamide,,oncology,2026-10-03,2026-11-02,overlay
+750,8017ce93-4cfb-41d3-6b93-65189dfafa44,semaglutide,Wegovy (semaglutide) injection,2553501,endocrinology,2026-10-08,2026-11-05,overlay
+751,4c14ec0d-00eb-a164-b24d-1bc48a8574f6,semaglutide,Wegovy (semaglutide) injection,2553501,endocrinology,2026-10-09,2026-11-06,overlay
+752,7327320e-2c0e-fc7d-034b-45ad2759efd6,mirtazapine,mirtazapine,,psychiatry,2026-10-15,2026-11-14,overlay
+753,7327320e-2c0e-fc7d-034b-45ad2759efd6,darolutamide,darolutamide,,oncology,2026-10-20,2026-11-19,overlay
+754,842842a5-cd84-a4fe-bdd1-28b59f2aaf16,semaglutide,Ozempic (semaglutide) injection,1991302,endocrinology,2026-10-16,2026-11-13,overlay
+755,842842a5-cd84-a4fe-bdd1-28b59f2aaf16,acetazolamide,acetazolamide,,neurology,2026-10-11,2026-11-10,overlay
+756,747f2328-e66a-16a3-e8fc-ae0f0c1ebc6e,clozapine,clozapine,,psychiatry,2026-10-12,2026-11-11,overlay
+757,0c64b948-bd7e-d782-420d-43e2b51195b8,gemcitabine,gemcitabine,,oncology,2026-10-10,2026-11-09,overlay
+758,1d0443ba-72fc-9436-f840-bd42575dc1da,darolutamide,darolutamide,,oncology,2026-10-18,2026-11-17,overlay
+759,55eaf9a7-a461-a578-68e9-b1d343db0a05,pregabalin,pregabalin,,pain clinic,2026-10-01,2026-10-31,overlay
+760,dd2e781a-0714-07c1-7daf-dac024a17781,donepezil,donepezil,,neurology,2026-09-29,2026-10-29,overlay
+761,97f4e52e-a7c3-8490-8808-e914ebc93bba,osimertinib,osimertinib,,oncology,2026-10-02,2026-11-01,overlay
+762,2478d956-06ec-2e2c-5597-7dcf59f28af5,pirfenidone,pirfenidone,,pulmonology,2026-09-30,2026-10-30,overlay
+763,fc79c020-7927-af5c-d41d-5844c3b08dfb,mirtazapine,mirtazapine,,psychiatry,2026-10-11,2026-11-10,overlay
+764,a5c3da96-3da0-eb76-8fe9-a7bccec09bff,regorafenib,regorafenib,,oncology,2026-10-23,2026-11-22,overlay
+765,a5c3da96-3da0-eb76-8fe9-a7bccec09bff,vortioxetine,vortioxetine,,psychiatry,2026-10-04,2026-11-03,overlay
+766,95a7c83f-813a-5ad7-6a6e-f8e5b1745404,abiraterone,abiraterone,,oncology,2026-10-17,2026-11-16,overlay
+767,ec72eba6-003b-219e-b76d-72e49a4168cd,semaglutide,Ozempic (semaglutide) injection,1991302,endocrinology,2026-10-21,2026-11-18,overlay
+768,ec72eba6-003b-219e-b76d-72e49a4168cd,acetazolamide,acetazolamide,,neurology,2026-10-02,2026-11-01,overlay
+769,10f4367d-efe7-4cd3-0c85-0e6fcb595168,semaglutide,Ozempic (semaglutide) injection,1991302,endocrinology,2026-10-22,2026-11-19,overlay
+770,f42e3a96-f2e6-0d8b-d43d-be55dae9c1f4,semaglutide,Wegovy (semaglutide) injection,2553501,endocrinology,2026-10-13,2026-11-10,overlay
+771,f42e3a96-f2e6-0d8b-d43d-be55dae9c1f4,sulfamethoxazole,sulfamethoxazole,,infectious diseases,2026-10-14,2026-11-13,overlay
+772,8573621a-f1fa-1d3b-f8ef-3dc7d574044e,regorafenib,regorafenib,,oncology,2026-10-08,2026-11-07,overlay
+773,1948a361-e740-f80c-85ef-374eca4249bb,darolutamide,darolutamide,,oncology,2026-10-08,2026-11-07,overlay
+774,cb4aae4d-6fce-e7a3-702e-e0b1a80287ec,osimertinib,osimertinib,,oncology,2026-10-14,2026-11-13,overlay
+775,bdc24a19-4097-3d37-e9d1-de697cfa2d80,regorafenib,regorafenib,,oncology,2026-10-21,2026-11-20,overlay
+776,05aa0f7d-1f58-b039-59cf-38f689d465eb,semaglutide,Ozempic (semaglutide) injection,1991302,endocrinology,2026-10-12,2026-11-09,overlay
+777,71d349d2-cb0e-2cdf-0ba9-8ff5052e45ec,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-09-29,2026-10-29,overlay
+778,9826bf93-c464-1567-5023-05944d513dc1,donepezil,donepezil,,neurology,2026-09-29,2026-10-29,overlay
+779,7c863954-e3cb-128e-8b5c-a2c652afef29,acetazolamide,acetazolamide,,neurology,2026-10-19,2026-11-18,overlay
+780,8d65e18d-6408-b95b-b25a-6d39398580c4,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-19,2026-11-18,overlay
+781,382ee253-727f-9fdb-ec6d-a6db8768d4d0,donepezil,donepezil,,neurology,2026-10-12,2026-11-11,overlay
+782,67ed3265-fe87-de3b-9cbd-5dedd9bbfefe,semaglutide,Wegovy (semaglutide) injection,2553501,endocrinology,2026-10-19,2026-11-16,overlay
+783,67ed3265-fe87-de3b-9cbd-5dedd9bbfefe,enzalutamide,enzalutamide,,oncology,2026-10-11,2026-11-10,overlay
+784,0810e9f5-1503-ea1b-d717-9dc446855694,osimertinib,osimertinib,,oncology,2026-10-23,2026-11-22,overlay
+785,af42bdec-be67-9602-900b-74fbc6a93035,osimertinib,osimertinib,,oncology,2026-10-16,2026-11-15,overlay
+786,cd9a1d4a-48aa-fb89-ac26-ed37cbf4af77,semaglutide,Ozempic (semaglutide) injection,1991302,endocrinology,2026-10-06,2026-11-03,overlay
+787,cd9a1d4a-48aa-fb89-ac26-ed37cbf4af77,vortioxetine,vortioxetine,,psychiatry,2026-09-29,2026-10-29,overlay
+788,82b8d088-a04d-a9fb-9186-f1ded8e2103c,semaglutide,Wegovy (semaglutide) injection,2553501,endocrinology,2026-10-16,2026-11-13,overlay
+789,82b8d088-a04d-a9fb-9186-f1ded8e2103c,gemcitabine,gemcitabine,,oncology,2026-10-20,2026-11-19,overlay
+790,e2957b25-cd58-b19e-3105-17808bba3c05,pirfenidone,pirfenidone,,pulmonology,2026-10-21,2026-11-20,overlay
+791,7418d8b7-a589-a6e4-1802-def22bfb82ab,abiraterone,abiraterone,,oncology,2026-10-18,2026-11-17,overlay
+792,0a99339e-6ad9-47ae-bb7d-1f04fcfaa63d,mirtazapine,mirtazapine,,psychiatry,2026-09-28,2026-10-28,overlay
+793,0f53d815-4231-f121-d146-fcfefb36ebc2,darolutamide,darolutamide,,oncology,2026-10-17,2026-11-16,overlay
+794,009b7810-1996-4e6a-ab20-c4a90de8aa6a,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-04,2026-11-03,overlay
+795,bfdff73d-8e2f-1c9d-dc66-e699cc399fc8,donepezil,donepezil,,neurology,2026-10-13,2026-11-12,overlay
+796,39b83543-2e65-0f26-c300-7813f0bb123d,donepezil,donepezil,,neurology,2026-09-27,2026-10-27,overlay
+797,70e01298-193f-5f73-cae1-cefb5a75de61,semaglutide,Wegovy (semaglutide) injection,2553501,endocrinology,2026-10-17,2026-11-14,overlay
+798,037154b4-8438-0bae-c69f-46b184f9987a,pirfenidone,pirfenidone,,pulmonology,2026-10-07,2026-11-06,overlay
+799,60f06d12-7322-1ab7-d602-d4eb9efefba2,darolutamide,darolutamide,,oncology,2026-10-07,2026-11-06,overlay
+800,ec8d4c25-44d9-0bd9-263a-c412d9d43eb7,semaglutide,Wegovy (semaglutide) injection,2553501,endocrinology,2026-10-15,2026-11-12,overlay
+801,a2ebccd2-c466-e011-33c2-b2e9deb84eb2,pregabalin,pregabalin,,pain clinic,2026-10-17,2026-11-16,overlay
+802,d8cbccd2-64f8-3e3e-6d60-ddd582c091cb,sulfamethoxazole,sulfamethoxazole,,infectious diseases,2026-09-30,2026-10-30,overlay
+803,9f5dcaff-68a8-08fa-eaa3-27e6792da7f7,semaglutide,Ozempic (semaglutide) injection,1991302,endocrinology,2026-09-28,2026-10-26,overlay
+804,9f5dcaff-68a8-08fa-eaa3-27e6792da7f7,vortioxetine,vortioxetine,,psychiatry,2026-10-02,2026-11-01,overlay
+805,eb02c298-aff6-3e93-d914-0f3fa6f707e4,sulfamethoxazole,sulfamethoxazole,,infectious diseases,2026-09-30,2026-10-30,overlay
+806,33c0a7aa-7d1c-3b3d-6561-9096dc7b884e,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-21,2026-11-20,overlay
+807,0a3024ec-f48e-e10f-f0fb-35a420a75a15,vortioxetine,vortioxetine,,psychiatry,2026-10-20,2026-11-19,overlay
+808,26c86ba7-4ea5-d05c-27c5-4762e6e336a5,pregabalin,pregabalin,,pain clinic,2026-10-07,2026-11-06,overlay
+809,162e6efc-553f-46ef-921b-5bcb36cecc3e,semaglutide,Ozempic (semaglutide) injection,1991302,endocrinology,2026-10-02,2026-10-30,overlay
+810,1ad037e8-8a7a-ab80-da4f-c877614fbdd0,acetazolamide,acetazolamide,,neurology,2026-10-06,2026-11-05,overlay
+811,b640b8a7-93b2-24ba-fa3c-9ba36c1afe5c,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-10,2026-11-09,overlay
+812,264e95ce-deda-28ef-6376-c64d0338b899,sulfamethoxazole,sulfamethoxazole,,infectious diseases,2026-10-14,2026-11-13,overlay
+813,264e95ce-deda-28ef-6376-c64d0338b899,mirtazapine,mirtazapine,,psychiatry,2026-09-29,2026-10-29,overlay
+814,e484bb2d-45a7-b7df-11db-bc144293449e,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-22,2026-11-21,overlay
+815,a28fd044-e9b6-5ac1-cdef-f39f6833c12c,enzalutamide,enzalutamide,,oncology,2026-10-08,2026-11-07,overlay
+816,4b939db7-923c-b4d6-1204-6981eef881e2,regorafenib,regorafenib,,oncology,2026-10-06,2026-11-05,overlay
+817,1679b2ff-bb5f-5419-3bdd-45022a676ba6,gemcitabine,gemcitabine,,oncology,2026-10-06,2026-11-05,overlay
+818,928c43e2-6dcf-71e2-8588-8ec460ca2e1f,regorafenib,regorafenib,,oncology,2026-09-29,2026-10-29,overlay
+819,1f918beb-734d-beb4-49bb-b1342688c56d,darolutamide,darolutamide,,oncology,2026-10-17,2026-11-16,overlay
+820,3e868e35-abba-59f4-d922-67e7c28bdca1,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-07,2026-11-06,overlay
+821,3e868e35-abba-59f4-d922-67e7c28bdca1,pregabalin,pregabalin,,pain clinic,2026-10-18,2026-11-17,overlay
+822,3e868e35-abba-59f4-d922-67e7c28bdca1,vortioxetine,vortioxetine,,psychiatry,2026-10-20,2026-11-19,overlay
+823,7fb5c753-cddd-9ebf-3dea-8cc11319c675,regorafenib,regorafenib,,oncology,2026-10-04,2026-11-03,overlay
+824,bd5798b9-8991-5050-8b7d-e379bd7ba25c,mirtazapine,mirtazapine,,psychiatry,2026-10-16,2026-11-15,overlay
+825,fe48bb3f-333e-cbd0-6e55-85f2e0792d9f,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-05,2026-11-04,overlay
+826,ef1ef19a-0b10-372e-6a03-08e51f2d57f5,semaglutide,Wegovy (semaglutide) injection,2553501,endocrinology,2026-10-06,2026-11-03,overlay
+827,c377dfe3-4596-abe1-6234-dd27bf4e41ed,pirfenidone,pirfenidone,,pulmonology,2026-10-11,2026-11-10,overlay
+828,904e8174-899a-c1e7-21ea-f2f23f281dd0,pantoprazole,pantoprazole,,gastroenterology,2026-10-12,2026-11-11,overlay
+829,dd4cf1df-17cf-3940-2d1e-1fd02033d8ed,regorafenib,regorafenib,,oncology,2026-10-23,2026-11-22,overlay
+830,c1ef3f63-1011-da45-3997-804dbc98d1fb,regorafenib,regorafenib,,oncology,2026-10-13,2026-11-12,overlay
+831,016da092-e9ff-c4c0-ea96-b275b0b20e91,vortioxetine,vortioxetine,,psychiatry,2026-10-08,2026-11-07,overlay
+832,7dd98dfd-4e20-5c6e-016a-67f21156f0dc,semaglutide,Wegovy (semaglutide) injection,2553501,endocrinology,2026-10-16,2026-11-13,overlay
+833,efff71e1-3060-0e1a-04a4-3c0eeca491c3,mirtazapine,mirtazapine,,psychiatry,2026-10-23,2026-11-22,overlay
+834,71f1de6d-49be-c716-5007-6683dd0576b7,semaglutide,Wegovy (semaglutide) injection,2553501,endocrinology,2026-09-28,2026-10-26,overlay
+835,23b61a7c-be92-fa8a-2bfd-6034621e540a,regorafenib,regorafenib,,oncology,2026-10-23,2026-11-22,overlay
+836,d1c10c8d-4887-dfe3-35aa-f51f81bf1a3c,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-18,2026-11-17,overlay
+837,b5752196-b46f-c571-2584-dfc425ff47a3,mirtazapine,mirtazapine,,psychiatry,2026-10-04,2026-11-03,overlay
+838,4f0b1013-c58b-fa97-bf14-d8487e8b96da,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-14,2026-11-13,overlay
+839,4e14867d-af83-491d-7f3f-c9378516df4e,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-09-29,2026-10-29,overlay
+840,a45dc4ce-04d7-3902-3255-1a6af5c21d2a,pirfenidone,pirfenidone,,pulmonology,2026-10-12,2026-11-11,overlay
+841,e96ae369-44ab-f858-2b5f-59047d690da2,pregabalin,pregabalin,,pain clinic,2026-09-28,2026-10-28,overlay
+842,35d92051-c6a9-f90a-480b-9d36f861bf29,pantoprazole,pantoprazole,,gastroenterology,2026-09-30,2026-10-30,overlay
+843,4278f2ef-d373-1d98-8835-0307ef16d7d1,mirtazapine,mirtazapine,,psychiatry,2026-10-12,2026-11-11,overlay
+844,4278f2ef-d373-1d98-8835-0307ef16d7d1,gemcitabine,gemcitabine,,oncology,2026-10-04,2026-11-03,overlay
+845,71bf3907-5817-23e7-217c-a283405956c3,semaglutide,Wegovy (semaglutide) injection,2553501,endocrinology,2026-10-23,2026-11-20,overlay
+846,ebdd6425-d395-b080-1e74-3ccea4df9095,enzalutamide,enzalutamide,,oncology,2026-10-06,2026-11-05,overlay
+847,65504205-68a7-addd-4f96-8efbb356aa4b,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-07,2026-11-06,overlay
+848,ddcf772e-12ca-b370-e7c8-5b57f7bdb8b8,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-21,2026-11-20,overlay
+849,4e89e2f1-df1f-c7af-cae6-9837a7e34749,semaglutide,Ozempic (semaglutide) injection,1991302,endocrinology,2026-10-15,2026-11-12,overlay
+850,539e5693-bc77-3f82-5614-2a08661eff11,semaglutide,Wegovy (semaglutide) injection,2553501,endocrinology,2026-10-03,2026-10-31,overlay
+851,575ca634-da01-30d2-1cc4-de4a16977bac,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-20,2026-11-19,overlay
+852,e781f92f-5772-3cca-d65f-fcd67d1d4f7a,donepezil,donepezil,,neurology,2026-09-28,2026-10-28,overlay
+853,b9d4e185-5fe9-ed92-44de-0b2df15abd61,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-05,2026-11-04,overlay
+854,f78b8848-4a17-5272-06e4-291d650fbf31,semaglutide,Ozempic (semaglutide) injection,1991302,endocrinology,2026-10-21,2026-11-18,overlay
+855,1a42b101-660a-f15e-c008-a0f1726e1bee,semaglutide,Ozempic (semaglutide) injection,1991302,endocrinology,2026-10-05,2026-11-02,overlay
+856,81f03095-2bc2-9592-79c7-635e49b15dce,abiraterone,abiraterone,,oncology,2026-10-09,2026-11-08,overlay
+857,f2be4a9b-3a20-fe05-2880-ca55f07b3f87,gemcitabine,gemcitabine,,oncology,2026-10-17,2026-11-16,overlay
+858,a4718195-883b-3a9e-22c3-732a7ea109e1,mirtazapine,mirtazapine,,psychiatry,2026-10-05,2026-11-04,overlay
+859,27bf4578-5355-3772-9304-a2aa41472b25,enzalutamide,enzalutamide,,oncology,2026-10-12,2026-11-11,overlay
+860,7cac89a6-d10f-9be1-55bb-5f351478810f,semaglutide,Ozempic (semaglutide) injection,1991302,endocrinology,2026-10-08,2026-11-05,overlay
+861,eb6bc686-18e4-47ad-39c5-84ea6b34d6f5,semaglutide,Ozempic (semaglutide) injection,1991302,endocrinology,2026-10-06,2026-11-03,overlay
+862,eb6bc686-18e4-47ad-39c5-84ea6b34d6f5,vortioxetine,vortioxetine,,psychiatry,2026-10-02,2026-11-01,overlay
+863,cb105a5b-e5d7-90bf-b1f8-228691f11ebf,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-13,2026-11-12,overlay
+864,3a6fb1f8-7a12-9901-55bc-3d9ff1c665c0,osimertinib,osimertinib,,oncology,2026-10-05,2026-11-04,overlay
+865,301201c2-b1ba-c29c-1842-3156753aa41b,pregabalin,pregabalin,,pain clinic,2026-10-18,2026-11-17,overlay
+866,cd395ca1-f714-8634-dc7b-2de6dcf9ec2d,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-09-30,2026-10-30,overlay
+867,ed7ddb3d-d53c-3290-bd86-66dc17956941,gemcitabine,gemcitabine,,oncology,2026-10-04,2026-11-03,overlay
+868,453a9108-5cce-1b66-5863-a72df6d7a296,osimertinib,osimertinib,,oncology,2026-10-05,2026-11-04,overlay
+869,404c0e4d-bc82-c416-4975-3796063a4fe3,semaglutide,Ozempic (semaglutide) injection,1991302,endocrinology,2026-10-05,2026-11-02,overlay
+870,404c0e4d-bc82-c416-4975-3796063a4fe3,pantoprazole,pantoprazole,,gastroenterology,2026-10-08,2026-11-07,overlay
+871,7725ac42-df9f-aeb5-f29b-7dcf845bab63,semaglutide,Ozempic (semaglutide) injection,1991302,endocrinology,2026-10-23,2026-11-20,overlay
+872,7725ac42-df9f-aeb5-f29b-7dcf845bab63,donepezil,donepezil,,neurology,2026-10-13,2026-11-12,overlay
+873,6956f665-3d88-efb4-44e2-57be8761f781,vortioxetine,vortioxetine,,psychiatry,2026-10-10,2026-11-09,overlay
+874,ecbdcc42-008c-34c4-5857-367e067ed28c,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-01,2026-10-31,overlay
+875,ecbdcc42-008c-34c4-5857-367e067ed28c,pirfenidone,pirfenidone,,pulmonology,2026-10-08,2026-11-07,overlay
+876,3090aa8a-19e3-7027-918d-868c0f725e2a,abiraterone,abiraterone,,oncology,2026-10-16,2026-11-15,overlay
+877,f1643591-b7d2-2d23-b53c-9a19ef783d27,pantoprazole,pantoprazole,,gastroenterology,2026-09-28,2026-10-28,overlay
+878,f1643591-b7d2-2d23-b53c-9a19ef783d27,darolutamide,darolutamide,,oncology,2026-10-03,2026-11-02,overlay
+879,7edcb7c9-ea48-6210-4fce-52e25fcf9c5d,sulfamethoxazole,sulfamethoxazole,,infectious diseases,2026-10-13,2026-11-12,overlay
+880,a81aa5ed-2e1f-dd57-7241-9d3285aced40,pantoprazole,pantoprazole,,gastroenterology,2026-10-03,2026-11-02,overlay
+881,a81aa5ed-2e1f-dd57-7241-9d3285aced40,donepezil,donepezil,,neurology,2026-10-14,2026-11-13,overlay
+882,f354b68d-4086-fe70-35e3-bcaa28d3ae20,regorafenib,regorafenib,,oncology,2026-10-12,2026-11-11,overlay
+883,5ad18f14-b985-ea28-b1b3-3ee82bdf760e,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-07,2026-11-06,overlay
+884,a3cab9ef-4b01-f95e-9294-3476ad4ce0c7,vortioxetine,vortioxetine,,psychiatry,2026-10-13,2026-11-12,overlay
+885,b833004d-c90d-1d55-cf56-6387ac86ec81,abiraterone,abiraterone,,oncology,2026-10-09,2026-11-08,overlay
+886,b833004d-c90d-1d55-cf56-6387ac86ec81,regorafenib,regorafenib,,oncology,2026-09-30,2026-10-30,overlay
+887,e32e753e-a54f-8a7e-0500-da731b9ec821,pantoprazole,pantoprazole,,gastroenterology,2026-10-14,2026-11-13,overlay
+888,8f2673d2-d31a-a7c6-efba-2e685fc110c8,vortioxetine,vortioxetine,,psychiatry,2026-09-28,2026-10-28,overlay
+889,b673e7b8-de0f-4d43-0f04-81fe8dfd329b,acetazolamide,acetazolamide,,neurology,2026-10-18,2026-11-17,overlay
+890,05f8d67d-839b-c7f7-d1fc-de2cb30b42ad,semaglutide,Ozempic (semaglutide) injection,1991302,endocrinology,2026-10-23,2026-11-20,overlay
+891,05f8d67d-839b-c7f7-d1fc-de2cb30b42ad,mirtazapine,mirtazapine,,psychiatry,2026-10-01,2026-10-31,overlay
+892,1142e067-5a2e-afac-6804-183828c72937,pantoprazole,pantoprazole,,gastroenterology,2026-10-07,2026-11-06,overlay
+893,98f4669a-e886-b637-ada7-d713bf2c9935,semaglutide,Wegovy (semaglutide) injection,2553501,endocrinology,2026-10-12,2026-11-09,overlay
+894,6b30f471-4f5d-5996-0866-e8da9654bfcc,darolutamide,darolutamide,,oncology,2026-10-06,2026-11-05,overlay
+895,51a4c973-d12a-8a31-3a0d-2fc330659b08,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-09,2026-11-08,overlay
+896,77cf71d8-f68e-6518-7bb5-3e6c3b8ea925,semaglutide,Ozempic (semaglutide) injection,1991302,endocrinology,2026-10-05,2026-11-02,overlay
+897,8a8591a2-a1c5-1e3e-afda-a4993a4574d6,semaglutide,Wegovy (semaglutide) injection,2553501,endocrinology,2026-10-19,2026-11-16,overlay
+898,f4b2b8c1-341c-88af-f002-35e09e6e8655,clozapine,clozapine,,psychiatry,2026-10-23,2026-11-22,overlay
+899,405c8d37-4181-8181-6987-c8462b834de3,pantoprazole,pantoprazole,,gastroenterology,2026-10-14,2026-11-13,overlay
+900,405c8d37-4181-8181-6987-c8462b834de3,osimertinib,osimertinib,,oncology,2026-10-06,2026-11-05,overlay
+901,4c76c059-5435-9fd4-15d1-4f440745e8e1,semaglutide,Ozempic (semaglutide) injection,1991302,endocrinology,2026-10-17,2026-11-14,overlay
+902,68ce6cbc-1e6b-3235-6b23-9787629573a9,semaglutide,Ozempic (semaglutide) injection,1991302,endocrinology,2026-10-08,2026-11-05,overlay
+903,1b12949d-4ea0-c80f-dc88-2e8d4bc8a397,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-02,2026-11-01,overlay
+904,1b12949d-4ea0-c80f-dc88-2e8d4bc8a397,vortioxetine,vortioxetine,,psychiatry,2026-09-27,2026-10-27,overlay
+905,bf94d85b-8b91-4dd2-eeb3-f4ca64c75c43,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-09-27,2026-10-27,overlay
+906,05d61d05-8627-899b-8063-dbe5d6ec219b,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-07,2026-11-06,overlay
+907,a573e3e4-fa40-5ab5-f8fe-ff9c5b6c77a2,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-09,2026-11-08,overlay
+908,d7b61588-999a-20cc-44b6-37ba1f756439,acetazolamide,acetazolamide,,neurology,2026-10-19,2026-11-18,overlay
+909,d7b61588-999a-20cc-44b6-37ba1f756439,mirtazapine,mirtazapine,,psychiatry,2026-10-04,2026-11-03,overlay
+910,5a66d322-6113-a97a-0026-656ad5950f0b,semaglutide,Wegovy (semaglutide) injection,2553501,endocrinology,2026-10-02,2026-10-30,overlay
+911,e3b46d70-fe02-49fd-d4c7-3f7b695aadb7,pirfenidone,pirfenidone,,pulmonology,2026-10-08,2026-11-07,overlay
+912,b54b3daf-b50a-200b-1488-89550c236891,gemcitabine,gemcitabine,,oncology,2026-10-16,2026-11-15,overlay
+913,a262291b-8545-0d2e-1149-fd7b7e8f4337,pantoprazole,pantoprazole,,gastroenterology,2026-10-15,2026-11-14,overlay
+914,b1777eb2-a349-12cc-220d-c2f8c0f228a1,sulfamethoxazole,sulfamethoxazole,,infectious diseases,2026-10-22,2026-11-21,overlay
+915,b1777eb2-a349-12cc-220d-c2f8c0f228a1,gemcitabine,gemcitabine,,oncology,2026-10-19,2026-11-18,overlay
+916,069b2e8c-3184-8ac6-ea59-3e91f18c6292,abiraterone,abiraterone,,oncology,2026-10-06,2026-11-05,overlay
+917,90c0377e-10b6-5823-a7a0-72529e2e74f0,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-21,2026-11-20,overlay
+918,8b333dec-7f97-c5bc-bb78-c5c000dd0d46,regorafenib,regorafenib,,oncology,2026-10-13,2026-11-12,overlay
+919,5757b2f8-dad9-1ccc-5825-256ed8673f12,donepezil,donepezil,,neurology,2026-09-28,2026-10-28,overlay
+920,a46679e4-a010-6985-2d89-dcdac04047e6,pirfenidone,pirfenidone,,pulmonology,2026-10-01,2026-10-31,overlay
+921,8b7ac54d-03a7-f7ae-273a-d7c47db16e57,darolutamide,darolutamide,,oncology,2026-09-28,2026-10-28,overlay
+922,867aa748-a75f-0b70-111f-beec1b6c3c52,pregabalin,pregabalin,,pain clinic,2026-10-01,2026-10-31,overlay
+923,e46aee66-505a-4e93-3d6f-e6dc4f86cbb7,pantoprazole,pantoprazole,,gastroenterology,2026-10-15,2026-11-14,overlay
+924,8ffa2f68-0645-f67f-daf9-12721656d33d,pirfenidone,pirfenidone,,pulmonology,2026-09-28,2026-10-28,overlay
+925,16cdc30c-45c3-dcd8-5fc0-281fb2350d38,gemcitabine,gemcitabine,,oncology,2026-10-04,2026-11-03,overlay
+926,16cdc30c-45c3-dcd8-5fc0-281fb2350d38,enzalutamide,enzalutamide,,oncology,2026-10-04,2026-11-03,overlay
+927,bb8546dc-29db-8ff2-252b-e9509482c417,sulfamethoxazole,sulfamethoxazole,,infectious diseases,2026-10-07,2026-11-06,overlay
+928,58052ddd-519f-d639-b8a2-d5f1cac58893,pantoprazole,pantoprazole,,gastroenterology,2026-10-03,2026-11-02,overlay
+929,58052ddd-519f-d639-b8a2-d5f1cac58893,enzalutamide,enzalutamide,,oncology,2026-10-14,2026-11-13,overlay
+930,d749d9e3-cb71-1830-972f-b2fadb4a0824,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-10,2026-11-09,overlay
+931,fefafb9c-210f-1a8b-d1b7-308e888c6451,semaglutide,Ozempic (semaglutide) injection,1991302,endocrinology,2026-10-08,2026-11-05,overlay
+932,d6fdd80b-5bc7-dc96-9e22-1d530619f5fd,gemcitabine,gemcitabine,,oncology,2026-10-19,2026-11-18,overlay
+933,4c4b2c10-e534-1110-5d17-f03f1845c2d7,osimertinib,osimertinib,,oncology,2026-10-01,2026-10-31,overlay
+934,a9a13903-cc26-5cee-be74-e1aa96374ee2,semaglutide,Wegovy (semaglutide) injection,2553501,endocrinology,2026-10-14,2026-11-11,overlay
+935,11cc7465-a7d9-e6b3-0c61-c3c6ced28e4c,semaglutide,Wegovy (semaglutide) injection,2553501,endocrinology,2026-09-29,2026-10-27,overlay
+936,11cc7465-a7d9-e6b3-0c61-c3c6ced28e4c,pregabalin,pregabalin,,pain clinic,2026-10-23,2026-11-22,overlay
+937,27f52552-e7f4-6d0a-0be2-a8f1b6866f61,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-18,2026-11-17,overlay
+938,27f52552-e7f4-6d0a-0be2-a8f1b6866f61,osimertinib,osimertinib,,oncology,2026-10-03,2026-11-02,overlay
+939,bcb04ae2-6c4e-12c8-e6d6-a7dd5702bdf1,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-20,2026-11-19,overlay
+940,e45ec5e7-c333-3e1e-8587-f9560ec1a2c0,pregabalin,pregabalin,,pain clinic,2026-10-02,2026-11-01,overlay
+941,b1b98328-a7b7-8cd6-aeff-0840bb6a4c02,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-05,2026-11-04,overlay
+942,ef1a8949-59d0-fd46-56fe-4cd1c6a19bde,semaglutide,Ozempic (semaglutide) injection,1991302,endocrinology,2026-10-20,2026-11-17,overlay
+943,791aea1f-2faf-ef13-8585-0e1b0f83d2fe,pantoprazole,pantoprazole,,gastroenterology,2026-10-17,2026-11-16,overlay
+944,791aea1f-2faf-ef13-8585-0e1b0f83d2fe,pirfenidone,pirfenidone,,pulmonology,2026-10-05,2026-11-04,overlay
+945,3f614dfe-1ecb-b6e9-59bf-c525e4c5bfb4,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-17,2026-11-16,overlay
+946,3f614dfe-1ecb-b6e9-59bf-c525e4c5bfb4,gemcitabine,gemcitabine,,oncology,2026-10-02,2026-11-01,overlay
+947,3f614dfe-1ecb-b6e9-59bf-c525e4c5bfb4,clozapine,clozapine,,psychiatry,2026-10-16,2026-11-15,overlay
+948,9e62e88b-e6ca-a0f2-c158-0f8e1d5d9d5f,semaglutide,Ozempic (semaglutide) injection,1991302,endocrinology,2026-10-16,2026-11-13,overlay
+949,35587caf-455d-7c7b-089b-3de743ee28e3,semaglutide,Ozempic (semaglutide) injection,1991302,endocrinology,2026-10-01,2026-10-29,overlay
+950,8ca5f571-b747-ebbf-4db5-645ddc5bb4cb,donepezil,donepezil,,neurology,2026-10-01,2026-10-31,overlay
+951,dd25e357-17f0-5331-3592-eddf611327dc,gemcitabine,gemcitabine,,oncology,2026-10-08,2026-11-07,overlay
+952,b0696d65-d5e5-93a2-ee3d-05fc4a2463b2,semaglutide,Wegovy (semaglutide) injection,2553501,endocrinology,2026-09-27,2026-10-25,overlay
+953,b0696d65-d5e5-93a2-ee3d-05fc4a2463b2,osimertinib,osimertinib,,oncology,2026-10-15,2026-11-14,overlay
+954,ff3df121-a53a-8b7c-9e9b-46b6bf890a43,donepezil,donepezil,,neurology,2026-10-18,2026-11-17,overlay
+955,67687e80-8ace-51ae-5602-67c2664fb47e,semaglutide,Wegovy (semaglutide) injection,2553501,endocrinology,2026-10-03,2026-10-31,overlay
+956,8d924e1c-8cc8-5767-2719-813e353efcf0,semaglutide,Wegovy (semaglutide) injection,2553501,endocrinology,2026-10-19,2026-11-16,overlay
+957,8d924e1c-8cc8-5767-2719-813e353efcf0,pirfenidone,pirfenidone,,pulmonology,2026-10-20,2026-11-19,overlay
+958,8d924e1c-8cc8-5767-2719-813e353efcf0,sulfamethoxazole,sulfamethoxazole,,infectious diseases,2026-10-01,2026-10-31,overlay
+959,9fdcfd17-008b-0d04-6732-bffdb1570204,pirfenidone,pirfenidone,,pulmonology,2026-10-23,2026-11-22,overlay
+960,5489901f-97ae-1a71-bb48-2f4cd03b42ab,regorafenib,regorafenib,,oncology,2026-10-22,2026-11-21,overlay
+961,2c778ed6-a958-dad3-1860-d5552b0abe4c,semaglutide,Wegovy (semaglutide) injection,2553501,endocrinology,2026-10-10,2026-11-07,overlay
+962,7b44f6ac-b01c-8d25-fc3c-717ef95054d1,pirfenidone,pirfenidone,,pulmonology,2026-09-29,2026-10-29,overlay
+963,9af2a261-bbd5-237c-eb25-dac30360adc7,pirfenidone,pirfenidone,,pulmonology,2026-10-13,2026-11-12,overlay
+964,9af2a261-bbd5-237c-eb25-dac30360adc7,abiraterone,abiraterone,,oncology,2026-10-02,2026-11-01,overlay
+965,102a5ec5-8591-43c7-61f6-9bfb4f4890b9,acetazolamide,acetazolamide,,neurology,2026-10-13,2026-11-12,overlay
+966,5b5fab21-4814-34da-77fa-bd110c84babf,abiraterone,abiraterone,,oncology,2026-10-12,2026-11-11,overlay
+967,5b5fab21-4814-34da-77fa-bd110c84babf,gemcitabine,gemcitabine,,oncology,2026-10-20,2026-11-19,overlay
+968,7d96ee01-eabc-4c1b-5800-56624af631a3,vortioxetine,vortioxetine,,psychiatry,2026-09-28,2026-10-28,overlay
+969,d0daf66a-7d38-c504-a002-403cc86cf93a,osimertinib,osimertinib,,oncology,2026-10-06,2026-11-05,overlay
+970,51484af2-3d2c-d073-752a-d52f5d78b435,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-20,2026-11-19,overlay
+971,51d4e116-93d5-387b-d7fa-74bda0e5bb38,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-21,2026-11-20,overlay
+972,b049fd2e-914c-3dcb-4c62-188d2530d673,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-09-28,2026-10-28,overlay
+973,4ec98490-a751-12be-f9e2-4906a305e452,semaglutide,Ozempic (semaglutide) injection,1991302,endocrinology,2026-10-12,2026-11-09,overlay
+974,a3c3cbec-3ba1-b891-ed16-38397a2731fe,pregabalin,pregabalin,,pain clinic,2026-10-19,2026-11-18,overlay
+975,b493624c-05c9-80b0-71b5-9fc4095bb7f7,semaglutide,Ozempic (semaglutide) injection,1991302,endocrinology,2026-10-16,2026-11-13,overlay
+976,7ae0c6e7-2c40-84f3-6ba8-f0049cfc2f92,semaglutide,Ozempic (semaglutide) injection,1991302,endocrinology,2026-09-27,2026-10-25,overlay
+977,30724aa1-c4ad-9711-67fd-5f91c641afbe,osimertinib,osimertinib,,oncology,2026-09-28,2026-10-28,overlay
+978,41c8f230-fb75-62d9-1fb1-9aed9fd4df77,vortioxetine,vortioxetine,,psychiatry,2026-09-27,2026-10-27,overlay
+979,08652935-4b8d-537e-27ef-0b18700b48dd,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-03,2026-11-02,overlay
+980,08652935-4b8d-537e-27ef-0b18700b48dd,enzalutamide,enzalutamide,,oncology,2026-10-08,2026-11-07,overlay
+981,87c7a62c-d7bb-a6d9-76d4-18551d2ebf88,semaglutide,Ozempic (semaglutide) injection,1991302,endocrinology,2026-10-01,2026-10-29,overlay
+982,5ef1d48a-85ae-8a2b-6cb9-3e0e4d44f8e2,semaglutide,Wegovy (semaglutide) injection,2553501,endocrinology,2026-10-08,2026-11-05,overlay
+983,5ef1d48a-85ae-8a2b-6cb9-3e0e4d44f8e2,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-18,2026-11-17,overlay
+984,9f8518e7-2b5e-f136-fbfc-cd8bd26647db,enzalutamide,enzalutamide,,oncology,2026-10-08,2026-11-07,overlay
+985,b1810625-063b-628e-2fd4-9d706ad2e0c3,mirtazapine,mirtazapine,,psychiatry,2026-10-06,2026-11-05,overlay
+986,b1810625-063b-628e-2fd4-9d706ad2e0c3,gemcitabine,gemcitabine,,oncology,2026-09-30,2026-10-30,overlay
+987,f0ddd920-4ac8-430c-d78d-81bd99ac107d,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-23,2026-11-22,overlay
+988,f0ddd920-4ac8-430c-d78d-81bd99ac107d,sulfamethoxazole,sulfamethoxazole,,infectious diseases,2026-10-02,2026-11-01,overlay
+989,71e754b7-1000-2caa-7b6a-be6f63956d7f,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-23,2026-11-22,overlay
+990,d22b579a-1ff6-9383-534d-af0089e6dbd4,osimertinib,osimertinib,,oncology,2026-10-17,2026-11-16,overlay
+991,7811e6e3-6f6b-ea45-ae01-cef027c8a75c,donepezil,donepezil,,neurology,2026-10-23,2026-11-22,overlay
+992,71bb39fc-872c-a396-1d92-e1515fc82774,semaglutide,Wegovy (semaglutide) injection,2553501,endocrinology,2026-10-19,2026-11-16,overlay
+993,fe9bf593-9325-b2d2-c434-629f4fc0540f,acetazolamide,acetazolamide,,neurology,2026-10-18,2026-11-17,overlay
+994,933e48c1-22d2-ad14-eaed-f1f86c556999,semaglutide,Ozempic (semaglutide) injection,1991302,endocrinology,2026-09-28,2026-10-26,overlay
+995,933e48c1-22d2-ad14-eaed-f1f86c556999,sulfamethoxazole,sulfamethoxazole,,infectious diseases,2026-09-27,2026-10-27,overlay
+996,0f1fd52f-536f-a213-3bf5-0510eb69d339,osimertinib,osimertinib,,oncology,2026-10-14,2026-11-13,overlay
+997,ea84be30-44f6-f576-eb7d-02c97b9d4e4e,mirtazapine,mirtazapine,,psychiatry,2026-09-30,2026-10-30,overlay
+998,e5b51402-294a-4a62-a8f2-ec2515ca47dd,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-20,2026-11-19,overlay
+999,4929de23-beea-9699-9071-cdd19afb3c44,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-08,2026-11-07,overlay
+1000,2a3f8538-5c1a-6883-c960-406b3c394345,semaglutide,Ozempic (semaglutide) injection,1991302,endocrinology,2026-09-27,2026-10-25,overlay
+1001,2a3f8538-5c1a-6883-c960-406b3c394345,acetazolamide,acetazolamide,,neurology,2026-10-14,2026-11-13,overlay
+1002,c7c5e3af-9393-e45d-04b0-6e4e88e28b79,pirfenidone,pirfenidone,,pulmonology,2026-10-09,2026-11-08,overlay
+1003,03190806-850e-e822-a247-7fda13d4350f,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-08,2026-11-07,overlay
+1004,f9c2c7cf-0018-7c74-b6b6-1c4f873e2160,semaglutide,Ozempic (semaglutide) injection,1991302,endocrinology,2026-10-09,2026-11-06,overlay
+1005,e1badfca-26db-1bc9-c447-9795c4f6e68f,abiraterone,abiraterone,,oncology,2026-10-20,2026-11-19,overlay
+1006,9aecc84b-1c3c-b2e0-7919-65daa5296f4d,semaglutide,Wegovy (semaglutide) injection,2553501,endocrinology,2026-10-21,2026-11-18,overlay
+1007,9aecc84b-1c3c-b2e0-7919-65daa5296f4d,sertraline,Zoloft (sertraline) tablet,312940,psychiatry,2026-10-04,2026-11-03,overlay
+1008,1c048cd9-9d61-adb7-cc2b-8636f4338d3f,pregabalin,pregabalin,,pain clinic,2026-09-30,2026-10-30,overlay
+1009,87e9c4e2-49e3-3398-27ca-d7c68070b759,vortioxetine,vortioxetine,,psychiatry,2026-09-28,2026-10-28,overlay
+1010,ce57755d-e123-3130-2b5d-3b5dbccc13fe,enzalutamide,enzalutamide,,oncology,2026-09-30,2026-10-30,overlay
+1011,b112d482-92f4-e178-d38d-787db522c4d5,osimertinib,osimertinib,,oncology,2026-10-08,2026-11-07,overlay
+1012,84ed4c2c-2a90-ffa6-6f44-7500aafa3700,enzalutamide,enzalutamide,,oncology,2026-10-09,2026-11-08,overlay

@@ -1,0 +1,21 @@
+{
+ "id": "R173",
+ "model_requested": "gpt-5.5",
+ "model_served": "gpt-5.5-2026-04-23",
+ "secs": 69.6,
+ "usage": {
+  "input_tokens": 74284,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 3712
+  },
+  "output_tokens": 3639,
+  "output_tokens_details": {
+   "reasoning_tokens": 3110
+  },
+  "total_tokens": 77923
+ },
+ "text": "{\"us_status\":\"partial\",\"label_product\":\"VARIVAX (Varicella Virus Vaccine Live), Merck Sharp & Dohme LLC\",\"label_version_or_date\":\"DailyMed updated August 6, 2026; prescribing information revised 8/2026\",\"label_section\":\"Adverse Reactions, 6.2 Post-Marketing Experience, Nervous/Psychiatric\",\"quote\":\"Cases of encephalitis or meningitis caused by vaccine strain varicella virus have been reported in immunocompromised and immunocompetent individuals previously vaccinated with VARIVAX months to years after vaccination.\",\"eu\":\"EMA PRAC July 2025: recommended product-information update for Varilrix/Varivax and aligned MMRV vaccines to further describe severity of the known encephalitis risk; variations requested within 30 days.\",\"uk\":\"GOV.UK/MHRA-facing public guidance acknowledges rare post-vaccination encephalitis reports with varicella-containing vaccines, says association has not been quantified, and directs suspected reactions to MHRA Yellow Card.\",\"us_regulator\":\"No product-specific FDA public evaluation found for Varivax/varicella vaccine encephalitis in AEMS/FAERS potential-signals or Sentinel pages; FDA’s public product page/label is the identified U.S. source.\",\"sources\":[\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?lang=en&setid=524cf052-e90e-4595-af0a-608edbe9bd31\",\"https://www.fda.gov/vaccines-blood-biologics/vaccines/varivax-refrigerated-and-frozen-formulations\",\"https://www.ema.europa.eu/en/news/meeting-highlights-pharmacovigilance-risk-assessment-committee-prac-7-10-july-2025\",\"https://www.ema.europa.eu/system/files/documents/prac-recommendation/prac-recommendations-signals-adopted-7-10-july-2025-prac_en.pdf\",\"https://www.gov.uk/government/publications/mmrv-programme-information-for-healthcare-practitioners/mmrv-vaccination-information-for-healthcare-professionals\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring\",\"https://www.fda.gov/vaccines-blood-biologics/biologics-post-market-activities/cbers-sentinel-program\"]}",
+ "annotation_urls": [],
+ "at": "2026-10-24T01:54:29"
+}

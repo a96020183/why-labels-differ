@@ -1,0 +1,53 @@
+{
+ "decision_date": "2026-10-24",
+ "note": "Questions the app offers. The first two are the hero cards; the others come from the night scan's divergence ledger.",
+ "questions": [
+  {
+   "id": "semaglutide-naion",
+   "substance": "semaglutide",
+   "reaction": "NAION (non-arteritic anterior ischemic optic neuropathy)",
+   "label": "Semaglutide (Ozempic, Rybelsus, Wegovy) and sudden vision loss (NAION)",
+   "hook": "Europe and the UK now warn that semaglutide can, very rarely, cause sudden vision loss. The U.S. label doesn't."
+  },
+  {
+   "id": "sertraline-pssd",
+   "prac_row": "R008",
+   "substance": "sertraline",
+   "reaction": "sexual dysfunction that persists after stopping the drug",
+   "label": "Sertraline (Zoloft) and sexual dysfunction that persists after stopping",
+   "hook": "Europe has warned since 2019 that sexual problems can continue after stopping SSRIs. In October 2026 the UK said it will add the term PSSD to patient leaflets.",
+   "classTerms": [
+    "antidepressant",
+    "ssri",
+    "snri"
+   ]
+  },
+  {
+   "id": "darolutamide-angioedema",
+   "prac_row": "R190",
+   "substance": "darolutamide",
+   "reaction": "angioedema",
+   "label": "Darolutamide (Nubeqa) and angioedema",
+   "note": "from the night scan ledger (PRAC 2026-06)",
+   "hook": "In June 2026 PRAC recommended adding angioedema to darolutamide's EU product information (the company then has two months to apply for the change)."
+  },
+  {
+   "id": "gemcitabine-dress",
+   "prac_row": "R191",
+   "substance": "gemcitabine",
+   "reaction": "DRESS (drug reaction with eosinophilia and systemic symptoms)",
+   "label": "Gemcitabine and DRESS",
+   "hook": "In June 2026 PRAC recommended adding DRESS to the EU product information of gemcitabine medicines (the companies then have two months to apply for the change).",
+   "note": "from the night scan ledger (PRAC 2026-06)"
+  },
+  {
+   "id": "valproate-paternal",
+   "prac_row": "R192",
+   "substance": "valproate",
+   "reaction": "neurodevelopmental disorders in children of fathers treated with valproate",
+   "label": "Valproate taken by fathers and neurodevelopmental disorders in their children",
+   "hook": "Since 2024 Europe and the UK have told men taking valproate to use contraception, because of a possible risk to their children. In June 2026 PRAC re-reviewed newer, mixed studies: it kept those measures and asked for the product information to say the evidence is inconsistent.",
+   "note": "first EU action January 2024 (CMDh endorsed PRAC's precautionary measures), UK Drug Safety Update 5 September 2024; the June 2026 PRAC entry in the night-scan ledger is a re-review"
+  }
+ ]
+}

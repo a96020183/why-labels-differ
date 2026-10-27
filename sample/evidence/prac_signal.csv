@@ -1,0 +1,198 @@
+row_id,signal,meeting,yr,mo,reaction_group
+R001,Interference with clinical laboratory tests,14-17 January 2019 PRAC meeting minutes,2019,1,""
+R002,Dysphagia,14-17 January 2019 PRAC meeting minutes,2019,1,""
+R003,Hypoparathyroidism,12-15 March 2019 PRAC meeting minutes,2019,3,""
+R004,Paracetamol use in pregnancy and child neurodevelopment and effects on the urogenital apparatus,12-15 March 2019 PRAC meeting minutes,2019,3,""
+R005,Evaluation of data on foetal outcomes including congenital anomalies from a single observational study in the US,8-11 April 2019 PRAC meeting minutes,2019,4,""
+R006,Recurrent thrombosis in patients with antiphospholipid syndrome,8-11 April 2019 PRAC meeting minutes,2019,4,""
+R007,Drug interaction with fluconazole,8-11 April 2019 PRAC meeting minutes,2019,4,""
+R008,Persistent sexual dysfunction after drug withdrawal,13-16 May 2019 PRAC meeting minutes,2019,5,""
+R009,Interaction with boosted antiviral human immunodeficiency virus (HIV) therapy leading to insufficient inhibition of platelet aggregation,13-16 May 2019 PRAC meeting minutes,2019,5,""
+R010,Colitis microscopic,13-16 May 2019 PRAC meeting minutes,2019,5,microscopic colitis
+R011,Maculopathy,13-16 May 2019 PRAC meeting minutes,2019,5,""
+R012,Brugada syndrome in the context of abuse with loperamide,11-14 June 2019 PRAC meeting minutes,2019,6,""
+R013,Congenital anomalies,11-14 June 2019 PRAC meeting minutes,2019,6,""
+R014,Premature ending of the GALILEO study in patients who have received an artificial heart valve through a transcatheter aortic valve replacement (TAVR),11-14 June 2019 PRAC meeting minutes,2019,6,""
+R015,Dermatitis exfoliative generalised,11-14 June 2019 PRAC meeting minutes,2019,6,""
+R016,Interference with dihydronicotinamide-adenine dinucleotide / dihydronicotinamide-adenine dinucleotide phosphate (NADH/NADP) reaction assays,11-14 June 2019 PRAC meeting minutes,2019,6,""
+R017,Drug reaction with eosinophilia and systemic symptoms (DRESS),11-14 June 2019 PRAC meeting minutes,2019,6,DRESS
+R018,Uveitis,11-14 June 2019 PRAC meeting minutes,2019,6,""
+R019,Adverse outcomes in neonates treated with solutions not protected from light,8-11 July 2019 PRAC meeting minutes,2019,7,""
+R020,Nephrolithiasis,8-11 July 2019 PRAC meeting minutes,2019,7,""
+R021,Signal of birth defects following in-utero exposure during the first trimester of pregnancy arising from recent publications,8-11 July 2019 PRAC meeting minutes,2019,7,""
+R022,Artery dissections and aneurysms,8-11 July 2019 PRAC meeting minutes,2019,7,""
+R023,Ischaemic stroke,2-5 September 2019 PRAC meeting minutes,2019,9,""
+R024,Acute generalised exanthematous pustulosis (AGEP),2-5 September 2019 PRAC meeting minutes,2019,9,""
+R025,New information on the known association between sodium-glucose co-transporter 2 (SGLT2) inhibitors and diabetic ketoacidosis (DKA) in surgical patients,2-5 September 2019 PRAC meeting minutes,2019,9,""
+R026,Psoriasis,2-5 September 2019 PRAC meeting minutes,2019,9,""
+R027,Myasthenia gravis,30 September-3 October 2019 PRAC meeting minutes,2019,10,myasthenia gravis
+R028,Arteriospasm coronary,28-31 October 2019 PRAC meeting minutes,2019,10,""
+R029,Drug induced lichenoid reaction,30 September-3 October 2019 PRAC meeting minutes,2019,10,""
+R030,Interaction with sulphonylureas leading to hypoglycaemia,13-16 January 2020 PRAC meeting minutes,2020,1,""
+R031,Inflammatory myopathy,13-16 January 2020 PRAC meeting minutes,2020,1,""
+R032,Haemophagocytic lymphohistiocytosis,10-13 February 2020 PRAC meeting minutes,2020,2,HLH
+R033,Microscopic colitis,9-12 March 2020 PRAC meeting minutes,2020,3,microscopic colitis
+R034,Choroidal effusion,9-12 March 2020 PRAC meeting minutes,2020,3,choroidal effusion
+R035,Erroneous assay results for levels of anti-factor Xa activity with use of andexanet alfa,14-17 April 2020 PRAC meeting minutes,2020,4,""
+R036,Serious exacerbation of infections,14-17 April 2020 PRAC meeting minutes,2020,4,""
+R037,Drug reaction with eosinophilia and systemic symptoms (DRESS),14-17 April 2020 PRAC meeting minutes,2020,4,DRESS
+R038,Cutaneous amyloidosis,14-17 April 2020 PRAC meeting minutes,2020,4,""
+R039,Diverticulitis,11-14 May 2020 PRAC meeting minutes,2020,5,""
+R040,Drug-drug interaction with serotonergic drugs leading to serotonin syndrome,11-14 May 2020 PRAC meeting minutes,2020,5,""
+R041,New information on the known risk of breast cancer,11-14 May 2020 PRAC meeting minutes,2020,5,""
+R042,Amnesia,11-14 May 2020 PRAC meeting minutes,2020,5,""
+R043,Drug reaction with eosinophilia and systemic symptoms (DRESS),11-14 May 2020 PRAC meeting minutes,2020,5,DRESS
+R044,Microscopic colitis,11-14 May 2020 PRAC meeting minutes,2020,5,microscopic colitis
+R045,Suppressed lactation,8-11 June 2020 PRAC meeting minutes,2020,6,suppressed lactation
+R046,Colitis ischaemic,8-11 June 2020 PRAC meeting minutes,2020,6,""
+R047,QT prolongation and cardiac arrhythmia,6-9 July 2020 PRAC meeting minutes,2020,7,QT prolongation
+R048,Kaposi’s sarcoma,6-9 July 2020 PRAC meeting minutes,2020,7,""
+R049,Anaphylactic reaction,31 August-3 September 2020 PRAC meeting minutes,2020,9,anaphylaxis
+R050,"Heart valve regurgitation, cervical artery dissection, and aortic aneurysm and dissection",31 August-3 September 2020 PRAC meeting minutes,2020,9,""
+R051,Neuromyelitis optica spectrum disorder,31 August-3 September 2020 PRAC meeting minutes,2020,9,""
+R052,Progressive multifocal leukoencephalopathy (PML),31 August-3 September 2020 PRAC meeting minutes,2020,9,PML
+R053,Postpartum haemorrhage,28 September-1 October 2020 PRAC meeting minutes,2020,10,""
+R054,Drug interaction with cannabidiol leading to calcineurin inhibitors and mTOR inhibitors plasma concentrations increase and toxicity,26-29 October 2020 PRAC meeting minutes,2020,10,""
+R055,Encephalopathy,26-29 October 2020 PRAC meeting minutes,2020,10,""
+R056,Sarcoidosis,26-29 October 2020 PRAC meeting minutes,2020,10,sarcoidosis
+R057,Hepatitis E,26-29 October 2020 PRAC meeting minutes,2020,10,""
+R058,Photosensitivity,26-29 October 2020 PRAC meeting minutes,2020,10,""
+R059,Sjögren's syndrome,28 September-1 October 2020 PRAC meeting minutes,2020,10,""
+R060,Anaphylactic reaction,23-26 November 2020 PRAC meeting minutes,2020,11,anaphylaxis
+R061,Psychiatric disorders,23-26 November 2020 PRAC meeting minutes,2020,11,""
+R062,Vasculitis,23-26 November 2020 PRAC meeting minutes,2020,11,""
+R063,Abnormal weight gain,11-14 January 2021 PRAC meeting minutes,2021,1,""
+R064,Depressed mood disorders,11-14 January 2021 PRAC meeting minutes,2021,1,""
+R065,Adrenal crisis,11-14 January 2021 PRAC meeting minutes,2021,1,""
+R066,Bradycardia,8-11 February 2021 PRAC meeting minutes,2021,2,""
+R067,Drug reaction with eosinophilia and systemic symptoms (DRESS),8-11 March 2021 PRAC meeting minutes,2021,3,DRESS
+R068,Anaphylactic reaction,8-11 March 2021 PRAC meeting minutes,2021,3,anaphylaxis
+R069,Embolic and thrombotic events,Signal assessment report adopted at the 18 March 2021 Extraordinary PRAC meeting,2021,3,embolic and thrombotic events
+R070,Extravasation and epidermal necrosis,8-11 March 2021 PRAC meeting minutes,2021,3,""
+R071,Erythema nodosum,6-9 April 2021 PRAC meeting minutes,2021,4,""
+R072,Embolic and thrombotic events,Signal assessement report adopted at the 20 April 2021 Extraordinary PRAC meeting,2021,4,embolic and thrombotic events
+R073,Embolic and thrombotic events,Signal assessment report adopted at the 6-9 April 2021 PRAC meeting,2021,4,embolic and thrombotic events
+R074,Sarcoidosis,3-6 May 2021 PRAC meeting minutes,2021,5,sarcoidosis
+R075,Acute renal failure,3-6 May 2021 PRAC meeting minutes,2021,5,""
+R076,Localised swelling in persons with history of dermal filler injections,3-6 May 2021 PRAC meeting minutes,2021,5,""
+R077,Embolic and thrombotic events,Signal assessment report adopted at the 3-6 May 2021 PRAC meeting,2021,5,embolic and thrombotic events
+R078,Henoch-Schonlein purpura,3-6 May 2021 PRAC meeting minutes,2021,5,""
+R079,Acute respiratory distress syndrome,3-6 May 2021 PRAC meeting minutes,2021,5,""
+R080,Haemophagocytic lymphohistiocytosis,3-6 May 2021 PRAC meeting minutes,2021,5,HLH
+R081,Serotonin syndrome,3-6 May 2021 PRAC meeting minutes,2021,5,""
+R082,Hepatitis,7-10 June 2021 PRAC meeting minutes,2021,6,""
+R083,Capillary leak syndrome,7-10 June 2021 PRAC meeting minutes,2021,6,capillary leak syndrome
+R084,Major adverse cardiovascular events (MACE) and malignancies excluding non-melanoma skin cancer (NMSC) from a clinical trial,7-10 June 2021 PRAC meeting minutes,2021,6,""
+R085,Myocarditis and pericarditis,5-8 July 2021 PRAC meeting minutes,2021,7,myocarditis/pericarditis
+R086,Myocarditis and pericarditis,5-8 July 2021 PRAC meeting minutes,2021,7,myocarditis/pericarditis
+R087,Cardiac conduction disorders including QT prolongation and torsades de pointes,5-8 July 2021 PRAC meeting minutes,2021,7,QT prolongation
+R088,Immune-mediated cystitis,5-8 July 2021 PRAC meeting minutes,2021,7,""
+R089,Pancreatic exocrine insufficiency,5-8 July 2021 PRAC meeting minutes,2021,7,""
+R090,Erythema multiforme,27-30 September 2021 PRAC meeting minutes,2021,9,erythema multiforme
+R091,Erythema multiforme,27-30 September 2021 PRAC meeting minutes,2021,9,erythema multiforme
+R092,Immune thrombocytopenia,27-30 September 2021 PRAC meeting minutes,2021,9,""
+R093,Progressive multifocal leukoencephalopathy (PML),30 August-2 September 2021 PRAC meeting minutes,2021,9,PML
+R094,Haemophagocytic lymphohistiocytosis,27-30 September 2021 PRAC meeting minutes,2021,9,HLH
+R095,Panniculitis,30 August-2 September 2021 PRAC meeting minutes,2021,9,""
+R096,Anticoagulant-related nephropathy,27-30 September 2021 PRAC meeting minutes,2021,9,""
+R097,Toxic encephalopathy in patients with renal impairment,25-28 October 2021 PRAC meeting minutes,2021,10,""
+R098,Nipple pain and suppressed lactation,25-28 October 2021 PRAC meeting minutes,2021,10,suppressed lactation
+R099,Colitis,25-28 October 2021 PRAC meeting minutes,2021,10,colitis
+R100,Myocarditis and pericarditis,29 November-2 December 2021 PRAC meeting minutes,2021,12,myocarditis/pericarditis
+R101,Autoimmune hepatitis,29 November-2 December 2021 PRAC meeting minutes,2021,12,""
+R102,Myocarditis and pericarditis,29 November-2 December 2021 PRAC meeting minutes,2021,12,myocarditis/pericarditis
+R103,Arthralgia,10-13 January 2022 PRAC meeting minutes,2022,1,""
+R104,Toxic epidermal necrolysis,10-13 January 2022 PRAC meeting minutes,2022,1,toxic epidermal necrolysis
+R105,Erythema multiforme,7-10 February 2022 PRAC meeting minutes,2022,2,erythema multiforme
+R106,Non-overt disseminated intravascular coagulation (DIC),7-10 February 2022 PRAC meeting minutes,2022,2,""
+R107,Tumour lysis syndrome (TLS),7-10 February 2022 PRAC meeting minutes,2022,2,tumour lysis syndrome
+R108,Vitiligo,7-10 March 2022 PRAC meeting minutes,2022,3,""
+R109,Drug interaction with cannabidiol leading to calcineurin inhibitors and mTOR inhibitors serum levels increased and toxicity,7-10 March 2022 PRAC meeting minutes,2022,3,""
+R110,Capillary leak syndrome,7-10 March 2022 PRAC meeting minutes,2022,3,capillary leak syndrome
+R111,Renal tubular acidosis and hypokalaemia,26-29 September 2022 PRAC meeting minutes,2022,9,""
+R112,Extensive swelling of vaccinated limb,29 August-1 September 2022 PRAC meeting minutes,2022,9,""
+R113,Myelitis transverse,24-27 October 2022 PRAC meeting minutes,2022,10,""
+R114,Heavy menstrual bleeding,24-27 October 2022 PRAC meeting minutes,2022,10,heavy menstrual bleeding
+R115,Heavy menstrual bleeding,24-27 October 2022 PRAC meeting minutes,2022,10,heavy menstrual bleeding
+R116,Myasthenia gravis,9-13 January 2023 PRAC meeting minutes,2023,1,myasthenia gravis
+R117,Haemophagocytic lymphohistiocytosis,9-13 January 2023 PRAC meeting minutes,2023,1,HLH
+R118,Thrombotic microangiopathy,9-13 January 2023 PRAC meeting minutes,2023,1,thrombotic microangiopathy
+R119,Interstitial lung disease (ILD),6-9 February 2023 PRAC meeting minutes,2023,2,""
+R120,Pseudo-Bartter syndrome,6-9 February 2023 PRAC meeting minutes,2023,2,""
+R121,Medication errors that could potentially lead to life-threatening/fatal cases,13-16 March 2023 PRAC meeting minutes,2023,3,""
+R122,Drug interaction with flucloxacillin leading to subtherapeutic voriconazole levels,13-16 March 2023 PRAC meeting minutes,2023,3,""
+R123,Adrenal insufficiency,10-12 May 2023 PRAC meeting minutes,2023,5,""
+R124,"Capillary leak syndrome (Opdivo, Yervoy, Keytruda) and cytokine release syndrome (Opdivo)",5-8 June 2023 PRAC meeting minutes,2023,6,capillary leak syndrome
+R125,Acnes,5-8 June 2023 PRAC meeting minutes,2023,6,""
+R126,Hepatocellular damage and hepatitis,3-6 July 2023 PRAC meeting minutes,2023,7,""
+R127,Choroidal effusion and choroidal detachment,28-31 August 2023 PRAC meeting minutes,2023,8,choroidal effusion
+R128,Cutaneous vasculitis,25-28 September 2023 PRAC meeting minutes,2023,9,cutaneous vasculitis
+R129,Acquired phimosis and phimosis,23-26 October 2023 PRAC meeting minutes,2023,10,""
+R130,Progressive multifocal leukoencephalopathy (PML),27-30 November 2023 PRAC meeting minutes,2023,11,PML
+R131,Peripheral neuropathy,27-30 November 2023 PRAC meeting minutes,2023,11,""
+R132,Drug reaction with eosinophilia and systemic symptoms (DRESS),27-30 November 2023 PRAC meeting minutes,2023,11,DRESS
+R133,Hyperkalaemia,8-11 January 2024 PRAC meeting minutes,2024,1,""
+R134,Antiphospholipid syndrome,8-11 January 2024 PRAC meeting minutes,2024,1,""
+R135,Drug reaction with eosinophilia and systemic symptoms (DRESS),8-11 January 2024 PRAC meeting minutes,2024,1,DRESS
+R136,"Aphthous ulcer, mouth ulceration, stomatitis",8-11 January 2024 PRAC meeting minutes,2024,1,""
+R137,Erythema multiforme,4-7 March 2024 PRAC meeting minutes,2024,3,erythema multiforme
+R138,Serious cutaneous adverse reactions (SCARs),8-11 April 2024 PRAC meeting minutes,2024,4,""
+R139,Coeliac disease,8-11 April 2024 PRAC meeting minutes,2024,4,""
+R140,Pancreatic failure,8-11 April 2024 PRAC meeting minutes,2024,4,""
+R141,Persistent corneal injury and significant visual impairment,8-11 April 2024 PRAC meeting minutes,2024,4,""
+R142,Drug reaction with eosinophilia and systemic symptoms (DRESS),8-11 April 2024 PRAC meeting minutes,2024,4,DRESS
+R143,Hypoglycaemia in diabetic patients,13-16 May 2024 PRAC meeting minutes,2024,5,""
+R144,Acute febrile neutrophilic dermatosis,13-16 May 2024 PRAC meeting minutes,2024,5,""
+R145,Ascites,13-16 May 2024 PRAC meeting minutes,2024,5,""
+R146,Hepatic failure,13-16 May 2024 PRAC meeting minutes,2024,5,""
+R147,Secondary malignancy of T-cell origin,10-13 June 2024 PRAC meeting minutes,2024,6,""
+R148,Pulmonary oedemas,8-11 July 2024 PRAC meeting minutes,2024,7,pulmonary oedema
+R149,Toxic epidermal necrolysis and Stevens-Johnson syndrome,8-11 July 2024 PRAC meeting minutes,2024,7,toxic epidermal necrolysis
+R150,Immune effector cell-associated neurotoxicity syndrome,8-11 July 2024 PRAC meeting minutes,2024,7,""
+R151,Aspiration and pneumonia aspiration,8-11 July 2024 PRAC meeting minutes,2024,7,""
+R152,Granuloma,8-11 July 2024 PRAC meeting minutes,2024,7,""
+R153,Meningioma,2-5 September 2024 PRAC meeting minutes,2024,9,meningioma
+R154,Intestinal angioedema,28-31 October 2024 PRAC meeting minutes,2024,10,""
+R155,High anion gap metabolic acidosis (HAGMA) due to pyroglutamate acidosis,28-31 October 2024 PRAC meeting minutes,2024,10,""
+R156,Non-cirrhotic portal hypertension / portosinusoidal vascular disease,25-28 November 2024 PRAC meeting minutes,2024,11,""
+R157,Pulmonary oedema in patients with veno-occlusive disease,25-28 November 2024 PRAC meeting minutes,2024,11,pulmonary oedema
+R158,Medication errors associated with accidental overdoses in children and adolescents treated with risperidone 1 mg/mL oral solution,25-28 November 2024 PRAC meeting minutes,2024,11,""
+R159,Growth of eyelashes,13-16 January 2025 PRAC meeting minutes,2025,1,""
+R160,Tumour lysis syndrome,13-16 January 2025 PRAC meeting minutes,2025,1,tumour lysis syndrome
+R161,Colitis,10-13 February 2025 PRAC meeting minutes,2025,2,colitis
+R162,Hyperammonaemia,10-13 March 2025 PRAC meeting minutes,2025,3,hyperammonaemia
+R163,Hearing and vestibular disorders,7-10 April 2025 PRAC meeting minutes,2025,4,""
+R164,"Hyperammonaemia, hyperammonaemic encephalopathy",7-10 April 2025 PRAC meeting minutes,2025,4,hyperammonaemia
+R165,Multiple acyl-coenzyme A dehydrogenase deficiency,5-8 May 2025 PRAC meeting minutes,2025,5,""
+R166,Circulatory shock,5-8 May 2025 PRAC meeting minutes,2025,5,""
+R167,Immune-mediated enterocolitis / immune effector cell-associated enteritis with CAR T-cell products,2-5 June 2025 PRAC meeting minutes,2025,6,""
+R168,Pyoderma gangrenosum,2-5 June 2025 PRAC meeting minutes,2025,6,""
+R169,Laboratory test interference leading to falsely elevated digoxin plasma levels with enzalutamide,2-5 June 2025 PRAC meeting minutes,2025,6,""
+R170,"Hallucinations, not related to serotoninergic syndrome",2-5 June 2025 PRAC meeting minutes,2025,6,""
+R171,Progressive multifocal leukoencephalopathy,7-10 July 2025 PRAC meeting minutes,2025,7,PML
+R172,New aspect of the known risk of neutropenia/agranulocytosis with potential impact on the risk minimisation measures,7-10 July 2025 PRAC meeting minutes,2025,7,""
+R173,New aspect of the known risk of encephalitis,7-10 July 2025 PRAC meeting minutes,2025,7,""
+R174,Tattoo associated skin reaction,1-4 September 2025 PRAC meeting minutes,2025,9,""
+R175,Necrotising enterocolitis neonatal,1-4 September 2025 PRAC meeting minutes,2025,9,""
+R176,Atypical haemolytic uraemic syndrome,1-4 September 2025 PRAC meeting minutes,2025,9,""
+R177,Hepatitis B reactivation,1-4 September 2025 PRAC meeting minutes,2025,9,""
+R178,Lipoatrophy,1-4 September 2025 PRAC meeting minutes,2025,9,""
+R179,Cutaneous vasculitis,27-30 October 2025 PRAC meeting minutes,2025,10,cutaneous vasculitis
+R180,Anaphylactic reaction,27-30 October 2025 PRAC meeting minutes,2025,10,anaphylaxis
+R181,Hypogammaglobulinaemia,27-30 October 2025 PRAC meeting minutes,2025,10,""
+R182,Kounis syndrome,12-15 January 2026 PRAC meeting minutes,2026,1,""
+R183,Growth accelerated,12-15 January 2026 PRAC meeting minutes,2026,1,""
+R184,Renal-limited thrombotic microangiopathy,12-15 January 2026 PRAC meeting minutes,2026,1,thrombotic microangiopathy
+R185,New aspect of the known risk of aseptic meningitis,9-12 March 2026 PRAC meeting minutes,2026,3,""
+R186,Nightmares,9-12 March 2026 PRAC meeting minutes,2026,3,""
+R187,Increased risk of brain oedema in primary mediastinal large B-cell lymphoma (PMBCL) patients,7-10 April 2026 PRAC meeting minutes,2026,4,""
+R188,"Congenital megacolon, maternal exposure during pregnancy",7-10 April 2026 PRAC meeting minutes,2026,4,""
+R189,Infection due to viral transmission,4-7 May 2026 PRAC meeting minutes,2026,5,""
+R190,Angioedema,8-11 June 2026 PRAC meeting mintues,2026,6,""
+R191,Drug reaction with eosinophilia and systemic symptoms (DRESS),8-11 June 2026 PRAC meeting mintues,2026,6,DRESS
+R192,Neurodevelopmental disorders with paternal exposure,8-11 June 2026 PRAC meeting mintues,2026,6,""
+R193,Fixed drug eruption,8-11 June 2026 PRAC meeting mintues,2026,6,""
+R194,Protein-losing gastroenteropathy,8-11 June 2026 PRAC meeting mintues,2026,6,""
+R195,Meningioma,6-9 July 2026 PRAC meeting minutes,2026,7,meningioma
+R196,Increased risk of ectopic pregnancy,6-9 July 2026 PRAC meeting minutes,2026,7,""
+R197,Drug reaction with eosinophilia and systemic symptoms (DRESS),31 August-3 September 2026 PRAC meeting minutes,2026,9,DRESS

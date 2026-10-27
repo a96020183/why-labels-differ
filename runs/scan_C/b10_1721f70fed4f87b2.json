@@ -1,0 +1,14 @@
+{
+ "tag": "b10",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {
+  "prompt_tokens": 5731,
+  "completion_tokens": 2847,
+  "total_tokens": 8578
+ },
+ "latency": 45.21,
+ "hadThink": true,
+ "promptTokensEstimated": 1877,
+ "text": "{\"id\":\"R073\",\"us\":\"not marketed\",\"cross\":[]}\n{\"id\":\"R074\",\"us\":\"partial\",\"cross\":[]}\n{\"id\":\"R075\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R076\",\"us\":\"unknown\",\"cross\":[]}\n{\"id\":\"R077\",\"us\":\"not marketed\",\"cross\":[]}\n{\"id\":\"R078\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R079\",\"us\":\"partial\",\"cross\":[]}\n{\"id\":\"R080\",\"us\":\"written\",\"cross\":[{\"row\":\"R032\",\"substance\":\"Nivolumab\",\"us\":\"written\"}]}"
+}

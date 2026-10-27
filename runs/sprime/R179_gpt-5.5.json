@@ -1,0 +1,21 @@
+{
+ "id": "R179",
+ "model_requested": "gpt-5.5",
+ "model_served": "gpt-5.5-2026-04-23",
+ "secs": 74.7,
+ "usage": {
+  "input_tokens": 92346,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 3712
+  },
+  "output_tokens": 3834,
+  "output_tokens_details": {
+   "reasoning_tokens": 3297
+  },
+  "total_tokens": 96180
+ },
+ "text": "{\"us_status\":\"partial\",\"label_product\":\"BOSULIF (bosutinib) tablets and capsules; Pfizer Laboratories Div Pfizer Inc\",\"label_version_or_date\":\"Revised 3/2026; DailyMed Pfizer label updated 2026-03-10\",\"label_section\":\"6.1 Clinical Trials Experience — Additional Adverse Reactions From Multiple Clinical Trials\",\"quote\":\"Skin and Subcutaneous Disorders: 0.1% and less than 1% - Erythema multiforme, Cutaneous vasculitis\",\"eu\":\"EMA/PRAC recommended the bosutinib PI update on 2025-10-30; current EU Bosulif product information lists cutaneous vasculitis as an uncommon skin/subcutaneous adverse reaction, identified post marketing in adults.\",\"uk\":\"MHRA products list Bosulif; UK Pfizer Bosulif SmPC (PLGB 00057/1551, text revised 02/2026) lists cutaneous vasculitis as an uncommon skin/subcutaneous adverse reaction, identified post marketing in adults.\",\"us_regulator\":\"FDA publicly approved NDA 217729/S-002 to add cutaneous vasculitis to USPI Section 6.1 Clinical Trials Experience; no separate FAERS/AEMS potential-signal listing or Sentinel study was found in the searched FDA sources.\",\"sources\":[\"https://labeling.pfizer.com/ShowLabeling.aspx?id=884\",\"https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=adc84ad5-a04d-4fee-9ba8-91f7abd928e3\",\"https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/217729s002lbl.pdf\",\"https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/217729Orig1s002ltr.pdf\",\"https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-27-30-october-2025-prac-meeting_en.pdf\",\"https://www.ema.europa.eu/en/documents/product-information/bosulif-epar-product-information_en.pdf\",\"https://products.mhra.gov.uk/substance/?substance=BOSUTINIB\",\"https://www.medicines.org.uk/emc/product/3147/smpc\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring\"]}",
+ "annotation_urls": [],
+ "at": "2026-10-24T01:57:05"
+}

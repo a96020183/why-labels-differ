@@ -1,0 +1,18 @@
+{
+ "tag": "job2_c13",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {},
+ "latency": 103.8,
+ "hadThink": true,
+ "tries": 1,
+ "call": {
+  "stream": true,
+  "tierSplit": false,
+  "isoScope": true
+ },
+ "promptTokensEstimated": 868,
+ "rawChars": 822,
+ "task": "Continuing a chunked research run. Goal (truncated): Scan PRAC rows batch 23-44 into the divergence ledger and keep the cross-entry index in CONTEXT.\n\n[CARRYOVER STATE]\nCOMPLETED: R102\nREMAINING: 30\nDECISIONS: -\nCONTEXT: Myocarditis and pericarditis: R085 mRNA vaccine J07B w, R086 mRNA vaccine J07B w, R100 Spikevax J07B w, R102 Comirnaty J07B w; Autoimmune hepatitis: R101 Olmesartan C09C nf; Hepatitis E: R057 Ibrutinib L01E p; Hepatitis: R082 Ceftriaxone J01D nf\n\nContinue exactly where the state leaves off. Do not repeat completed work.\n\n[BATCH 35 of 66; chunk 13 of 22 in this job]\nR103 | PRAC 2022-01 | Durvalumab | ATC3 L01F,L01X | signal: Arthralgia | US label: partial (durvalumab, label effective 20260831, section: adverse_reactions)\nR104 | PRAC 2022-01 | Pregabalin | ATC3 N02B,N03A | signal: Toxic epidermal necrolysis | US label: not found (lyrica, label effective 20260312)\nR105 | PRAC 2022-02 | Enzalutamide | ATC3 L02B | signal: Erythema multiforme | US label: partial (xtandi, label effective 20260728, section: adverse_reactions)\n[NAME-INDEX CANDIDATES - earlier rows whose reaction name shares most words; check class and meaning yourself]\nR105: R090 COVID-19 mRNA vaccine (nucleoside-modifi ATC3 J07B US not found (\"Erythema multiforme\"); R091 COVID-19 mRNA vaccine (nucleoside-modifi ATC3 J07B US partial (\"Erythema multiforme\")\n\nEnd every non-final chunk with [STATE_CHECKPOINT] followed by a concise state block:\nCOMPLETED: ...\nREMAINING: ...\nDECISIONS: ...\nCONTEXT: ...\nEnd the final chunk with [TASK_COMPLETE]. Exactly one marker per chunk. Never narrate the markers.",
+ "text": "{\"id\":\"R103\",\"us\":\"partial\",\"cross\":[]}\n{\"id\":\"R104\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R105\",\"us\":\"partial\",\"cross\":[{\"row\":\"R090\",\"substance\":\"COVID-19 mRNA vaccine (nucleoside-modified)\",\"us\":\"not found\"},{\"row\":\"R091\",\"substance\":\"COVID-19 mRNA vaccine (nucleoside-modified)\",\"us\":\"partial\"}]}\n[STATE_CHECKPOINT]\nCOMPLETED: R105\nREMAINING: 27\nDECISIONS: -\nCONTEXT: Myocarditis and pericarditis: R085 mRNA vaccine J07B w, R086 mRNA vaccine J07B w, R100 Spikevax J07B w, R102 Comirnaty J07B w; Autoimmune hepatitis: R101 Olmesartan C09C nf; Hepatitis E: R057 Ibrutinib L01E p; Hepatitis: R082 Ceftriaxone J01D nf; Arthralgia: R103 Durvalumab L01F p; Toxic epidermal necrolysis: R104 Pregabalin N02B nf; Erythema multiforme: R090 COVID-19 mRNA vaccine J07B nf, R091 COVID-19 mRNA vaccine J07B p, R105 Enzalutamide L02B p"
+}

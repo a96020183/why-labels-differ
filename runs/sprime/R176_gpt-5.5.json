@@ -1,0 +1,21 @@
+{
+ "id": "R176",
+ "model_requested": "gpt-5.5",
+ "model_served": "gpt-5.5-2026-04-23",
+ "secs": 80.9,
+ "usage": {
+  "input_tokens": 63593,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 3712
+  },
+  "output_tokens": 4761,
+  "output_tokens_details": {
+   "reasoning_tokens": 4053
+  },
+  "total_tokens": 68354
+ },
+ "text": "{\n  \"us_status\": \"written\",\n  \"label_product\": \"UNITUXIN (dinutuximab) injection; U.S.-approved dinutuximab product (no separate U.S.-approved Qarziba/dinutuximab beta product found)\",\n  \"label_version_or_date\": \"DailyMed current version 17, published Jul 8, 2026; label revised 10/2025; Drug Label Information updated Jul 6, 2026\",\n  \"label_section\": \"Warnings and Precautions, section 5.8 Atypical Hemolytic Uremic Syndrome\",\n  \"quote\": \"Atypical hemolytic uremic syndrome recurred following rechallenge with Unituxin in 1 patient.\",\n  \"eu\": \"EMA PRAC Sep 1-4, 2025 concluded sufficient evidence of a causal association for Qarziba (dinutuximab beta) and recommended adding a warning in SmPC 4.4 and adding aHUS as an undesirable effect in 4.8 with frequency not known; EMA Qarziba PI was updated afterward.\",\n  \"uk\": \"UK Qarziba SmPC includes aHUS in section 4.4 Special warnings and precautions and section 4.8 Undesirable effects as frequency not known.\",\n  \"us_regulator\": \"FDA has public documentation for Unituxin: BLA 125516/S-041 approval letter states aHUS was added to Dosage Modifications Table 3 to correspond to approved instructions in Warnings and Precautions 5.8; no dinutuximab/Unituxin aHUS entry was found in the FDA AEMS Apr-Jun 2025 potential-signals list.\",\n  \"sources\": [\n    \"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d66bdf0d-9d65-45de-ae5b-a58617c27492\",\n    \"https://precision.fda.gov/ginas/app/ui/substances/e7e2fb37-9e19-4c25-b948-ea49e4d9f284\",\n    \"https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/125516Orig1s041ltr.pdf\",\n    \"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/april-june-2025-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse\",\n    \"https://www.ema.europa.eu/en/documents/minutes/minutes-prac-meeting-1-4-september-2025_en.pdf\",\n    \"https://www.ema.europa.eu/en/documents/prac-recommendation/new-product-information-wording-extracts-prac-recommendations-signals-adopted-1-4-september-2025-prac_en.pdf\",\n    \"https://www.ema.europa.eu/en/medicines/human/EPAR/qarziba\",\n    \"https://www.medicines.org.uk/emc/product/9441/smpc\",\n    \"https://products.mhra.gov.uk/product/?product=QARZIBA+4.5+MG/ML+CONCENTRATE+FOR+SOLUTION+FOR+INFUSION\"\n  ]\n}",
+ "annotation_urls": [],
+ "at": "2026-10-24T01:55:50"
+}

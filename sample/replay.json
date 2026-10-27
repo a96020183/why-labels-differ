@@ -1,0 +1,13 @@
+{
+  "note": "Demo replay of two real 2026 U.S. label changes. The committee decisions are illustrative (no real hospital); the label versions, dates and texts are DailyMed's.",
+  "decisions": [
+    { "id": "R-yescarta", "product": "Yescarta", "inn": "axicabtagene ciloleucel", "setid": "9b70606e-b99c-4272-a0f1-b5523cce0c59",
+      "reaction": "higher risk of brain oedema in primary mediastinal large B-cell lymphoma (PRAC 2026-04)", "prac": "2026-04", "decided": "2026-04-28",
+      "waitingFor": "the U.S. label to name it in Warnings and Precautions", "fromVersion": 21,
+      "strict": ["primary mediastinal|pmbcl", "edema|oedema"], "all": ["primary mediastinal|pmbcl", "edema|oedema"] },
+    { "id": "R-nubeqa", "product": "Nubeqa", "inn": "darolutamide", "setid": "1a7cb212-56e4-4b9d-a73d-bfee7fe4735e",
+      "reaction": "angioedema (PRAC 2026-06)", "prac": "2026-06", "decided": "2026-06-30",
+      "waitingFor": "the U.S. label to name angioedema in Warnings and Precautions", "fromVersion": 23,
+      "strict": ["angioedema"], "all": ["angioedema"] }
+  ]
+}

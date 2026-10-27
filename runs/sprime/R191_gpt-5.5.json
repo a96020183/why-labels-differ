@@ -1,0 +1,21 @@
+{
+ "id": "R191",
+ "model_requested": "gpt-5.5",
+ "model_served": "gpt-5.5-2026-04-23",
+ "secs": 105.7,
+ "usage": {
+  "input_tokens": 87164,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 3712
+  },
+  "output_tokens": 3573,
+  "output_tokens_details": {
+   "reasoning_tokens": 2960
+  },
+  "total_tokens": 90737
+ },
+ "text": "{\"us_status\":\"written\",\"label_product\":\"Gemcitabine Injection, for intravenous use — Hospira, Inc.\",\"label_version_or_date\":\"DailyMed updated April 27, 2026; U.S. PI revised 5/2024; LAB-1030-4.0\",\"label_section\":\"Warnings and Precautions, 5.3 Severe Cutaneous Adverse Reactions (SCARs)\",\"quote\":\"SCARs, including Stevens-Johnson syndrome (SJS), toxic epidermal necrolysis (TEN), drug reaction with eosinophilia and systemic symptoms (DRESS), and acute generalized exanthematous pustulosis (AGEP), which can be life-threatening or fatal, have been reported in association with gemcitabine treatment [see Adverse Reactions (6.2)]. Monitor patients for signs and symptoms of severe cutaneous adverse reactions. Permanently discontinue gemcitabine in patients who develop SCARs.\",\"eu\":\"EU: PRAC signal EPITT 20256 adopted 11 June 2026 recommends adding DRESS to gemcitabine SmPC section 4.4 as a warning and section 4.8 as an undesirable effect with frequency not known.\",\"uk\":\"UK: current UK SmPCs appear updated to include DRESS in sections 4.4 and 4.8; GOV.UK/MHRA had a September 2025 gemcitabine alert on serious skin reactions that did not yet list DRESS.\",\"us_regulator\":\"FDA: yes—FAERS/AEMS potential-signals list for July–September 2023 listed Gemcitabine/Infugem for DRESS; FDA says gemcitabine labeling was updated May–September 2024 for SCARs.\",\"sources\":[\"https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e18ed1cb-7dd0-4001-bfda-17d1f4587fb8\",\"https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-8-11-june-2026-prac-meeting_en.pdf\",\"https://www.ema.europa.eu/en/documents/minutes/minutes-prac-meeting-8-11-june-2026_en.pdf\",\"https://www.gov.uk/drug-device-alerts/class-4-medicines-defect-notification-hikma-farmaceutica-gemcitabine-2g-slash-52-dot-6ml-concentrate-for-solution-for-infusion-el-25-a-slash-43\",\"https://www.medicines.org.uk/emc/product/4483/smpc\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/july-september-2023-potential-signals-serious-risksnew-safety-information-identified-fda-adverse\"]}",
+ "annotation_urls": [],
+ "at": "2026-10-24T02:03:07"
+}

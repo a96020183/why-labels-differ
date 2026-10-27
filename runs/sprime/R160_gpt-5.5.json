@@ -1,0 +1,21 @@
+{
+ "id": "R160",
+ "model_requested": "gpt-5.5",
+ "model_served": "gpt-5.5-2026-04-23",
+ "secs": 91.3,
+ "usage": {
+  "input_tokens": 111731,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 0
+  },
+  "output_tokens": 2754,
+  "output_tokens_details": {
+   "reasoning_tokens": 2309
+  },
+  "total_tokens": 114485
+ },
+ "text": "{\"us_status\":\"not found\",\"label_product\":\"LENVIMA (lenvatinib) capsules, for oral use\",\"label_version_or_date\":\"DailyMed updated October 14, 2026\",\"label_section\":\"Not mentioned in U.S. prescribing information; DailyMed search found no 'lysis' or 'tumor lysis' text.\",\"quote\":\"\",\"eu\":\"EMA/PRAC Jan 13-16, 2025 concluded a causal association and recommended adding TLS as a warning and rare undesirable effect; current EU Lenvima PI includes SmPC sections 4.4 and 4.8 plus PL wording.\",\"uk\":\"UK SmPC text for lenvatinib includes TLS as a section 4.4 warning and rare adverse reaction in section 4.8.\",\"us_regulator\":\"FDA AEMS/FAERS potential-signals list for July-Sept 2024 listed Lenvima (lenvatinib) and Nexavar (sorafenib) for tumor lysis syndrome; FDA later stated no action was necessary at the time based on available information.\",\"sources\":[\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f4bedd21-efde-44c6-9d9c-b48b78d7ed1e\",\"https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/206947s035lbl.pdf\",\"https://www.ema.europa.eu/en/documents/minutes/minutes-prac-meeting-13-16-january-2025_en.pdf\",\"https://www.ema.europa.eu/en/documents/product-information/lenvima-epar-product-information_en.pdf\",\"https://products.mhra.gov.uk/product/?product=LENVIMA+4MG+HARD+CAPSULES\",\"https://www.medicines.org.uk/emc/product/7881/smpc\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/july-september-2024-potential-signals-serious-risksnew-safety-information-identified-fda-adverse\"]}",
+ "annotation_urls": [],
+ "at": "2026-10-24T01:48:32"
+}

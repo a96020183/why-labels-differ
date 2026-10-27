@@ -1,0 +1,3868 @@
+{
+ "rows": {
+  "R001": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "biotin",
+     "setid": "570899ce-bb74-b3f1-e063-6294a90a4497",
+     "title": "5% MINOXIDIL HAIR REGROWTH SERUM With Biotin (5% MINOXIDIL) Shenzhen Shengxing Tengda Tech",
+     "published": "20260720",
+     "version": "1",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:interference\\ clinical)"
+  },
+  "R002": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "gabapentin",
+     "setid": "4a975ebe-ae0a-446a-8a3d-2ca325e28f93",
+     "title": "gabapentin (GABAPENTIN) REMEDYREPACK INC.",
+     "published": "20260911",
+     "version": "2",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:dysphagia)"
+  },
+  "R003": {
+   "status": "written",
+   "labels": [
+    {
+     "search": "nivolumab",
+     "setid": "f570b9c4-6846-4de2-abfa-4d0a4ae4e394",
+     "title": "OPDIVO (NIVOLUMAB) E.R. Squibb & Sons, L.L.C.",
+     "published": "20260812",
+     "version": "68",
+     "status": "written",
+     "hits": [
+      {
+       "section": "warnings_and_cautions",
+       "snippet": " associated sequelae including renal failure, arthritis, polymyalgia rheumatic Endocrine: Hypoparathyroidism Hematologic/Immune: Hemolytic anemia, aplastic anemia, hemophagocytic lymphohistiocytosis"
+      }
+     ]
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:hypoparathyroidism)"
+  },
+  "R004": {
+   "status": "unknown",
+   "labels": [
+    {
+     "search": "paracetamol",
+     "status": "unknown",
+     "note": "no openFDA label for this name (auto row, not checked further)"
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:paracetamol\\ use)"
+  },
+  "R005": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "armodafinil",
+     "setid": "4128759d-ed7c-4130-b24c-a0541f2b9e7f",
+     "title": "Armodafinil (ARMODAFINIL) Preferred Pharmaceuticals Inc.",
+     "published": "20260306",
+     "version": "6",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:evaluation\\ data)"
+  },
+  "R006": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "rivaroxaban",
+     "setid": "481b7802-5093-43e7-bbd9-1532197eb6e6",
+     "title": "RIVAROXABAN (RIVAROXABAN) Micro Labs Limited",
+     "published": "20260904",
+     "version": "2",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:recurrent\\ thrombosis)"
+  },
+  "R007": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "citalopram",
+     "setid": "0109f365-bebd-4810-a56f-4451e10245db",
+     "title": "Citalopram (CITALOPRAM HYDROBROMIDE) REMEDYREPACK INC.",
+     "published": "20260904",
+     "version": "2",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:interaction\\ fluconazole)"
+  },
+  "R008": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "desvenlafaxine",
+     "setid": "ff837eb1-24c3-4c63-9b4b-c6b5935a9b47",
+     "title": "DESVENLAFAXINE (DESVENLAFAXINE) Advagen Pharma Ltd",
+     "published": "20260821",
+     "version": "7",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:persistent\\ sexual)"
+  },
+  "R009": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "clopidogrel",
+     "setid": "bb3b5e96-e629-4db5-8ad5-40c17c6dae18",
+     "title": "Clopidogrel (CLOPIDOGREL BISULFATE) Westminster Pharmaceuticals, LLC",
+     "published": "20260929",
+     "version": "8",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:interaction\\ boosted)"
+  },
+  "R010": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "protonix",
+     "setid": "08098cb2-c048-4640-f387-6beec4a38936",
+     "title": "Protonix Delayed-Release (PANTOPRAZOLE SODIUM) Wyeth Pharmaceuticals LLC, a subsidiary of ",
+     "published": "20260518",
+     "version": "48",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:microscopic colitis|collagenous colitis|lymphocytic colitis)"
+  },
+  "R011": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "sertraline",
+     "setid": "7d598f1a-6c76-458a-a155-7a6a0743a2d3",
+     "title": "Sertraline Hydrochloride (SERTRALINE HYDROCHLORIDE) REMEDYREPACK INC.",
+     "published": "20260903",
+     "version": "3",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:maculopathy)"
+  },
+  "R012": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "loperamide",
+     "setid": "5a728c6d-26ec-3316-e063-6394a90ade08",
+     "title": "LOPERAMIDE HYDROCHLORIDE (LOPERAMIDE HYDROCHLORIDE) YYBA CORP",
+     "published": "20260909",
+     "version": "3",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:brugada\\ syndrome)"
+  },
+  "R013": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "propylthiouracil",
+     "setid": "d819e532-09ac-434a-84a6-636c4204c7aa",
+     "title": "Propylthiouracil (PROPYLTHIOURACIL) American Health Packaging",
+     "published": "20260827",
+     "version": "7",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:congenital\\ anomalies)"
+  },
+  "R014": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "rivaroxaban",
+     "setid": "481b7802-5093-43e7-bbd9-1532197eb6e6",
+     "title": "RIVAROXABAN (RIVAROXABAN) Micro Labs Limited",
+     "published": "20260904",
+     "version": "2",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:premature\\ ending)"
+  },
+  "R015": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "secukinumab",
+     "setid": "77c4b13e-7df3-42d4-81db-3d0cddb7f67a",
+     "title": "COSENTYX (SECUKINUMAB) Novartis Pharmaceuticals Corporation",
+     "published": "20260825",
+     "version": "30",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:dermatitis\\ exfoliative)"
+  },
+  "R016": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "sulfasalazine",
+     "setid": "257cee60-b68f-4c2b-b57d-8e4d73d17e09",
+     "title": "Sulfasalazine (SULFASALAZINE) Mylan Pharmaceuticals Inc.",
+     "published": "20260825",
+     "version": "31",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:interference\\ dihydronicotinamide\\-adenine)"
+  },
+  "R017": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "temodar",
+     "setid": "046a9011-3911-4d3f-a15f-fbb56d5aad56",
+     "title": "TEMODAR (TEMOZOLOMIDE) Merck Sharp & Dohme LLC",
+     "published": "20260220",
+     "version": "40",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": false,
+   "pattern": "\\bDRESS\\b|(?i:drug reaction with eosinophilia|multi-?organ hypersensitivity)"
+  },
+  "R018": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "topiramate",
+     "setid": "3f99b26b-79b9-4efb-aa2c-2868e1e126c8",
+     "title": "Topiramate (TOPIRAMATE) REMEDYREPACK INC.",
+     "published": "20260904",
+     "version": "3",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:uveitis)"
+  },
+  "R019": {
+   "status": "unknown",
+   "labels": [
+    {
+     "search": "amino acids",
+     "status": "unknown",
+     "note": "no openFDA label for this name (auto row, not checked further)"
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:adverse\\ outcomes)"
+  },
+  "R020": {
+   "status": "unknown",
+   "labels": [
+    {
+     "search": "mesalazine",
+     "status": "unknown",
+     "note": "no openFDA label for this name (auto row, not checked further)"
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:nephrolithiasis)"
+  },
+  "R021": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "ondansetron",
+     "setid": "416be720-82e8-4a6d-8531-c1a29869daae",
+     "title": "Ondansetron (ONDANSETRON) REMEDYREPACK INC.",
+     "published": "20260901",
+     "version": "4",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:signal\\ birth)"
+  },
+  "R022": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "aflibercept",
+     "setid": "f96cfd69-da34-41ee-90a9-610a4655cd1c",
+     "title": "EYLEA (AFLIBERCEPT) Regeneron Pharmaceuticals, Inc.",
+     "published": "20260707",
+     "version": "41",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:artery\\ dissections)"
+  },
+  "R023": {
+   "status": "partial",
+   "labels": [
+    {
+     "search": "ibrutinib",
+     "setid": "0dfd0279-ff17-4ea9-89be-9803c71bab44",
+     "title": "Imbruvica (IBRUTINIB) Pharmacyclics LLC",
+     "published": "20251021",
+     "version": "65",
+     "status": "partial",
+     "hits": [
+      {
+       "section": "adverse_reactions",
+       "snippet": "control arm. The incidence of ischemic cerebrovascular events (cerebrovascular accidents, ischemic stroke, cerebral ischemia, and transient ischemic attack) of any grade was 1% versus 0.4% and Gr"
+      }
+     ]
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:ischemic\\ stroke)"
+  },
+  "R024": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "ibuprofen",
+     "setid": "0ca02f8b-4413-4e7c-a67b-8c67c53e1343",
+     "title": "Ibuprofen (IBUPROFEN) Lidl US LLC",
+     "published": "20260909",
+     "version": "5",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:acute\\ generalised)"
+  },
+  "R025": {
+   "status": "partial",
+   "labels": [
+    {
+     "search": "canagliflozin",
+     "setid": "6868666b-c25e-40d1-9d1f-306bbe9390c1",
+     "title": "INVOKAMET (CANAGLIFLOZIN AND METFORMIN HYDROCHLORIDE) Janssen Pharmaceuticals, Inc.",
+     "published": "20260824",
+     "version": "32",
+     "status": "partial",
+     "hits": [
+      {
+       "section": "information_for_patients",
+       "snippet": "ne fractures have been reported in adult patients taking canagliflozin. Provide them with information on factors that may contribute to fracture risk [see Warnings and Precautions (5.8) ] . Vita"
+      }
+     ]
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:information\\ on)"
+  },
+  "R026": {
+   "status": "partial",
+   "labels": [
+    {
+     "search": "teriflunomide",
+     "setid": "c424959d-00c9-4e76-aba6-cc7464d8e903",
+     "title": "Teriflunomide (TERIFLUNOMIDE) Teva Pharmaceuticals, Inc.",
+     "published": "20260826",
+     "version": "5",
+     "status": "partial",
+     "hits": [
+      {
+       "section": "adverse_reactions",
+       "snippet": " with eosinophilia and systemic symptoms (DRESS) [see Warnings and Precautions ( 5.7 )] ; psoriasis or worsening of psoriasis (including pustular psoriasis and nail psoriasis); nail disorde"
+      }
+     ]
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:psoriasis)"
+  },
+  "R027": {
+   "status": "written",
+   "labels": [
+    {
+     "search": "imfinzi",
+     "setid": "8baba4ea-2855-42fa-9bd9-5a7548d4cec3",
+     "title": "IMFINZI (DURVALUMAB) AstraZeneca Pharmaceuticals LP",
+     "published": "20260831",
+     "version": "34",
+     "status": "written",
+     "hits": [
+      {
+       "section": "warnings_and_cautions",
+       "snippet": "Nervous system: Meningitis, encephalitis, myelitis and demyelination, myasthenic syndrome/myasthenia gravis (including exacerbation), Guillain-Barré syndrome, nerve paresis, autoimmune neuro"
+      },
+      {
+       "section": "information_for_patients",
+       "snippet": "immune thrombocytopenia, myocarditis, hemolytic anemia, myositis, uveitis, keratitis, and myasthenia gravis. Infusion-Related Reactions : • Advise patients to contact their healthcare provid"
+      }
+     ]
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:myasthenia)"
+  },
+  "R028": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "ferric carboxymaltose",
+     "setid": "bfdf7447-62e4-48ca-b903-11cb3b211064",
+     "title": "Ferric Carboxymaltose (FERRIC CARBOXYMALTOSE INJECTION) Sandoz, Inc.",
+     "published": "20260902",
+     "version": "2",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:arteriospasm\\ coronary)"
+  },
+  "R029": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "lithium",
+     "setid": "be1346df-4a39-45e8-874b-e2a496847fd5",
+     "title": "Lithium (LITHIUM) REMEDYREPACK INC.",
+     "published": "20260831",
+     "version": "4",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:induced\\ lichenoid)"
+  },
+  "R030": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "abiraterone",
+     "setid": "2ac063f0-4177-c90f-27c3-e70e29689255",
+     "title": "Abiraterone Acetate (ABIRATERONE ACETATE) Apotex Corp.",
+     "published": "20260903",
+     "version": "11",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:interaction\\ sulphonylureas)"
+  },
+  "R031": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "golimumab",
+     "setid": "9e260a47-55af-4c92-8d88-a86ccc767fff",
+     "title": "SIMPONI ARIA (GOLIMUMAB) Janssen Biotech, Inc.",
+     "published": "20250909",
+     "version": "28",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:inflammatory\\ myopathy)"
+  },
+  "R032": {
+   "status": "written",
+   "labels": [
+    {
+     "search": "opdivo",
+     "setid": "f570b9c4-6846-4de2-abfa-4d0a4ae4e394",
+     "title": "OPDIVO (NIVOLUMAB) E.R. Squibb & Sons, L.L.C.",
+     "published": "20260812",
+     "version": "68",
+     "status": "written",
+     "hits": [
+      {
+       "section": "warnings_and_cautions",
+       "snippet": "atic Endocrine: Hypoparathyroidism Hematologic/Immune: Hemolytic anemia, aplastic anemia, hemophagocytic lymphohistiocytosis, systemic inflammatory response syndrome, histiocytic necrotizing lym"
+      },
+      {
+       "section": "adverse_reactions",
+       "snippet": "Treatment refractory, severe acute and chronic GVHD Blood and lymphatic system disorders: Hemophagocytic lymphohistiocytosis (HLH) (including fatal cases), autoimmune hemolytic anemia (including"
+      }
+     ]
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:hemophagocytic|haemophagocytic|\\bHLH\\b)"
+  },
+  "R033": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "paxil",
+     "setid": "483bd97f-c4d0-4e23-aaa8-6334f4471e0c",
+     "title": "PAXIL CR (PAROXETINE HYDROCHLORIDE) TABLET, FILM COATED, EXT () ",
+     "published": "Oct 02, 2026",
+     "version": 34,
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:microscopic colitis|collagenous colitis|lymphocytic colitis)"
+  },
+  "R034": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "hydrochlorothiazide",
+     "setid": "1b303136-dccd-178b-e063-6394a90a35f8",
+     "title": "Telmisartan and Hydrochlorothiazide (TELMISARTAN AND HYDROCHLOROTHIAZIDE) AvKARE",
+     "published": "20260908",
+     "version": "3",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:choroidal effusion|choroidal detachment)"
+  },
+  "R035": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "andexanet alfa",
+     "setid": "2d9d90a6-63e6-46ef-96ff-dd6519ae7b6c",
+     "title": "ANDEXXA (ANDEXANET ALFA) AstraZeneca Pharmaceuticals LP",
+     "published": "20250523",
+     "version": "7",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:erroneous\\ assay)"
+  },
+  "R036": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "ibuprofen",
+     "setid": "0ca02f8b-4413-4e7c-a67b-8c67c53e1343",
+     "title": "Ibuprofen (IBUPROFEN) Lidl US LLC",
+     "published": "20260909",
+     "version": "5",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:serious\\ exacerbation)"
+  },
+  "R037": {
+   "status": "written",
+   "labels": [
+    {
+     "search": "zydelig",
+     "setid": "efbdafa9-d18c-4e85-b4a2-1e620fc74e50",
+     "title": "ZYDELIG (IDELALISIB) TABLET, FILM COATED [GILEAD SCIENCES, I () ",
+     "published": "Sep 21, 2026",
+     "version": 13,
+     "status": "written",
+     "hits": [
+      {
+       "section": "warnings_and_cautions",
+       "snippet": "toxic epidermal necrolysis (TEN) have occurred in patients treated with Zydelig. Cases of drug reaction with eosinophilia and systemic symptoms (DRESS) have also occurred [see Adverse Reactions (6.2)]. Zydelig i"
+      },
+      {
+       "section": "adverse_reactions",
+       "snippet": "taneous Disorders - Stevens-Johnson syndrome (SJS), toxic epidermal necrolysis (TEN), and drug reaction with eosinophilia and systemic symptoms (DRESS)"
+      },
+      {
+       "section": "information_for_patients",
+       "snippet": "ate aminotransferase; BID, twice daily; ULN, upper limit of normal; CMV, cytomegalovirus; DRESS, drug reaction with eosinophilia and systemic symptoms; PCR: polymerase chain reaction; P"
+      }
+     ]
+    }
+   ],
+   "auto": false,
+   "pattern": "\\bDRESS\\b|(?i:drug reaction with eosinophilia|multi-?organ hypersensitivity)"
+  },
+  "R038": {
+   "status": "written",
+   "labels": [
+    {
+     "search": "insulin aspart",
+     "setid": "5d9f0e10-edb9-4960-bd62-cf406e75bbe7",
+     "title": "Insulin Aspart Protamine and Insulin Aspart Mix 70/30 (INSULIN ASPART) REMEDYREPACK INC.",
+     "published": "20260407",
+     "version": "9",
+     "status": "written",
+     "hits": [
+      {
+       "section": "warnings_and_cautions",
+       "snippet": " ] or hyperglycemia. Repeated insulin injections into areas of lipodystrophy or localized cutaneous amyloidosis have been reported to result in hyperglycemia; and a sudden change in the injection site "
+      },
+      {
+       "section": "adverse_reactions",
+       "snippet": "substituted for Insulin Aspart Protamine and Insulin Aspart have been reported. Localized cutaneous amyloidosis at the injection site has occurred with insulin aspart. Hyperglycemia has been reported w"
+      },
+      {
+       "section": "spl_patient_package_insert",
+       "snippet": " reduce your risk of getting lipodystrophy (pits in skin or thickened skin) and localized cutaneous amyloidosis (skin with lumps) at the injection sites. Do not use the exact same spot for each injecti"
+      }
+     ]
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:cutaneous\\ amyloidosis)"
+  },
+  "R039": {
+   "status": "unknown",
+   "labels": [
+    {
+     "search": "baricitinib",
+     "status": "unknown",
+     "note": "no openFDA label for this name (auto row, not checked further)"
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:diverticulitis)"
+  },
+  "R040": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "buprenorphine",
+     "setid": "4124c4ad-ef62-4c95-8e57-0d843862ae71",
+     "title": "buprenorphine hydrochloride and naloxone hydrochloride dihydrate (BUPRENORPHINE HYDROCHLOR",
+     "published": "20260817",
+     "version": "9",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:drug\\-drug\\ interaction)"
+  },
+  "R041": {
+   "status": "unknown",
+   "labels": [
+    {
+     "search": "chlorotrianisene",
+     "status": "unknown",
+     "note": "no openFDA label for this name (auto row, not checked further)"
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:information\\ on)"
+  },
+  "R042": {
+   "status": "partial",
+   "labels": [
+    {
+     "search": "mirtazapine",
+     "setid": "63f140c2-2a18-4dea-96fe-2658dda28a0c",
+     "title": "Mirtazapine (MIRTAZAPINE) NCS HealthCare of KY, LLC dba Vangard Labs",
+     "published": "20260916",
+     "version": "1",
+     "status": "partial",
+     "hits": [
+      {
+       "section": "adverse_reactions",
+       "snippet": "t : hypesthesia, apathy, depression, hypokinesia, vertigo, twitching, agitation, anxiety, amnesia, hyperkinesia, paresthesia; infrequent : ataxia, delirium, delusions, depersonalization, "
+      }
+     ]
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:amnesia)"
+  },
+  "R043": {
+   "status": "written",
+   "labels": [
+    {
+     "search": "remeron",
+     "setid": "98ad1917-a094-44f5-a28f-a64a8cfcd887",
+     "title": "REMERONSOLTAB (MIRTAZAPINE) Organon LLC",
+     "published": "20250806",
+     "version": "8",
+     "status": "written",
+     "hits": [
+      {
+       "section": "warnings_and_cautions",
+       "snippet": "REMERONSolTab with caution in patients with risk factors for QT prolongation. ( 5.5 , 7 ) Drug Reaction with Eosinophilia and System Symptoms (DRESS) : Discontinue REMERON/REMERONSolTab if DRESS is suspected. ( "
+      },
+      {
+       "section": "contraindications",
+       "snippet": "e or to any of the excipients in REMERON/REMERONSolTab . Severe skin reactions, including drug reaction with eosinophilia and systemic symptoms (DRESS), Stevens-Johnson syndrome, bullous dermatitis, erythema mul"
+      },
+      {
+       "section": "adverse_reactions",
+       "snippet": "ons (5.4) ] QT Prolongation and Torsades de Pointes [see Warnings and Precautions (5.5) ] Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS) [see Warnings and Precautions (5.6) ] Increased Appetite an"
+      }
+     ]
+    }
+   ],
+   "auto": false,
+   "pattern": "\\bDRESS\\b|(?i:drug reaction with eosinophilia|multi-?organ hypersensitivity)"
+  },
+  "R044": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "zoloft",
+     "setid": "fda754f6-d0f3-4dce-a17a-927d64f912f7",
+     "title": "Zoloft (SERTRALINE HYDROCHLORIDE) Viatris Specialty LLC",
+     "published": "20230808",
+     "version": "7",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:microscopic colitis|collagenous colitis|lymphocytic colitis)"
+  },
+  "R045": {
+   "status": "written",
+   "labels": [
+    {
+     "search": "desogestrel",
+     "setid": "78454ebf-f1a3-4ca0-b32e-88c51bc57773",
+     "title": "Desogestrel and Ethinyl Estradiol (DESOGESTREL AND ETHINYL ESTRADIOL) Camber Pharmaceutica",
+     "published": "20260624",
+     "version": "1",
+     "status": "written",
+     "hits": [
+      {
+       "section": "precautions",
+       "snippet": "ition, oral contraceptives given in the postpartum period may interfere with lactation by decreasing the quantity and quality of breast milk. If possible, the nursing mother should be advised not to use oral contraceptives but to "
+      }
+     ]
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:(decreas|reduc|suppress|diminish|inhibit)\\w*[^.]{0,60}(milk|lactation)|milk (production|supply))"
+  },
+  "R046": {
+   "status": "unknown",
+   "labels": [
+    {
+     "search": "macrogol-containing products for bowel preparation",
+     "status": "unknown",
+     "note": "no openFDA label for this name (auto row, not checked further)"
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:colitis\\ ischemic)"
+  },
+  "R047": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "vyvanse",
+     "setid": "704e4378-ca83-445c-8b45-3cfa51c1ecad",
+     "title": "Vyvanse (LISDEXAMFETAMINE DIMESYLATE) Takeda Pharmaceuticals America, Inc.",
+     "published": "20260430",
+     "version": "81",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:qtc? (interval )?prolong|prolong\\w* (of )?(the )?qtc?|torsade)"
+  },
+  "R048": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "adalimumab",
+     "setid": "c44365e9-d470-4e35-978d-8565a9e3471e",
+     "title": "Adalimumab (ADALIMUMAB-AATY) CELLTRION USA, Inc.",
+     "published": "20260708",
+     "version": "7",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:kaposi\\ sarcoma)"
+  },
+  "R049": {
+   "status": "partial",
+   "labels": [
+    {
+     "search": "zytiga",
+     "setid": "4e338e89-3cf2-48eb-b6e2-a06c608c6513",
+     "title": "Zytiga (ABIRATERONE ACETATE) Janssen Biotech, Inc.",
+     "published": "20250328",
+     "version": "40",
+     "status": "partial",
+     "hits": [
+      {
+       "section": "adverse_reactions",
+       "snippet": "or had underlying cardiovascular conditions). Immune System Disorders – Hypersensitivity: anaphylactic reactions (severe allergic reactions that include, but are not limited to difficulty "
+      }
+     ]
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:anaphyla)"
+  },
+  "R050": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "ciprofloxacin",
+     "setid": "47d1e4c5-f669-4aca-9e8c-0d6bb833b859",
+     "title": "Ciprofloxacin (CIPROFLOXACIN HYDROCHLORIDE) REMEDYREPACK INC.",
+     "published": "20260831",
+     "version": "6",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:heart\\ valve)"
+  },
+  "R051": {
+   "status": "unknown",
+   "labels": [
+    {
+     "search": "interferon alfa-2a",
+     "status": "unknown",
+     "note": "no openFDA label for this name (auto row, not checked further)"
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:neuromyelitis\\ optica)"
+  },
+  "R052": {
+   "status": "partial",
+   "labels": [
+    {
+     "search": "pomalyst",
+     "setid": "2b25ef01-5c9e-11e1-b86c-0800200c9a66",
+     "title": "Pomalyst (POMALIDOMIDE) Celgene Corporation",
+     "published": "20250226",
+     "version": "26",
+     "status": "partial",
+     "hits": [
+      {
+       "section": "adverse_reactions",
+       "snippet": "ant rejection Infections and Infestations: Hepatitis B virus reactivation, Herpes zoster, progressive multifocal leukoencephalopathy (PML) Neoplasms benign, malignant and unspecified (incl cysts and polyps): Tumor lysis sy"
+      }
+     ]
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:progressive multifocal leukoencephalopathy)|\\bPML\\b"
+  },
+  "R053": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "amitriptyline",
+     "setid": "61b29703-cfc2-45c7-ae24-7bf3b77e8587",
+     "title": "Amitriptyline Hydrochloride (AMITRIPTYLINE HYDROCHLORIDE) REMEDYREPACK INC.",
+     "published": "20260909",
+     "version": "4",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:postpartum\\ hemorrhage)"
+  },
+  "R054": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "cannabidiol",
+     "setid": "8bf27097-4870-43fb-94f0-f3d0871d1eec",
+     "title": "Epidiolex (CANNABIDIOL) Jazz Pharmaceuticals, Inc.",
+     "published": "20260529",
+     "version": "35",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:interaction\\ cannabidiol)"
+  },
+  "R055": {
+   "status": "written",
+   "labels": [
+    {
+     "search": "ceftriaxone",
+     "setid": "ddbc3bf6-5bab-4851-ae5a-ef263cd8f255",
+     "title": "Ceftriaxone Sodium (CEFTRIAXONE SODIUM) Sportpharm LLC",
+     "published": "20260723",
+     "version": "1",
+     "status": "written",
+     "hits": [
+      {
+       "section": "warnings",
+       "snippet": " reported during postmarketing surveillance with ceftriaxone use. These reactions include encephalopathy (disturbance of consciousness including somnolence, lethargy, and confusion), seizures, m"
+      },
+      {
+       "section": "precautions",
+       "snippet": "nform their healthcare provider at once of any neurological signs and symptoms, including encephalopathy (disturbance of consciousness including somnolence, lethargy, and confusion), seizures, m"
+      },
+      {
+       "section": "contraindications",
+       "snippet": " can displace bilirubin from its binding to serum albumin, leading to a risk of bilirubin encephalopathy in these patients. Neonates Requiring Calcium Containing IV Solutions Ceftriaxone for inj"
+      }
+     ]
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:encephalopathy)"
+  },
+  "R056": {
+   "status": "partial",
+   "labels": [
+    {
+     "search": "tafinlar",
+     "setid": "fee1e6b1-e1a5-4254-9f2e-a70e0f8dbdea",
+     "title": "Tafinlar (DABRAFENIB) Novartis Pharmaceuticals Corporation",
+     "published": "20260520",
+     "version": "37",
+     "status": "partial",
+     "hits": [
+      {
+       "section": "adverse_reactions",
+       "snippet": "lock Gastrointestinal: Colitis, gastrointestinal perforation, pancreatitis Immune System: Sarcoidosis Nervous System: Peripheral neuropathy, Guillain-Barré syndrome Skin and Subcutaneous "
+      }
+     ]
+    },
+    {
+     "search": "mekinist",
+     "setid": "0002ad27-779d-42ab-83b5-bc65453412a1",
+     "title": "Mekinist (TRAMETINIB) Novartis Pharmaceuticals Corporation",
+     "published": "20260507",
+     "version": "35",
+     "status": "partial",
+     "hits": [
+      {
+       "section": "adverse_reactions",
+       "snippet": "ib were: Cardiac: Bradycardia, atrioventricular block, bundle branch block Immune System: Sarcoidosis Musculoskeletal and Connective Tissue: Rhabdomyolysis Nervous System: Peripheral neur"
+      }
+     ]
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:sarcoid)"
+  },
+  "R057": {
+   "status": "partial",
+   "labels": [
+    {
+     "search": "ibrutinib",
+     "setid": "0dfd0279-ff17-4ea9-89be-9803c71bab44",
+     "title": "Imbruvica (IBRUTINIB) Pharmacyclics LLC",
+     "published": "20251021",
+     "version": "65",
+     "status": "partial",
+     "hits": [
+      {
+       "section": "adverse_reactions",
+       "snippet": "S), onychoclasis, panniculitis, neutrophilic dermatoses, cutaneous vasculitis Infections: hepatitis B reactivation Nervous system disorders: peripheral neuropathy Eye disorders: uveitis"
+      }
+     ]
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:hepatitis)"
+  },
+  "R058": {
+   "status": "partial",
+   "labels": [
+    {
+     "search": "lamotrigine",
+     "setid": "20e156df-a2b6-4710-b526-0419cd17dd33",
+     "title": "Lamotrigine (LAMOTRIGINE) Cardinal Health 107, LLC",
+     "published": "20260904",
+     "version": "21",
+     "status": "partial",
+     "hits": [
+      {
+       "section": "adverse_reactions",
+       "snippet": " injury 14 12 Abdominal pain 10 5 Asthenia 8 4 Flu syndrome 7 6 Pain 5 4 Facial edema 2 1 Photosensitivity 2 0 Cardiovascular Hemorrhage 2 1 Digestive Vomiting 20 16 Diarrhea 11 9 Nausea 10 2 Cons"
+      }
+     ]
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:photosensitivity)"
+  },
+  "R059": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "pembrolizumab",
+     "setid": "097d166f-b73b-41d3-9b37-7653cd2a0c41",
+     "title": "KEYTRUDA QLEX (PEMBROLIZUMAB AND BERAHYALURONIDASE ALFA-PMPH) Merck Sharp & Dohme LLC",
+     "published": "20260731",
+     "version": "18",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:sj\\ gren)"
+  },
+  "R060": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "xeloda",
+     "setid": "e702d84d-7162-4751-bf37-d724cc7e45a5",
+     "title": "XELODA (CAPECITABINE) H2-Pharma, LLC",
+     "published": "20260205",
+     "version": "32",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:anaphyla)"
+  },
+  "R061": {
+   "status": "partial",
+   "labels": [
+    {
+     "search": "chloroquine",
+     "setid": "06c69e2b-211b-4746-9f3a-f86d36520570",
+     "title": "Chloroquine Phosphate (CHLOROQUINE PHOSPHATE) Rising Pharma Holdings, Inc.",
+     "published": "20260702",
+     "version": "7",
+     "status": "partial",
+     "hits": [
+      {
+       "section": "adverse_reactions",
+       "snippet": "ystonia, dyskinesia, tongue protrusion, torticollis) (see WARNINGS and OVERDOSAGE ). Neuropsychiatric disorders: Neuropsychiatric changes including psychosis, delirium, anxiety, agitation, insomnia, co"
+      }
+     ]
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:psychiatric\\ disorders)"
+  },
+  "R062": {
+   "status": "written",
+   "labels": [
+    {
+     "search": "pembrolizumab",
+     "setid": "097d166f-b73b-41d3-9b37-7653cd2a0c41",
+     "title": "KEYTRUDA QLEX (PEMBROLIZUMAB AND BERAHYALURONIDASE ALFA-PMPH) Merck Sharp & Dohme LLC",
+     "published": "20260731",
+     "version": "18",
+     "status": "written",
+     "hits": [
+      {
+       "section": "warnings_and_cautions",
+       "snippet": "eported for some of these adverse reactions. Cardiac/Vascular: Myocarditis, pericarditis, vasculitis Nervous System: Meningitis, encephalitis, myelitis and demyelination, myasthenic syndrome"
+      }
+     ]
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:vasculitis)"
+  },
+  "R063": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "adalimumab",
+     "setid": "c44365e9-d470-4e35-978d-8565a9e3471e",
+     "title": "Adalimumab (ADALIMUMAB-AATY) CELLTRION USA, Inc.",
+     "published": "20260708",
+     "version": "7",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:abnormal\\ weight)"
+  },
+  "R064": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "anastrozole",
+     "setid": "1d1d5818-1594-4f54-90a9-ae9a9afcdc67",
+     "title": "ANASTROZOLE (ANASTROZOLE) Bryant Ranch Prepack",
+     "published": "20260820",
+     "version": "105",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:depressed\\ mood)"
+  },
+  "R065": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "hydrocortisone",
+     "setid": "0d2c0c2c-370f-4adb-b0ea-1e218c927f8b",
+     "title": "Terramed Just Think Comfort Hydrocortisone 1% Cream (HYDROCORTISONE) Rida LLC",
+     "published": "20260901",
+     "version": "1",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:adrenal\\ crisis)"
+  },
+  "R066": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "prednisolone",
+     "setid": "96de9cad-2fb7-4947-87ae-4db57563a83a",
+     "title": "Prednisolone Sodium Phosphate (PREDNISOLONE SODIUM PHOSPHATE) ATLANTIC BIOLOGICALS CORP.",
+     "published": "20260904",
+     "version": "4",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:bradycardia)"
+  },
+  "R067": {
+   "status": "written",
+   "labels": [
+    {
+     "search": "kineret",
+     "setid": "d9d74915-6606-4570-9c52-c4001d3177de",
+     "title": "Kineret (ANAKINRA) Swedish Orphan Biovitrum AB (publ)",
+     "published": "20260403",
+     "version": "24",
+     "status": "written",
+     "hits": [
+      {
+       "section": "warnings_and_cautions",
+       "snippet": "ncluding anaphylactic reactions and angioedema, and serious cutaneous reactions including Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS) can occur; discontinue KINERET, treat promptly, and monitor"
+      },
+      {
+       "section": "adverse_reactions",
+       "snippet": "hrombocytopenia (i.e platelet counts <10x10 9 /L) Skin and subcutaneous tissue disorders: Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS) [see Warnings & Precautions ( 5.3 )] injection site amyloid"
+      }
+     ]
+    },
+    {
+     "search": "ilaris",
+     "setid": "7d271f3b-e4f9-4d80-8dcf-28d49123f80e",
+     "title": "Ilaris (CANAKINUMAB) Novartis Pharmaceuticals Corporation",
+     "published": "20260608",
+     "version": "31",
+     "status": "written",
+     "hits": [
+      {
+       "section": "warnings_and_cautions",
+       "snippet": "n active infection requiring medical intervention. ( 5.1 ) Hypersensitivity Reactions and Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS) can occur; discontinue ILARIS, treat promptly, and monitor "
+      },
+      {
+       "section": "adverse_reactions",
+       "snippet": "establish a causal relationship to drug exposure. Skin and subcutaneous tissue disorders: Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS) [see Warnings and Precautions (5.3)]"
+      }
+     ]
+    }
+   ],
+   "auto": false,
+   "pattern": "\\bDRESS\\b|(?i:drug reaction with eosinophilia|multi-?organ hypersensitivity)"
+  },
+  "R068": {
+   "status": "not marketed",
+   "note": "ChAdOx1-S (AstraZeneca) never licensed in the US",
+   "labels": [],
+   "auto": false,
+   "pattern": "(?i:anaphyla)"
+  },
+  "R069": {
+   "status": "not marketed",
+   "note": "ChAdOx1-S never licensed in the US",
+   "labels": [],
+   "auto": false,
+   "pattern": "(?i:thrombosis)"
+  },
+  "R070": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "trastuzumab emtansine",
+     "setid": "23f3c1f4-0fc8-4804-a9e3-04cf25dd302e",
+     "title": "KADCYLA (ADO-TRASTUZUMAB EMTANSINE) Genentech, Inc.",
+     "published": "20260401",
+     "version": "35",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:extravasation\\ epidermal)"
+  },
+  "R071": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "azathioprine",
+     "setid": "5116b22b-1460-5535-e063-6394a90acbe5",
+     "title": "Azathioprine (AZATHIOPRINE) NuCare Pharmaceuticals,Inc.",
+     "published": "20260505",
+     "version": "1",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:erythema\\ nodosum)"
+  },
+  "R072": {
+   "status": "not marketed",
+   "note": "Ad26.COV2.S: US EUA revoked 2023-06",
+   "labels": [],
+   "auto": false,
+   "pattern": "(?i:thrombosis)"
+  },
+  "R073": {
+   "status": "not marketed",
+   "note": "ChAdOx1-S never licensed in the US",
+   "labels": [],
+   "auto": false,
+   "pattern": "(?i:thrombosis)"
+  },
+  "R074": {
+   "status": "partial",
+   "labels": [
+    {
+     "search": "lemtrada",
+     "setid": "6236b0bc-82e9-4447-9a78-f57d94770269",
+     "title": "LEMTRADA (ALEMTUZUMAB) Genzyme Corporation",
+     "published": "20251103",
+     "version": "26",
+     "status": "partial",
+     "hits": [
+      {
+       "section": "adverse_reactions",
+       "snippet": "ions (5.1) ], hemophagocytic lymphohistiocytosis [see Warnings and Precautions (5.11) ] , sarcoidosis Musculoskeletal and Connective Tissue Disorders: Adult Onset Still's Disease [see War"
+      }
+     ]
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:sarcoid)"
+  },
+  "R075": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "clindamycin",
+     "setid": "fa084aad-07fa-44d2-8d01-d32f40acd2f3",
+     "title": "Clindamycin Hydrochloride (CLINDAMYCIN HYDROCHLORIDE) REMEDYREPACK INC.",
+     "published": "20260908",
+     "version": "3",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:acute\\ renal)"
+  },
+  "R076": {
+   "status": "unknown",
+   "labels": [
+    {
+     "search": "covid-19 mrna vaccine - comirnaty",
+     "status": "unknown",
+     "note": "no openFDA label for this name (auto row, not checked further)"
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:localised\\ swelling)"
+  },
+  "R077": {
+   "status": "not marketed",
+   "note": "Ad26.COV2.S: US EUA revoked 2023-06",
+   "labels": [],
+   "auto": false,
+   "pattern": "(?i:thrombosis)"
+  },
+  "R078": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "secukinumab",
+     "setid": "77c4b13e-7df3-42d4-81db-3d0cddb7f67a",
+     "title": "COSENTYX (SECUKINUMAB) Novartis Pharmaceuticals Corporation",
+     "published": "20260825",
+     "version": "30",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:henoch\\-schonlein\\ purpura)"
+  },
+  "R079": {
+   "status": "partial",
+   "labels": [
+    {
+     "search": "sulfamethoxazole",
+     "setid": "c6171b62-835c-465e-905e-97f70438186e",
+     "title": "Sulfamethoxazole and Trimethoprim (SULFAMETHOXAZOLE AND TRIMETHOPRIM) Preferred Pharmaceut",
+     "published": "20260902",
+     "version": "3",
+     "status": "partial",
+     "hits": [
+      {
+       "section": "adverse_reactions",
+       "snippet": ", acute eosinophilic pneumonia, acute and delayed lung injury, interstitial lung disease, acute respiratory failure (see WARNINGS ). Cardiovascular System: QT prolongation resulting in ventricular "
+      }
+     ]
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:acute\\ respiratory)"
+  },
+  "R080": {
+   "status": "written",
+   "labels": [
+    {
+     "search": "bactrim",
+     "setid": "f59d0c04-9c66-4d53-a0e1-cb55570deb62",
+     "title": "Bactrim (SULFAMETHOXAZOLE AND TRIMETHOPRIM) Sun Pharmaceutical Industries, Inc",
+     "published": "20241230",
+     "version": "18",
+     "status": "written",
+     "hits": [
+      {
+       "section": "warnings",
+       "snippet": "pain, dyspnea, pallor, purpura or jaundice may be early indications of serious reactions. Hemophagocytic Lymphohistiocytosis Cases of hemophagocytic lymphohistiocytosis (HLH) have been reported "
+      },
+      {
+       "section": "adverse_reactions",
+       "snippet": "ity, conjunctival and scleral injection, pruritus, urticaria, rash, periarteritis nodosa, hemophagocytic lymphohistiocytosis (HLH), systemic lupus erythematosus, drug reaction with eosinophilia "
+      }
+     ]
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:hemophagocytic|haemophagocytic|\\bHLH\\b)"
+  },
+  "R081": {
+   "status": "written",
+   "labels": [
+    {
+     "search": "tramadol",
+     "setid": "c6104e62-5b2c-41a1-afb3-00dcf267a384",
+     "title": "tramadol hydrochloride (TRAMADOL HYDROCHLORIDE) REMEDYREPACK INC.",
+     "published": "20260901",
+     "version": "3",
+     "status": "written",
+     "hits": [
+      {
+       "section": "warnings_and_cautions",
+       "snippet": "opriately decreasing the dose of the current opioid analgesic, or opioid rotation ( 5.8 ) Serotonin Syndrome: May be life-threatening. Can occur with use of tramadol alone, with concomitant use of s"
+      },
+      {
+       "section": "adverse_reactions",
+       "snippet": "ons (5.6)] Opioid-Induced Hyperalgesia and Allodynia [see Warnings and Precautions (5.8)] Serotonin Syndrome [see Warnings and Precautions (5.9)] Seizures [see Warnings and Precautions (5.10)] Suici"
+      },
+      {
+       "section": "information_for_patients",
+       "snippet": ", seizures and death [see Dosage and Administration (2); Warnings and Precautions (5.2)]. Serotonin Syndrome Inform patients that opioids could cause a rare but potentially life-threatening conditio"
+      }
+     ]
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:serotonin\\ syndrome)"
+  },
+  "R082": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "ceftriaxone",
+     "setid": "ddbc3bf6-5bab-4851-ae5a-ef263cd8f255",
+     "title": "Ceftriaxone Sodium (CEFTRIAXONE SODIUM) Sportpharm LLC",
+     "published": "20260723",
+     "version": "1",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:hepatitis)"
+  },
+  "R083": {
+   "status": "not marketed",
+   "note": "ChAdOx1-S never licensed in the US",
+   "labels": [],
+   "auto": false,
+   "pattern": "(?i:capillary leak)"
+  },
+  "R084": {
+   "status": "written",
+   "labels": [
+    {
+     "search": "tofacitinib",
+     "setid": "253635c8-1ea7-41ba-b216-dea5e3305c47",
+     "title": "Tofacitinib (TOFACITINIB) Novadoz Pharmaceuticals LLC",
+     "published": "20260901",
+     "version": "3",
+     "status": "written",
+     "hits": [
+      {
+       "section": "boxed_warning",
+       "snippet": "WARNING: SERIOUS INFECTIONS, MORTALITY, MALIGNANCY, MAJOR ADVERSE CARDIOVASCULAR EVENTS, and THROMBOSIS SERIOUS INFECTIONS Patients treated with tofacitini"
+      },
+      {
+       "section": "warnings_and_cautions",
+       "snippet": " mg twice daily was associated with greater risk of NMSC than treatment with placebo. 5.4 Major Adverse Cardiovascular Events Major adverse cardiovascular events may occur with tofacitinib tabl"
+      },
+      {
+       "section": "adverse_reactions",
+       "snippet": "5.2) ] Malignancy and Lymphoproliferative Disorders [see Warnings and Precautions (5.3) ] Major Adverse Cardiovascular Events [see Warnings and Precautions (5.4) ] Thrombosis [see Warnings and "
+      }
+     ]
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:major\\ adverse)"
+  },
+  "R085": {
+   "status": "written",
+   "labels": [
+    {
+     "search": "comirnaty",
+     "setid": "48c86164-de07-4041-b9dc-f2b5744714e5",
+     "title": "COMIRNATY (COVID-19 VACCINE, MRNA) INJECTION, SUSPENSION [PF () ",
+     "published": "Sep 07, 2026",
+     "version": 22,
+     "status": "written",
+     "hits": [
+      {
+       "section": "warnings_and_cautions",
+       "snippet": "pproved mRNA COVID-19 vaccines, including COMIRNATY, have demonstrated increased risks of myocarditis and pericarditis, with onset of symptoms typically in the first week following vaccinatio"
+      },
+      {
+       "section": "adverse_reactions",
+       "snippet": "heir frequency or establish a causal relationship to vaccine exposure. Cardiac disorders: myocarditis, pericarditisGastrointestinal disorders: diarrhea, vomitingImmune system disorders: sever"
+      },
+      {
+       "section": "information_for_patients",
+       "snippet": " SA, Steele JM, et al. Cardiac manifestations and outcomes of COVID-19 vaccine-associated myocarditis in the young in the USA: longitudinal results from the Myocarditis After COVID Vaccinatio"
+      }
+     ]
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:myocarditis)"
+  },
+  "R086": {
+   "status": "written",
+   "labels": [
+    {
+     "search": "spikevax",
+     "setid": "f96b315c-fa57-4876-a7e5-a9b584d8e6e6",
+     "title": "SPIKEVAX (COVID-19 VACCINE, MRNA) INJECTION, SUSPENSION [MOD () ",
+     "published": "Aug 31, 2026",
+     "version": 11,
+     "status": "written",
+     "hits": [
+      {
+       "section": "warnings_and_cautions",
+       "snippet": "approved mRNA COVID-19 vaccines, including SPIKEVAX, have demonstrated increased risks of myocarditis and pericarditis, with onset of symptoms typically in the first week following vaccinatio"
+      },
+      {
+       "section": "adverse_reactions",
+       "snippet": "0% were other races, and 2.2% were Multiracial. After October 1, 2021, cases of potential myocarditis and/or pericarditis that were identified by the investigator or Applicant were adjudicate"
+      },
+      {
+       "section": "information_for_patients",
+       "snippet": " SA, Steele JM, et al. Cardiac manifestations and outcomes of COVID-19 vaccine-associated myocarditis in the young in the USA: longitudinal results from the Myocarditis After COVID Vaccinatio"
+      }
+     ]
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:myocarditis)"
+  },
+  "R087": {
+   "status": "partial",
+   "labels": [
+    {
+     "search": "aricept",
+     "setid": "98e451e1-e4d7-4439-a675-c5457ba20975",
+     "title": "Aricept (DONEPEZIL HYDROCHLORIDE) Eisai Inc.",
+     "published": "20211230",
+     "version": "33",
+     "status": "partial",
+     "hits": [
+      {
+       "section": "adverse_reactions",
+       "snippet": "atitis, hyponatremia, neuroleptic malignant syndrome, pancreatitis, rash, rhabdomyolysis, QTc prolongation, and torsade de pointes."
+      }
+     ]
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:qtc? (interval )?prolong|prolong\\w* (of )?(the )?qtc?|torsade)"
+  },
+  "R088": {
+   "status": "unknown",
+   "labels": [
+    {
+     "search": "atezolizumab",
+     "status": "unknown",
+     "note": "no openFDA label for this name (auto row, not checked further)"
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:immune\\-mediated\\ cystitis)"
+  },
+  "R089": {
+   "status": "written",
+   "labels": [
+    {
+     "search": "octreotide",
+     "setid": "387d7f8d-9762-4f6b-99e1-bdc50b8a1633",
+     "title": "Octreotide Acetate (OCTREOTIDE ACETATE) GLENMARK PHARMACEUTICALS INC., USA",
+     "published": "20260130",
+     "version": "2",
+     "status": "written",
+     "hits": [
+      {
+       "section": "warnings_and_cautions",
+       "snippet": "ur. If new occurrence or worsening of these symptoms are reported, evaluate for potential pancreatic exocrine insufficiency. ( 5.5 ) 5.1 Cardiac Function Abnormalities Complete Atrioventricular Block"
+      },
+      {
+       "section": "adverse_reactions",
+       "snippet": " which have sometimes required cholecystectomy Gastrointestinal : intestinal obstruction, pancreatic exocrine insufficiency Hematologic: thrombocytopenia"
+      }
+     ]
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:pancreatic\\ exocrine)"
+  },
+  "R090": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "comirnaty",
+     "setid": "48c86164-de07-4041-b9dc-f2b5744714e5",
+     "title": "COMIRNATY (COVID-19 VACCINE, MRNA) INJECTION, SUSPENSION [PF () ",
+     "published": "Sep 07, 2026",
+     "version": 22,
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:erythema multiforme)"
+  },
+  "R091": {
+   "status": "partial",
+   "labels": [
+    {
+     "search": "spikevax",
+     "setid": "f96b315c-fa57-4876-a7e5-a9b584d8e6e6",
+     "title": "SPIKEVAX (COVID-19 VACCINE, MRNA) INJECTION, SUSPENSION [MOD () ",
+     "published": "Aug 31, 2026",
+     "version": 11,
+     "status": "partial",
+     "hits": [
+      {
+       "section": "adverse_reactions",
+       "snippet": "t least 28 days of follow-up after Dose 2. A 3-year-old male participant experienced mild erythema multiforme (bilateral arms) 3 days after receiving Dose 2 which resolved the next day without treatm"
+      }
+     ]
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:erythema multiforme)"
+  },
+  "R092": {
+   "status": "unknown",
+   "labels": [
+    {
+     "search": "covid-19 vaccine - vaxzevria",
+     "status": "unknown",
+     "note": "no openFDA label for this name (auto row, not checked further)"
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:immune\\ thrombocytopenia)"
+  },
+  "R093": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "trexall",
+     "setid": "e942f8db-510f-44d6-acb5-b822196f5e8c",
+     "title": "Trexall (METHOTREXATE) Teva Women's Health LLC",
+     "published": "20260617",
+     "version": "14",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:progressive multifocal leukoencephalopathy)|\\bPML\\b"
+  },
+  "R094": {
+   "status": "written",
+   "labels": [
+    {
+     "search": "zosyn",
+     "setid": "8db6bd91-2106-4bfd-8cc8-38aaf1e18d17",
+     "title": "Zosyn (PIPERACILLIN SODIUM AND TAZOBACTAM SODIUM) Baxter Healthcare Corporation",
+     "published": "20260515",
+     "version": "7",
+     "status": "written",
+     "hits": [
+      {
+       "section": "warnings_and_cautions",
+       "snippet": "generalized exanthematous pustulosis. Discontinue ZOSYN for progressive rashes. ( 5.2 ) • Hemophagocytic lymphohistiocytosis (HLH) has been reported with the use of ZOSYN. If HLH is suspected, d"
+      },
+      {
+       "section": "adverse_reactions",
+       "snippet": "ions (5.1) ] • Severe Cutaneous Adverse Reactions [see Warnings and Precautions (5.2) ] • Hemophagocytic Lymphohistiocytosis [see Warnings and Precautions (5.3) ] • Rhabdomyolysis [see Warnings "
+      },
+      {
+       "section": "information_for_patients",
+       "snippet": "ams (including cephalosporins), or other allergens [see Warnings and Precautions (5.2) ]. Hemophagocytic Lymphohistiocytosis Prior to initiation of treatment with ZOSYN, inform patients that exc"
+      }
+     ]
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:hemophagocytic|haemophagocytic|\\bHLH\\b)"
+  },
+  "R095": {
+   "status": "partial",
+   "labels": [
+    {
+     "search": "ponatinib",
+     "setid": "16d804b6-4957-43ee-b18c-3b36ec37c5ac",
+     "title": "Iclusig (PONATINIB HYDROCHLORIDE) Takeda Pharmaceuticals America, Inc.",
+     "published": "20260814",
+     "version": "20",
+     "status": "partial",
+     "hits": [
+      {
+       "section": "adverse_reactions",
+       "snippet": "s reaction (e.g., Erythema multiforme, Stevens-Johnson syndrome), impaired wound healing, panniculitis (including erythema nodosum) Vascular Disorders: Arterial (including aortic) aneurysms, d"
+      }
+     ]
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:panniculitis)"
+  },
+  "R096": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "warfarin",
+     "setid": "5a5b5e3a-6556-a542-e063-6294a90a6d3f",
+     "title": "Warfarin Sodium (WARFARIN) Coupler LLC",
+     "published": "20260831",
+     "version": "1",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:anticoagulant\\-related\\ nephropathy)"
+  },
+  "R097": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "ertapenem",
+     "setid": "41304b1d-7db4-468a-ab1d-04e56fb50de4",
+     "title": "ERTAPENEM (ERTAPENEM SODIUM) ENDO USA, Inc.",
+     "published": "20260302",
+     "version": "13",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:toxic\\ encephalopathy)"
+  },
+  "R098": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "labetalol",
+     "setid": "abfc6b75-1ed5-41f1-0484-4597488237bc",
+     "title": "Labetalol Hydrochloride (LABETALOL HYDROCHLORIDE) Hospira, Inc.",
+     "published": "20260914",
+     "version": "30",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:(decreas|reduc|suppress|diminish|inhibit)\\w*[^.]{0,60}(milk|lactation)|milk (production|supply))"
+  },
+  "R099": {
+   "status": "partial",
+   "labels": [
+    {
+     "search": "lenvima",
+     "setid": "f4bedd21-efde-44c6-9d9c-b48b78d7ed1e",
+     "title": "LENVIMA (LENVATINIB) CAPSULE LENVIMA (LENVATINIB) KIT [EISAI () ",
+     "published": "Oct 08, 2026",
+     "version": 81,
+     "status": "partial",
+     "hits": [
+      {
+       "section": "adverse_reactions",
+       "snippet": "pneumonia, and 1 case of the following: acute kidney injury, acute myocardial infarction, colitis, decreased appetite, intestinal perforation, lower gastrointestinal hemorrhage, malignant"
+      }
+     ]
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:\\bcolitis)"
+  },
+  "R100": {
+   "status": "written",
+   "labels": [
+    {
+     "search": "spikevax",
+     "setid": "f96b315c-fa57-4876-a7e5-a9b584d8e6e6",
+     "title": "SPIKEVAX (COVID-19 VACCINE, MRNA) INJECTION, SUSPENSION [MOD () ",
+     "published": "Aug 31, 2026",
+     "version": 11,
+     "status": "written",
+     "hits": [
+      {
+       "section": "warnings_and_cautions",
+       "snippet": "approved mRNA COVID-19 vaccines, including SPIKEVAX, have demonstrated increased risks of myocarditis and pericarditis, with onset of symptoms typically in the first week following vaccinatio"
+      },
+      {
+       "section": "adverse_reactions",
+       "snippet": "0% were other races, and 2.2% were Multiracial. After October 1, 2021, cases of potential myocarditis and/or pericarditis that were identified by the investigator or Applicant were adjudicate"
+      },
+      {
+       "section": "information_for_patients",
+       "snippet": " SA, Steele JM, et al. Cardiac manifestations and outcomes of COVID-19 vaccine-associated myocarditis in the young in the USA: longitudinal results from the Myocarditis After COVID Vaccinatio"
+      }
+     ]
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:myocarditis)"
+  },
+  "R101": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "olmesartan",
+     "setid": "1be698df-30a0-4117-8c24-7253af94c8ad",
+     "title": "olmesartan medoxomil (OLMESARTAN MEDOXOMIL) REMEDYREPACK INC.",
+     "published": "20260827",
+     "version": "5",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:autoimmune\\ hepatitis)"
+  },
+  "R102": {
+   "status": "written",
+   "labels": [
+    {
+     "search": "comirnaty",
+     "setid": "48c86164-de07-4041-b9dc-f2b5744714e5",
+     "title": "COMIRNATY (COVID-19 VACCINE, MRNA) INJECTION, SUSPENSION [PF () ",
+     "published": "Sep 07, 2026",
+     "version": 22,
+     "status": "written",
+     "hits": [
+      {
+       "section": "warnings_and_cautions",
+       "snippet": "pproved mRNA COVID-19 vaccines, including COMIRNATY, have demonstrated increased risks of myocarditis and pericarditis, with onset of symptoms typically in the first week following vaccinatio"
+      },
+      {
+       "section": "adverse_reactions",
+       "snippet": "heir frequency or establish a causal relationship to vaccine exposure. Cardiac disorders: myocarditis, pericarditisGastrointestinal disorders: diarrhea, vomitingImmune system disorders: sever"
+      },
+      {
+       "section": "information_for_patients",
+       "snippet": " SA, Steele JM, et al. Cardiac manifestations and outcomes of COVID-19 vaccine-associated myocarditis in the young in the USA: longitudinal results from the Myocarditis After COVID Vaccinatio"
+      }
+     ]
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:myocarditis)"
+  },
+  "R103": {
+   "status": "partial",
+   "labels": [
+    {
+     "search": "durvalumab",
+     "setid": "8baba4ea-2855-42fa-9bd9-5a7548d4cec3",
+     "title": "IMFINZI (DURVALUMAB) AstraZeneca Pharmaceuticals LP",
+     "published": "20260831",
+     "version": "34",
+     "status": "partial",
+     "hits": [
+      {
+       "section": "adverse_reactions",
+       "snippet": " 12 0.2 6 0 Musculoskeletal and connective tissue disorders Musculoskeletal pain includes arthralgia, arthritis, back pain, bone pain, chest pain, musculoskeletal chest pain, musculoskeletal"
+      }
+     ]
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:arthralgia)"
+  },
+  "R104": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "lyrica",
+     "setid": "f280bbd8-2af2-444a-bd96-e409337ca6dd",
+     "title": "Lyrica CR (PREGABALIN) Viatris Specialty LLC",
+     "published": "20260312",
+     "version": "7",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:toxic epidermal necrolysis)"
+  },
+  "R105": {
+   "status": "partial",
+   "labels": [
+    {
+     "search": "xtandi",
+     "setid": "b129fdc9-1d8e-425c-a5a9-8a2ed36dfbdf",
+     "title": "Xtandi (ENZALUTAMIDE) Astellas Pharma US, Inc.",
+     "published": "20260728",
+     "version": "24",
+     "status": "partial",
+     "hits": [
+      {
+       "section": "adverse_reactions",
+       "snippet": "ders: rash, severe cutaneous adverse reactions (including Stevens-Johnson syndrome (SJS), erythema multiforme, toxic epidermal necrolysis (TEN), drug reaction with eosinophilia and systemic symptoms "
+      }
+     ]
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:erythema multiforme)"
+  },
+  "R106": {
+   "status": "unknown",
+   "labels": [
+    {
+     "search": "obinutuzumab",
+     "status": "unknown",
+     "note": "no openFDA label for this name (auto row, not checked further)"
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:non\\-overt\\ disseminated)"
+  },
+  "R107": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "nexavar",
+     "setid": "b50667e4-5ebc-4968-a646-d605058dbef0",
+     "title": "Nexavar (SORAFENIB) Bayer HealthCare Pharmaceuticals Inc.",
+     "published": "20230828",
+     "version": "40",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:tumor lysis)"
+  },
+  "R108": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "alemtuzumab",
+     "setid": "4f5f7255-7abc-4328-bd1a-ceaf139ef3e0",
+     "title": "Campath (ALEMTUZUMAB) Genzyme Corporation",
+     "published": "20251105",
+     "version": "21",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:vitiligo)"
+  },
+  "R109": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "cannabidiol",
+     "setid": "8bf27097-4870-43fb-94f0-f3d0871d1eec",
+     "title": "Epidiolex (CANNABIDIOL) Jazz Pharmaceuticals, Inc.",
+     "published": "20260529",
+     "version": "35",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:interaction\\ cannabidiol)"
+  },
+  "R110": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "spikevax",
+     "setid": "f96b315c-fa57-4876-a7e5-a9b584d8e6e6",
+     "title": "SPIKEVAX (COVID-19 VACCINE, MRNA) INJECTION, SUSPENSION [MOD () ",
+     "published": "Aug 31, 2026",
+     "version": 11,
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:capillary leak)"
+  },
+  "R111": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "codeine",
+     "setid": "40d4a71e-341e-48b3-b925-ba35b7910dff",
+     "title": "Acetaminophen and Codeine Phosphate (ACETAMINOPHEN AND CODEINE PHOSPHATE) REMEDYREPACK INC",
+     "published": "20260827",
+     "version": "3",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:renal\\ tubular)"
+  },
+  "R112": {
+   "status": "unknown",
+   "labels": [
+    {
+     "search": "pneumococcal polysaccharide vaccine",
+     "status": "unknown",
+     "note": "no openFDA label for this name (auto row, not checked further)"
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:extensive\\ swelling)"
+  },
+  "R113": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "durvalumab",
+     "setid": "8baba4ea-2855-42fa-9bd9-5a7548d4cec3",
+     "title": "IMFINZI (DURVALUMAB) AstraZeneca Pharmaceuticals LP",
+     "published": "20260831",
+     "version": "34",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:myelitis\\ transverse)"
+  },
+  "R114": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "spikevax",
+     "setid": "f96b315c-fa57-4876-a7e5-a9b584d8e6e6",
+     "title": "SPIKEVAX (COVID-19 VACCINE, MRNA) INJECTION, SUSPENSION [MOD () ",
+     "published": "Aug 31, 2026",
+     "version": 11,
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:heavy menstrual|menorrhagia)"
+  },
+  "R115": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "comirnaty",
+     "setid": "48c86164-de07-4041-b9dc-f2b5744714e5",
+     "title": "COMIRNATY (COVID-19 VACCINE, MRNA) INJECTION, SUSPENSION [PF () ",
+     "published": "Sep 07, 2026",
+     "version": 22,
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:heavy menstrual|menorrhagia)"
+  },
+  "R116": {
+   "status": "partial",
+   "labels": [
+    {
+     "search": "lipitor",
+     "setid": "a60cc18b-0631-4cf0-b021-9f52224ece65",
+     "title": "Lipitor (ATORVASTATIN CALCIUM) Viatris Specialty LLC",
+     "published": "20240415",
+     "version": "8",
+     "status": "partial",
+     "hits": [
+      {
+       "section": "adverse_reactions",
+       "snippet": "olution (median of 3 weeks). There have been rare reports of new-onset or exacerbation of myasthenia gravis, including ocular myasthenia, and reports of recurrence when the same or a differe"
+      }
+     ]
+    },
+    {
+     "search": "crestor",
+     "setid": "325a5d0e-9a72-4015-9fcd-1655fb504cee",
+     "title": "CRESTOR (ROSUVASTATIN) TABLET, FILM COATED [ASTRAZENECA PHAR () ",
+     "published": "Sep 30, 2026",
+     "version": 19,
+     "status": "partial",
+     "hits": [
+      {
+       "section": "adverse_reactions",
+       "snippet": "olution (median of 3 weeks). There have been rare reports of new-onset or exacerbation of myasthenia gravis, including ocular myasthenia, and reports of recurrence when the same or a differe"
+      }
+     ]
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:myasthenia)"
+  },
+  "R117": {
+   "status": "written",
+   "labels": [
+    {
+     "search": "tafinlar",
+     "setid": "fee1e6b1-e1a5-4254-9f2e-a70e0f8dbdea",
+     "title": "Tafinlar (DABRAFENIB) Novartis Pharmaceuticals Corporation",
+     "published": "20260520",
+     "version": "37",
+     "status": "written",
+     "hits": [
+      {
+       "section": "warnings_and_cautions",
+       "snippet": "phosphate Dehydrogenase Deficiency (G6PD) : Closely monitor for hemolytic anemia. ( 5.9 ) Hemophagocytic Lymphohistiocytosis (HLH) : Interrupt treatment for suspected HLH. Discontinue treatment "
+      },
+      {
+       "section": "adverse_reactions",
+       "snippet": " (5.8)] Glucose-6-Phosphate Dehydrogenase Deficiency [see Warnings and Precautions (5.9)] Hemophagocytic Lymphohistiocytosis [see Warnings and Precautions (5.11)] There are additional adverse re"
+      }
+     ]
+    },
+    {
+     "search": "mekinist",
+     "setid": "0002ad27-779d-42ab-83b5-bc65453412a1",
+     "title": "Mekinist (TRAMETINIB) Novartis Pharmaceuticals Corporation",
+     "published": "20260507",
+     "version": "35",
+     "status": "written",
+     "hits": [
+      {
+       "section": "warnings_and_cautions",
+       "snippet": "tor serum glucose levels in patients with preexisting diabetes or hyperglycemia. ( 5.10 ) Hemophagocytic Lymphohistiocytosis (HLH) : Interrupt treatment for suspected HLH. Discontinue treatment "
+      },
+      {
+       "section": "adverse_reactions",
+       "snippet": "e Warnings and Precautions (5. 9 )] Hyperglycemia [see Warnings and Precautions (5. 10 )] Hemophagocytic Lymphohistiocytosis [see Warnings and Precautions (5. 12 )] There are additional adverse "
+      },
+      {
+       "section": "spl_patient_package_insert",
+       "snippet": "eased thirst ○ urinating more often than normal or urinating an increased amount of urine hemophagocytic lymphohistiocytosis (HLH) . MEKINIST when taken or given with dabrafenib may increase the"
+      }
+     ]
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:hemophagocytic|haemophagocytic|\\bHLH\\b)"
+  },
+  "R118": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "stivarga",
+     "setid": "824f19c9-0546-4a8a-8d8f-c4055c04f7c7",
+     "title": "Stivarga (REGORAFENIB) Bayer HealthCare Pharmaceuticals Inc.",
+     "published": "20260209",
+     "version": "36",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:thrombotic microangiopathy|hemolytic uremic syndrome)"
+  },
+  "R119": {
+   "status": "partial",
+   "labels": [
+    {
+     "search": "bosutinib",
+     "setid": "cb7a8d1d-07c0-462d-960f-214d44705e76",
+     "title": "Bosutinib (BOSUTINIB) Dr. Reddy's Laboratories Inc.",
+     "published": "20260525",
+     "version": "1",
+     "status": "partial",
+     "hits": [
+      {
+       "section": "adverse_reactions",
+       "snippet": "d less than 1% - Acute pulmonary edema (includes Acute pulmonary edema, Pulmonary edema), Interstitial lung disease, Respiratory failure Skin and Subcutaneous Disorders: 0.1% and less than 1% - Ery"
+      }
+     ]
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:interstitial\\ lung)"
+  },
+  "R120": {
+   "status": "written",
+   "labels": [
+    {
+     "search": "colistimethate sodium",
+     "setid": "6a335659-03b0-4a2d-9cd4-7dcf7da96fe6",
+     "title": "COLISTIMETHATE SODIUM (COLISTIMETHATE SODIUM) Heritage Pharmaceuticals Inc. d/b/a Avet Pha",
+     "published": "20260112",
+     "version": "18",
+     "status": "written",
+     "hits": [
+      {
+       "section": "warnings",
+       "snippet": ". Electrolyte and Acid/Base Abnormalities Postmarketing cases of renal tubulopathy (i.e., Pseudo-Bartter syndrome) have been identified with the use of intravenous colistimethate sodium (see ADVERSE REAC"
+      },
+      {
+       "section": "adverse_reactions",
+       "snippet": "spiratory distress and apnea Renal System: electrolyte and acid/base abnormalities (i.e., Pseudo-Bartter syndrome), nephrotoxicity and decreased urine output To report SUSPECTED ADVERSE REACTIONS, contac"
+      }
+     ]
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:pseudo\\-bartter\\ syndrome)"
+  },
+  "R121": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "propofol",
+     "setid": "9ba70032-40c2-41c5-9f99-d1f94032d3dc",
+     "title": "Propofol (PROPOFOL) Civica, Inc",
+     "published": "20260918",
+     "version": "8",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:medication\\ errors)"
+  },
+  "R122": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "voriconazole",
+     "setid": "c620b2d7-3c2b-4252-8cfc-2f322d624435",
+     "title": "Voriconazole (VORICONAZOLE) American Health Packaging",
+     "published": "20260827",
+     "version": "2",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:interaction\\ flucloxacillin)"
+  },
+  "R123": {
+   "status": "unknown",
+   "labels": [
+    {
+     "search": "lenvatinib",
+     "status": "unknown",
+     "note": "no openFDA label for this name (auto row, not checked further)"
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:adrenal\\ insufficiency)"
+  },
+  "R124": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "yervoy",
+     "setid": "2265ef30-253e-11df-8a39-0800200c9a66",
+     "title": "YERVOY (IPILIMUMAB) E.R. Squibb & Sons, L.L.C.",
+     "published": "20260820",
+     "version": "47",
+     "status": "not found",
+     "hits": []
+    },
+    {
+     "search": "opdivo",
+     "setid": "f570b9c4-6846-4de2-abfa-4d0a4ae4e394",
+     "title": "OPDIVO (NIVOLUMAB) E.R. Squibb & Sons, L.L.C.",
+     "published": "20260812",
+     "version": "68",
+     "status": "not found",
+     "hits": []
+    },
+    {
+     "search": "keytruda",
+     "setid": "097d166f-b73b-41d3-9b37-7653cd2a0c41",
+     "title": "KEYTRUDA QLEX (PEMBROLIZUMAB AND BERAHYALURONIDASE ALFA-PMPH) Merck Sharp & Dohme LLC",
+     "published": "20260731",
+     "version": "18",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:capillary leak)"
+  },
+  "R125": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "tofacitinib",
+     "setid": "253635c8-1ea7-41ba-b216-dea5e3305c47",
+     "title": "Tofacitinib (TOFACITINIB) Novadoz Pharmaceuticals LLC",
+     "published": "20260901",
+     "version": "3",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:acnes)"
+  },
+  "R126": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "olaparib",
+     "setid": "741ff3e3-dc1a-45a6-84e5-2481b27131aa",
+     "title": "Lynparza (OLAPARIB) AstraZeneca Pharmaceuticals LP",
+     "published": "20250710",
+     "version": "38",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:hepatocellular\\ damage)"
+  },
+  "R127": {
+   "status": "written",
+   "labels": [
+    {
+     "search": "acetazolamide",
+     "setid": "4813b9dd-5f58-44bb-ad64-cdb331828080",
+     "title": "Acetazolamide (ACETAZOLAMIDE) Strides Pharma Science Limited",
+     "published": "20260819",
+     "version": "12",
+     "status": "written",
+     "hits": [
+      {
+       "section": "precautions",
+       "snippet": "junction with other diuretics in order to secure diuresis in complete refractory failure. Choroidal effusion and choroidal detachment have been reported after the use of acetazolamide in the post-op"
+      },
+      {
+       "section": "adverse_reactions",
+       "snippet": "drome, toxic epidermal necrolysis Otologic: Hearing disturbances, tinnitus Eye Disorders: choroidal effusion, choroidal detachment, transient myopia. Transient myopia is the result of forward moveme"
+      }
+     ]
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:choroidal effusion|choroidal detachment)"
+  },
+  "R128": {
+   "status": "partial",
+   "labels": [
+    {
+     "search": "vidaza",
+     "setid": "3495a71a-cc04-4776-851f-f185956f32af",
+     "title": "VIDAZA (AZACITIDINE) Celgene Corporation",
+     "published": "20240129",
+     "version": "22",
+     "status": "partial",
+     "hits": [
+      {
+       "section": "adverse_reactions",
+       "snippet": "fatal cases) ‑ Differentiation syndrome ‑ Pericardial effusion ‑ Pericarditis ‑ Cutaneous vasculitis"
+      }
+     ]
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:vasculitis)"
+  },
+  "R129": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "dapagliflozin",
+     "setid": "05c3cf00-8c2a-4227-958a-fa5db34512b0",
+     "title": "DAPAGLIFLOZIN (DAPAGLIFLOZIN) Bryant Ranch Prepack",
+     "published": "20260908",
+     "version": "1",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:acquired\\ phimosis)"
+  },
+  "R130": {
+   "status": "written",
+   "labels": [
+    {
+     "search": "yescarta",
+     "setid": "9b70606e-b99c-4272-a0f1-b5523cce0c59",
+     "title": "YESCARTA (AXICABTAGENE CILOLEUCEL) Kite Pharma, Inc.",
+     "published": "20260806",
+     "version": "23",
+     "status": "written",
+     "hits": [
+      {
+       "section": "warnings_and_cautions",
+       "snippet": "ons) and viral reactivation (e.g., human herpes virus-6 [HHV-6] encephalitis and JC virus progressive multifocal leukoencephalopathy [PML]) have been reported. The possibility of HHV-6 encephalitis and PML should be consid"
+      }
+     ]
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:progressive multifocal leukoencephalopathy)|\\bPML\\b"
+  },
+  "R131": {
+   "status": "partial",
+   "labels": [
+    {
+     "search": "dabrafenib",
+     "setid": "fee1e6b1-e1a5-4254-9f2e-a70e0f8dbdea",
+     "title": "Tafinlar (DABRAFENIB) Novartis Pharmaceuticals Corporation",
+     "published": "20260520",
+     "version": "37",
+     "status": "partial",
+     "hits": [
+      {
+       "section": "adverse_reactions",
+       "snippet": " Pancreatitis Immune System: Hypersensitivity manifesting as bullous rash Nervous System: Peripheral neuropathy Renal and Urinary: Interstitial nephritis Skin and Subcutaneous Tissue: Photosensitivity "
+      }
+     ]
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:peripheral\\ neuropathy)"
+  },
+  "R132": {
+   "status": "written",
+   "labels": [
+    {
+     "search": "esbriet",
+     "setid": "2e8c3537-36d7-4de5-9b5c-7a624b9a9e6e",
+     "title": "ESBRIET (PIRFENIDONE) Genentech, Inc.",
+     "published": "20251205",
+     "version": "21",
+     "status": "written",
+     "hits": [
+      {
+       "section": "warnings_and_cautions",
+       "snippet": "c epidermal necrolysis (TEN), and drug reactions with eosinophilia and systemic symptoms (DRESS) have been reported in association with the use of ESBRIET in the postmarketing setting. "
+      }
+     ]
+    }
+   ],
+   "auto": false,
+   "pattern": "\\bDRESS\\b|(?i:drug reaction with eosinophilia|multi-?organ hypersensitivity)"
+  },
+  "R133": {
+   "status": "partial",
+   "labels": [
+    {
+     "search": "amphotericin b",
+     "setid": "02aadef1-390b-4270-b56d-33452eb89dde",
+     "title": "Amphotericin B (AMPHOTERICIN B) Sun Pharmaceutical Industries, Inc.",
+     "published": "20260420",
+     "version": "3",
+     "status": "partial",
+     "hits": [
+      {
+       "section": "adverse_reactions",
+       "snippet": "cytopenia. Metabolic & Nutritional Disorders Acidosis, amylase increased, hyperchloremia, hyperkalemia, hypermagnesemia, hyperphosphatemia, hyponatremia, hypophosphatemia, hypoproteinemia, lac"
+      }
+     ]
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:hyperkalemia)"
+  },
+  "R134": {
+   "status": "written",
+   "labels": [
+    {
+     "search": "avatrombopag",
+     "setid": "e2d5960d-6c18-46cc-86bd-089222b09852",
+     "title": "Doptelet Sprinkle (AVATROMBOPAG) AkaRx, Inc.",
+     "published": "20250813",
+     "version": "21",
+     "status": "written",
+     "hits": [
+      {
+       "section": "warnings_and_cautions",
+       "snippet": "A, Antithrombin deficiency or Protein C or S deficiency) and acquired risk factors (e.g., antiphospholipid syndrome). DOPTELET should not be administered to patients with chronic liver disease or immune th"
+      }
+     ]
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:antiphospholipid\\ syndrome)"
+  },
+  "R135": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "cefotaxime",
+     "setid": "ed23b6bc-32c7-4c50-a53d-313ae78e5623",
+     "title": "Cefotaxime (CEFOTAXIME) Hikma Pharmaceuticals USA Inc.",
+     "published": "20240411",
+     "version": "14",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": false,
+   "pattern": "\\bDRESS\\b|(?i:drug reaction with eosinophilia|multi-?organ hypersensitivity)"
+  },
+  "R136": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "cobimetinib",
+     "setid": "c387579e-cee0-4334-bd1e-73f93ac1bde6",
+     "title": "Cotellic (COBIMETINIB) Genentech, Inc.",
+     "published": "20260729",
+     "version": "24",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:aphthous\\ ulcer)"
+  },
+  "R137": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "verzenio",
+     "setid": "be4bc0de-0fdc-4d46-8d25-be43c79e6a06",
+     "title": "VERZENIO (ABEMACICLIB) TABLET [ELI LILLY AND COMPANY] () ",
+     "published": "Oct 01, 2026",
+     "version": 31,
+     "status": "not found",
+     "hits": []
+    },
+    {
+     "search": "ibrance",
+     "setid": "89a142d5-7e61-48bf-9e77-e2cd124c4792",
+     "title": "Ibrance (PALBOCICLIB) U.S. Pharmaceuticals",
+     "published": "20260706",
+     "version": "11",
+     "status": "not found",
+     "hits": []
+    },
+    {
+     "search": "kisqali",
+     "setid": "aaeaef94-f3f5-4367-8ea2-b181d7be2da8",
+     "title": "KISQALI (RIBOCICLIB) Novartis Pharmaceuticals Corporation",
+     "published": "20260701",
+     "version": "28",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:erythema multiforme)"
+  },
+  "R138": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "adagrasib",
+     "setid": "0b8bf078-34c2-4f45-9012-38a8ac082b01",
+     "title": "KRAZATI (ADAGRASIB) Mirati Therapeutics, Inc",
+     "published": "20260325",
+     "version": "13",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:serious\\ cutaneous)"
+  },
+  "R139": {
+   "status": "unknown",
+   "labels": [
+    {
+     "search": "atezolizumab",
+     "status": "unknown",
+     "note": "no openFDA label for this name (auto row, not checked further)"
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:coeliac\\ disease)"
+  },
+  "R140": {
+   "status": "unknown",
+   "labels": [
+    {
+     "search": "atezolizumab",
+     "status": "unknown",
+     "note": "no openFDA label for this name (auto row, not checked further)"
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:pancreatic\\ failure)"
+  },
+  "R141": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "chlorhexidine",
+     "setid": "583986f1-1cce-21c3-e063-6394a90aed1f",
+     "title": "Chlorhexidine Gluconate Oral Rinse (CHLORHEXIDINE GLUCONATE ORAL RINSE) Atlantic Biologica",
+     "published": "20260910",
+     "version": "3",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:persistent\\ corneal)"
+  },
+  "R142": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "ethambutol",
+     "setid": "c12b3482-55f0-4324-bdcd-b129ca2dae73",
+     "title": "Ethambutol Hydrochloride (ETHAMBUTOL HYDROCHLORIDE) REMEDYREPACK INC.",
+     "published": "20260731",
+     "version": "13",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": false,
+   "pattern": "\\bDRESS\\b|(?i:drug reaction with eosinophilia|multi-?organ hypersensitivity)"
+  },
+  "R143": {
+   "status": "unknown",
+   "labels": [
+    {
+     "search": "baricitinib",
+     "status": "unknown",
+     "note": "no openFDA label for this name (auto row, not checked further)"
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:hypoglycemia\\ diabetic)"
+  },
+  "R144": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "dabrafenib",
+     "setid": "fee1e6b1-e1a5-4254-9f2e-a70e0f8dbdea",
+     "title": "Tafinlar (DABRAFENIB) Novartis Pharmaceuticals Corporation",
+     "published": "20260520",
+     "version": "37",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:acute\\ febrile)"
+  },
+  "R145": {
+   "status": "unknown",
+   "labels": [
+    {
+     "search": "manidipine",
+     "status": "unknown",
+     "note": "no openFDA label for this name (auto row, not checked further)"
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:ascites)"
+  },
+  "R146": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "propofol",
+     "setid": "9ba70032-40c2-41c5-9f99-d1f94032d3dc",
+     "title": "Propofol (PROPOFOL) Civica, Inc",
+     "published": "20260918",
+     "version": "8",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:hepatic\\ failure)"
+  },
+  "R147": {
+   "status": "written",
+   "labels": [
+    {
+     "search": "axicabtagene ciloleucel",
+     "setid": "9b70606e-b99c-4272-a0f1-b5523cce0c59",
+     "title": "YESCARTA (AXICABTAGENE CILOLEUCEL) Kite Pharma, Inc.",
+     "published": "20260806",
+     "version": "23",
+     "status": "written",
+     "hits": [
+      {
+       "section": "warnings_and_cautions",
+       "snippet": "dified autologous T cell immunotherapies, including YESCARTA ( 5.7 ). In the event that a secondary malignancy occurs after treatment with YESCARTA, contact Kite at 1-844-454-KITE (5483). ( 5.7 ) 5.1 "
+      },
+      {
+       "section": "information_for_patients",
+       "snippet": "oring of blood counts. Contact Kite at 1-844-454-KITE (5483) if they are diagnosed with a secondary malignancy [see Warnings and Precautions (5.7) ] ."
+      }
+     ]
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:secondary\\ malignancy)"
+  },
+  "R148": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "acetazolamide",
+     "setid": "4813b9dd-5f58-44bb-ad64-cdb331828080",
+     "title": "Acetazolamide (ACETAZOLAMIDE) Strides Pharma Science Limited",
+     "published": "20260819",
+     "version": "12",
+     "status": "written",
+     "hits": [
+      {
+       "section": "precautions",
+       "snippet": "eed for prompt descent if severe forms of high altitude sickness occur, ie, high altitude pulmonary edema (HAPE) or high altitude cerebral edema. Caution is advised for patients receiving concomi"
+      },
+      {
+       "section": "adverse_reactions",
+       "snippet": "onship to drug exposure. Respiratory, thoracic and mediastinal disorders: Non-cardiogenic pulmonary edema has been reported following cataract surgery. To report SUSPECTED ADVERSE REACTIONS, cont"
+      },
+      {
+       "section": "information_for_patients",
+       "snippet": "eed for prompt descent if severe forms of high altitude sickness occur, ie, high altitude pulmonary edema (HAPE) or high altitude cerebral edema. Caution is advised for patients receiving concomi"
+      }
+     ]
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:pulmonary edema)",
+   "note": "override: only hit is high-altitude pulmonary edema as a disease context, not a drug-induced reaction"
+  },
+  "R149": {
+   "status": "partial",
+   "labels": [
+    {
+     "search": "bumetanide",
+     "setid": "0fb78afc-d8bc-4ae8-8c0a-6d9c6f7a22c5",
+     "title": "Bumetanide (BUMETANIDE) REMEDYREPACK INC.",
+     "published": "20260909",
+     "version": "2",
+     "status": "partial",
+     "hits": [
+      {
+       "section": "adverse_reactions",
+       "snippet": "patients treated with bumetanide. Serious skin reactions (i.e., Stevens-Johnson syndrome, toxic epidermal necrolysis) have been reported in association with bumetanide use. Less frequent clinical adverse re"
+      }
+     ]
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:toxic epidermal necrolysis)"
+  },
+  "R150": {
+   "status": "written",
+   "labels": [
+    {
+     "search": "glofitamab",
+     "setid": "3516e753-f064-4d30-9bd5-e3f2e143f75d",
+     "title": "Columvi (GLOFITAMAB) Genentech, Inc.",
+     "published": "20260625",
+     "version": "9",
+     "status": "written",
+     "hits": [
+      {
+       "section": "warnings_and_cautions",
+       "snippet": "GS AND PRECAUTIONS Neurologic Toxicity : Can cause serious neurologic toxicity, including Immune Effector Cell-Associated Neurotoxicity Syndrome (ICANS). Monitor for neurologic toxicity; withhold"
+      }
+     ]
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:immune\\ effector)"
+  },
+  "R151": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "dulaglutide",
+     "setid": "463050bd-2b1c-40f5-b3c3-0a04bb433309",
+     "title": "Trulicity (DULAGLUTIDE) Eli Lilly and Company",
+     "published": "20260616",
+     "version": "62",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:aspiration\\ pneumonia)"
+  },
+  "R152": {
+   "status": "unknown",
+   "labels": [
+    {
+     "search": "human papillomavirus 9-valent vaccine",
+     "status": "unknown",
+     "note": "no openFDA label for this name (auto row, not checked further)"
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:granuloma)"
+  },
+  "R153": {
+   "status": "written",
+   "labels": [
+    {
+     "search": "depo-provera",
+     "setid": "199cf13e-0859-4a73-9b45-e700d0cd1049",
+     "title": "Depo-Provera (MEDROXYPROGESTERONE ACETATE) Pharmacia & Upjohn Company LLC",
+     "published": "20260825",
+     "version": "29",
+     "status": "written",
+     "hits": [
+      {
+       "section": "warnings_and_cautions",
+       "snippet": "r Risks: Monitor women with a strong family history of breast cancer carefully. ( 5.3 ) • Meningioma: Discontinue Depo-Provera CI if meningioma is diagnosed. Monitor patients for signs and s"
+      },
+      {
+       "section": "spl_patient_package_insert",
+       "snippet": "g from your nipples • have or have ever had a type of usually benign brain tumor called a meningioma • kidney problems • high blood pressure • had a stroke • had blood clots in your arms, le"
+      },
+      {
+       "section": "information_for_patients",
+       "snippet": "po-Provera CI [see Warnings and Precautions (5.3) ]. • Counsel patients with a history of meningioma about the possible risk of worsening meningioma [see Warnings and Precautions (5.4) ] . •"
+      }
+     ]
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:meningioma)"
+  },
+  "R154": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "amlodipine",
+     "setid": "27b0c628-820a-48bf-a411-86c0ebd4cc8d",
+     "title": "Amlodipine and Benazepril Hydrochloride (AMLODIPINE AND BENAZEPRIL HYDROCHLORIDE) Heritage",
+     "published": "20261006",
+     "version": "7",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:intestinal\\ angiedema)"
+  },
+  "R155": {
+   "status": "unknown",
+   "labels": [
+    {
+     "search": "paracetamol",
+     "status": "unknown",
+     "note": "no openFDA label for this name (auto row, not checked further)"
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:high\\ anion)"
+  },
+  "R156": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "azathioprine",
+     "setid": "5116b22b-1460-5535-e063-6394a90acbe5",
+     "title": "Azathioprine (AZATHIOPRINE) NuCare Pharmaceuticals,Inc.",
+     "published": "20260505",
+     "version": "1",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:non\\-cirrhotic\\ portal)"
+  },
+  "R157": {
+   "status": "written",
+   "labels": [
+    {
+     "search": "inomax",
+     "setid": "762b51be-1893-4cd1-9511-e645fc420d3a",
+     "title": "INOMAX (NITRIC OXIDE) INO Therapeutics LLC",
+     "published": "20251212",
+     "version": "19",
+     "status": "written",
+     "hits": [
+      {
+       "section": "warnings_and_cautions",
+       "snippet": "entricular dysfunction, INOmax may increase pulmonary capillary wedge pressure leading to pulmonary edema ( 5.4 ). 5.1 Rebound Pulmonary Hypertension Syndrome following Abrupt Discontinuation Wea"
+      }
+     ]
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:pulmonary edema)"
+  },
+  "R158": {
+   "status": "unknown",
+   "labels": [
+    {
+     "search": "risperidone oral solution",
+     "status": "unknown",
+     "note": "no openFDA label for this name (auto row, not checked further)"
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:medication\\ errors)"
+  },
+  "R159": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "afatinib",
+     "setid": "ec5b9e00-3eab-4dbd-9bb3-75865b1af485",
+     "title": "Afatinib (AFATINIB) Camber Pharmaceuticals, Inc.",
+     "published": "20260903",
+     "version": "1",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:growth\\ eyelashes)"
+  },
+  "R160": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "lenvima",
+     "setid": "f4bedd21-efde-44c6-9d9c-b48b78d7ed1e",
+     "title": "LENVIMA (LENVATINIB) CAPSULE LENVIMA (LENVATINIB) KIT [EISAI () ",
+     "published": "Oct 08, 2026",
+     "version": 81,
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:tumor lysis)"
+  },
+  "R161": {
+   "status": "partial",
+   "labels": [
+    {
+     "search": "poteligeo",
+     "setid": "e53960ab-42a1-40d1-9c7d-eb013fe7f18f",
+     "title": "POTELIGEO (MOGAMULIZUMAB-KPKC) INJECTION [KYOWA KIRIN, INC.] () ",
+     "published": "Oct 05, 2026",
+     "version": 21,
+     "status": "partial",
+     "hits": [
+      {
+       "section": "adverse_reactions",
+       "snippet": "blish a causal relationship to drug exposure. Gastrointestinal disorders: Immune-mediated colitis Infections: Hepatitis B virus reactivation Cardiac disorders: Stress cardiomyopathy Skin "
+      }
+     ]
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:\\bcolitis)"
+  },
+  "R162": {
+   "status": "not marketed",
+   "note": "tegafur/gimeracil/oteracil not approved in the US",
+   "labels": [],
+   "auto": false,
+   "pattern": "(?i:hyperammon)"
+  },
+  "R163": {
+   "status": "unknown",
+   "labels": [
+    {
+     "search": "oxytetracycline hydrochloride",
+     "status": "unknown",
+     "note": "no openFDA label for this name (auto row, not checked further)"
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:hearing\\ vestibular)"
+  },
+  "R164": {
+   "status": "written",
+   "labels": [
+    {
+     "search": "stivarga",
+     "setid": "824f19c9-0546-4a8a-8d8f-c4055c04f7c7",
+     "title": "Stivarga (REGORAFENIB) Bayer HealthCare Pharmaceuticals Inc.",
+     "published": "20260209",
+     "version": "36",
+     "status": "written",
+     "hits": [
+      {
+       "section": "warnings_and_cautions",
+       "snippet": "ths of therapy and was characterized by a hepatocellular pattern of injury. Additionally, hyperammonemic encephalopathy, including fatal cases, have been reported in the postmarketing settin"
+      }
+     ]
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:hyperammon)"
+  },
+  "R165": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "sertraline",
+     "setid": "7d598f1a-6c76-458a-a155-7a6a0743a2d3",
+     "title": "Sertraline Hydrochloride (SERTRALINE HYDROCHLORIDE) REMEDYREPACK INC.",
+     "published": "20260903",
+     "version": "3",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:multiple\\ acyl\\-coenzyme)"
+  },
+  "R166": {
+   "status": "written",
+   "labels": [
+    {
+     "search": "sulfamethoxazole",
+     "setid": "c6171b62-835c-465e-905e-97f70438186e",
+     "title": "Sulfamethoxazole and Trimethoprim (SULFAMETHOXAZOLE AND TRIMETHOPRIM) Preferred Pharmaceut",
+     "published": "20260902",
+     "version": "3",
+     "status": "written",
+     "hits": [
+      {
+       "section": "warnings",
+       "snippet": "plastic anemia and other blood dyscrasias; acute and delayed lung injury; anaphylaxis and circulatory shock have occurred with the administration of sulfamethoxazole and trimethoprim products, incl"
+      },
+      {
+       "section": "adverse_reactions",
+       "snippet": "plastic anemia and other blood dyscrasias; acute and delayed lung injury; anaphylaxis and circulatory shock have occurred with the administration of sulfamethoxazole and trimethoprim products, incl"
+      }
+     ]
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:circulatory\\ shock)"
+  },
+  "R167": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "axicabtagene ciloleucel",
+     "setid": "9b70606e-b99c-4272-a0f1-b5523cce0c59",
+     "title": "YESCARTA (AXICABTAGENE CILOLEUCEL) Kite Pharma, Inc.",
+     "published": "20260806",
+     "version": "23",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:immune\\-mediated\\ enterocolitis)"
+  },
+  "R168": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "brodalumab",
+     "setid": "1a550c33-456a-4833-814e-8591aea7c688",
+     "title": "Siliq (BRODALUMAB) Bausch Health US LLC",
+     "published": "20260528",
+     "version": "24",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:pyoderma\\ gangrenosum)"
+  },
+  "R169": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "enzalutamide",
+     "setid": "b129fdc9-1d8e-425c-a5a9-8a2ed36dfbdf",
+     "title": "Xtandi (ENZALUTAMIDE) Astellas Pharma US, Inc.",
+     "published": "20260728",
+     "version": "24",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:laboratory\\ test)"
+  },
+  "R170": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "vortioxetine",
+     "setid": "239215eb-be32-4286-9677-1e5556c6cccf",
+     "title": "Trintellix (VORTIOXETINE) REMEDYREPACK INC.",
+     "published": "20260423",
+     "version": "4",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:hallucinations\\ not)"
+  },
+  "R171": {
+   "status": "written",
+   "labels": [
+    {
+     "search": "carvykti",
+     "setid": "7d040b91-3fb8-41db-ba7f-60a36f06e2c2",
+     "title": "CARVYKTI (CILTACABTAGENE AUTOLEUCEL) Janssen Biotech, Inc.",
+     "published": "20251016",
+     "version": "19",
+     "status": "written",
+     "hits": [
+      {
+       "section": "warnings_and_cautions",
+       "snippet": "onal guidelines/clinical practice. Reactivation of John Cunningham (JC) virus, leading to progressive multifocal leukoencephalopathy (PML), including cases with fatal outcomes, have been reported following treatment with C"
+      },
+      {
+       "section": "adverse_reactions",
+       "snippet": "ders: infusion related reactions. Infections and infestations: John Cunningham (JC) virus progressive multifocal leukoencephalopathy (including fatal cases) [see Warnings and Precautions (5.6) ]."
+      }
+     ]
+    },
+    {
+     "search": "abecma",
+     "setid": "b90c1fe7-f5cc-464e-958a-af36e9c26d7c",
+     "title": "Abecma (IDECABTAGENE VICLEUCEL) Celgene Corporation",
+     "published": "20251125",
+     "version": "20",
+     "status": "not found",
+     "hits": []
+    },
+    {
+     "search": "kymriah",
+     "setid": "aad3ba54-dfd3-4cb3-9e2b-c5ef89559189",
+     "title": "KYMRIAH (TISAGENLECLEUCEL) Novartis Pharmaceuticals Corporation",
+     "published": "20251216",
+     "version": "18",
+     "status": "written",
+     "hits": [
+      {
+       "section": "warnings_and_cautions",
+       "snippet": "ppressed patients, opportunistic fatal infections of the central nervous system including progressive multifocal leukoencephalopathy due to John Cunningham virus reactivation have occurred after KYMRIAH administration [see"
+      },
+      {
+       "section": "adverse_reactions",
+       "snippet": "L in Study 3 (N = 97) a Includes multiple related composite terms. b Includes one case of progressive multifocal leukoencephalopathy due to John Cunningham virus reactivation. Adverse reaction All Grades (%) Grades 3 or hi"
+      }
+     ]
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:progressive multifocal leukoencephalopathy)|\\bPML\\b"
+  },
+  "R172": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "clozapine",
+     "setid": "61fe53d5-ed5c-4e45-9189-709d08d386cb",
+     "title": "CLOZAPINE (CLOZAPINE) NorthStar Rx LLC",
+     "published": "20260511",
+     "version": "1",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:neutropenia\\ agranulocytosis)"
+  },
+  "R173": {
+   "status": "unknown",
+   "labels": [
+    {
+     "search": "varicella vaccine",
+     "status": "unknown",
+     "note": "no openFDA label for this name (auto row, not checked further)"
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:encephalitis)"
+  },
+  "R174": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "binimetinib",
+     "setid": "6c3408ac-d401-4925-8a03-26591afbc240",
+     "title": "MEKTOVI (BINIMETINIB) Array BioPharma Inc.",
+     "published": "20250320",
+     "version": "12",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:tattoo\\ associated)"
+  },
+  "R175": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "diazoxide",
+     "setid": "abe317a5-6c63-469c-89c8-9fedfe859c3d",
+     "title": "Diazoxide (DIAZOXIDE) Par Health USA, LLC",
+     "published": "20260807",
+     "version": "8",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:necrotising\\ enterocolitis)"
+  },
+  "R176": {
+   "status": "unknown",
+   "labels": [
+    {
+     "search": "dinutuximab beta",
+     "status": "unknown",
+     "note": "no openFDA label for this name (auto row, not checked further)"
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:atypical\\ hemolytic)"
+  },
+  "R177": {
+   "status": "unknown",
+   "labels": [
+    {
+     "search": "osimertinib",
+     "status": "unknown",
+     "note": "no openFDA label for this name (auto row, not checked further)"
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:hepatitis\\ reactivation)"
+  },
+  "R178": {
+   "status": "written",
+   "labels": [
+    {
+     "search": "somatrogon",
+     "setid": "06dce529-b741-4a1b-8842-3ad77be6e308",
+     "title": "Ngenla (SOMATROGON-GHLA) Pfizer Laboratories Div Pfizer Inc",
+     "published": "20260814",
+     "version": "14",
+     "status": "written",
+     "hits": [
+      {
+       "section": "warnings_and_cautions",
+       "snippet": "tis : Consider pancreatitis in patients with persistent severe abdominal pain ( 5.11 ). • Lipoatrophy: May occur if NGENLA is administered in the same location over a long period of time. Rot"
+      },
+      {
+       "section": "adverse_reactions",
+       "snippet": "Warnings and Precautions (5.10) ] • Pancreatitis [see Warnings and Precautions (5.11) ] • Lipoatrophy [see Warnings and Precautions (5.12) ] • Sudden death in pediatric patients with Prader-W"
+      },
+      {
+       "section": "information_for_patients",
+       "snippet": " to report to their healthcare provider any new onset persistent severe abdominal pain. • Lipoatrophy Advise patients and caregivers that lipoatrophy may occur if NGENLA is administered subcu"
+      }
+     ]
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:lipoatrophy)"
+  },
+  "R179": {
+   "status": "partial",
+   "labels": [
+    {
+     "search": "bosulif",
+     "setid": "d5929f91-6496-4c0e-97e8-0bd524e15763",
+     "title": "BOSULIF (BOSUTINIB) U.S. Pharmaceuticals",
+     "published": "20260528",
+     "version": "6",
+     "status": "partial",
+     "hits": [
+      {
+       "section": "adverse_reactions",
+       "snippet": " Skin and Subcutaneous Disorders : 0.1% and less than 1% - Erythema multiforme, Cutaneous vasculitis 6.2 Postmarketing Experience The following additional adverse reactions have been identif"
+      }
+     ]
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:vasculitis)"
+  },
+  "R180": {
+   "status": "partial",
+   "labels": [
+    {
+     "search": "datroway",
+     "setid": "2950227c-6230-4ca4-a135-46e44d9424a0",
+     "title": "DATROWAY (DATOPOTAMAB DERUXTECAN) Daiichi Sankyo Inc.",
+     "published": "20260527",
+     "version": "18",
+     "status": "partial",
+     "hits": [
+      {
+       "section": "adverse_reactions",
+       "snippet": "g in <10% of patients who received DATROWAY included infusion-related reactions including anaphylactic reaction, diarrhea, conjunctivitis, lacrimation increased, dry mouth, dry skin, pruri"
+      }
+     ]
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:anaphyla)"
+  },
+  "R181": {
+   "status": "partial",
+   "labels": [
+    {
+     "search": "epcoritamab",
+     "setid": "d7836711-b677-412d-bf2d-0f7c8444103a",
+     "title": "EPKINLY (EPCORITAMAB-BYSP) Genmab US, Inc.",
+     "published": "20260622",
+     "version": "11",
+     "status": "partial",
+     "hits": [
+      {
+       "section": "adverse_reactions",
+       "snippet": "lowing adverse reactions have been reported following administration of epcoritamab-bysp: hypogammaglobulinemia. 6.2 Postmarketing Experience The following adverse reaction has been identified during p"
+      }
+     ]
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:hypogammaglobulinemia)"
+  },
+  "R182": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "cefazolin",
+     "setid": "1dc9de56-e259-4546-a1db-23119a8a088e",
+     "title": "Cefazolin (CEFAZOLIN) Hikma Pharmaceuticals USA Inc.",
+     "published": "20260514",
+     "version": "13",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:kounis\\ syndrome)"
+  },
+  "R183": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "erdafitinib",
+     "setid": "2a8aa5c0-6c92-4566-8c45-e8f4d1fc20ee",
+     "title": "BALVERSA (ERDAFITINIB) Janssen Products LP",
+     "published": "20251024",
+     "version": "14",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:growth\\ accelerated)"
+  },
+  "R184": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "doxil",
+     "setid": "917eddf9-1d3f-4abe-8c81-d33b066e5bae",
+     "title": "DOXIL (DOXORUBICIN HYDROCHLORIDE) Baxter Healthcare Corporation",
+     "published": "20260310",
+     "version": "5",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:thrombotic microangiopathy|hemolytic uremic syndrome)"
+  },
+  "R185": {
+   "status": "unknown",
+   "labels": [
+    {
+     "search": "chikungunya vaccine",
+     "status": "unknown",
+     "note": "no openFDA label for this name (auto row, not checked further)"
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:aseptic\\ meningitis)"
+  },
+  "R186": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "galantamine",
+     "setid": "261889d3-41c8-4655-98f7-41317778e7a1",
+     "title": "Galantamine (GALANTAMINE) Bryant Ranch Prepack",
+     "published": "20260702",
+     "version": "2",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:nightmares)"
+  },
+  "R187": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "axicabtagene ciloleucel",
+     "setid": "9b70606e-b99c-4272-a0f1-b5523cce0c59",
+     "title": "YESCARTA (AXICABTAGENE CILOLEUCEL) Kite Pharma, Inc.",
+     "published": "20260806",
+     "version": "23",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:increased\\ brain)"
+  },
+  "R188": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "ponatinib",
+     "setid": "16d804b6-4957-43ee-b18c-3b36ec37c5ac",
+     "title": "Iclusig (PONATINIB HYDROCHLORIDE) Takeda Pharmaceuticals America, Inc.",
+     "published": "20260814",
+     "version": "20",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:congenital\\ megacolon)"
+  },
+  "R189": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "pancreatin",
+     "setid": "212f5059-da04-595d-e063-6394a90acc64",
+     "title": "FESTAL PLUS (CELLULASE AP3 , PANCREATIN, SIMETHICONE) Lydia Co., Ltd.",
+     "published": "20240903",
+     "version": "2",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:infection\\ viral)"
+  },
+  "R190": {
+   "status": "unknown",
+   "labels": [
+    {
+     "search": "darolutamide",
+     "status": "unknown",
+     "note": "no openFDA label for this name (auto row, not checked further)"
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:angiedema)"
+  },
+  "R191": {
+   "status": "written",
+   "labels": [
+    {
+     "search": "gemcitabine",
+     "setid": "dc02a23b-3ff9-4441-aa91-8e9e629a7315",
+     "title": "Gemcitabine (GEMCITABINE) Hospira, Inc.",
+     "published": "20260427",
+     "version": "28",
+     "status": "written",
+     "hits": [
+      {
+       "section": "warnings_and_cautions",
+       "snippet": "SCARs) SCARs, including Stevens-Johnson syndrome (SJS), toxic epidermal necrolysis (TEN), drug reaction with eosinophilia and systemic symptoms (DRESS), and acute generalized exanthematous pustulosis (AGEP), whi"
+      },
+      {
+       "section": "adverse_reactions",
+       "snippet": "ions (SCARs), including Stevens-Johnson syndrome (SJS), toxic epidermal necrolysis (TEN), drug reaction with eosinophilia and systemic symptoms (DRESS), and acute generalized exanthematous pustulosis (AGEP); des"
+      },
+      {
+       "section": "information_for_patients",
+       "snippet": "sks of SCARs, including Stevens-Johnson syndrome (SJS), toxic epidermal necrolysis (TEN), drug reaction with eosinophilia and systemic symptoms (DRESS), and acute generalized exanthematous pustulosis (AGEP). Ins"
+      }
+     ]
+    }
+   ],
+   "auto": false,
+   "pattern": "\\bDRESS\\b|(?i:drug reaction with eosinophilia|multi-?organ hypersensitivity)"
+  },
+  "R192": {
+   "status": "written",
+   "labels": [
+    {
+     "search": "valproate",
+     "setid": "8d5fc1c1-d3c0-497e-971b-6c4dba9a3fad",
+     "title": "Valproate Sodium (VALPROATE SODIUM) Sagent Pharmaceuticals",
+     "published": "20260312",
+     "version": "3",
+     "status": "written",
+     "hits": [
+      {
+       "section": "boxed_warning",
+       "snippet": "be defects (e.g., spina bifida). In addition, valproate can cause decreased IQ scores and neurodevelopmental disorders following in utero exposure. Valproate is therefore contraindicated for prophylaxis of mi"
+      },
+      {
+       "section": "warnings_and_cautions",
+       "snippet": "h risk populations and monitor serum liver tests ( 5.1 ) Birth defects, decreased IQ, and neurodevelopmental disorders following in utero exposure; should not be used to treat women with epilepsy or bipolar d"
+      },
+      {
+       "section": "adverse_reactions",
+       "snippet": "recautions ( 5.1 )] Birth defects [see Warnings and Precautions ( 5.2 )] Decreased IQ and Neurodevelopmental Disorders following in utero exposure [see Warnings and Precautions ( 5.3 )] Pancreatitis [see Warn"
+      }
+     ]
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:neurodevelopmental\\ disorders)"
+  },
+  "R193": {
+   "status": "unknown",
+   "labels": [
+    {
+     "search": "iobitridol",
+     "status": "unknown",
+     "note": "no openFDA label for this name (auto row, not checked further)"
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:fixed\\ eruption)"
+  },
+  "R194": {
+   "status": "partial",
+   "labels": [
+    {
+     "search": "zolbetuximab",
+     "setid": "e7695a21-abb6-47ac-93f8-0ece5a9c4409",
+     "title": "VYLOY (ZOLBETUXIMAB) Astellas Pharma US, Inc.",
+     "published": "20260811",
+     "version": "5",
+     "status": "partial",
+     "hits": [
+      {
+       "section": "adverse_reactions",
+       "snippet": " establish a causal relationship to drug exposure. Gastrointestinal Disorders: gastritis, protein-losing gastroenteropathy"
+      }
+     ]
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:protein\\-losing\\ gastroenteropathy)"
+  },
+  "R195": {
+   "status": "not found",
+   "labels": [
+    {
+     "search": "nexplanon",
+     "setid": "487f8a62-e142-457c-97cc-2e398fde7594",
+     "title": "Nexplanon (ETONOGESTREL) Organon LLC",
+     "published": "20260528",
+     "version": "13",
+     "status": "not found",
+     "hits": []
+    }
+   ],
+   "auto": false,
+   "pattern": "(?i:meningioma)"
+  },
+  "R196": {
+   "status": "unknown",
+   "labels": [
+    {
+     "search": "levonorgestrel intrauterine device 13.5 mg",
+     "status": "unknown",
+     "note": "no openFDA label for this name (auto row, not checked further)"
+    }
+   ],
+   "auto": true,
+   "pattern": "(?i:increased\\ ectopic)"
+  },
+  "R197": {
+   "status": "partial",
+   "labels": [
+    {
+     "search": "oxacillin",
+     "setid": "d893e45b-7f18-4c67-b10c-1e2e52a6b3ef",
+     "title": "OXACILLIN (OXACILLIN) Baxter Healthcare Corporation",
+     "published": "20260831",
+     "version": "21",
+     "status": "partial",
+     "hits": [
+      {
+       "section": "adverse_reactions",
+       "snippet": "ls, has been associated with the use of oxacillin. Skin and Subcutaneous Tissue Disorders Drug reaction with eosinophilia and systemic symptoms (DRESS) has been identified during postapproval use of oxacillin."
+      }
+     ]
+    }
+   ],
+   "auto": false,
+   "pattern": "\\bDRESS\\b|(?i:drug reaction with eosinophilia|multi-?organ hypersensitivity)"
+  }
+ },
+ "aems": {
+  "DRESS": [
+   {
+    "page": "july-september-2023-potential-",
+    "row": "Elepsia XR (levetiracetam) Keppra (levetiracetam) Keppra XR (levetiracetam) Levetiracetam in Sodium Chloride Spritam (levetiracetam) | Drug reaction with eosinophilia and systemic symptoms | An FDA Drug Safety Communication was issued on November 28, 2023. The"
+   },
+   {
+    "page": "july-september-2023-potential-",
+    "row": "Gemcitabine Infugem (gemcitabine in sodium chloride injection) | Drug reaction with eosinophilia and systemic symptoms | Updated The “Dosage and Administration”, “Warnings and Precautions”, “Adverse Reactions”, and “Patient Counseling Information” sections of "
+   },
+   {
+    "page": "july-september-2023-potential-",
+    "row": "Onfi (clobazam) Sympazan (clobazam) | Drug reaction with eosinophilia and systemic symptoms | An FDA Drug Safety Communication was issued on November 28, 2023. The FDA is requiring applicants of these medicines to add new warnings about drug reaction with eosi"
+   }
+  ],
+  "HLH": [
+   {
+    "page": "july-september-2023-potential-",
+    "row": "Bactrim (sulfamethoxazole and trimethoprim) Bactrim DS (sulfamethoxazole and trimethoprim) Septra (sulfamethoxazole and trimethoprim) Septra DS (sulfamethoxazole and trimethoprim) Sulfatrim (sulfamethoxazole and trimethoprim) Sulfamethoxazole and Trimethoprim "
+   },
+   {
+    "page": "october-december-2023-potentia",
+    "row": "Braftovi (encorafenib) Zelboraf (vemurafenib) | Hemophagocytic lymphohistiocytosis | Updated FDA determined that no action was necessary at the time based on available information."
+   },
+   {
+    "page": "october-december-2024-new-safe",
+    "row": "Blincyto (blinatumomab) for injection Columvi (glofitamab-gxbm) injection Elrexfio (elranatamab-bcmm) injection Epkinly (epcoritamab-bysp) injection Imdelltra (tarlatamab-dlle) for injection Kimmtrak (tebentafusp-tebn) injection Talvey (talquetamab-tgvs) injec"
+   }
+  ],
+  "anaphylaxis": [
+   {
+    "page": "april-june-2023-potential-sign",
+    "row": "Acetadote (acetylcysteine) | Overdose | Updated The “Warnings and Precautions,” “Adverse Reactions,” and “Overdosage” sections of the Prescribing Information were updated in November 2024 to describe fatal outcomes associated with acetylcysteine overdosage, in"
+   },
+   {
+    "page": "april-june-2023-potential-sign",
+    "row": "Mounjaro (tirzepatide) | Hypersensitivity | The “Contraindications”, “Warnings and Precautions”, and “Postmarketing Experience” sections of the labeling were updated July 2023 to include serious hypersensitivity reactions, including anaphylaxis and angioedema."
+   },
+   {
+    "page": "april-june-2023-potential-sign",
+    "row": "Vyvgart (efgartigimod alfa-fcab) Vyvgart Hytrulo (efgartigimod alfa and hyaluronidase-qvfc) | Anaphylactic reaction | Updated The “Contraindications”, “Warnings and Precautions”, “Adverse Reactions”, and the \"Patient Counseling Information\" sections of the lab"
+   },
+   {
+    "page": "april-june-2024-new-safety-inf",
+    "row": "Copaxone (glatiramer acetate) | Anaphylactic reaction | FDA is evaluating the need for regulatory action."
+   },
+   {
+    "page": "april-june-2025-new-safety-inf",
+    "row": "Acetaminophen-containing products | Anaphylactic reaction | FDA is evaluating the need for regulatory action."
+   },
+   {
+    "page": "april-june-2025-new-safety-inf",
+    "row": "Barium sulfate-containing products Entero Vu 24% (barium sulfate) oral suspension E-Z-Disk (barium sulfate) tablets Liquid E-Z-Paque (barium sulfate) oral suspension Readi-Cat 2 (barium sulfate) oral suspension Readi-Cat 2 Smoothie (barium sulfate) oral suspen"
+   },
+   {
+    "page": "april-june-2025-new-safety-inf",
+    "row": "Nurtec ODT (rimegepant) orally disintegrating tablets Zavzpret (zavegepant) nasal spray | Anaphylactic reaction | The \"Contraindications\" and \"Warnings and Precautions\" sections of the labeling were updated in August 2025 to include information about hypersens"
+   },
+   {
+    "page": "april-june-2025-new-safety-inf",
+    "row": "Vizamyl (flutemetamol F18 injection) | Anaphylactic reaction | The \"Warnings and Precautions\" section of the labeling was updated in June 2025 to include information about anaphylaxis and other serious hypersensitivity reactions. Vizamyl labeling"
+   },
+   {
+    "page": "april-june-2026-new-safety-inf",
+    "row": "Orexin receptor antagonists Belsomra (suvorexant) tablets Dayvigo (lemborexant) tablets Quviviq (daridorexant) tablets | Anaphylactic reaction | FDA is evaluating the need for regulatory action."
+   },
+   {
+    "page": "april-june-2026-new-safety-inf",
+    "row": "Winrevair (sotatercept-csrk) for injection | Anaphylactic reaction | FDA is evaluating the need for regulatory action."
+   },
+   {
+    "page": "january-march-2024-new-safety-",
+    "row": "ELEVIDYS (delandistrogene moxeparvovec-rokl) | Hypersensitivity including anaphylaxis | The “Warnings and Precautions,” “Postmarketing Experience,” and “Patient Counseling Information” sections of the labeling for Elevidys were updated in June 2024 to include "
+   },
+   {
+    "page": "january-march-2024-new-safety-",
+    "row": "Intravenous lipid emulsions (IVLEs) Clinolipid (lipid injectable emulsion) Intralipid 10% (lipid injectable emulsion) Intralipid 20% (lipid injectable emulsion) Intralipid 30% (lipid injectable emulsion) Kabiven (amino acids, electrolytes, dextrose, and lipid "
+   },
+   {
+    "page": "january-march-2026-new-safety-",
+    "row": "Elucirem (gadopiclenol) injection | Anaphylactic reaction | FDA is evaluating the need for regulatory action."
+   },
+   {
+    "page": "july-september-2023-potential-",
+    "row": "Allergenic Extract – Peanut (Arachis hypogaea) - For Diagnostic Use Only, manufactured by ALK-Abelló, Inc. | Certain product lots were associated with increased reports of false negative skin test results, with some cases of anaphylaxis from subsequent peanut "
+   },
+   {
+    "page": "july-september-2023-potential-",
+    "row": "Kyprolis (carfilzomib) Ninlaro (ixazomib) | Anaphylactic reaction | Updated The “Adverse Reactions” and “Patient Information” sections of the labeling for Ninlaro were updated in July 2024 to include information about angioedema. Ninlaro labeling FDA determine"
+   },
+   {
+    "page": "july-september-2024-new-safety",
+    "row": "Zolgensma (onasemnogene abeparvovec-xioi) suspension | Hypersensitivity including anaphylaxis | Updated The “Warnings and Precautions,” “Postmarketing Experience,” and “Patient Counseling Information” sections of the labeling for Zolgensma were updated in Febr"
+   },
+   {
+    "page": "july-september-2025-new-safety",
+    "row": "Rezzayo (rezafungin for injection) | Hypersensitivity | The \"Warnings and Precautions\", \"Adverse Reactions\" and \"Patient Counseling Information\" sections of the labeling were updated in December 2025 to include information about hypersensitivity reactions, inc"
+   },
+   {
+    "page": "october-december-2023-potentia",
+    "row": "Rybrevant (amivantamab-vmjw) | Anaphylactic reaction | Updated The “Dosage and Administration”, “Warnings and Precautions”, “Adverse Reactions”, “Patient Counseling Information”, and “Patient Information” sections of the labeling were updated in February 2025 "
+   },
+   {
+    "page": "october-december-2024-new-safe",
+    "row": "Cellcept (mycophenolate mofetil) capsules; tablets Cellcept Intravenous (mycophenolate mofetil) for injection Cellcept Oral Suspension (mycophenolate mofetil) Myfortic (mycophenolic acid) delayed-release tablets Myhibbin (mycophenolate mofetil oral suspension)"
+   },
+   {
+    "page": "october-december-2025-new-safe",
+    "row": "Datroway (datopotamab deruxtecan-dlnk) for injection | Infusion related reaction, including anaphylaxis | FDA is evaluating the need for regulatory action."
+   }
+  ],
+  "erythema multiforme": [],
+  "PML": [
+   {
+    "page": "april-june-2025-new-safety-inf",
+    "row": "Blincyto (blinatumomab) for injection Columvi (glofitamab-gxbm) injection Elrexfio (elranatamab-bcmm) injection Epkinly (epcoritamab-bysp) injection Imdelltra (tarlatamab-dlle) for injection Kimmtrak (tebentafusp-tebn) injection Lunsumio (mosunetuzumab-axgb) i"
+   },
+   {
+    "page": "july-september-2023-potential-",
+    "row": "Gilenya (fingolimod) Mayzent (siponimod) Ponvory (ponesimod) Tascenso ODT (fingolimod) Zeposia (ozanimod) | Progressive multifocal leukoencephalopathy | Updated The “Warnings and Precautions” section of the labeling was updated in June 2024 to include informat"
+   }
+  ],
+  "sarcoidosis": [
+   {
+    "page": "july-september-2025-new-safety",
+    "row": "Braftovi (encorafenib) capsules Tafinlar (dabrafenib) capsules; tablets Zelboraf (vemurafenib) tablet | Sarcoidosis | FDA is evaluating the need for regulatory action."
+   },
+   {
+    "page": "july-september-2025-new-safety",
+    "row": "Cotellic (cobimetinib) tablets Mekinist (trametinib) tablets; oral solution Mektovi (binimetinib) tablets | Sarcoidosis | FDA is evaluating the need for regulatory action."
+   }
+  ],
+  "myasthenia gravis": [
+   {
+    "page": "april-june-2023-potential-sign",
+    "row": "HMG-CoA reductase inhibitors Altoprev (lovastatin extended-release) Atorvaliq (atorvastatin calcium) Caduet (amlodipine and atorvastatin) Crestor (rosuvastatin) Ezallor Sprinkle (rosuvastatin) Flolipid (simvastatin) Lescol XL (fluvastatin sodium) Liptruzet (ez"
+   }
+  ],
+  "cutaneous vasculitis": [
+   {
+    "page": "january-march-2025-new-safety-",
+    "row": "Poly (ADP-ribose) polymerase (PARP) inhibitors Akeega (niraparib and abiraterone acetate) tablets Lynparza (olaparib) tablets Rubraca (rucaparib) tablets Talzenna (talazoparib) capsules Zejula (niraparib) tablets | Vasculitis | FDA is evaluating the need for r"
+   },
+   {
+    "page": "july-september-2023-potential-",
+    "row": "Syfovre (pegcetacoplan injection) | Retinal vasculitis | The “Warnings and Precautions”, “Postmarketing Experience”, and “Patient Counseling Information” sections of the labeling were updated in November 2023 to include retinal vasculitis and/or retinal vascul"
+   },
+   {
+    "page": "october-december-2024-new-safe",
+    "row": "Celexa (citalopram) tablets Citalopram capsules Lexapro (escitalopram) oral solution; tablets | Cutaneous vasculitis | FDA is evaluating the need for regulatory action."
+   }
+  ],
+  "capillary leak syndrome": [],
+  "microscopic colitis": [],
+  "colitis": [
+   {
+    "page": "april-june-2026-new-safety-inf",
+    "row": "Cyclin dependent kinase (CDK) 4 and 6 inhibitors Ibrance (palbociclib) capsules; tablets Kisqali (ribociclib) tablets Kisqali Femara Co-pack (ribociclib tablets; letrozole tablets) co-packaged for oral use Verzenio (abemaciclib) tablets | Colitis | FDA is eval"
+   },
+   {
+    "page": "january-march-2024-new-safety-",
+    "row": "Cotellic (cobimetinib) | Colitis | FDA is evaluating the need for regulatory action."
+   },
+   {
+    "page": "january-march-2024-new-safety-",
+    "row": "Lemtrada (alemtuzumab) | Colitis | The “Warnings and Precautions” section of the labeling was updated in May 2024 to include the risk of immune-mediated colitis. Lemtrada labeling"
+   },
+   {
+    "page": "january-march-2024-new-safety-",
+    "row": "Zelboraf (vemurafenib) | Colitis | FDA is evaluating the need for regulatory action."
+   },
+   {
+    "page": "october-december-2025-new-safe",
+    "row": "Briumvi (ublituximab-xiiy) injection Kesimpta (ofatumumab) injection Mavenclad (cladribine) tablets | Colitis | FDA is evaluating the need for regulatory action."
+   }
+  ],
+  "hyperammonaemia": [],
+  "choroidal effusion": [],
+  "thrombotic microangiopathy": [
+   {
+    "page": "april-june-2023-potential-sign",
+    "row": "Acetadote (acetylcysteine) | Overdose | Updated The “Warnings and Precautions,” “Adverse Reactions,” and “Overdosage” sections of the Prescribing Information were updated in November 2024 to describe fatal outcomes associated with acetylcysteine overdosage, in"
+   },
+   {
+    "page": "july-september-2023-potential-",
+    "row": "Stivarga (regorafenib) | Thrombotic microangiopathy | Updated FDA determined that no action was necessary at the time based on available information."
+   },
+   {
+    "page": "july-september-2025-new-safety",
+    "row": "Cabometyx (cabozantinib) tablets Cometriq (cabozantinib) capsules Lenvima (lenvatinib) capsules | Thrombotic microangiopathy | FDA is evaluating the need for regulatory action."
+   }
+  ],
+  "toxic epidermal necrolysis": [
+   {
+    "page": "january-march-2024-new-safety-",
+    "row": "Krazati (adagrasib) | Toxic epidermal necrolysis | FDA is evaluating the need for regulatory action."
+   }
+  ],
+  "suppressed lactation": [],
+  "pulmonary oedema": [],
+  "QT prolongation": [
+   {
+    "page": "april-june-2023-potential-sign",
+    "row": "Cholinesterase inhibitors Adlarity (donepezil transdermal system) Aricept (donepezil hydrochloride) Aricept ODT (donepezil hydrochloride) Bloxiverz (neostigmine methylsulfate) Enlon-Plus (edrophonium chloride and atropine sulfate) Exelon Patch (rivastigmine tr"
+   },
+   {
+    "page": "april-june-2023-potential-sign",
+    "row": "Cholinesterase inhibitors Adlarity (donepezil transdermal system) Aricept (donepezil hydrochloride) Aricept ODT (donepezil hydrochloride) Bloxiverz (neostigmine methylsulfate) Enlon-Plus (edrophonium chloride and atropine sulfate) Exelon Patch (rivastigmine tr"
+   },
+   {
+    "page": "october-december-2023-potentia",
+    "row": "Central Nervous System (CNS) stimulants | Electrocardiogram QT prolonged | Updated FDA determined that no action was necessary at the time based on available information."
+   }
+  ],
+  "tumour lysis syndrome": [
+   {
+    "page": "july-september-2024-new-safety",
+    "row": "Lenvima (lenvatinib) capsules Nexavar (sorafenib) tablets | Tumor lysis syndrome | Updated FDA determined that no action was necessary at the time based on available information."
+   }
+  ],
+  "meningioma": [],
+  "myocarditis/pericarditis": [
+   {
+    "page": "april-june-2026-new-safety-inf",
+    "row": "BRAF kinase inhibitors Braftovi (encorafenib) capsules Ojemda (tovorafenib) for oral suspension; tablets Tafinlar (dabrafenib) capsules; tablets Zelboraf (vemurafenib) tablets | Myocarditis | FDA is evaluating the need for regulatory action."
+   },
+   {
+    "page": "april-june-2026-new-safety-inf",
+    "row": "MEK inhibitors Cotellic (cobimetinib) tablets Mekinist (trametinib) tablets; oral solution Mektovi (binimetinib) tablets | Myocarditis | FDA is evaluating the need for regulatory action."
+   }
+  ],
+  "embolic and thrombotic events": [
+   {
+    "page": "april-june-2024-new-safety-inf",
+    "row": "Thrombin-JMI (thrombin, topical [bovine]) | Inadvertent intravenous (IV) administration causing thrombosis | FDA is evaluating the need for regulatory action."
+   },
+   {
+    "page": "january-march-2023-potential-s",
+    "row": "Recothrom (thrombin topical recombinant) | Thrombosis due to inadvertent IV administration | Updated The \"Warnings and Precautions\" section of the labeling was updated in January 2024 to include information about the risk of thrombosis due to inadvertent IV ad"
+   },
+   {
+    "page": "january-march-2025-new-safety-",
+    "row": "Janus kinase (JAK) inhibitors | Cerebral venous sinus thrombosis | FDA is evaluating the need for regulatory action."
+   },
+   {
+    "page": "july-september-2025-new-safety",
+    "row": "ELEVIDYS (delandistrogene moxeparvovec-rokl) | Mesenteric vein thrombosis following product-related acute liver injury | The \"Warnings and Precautions\" and \"Adverse Reactions - Postmarketing Experience\" sections of the labeling for Elevidys were updated in Nov"
+   }
+  ],
+  "heavy menstrual bleeding": []
+ },
+ "aems_pages": 14,
+ "aems_rows": 295
+}

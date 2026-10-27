@@ -1,0 +1,320 @@
+{
+ "c4_variant": "s3Endpoint",
+ "steps": [
+  {
+   "step": "C3 CREATE DATASOURCE MySQL",
+   "ok": true,
+   "error": null,
+   "sql": "CREATE DATASOURCE aprime_rx DESCRIBE BY \"A-prime hospital pharmacy system, MySQL, synthetic\" OPTIONS (\n  jdbcdriver \"com.mysql.cj.jdbc.Driver\", jdbcurl \"jdbc:mysql://aprime-mysql:3306/pharmacy\", username \"aprime\", password \"<redacted>\", fetchsize \"1000\")",
+   "data": [],
+   "headers": [
+    "Result"
+   ],
+   "secs": 0.1
+  },
+  {
+   "step": "C3 REGISTER DATASOURCE TABLES MySQL",
+   "ok": true,
+   "error": null,
+   "sql": "REGISTER DATASOURCE TABLES FROM aprime_rx",
+   "data": [],
+   "headers": [
+    "Result"
+   ],
+   "secs": 0.3
+  },
+  {
+   "step": "C3 SELECT MySQL",
+   "ok": true,
+   "error": null,
+   "sql": "SELECT count(*) AS n, count(DISTINCT patient_id) AS patients FROM aprime_rx.dispense",
+   "data": [
+    [
+     "346",
+     "200"
+    ]
+   ],
+   "headers": [
+    "n",
+    "patients"
+   ],
+   "secs": 0.3
+  },
+  {
+   "step": "C2 CREATE DATASOURCE Postgres",
+   "ok": true,
+   "error": null,
+   "sql": "CREATE DATASOURCE aprime_lab DESCRIBE BY \"A-prime EU and US label status, Postgres\" OPTIONS (\n  jdbcdriver \"org.postgresql.Driver\", jdbcurl \"jdbc:postgresql://aprime-pg:5432/labels\", username \"aprime\", password \"<redacted>\", fetchsize \"1000\")",
+   "data": [],
+   "headers": [
+    "Result"
+   ],
+   "secs": 0.1
+  },
+  {
+   "step": "C2 REGISTER DATASOURCE TABLES Postgres",
+   "ok": true,
+   "error": null,
+   "sql": "REGISTER DATASOURCE TABLES FROM aprime_lab",
+   "data": [],
+   "headers": [
+    "Result"
+   ],
+   "secs": 0.2
+  },
+  {
+   "step": "C2 SELECT Postgres",
+   "ok": true,
+   "error": null,
+   "sql": "SELECT count(*) AS n FROM aprime_lab.prac_signal",
+   "data": [
+    [
+     "197"
+    ]
+   ],
+   "headers": [
+    "n"
+   ],
+   "secs": 0.3
+  },
+  {
+   "step": "C3 JOIN MySQL x Postgres",
+   "ok": true,
+   "error": null,
+   "sql": "SELECT ps.substance, count(DISTINCT d.patient_id) AS patients\nFROM aprime_rx.dispense d JOIN aprime_lab.prac_substance ps ON d.inn = ps.substance GROUP BY ps.substance ORDER BY patients DESC",
+   "data": [
+    [
+     "acetazolamide",
+     "18"
+    ],
+    [
+     "sulfamethoxazole",
+     "18"
+    ],
+    [
+     "pantoprazole",
+     "18"
+    ],
+    [
+     "pirfenidone",
+     "18"
+    ],
+    [
+     "mirtazapine",
+     "17"
+    ],
+    [
+     "abiraterone",
+     "17"
+    ],
+    [
+     "donepezil",
+     "16"
+    ],
+    [
+     "regorafenib",
+     "16"
+    ],
+    [
+     "sertraline",
+     "16"
+    ],
+    [
+     "semaglutide",
+     "15"
+    ],
+    [
+     "gemcitabine",
+     "15"
+    ],
+    [
+     "enzalutamide",
+     "15"
+    ]
+   ],
+   "headers": [
+    "substance",
+    "patients"
+   ],
+   "secs": 0.7
+  },
+  {
+   "step": "C4 CREATE LIGHTNING DATABASE",
+   "ok": true,
+   "error": null,
+   "sql": "CREATE LIGHTNING DATABASE aprime_files DESCRIBE BY \"A-prime object-store files\"",
+   "data": [],
+   "headers": [
+    "Result"
+   ],
+   "secs": 0.1
+  },
+  {
+   "step": "C4 CREATE FILESTORE TABLE (s3Endpoint)",
+   "ok": true,
+   "error": null,
+   "sql": "CREATE LIGHTNING FILESTORE TABLE aems FROM aprime_files FORMAT CSV OPTIONS (\n  path \"s3a://aprime/aems/aems.csv\",\n  awsAccessKeyId \"<redacted>\",\n  awsSecretAccessKey \"<redacted>\",\n  s3Endpoint \"http://aprime-s3:8333\",\n  header \"true\",\n  delimiter \",\"\n)",
+   "data": [],
+   "headers": [
+    "Result"
+   ],
+   "secs": 0.4
+  },
+  {
+   "step": "C4 SELECT FILESTORE (s3Endpoint)",
+   "ok": true,
+   "error": null,
+   "sql": "SELECT count(*) AS n FROM aprime_files.aems",
+   "data": [
+    [
+     "280"
+    ]
+   ],
+   "headers": [
+    "n"
+   ],
+   "secs": 0.2
+  },
+  {
+   "step": "A1 federated join MySQL x Postgres x object store",
+   "ok": true,
+   "error": null,
+   "sql": "SELECT s.row_id, s.signal, ps.substance, u.us_status, u.label_name,\n       count(DISTINCT d.patient_id) AS patients_on_drug,\n       count(DISTINCT a.row_text) AS fda_aems_rows_naming_drug\nFROM aprime_rx.dispense d\nJOIN aprime_lab.prac_substance ps ON d.inn = ps.substance\nJOIN aprime_lab.prac_signal s ON s.row_id = ps.row_id\nJOIN aprime_lab.us_label u ON u.row_id = s.row_id\nLEFT JOIN aprime_files.aems a ON lower(a.products) LIKE concat('%', ps.substance, '%')\nWHERE u.us_status IN ('not found', 'partial') AND u.auto_checked = false\nGROUP BY s.row_id, s.signal, ps.substance, u.us_status, u.label_name\nORDER BY patients_on_drug DESC",
+   "data": [
+    [
+     "R010",
+     "Colitis microscopic",
+     "pantoprazole",
+     "not found",
+     "protonix",
+     "18",
+     "0"
+    ],
+    [
+     "R148",
+     "Pulmonary oedemas",
+     "acetazolamide",
+     "not found",
+     "",
+     "18",
+     "0"
+    ],
+    [
+     "R049",
+     "Anaphylactic reaction",
+     "abiraterone",
+     "partial",
+     "zytiga",
+     "17",
+     "2"
+    ],
+    [
+     "R118",
+     "Thrombotic microangiopathy",
+     "regorafenib",
+     "not found",
+     "stivarga",
+     "16",
+     "1"
+    ],
+    [
+     "R044",
+     "Microscopic colitis",
+     "sertraline",
+     "not found",
+     "zoloft",
+     "16",
+     "0"
+    ],
+    [
+     "R087",
+     "Cardiac conduction disorders including QT prolongation and torsades de pointes",
+     "donepezil",
+     "partial",
+     "aricept",
+     "16",
+     "2"
+    ],
+    [
+     "R093",
+     "Progressive multifocal leukoencephalopathy (PML)",
+     "methotrexate",
+     "not found",
+     "trexall",
+     "15",
+     "2"
+    ],
+    [
+     "R142",
+     "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "ethambutol",
+     "not found",
+     "ethambutol",
+     "15",
+     "0"
+    ],
+    [
+     "R033",
+     "Microscopic colitis",
+     "paroxetine",
+     "not found",
+     "paxil",
+     "15",
+     "0"
+    ],
+    [
+     "R105",
+     "Erythema multiforme",
+     "enzalutamide",
+     "partial",
+     "xtandi",
+     "15",
+     "0"
+    ],
+    [
+     "R128",
+     "Cutaneous vasculitis",
+     "azacitidine",
+     "partial",
+     "vidaza",
+     "13",
+     "0"
+    ],
+    [
+     "R197",
+     "Drug reaction with eosinophilia and systemic symptoms (DRESS)",
+     "oxacillin",
+     "partial",
+     "oxacillin",
+     "13",
+     "0"
+    ]
+   ],
+   "headers": [
+    "row_id",
+    "signal",
+    "substance",
+    "us_status",
+    "label_name",
+    "patients_on_drug",
+    "fda_aems_rows_naming_drug"
+   ],
+   "secs": 1.5
+  },
+  {
+   "step": "C8 EXPLAIN QUERY",
+   "ok": true,
+   "error": null,
+   "sql": "EXPLAIN QUERY AS SELECT s.row_id, s.signal, ps.substance, u.us_status, u.label_name,\n       count(DISTINCT d.patient_id) AS patients_on_drug,\n       count(DISTINCT a.row_text) AS fda_aems_rows_naming_drug\nFROM aprime_rx.dispense d\nJOIN aprime_lab.prac_substance ps ON d.inn = ps.substance\nJOIN aprime_lab.prac_signal s ON s.row_id = ps.row_id\nJOIN aprime_lab.us_label u ON u.row_id = s.row_id\nLEFT JOIN aprime_files.aems a ON lower(a.products) LIKE concat('%', ps.substance, '%')\nWHERE u.us_status IN ('not found', 'partial') AND u.auto_checked = false\nGROUP BY s.row_id, s.signal, ps.substance, u.us_status, u.label_name\nORDER BY patients_on_drug DESC",
+   "data": [
+    [
+     "== Parsed Logical Plan ==\n'Sort ['patients_on_drug DESC NULLS LAST], true\n+- 'Aggregate ['s.row_id, 's.signal, 'ps.substance, 'u.us_status, 'u.label_name], ['s.row_id, 's.signal, 'ps.substance, 'u.us_status, 'u.label_name, 'count(distinct 'd.patient_id) AS patients_on_drug#15905, 'count(distinct 'a.row_text) AS fda_aems_rows_naming_drug#15906]\n   +- 'Filter ('u.us_status IN (not found,partial) AND ('u.auto_checked = false))\n      +- 'Join LeftOuter, 'lower('a.products) LIKE 'concat(%, 'ps.substance, %)\n         :- 'Join Inner, ('u.row_id = 's.row_id)\n         :  :- 'Join Inner, ('s.row_id = 'ps.row_id)\n         :  :  :- 'Join Inner, ('d.inn = 'ps.substance)\n         :  :  :  :- 'SubqueryAlias d\n         :  :  :  :  +- 'UnresolvedRelation [aprime_rx, dispense], [], false\n         :  :  :  +- 'SubqueryAlias ps\n         :  :  :     +- 'UnresolvedRelation [aprime_lab, prac_substance], [], false\n         :  :  +- 'SubqueryAlias s\n         :  :     +- 'UnresolvedRelation [aprime_lab, prac_signal], [], false\n         :  +- 'SubqueryAlias u\n         :     +- 'UnresolvedRelation [aprime_lab, us_label], [], false\n         +- 'SubqueryAlias a\n            +- 'UnresolvedRelation [aprime_files, aems], [], false\n\n== Analyzed Logical Plan ==\nrow_id: string, signal: string, substance: string, us_status: string, label_name: string, patients_on_drug: bigint, fda_aems_rows_naming_drug: bigint\nSort [patients_on_drug#15905L DESC NULLS LAST], true\n+- Aggregate [row_id#15916, signal#15917, substance#15915, us_status#15923, label_name#15924], [row_id#15916, signal#15917, substance#15915, us_status#15923, label_name#15924, count(distinct patient_id#15907) AS patients_on_drug#15905L, count(distinct row_text#15932) AS fda_aems_rows_naming_drug#15906L]\n   +- Filter (us_status#15923 IN (not found,partial) AND (auto_checked#15928 = false))\n      +- Join LeftOuter, lower(products#15930) LIKE concat(%, substance#15915, %)\n         :- Join Inner, (row_id#15922 = row_id#15916)\n         :  :- Join Inner, (row_id#15916 = row_id#15914)\n         :  :  :- Join Inner, (inn#15910 = substance#15915)\n         :  :  :  :- SubqueryAlias d\n         :  :  :  :  +- SubqueryAlias dispense\n         :  :  :  :     +- LightningLogicalRelation[patient_id#15907,patient_name#15908,dept#15909,inn#15910,last_fill#15911,next_fill#15912,synthetic#15913] InsertableJDBCTableRelation(JDBCDataSourceConnection(JDBCDataSourceMeta(********(masked))),None,Some(APRIME_RX),DISPENSE,dispense,List(JDBCRangePartition(None,0)),StructType(StructField(patient_id,StringType,true),StructField(patient_name,StringType,true),StructField(dept,StringType,true),StructField(inn,StringType,true),StructField(last_fill,DateType,true),StructField(next_fill,DateType,true),StructField(synthetic,IntegerType,true)),None,None,org.apache.spark.sql.SQLContext@31fd352a)\n         :  :  :  +- SubqueryAlias ps\n         :  :  :     +- SubqueryAlias prac_substance\n         :  :  :        +- LightningLogicalRelation[row_id#15914,substance#15915] InsertableJDBCTableRelation(JDBCDataSourceConnection(JDBCDataSourceMeta(********(masked))),Some(public),Some(APRIME_LAB),PRAC_SUBSTANCE,prac_substance,List(JDBCRangePartition(None,0)),StructType(StructField(row_id,StringType,true),StructField(substance,StringType,true)),None,None,org.apache.spark.sql.SQLContext@31fd352a)\n         :  :  +- SubqueryAlias s\n         :  :     +- SubqueryAlias prac_signal\n         :  :        +- LightningLogicalRelation[row_id#15916,signal#15917,meeting#15918,yr#15919,mo#15920,reaction_group#15921] InsertableJDBCTableRelation(JDBCDataSourceConnection(JDBCDataSourceMeta(********(masked))),Some(public),Some(APRIME_LAB),PRAC_SIGNAL,prac_signal,List(JDBCRangePartition(None,0)),StructType(StructField(row_id,StringType,false),StructField(signal,StringType,true),StructField(meeting,StringType,true),StructField(yr,IntegerType,true),StructField(mo,IntegerType,true),StructField(reaction_group,StringType,true)),None,None,org.apache.spark.sql.SQLContext@31fd352a)\n         :  +- SubqueryAlias u\n         :     +- SubqueryAlias us_label\n         :        +- LightningLogicalRelation[row_id#15922,us_status#15923,label_name#15924,setid#15925,effective#15926,section#15927,auto_checked#15928] InsertableJDBCTableRelation(JDBCDataSourceConnection(JDBCDataSourceMeta(********(masked))),Some(public),Some(APRIME_LAB),US_LABEL,us_label,List(JDBCRangePartition(None,0)),StructType(StructField(row_id,StringType,true),StructField(us_status,StringType,true),StructField(label_name,StringType,true),StructField(setid,StringType,true),StructField(effective,StringType,true),StructField(section,StringType,true),StructField(auto_checked,BooleanType,true)),None,None,org.apache.spark.sql.SQLContext@31fd352a)\n         +- SubqueryAlias a\n            +- SubqueryAlias aems\n               +- LightningLogicalRelation[quarter_page#15929,products#15930,term#15931,row_text#15932] csv\n\n== Optimized Logical Plan ==\nSort [patients_on_drug#15905L DESC NULLS LAST], true\n+- Aggregate [row_id#15916, signal#15917, substance#15915, us_status#15923, label_name#15924], [row_id#15916, signal#15917, substance#15915, us_status#15923, label_name#15924, count(d.patient_id#15937) FILTER (WHERE (gid#15936 = 1)) AS patients_on_drug#15905L, count(a.row_text#15938) FILTER (WHERE (gid#15936 = 2)) AS fda_aems_rows_naming_drug#15906L]\n   +- Aggregate [row_id#15916, signal#15917, substance#15915, us_status#15923, label_name#15924, d.patient_id#15937, a.row_text#15938, gid#15936], [row_id#15916, signal#15917, substance#15915, us_status#15923, label_name#15924, d.patient_id#15937, a.row_text#15938, gid#15936]\n      +- Expand [[row_id#15916, signal#15917, substance#15915, us_status#15923, label_name#15924, patient_id#15907, null, 1], [row_id#15916, signal#15917, substance#15915, us_status#15923, label_name#15924, null, row_text#15932, 2]], [row_id#15916, signal#15917, substance#15915, us_status#15923, label_name#15924, d.patient_id#15937, a.row_text#15938, gid#15936]\n         +- Project [patient_id#15907, substance#15915, row_id#15916, signal#15917, us_status#15923, label_name#15924, row_text#15932]\n            +- Join LeftOuter, lower(products#15930) LIKE concat(%, substance#15915, %)\n               :- Project [patient_id#15907, substance#15915, row_id#15916, signal#15917, us_status#15923, label_name#15924]\n               :  +- Join Inner, (row_id#15922 = row_id#15916)\n               :     :- Project [patient_id#15907, substance#15915, row_id#15916, signal#15917]\n               :     :  +- Join Inner, (row_id#15916 = row_id#15914)\n               :     :     :- Project [patient_id#15907, row_id#15914, substance#15915]\n               :     :     :  +- Join Inner, (inn#15910 = substance#15915)\n               :     :     :     :- Project [patient_id#15907, inn#15910]\n               :     :     :     :  +- Filter isnotnull(inn#15910)\n               :     :     :     :     +- LightningLogicalRelation[patient_id#15907,patient_name#15908,dept#15909,inn#15910,last_fill#15911,next_fill#15912,synthetic#15913] InsertableJDBCTableRelation(JDBCDataSourceConnection(JDBCDataSourceMeta(********(masked))),None,Some(APRIME_RX),DISPENSE,dispense,List(JDBCRangePartition(None,0)),StructType(StructField(patient_id,StringType,true),StructField(patient_name,StringType,true),StructField(dept,StringType,true),StructField(inn,StringType,true),StructField(last_fill,DateType,true),StructField(next_fill,DateType,true),StructField(synthetic,IntegerType,true)),None,None,org.apache.spark.sql.SQLContext@31fd352a)\n               :     :     :     +- Filter (isnotnull(substance#15915) AND isnotnull(row_id#15914))\n               :     :     :        +- LightningLogicalRelation[row_id#15914,substance#15915] InsertableJDBCTableRelation(JDBCDataSourceConnection(JDBCDataSourceMeta(********(masked))),Some(public),Some(APRIME_LAB),PRAC_SUBSTANCE,prac_substance,List(JDBCRangePartition(None,0)),StructType(StructField(row_id,StringType,true),StructField(substance,StringType,true)),None,None,org.apache.spark.sql.SQLContext@31fd352a)\n               :     :     +- Project [row_id#15916, signal#15917]\n               :     :        +- LightningLogicalRelation[row_id#15916,signal#15917,meeting#15918,yr#15919,mo#15920,reaction_group#15921] InsertableJDBCTableRelation(JDBCDataSourceConnection(JDBCDataSourceMeta(********(masked))),Some(public),Some(APRIME_LAB),PRAC_SIGNAL,prac_signal,List(JDBCRangePartition(None,0)),StructType(StructField(row_id,StringType,false),StructField(signal,StringType,true),StructField(meeting,StringType,true),StructField(yr,IntegerType,true),StructField(mo,IntegerType,true),StructField(reaction_group,StringType,true)),None,None,org.apache.spark.sql.SQLContext@31fd352a)\n               :     +- Project [row_id#15922, us_status#15923, label_name#15924]\n               :        +- Filter ((isnotnull(auto_checked#15928) AND (us_status#15923 IN (not found,partial) AND NOT auto_checked#15928)) AND isnotnull(row_id#15922))\n               :           +- LightningLogicalRelation[row_id#15922,us_status#15923,label_name#15924,setid#15925,effective#15926,section#15927,auto_checked#15928] InsertableJDBCTableRelation(JDBCDataSourceConnection(JDBCDataSourceMeta(********(masked))),Some(public),Some(APRIME_LAB),US_LABEL,us_label,List(JDBCRangePartition(None,0)),StructType(StructField(row_id,StringType,true),StructField(us_status,StringType,true),StructField(label_name,StringType,true),StructField(setid,StringType,true),StructField(effective,StringType,true),StructField(section,StringType,true),StructField(auto_checked,BooleanType,true)),None,None,org.apache.spark.sql.SQLContext@31fd352a)\n               +- Project [products#15930, row_text#15932]\n                  +- Filter isnotnull(products#15930)\n                     +- LightningLogicalRelation[quarter_page#15929,products#15930,term#15931,row_text#15932] csv\n\n== Physical Plan ==\nAdaptiveSparkPlan isFinalPlan=false\n+- Sort [patients_on_drug#15905L DESC NULLS LAST], true, 0\n   +- Exchange rangepartitioning(patients_on_drug#15905L DESC NULLS LAST, 200), ENSURE_REQUIREMENTS, [plan_id=17782]\n      +- HashAggregate(keys=[row_id#15916, signal#15917, substance#15915, us_status#15923, label_name#15924], functions=[count(d.patient_id#15937), count(a.row_text#15938)], output=[row_id#15916, signal#15917, substance#15915, us_status#15923, label_name#15924, patients_on_drug#15905L, fda_aems_rows_naming_drug#15906L])\n         +- Exchange hashpartitioning(row_id#15916, signal#15917, substance#15915, us_status#15923, label_name#15924, 200), ENSURE_REQUIREMENTS, [plan_id=17779]\n            +- HashAggregate(keys=[row_id#15916, signal#15917, substance#15915, us_status#15923, label_name#15924], functions=[partial_count(d.patient_id#15937) FILTER (WHERE (gid#15936 = 1)), partial_count(a.row_text#15938) FILTER (WHERE (gid#15936 = 2))], output=[row_id#15916, signal#15917, substance#15915, us_status#15923, label_name#15924, count#15948L, count#15949L])\n               +- HashAggregate(keys=[row_id#15916, signal#15917, substance#15915, us_status#15923, label_name#15924, d.patient_id#15937, a.row_text#15938, gid#15936], functions=[], output=[row_id#15916, signal#15917, substance#15915, us_status#15923, label_name#15924, d.patient_id#15937, a.row_text#15938, gid#15936])\n                  +- Exchange hashpartitioning(row_id#15916, signal#15917, substance#15915, us_status#15923, label_name#15924, d.patient_id#15937, a.row_text#15938, gid#15936, 200), ENSURE_REQUIREMENTS, [plan_id=17775]\n                     +- HashAggregate(keys=[row_id#15916, signal#15917, substance#15915, us_status#15923, label_name#15924, d.patient_id#15937, a.row_text#15938, gid#15936], functions=[], output=[row_id#15916, signal#15917, substance#15915, us_status#15923, label_name#15924, d.patient_id#15937, a.row_text#15938, gid#15936])\n                        +- Expand [[row_id#15916, signal#15917, substance#15915, us_status#15923, label_name#15924, patient_id#15907, null, 1], [row_id#15916, signal#15917, substance#15915, us_status#15923, label_name#15924, null, row_text#15932, 2]], [row_id#15916, signal#15917, substance#15915, us_status#15923, label_name#15924, d.patient_id#15937, a.row_text#15938, gid#15936]\n                           +- Project [patient_id#15907, substance#15915, row_id#15916, signal#15917, us_status#15923, label_name#15924, row_text#15932]\n                              +- BroadcastNestedLoopJoin BuildRight, LeftOuter, lower(products#15930) LIKE concat(%, substance#15915, %)\n                                 :- Project [patient_id#15907, substance#15915, row_id#15916, signal#15917, us_status#15923, label_name#15924]\n                                 :  +- SortMergeJoin [row_id#15916], [row_id#15922], Inner\n                                 :     :- Project [patient_id#15907, substance#15915, row_id#15916, signal#15917]\n                                 :     :  +- SortMergeJoin [row_id#15914], [row_id#15916], Inner\n                                 :     :     :- Sort [row_id#15914 ASC NULLS FIRST], false, 0\n                                 :     :     :  +- Exchange hashpartitioning(row_id#15914, 200), ENSURE_REQUIREMENTS, [plan_id=17756]\n                                 :     :     :     +- Project [patient_id#15907, row_id#15914, substance#15915]\n                                 :     :     :        +- SortMergeJoin [inn#15910], [substance#15915], Inner\n                                 :     :     :           :- Sort [inn#15910 ASC NULLS FIRST], false, 0\n                                 :     :     :           :  +- Exchange hashpartitioning(inn#15910, 200), ENSURE_REQUIREMENTS, [plan_id=17748]\n                                 :     :     :           :     +- Filter isnotnull(inn#15910)\n                                 :     :     :           :        +- Scan InsertableJDBCTableRelation(JDBCDataSourceConnection(JDBCDataSourceMeta(********(masked))),None,Some(APRIME_RX),DISPENSE,dispense,List(JDBCRangePartition(None,0)),StructType(StructField(patient_id,StringType,true),StructField(patient_name,StringType,true),StructField(dept,StringType,true),StructField(inn,StringType,true),StructField(last_fill,DateType,true),StructField(next_fill,DateType,true),StructField(synthetic,IntegerType,true)),None,None,org.apache.spark.sql.SQLContext@31fd352a) APRIME_RX.dispense[patient_id#15907,inn#15910] PushedFilters: [IsNotNull(inn)], ReadSchema: struct<patient_id:string,inn:string>\n                                 :     :     :           +- Sort [substance#15915 ASC NULLS FIRST], false, 0\n                                 :     :     :              +- Exchange hashpartitioning(substance#15915, 200), ENSURE_REQUIREMENTS, [plan_id=17749]\n                                 :     :     :                 +- Filter (isnotnull(substance#15915) AND isnotnull(row_id#15914))\n                                 :     :     :                    +- Scan InsertableJDBCTableRelation(JDBCDataSourceConnection(JDBCDataSourceMeta(********(masked))),Some(public),Some(APRIME_LAB),PRAC_SUBSTANCE,prac_substance,List(JDBCRangePartition(None,0)),StructType(StructField(row_id,StringType,true),StructField(substance,StringType,true)),None,None,org.apache.spark.sql.SQLContext@31fd352a) APRIME_LAB.prac_substance[row_id#15914,substance#15915] PushedFilters: [IsNotNull(substance), IsNotNull(row_id)], ReadSchema: struct<row_id:string,substance:string>\n                                 :     :     +- Sort [row_id#15916 ASC NULLS FIRST], false, 0\n                                 :     :        +- Exchange hashpartitioning(row_id#15916, 200), ENSURE_REQUIREMENTS, [plan_id=17757]\n                                 :     :           +- Scan InsertableJDBCTableRelation(JDBCDataSourceConnection(JDBCDataSourceMeta(********(masked))),Some(public),Some(APRIME_LAB),PRAC_SIGNAL,prac_signal,List(JDBCRangePartition(None,0)),StructType(StructField(row_id,StringType,false),StructField(signal,StringType,true),StructField(meeting,StringType,true),StructField(yr,IntegerType,true),StructField(mo,IntegerType,true),StructField(reaction_group,StringType,true)),None,None,org.apache.spark.sql.SQLContext@31fd352a) APRIME_LAB.prac_signal[row_id#15916,signal#15917] PushedFilters: [], ReadSchema: struct<row_id:string,signal:string>\n                                 :     +- Sort [row_id#15922 ASC NULLS FIRST], false, 0\n                                 :        +- Exchange hashpartitioning(row_id#15922, 200), ENSURE_REQUIREMENTS, [plan_id=17764]\n                                 :           +- Project [row_id#15922, us_status#15923, label_name#15924]\n                                 :              +- Filter (((isnotnull(auto_checked#15928) AND us_status#15923 IN (not found,partial)) AND NOT auto_checked#15928) AND isnotnull(row_id#15922))\n                                 :                 +- Scan InsertableJDBCTableRelation(JDBCDataSourceConnection(JDBCDataSourceMeta(********(masked))),Some(public),Some(APRIME_LAB),US_LABEL,us_label,List(JDBCRangePartition(None,0)),StructType(StructField(row_id,StringType,true),StructField(us_status,StringType,true),StructField(label_name,StringType,true),StructField(setid,StringType,true),StructField(effective,StringType,true),StructField(section,StringType,true),StructField(auto_checked,BooleanType,true)),None,None,org.apache.spark.sql.SQLContext@31fd352a) APRIME_LAB.us_label[row_id#15922,us_status#15923,label_name#15924,auto_checked#15928] PushedFilters: [IsNotNull(auto_checked), In(us_status, [not found,partial]), Not(EqualTo(auto_checked,true)), Is..., ReadSchema: struct<row_id:string,us_status:string,label_name:string,auto_checked:boolean>\n                                 +- BroadcastExchange IdentityBroadcastMode, [plan_id=17769]\n                                    +- Filter isnotnull(products#15930)\n                                       +- FileScan csv APRIME_FILES.aems[products#15930,row_text#15932] Batched: false, DataFilters: [isnotnull(products#15930)], Format: CSV, Location: InMemoryFileIndex(1 paths)[s3a://aprime/aems/aems.csv], PartitionFilters: [], PushedFilters: [IsNotNull(products)], ReadSchema: struct<products:string,row_text:string>\n"
+    ]
+   ],
+   "headers": [
+    "plan"
+   ],
+   "secs": 0.5
+  }
+ ]
+}

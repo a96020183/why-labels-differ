@@ -1,0 +1,21 @@
+{
+ "id": "R178",
+ "model_requested": "gpt-5.5",
+ "model_served": "gpt-5.5-2026-04-23",
+ "secs": 63.7,
+ "usage": {
+  "input_tokens": 93123,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 3712
+  },
+  "output_tokens": 2954,
+  "output_tokens_details": {
+   "reasoning_tokens": 2379
+  },
+  "total_tokens": 96077
+ },
+ "text": "{\"us_status\":\"written\",\"label_product\":\"NGENLA (somatrogon-ghla) injection, for subcutaneous use\",\"label_version_or_date\":\"DailyMed updated August 14, 2026; PI LAB-1433-5.0\",\"label_section\":\"Warnings and Precautions, section 5.12 Lipoatrophy\",\"quote\":\"When NGENLA is administered subcutaneously at the same site over a long period of time, lipoatrophy may result.\",\"eu\":\"EU: PRAC (4 Sep 2025; EPITT 20173) recommended adding lipoatrophy; current EMA EPAR PI includes it in SmPC 4.2/4.8 and package leaflet §§3–4.\",\"uk\":\"UK: MHRA-authorised GB SmPC/eMC updated 01 Sep 2026 lists lipoatrophy in SmPC 4.2 and 4.8 as frequency not known/post-marketing.\",\"us_regulator\":\"FDA: public approval REMS/risk review identifies lipoatrophy as a risk managed by labeling/no REMS; no lipoatrophy-specific AEMS/Sentinel item found, though AEMS Jan-Mar 2024 listed human growth hormone products incl. Ngenla for osteonecrosis.\",\"sources\":[\"https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=06dce529-b741-4a1b-8842-3ad77be6e308\",\"https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761184s008lbl.pdf\",\"https://www.ema.europa.eu/system/files/documents/prac-recommendation/prac-recommendations-signals-adopted-1-4-september-2025-prac_en.pdf\",\"https://www.ema.europa.eu/en/documents/product-information/ngenla-epar-product-information_en.pdf\",\"https://www.ema.europa.eu/en/medicines/human/EPAR/ngenla\",\"https://www.medicines.org.uk/emc/product/13476/smpc\",\"https://www.gov.uk/government/publications/somapacitan-lonapegsomatropin-and-somatrogon-acmd-advice/acmd-advice-on-somapacitan-lonapegsomatropin-and-somatrogon-accessible\",\"https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/761184Orig1s000RiskR.pdf\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/january-march-2024-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse\"]}",
+ "annotation_urls": [],
+ "at": "2026-10-24T01:55:58"
+}

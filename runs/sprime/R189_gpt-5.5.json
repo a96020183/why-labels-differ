@@ -1,0 +1,21 @@
+{
+ "id": "R189",
+ "model_requested": "gpt-5.5",
+ "model_served": "gpt-5.5-2026-04-23",
+ "secs": 63.6,
+ "usage": {
+  "input_tokens": 86217,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 3712
+  },
+  "output_tokens": 2932,
+  "output_tokens_details": {
+   "reasoning_tokens": 2319
+  },
+  "total_tokens": 89149
+ },
+ "text": "{\"us_status\":\"written\",\"label_product\":\"CREON (pancrelipase) delayed-release capsules\",\"label_version_or_date\":\"Revised: 2/2024; DailyMed current SPL set 073201aa-556d-4a70-918e-84e9616fd88d\",\"label_section\":\"Warnings and Precautions, section 5.4 Risk of Viral Transmission\",\"quote\":\"Although the risk that CREON will transmit an infectious agent to humans has been reduced by testing for certain viruses during manufacturing and by inactivating certain viruses during manufacturing, there is a theoretical risk for transmission of viral disease, including diseases caused by novel or unidentified viruses.\",\"eu\":\"EU PRAC May 2026: product-information update recommended for pancreatin, SmPC section 4.4 and leaflet, adding Hepatitis E virus infection wording for porcine pancreas powder extracts.\",\"uk\":\"UK/MHRA: UK product information for pancreatin products is published on the MHRA Products site; current UK Creon SmPC/PIL include Hepatitis E virus infection wording in section 4.4 / leaflet section 2.\",\"us_regulator\":\"FDA: no current AEMS/FAERS potential-signal or Sentinel viral-transmission item found; FDA public approval/REMS reviews previously evaluated porcine-derived pancreatic enzyme products as carrying a theoretical/remote porcine-virus transmission risk.\",\"sources\":[\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=073201aa-556d-4a70-918e-84e9616fd88d\",\"https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/020725s031lbl.pdf\",\"https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-4-7-may-2026-prac-meeting_en.pdf\",\"https://www.ema.europa.eu/en/documents/prac-recommendation/new-product-information-wording-extracts-prac-recommendations-signals-adopted-4-7-may-2026-prac_en.pdf\",\"https://products.mhra.gov.uk/substance/?substance=PANCREATIN\",\"https://www.gov.uk/guidance/find-product-information-about-medicines\",\"https://www.medicines.org.uk/emc/product/1167/smpc\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/april-june-2026-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse\",\"https://www.accessdata.fda.gov/drugsatfda_docs/pediatric/Creon-Clinical-Review.pdf\"]}",
+ "annotation_urls": [],
+ "at": "2026-10-24T02:01:21"
+}

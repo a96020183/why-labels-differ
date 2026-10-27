@@ -1,0 +1,21 @@
+{
+ "id": "R164",
+ "model_requested": "gpt-5.5",
+ "model_served": "gpt-5.5-2026-04-23",
+ "secs": 79.5,
+ "usage": {
+  "input_tokens": 103595,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 3712
+  },
+  "output_tokens": 3661,
+  "output_tokens_details": {
+   "reasoning_tokens": 3104
+  },
+  "total_tokens": 107256
+ },
+ "text": "{\"us_status\":\"written\",\"label_product\":\"STIVARGA (regorafenib) tablets, for oral use\",\"label_version_or_date\":\"DailyMed updated February 9, 2026; PI revised 2/2026\",\"label_section\":\"Full Prescribing Information, Warnings and Precautions, 5.1 Hepatotoxicity\",\"quote\":\"Additionally, hyperammonemic encephalopathy, including fatal cases, have been reported in the postmarketing setting in patients treated with STIVARGA.\",\"eu\":\"EMA/PRAC Apr 2025 recommended adding hyperammonaemic encephalopathy to SmPC 4.4 and 4.8; current EMA PI updated 24 Mar 2026 includes it in 4.4 and 4.8.\",\"uk\":\"UK SmPC for Stivarga, text revised 24 Apr 2026 / emc updated 02 Jun 2026, includes hyperammonaemic encephalopathy in sections 4.4 and 4.8.\",\"us_regulator\":\"FDA has a public sNDA approval/labeling action for NDA 203085/S-018 signed 03 Feb 2026 to add hyperammonemic encephalopathy to Warnings and Precautions 5.1; no FDA AEMS/FAERS or Sentinel item for this specific signal was located.\",\"sources\":[\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=824f19c9-0546-4a8a-8d8f-c4055c04f7c7\",\"https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/203085s018lbl.pdf\",\"https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/203085Orig1s018ltr.pdf\",\"https://www.ema.europa.eu/system/files/documents/prac-recommendation/prac-recommendations-signals-adopted-7-10-april-2025-prac_en.pdf\",\"https://www.ema.europa.eu/en/documents/product-information/stivarga-epar-product-information_en.pdf\",\"https://www.ema.europa.eu/en/medicines/human/EPAR/stivarga\",\"https://www.medicines.org.uk/emc/product/1263/smpc\",\"https://www.gov.uk/guidance/find-product-information-about-medicines\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/july-september-2023-potential-signals-serious-risksnew-safety-information-identified-fda-adverse\"]}",
+ "annotation_urls": [],
+ "at": "2026-10-24T01:49:59"
+}

@@ -1,0 +1,16 @@
+job1_c08 try 1 invalid answer from nvidia/nemotron-3-ultra-550b-a55b
+job1_c10 try 1 failed: This operation was aborted
+job1_compress try 1 failed: stream error {"message":"404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function 'ac74040f-9fc9-4c5e-ac74-279ba5161d69': Not found for account 'Cv3FP
+job2_c08 try 1 failed: stream error {"message":"404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function 'ac74040f-9fc9-4c5e-ac74-279ba5161d69': Not found for account 'Cv3FP
+job2_c09 try 1 failed: This operation was aborted
+job2_c13 try 1 failed: stream error {"message":"404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function 'ac74040f-9fc9-4c5e-ac74-279ba5161d69': Not found for account 'Cv3FP
+job2_compress try 1 failed: stream error {"message":"404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function 'ac74040f-9fc9-4c5e-ac74-279ba5161d69': Not found for account 'Cv3FP
+job2_compress try 2 failed: stream error {"message":"404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function 'ac74040f-9fc9-4c5e-ac74-279ba5161d69': Not found for account 'Cv3FP
+job2_c19 try 1 failed: stream error {"message":"410: {\"type\":\"about:blank\",\"title\":\"Gone\",\"status\":410,\"detail\":\"The model 'nvidia/llama-3.3-nemotron-super-49b-v1.5' has 
+job3_c01 try 1 failed: stream error {"message":"404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function 'ac74040f-9fc9-4c5e-ac74-279ba5161d69': Not found for account 'Cv3FP
+job3_c05 try 1 failed: stream error {"message":"404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function 'ac74040f-9fc9-4c5e-ac74-279ba5161d69': Not found for account 'Cv3FP
+job3_c11 try 1 invalid answer from nvidia/nemotron-3-ultra-550b-a55b
+job3_c11 try 2 invalid answer from nvidia/nemotron-3-ultra-550b-a55b
+job3_c11 try 3 failed: stream error {"message":"404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function 'ac74040f-9fc9-4c5e-ac74-279ba5161d69': Not found for account 'Cv3FP
+job3_c17 try 1 failed: stream error {"message":"404: {\"status\":404,\"title\":\"Not Found\",\"detail\":\"Function 'ac74040f-9fc9-4c5e-ac74-279ba5161d69': Not found for account 'Cv3FP
+M done: 197 ledger rows in 1279 s

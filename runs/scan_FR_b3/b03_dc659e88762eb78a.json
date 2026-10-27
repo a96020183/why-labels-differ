@@ -1,0 +1,18 @@
+{
+ "tag": "b03",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {},
+ "latency": 15.258,
+ "hadThink": true,
+ "tries": 1,
+ "call": {
+  "stream": true,
+  "tierSplit": false,
+  "isoScope": true
+ },
+ "promptTokensEstimated": 838,
+ "rawChars": 125,
+ "task": "[FULL LEDGER SO FAR - every earlier row with its ledger line]\nR001 | PRAC 2019-01 | Biotin | ATC3 A11H | signal: Interference with clinical laboratory tests | US label: not found (biotin, label effective 20260720) | ledger: {\"id\":\"R001\",\"us\":\"not found\",\"cross\":[]}\nR002 | PRAC 2019-01 | Gabapentin | ATC3 N02B | signal: Dysphagia | US label: not found (gabapentin, label effective 20260911) | ledger: {\"id\":\"R002\",\"us\":\"not found\",\"cross\":[]}\nR003 | PRAC 2019-03 | Nivolumab | ATC3 L01F,L01X | signal: Hypoparathyroidism | US label: written (nivolumab, label effective 20260812, section: warnings_and_cautions) | ledger: {\"id\":\"R003\",\"us\":\"written\",\"cross\":[]}\nR004 | PRAC 2019-03 | Paracetamol | ATC3 N02B | signal: Paracetamol use in pregnancy and child neurodevelopment and effects on the urogenital apparatus | US label: unknown (paracetamol) | ledger: {\"id\":\"R004\",\"us\":\"unknown\",\"cross\":[]}\nR005 | PRAC 2019-04 | Armodafinil; modafinil | ATC3 N06B | signal: Evaluation of data on foetal outcomes including congenital anomalies from a single observational study in the US | US label: not found (armodafinil, label effective 20260306) | ledger: {\"id\":\"R005\",\"us\":\"not found\",\"cross\":[]}\nR006 | PRAC 2019-04 | Rivaroxaban; apixaban; dabigatran; edoxaban | ATC3 B01A | signal: Recurrent thrombosis in patients with antiphospholipid syndrome | US label: not found (rivaroxaban, label effective 20260904) | ledger: {\"id\":\"R006\",\"us\":\"not found\",\"cross\":[]}\n\n[BATCH 3 of 66]\nR007 | PRAC 2019-04 | Selective serotonin reuptake inhibitors (SSRI): citalopram; escitalopram | ATC3 N06A | signal: Drug interaction with fluconazole | US label: not found (citalopram, label effective 20260904)\nR008 | PRAC 2019-05 | Clomipramine; Serotonin and noradrenaline reuptake inhibitors (SNRI): desvenlafaxine; duloxetine; milnacipran; | ATC3 N06A | signal: Persistent sexual dysfunction after drug withdrawal | US label: not found (desvenlafaxine, label effective 20260821)\nR009 | PRAC 2019-05 | Clopidogrel; clopidogrel, acetylsalicylic acid | ATC3 B01A | signal: Interaction with boosted antiviral human immunodeficiency virus (HIV) therapy leading to insufficient inhibition of plat | US label: not found (clopidogrel, label effective 20260929)",
+ "text": "{\"id\":\"R007\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R008\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R009\",\"us\":\"not found\",\"cross\":[]}"
+}

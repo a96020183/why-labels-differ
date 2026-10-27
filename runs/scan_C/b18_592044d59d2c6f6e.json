@@ -1,0 +1,14 @@
+{
+ "tag": "b18",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {
+  "prompt_tokens": 6622,
+  "completion_tokens": 3422,
+  "total_tokens": 10044
+ },
+ "latency": 45.174,
+ "hadThink": true,
+ "promptTokensEstimated": 2343,
+ "text": "{\"id\":\"R137\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R138\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R139\",\"us\":\"unknown\",\"cross\":[]}\n{\"id\":\"R140\",\"us\":\"unknown\",\"cross\":[]}\n{\"id\":\"R141\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R142\",\"us\":\"not found\",\"cross\":[{\"row\":\"R067\",\"substance\":\"Anakinra; canakinumab\",\"us\":\"written\"},{\"row\":\"R132\",\"substance\":\"Pirfenidone\",\"us\":\"written\"}]}\n{\"id\":\"R143\",\"us\":\"unknown\",\"cross\":[]}\n{\"id\":\"R144\",\"us\":\"not found\",\"cross\":[]}"
+}

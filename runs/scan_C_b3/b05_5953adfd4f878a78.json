@@ -1,0 +1,18 @@
+{
+ "tag": "b05",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {},
+ "latency": 37.284,
+ "hadThink": true,
+ "tries": 1,
+ "call": {
+  "stream": true,
+  "tierSplit": false,
+  "isoScope": true
+ },
+ "promptTokensEstimated": 598,
+ "rawChars": 125,
+ "task": "[RETRIEVED EVIDENCE LEDGER ROWS - same ingredient or same ATC level 3 as a row in this batch; 2 of 2 matches, most recent]\nR006 | PRAC 2019-04 | Rivaroxaban; apixaban; dabigatran; edoxaban | ATC3 B01A | signal: Recurrent thrombosis in patients with antiphospholipid syndrome | US label: not found (rivaroxaban, label effective 20260904) | ledger: {\"id\":\"R006\",\"us\":\"not found\",\"cross\":[]}\nR009 | PRAC 2019-05 | Clopidogrel; clopidogrel, acetylsalicylic acid | ATC3 B01A | signal: Interaction with boosted antiviral human immunodeficiency virus (HIV) therapy leading to insufficient inhibition of plat | US label: not found (clopidogrel, label effective 20260929) | ledger: {\"id\":\"R009\",\"us\":\"not found\",\"cross\":[]}\n\n[BATCH 5 of 66]\nR013 | PRAC 2019-06 | Propylthiouracil | ATC3 H03B | signal: Congenital anomalies | US label: not found (propylthiouracil, label effective 20260827)\nR014 | PRAC 2019-06 | Rivaroxaban | ATC3 B01A | signal: Premature ending of the GALILEO study in patients who have received an artificial heart valve through a transcatheter ao | US label: not found (rivaroxaban, label effective 20260904)\nR015 | PRAC 2019-06 | Secukinumab | ATC3 L04A | signal: Dermatitis exfoliative generalised | US label: not found (secukinumab, label effective 20260825)",
+ "text": "{\"id\":\"R013\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R014\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R015\",\"us\":\"not found\",\"cross\":[]}"
+}

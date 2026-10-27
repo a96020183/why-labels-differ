@@ -1,0 +1,14 @@
+{
+ "tag": "job1_c01",
+ "requested": "nvidia/nemotron-3.5-lightning-30b-a3b",
+ "served": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {
+  "prompt_tokens": 1108,
+  "completion_tokens": 1969,
+  "total_tokens": 3077
+ },
+ "latency": 45.228,
+ "hadThink": true,
+ "promptTokensEstimated": 848,
+ "text": "{\"id\":\"R001\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R002\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R003\",\"us\":\"written\",\"cross\":[]}\n{\"id\":\"R004\",\"us\":\"unknown\",\"cross\":[]}\n{\"id\":\"R005\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R006\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R007\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R008\",\"us\":\"not found\",\"cross\":[]}\n[STATE_CHECKPOINT]\nCOMPLETED: R008\nREMAINING: 11 chunks\nDECISIONS: No cross-class signal matches in this chunk; all 8 adverse reactions are distinct.\nCONTEXT: Interference with clinical laboratory tests: R001 biotin A11H not found; Dysphagia: R002 gabapentin N02B not found; Hypoparathyroidism: R003 nivolumab L01F,L01X written; Paracetamol use in pregnancy and child neurodevelopment and effects on the urogenital apparatus: R004 paracetamol N02B unknown; Evaluation of data on foetal outcomes including congenital anomalies from a single observational study in the US: R005 armodafinil; modafinil N06B not found; Recurrent thrombosis in patients with antiphospholipid syndrome: R006 rivaroxaban; apixaban; dabigatran; edoxaban B01A not found; Drug interaction with fluconazole: R007 citalopram; escitalopram N06A not found; Persistent sexual dysfunction after drug withdrawal: R008 desvenlafaxine; duloxetine; milnacipran N06A not found"
+}

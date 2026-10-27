@@ -1,0 +1,18 @@
+{
+ "tag": "job2_c03",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {},
+ "latency": 33.961,
+ "hadThink": true,
+ "tries": 1,
+ "call": {
+  "stream": true,
+  "tierSplit": false,
+  "isoScope": true
+ },
+ "promptTokensEstimated": 855,
+ "rawChars": 513,
+ "task": "Continuing a chunked research run. Goal (truncated): Scan PRAC rows batch 23-44 into the divergence ledger and keep the cross-entry index in CONTEXT.\n\n[CARRYOVER STATE]\nCOMPLETED: R072\nREMAINING: 60\nDECISIONS: -\nCONTEXT: Hypoparathyroidism\n\nContinue exactly where the state leaves off. Do not repeat completed work.\n\n[BATCH 25 of 66; chunk 3 of 22 in this job]\nR073 | PRAC 2021-04 | COVID-19 vaccine (ChAdOx1-S [recombinant]) - Vaxzevria (previously COVID-19 Vaccine AstraZeneca) | ATC3 J07B | signal: Embolic and thrombotic events | US label: not marketed (ChAdOx1-S never licensed in the US)\nR074 | PRAC 2021-05 | Alemtuzumab | ATC3 L01X,L04A | signal: Sarcoidosis | US label: partial (lemtrada, label effective 20251103, section: adverse_reactions)\nR075 | PRAC 2021-05 | Clindamycin | ATC3 D10A,G01A,J01F | signal: Acute renal failure | US label: not found (clindamycin, label effective 20260908)\n[NAME-INDEX CANDIDATES - earlier rows whose reaction name shares most words; check class and meaning yourself]\nR073: R069 COVID-19 vaccine (ChAdOx1-S [recombinant ATC3 J07B US not marketed (\"Embolic and thrombotic events\"); R072 COVID-19 vaccine (Ad26.COV2-S [recombina ATC3 J07B US not marketed (\"Embolic and thrombotic events\")\nR074: R056 Dabrafenib; trametinib ATC3 L01E US partial (\"Sarcoidosis\")\n\nEnd every non-final chunk with [STATE_CHECKPOINT] followed by a concise state block:\nCOMPLETED: ...\nREMAINING: ...\nDECISIONS: ...\nCONTEXT: ...\nEnd the final chunk with [TASK_COMPLETE]. Exactly one marker per chunk. Never narrate the markers.",
+ "text": "{\"id\":\"R073\",\"us\":\"not marketed\",\"cross\":[]}\n{\"id\":\"R074\",\"us\":\"partial\",\"cross\":[{\"row\":\"R056\",\"substance\":\"Dabrafenib/trametinib\",\"us\":\"partial\"}]}\n{\"id\":\"R075\",\"us\":\"not found\",\"cross\":[]}\n[STATE_CHECKPOINT]\nCOMPLETED: R075\nREMAINING: 57\nDECISIONS: -\nCONTEXT: Hypoparathyroidism: ; Embolic and thrombotic events: R069 ChAdOx1-S J07B nm, R072 Ad26.COV2-S J07B nm, R073 ChAdOx1-S J07B nm; Sarcoidosis: R056 Dabrafenib/trametinib L01E p, R074 Alemtuzumab L01X,L04A p; Acute renal failure: R075 Clindamycin D10A nf"
+}

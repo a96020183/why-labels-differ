@@ -1,0 +1,1912 @@
+{
+ "system": "MN",
+ "requestedModel": "nvidia/nemotron-3-ultra-550b-a55b",
+ "batch": 3,
+ "call": {
+  "stream": true,
+  "tierSplit": false,
+  "isoScope": true
+ },
+ "carryoverTokens": 800,
+ "ledger": {
+  "R001": {
+   "id": "R001",
+   "us": "not found",
+   "cross": []
+  },
+  "R002": {
+   "id": "R002",
+   "us": "not found",
+   "cross": []
+  },
+  "R003": {
+   "id": "R003",
+   "us": "written",
+   "cross": []
+  },
+  "R004": {
+   "id": "R004",
+   "us": "not found",
+   "cross": []
+  },
+  "R005": {
+   "id": "R005",
+   "us": "not found",
+   "cross": []
+  },
+  "R006": {
+   "id": "R006",
+   "us": "not found",
+   "cross": []
+  },
+  "R007": {
+   "id": "R007",
+   "us": "not found",
+   "cross": []
+  },
+  "R008": {
+   "id": "R008",
+   "us": "not found",
+   "cross": []
+  },
+  "R009": {
+   "id": "R009",
+   "us": "not found",
+   "cross": []
+  },
+  "R010": {
+   "id": "R010",
+   "us": "not found",
+   "cross": []
+  },
+  "R011": {
+   "id": "R011",
+   "us": "not found",
+   "cross": []
+  },
+  "R012": {
+   "id": "R012",
+   "us": "not found",
+   "cross": []
+  },
+  "R013": {
+   "id": "R013",
+   "us": "not found",
+   "cross": [
+    {
+     "row": "R005",
+     "substance": "armodafinil",
+     "us": "not found"
+    }
+   ]
+  },
+  "R014": {
+   "id": "R014",
+   "us": "not found",
+   "cross": []
+  },
+  "R015": {
+   "id": "R015",
+   "us": "not found",
+   "cross": []
+  },
+  "R016": {
+   "id": "R016",
+   "us": "not found",
+   "cross": []
+  },
+  "R017": {
+   "id": "R017",
+   "us": "not found",
+   "cross": []
+  },
+  "R018": {
+   "id": "R018",
+   "us": "not found",
+   "cross": []
+  },
+  "R019": {
+   "id": "R019",
+   "us": "not found",
+   "cross": []
+  },
+  "R020": {
+   "id": "R020",
+   "us": "not found",
+   "cross": []
+  },
+  "R021": {
+   "id": "R021",
+   "us": "not found",
+   "cross": [
+    {
+     "row": "R005",
+     "substance": "armodafinil",
+     "us": "not found"
+    },
+    {
+     "row": "R013",
+     "substance": "propylthiouracil",
+     "us": "not found"
+    }
+   ]
+  },
+  "R022": {
+   "id": "R022",
+   "us": "not found",
+   "cross": []
+  },
+  "R023": {
+   "id": "R023",
+   "us": "partial",
+   "cross": []
+  },
+  "R024": {
+   "id": "R024",
+   "us": "not found",
+   "cross": []
+  },
+  "R025": {
+   "id": "R025",
+   "us": "partial",
+   "cross": []
+  },
+  "R026": {
+   "id": "R026",
+   "us": "partial",
+   "cross": []
+  },
+  "R027": {
+   "id": "R027",
+   "us": "written",
+   "cross": []
+  },
+  "R028": {
+   "id": "R028",
+   "us": "not found",
+   "cross": []
+  },
+  "R029": {
+   "id": "R029",
+   "us": "not found",
+   "cross": []
+  },
+  "R030": {
+   "id": "R030",
+   "us": "not found",
+   "cross": []
+  },
+  "R031": {
+   "id": "R031",
+   "us": "not found",
+   "cross": []
+  },
+  "R032": {
+   "id": "R032",
+   "us": "written",
+   "cross": []
+  },
+  "R033": {
+   "id": "R033",
+   "us": "not found",
+   "cross": [
+    {
+     "row": "R010",
+     "substance": "pantoprazole",
+     "us": "not found"
+    }
+   ]
+  },
+  "R034": {
+   "id": "R034",
+   "us": "not found",
+   "cross": []
+  },
+  "R035": {
+   "id": "R035",
+   "us": "not found",
+   "cross": []
+  },
+  "R036": {
+   "id": "R036",
+   "us": "not found",
+   "cross": []
+  },
+  "R037": {
+   "id": "R037",
+   "us": "written",
+   "cross": [
+    {
+     "row": "R017",
+     "substance": "temozolomide",
+     "us": "not found"
+    }
+   ]
+  },
+  "R038": {
+   "id": "R038",
+   "us": "written",
+   "cross": []
+  },
+  "R039": {
+   "id": "R039",
+   "us": "not found",
+   "cross": []
+  },
+  "R040": {
+   "id": "R040",
+   "us": "not found",
+   "cross": []
+  },
+  "R041": {
+   "id": "R041",
+   "us": "not found",
+   "cross": []
+  },
+  "R042": {
+   "id": "R042",
+   "us": "partial",
+   "cross": []
+  },
+  "R043": {
+   "id": "R043",
+   "us": "written",
+   "cross": [
+    {
+     "row": "R017",
+     "substance": "temozolomide",
+     "us": "not found"
+    },
+    {
+     "row": "R037",
+     "substance": "idelalisib",
+     "us": "written"
+    }
+   ]
+  },
+  "R044": {
+   "id": "R044",
+   "us": "not found",
+   "cross": [
+    {
+     "row": "R010",
+     "substance": "pantoprazole",
+     "us": "not found"
+    }
+   ]
+  },
+  "R045": {
+   "id": "R045",
+   "us": "written",
+   "cross": []
+  },
+  "R046": {
+   "id": "R046",
+   "us": "not found",
+   "cross": []
+  },
+  "R047": {
+   "id": "R047",
+   "us": "not found",
+   "cross": []
+  },
+  "R048": {
+   "id": "R048",
+   "us": "not found",
+   "cross": []
+  },
+  "R049": {
+   "id": "R049",
+   "us": "partial",
+   "cross": []
+  },
+  "R050": {
+   "id": "R050",
+   "us": "not found",
+   "cross": []
+  },
+  "R051": {
+   "id": "R051",
+   "us": "unknown",
+   "cross": []
+  },
+  "R052": {
+   "id": "R052",
+   "us": "partial",
+   "cross": []
+  },
+  "R053": {
+   "id": "R053",
+   "us": "not found",
+   "cross": []
+  },
+  "R054": {
+   "id": "R054",
+   "us": "not found",
+   "cross": []
+  },
+  "R055": {
+   "id": "R055",
+   "us": "written",
+   "cross": []
+  },
+  "R056": {
+   "id": "R056",
+   "us": "partial",
+   "cross": []
+  },
+  "R057": {
+   "id": "R057",
+   "us": "partial",
+   "cross": []
+  },
+  "R058": {
+   "id": "R058",
+   "us": "partial",
+   "cross": []
+  },
+  "R059": {
+   "id": "R059",
+   "us": "not found",
+   "cross": []
+  },
+  "R060": {
+   "id": "R060",
+   "us": "not found",
+   "cross": [
+    {
+     "row": "R049",
+     "substance": "Abiraterone",
+     "us": "partial"
+    }
+   ]
+  },
+  "R061": {
+   "id": "R061",
+   "us": "partial",
+   "cross": []
+  },
+  "R062": {
+   "id": "R062",
+   "us": "written",
+   "cross": []
+  },
+  "R063": {
+   "id": "R063",
+   "us": "not found",
+   "cross": []
+  },
+  "R064": {
+   "id": "R064",
+   "us": "not found",
+   "cross": []
+  },
+  "R065": {
+   "id": "R065",
+   "us": "not found",
+   "cross": []
+  },
+  "R066": {
+   "id": "R066",
+   "us": "not found",
+   "cross": []
+  },
+  "R067": {
+   "id": "R067",
+   "us": "written",
+   "cross": [
+    {
+     "row": "R017",
+     "substance": "temozolomide",
+     "us": "not found"
+    },
+    {
+     "row": "R037",
+     "substance": "idelalisib",
+     "us": "written"
+    },
+    {
+     "row": "R043",
+     "substance": "mirtazapine",
+     "us": "written"
+    }
+   ]
+  },
+  "R068": {
+   "id": "R068",
+   "us": "not marketed",
+   "cross": [
+    {
+     "row": "R049",
+     "substance": "abiraterone",
+     "us": "partial"
+    },
+    {
+     "row": "R060",
+     "substance": "capecitabine",
+     "us": "not found"
+    }
+   ]
+  },
+  "R069": {
+   "id": "R069",
+   "us": "not marketed",
+   "cross": []
+  },
+  "R070": {
+   "id": "R070",
+   "us": "not found",
+   "cross": []
+  },
+  "R071": {
+   "id": "R071",
+   "us": "not found",
+   "cross": []
+  },
+  "R072": {
+   "id": "R072",
+   "us": "not marketed",
+   "cross": []
+  },
+  "R073": {
+   "id": "R073",
+   "us": "not marketed",
+   "cross": []
+  },
+  "R074": {
+   "id": "R074",
+   "us": "partial",
+   "cross": [
+    {
+     "row": "R056",
+     "substance": "Dabrafenib/trametinib",
+     "us": "partial"
+    }
+   ]
+  },
+  "R075": {
+   "id": "R075",
+   "us": "not found",
+   "cross": []
+  },
+  "R076": {
+   "id": "R076",
+   "us": "unknown",
+   "cross": []
+  },
+  "R077": {
+   "id": "R077",
+   "us": "not marketed",
+   "cross": []
+  },
+  "R078": {
+   "id": "R078",
+   "us": "not found",
+   "cross": []
+  },
+  "R079": {
+   "id": "R079",
+   "us": "partial",
+   "cross": []
+  },
+  "R080": {
+   "id": "R080",
+   "us": "written",
+   "cross": [
+    {
+     "row": "R032",
+     "substance": "Nivolumab",
+     "us": "written"
+    }
+   ]
+  },
+  "R081": {
+   "id": "R081",
+   "us": "written",
+   "cross": []
+  },
+  "R082": {
+   "id": "R082",
+   "us": "not found",
+   "cross": []
+  },
+  "R083": {
+   "id": "R083",
+   "us": "not marketed",
+   "cross": []
+  },
+  "R084": {
+   "id": "R084",
+   "us": "written",
+   "cross": []
+  },
+  "R085": {
+   "id": "R085",
+   "us": "written",
+   "cross": []
+  },
+  "R086": {
+   "id": "R086",
+   "us": "written",
+   "cross": []
+  },
+  "R087": {
+   "id": "R087",
+   "us": "partial",
+   "cross": []
+  },
+  "R088": {
+   "id": "R088",
+   "us": "not found",
+   "cross": []
+  },
+  "R089": {
+   "id": "R089",
+   "us": "written",
+   "cross": []
+  },
+  "R090": {
+   "id": "R090",
+   "us": "not found",
+   "cross": []
+  },
+  "R091": {
+   "id": "R091",
+   "us": "partial",
+   "cross": []
+  },
+  "R092": {
+   "id": "R092",
+   "us": "not found",
+   "cross": []
+  },
+  "R093": {
+   "id": "R093",
+   "us": "not found",
+   "cross": []
+  },
+  "R094": {
+   "id": "R094",
+   "us": "written",
+   "cross": [
+    {
+     "row": "R032",
+     "substance": "Nivolumab",
+     "us": "written"
+    },
+    {
+     "row": "R080",
+     "substance": "co-trimoxazole",
+     "us": "written"
+    }
+   ]
+  },
+  "R095": {
+   "id": "R095",
+   "us": "partial",
+   "cross": []
+  },
+  "R096": {
+   "id": "R096",
+   "us": "not found",
+   "cross": []
+  },
+  "R097": {
+   "id": "R097",
+   "us": "not found",
+   "cross": []
+  },
+  "R098": {
+   "id": "R098",
+   "us": "not found",
+   "cross": [
+    {
+     "row": "R045",
+     "substance": "Desogestrel",
+     "us": "written"
+    }
+   ]
+  },
+  "R099": {
+   "id": "R099",
+   "us": "partial",
+   "cross": [
+    {
+     "row": "R010",
+     "substance": "Pantoprazole",
+     "us": "not found"
+    },
+    {
+     "row": "R033",
+     "substance": "Paroxetine",
+     "us": "not found"
+    },
+    {
+     "row": "R044",
+     "substance": "Sertraline",
+     "us": "not found"
+    },
+    {
+     "row": "R046",
+     "substance": "Macrogol-containing products",
+     "us": "not found"
+    }
+   ]
+  },
+  "R100": {
+   "id": "R100",
+   "us": "written",
+   "cross": []
+  },
+  "R101": {
+   "id": "R101",
+   "us": "not found",
+   "cross": []
+  },
+  "R102": {
+   "id": "R102",
+   "us": "written",
+   "cross": []
+  },
+  "R103": {
+   "id": "R103",
+   "us": "partial",
+   "cross": []
+  },
+  "R104": {
+   "id": "R104",
+   "us": "not found",
+   "cross": []
+  },
+  "R105": {
+   "id": "R105",
+   "us": "partial",
+   "cross": [
+    {
+     "row": "R090",
+     "substance": "COVID-19 mRNA vaccine (nucleoside-modified)",
+     "us": "not found"
+    },
+    {
+     "row": "R091",
+     "substance": "COVID-19 mRNA vaccine (nucleoside-modified)",
+     "us": "partial"
+    }
+   ]
+  },
+  "R106": {
+   "id": "R106",
+   "us": "not found",
+   "cross": []
+  },
+  "R107": {
+   "id": "R107",
+   "us": "not found",
+   "cross": []
+  },
+  "R108": {
+   "id": "R108",
+   "us": "not found",
+   "cross": []
+  },
+  "R109": {
+   "id": "R109",
+   "us": "not found",
+   "cross": []
+  },
+  "R110": {
+   "id": "R110",
+   "us": "not found",
+   "cross": []
+  },
+  "R111": {
+   "id": "R111",
+   "us": "not found",
+   "cross": []
+  },
+  "R112": {
+   "id": "R112",
+   "us": "not found",
+   "cross": []
+  },
+  "R113": {
+   "id": "R113",
+   "us": "not found",
+   "cross": []
+  },
+  "R114": {
+   "id": "R114",
+   "us": "not found",
+   "cross": []
+  },
+  "R115": {
+   "id": "R115",
+   "us": "not found",
+   "cross": []
+  },
+  "R116": {
+   "id": "R116",
+   "us": "partial",
+   "cross": [
+    {
+     "row": "R027",
+     "substance": "Durvalumab",
+     "us": "written"
+    }
+   ]
+  },
+  "R117": {
+   "id": "R117",
+   "us": "written",
+   "cross": [
+    {
+     "row": "R032",
+     "substance": "Nivolumab",
+     "us": "written"
+    },
+    {
+     "row": "R080",
+     "substance": "Sulfamethoxazole, trimethoprim",
+     "us": "written"
+    },
+    {
+     "row": "R094",
+     "substance": "Piperacillin; piperacillin, tazobactam",
+     "us": "written"
+    }
+   ]
+  },
+  "R118": {
+   "id": "R118",
+   "us": "not found",
+   "cross": []
+  },
+  "R119": {
+   "id": "R119",
+   "us": "partial",
+   "cross": []
+  },
+  "R120": {
+   "id": "R120",
+   "us": "written",
+   "cross": []
+  },
+  "R121": {
+   "id": "R121",
+   "us": "not found",
+   "cross": []
+  },
+  "R122": {
+   "id": "R122",
+   "us": "not found",
+   "cross": []
+  },
+  "R123": {
+   "id": "R123",
+   "us": "unknown",
+   "cross": []
+  },
+  "R124": {
+   "id": "R124",
+   "us": "not found",
+   "cross": [
+    {
+     "row": "R083",
+     "substance": "ChAdOx1-S",
+     "us": "not marketed"
+    },
+    {
+     "row": "R110",
+     "substance": "Elasomeran",
+     "us": "not found"
+    }
+   ]
+  },
+  "R125": {
+   "id": "R125",
+   "us": "not found",
+   "cross": []
+  },
+  "R126": {
+   "id": "R126",
+   "us": "not found",
+   "cross": [
+    {
+     "row": "R101",
+     "substance": "Olmesartan",
+     "us": "not found"
+    },
+    {
+     "row": "R057",
+     "substance": "Ibrutinib",
+     "us": "partial"
+    },
+    {
+     "row": "R082",
+     "substance": "Ceftriaxone",
+     "us": "not found"
+    }
+   ]
+  },
+  "R127": {
+   "id": "R127",
+   "us": "written",
+   "cross": [
+    {
+     "row": "R034",
+     "substance": "Thiazide, thiazide-like diuretics and co",
+     "us": "not found"
+    }
+   ]
+  },
+  "R128": {
+   "id": "R128",
+   "us": "partial",
+   "cross": [
+    {
+     "row": "R062",
+     "substance": "Pembrolizumab",
+     "us": "written"
+    }
+   ]
+  },
+  "R129": {
+   "id": "R129",
+   "us": "not found",
+   "cross": []
+  },
+  "R130": {
+   "id": "R130",
+   "us": "written",
+   "cross": [
+    {
+     "row": "R052",
+     "substance": "Pomalidomide",
+     "us": "partial"
+    },
+    {
+     "row": "R093",
+     "substance": "Methotrexate",
+     "us": "not found"
+    }
+   ]
+  },
+  "R131": {
+   "id": "R131",
+   "us": "partial",
+   "cross": []
+  },
+  "R132": {
+   "id": "R132",
+   "us": "written",
+   "cross": [
+    {
+     "row": "R017",
+     "substance": "Temozolomide",
+     "us": "not found"
+    },
+    {
+     "row": "R037",
+     "substance": "Idelalisib",
+     "us": "written"
+    },
+    {
+     "row": "R043",
+     "substance": "Mirtazapine",
+     "us": "written"
+    }
+   ]
+  },
+  "R133": {
+   "id": "R133",
+   "us": "partial",
+   "cross": []
+  },
+  "R134": {
+   "id": "R134",
+   "us": "written",
+   "cross": []
+  },
+  "R135": {
+   "id": "R135",
+   "us": "not found",
+   "cross": [
+    {
+     "row": "R017",
+     "substance": "Temozolomide",
+     "us": "not found"
+    },
+    {
+     "row": "R037",
+     "substance": "Idelalisib",
+     "us": "written"
+    },
+    {
+     "row": "R043",
+     "substance": "Mirtazapine",
+     "us": "written"
+    },
+    {
+     "row": "R067",
+     "substance": "Anakinra/canakinumab",
+     "us": "written"
+    },
+    {
+     "row": "R132",
+     "substance": "Pirfenidone",
+     "us": "written"
+    }
+   ]
+  },
+  "R136": {
+   "id": "R136",
+   "us": "not found",
+   "cross": []
+  },
+  "R137": {
+   "id": "R137",
+   "us": "not found",
+   "cross": [
+    {
+     "row": "R090",
+     "substance": "mRNA vac",
+     "us": "not found"
+    },
+    {
+     "row": "R091",
+     "substance": "mRNA vac",
+     "us": "partial"
+    },
+    {
+     "row": "R105",
+     "substance": "Enzalutamide",
+     "us": "partial"
+    }
+   ]
+  },
+  "R138": {
+   "id": "R138",
+   "us": "not found",
+   "cross": []
+  },
+  "R139": {
+   "id": "R139",
+   "us": "not found",
+   "cross": []
+  },
+  "R140": {
+   "id": "R140",
+   "us": "not found",
+   "cross": []
+  },
+  "R141": {
+   "id": "R141",
+   "us": "not found",
+   "cross": []
+  },
+  "R142": {
+   "id": "R142",
+   "us": "not found",
+   "cross": [
+    {
+     "row": "R017",
+     "substance": "Temozolomide",
+     "us": "not found"
+    },
+    {
+     "row": "R037",
+     "substance": "Idelalisib",
+     "us": "written"
+    },
+    {
+     "row": "R043",
+     "substance": "Mirtazapine",
+     "us": "written"
+    },
+    {
+     "row": "R067",
+     "substance": "Anakinra/canakinumab",
+     "us": "written"
+    },
+    {
+     "row": "R132",
+     "substance": "Pirfenidone",
+     "us": "written"
+    },
+    {
+     "row": "R135",
+     "substance": "Cefotaxime",
+     "us": "not found"
+    }
+   ]
+  },
+  "R143": {
+   "id": "R143",
+   "us": "unknown",
+   "cross": []
+  },
+  "R144": {
+   "id": "R144",
+   "us": "not found",
+   "cross": []
+  },
+  "R145": {
+   "id": "R145",
+   "us": "not found",
+   "cross": []
+  },
+  "R146": {
+   "id": "R146",
+   "us": "not found",
+   "cross": []
+  },
+  "R147": {
+   "id": "R147",
+   "us": "written",
+   "cross": []
+  },
+  "R148": {
+   "id": "R148",
+   "us": "not found",
+   "cross": []
+  },
+  "R149": {
+   "id": "R149",
+   "us": "partial",
+   "cross": [
+    {
+     "row": "R104",
+     "substance": "Pregabalin",
+     "us": "not found"
+    }
+   ]
+  },
+  "R150": {
+   "id": "R150",
+   "us": "written",
+   "cross": []
+  },
+  "R151": {
+   "id": "R151",
+   "us": "not found",
+   "cross": []
+  },
+  "R152": {
+   "id": "R152",
+   "us": "not found",
+   "cross": []
+  },
+  "R153": {
+   "id": "R153",
+   "us": "written",
+   "cross": []
+  },
+  "R154": {
+   "id": "R154",
+   "us": "not found",
+   "cross": []
+  },
+  "R155": {
+   "id": "R155",
+   "us": "not found",
+   "cross": []
+  },
+  "R156": {
+   "id": "R156",
+   "us": "not found",
+   "cross": []
+  },
+  "R157": {
+   "id": "R157",
+   "us": "written",
+   "cross": [
+    {
+     "row": "R148",
+     "substance": "Acetazolamide",
+     "us": "not found"
+    }
+   ]
+  },
+  "R158": {
+   "id": "R158",
+   "us": "not found",
+   "cross": []
+  },
+  "R159": {
+   "id": "R159",
+   "us": "not found",
+   "cross": []
+  },
+  "R160": {
+   "id": "R160",
+   "us": "not found",
+   "cross": []
+  },
+  "R161": {
+   "id": "R161",
+   "us": "partial",
+   "cross": [
+    {
+     "row": "R010",
+     "substance": "Pantoprazole",
+     "us": "not found"
+    },
+    {
+     "row": "R033",
+     "substance": "Paroxetine",
+     "us": "not found"
+    },
+    {
+     "row": "R044",
+     "substance": "Sertraline",
+     "us": "not found"
+    },
+    {
+     "row": "R046",
+     "substance": "Macrogol-containing products",
+     "us": "not found"
+    }
+   ]
+  },
+  "R162": {
+   "id": "R162",
+   "us": "not marketed",
+   "cross": []
+  },
+  "R163": {
+   "id": "R163",
+   "us": "unknown",
+   "cross": []
+  },
+  "R164": {
+   "id": "R164",
+   "us": "written",
+   "cross": [
+    {
+     "row": "R162",
+     "substance": "Tegafur/gimeracil/oteracil",
+     "us": "not marketed"
+    }
+   ]
+  },
+  "R165": {
+   "id": "R165",
+   "us": "not found",
+   "cross": []
+  },
+  "R166": {
+   "id": "R166",
+   "us": "written",
+   "cross": []
+  },
+  "R167": {
+   "id": "R167",
+   "us": "not found",
+   "cross": []
+  },
+  "R168": {
+   "id": "R168",
+   "us": "not found",
+   "cross": []
+  },
+  "R169": {
+   "id": "R169",
+   "us": "not found",
+   "cross": []
+  },
+  "R170": {
+   "id": "R170",
+   "us": "not found",
+   "cross": []
+  },
+  "R171": {
+   "id": "R171",
+   "us": "written",
+   "cross": [
+    {
+     "row": "R052",
+     "substance": "pomalidomide",
+     "us": "partial"
+    },
+    {
+     "row": "R093",
+     "substance": "methotrexate",
+     "us": "not found"
+    }
+   ]
+  },
+  "R172": {
+   "id": "R172",
+   "us": "not found",
+   "cross": []
+  },
+  "R173": {
+   "id": "R173",
+   "us": "not found",
+   "cross": []
+  },
+  "R174": {
+   "id": "R174",
+   "us": "not found",
+   "cross": []
+  },
+  "R175": {
+   "id": "R175",
+   "us": "not found",
+   "cross": []
+  },
+  "R176": {
+   "id": "R176",
+   "us": "not found",
+   "cross": []
+  },
+  "R177": {
+   "id": "R177",
+   "us": "not found",
+   "cross": []
+  },
+  "R178": {
+   "id": "R178",
+   "us": "written",
+   "cross": []
+  },
+  "R179": {
+   "id": "R179",
+   "us": "partial",
+   "cross": [
+    {
+     "row": "R062",
+     "substance": "pembrolizumab",
+     "us": "written"
+    },
+    {
+     "row": "R128",
+     "substance": "azacitidine",
+     "us": "partial"
+    }
+   ]
+  },
+  "R180": {
+   "id": "R180",
+   "us": "partial",
+   "cross": [
+    {
+     "row": "R049",
+     "substance": "abiraterone",
+     "us": "partial"
+    },
+    {
+     "row": "R060",
+     "substance": "capecitabine",
+     "us": "not found"
+    },
+    {
+     "row": "R068",
+     "substance": "ChAdOx1-S",
+     "us": "not marketed"
+    }
+   ]
+  },
+  "R181": {
+   "id": "R181",
+   "us": "partial",
+   "cross": []
+  },
+  "R182": {
+   "id": "R182",
+   "us": "not found",
+   "cross": []
+  },
+  "R183": {
+   "id": "R183",
+   "us": "not found",
+   "cross": []
+  },
+  "R184": {
+   "id": "R184",
+   "us": "not found",
+   "cross": [
+    {
+     "row": "R118",
+     "substance": "Regorafenib",
+     "us": "not found"
+    }
+   ]
+  },
+  "R185": {
+   "id": "R185",
+   "us": "not found",
+   "cross": []
+  },
+  "R186": {
+   "id": "R186",
+   "us": "not found",
+   "cross": []
+  },
+  "R187": {
+   "id": "R187",
+   "us": "not found",
+   "cross": []
+  },
+  "R188": {
+   "id": "R188",
+   "us": "not found",
+   "cross": []
+  },
+  "R189": {
+   "id": "R189",
+   "us": "not found",
+   "cross": []
+  },
+  "R190": {
+   "id": "R190",
+   "us": "not found",
+   "cross": []
+  },
+  "R191": {
+   "id": "R191",
+   "us": "written",
+   "cross": [
+    {
+     "row": "R037",
+     "substance": "Idelalisib",
+     "us": "written"
+    },
+    {
+     "row": "R043",
+     "substance": "Mirtazapine",
+     "us": "written"
+    },
+    {
+     "row": "R067",
+     "substance": "Anakinra; canakinumab",
+     "us": "written"
+    },
+    {
+     "row": "R132",
+     "substance": "Pirfenidone",
+     "us": "written"
+    },
+    {
+     "row": "R135",
+     "substance": "Cefotaxime",
+     "us": "not found"
+    },
+    {
+     "row": "R142",
+     "substance": "Ethambutol",
+     "us": "not found"
+    }
+   ]
+  },
+  "R192": {
+   "id": "R192",
+   "us": "written",
+   "cross": []
+  },
+  "R193": {
+   "id": "R193",
+   "us": "not found",
+   "cross": []
+  },
+  "R194": {
+   "id": "R194",
+   "us": "partial",
+   "cross": []
+  },
+  "R195": {
+   "id": "R195",
+   "us": "not found",
+   "cross": []
+  },
+  "R196": {
+   "id": "R196",
+   "us": "not found",
+   "cross": []
+  },
+  "R197": {
+   "id": "R197",
+   "us": "partial",
+   "cross": [
+    {
+     "row": "R191",
+     "substance": "Gemcitabine",
+     "us": "written"
+    }
+   ]
+  }
+ },
+ "skipped": [],
+ "report": [
+  {
+   "job": 1,
+   "status": "completed",
+   "chunks": [
+    {
+     "id": 1,
+     "promptTokensEstimated": 243,
+     "carryoverTokensIn": 0,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 2,
+     "promptTokensEstimated": 344,
+     "carryoverTokensIn": 50,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 3,
+     "promptTokensEstimated": 426,
+     "carryoverTokensIn": 104,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 4,
+     "promptTokensEstimated": 400,
+     "carryoverTokensIn": 158,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 5,
+     "promptTokensEstimated": 468,
+     "carryoverTokensIn": 200,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 6,
+     "promptTokensEstimated": 510,
+     "carryoverTokensIn": 240,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 7,
+     "promptTokensEstimated": 557,
+     "carryoverTokensIn": 272,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 8,
+     "promptTokensEstimated": 594,
+     "carryoverTokensIn": 309,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 9,
+     "promptTokensEstimated": 670,
+     "carryoverTokensIn": 363,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 10,
+     "promptTokensEstimated": 675,
+     "carryoverTokensIn": 400,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 11,
+     "promptTokensEstimated": 736,
+     "carryoverTokensIn": 444,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+    },
+    {
+     "id": 12,
+     "promptTokensEstimated": 758,
+     "carryoverTokensIn": 478,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 13,
+     "promptTokensEstimated": 869,
+     "carryoverTokensIn": 531,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 14,
+     "promptTokensEstimated": 861,
+     "carryoverTokensIn": 563,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 15,
+     "promptTokensEstimated": 979,
+     "carryoverTokensIn": 605,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 16,
+     "promptTokensEstimated": 916,
+     "carryoverTokensIn": 629,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 17,
+     "promptTokensEstimated": 976,
+     "carryoverTokensIn": 668,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 18,
+     "promptTokensEstimated": 1056,
+     "carryoverTokensIn": 728,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 19,
+     "promptTokensEstimated": 887,
+     "carryoverTokensIn": 638,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 20,
+     "promptTokensEstimated": 960,
+     "carryoverTokensIn": 671,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 21,
+     "promptTokensEstimated": 968,
+     "carryoverTokensIn": 713,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 22,
+     "promptTokensEstimated": 1048,
+     "carryoverTokensIn": 752,
+     "cascade": "truncation",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    }
+   ],
+   "tokenLabel": "estimated",
+   "efficiencyPercent": 0,
+   "finalCarryoverTokens": 798
+  },
+  {
+   "job": 2,
+   "status": "completed",
+   "chunks": [
+    {
+     "id": 1,
+     "promptTokensEstimated": 1243,
+     "carryoverTokensIn": 0,
+     "cascade": "truncation",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 2,
+     "promptTokensEstimated": 1120,
+     "carryoverTokensIn": 800,
+     "cascade": "llm",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 3,
+     "promptTokensEstimated": 386,
+     "carryoverTokensIn": 18,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 4,
+     "promptTokensEstimated": 463,
+     "carryoverTokensIn": 76,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 5,
+     "promptTokensEstimated": 455,
+     "carryoverTokensIn": 110,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 6,
+     "promptTokensEstimated": 483,
+     "carryoverTokensIn": 164,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 7,
+     "promptTokensEstimated": 560,
+     "carryoverTokensIn": 198,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 8,
+     "promptTokensEstimated": 521,
+     "carryoverTokensIn": 242,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 9,
+     "promptTokensEstimated": 651,
+     "carryoverTokensIn": 283,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 10,
+     "promptTokensEstimated": 658,
+     "carryoverTokensIn": 321,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 11,
+     "promptTokensEstimated": 725,
+     "carryoverTokensIn": 355,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 12,
+     "promptTokensEstimated": 528,
+     "carryoverTokensIn": 19,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 13,
+     "promptTokensEstimated": 399,
+     "carryoverTokensIn": 75,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 14,
+     "promptTokensEstimated": 365,
+     "carryoverTokensIn": 126,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 15,
+     "promptTokensEstimated": 560,
+     "carryoverTokensIn": 152,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 16,
+     "promptTokensEstimated": 485,
+     "carryoverTokensIn": 218,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+    },
+    {
+     "id": 17,
+     "promptTokensEstimated": 690,
+     "carryoverTokensIn": 244,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3.5-super-vl-120b-a12b"
+    },
+    {
+     "id": 18,
+     "promptTokensEstimated": 543,
+     "carryoverTokensIn": 281,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 19,
+     "promptTokensEstimated": 584,
+     "carryoverTokensIn": 323,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 20,
+     "promptTokensEstimated": 464,
+     "carryoverTokensIn": 126,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 21,
+     "promptTokensEstimated": 532,
+     "carryoverTokensIn": 192,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 22,
+     "promptTokensEstimated": 739,
+     "carryoverTokensIn": 238,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    }
+   ],
+   "tokenLabel": "estimated",
+   "efficiencyPercent": 0,
+   "finalCarryoverTokens": 311
+  },
+  {
+   "job": 3,
+   "status": "completed",
+   "chunks": [
+    {
+     "id": 1,
+     "promptTokensEstimated": 748,
+     "carryoverTokensIn": 0,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 2,
+     "promptTokensEstimated": 696,
+     "carryoverTokensIn": 346,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 3,
+     "promptTokensEstimated": 688,
+     "carryoverTokensIn": 383,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 4,
+     "promptTokensEstimated": 915,
+     "carryoverTokensIn": 475,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 5,
+     "promptTokensEstimated": 687,
+     "carryoverTokensIn": 423,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 6,
+     "promptTokensEstimated": 767,
+     "carryoverTokensIn": 460,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 7,
+     "promptTokensEstimated": 799,
+     "carryoverTokensIn": 498,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 8,
+     "promptTokensEstimated": 841,
+     "carryoverTokensIn": 541,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 9,
+     "promptTokensEstimated": 864,
+     "carryoverTokensIn": 587,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 10,
+     "promptTokensEstimated": 1001,
+     "carryoverTokensIn": 617,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 11,
+     "promptTokensEstimated": 958,
+     "carryoverTokensIn": 654,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 12,
+     "promptTokensEstimated": 499,
+     "carryoverTokensIn": 200,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 13,
+     "promptTokensEstimated": 636,
+     "carryoverTokensIn": 237,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 14,
+     "promptTokensEstimated": 600,
+     "carryoverTokensIn": 303,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 15,
+     "promptTokensEstimated": 634,
+     "carryoverTokensIn": 341,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 16,
+     "promptTokensEstimated": 757,
+     "carryoverTokensIn": 381,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 17,
+     "promptTokensEstimated": 708,
+     "carryoverTokensIn": 448,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 18,
+     "promptTokensEstimated": 779,
+     "carryoverTokensIn": 482,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 19,
+     "promptTokensEstimated": 802,
+     "carryoverTokensIn": 529,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 20,
+     "promptTokensEstimated": 1051,
+     "carryoverTokensIn": 564,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 21,
+     "promptTokensEstimated": 914,
+     "carryoverTokensIn": 600,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+     "id": 22,
+     "promptTokensEstimated": 1101,
+     "carryoverTokensIn": 648,
+     "cascade": "marker",
+     "model": "nvidia/nemotron-3-ultra-550b-a55b"
+    }
+   ],
+   "tokenLabel": "estimated",
+   "efficiencyPercent": 0,
+   "finalCarryoverTokens": 667
+  }
+ ],
+ "seconds": 5626.799
+}

@@ -1,0 +1,21 @@
+{
+ "id": "R183",
+ "model_requested": "gpt-5.5",
+ "model_served": "gpt-5.5-2026-04-23",
+ "secs": 74.5,
+ "usage": {
+  "input_tokens": 101040,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 3712
+  },
+  "output_tokens": 3008,
+  "output_tokens_details": {
+   "reasoning_tokens": 2556
+  },
+  "total_tokens": 104048
+ },
+ "text": "{\"us_status\":\"partial\",\"label_product\":\"BALVERSA (erdafitinib) tablets, for oral use\",\"label_version_or_date\":\"Revised: 10/2025; FDA label 212018s011, Reference ID 5678765\",\"label_section\":\"Use in Specific Populations, 8.4 Pediatric Use\",\"quote\":\"In the postmarket setting and in literature reports, cases of slipped capital femoral epiphysis and accelerated linear growth in patients treated with BALVERSA have been reported.\",\"eu\":\"EU: PRAC Jan 2026 recommended adding growth acceleration/epiphysiolysis; current EMA SmPC section 4.8 includes it for paediatric/off-label use.\",\"uk\":\"UK MHRA: current UK SmPC section 4.8 includes growth acceleration and epiphysiolysis in paediatric patients; text revision 20/05/2026.\",\"us_regulator\":\"Yes—FDA pharmacovigilance authors published a public FAERS/literature postmarketing evaluation and state FDA revised the USPI; no Sentinel study found.\",\"sources\":[\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2a8aa5c0-6c92-4566-8c45-e8f4d1fc20ee\",\"https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/212018s011lbl.pdf\",\"https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-12-15-january-2026-prac-meeting_en.pdf\",\"https://www.ema.europa.eu/en/documents/product-information/balversa-epar-product-information_en.pdf\",\"https://www.ema.europa.eu/en/medicines/human/EPAR/balversa\",\"https://www.medicines.org.uk/emc/product/100245/smpc\",\"https://products.mhra.gov.uk/\",\"https://www.gov.uk/guidance/find-product-information-about-medicines\",\"https://pmc.ncbi.nlm.nih.gov/articles/PMC13008465/\"]}",
+ "annotation_urls": [],
+ "at": "2026-10-24T01:58:20"
+}

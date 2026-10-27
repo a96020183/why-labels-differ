@@ -1,0 +1,21 @@
+{
+ "id": "R168",
+ "model_requested": "gpt-5.5",
+ "model_served": "gpt-5.5-2026-04-23",
+ "secs": 57.8,
+ "usage": {
+  "input_tokens": 73134,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 3712
+  },
+  "output_tokens": 2710,
+  "output_tokens_details": {
+   "reasoning_tokens": 2061
+  },
+  "total_tokens": 75844
+ },
+ "text": "{\"us_status\":\"not found\",\"label_product\":\"SILIQ (brodalumab) injection, for subcutaneous use\",\"label_version_or_date\":\"DailyMed SPL version 24, effective 2026-05-28; DailyMed revised 5/2026; PI/Medication Guide revised 02/2026\",\"label_section\":\"N/A - pyoderma gangrenosum is not mentioned in the current U.S. prescribing information, including Warnings and Precautions, Adverse Reactions/Postmarketing Experience, and patient labeling\",\"quote\":\"\",\"eu\":\"EMA/PRAC June 2025 recommended adding pyoderma gangrenosum to Kyntheum SmPC section 4.8; current EU product information lists Skin and subcutaneous tissue disorders: Pyoderma gangrenosum, frequency Not known.\",\"uk\":\"UK MHRA Kyntheum SmPC lists Skin and subcutaneous tissue disorders: Pyoderma gangrenosum, frequency Not known, in section 4.8 Undesirable effects.\",\"us_regulator\":\"No FDA public evaluation specific to Siliq/brodalumab and pyoderma gangrenosum found; FDA/Sentinel has Siliq assessments/study for hospitalized neutropenia, myocardial infarction/stroke, and serious infection, not pyoderma gangrenosum, and the AEMS potential-signals example found for pyoderma gangrenosum is Ocrevus, not Siliq.\",\"sources\":[\"https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=1a550c33-456a-4833-814e-8591aea7c688\",\"https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761032s020lbl.pdf\",\"https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-2-5-june-2025-prac-meeting_en.pdf\",\"https://www.ema.europa.eu/en/documents/product-information/kyntheum-epar-product-information_en.pdf\",\"https://www.ema.europa.eu/en/documents/procedural-steps-after/kyntheum-epar-procedural-steps-taken-scientific-information-after-authorisation_en.pdf\",\"https://mhraproducts4853.blob.core.windows.net/docs/6c65002438cba50d7f07641a90658a4b9500c068\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/july-september-2022-potential-signals-serious-risksnew-safety-information-identified-fda-adverse\",\"https://www.sentinelinitiative.org/studies/drugs/assessing-arias-ability-evaluate-safety-concern/siliq-brodalumab\"]}",
+ "annotation_urls": [],
+ "at": "2026-10-24T01:51:56"
+}

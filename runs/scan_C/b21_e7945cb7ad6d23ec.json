@@ -1,0 +1,14 @@
+{
+ "tag": "b21",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {
+  "prompt_tokens": 7877,
+  "completion_tokens": 4000,
+  "total_tokens": 11877
+ },
+ "latency": 45.204,
+ "hadThink": true,
+ "promptTokensEstimated": 2419,
+ "text": "{\"id\":\"R161\",\"us\":\"partial\",\"cross\":[]}\n{\"id\":\"R162\",\"us\":\"not marketed\",\"cross\":"
+}

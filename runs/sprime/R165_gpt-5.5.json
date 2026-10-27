@@ -1,0 +1,21 @@
+{
+ "id": "R165",
+ "model_requested": "gpt-5.5",
+ "model_served": "gpt-5.5-2026-04-23",
+ "secs": 75.2,
+ "usage": {
+  "input_tokens": 82575,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 3712
+  },
+  "output_tokens": 3380,
+  "output_tokens_details": {
+   "reasoning_tokens": 2664
+  },
+  "total_tokens": 85955
+ },
+ "text": "{\"us_status\":\"not found\",\"label_product\":\"ZOLOFT (sertraline hydrochloride) tablets and oral solution, Viatris Specialty LLC; NDA 019839/020990\",\"label_version_or_date\":\"DailyMed updated 2023-08-08\",\"label_section\":\"Not found in current U.S. ZOLOFT prescribing information/Medication Guide; DailyMed text search found no \\\"multiple acyl\\\", \\\"dehydrogenase\\\", or \\\"MADD\\\".\",\"quote\":\"\",\"eu\":\"EU PRAC adopted 2025-05-08 recommendation to add to SmPC section 4.8, frequency not known: \\\"Multiple acyl-coenzyme A dehydrogenase deficiency (MADD)-like disorder\\\"; package leaflet to mention muscle weakness and severe muscle pain as a sign.\",\"uk\":\"UK MHRA product information/leaflet updated July 2025 lists under side effects, frequency not known: muscle weakness and severe muscle pain as a sign of MADD-like disorder.\",\"us_regulator\":\"No FDA public evaluation found for sertraline/MADD in searched FDA AEMS/FAERS potential-signals quarterly reports through Apr-Jun 2026 or Sentinel searches.\",\"sources\":[\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fda754f6-d0f3-4dce-a17a-927d64f912f7\",\"https://nctr-crs.fda.gov/fdalabel/ui/spl-summaries/criteria/102754\",\"https://www.ema.europa.eu/system/files/documents/prac-recommendation/prac-recommendations-signals-adopted-5-8-may-2025-prac_en.pdf\",\"https://mhraproducts4853.blob.core.windows.net/docs/20ac3338eb2b7d232a14b24cd68796b0fe20b4ad\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/april-june-2026-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/january-march-2026-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/october-december-2025-new-safety-information-or-potential-signals-serious-risks-identified-fda\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/july-september-2025-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/april-june-2025-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/january-march-2025-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse\"]}",
+ "annotation_urls": [],
+ "at": "2026-10-24T01:50:58"
+}

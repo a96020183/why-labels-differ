@@ -1,0 +1,15 @@
+{
+ "tag": "job1_c03",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3.5-super-vl-120b-a12b",
+ "usage": {
+  "prompt_tokens": 3503,
+  "completion_tokens": 8145,
+  "total_tokens": 11648
+ },
+ "latency": 119.767,
+ "hadThink": false,
+ "promptTokensEstimated": 1008,
+ "rawChars": 1810,
+ "text": "{\"id\":\"R017\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R018\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R019\",\"us\":\"unknown\",\"cross\":[]}\n{\"id\":\"R020\",\"us\":\"unknown\",\"cross\":[]}\n{\"id\":\"R021\",\"us\":\"not found\",\"cross\":[{\"row\":\"R005\",\"substance\":\"Armodafinil; modafinil\",\"us\":\"not found\"},{\"row\":\"R013\",\"substance\":\"Propylthiouracil\",\"us\":\"not found\"}]}\n{\"id\":\"R022\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R023\",\"us\":\"partial\",\"cross\":[]}\n{\"id\":\"R024\",\"us\":\"not found\",\"cross\":[]}\n[STATE_CHECKPOINT]\nCOMPLETED: R024\nREMAINING: 0\nDECISIONS: R021 birth defects/congenital anomalies cross-matches R005 (N06B vs A04A) and R013 (H03B vs A04A); no other same-reaction different-class pairs in this batch.\nCONTEXT: Interference with clinical laboratory tests: R001 Biotin A11H not found; Congenital anomalies: R005 Armodafinil; modafinil N06B not found; R013 Propylthiouracil H03B not found; R021 Ondansetron A04A not found; Colitis microscopic: R010 Pantoprazole A02B not found; Maculopathy: R011 Sertraline N06A not found; Brugada syndrome: R012 Loperamide A07D not found; Dermatitis exfoliative generalised: R015 Secukinumab L04A not found; Interference with NADH/NADPH: R016 Sulfasalazine A07E not found; DRESS: R017 Temozolomide L01A not found; Uveitis: R018 Topiramate A08A,N03A not found; Adverse outcomes in neonates treated with solutions not protected from light: R019 Amino acids and/or lipids with or without admixture of vitamins or trace elements (for parenteral nutrition) B05B unknown; Nephrolithiasis: R020 Mesalazine A07E unknown; Artery dissections and aneurysms: R022 Vascular endothelial growth factor (VEGF) inhibitors for systemic administration: aflibercept; axitinib; bevac L01E,L01F,L01X,S01L not found; Ischaemic stroke: R023 Ibrutinib L01E partial; AGEP: R024 Ibuprofen C01E,G02C,M01A,M02A,N02A,R02A not found"
+}

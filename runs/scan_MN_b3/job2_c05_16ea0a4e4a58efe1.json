@@ -1,0 +1,18 @@
+{
+ "tag": "job2_c05",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {},
+ "latency": 39.965,
+ "hadThink": true,
+ "tries": 1,
+ "call": {
+  "stream": true,
+  "tierSplit": false,
+  "isoScope": true
+ },
+ "promptTokensEstimated": 924,
+ "rawChars": 847,
+ "task": "Continuing a chunked research run. Goal (truncated): Scan PRAC rows batch 23-44 into the divergence ledger and keep the cross-entry index in CONTEXT.\n\n[CARRYOVER STATE]\nCOMPLETED: R078\nREMAINING: 54\nDECISIONS: -\nCONTEXT: Hypoparathyroidism: ; Embolic and thrombotic events: R069 ChAdOx1-S J07B nm, R072 Ad26.COV2-S J07B nm, R073 ChAdOx1-S J07B nm, R077 Ad26.COV2-S J07B nm; Sarcoidosis: R056 Dabrafenib/trametinib L01E p, R074 Alemtuzumab L01X,L04A p; Acute renal failure: R075 Clindamycin D10A nf; Localised swelling (dermal filler): R076 Comirnaty J07B nf; Henoch-Schonlein purpura: R078 Secukinumab L04A nf\n\nContinue exactly where the state leaves off. Do not repeat completed work.\n\n[BATCH 27 of 66; chunk 5 of 22 in this job]\nR079 | PRAC 2021-05 | Sulfamethoxazole, trimethoprim (co-trimoxazole) | ATC3 J01E | signal: Acute respiratory distress syndrome | US label: partial (sulfamethoxazole, label effective 20260902, section: adverse_reactions)\nR080 | PRAC 2021-05 | Sulfamethoxazole, trimethoprim (co-trimoxazole) | ATC3 J01E | signal: Haemophagocytic lymphohistiocytosis | US label: written (bactrim, label effective 20241230, section: warnings)\nR081 | PRAC 2021-05 | Tramadol; tramadol, dexketoprofen; tramadol, paracetamol | ATC3 M01A,M02A,N02A,N02B | signal: Serotonin syndrome | US label: written (tramadol, label effective 20260901, section: warnings_and_cautions)\n[NAME-INDEX CANDIDATES - earlier rows whose reaction name shares most words; check class and meaning yourself]\nR080: R032 Nivolumab ATC3 L01F,L01X US written (\"Haemophagocytic lymphohistiocytosis\")\n\nEnd every non-final chunk with [STATE_CHECKPOINT] followed by a concise state block:\nCOMPLETED: ...\nREMAINING: ...\nDECISIONS: ...\nCONTEXT: ...\nEnd the final chunk with [TASK_COMPLETE]. Exactly one marker per chunk. Never narrate the markers.",
+ "text": "{\"id\":\"R079\",\"us\":\"partial\",\"cross\":[]}\n{\"id\":\"R080\",\"us\":\"written\",\"cross\":[{\"row\":\"R032\",\"substance\":\"Nivolumab\",\"us\":\"written\"}]}\n{\"id\":\"R081\",\"us\":\"written\",\"cross\":[]}\n[STATE_CHECKPOINT]\nCOMPLETED: R081\nREMAINING: 51\nDECISIONS: -\nCONTEXT: Hypoparathyroidism: ; Embolic and thrombotic events: R069 ChAdOx1-S J07B nm, R072 Ad26.COV2-S J07B nm, R073 ChAdOx1-S J07B nm, R077 Ad26.COV2-S J07B nm; Sarcoidosis: R056 Dabrafenib/trametinib L01E p, R074 Alemtuzumab L01X,L04A p; Acute renal failure: R075 Clindamycin D10A nf; Localised swelling (dermal filler): R076 Comirnaty J07B nf; Henoch-Schonlein purpura: R078 Secukinumab L04A nf; Acute respiratory distress syndrome: R079 co-trimoxazole J01E p; Haemophagocytic lymphohistiocytosis: R032 Nivolumab L01F,L01X w, R080 co-trimoxazole J01E w; Serotonin syndrome: R081 tramadol M01A,M02A,N02A,N02B w"
+}

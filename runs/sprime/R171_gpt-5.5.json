@@ -1,0 +1,21 @@
+{
+ "id": "R171",
+ "model_requested": "gpt-5.5",
+ "model_served": "gpt-5.5-2026-04-23",
+ "secs": 85.3,
+ "usage": {
+  "input_tokens": 78842,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 3712
+  },
+  "output_tokens": 4091,
+  "output_tokens_details": {
+   "reasoning_tokens": 3494
+  },
+  "total_tokens": 82933
+ },
+ "text": "{\"us_status\":\"written\",\"label_product\":\"CARVYKTI (ciltacabtagene autoleucel) suspension for intravenous infusion\",\"label_version_or_date\":\"FDA PI revised 10/2025; DailyMed current version 18, published 2026-07-20\",\"label_section\":\"Warnings and Precautions, 5.6 Infections, Viral Reactivation; also Adverse Reactions, 6.2 Postmarketing Experience\",\"quote\":\"Reactivation of John Cunningham (JC) virus, leading to progressive multifocal leukoencephalopathy (PML), including cases with fatal outcomes, have been reported following treatment with CARVYKTI [see Adverse Reactions (6.2)].\",\"eu\":\"EU: PRAC adopted the PML signal recommendation on 2025-07-10 (EPITT 20153); EMA/EPAR product information includes the warning in SmPC section 4.4 Viral reactivation.\",\"uk\":\"UK/MHRA: UK SmPC for CARVYKTI (PLGB 00242/0745; text revised 05/06/2026) includes PML in section 4.4 Special warnings and precautions, Viral reactivation.\",\"us_regulator\":\"FDA: PML is in the current label; no product-specific public FDA FAERS/AEMS potential-signal or Sentinel evaluation for CARVYKTI-PML was found; FDA’s public CARVYKTI safety item is IEC-EC dated 2025-10-10.\",\"sources\":[\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7d040b91-3fb8-41db-ba7f-60a36f06e2c2\",\"https://www.fda.gov/media/156560/download?attachment=\",\"https://www.fda.gov/vaccines-blood-biologics/cellular-gene-therapy-products/carvykti\",\"https://www.ema.europa.eu/en/documents/prac-recommendation/new-product-information-wording-extracts-prac-recommendations-signals-adopted-7-10-july-2025-prac_en.pdf\",\"https://www.ema.europa.eu/en/documents/product-information/carvykti-epar-product-information_en.pdf\",\"https://www.ema.europa.eu/en/documents/procedural-steps-after/carvykti-epar-procedural-steps-taken-scientific-information-after-authorisation_en.pdf\",\"https://www.medicines.org.uk/emc/product/100341/smpc\",\"https://www.gov.uk/drug-safety-update\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/july-september-2023-potential-signals-serious-risksnew-safety-information-identified-fda-adverse\",\"https://www.sentinelinitiative.org/\"]}",
+ "annotation_urls": [],
+ "at": "2026-10-24T01:53:21"
+}

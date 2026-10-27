@@ -1,0 +1,21 @@
+{
+ "id": "R163",
+ "model_requested": "gpt-5.5",
+ "model_served": "gpt-5.5-2026-04-23",
+ "secs": 103.2,
+ "usage": {
+  "input_tokens": 80415,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 3712
+  },
+  "output_tokens": 4790,
+  "output_tokens_details": {
+   "reasoning_tokens": 4101
+  },
+  "total_tokens": 85205
+ },
+ "text": "{\"us_status\":\"not marketed\",\"label_product\":\"No current U.S. human product found for oxytetracycline hydrochloride + hydrocortisone acetate + polymyxin B sulfate ear/eye drops/suspension/ointment; closest U.S. DailyMed/Orange Book product located was Terra-Cortril ophthalmic suspension, which contains oxytetracycline hydrochloride + hydrocortisone acetate only and has an inactivated NDC/discontinued Orange Book listing.\",\"label_version_or_date\":\"DailyMed Terra-Cortril updated 2006-04-07; DailyMed NDC 0049-0670-48 inactivated; FDA Orange Book 46th Edition lists hydrocortisone acetate; oxytetracycline hydrochloride Terra-Cortril as discontinued.\",\"label_section\":\"N/A (no current U.S. marketed/approved human label for the triple combination found)\",\"quote\":\"\",\"eu\":\"EMA/PRAC adopted EPITT 20120 on 2025-04-10: PRAC found sufficient evidence of a causal association with hearing and vestibular disorders and recommended MAHs submit variations to update product information for auricular-use ear/eye drops/ointment.\",\"uk\":\"GOV.UK/MHRA products sources searched: no MHRA/GOV.UK product-information or safety update for the triple oxytetracycline/hydrocortisone/polymyxin B ear/eye product was located; UK product-information routes point to the MHRA products service.\",\"us_regulator\":\"No FDA public evaluation specific to oxytetracycline/hydrocortisone/polymyxin B and hearing/vestibular disorders was found in public FDA AEMS/FAERS potential-signal pages or Sentinel materials searched; FDA public sources instead show no current U.S. triple-combination human product.\",\"sources\":[\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7bff901e-0496-4818-813a-108b762b83a8\",\"https://www.fda.gov/media/71474/download\",\"https://www.fda.gov/drugs/drug-approvals-and-databases/approved-drug-products-therapeutic-equivalence-evaluations-orange-book\",\"https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-7-10-april-2025-meeting_en.pdf\",\"https://www.ema.europa.eu/en/documents/prac-recommendation/new-product-information-wording-extracts-prac-recommendations-signals-adopted-7-10-april-2025-prac_en.pdf\",\"https://www.gov.uk/guidance/find-product-information-about-medicines\",\"https://products.mhra.gov.uk/\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring\",\"https://www.fda.gov/drugs/fdas-adverse-event-reporting-system-faers/fda-adverse-event-reporting-system-faers-latest-quarterly-data-files\",\"https://sentinelinitiative.org/sites/default/files/documents/Final_Sentinel_Report_cder_mpl1r_wp193.pdf\"]}",
+ "annotation_urls": [],
+ "at": "2026-10-24T01:50:15"
+}

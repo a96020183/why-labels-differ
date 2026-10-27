@@ -1,0 +1,18 @@
+{
+ "tag": "job1_c03",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {},
+ "latency": 35.316,
+ "hadThink": true,
+ "tries": 1,
+ "call": {
+  "stream": true,
+  "tierSplit": false,
+  "isoScope": true
+ },
+ "promptTokensEstimated": 895,
+ "rawChars": 792,
+ "task": "Continuing a chunked research run. Goal (truncated): Scan PRAC rows batch 1-22 into the divergence ledger and keep the cross-entry index in CONTEXT.\n\n[CARRYOVER STATE]\nCOMPLETED: R006\nREMAINING: 16\nDECISIONS: -\nCONTEXT: Interference with clinical laboratory tests: R001 Biotin A11H nf; Dysphagia: R002 Gabapentin N02B nf; Hypoparathyroidism: R003 Nivolumab L01F/L01X w; Paracetamol pregnancy neurodevelopment: R004 Paracetamol N02B nf; Foetal outcomes congenital anomalies: R005 Armodafinil/Modafinil N06B nf; Recurrent thrombosis antiphospholipid syndrome: R006 Rivaroxaban+ B01A nf\n\nContinue exactly where the state leaves off. Do not repeat completed work.\n\n[BATCH 3 of 66; chunk 3 of 22 in this job]\nR007 | PRAC 2019-04 | Selective serotonin reuptake inhibitors (SSRI): citalopram; escitalopram | ATC3 N06A | signal: Drug interaction with fluconazole | US label: not found (citalopram, label effective 20260904)\nR008 | PRAC 2019-05 | Clomipramine; Serotonin and noradrenaline reuptake inhibitors (SNRI): desvenlafaxine; duloxetine; milnacipran; | ATC3 N06A | signal: Persistent sexual dysfunction after drug withdrawal | US label: not found (desvenlafaxine, label effective 20260821)\nR009 | PRAC 2019-05 | Clopidogrel; clopidogrel, acetylsalicylic acid | ATC3 B01A | signal: Interaction with boosted antiviral human immunodeficiency virus (HIV) therapy leading to insufficient inhibition of plat | US label: not found (clopidogrel, label effective 20260929)\n\nEnd every non-final chunk with [STATE_CHECKPOINT] followed by a concise state block:\nCOMPLETED: ...\nREMAINING: ...\nDECISIONS: ...\nCONTEXT: ...\nEnd the final chunk with [TASK_COMPLETE]. Exactly one marker per chunk. Never narrate the markers.",
+ "text": "{\"id\":\"R007\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R008\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R009\",\"us\":\"not found\",\"cross\":[]}\n[STATE_CHECKPOINT]\nCOMPLETED: R009\nREMAINING: 13\nDECISIONS: -\nCONTEXT: Interference with clinical laboratory tests: R001 Biotin A11H nf; Dysphagia: R002 Gabapentin N02B nf; Hypoparathyroidism: R003 Nivolumab L01F/L01X w; Paracetamol pregnancy neurodevelopment: R004 Paracetamol N02B nf; Foetal outcomes congenital anomalies: R005 Armodafinil/Modafinil N06B nf; Recurrent thrombosis antiphospholipid syndrome: R006 Rivaroxaban+ B01A nf; Drug interaction with fluconazole: R007 Citalopram/Escitalopram N06A nf; Persistent sexual dysfunction after drug withdrawal: R008 Clomipramine/SNRI N06A nf; Interaction with boosted antiviral HIV therapy: R009 Clopidogrel B01A nf"
+}

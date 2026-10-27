@@ -1,0 +1,14 @@
+{
+ "tag": "b14",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {
+  "prompt_tokens": 5662,
+  "completion_tokens": 3573,
+  "total_tokens": 9235
+ },
+ "latency": 39.138,
+ "hadThink": true,
+ "promptTokensEstimated": 2518,
+ "text": "{\"id\":\"R105\",\"us\":\"partial\",\"cross\":[{\"row\":\"R090\",\"substance\":\"COVID-19 mRNA vaccine (nucleoside-modified) - Comirnaty\",\"us\":\"not found\"},{\"row\":\"R091\",\"substance\":\"COVID-19 mRNA vaccine (nucleoside-modified) - Spikevax (previously COVID-19 Vaccine Moderna)\",\"us\":\"partial\"}]}\n{\"id\":\"R106\",\"us\":\"unknown\",\"cross\":[]}\n{\"id\":\"R107\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R108\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R109\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R110\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R111\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R112\",\"us\":\"unknown\",\"cross\":[]}"
+}

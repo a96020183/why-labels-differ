@@ -1,0 +1,18 @@
+{
+ "tag": "b06",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {},
+ "latency": 13.43,
+ "hadThink": true,
+ "tries": 1,
+ "call": {
+  "stream": true,
+  "tierSplit": false,
+  "isoScope": true
+ },
+ "promptTokensEstimated": 454,
+ "rawChars": 125,
+ "task": "[RETRIEVED EVIDENCE LEDGER ROWS - same ingredient or same ATC level 3 as a row in this batch; 0 of 0 matches, most recent]\n(none)\n\n[BATCH 6 of 66]\nR016 | PRAC 2019-06 | Sulfasalazine | ATC3 A07E | signal: Interference with dihydronicotinamide-adenine dinucleotide / dihydronicotinamide-adenine dinucleotide phosphate (NADH/NA | US label: not found (sulfasalazine, label effective 20260825)\nR017 | PRAC 2019-06 | Temozolomide | ATC3 L01A | signal: Drug reaction with eosinophilia and systemic symptoms (DRESS) | US label: not found (temodar, label effective 20260220)\nR018 | PRAC 2019-06 | Topiramate | ATC3 A08A,N03A | signal: Uveitis | US label: not found (topiramate, label effective 20260904)",
+ "text": "{\"id\":\"R016\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R017\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R018\",\"us\":\"not found\",\"cross\":[]}"
+}

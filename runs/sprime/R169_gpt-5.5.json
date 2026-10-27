@@ -1,0 +1,21 @@
+{
+ "id": "R169",
+ "model_requested": "gpt-5.5",
+ "model_served": "gpt-5.5-2026-04-23",
+ "secs": 61.1,
+ "usage": {
+  "input_tokens": 52950,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 3712
+  },
+  "output_tokens": 2857,
+  "output_tokens_details": {
+   "reasoning_tokens": 2300
+  },
+  "total_tokens": 55807
+ },
+ "text": "{\"us_status\":\"written\",\"label_product\":\"XTANDI (enzalutamide) capsules and tablets, for oral use\",\"label_version_or_date\":\"DailyMed updated July 28, 2026; U.S. Prescribing Information revised 7/2026; Recent Major Changes: Warnings and Precautions (5.8) 12/2025\",\"label_section\":\"Warnings and Precautions (5.8) Interference with Immunoassay Measurement of Digoxin; also Drug Interactions (7.3) Laboratory Test Interference\",\"quote\":\"XTANDI can interfere with certain digoxin immunoassays (e.g., Chemiluminescent Microparticle Immunoassays), resulting in falsely elevated digoxin plasma concentration results.\",\"eu\":\"EU: PRAC June 2025 recommended product-information updates for enzalutamide/digoxin; EMA Xtandi product information now includes CMIA falsely elevated digoxin plasma levels in SmPC section 4.5.\",\"uk\":\"UK: MHRA issued an April 2026 DHPC and September 2026 Safety Roundup; product information for enzalutamide has been updated for CMIA falsely elevated digoxin plasma levels.\",\"us_regulator\":\"FDA: yes—public supplement approval letter for NDA 203415/S-025 and 213674/S-015, approved Dec. 11, 2025, states the sNDAs add digoxin laboratory-test-interference information to Xtandi U.S. PI.\",\"sources\":[\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b129fdc9-1d8e-425c-a5a9-8a2ed36dfbdf\",\"https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/203415s026lbl.pdf\",\"https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/203415Orig1s025,213674Orig1s015ltr.pdf\",\"https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-2-5-june-2025-prac-meeting_en.pdf\",\"https://www.ema.europa.eu/en/documents/product-information/xtandi-epar-product-information_en.pdf\",\"https://assets.publishing.service.gov.uk/media/69ef587920a498c16734afe9/Enzalutamide_DHPC_United_Kingdom_v1.0_Mar2026_SIGNED.pdf\",\"https://www.gov.uk/drug-device-alerts/mhra-safety-roundup-september-2026\"]}",
+ "annotation_urls": [],
+ "at": "2026-10-24T01:52:31"
+}

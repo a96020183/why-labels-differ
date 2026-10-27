@@ -1,0 +1,21 @@
+{
+ "id": "R172",
+ "model_requested": "gpt-5.5",
+ "model_served": "gpt-5.5-2026-04-23",
+ "secs": 74.8,
+ "usage": {
+  "input_tokens": 65195,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 3712
+  },
+  "output_tokens": 4003,
+  "output_tokens_details": {
+   "reasoning_tokens": 3389
+  },
+  "total_tokens": 69198
+ },
+ "text": "{\"us_status\":\"written\",\"label_product\":\"CLOZARIL (clozapine) tablets, for oral use\",\"label_version_or_date\":\"Revised: 6/2025; DailyMed updated 2025-06-06\",\"label_section\":\"Boxed Warning: Severe Neutropenia; Warnings and Precautions 5.1 Severe Neutropenia\",\"quote\":\"CLOZARIL has caused severe neutropenia (absolute neutrophil count (ANC) less than 500/μL) [see Adverse Reactions (6.1, 6.2)] and is associated with an increased risk of serious and potentially fatal infections.\",\"eu\":\"EMA/PRAC July 2025: variation/DHPC to update all clozapine PI with revised ANC-only thresholds and less frequent monitoring for clozapine-related agranulocytosis/neutropenia.\",\"uk\":\"UK/MHRA: GOV.UK advice still refers to required blood tests to manage agranulocytosis risk; current UK SmPCs still require WBC+ANC monitoring and stopping rules.\",\"us_regulator\":\"FDA has a public evaluation: clozapine REMS re-evaluation used literature, FAERS, VA/Brigham and Sentinel analyses; FDA removed the Clozapine REMS effective 2025-06-13 while retaining labeling/ANC monitoring.\",\"sources\":[\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=90876802-0e3a-44c9-9ff7-1754dfbe736a\",\"https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/019758s107lbl.pdf\",\"https://www.ema.europa.eu/en/medicines/dhpc/clozapine\",\"https://www.ema.europa.eu/en/documents/dhpc/direct-healthcare-professional-communication-dhpc-clozapine-revised-recommendations-routine-blood-count-monitoring-risk-agranulocytosis_en.pdf\",\"https://www.ema.europa.eu/system/files/documents/prac-recommendation/prac-recommendations-signals-adopted-7-10-july-2025-prac_en.pdf\",\"https://www.gov.uk/drug-safety-update/clozapine-and-other-antipsychotics-monitoring-blood-concentrations-for-toxicity\",\"https://products.mhra.gov.uk/substance/?substance=CLOZAPINE\",\"https://www.medicines.org.uk/emc/product/102057/smpc\",\"https://www.fda.gov/drugs/drug-safety-communications/fda-removes-risk-evaluation-and-mitigation-strategy-rems-program-antipsychotic-drug-clozapine\",\"https://www.fda.gov/science-research/real-world-evidence/cder-postmarketing-studies-used-real-world-evidence\"]}",
+ "annotation_urls": [],
+ "at": "2026-10-24T01:53:46"
+}

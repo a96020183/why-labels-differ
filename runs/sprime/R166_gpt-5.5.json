@@ -1,0 +1,21 @@
+{
+ "id": "R166",
+ "model_requested": "gpt-5.5",
+ "model_served": "gpt-5.5-2026-04-23",
+ "secs": 90.2,
+ "usage": {
+  "input_tokens": 76920,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 3712
+  },
+  "output_tokens": 3467,
+  "output_tokens_details": {
+   "reasoning_tokens": 2826
+  },
+  "total_tokens": 80387
+ },
+ "text": "{\"us_status\":\"written\",\"label_product\":\"BACTRIM DS- sulfamethoxazole and trimethoprim tablet; BACTRIM- sulfamethoxazole and trimethoprim tablet (Sun Pharmaceutical Industries, Inc.)\",\"label_version_or_date\":\"DailyMed updated December 30, 2024; published January 1, 2025; version 18 (current)\",\"label_section\":\"WARNINGS > Hypersensitivity and Other Serious or Fatal Reactions > Circulatory Shock\",\"quote\":\"Circulatory shock with fever, severe hypotension, and confusion requiring intravenous fluid resuscitation and vasopressors has occurred within minutes to hours of re-challenge with sulfamethoxazole and trimethoprim products, including BACTRIM, in patients with history of recent (days to weeks) exposure to sulfamethoxazole and trimethoprim.\",\"eu\":\"EMA PRAC adopted a signal recommendation on May 8, 2025 (EPITT 20135) to add circulatory shock to SmPC section 4.8 as frequency not known and update the package leaflet.\",\"uk\":\"UK/MHRA product information found with circulatory shock in SmPC section 4.8, Vascular disorders, frequency not known, with the same selected-adverse-reaction description.\",\"us_regulator\":\"FDA public materials found: labeling/approval-letter activity includes circulatory shock; FAERS/AEMS and Sentinel public items found for Bactrim/TMP-SMX acute respiratory failure, not a circulatory-shock-specific signal/study.\",\"sources\":[\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f59d0c04-9c66-4d53-a0e1-cb55570deb62\",\"https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/017560s047lbl.pdf\",\"https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/018598Orig1s055ltr.pdf\",\"https://www.ema.europa.eu/system/files/documents/prac-recommendation/prac-recommendations-signals-adopted-5-8-may-2025-prac_en.pdf\",\"https://www.ema.europa.eu/en/documents/minutes/minutes-prac-meeting-5-8-may-2025_en.pdf\",\"https://products.mhra.gov.uk/\",\"https://mhraproducts4853.blob.core.windows.net/docs/f60a4757c4f2607fe10af199c9a2330ac4af6655\",\"https://www.medicines.org.uk/emc/product/11465/smpc\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/april-june-2023-potential-signals-serious-risksnew-safety-information-identified-fda-adverse-event\",\"https://www.sentinelinitiative.org/sites/default/files/Sentinel-Report_cder_mpl1r_wp167.pdf\"]}",
+ "annotation_urls": [],
+ "at": "2026-10-24T01:51:30"
+}

@@ -1,0 +1,646 @@
+{
+ "set1a": {
+  "n": 35,
+  "n_all": 39,
+  "arms": [
+   {
+    "name": "Same evidence path, one Nemotron classification per question (not the full agent loop)",
+    "key": "ours",
+    "correct": 32,
+    "n": 35,
+    "acc": 0.9142857142857143,
+    "lo": 0.7762040092883747,
+    "hi": 0.9704181689947031,
+    "ours": true
+   },
+   {
+    "name": "S': OpenAI reasoning model with web search",
+    "key": "sprime",
+    "correct": 35,
+    "n": 35,
+    "acc": 1.0,
+    "lo": 0.9010957324106112,
+    "hi": 1.0,
+    "ours": false
+   },
+   {
+    "name": "Keyword rule",
+    "key": "keyword",
+    "correct": 22,
+    "n": 35,
+    "acc": 0.6285714285714286,
+    "lo": 0.4633664048802107,
+    "hi": 0.7683439263110893,
+    "ours": false
+   }
+  ],
+  "all39": {
+   "ours": 36,
+   "sprime": 37,
+   "keyword": 23
+  },
+  "paired": "Paired bootstrap, ours minus S': -8.6 points (95% CI -20.0 to +0.0); ours minus keyword rule: +28.6 points (+11.4 to +45.7). All 39 including the 4 with no U.S. product named: ours 36, S' 37, keyword 23.",
+  "support": "Quoted U.S. label sentence found word for word in the DailyMed text captured on 2026-10-24 (sample/evidence/spl_section_score.csv) (answers of written or partial): ours 18 of 18, S' 21 of 21.",
+  "confusion": {
+   "ours": {
+    "not found": {
+     "not found": 14
+    },
+    "partial": {
+     "partial": 7,
+     "not found": 3
+    },
+    "written": {
+     "written": 11
+    }
+   },
+   "sprime": {
+    "not found": {
+     "not found": 14
+    },
+    "partial": {
+     "partial": 10
+    },
+    "written": {
+     "written": 11
+    }
+   },
+   "keyword": {
+    "not found": {
+     "not found": 11,
+     "unknown": 2,
+     "written": 1
+    },
+    "partial": {
+     "partial": 6,
+     "not found": 2,
+     "unknown": 2
+    },
+    "written": {
+     "written": 5,
+     "not found": 5,
+     "unknown": 1
+    }
+   }
+  },
+  "per_question": {
+   "R159": {
+    "gold": "not found",
+    "ours": "not found",
+    "sprime": "not found",
+    "keyword": "not found"
+   },
+   "R160": {
+    "gold": "not found",
+    "ours": "not found",
+    "sprime": "not found",
+    "keyword": "not found"
+   },
+   "R161": {
+    "gold": "partial",
+    "ours": "partial",
+    "sprime": "partial",
+    "keyword": "partial"
+   },
+   "R162": {
+    "gold": "not marketed",
+    "ours": "not marketed",
+    "sprime": "not marketed",
+    "keyword": "not marketed"
+   },
+   "R163": {
+    "gold": "not marketed",
+    "ours": "not marketed",
+    "sprime": "not marketed",
+    "keyword": "unknown"
+   },
+   "R164": {
+    "gold": "written",
+    "ours": "written",
+    "sprime": "written",
+    "keyword": "written"
+   },
+   "R165": {
+    "gold": "not found",
+    "ours": "not found",
+    "sprime": "not found",
+    "keyword": "not found"
+   },
+   "R166": {
+    "gold": "written",
+    "ours": "written",
+    "sprime": "written",
+    "keyword": "written"
+   },
+   "R167": {
+    "gold": "partial",
+    "ours": "not found",
+    "sprime": "partial",
+    "keyword": "not found"
+   },
+   "R168": {
+    "gold": "not found",
+    "ours": "not found",
+    "sprime": "not found",
+    "keyword": "not found"
+   },
+   "R169": {
+    "gold": "written",
+    "ours": "written",
+    "sprime": "written",
+    "keyword": "not found"
+   },
+   "R170": {
+    "gold": "not found",
+    "ours": "not found",
+    "sprime": "not found",
+    "keyword": "not found"
+   },
+   "R171": {
+    "gold": "written",
+    "ours": "written",
+    "sprime": "written",
+    "keyword": "written"
+   },
+   "R172": {
+    "gold": "written",
+    "ours": "written",
+    "sprime": "written",
+    "keyword": "not found"
+   },
+   "R173": {
+    "gold": "partial",
+    "ours": "partial",
+    "sprime": "partial",
+    "keyword": "unknown"
+   },
+   "R174": {
+    "gold": "not found",
+    "ours": "not found",
+    "sprime": "not found",
+    "keyword": "not found"
+   },
+   "R175": {
+    "gold": "written",
+    "ours": "written",
+    "sprime": "written",
+    "keyword": "not found"
+   },
+   "R176": {
+    "gold": "not marketed",
+    "ours": "not marketed",
+    "sprime": "written",
+    "keyword": "unknown"
+   },
+   "R177": {
+    "gold": "not found",
+    "ours": "not found",
+    "sprime": "not found",
+    "keyword": "unknown"
+   },
+   "R178": {
+    "gold": "written",
+    "ours": "written",
+    "sprime": "written",
+    "keyword": "written"
+   },
+   "R179": {
+    "gold": "partial",
+    "ours": "partial",
+    "sprime": "partial",
+    "keyword": "partial"
+   },
+   "R180": {
+    "gold": "partial",
+    "ours": "partial",
+    "sprime": "partial",
+    "keyword": "partial"
+   },
+   "R181": {
+    "gold": "partial",
+    "ours": "partial",
+    "sprime": "partial",
+    "keyword": "partial"
+   },
+   "R182": {
+    "gold": "not found",
+    "ours": "not found",
+    "sprime": "not found",
+    "keyword": "not found"
+   },
+   "R183": {
+    "gold": "partial",
+    "ours": "not found",
+    "sprime": "partial",
+    "keyword": "not found"
+   },
+   "R184": {
+    "gold": "not found",
+    "ours": "not found",
+    "sprime": "not found",
+    "keyword": "not found"
+   },
+   "R185": {
+    "gold": "not marketed",
+    "ours": "not marketed",
+    "sprime": "partial",
+    "keyword": "unknown"
+   },
+   "R186": {
+    "gold": "not found",
+    "ours": "not found",
+    "sprime": "not found",
+    "keyword": "not found"
+   },
+   "R187": {
+    "gold": "written",
+    "ours": "written",
+    "sprime": "written",
+    "keyword": "not found"
+   },
+   "R188": {
+    "gold": "not found",
+    "ours": "not found",
+    "sprime": "not found",
+    "keyword": "not found"
+   },
+   "R189": {
+    "gold": "written",
+    "ours": "written",
+    "sprime": "written",
+    "keyword": "not found"
+   },
+   "R190": {
+    "gold": "partial",
+    "ours": "partial",
+    "sprime": "partial",
+    "keyword": "unknown"
+   },
+   "R191": {
+    "gold": "written",
+    "ours": "written",
+    "sprime": "written",
+    "keyword": "written"
+   },
+   "R192": {
+    "gold": "not found",
+    "ours": "not found",
+    "sprime": "not found",
+    "keyword": "written"
+   },
+   "R193": {
+    "gold": "not found",
+    "ours": "not found",
+    "sprime": "not found",
+    "keyword": "unknown"
+   },
+   "R194": {
+    "gold": "partial",
+    "ours": "not found",
+    "sprime": "partial",
+    "keyword": "partial"
+   },
+   "R195": {
+    "gold": "not found",
+    "ours": "not found",
+    "sprime": "not found",
+    "keyword": "not found"
+   },
+   "R196": {
+    "gold": "written",
+    "ours": "written",
+    "sprime": "written",
+    "keyword": "unknown"
+   },
+   "R197": {
+    "gold": "partial",
+    "ours": "partial",
+    "sprime": "partial",
+    "keyword": "partial"
+   }
+  }
+ },
+ "set1a_loop": {
+  "ids": [
+   "R159",
+   "R160",
+   "R161",
+   "R164",
+   "R165",
+   "R166",
+   "R167",
+   "R168",
+   "R169",
+   "R170"
+  ],
+  "selection": "the first 10 set-1a questions with a named U.S. product, in file order, fixed before any run",
+  "arm": "Full multi-agent loop (Planner, Research, chronology, Skeptic, Writer, Evaluator; up to two rounds of search, then up to three repair drafts), re-judged offline with the final checks",
+  "traces": "out/set1a_loop_v6_2026-10-27_live_rejudged_final_traces/",
+  "arms": [
+   {
+    "name": "Full multi-agent loop (this app)",
+    "correct": 8,
+    "n": 10,
+    "lo": 0.49015684672072346,
+    "hi": 0.9433190520193067
+   },
+   {
+    "name": "One Nemotron classification per question",
+    "correct": 9,
+    "n": 10,
+    "lo": 0.5958436145024278,
+    "hi": 0.9821242504842789
+   },
+   {
+    "name": "S': OpenAI reasoning model with web search",
+    "correct": 10,
+    "n": 10,
+    "lo": 0.7224598312333834,
+    "hi": 1.0
+   },
+   {
+    "name": "Keyword rule",
+    "correct": 8,
+    "n": 10,
+    "lo": 0.49015684672072346,
+    "hi": 0.9433190520193067
+   }
+  ],
+  "per_question": {
+   "R159": {
+    "gold": "not found",
+    "loop": "not found",
+    "single": "not found",
+    "sprime": "not found"
+   },
+   "R160": {
+    "gold": "not found",
+    "loop": "not found",
+    "single": "not found",
+    "sprime": "not found"
+   },
+   "R161": {
+    "gold": "partial",
+    "loop": "not found",
+    "single": "partial",
+    "sprime": "partial"
+   },
+   "R164": {
+    "gold": "written",
+    "loop": "written",
+    "single": "written",
+    "sprime": "written"
+   },
+   "R165": {
+    "gold": "not found",
+    "loop": "not found",
+    "single": "not found",
+    "sprime": "not found"
+   },
+   "R166": {
+    "gold": "written",
+    "loop": "written",
+    "single": "written",
+    "sprime": "written"
+   },
+   "R167": {
+    "gold": "partial",
+    "loop": "not found",
+    "single": "not found",
+    "sprime": "partial"
+   },
+   "R168": {
+    "gold": "not found",
+    "loop": "not found",
+    "single": "not found",
+    "sprime": "not found"
+   },
+   "R169": {
+    "gold": "written",
+    "loop": "written",
+    "single": "written",
+    "sprime": "written"
+   },
+   "R170": {
+    "gold": "not found",
+    "loop": "not found",
+    "single": "not found",
+    "sprime": "not found"
+   }
+  },
+  "outcomes": {
+   "R159": "needs-person after 5",
+   "R160": "approved after 3",
+   "R161": "needs-person after 4",
+   "R164": "needs-person after 5",
+   "R165": "approved after 3",
+   "R166": "needs-person after 5",
+   "R167": "approved after 3",
+   "R168": "approved after 3",
+   "R169": "approved after 3",
+   "R170": "needs-person after 5"
+  },
+  "run": "2026-10-27 and re-judged offline with the final checks (set1a_loop_v6_2026-10-27_live_rejudged_final.json)",
+  "approved": {
+   "correct": 4,
+   "n": 5,
+   "lo": 0.37552826411853885,
+   "hi": 0.9637768390302125,
+   "ids": [
+    "R160",
+    "R165",
+    "R167",
+    "R168",
+    "R169"
+   ]
+  },
+  "handoff": {
+   "n": 5,
+   "draftCorrect": 4,
+   "ids": [
+    "R159",
+    "R161",
+    "R164",
+    "R166",
+    "R170"
+   ]
+  }
+ },
+ "crossClass": {
+  "n": 31,
+  "arms": [
+   {
+    "name": "Product: reaction-name index (code) + Markovian scan (model)",
+    "key": "MN",
+    "correct": 30,
+    "n": 31,
+    "acc": 0.967741935483871,
+    "lo": 0.8380554282383037,
+    "hi": 0.9942829259130554,
+    "false_links": 1,
+    "ours": true,
+    "cost": {
+     "calls": 69,
+     "prompt_tokens_total": 82094,
+     "prompt_tokens_max": 1846,
+     "model_seconds": 4265,
+     "served": [
+      "nvidia/nemotron-3-ultra-550b-a55b",
+      "nvidia/nemotron-3.5-super-vl-120b-a12b"
+     ]
+    }
+   },
+   {
+    "name": "Markovian scan alone (model, carried index)",
+    "key": "M",
+    "correct": 19,
+    "n": 31,
+    "acc": 0.6129032258064516,
+    "lo": 0.43823801141131963,
+    "hi": 0.7626712464872842,
+    "false_links": 5,
+    "ours": false,
+    "cost": {
+     "calls": 74,
+     "prompt_tokens_total": 100418,
+     "prompt_tokens_max": 1852,
+     "model_seconds": 10522,
+     "served": [
+      "nvidia/nemotron-3-ultra-550b-a55b"
+     ]
+    }
+   },
+   {
+    "name": "Re-read the whole ledger every step (model)",
+    "key": "FR",
+    "correct": 28,
+    "n": 31,
+    "acc": 0.9032258064516129,
+    "lo": 0.7509971000182296,
+    "hi": 0.9665359639053559,
+    "false_links": 0,
+    "ours": false,
+    "cost": {
+     "calls": 66,
+     "prompt_tokens_total": 446572,
+     "prompt_tokens_max": 13209,
+     "model_seconds": 1746,
+     "served": [
+      "nvidia/nemotron-3-ultra-550b-a55b",
+      "nvidia/nemotron-3.5-lightning-30b-a3b",
+      "nvidia/nemotron-3.5-super-vl-120b-a12b"
+     ]
+    }
+   },
+   {
+    "name": "Reaction-name matching alone (code, no model)",
+    "key": "N",
+    "correct": 28,
+    "n": 31,
+    "acc": 0.9032258064516129,
+    "lo": 0.7509971000182296,
+    "hi": 0.9665359639053559,
+    "false_links": 1,
+    "ours": false,
+    "cost": null
+   },
+   {
+    "name": "Retrieval by ingredient or ATC class (cannot reach another class by design)",
+    "key": "C",
+    "correct": 3,
+    "n": 31,
+    "acc": 0.0967741935483871,
+    "lo": 0.033464036094643976,
+    "hi": 0.2490028999817704,
+    "false_links": 0,
+    "ours": false,
+    "cost": {
+     "calls": 66,
+     "prompt_tokens_total": 92620,
+     "prompt_tokens_max": 2412,
+     "model_seconds": 3076,
+     "served": [
+      "nvidia/nemotron-3-ultra-550b-a55b",
+      "nvidia/nemotron-3.5-super-vl-120b-a12b"
+     ]
+    }
+   }
+  ],
+  "paired": "Product minus Reaction-name matching alone: +6.5 points (95% CI +0.0 to +16.1); Product minus Re-read the whole ledger every step: +6.5 points (95% CI +0.0 to +16.1); Markovian scan alone minus Reaction-name matching alone: -29.0 points (95% CI -48.4 to -9.7); Markovian scan alone minus Re-read the whole ledger every step: -29.0 points (95% CI -45.2 to -12.9).",
+  "M": {
+   "hits": 19
+  },
+  "N": {
+   "hits": 28
+  }
+ },
+ "why": {
+  "n": 39,
+  "columns": {
+   "eu": {
+    "correct": 39,
+    "n": 39,
+    "lo": 0.910330146399761,
+    "hi": 1.0
+   },
+   "uk": {
+    "correct": 37,
+    "n": 39,
+    "lo": 0.8311406095436208,
+    "hi": 0.9858223423536006
+   },
+   "us_regulator": {
+    "correct": 25,
+    "n": 39,
+    "lo": 0.484178631846895,
+    "hi": 0.7725811530350889
+   }
+  },
+  "all_four": {
+   "correct": 24,
+   "n": 39,
+   "lo": 0.45898781310078474,
+   "hi": 0.7510883745299294
+  },
+  "misses": [
+   "R161 us_regulator: ours no_public_action_found, key concluded_label_updated",
+   "R164 us_regulator: ours no_public_action_found, key concluded_label_updated",
+   "R169 uk: ours no_public_communication_found, key drug_safety_update",
+   "R169 us_regulator: ours no_public_action_found, key concluded_label_updated",
+   "R171 us_regulator: ours no_public_action_found, key concluded_label_updated",
+   "R172 us_regulator: ours no_public_action_found, key drug_safety_communication",
+   "R175 us_regulator: ours no_public_action_found, key concluded_label_updated",
+   "R179 us_regulator: ours no_public_action_found, key concluded_label_updated",
+   "R180 us_regulator: ours under_evaluation, key concluded_label_updated",
+   "R181 us_regulator: ours under_evaluation, key concluded_label_updated",
+   "R183 us_regulator: ours no_public_action_found, key under_evaluation",
+   "R185 uk: ours no_public_communication_found, key drug_safety_update",
+   "R185 us_regulator: ours no_public_action_found, key drug_safety_communication",
+   "R187 us_regulator: ours no_public_action_found, key concluded_label_updated",
+   "R190 us_regulator: ours no_public_action_found, key concluded_label_updated",
+   "R194 us_regulator: ours no_public_action_found, key concluded_label_updated"
+  ],
+  "key_labels": {
+   "uk": {
+    "drug_safety_update": 3,
+    "no_public_communication_found": 36
+   },
+   "us_regulator": {
+    "concluded_label_updated": 12,
+    "concluded_no_action": 1,
+    "drug_safety_communication": 2,
+    "no_public_action_found": 22,
+    "under_evaluation": 2
+   }
+  }
+ },
+ "notes": [
+  "Both answer keys were labelled by a separate AI reviewer (Claude, in its own session, without seeing the system outputs), not a pharmacist. 6 rows of the U.S.-status key are low-confidence.",
+  "Main set-1a number: the 35 questions that name a U.S. product. The other 4 are 'not marketed' in the key; every arm was told no U.S. product was named, which gives the answer away, so they are reported separately.",
+  "Our agents: models that answered nemotron-3-ultra-550b-a55b x29, nemotron-3.5-lightning-30b-a3b x6, nemotron-3.5-super-vl-120b-a12b x7; 70 queries answered by zetaris. One run, temperature 0.",
+  "S' ran once on 2026-10-24 (gpt-5.5 with web search, OpenAI). It is an offline comparison only and is not used anywhere in the product.",
+  "Our MHRA table holds three Drug Safety Updates and no FDA Drug Safety Communications, so UK and FDA answers can only be as complete as those tables; the misses are listed.",
+  "Small samples: read the intervals, not the point estimates.",
+  "Cross-class questions were registered (SHA-256 recorded, committed) before any scan ran. Every arm sees the same 197 rows in the same 3-row steps with the same model settings."
+ ]
+}

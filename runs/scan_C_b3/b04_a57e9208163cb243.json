@@ -1,0 +1,18 @@
+{
+ "tag": "b04",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {},
+ "latency": 20.648,
+ "hadThink": true,
+ "tries": 1,
+ "call": {
+  "stream": true,
+  "tierSplit": false,
+  "isoScope": true
+ },
+ "promptTokensEstimated": 571,
+ "rawChars": 125,
+ "task": "[RETRIEVED EVIDENCE LEDGER ROWS - same ingredient or same ATC level 3 as a row in this batch; 2 of 2 matches, most recent]\nR007 | PRAC 2019-04 | Selective serotonin reuptake inhibitors (SSRI): citalopram; escitalopram | ATC3 N06A | signal: Drug interaction with fluconazole | US label: not found (citalopram, label effective 20260904) | ledger: {\"id\":\"R007\",\"us\":\"not found\",\"cross\":[]}\nR008 | PRAC 2019-05 | Clomipramine; Serotonin and noradrenaline reuptake inhibitors (SNRI): desvenlafaxine; duloxetine; milnacipran; | ATC3 N06A | signal: Persistent sexual dysfunction after drug withdrawal | US label: not found (desvenlafaxine, label effective 20260821) | ledger: {\"id\":\"R008\",\"us\":\"not found\",\"cross\":[]}\n\n[BATCH 4 of 66]\nR010 | PRAC 2019-05 | Pantoprazole | ATC3 A02B | signal: Colitis microscopic | US label: not found (protonix, label effective 20260518)\nR011 | PRAC 2019-05 | Sertraline | ATC3 N06A | signal: Maculopathy | US label: not found (sertraline, label effective 20260903)\nR012 | PRAC 2019-06 | Loperamide | ATC3 A07D | signal: Brugada syndrome in the context of abuse with loperamide | US label: not found (loperamide, label effective 20260909)",
+ "text": "{\"id\":\"R010\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R011\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R012\",\"us\":\"not found\",\"cross\":[]}"
+}

@@ -1,0 +1,272 @@
+{
+ "arm": "Full multi-agent loop (Planner, Research, chronology, Skeptic, Writer, Evaluator; up to two rounds of search, then up to three repair drafts), re-judged offline with the final checks",
+ "ids": [
+  "R159",
+  "R160",
+  "R161",
+  "R164",
+  "R165",
+  "R166",
+  "R167",
+  "R168",
+  "R169",
+  "R170"
+ ],
+ "label": "v6_2026-10-27_live_rejudged_final",
+ "traces": "out/set1a_loop_v6_2026-10-27_live_rejudged_final_traces/",
+ "selection": "the first 10 set-1a questions with a named U.S. product, in file order, fixed before any run",
+ "run_at": "2026-10-27",
+ "run_at_note": "local date (UTC+8) when the run finished",
+ "sampleMode": true,
+ "answers": [
+  {
+   "id": "R159",
+   "us_status": "not found",
+   "read_label": true,
+   "raw_status": "not found",
+   "finding": "No U.S. label for afatinib found in searched database; no mention of trichomegaly or eyelash growth in any section.",
+   "cites": [
+    "US-LABELS-SEARCHED"
+   ],
+   "outcome": "needs-person",
+   "rounds": 5,
+   "modelCalls": 19,
+   "rejections": 5,
+   "errors": 0,
+   "secs": 0,
+   "sources": {
+    "models": {
+     "replay": 19
+    },
+    "sql": {
+     "replay": 34
+    }
+   }
+  },
+  {
+   "id": "R160",
+   "us_status": "not found",
+   "read_label": true,
+   "raw_status": "related_only",
+   "finding": "U.S. label sections reviewed (Lenvima v82, effective 2026-10-14) include renal failure/impairment in dosage modifications and warnings but do not mention tumour lysis syndrome.",
+   "cites": [
+    "SPL-Lenvima-v82-2-itec",
+    "SPL-Lenvima-v82-2.5-1tgz",
+    "SPL-Lenvima-v82-8.6-1xlb"
+   ],
+   "outcome": "approved",
+   "rounds": 3,
+   "modelCalls": 13,
+   "rejections": 2,
+   "errors": 0,
+   "secs": 0,
+   "sources": {
+    "models": {
+     "replay": 13
+    },
+    "sql": {
+     "replay": 35
+    }
+   }
+  },
+  {
+   "id": "R161",
+   "us_status": "not found",
+   "read_label": true,
+   "raw_status": "related_only",
+   "finding": "U.S. label (Poteligeo v21) lists 'Immune-mediated colitis' in Section 6.2 Postmarketing Experience; a search of the label for colitis terms (colitis, ulcerative colitis, microscopic colitis, ischemic colitis, infectious colitis, drug-induced colitis, enterocolitis, typhlitis) found matches only in Section 6.2, not in Warnings and Precautions or Boxed Warning.",
+   "cites": [
+    "SPL-Poteligeo-v21-6.2-1alq",
+    "US-LABELS-SEARCHED"
+   ],
+   "outcome": "needs-person",
+   "rounds": 4,
+   "ended_at_recording": "repair:set1a-R161:r5 is not in the recording: today's checks sent back a draft the recording approved; a live run would have repaired it or handed it over",
+   "modelCalls": 15,
+   "rejections": 4,
+   "errors": 0,
+   "secs": 0,
+   "sources": {
+    "models": {
+     "replay": 15
+    },
+    "sql": {
+     "replay": 35
+    }
+   }
+  },
+  {
+   "id": "R164",
+   "us_status": "written",
+   "read_label": true,
+   "raw_status": "written",
+   "finding": "US label v36 (effective 2026-02-09) includes hyperammonemic encephalopathy in section 5.1 Hepatotoxicity with warning to withhold and consider discontinuation if confirmed.",
+   "cites": [
+    "SPL-Stivarga-v36-5.1-q0y0"
+   ],
+   "outcome": "needs-person",
+   "rounds": 5,
+   "modelCalls": 18,
+   "rejections": 5,
+   "errors": 0,
+   "secs": 0,
+   "sources": {
+    "models": {
+     "replay": 18
+    },
+    "sql": {
+     "replay": 33
+    }
+   }
+  },
+  {
+   "id": "R165",
+   "us_status": "not found",
+   "read_label": true,
+   "raw_status": "not found",
+   "finding": "Zoloft v7 (2025-07-24) contains no mention of MADD in any section.",
+   "cites": [
+    "US-LABELS-SEARCHED"
+   ],
+   "outcome": "approved",
+   "rounds": 3,
+   "modelCalls": 13,
+   "rejections": 2,
+   "errors": 0,
+   "secs": 0,
+   "sources": {
+    "models": {
+     "replay": 13
+    },
+    "sql": {
+     "replay": 28
+    }
+   }
+  },
+  {
+   "id": "R166",
+   "us_status": "written",
+   "read_label": true,
+   "raw_status": "written",
+   "finding": "US label (Bactrim) includes circulatory shock in WARNINGS (Hypersensitivity and Other Serious or Fatal Reactions) and ADVERSE REACTIONS sections.",
+   "cites": [
+    "SPL-Bactrim-v18-s-1dvl",
+    "SPL-Bactrim-v18-s-t3wu"
+   ],
+   "outcome": "needs-person",
+   "rounds": 5,
+   "modelCalls": 18,
+   "rejections": 5,
+   "errors": 0,
+   "secs": 0,
+   "sources": {
+    "models": {
+     "replay": 18
+    },
+    "sql": {
+     "replay": 44
+    }
+   }
+  },
+  {
+   "id": "R167",
+   "us_status": "not found",
+   "read_label": true,
+   "raw_status": "related_only",
+   "finding": "US label (v23, 2026-08-06) lists colitis under diarrhea in Adverse Reactions (section 6.1) but does not mention immune-mediated enterocolitis or immune effector cell-associated enteritis.",
+   "cites": [
+    "SPL-Yescarta-v23-6-tz5o",
+    "US-LABELS-SEARCHED"
+   ],
+   "outcome": "approved",
+   "rounds": 3,
+   "modelCalls": 14,
+   "rejections": 2,
+   "errors": 0,
+   "secs": 0,
+   "sources": {
+    "models": {
+     "replay": 14
+    },
+    "sql": {
+     "replay": 32
+    }
+   }
+  },
+  {
+   "id": "R168",
+   "us_status": "not found",
+   "read_label": true,
+   "raw_status": "not found",
+   "finding": "No U.S. label version of brodalumab found in label table; search for pyoderma gangrenosum terms matched 0 sections.",
+   "cites": [
+    "US-LABELS-SEARCHED"
+   ],
+   "outcome": "approved",
+   "rounds": 3,
+   "modelCalls": 13,
+   "rejections": 2,
+   "errors": 0,
+   "secs": 0,
+   "sources": {
+    "models": {
+     "replay": 13
+    },
+    "sql": {
+     "replay": 27
+    }
+   }
+  },
+  {
+   "id": "R169",
+   "us_status": "written",
+   "read_label": true,
+   "raw_status": "written",
+   "finding": "US label (v24, effective 2026-07-28) includes digoxin immunoassay interference warning in Warnings and Precautions (5.8) and Drug Interactions (7.3).",
+   "cites": [
+    "SPL-Xtandi-v24-5.8-103w",
+    "SPL-Xtandi-v24-7.3-u7yp"
+   ],
+   "outcome": "approved",
+   "rounds": 3,
+   "modelCalls": 12,
+   "rejections": 2,
+   "errors": 0,
+   "secs": 0,
+   "sources": {
+    "models": {
+     "replay": 12
+    },
+    "sql": {
+     "replay": 34
+    }
+   }
+  },
+  {
+   "id": "R170",
+   "us_status": "not found",
+   "read_label": true,
+   "raw_status": "related_only",
+   "finding": "US label (v18, March 2025) lists hallucinations only as a symptom of serotonin syndrome (Section 5.2), not as a separate adverse reaction unrelated to serotonin syndrome.",
+   "cites": [
+    "SPL-Trintellix-v18-5.2-5lt4",
+    "US-LABELS-SEARCHED"
+   ],
+   "outcome": "needs-person",
+   "rounds": 5,
+   "modelCalls": 19,
+   "rejections": 5,
+   "errors": 0,
+   "secs": 0,
+   "sources": {
+    "models": {
+     "replay": 19
+    },
+    "sql": {
+     "replay": 42
+    }
+   }
+  }
+ ],
+ "rejudged_with": "SAMPLE_MODE replay of the v6 recording with the final code: steps whose prompt lists the code checks use that step's recorded reply; a step the recording never made ends the question with a person (app/scoreloop.ts)"
+}

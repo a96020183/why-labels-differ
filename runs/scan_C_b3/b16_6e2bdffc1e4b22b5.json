@@ -1,0 +1,18 @@
+{
+ "tag": "b16",
+ "requested": "nvidia/nemotron-3-ultra-550b-a55b",
+ "served": "nvidia/nemotron-3-ultra-550b-a55b",
+ "usage": {},
+ "latency": 80.516,
+ "hadThink": true,
+ "tries": 1,
+ "call": {
+  "stream": true,
+  "tierSplit": false,
+  "isoScope": true
+ },
+ "promptTokensEstimated": 803,
+ "rawChars": 123,
+ "task": "[RETRIEVED EVIDENCE LEDGER ROWS - same ingredient or same ATC level 3 as a row in this batch; 6 of 6 matches, most recent]\nR005 | PRAC 2019-04 | Armodafinil; modafinil | ATC3 N06B | signal: Evaluation of data on foetal outcomes including congenital anomalies from a single observational study in the US | US label: not found (armodafinil, label effective 20260306) | ledger: {\"id\":\"R005\",\"us\":\"not found\",\"cross\":[]}\nR015 | PRAC 2019-06 | Secukinumab | ATC3 L04A | signal: Dermatitis exfoliative generalised | US label: not found (secukinumab, label effective 20260825) | ledger: {\"id\":\"R015\",\"us\":\"not found\",\"cross\":[]}\nR026 | PRAC 2019-09 | Teriflunomide | ATC3 L04A | signal: Psoriasis | US label: partial (teriflunomide, label effective 20260826, section: adverse_reactions) | ledger: {\"id\":\"R026\",\"us\":\"partial\",\"cross\":[]}\nR031 | PRAC 2020-01 | Golimumab | ATC3 L04A | signal: Inflammatory myopathy | US label: not found (golimumab, label effective 20250909) | ledger: {\"id\":\"R031\",\"us\":\"not found\",\"cross\":[]}\nR039 | PRAC 2020-05 | Baricitinib | ATC3 L04A | signal: Diverticulitis | US label: unknown (baricitinib) | ledger: {\"id\":\"R039\",\"us\":\"unknown\",\"cross\":[]}\nR040 | PRAC 2020-05 | Buprenorphine; buprenorphine, naloxone | ATC3 A06A,N02A,N07B,V03A | signal: Drug-drug interaction with serotonergic drugs leading to serotonin syndrome | US label: not found (buprenorphine, label effective 20260817) | ledger: {\"id\":\"R040\",\"us\":\"not found\",\"cross\":[]}\n\n[BATCH 16 of 66]\nR046 | PRAC 2020-06 | Macrogol-containing products (all molecular weights and combinations) for bowel preparation | ATC3 A06A | signal: Colitis ischaemic | US label: unknown (macrogol-containing products for bowel preparation)\nR047 | PRAC 2020-07 | Lisdexamfetamine | ATC3 N06B | signal: QT prolongation and cardiac arrhythmia | US label: not found (vyvanse, label effective 20260430)\nR048 | PRAC 2020-07 | Tumour necrosis factor alpha inhibitors: adalimumab; certolizumab pegol; etanercept; golimumab; infliximab | ATC3 L04A | signal: Kaposi’s sarcoma | US label: not found (adalimumab, label effective 20260708)",
+ "text": "{\"id\":\"R046\",\"us\":\"unknown\",\"cross\":[]}\n{\"id\":\"R047\",\"us\":\"not found\",\"cross\":[]}\n{\"id\":\"R048\",\"us\":\"not found\",\"cross\":[]}"
+}

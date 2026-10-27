@@ -1,0 +1,174 @@
+{
+ "arm": "Full multi-agent loop (Planner, Research, Skeptic, Writer, Evaluator; up to two rounds)",
+ "ids": [
+  "R159",
+  "R160",
+  "R161",
+  "R164",
+  "R165",
+  "R166",
+  "R167",
+  "R168",
+  "R169",
+  "R170"
+ ],
+ "selection": "the first 10 set-1a questions with a named U.S. product, in file order, fixed before any run",
+ "run_at": "2026-10-24",
+ "sampleMode": false,
+ "answers": [
+  {
+   "id": "R159",
+   "us_status": "not found",
+   "raw_status": "not found",
+   "finding": "No U.S. prescribing information for afatinib mentioning eyelash growth, hypertrichosis, or related terms found in sources.",
+   "cites": [],
+   "outcome": "needs-person",
+   "rounds": 3,
+   "modelCalls": 13,
+   "rejections": 3,
+   "errors": 0,
+   "secs": 815
+  },
+  {
+   "id": "R160",
+   "us_status": "partial",
+   "raw_status": "partial",
+   "finding": "US label v82 (effective 2026-10-14) mentions renal failure/impairment as reason for dose modification (sections 2.4, 2.5, 8.6) but does not mention tumour lysis syndrome in Boxed Warning, Warnings and Precautions, Contraindications, or Adverse Reactions",
+   "cites": [
+    "SPL-Lenvima-v82-2-itec",
+    "SPL-Lenvima-v82-2.5-1tgz",
+    "SPL-Lenvima-v82-8.6-1xlb"
+   ],
+   "outcome": "needs-person",
+   "rounds": 3,
+   "modelCalls": 13,
+   "rejections": 3,
+   "errors": 0,
+   "secs": 944
+  },
+  {
+   "id": "R161",
+   "us_status": "partial",
+   "raw_status": "partial",
+   "finding": "US label v21 (2026-03-02) lists immune-mediated colitis in postmarketing experience (6.2), a specific subtype of colitis, but not in boxed warning, warnings/precautions, or contraindications.",
+   "cites": [
+    "SPL-Poteligeo-v21-6.2-1alq"
+   ],
+   "outcome": "needs-person",
+   "rounds": 2,
+   "modelCalls": 9,
+   "rejections": 2,
+   "errors": 0,
+   "secs": 818
+  },
+  {
+   "id": "R164",
+   "us_status": "written",
+   "raw_status": "written",
+   "finding": "U.S. label v36 (effective 2026-02-09) includes hyperammonemic encephalopathy in Warnings and Precautions 5.1 Hepatotoxicity with management guidance.",
+   "cites": [
+    "SPL-Stivarga-v36-5.1-q0y0"
+   ],
+   "outcome": "approved",
+   "rounds": 2,
+   "modelCalls": 9,
+   "rejections": 1,
+   "errors": 0,
+   "secs": 630
+  },
+  {
+   "id": "R165",
+   "us_status": "partial",
+   "raw_status": "partial",
+   "finding": "U.S. label (Zoloft v7) lists rhabdomyolysis in post-marketing experience but does not mention multiple acyl-coenzyme A dehydrogenase deficiency (MADD).",
+   "cites": [
+    "SPL-Zoloft-v7-6.2-1mvx",
+    "US-LABELS-SEARCHED"
+   ],
+   "outcome": "needs-person",
+   "rounds": 2,
+   "modelCalls": 10,
+   "rejections": 2,
+   "errors": 0,
+   "secs": 804
+  },
+  {
+   "id": "R166",
+   "us_status": "written",
+   "raw_status": "written",
+   "finding": "U.S. label (Bactrim v18, effective 2024-12-30) includes circulatory shock in WARNINGS (Hypersensitivity and Other Serious or Fatal Reactions) and ADVERSE REACTIONS sections.",
+   "cites": [
+    "SPL-Bactrim-v18-s-1dvl",
+    "SPL-Bactrim-v18-s-t3wu"
+   ],
+   "outcome": "needs-person",
+   "rounds": 3,
+   "modelCalls": 12,
+   "rejections": 3,
+   "errors": 0,
+   "secs": 1155
+  },
+  {
+   "id": "R167",
+   "us_status": "not found",
+   "raw_status": "not found",
+   "finding": "Yescarta US label v23 (effective 2026-08-06) does not contain the specific terms 'immune-mediated enterocolitis' or 'immune effector cell-associated enteritis'; only mentions diarrhea as a common adverse reaction in section 6 and MedGuide.",
+   "cites": [
+    "US-LABELS-SEARCHED",
+    "SPL-Yescarta-v23-6-ptsr",
+    "SPL-Yescarta-v23-s-z92x"
+   ],
+   "outcome": "needs-person",
+   "rounds": 2,
+   "modelCalls": 10,
+   "rejections": 2,
+   "errors": 0,
+   "secs": 780
+  },
+  {
+   "id": "R168",
+   "us_status": "not found",
+   "raw_status": "not found",
+   "finding": "No US label sections (Boxed Warning, Warnings and Precautions, Contraindications, Adverse Reactions, postmarketing) mention pyoderma gangrenosum for brodalumab.",
+   "cites": [],
+   "outcome": "needs-person",
+   "rounds": 2,
+   "modelCalls": 10,
+   "rejections": 2,
+   "errors": 0,
+   "secs": 561
+  },
+  {
+   "id": "R169",
+   "us_status": "written",
+   "raw_status": "written",
+   "finding": "US label v24 (effective 2026-07-28) includes warning in Warnings and Precautions 5.8 and Drug Interactions 7.3 about digoxin immunoassay interference.",
+   "cites": [
+    "SPL-Xtandi-v24-5.8-103w",
+    "SPL-Xtandi-v24-7.3-u7yp"
+   ],
+   "outcome": "approved",
+   "rounds": 2,
+   "modelCalls": 9,
+   "rejections": 1,
+   "errors": 0,
+   "secs": 822
+  },
+  {
+   "id": "R170",
+   "us_status": "partial",
+   "raw_status": "partial",
+   "finding": "US label v18 (2025-03-05) lists hallucinations as symptom of serotonin syndrome (5.2) and in severe hyponatremia (5.7), not as independent adverse reaction.",
+   "cites": [
+    "SPL-Trintellix-v18-5.2-5lt4",
+    "SPL-Trintellix-v18-5.7-aff9"
+   ],
+   "outcome": "approved",
+   "rounds": 1,
+   "modelCalls": 6,
+   "rejections": 0,
+   "errors": 0,
+   "secs": 558
+  }
+ ]
+}

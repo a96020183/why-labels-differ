@@ -1,0 +1,256 @@
+# Offline re-judgement of the recorded v5 drafts (5 questions + 10-question loop) under the QA round 4 checks.
+# Produced by: node scripts/rejudge.ts judge out/qa4_snapshot_v5.json (snapshot taken at 8d9d73d with SAMPLE_MODE=true).
+# The Skeptic's per-record readings are new in QA round 4, so checks that need them use the recorded judgement only.
+semaglutide-naion          r1  must-hold 1  coverage 2
+    Explanations judged to hold that no cited record shows (the Skeptic read every record filed for them): H3: Records show different regulatory outcomes 
+semaglutide-naion          r2  must-hold 1  coverage 1
+    The explanation contradicts the cells: why type us_earlier, but the U.S. label cell says not found and the FDA cell under evaluation. Change the expla
+semaglutide-naion          r3  must-hold 2  coverage 0
+    The explanation contradicts the cells: why type us_earlier, but the U.S. label cell says not found and the FDA cell under evaluation. Change the expla
+    Dates that the records each sentence cites do not contain: June 2025 (H4), June 2025 (reason 3). Every date must come from a record the same sentence 
+sertraline-pssd            r1  must-hold 4  coverage 2
+    Held partly on a search that found nothing: H3 us fda no signal in faers aems lists. Not finding a record does not show a reason: judge it open, or ci
+    The why rests partly on a search that found nothing (FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a record does not show a reason: cite a re
+    The explanation contradicts the cells: H4 says the U.S. already has it, but the U.S. label cell says related_only and the FDA cell no public action fo
+    The UK (MHRA) cell mentions a boxed warning, but its record says the boxed warning is about suicidal thoughts. Say what each measure is about, as the 
+sertraline-pssd            r2  must-hold 2  coverage 0
+    Values outside the allowed lists: why type "different_stage+different_evidence". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no
+    The why rests partly on a search that found nothing (FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a record does not show a reason: cite a re
+darolutamide-angioedema    r1  must-hold 5  coverage 0
+    The EU lists it only as an undesirable effect (SmPC 4.8) and the U.S. label lists it outside the warnings too: the two labels say it at the same level
+    The why rests partly on a search that found nothing (FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a record does not show a reason: cite a re
+    The draft cites a U.S. label version from the last year that mentions the reaction, yet the U.S. FDA cell says no public action. The FDA approves ever
+    Ruled out with no record against it: H4 class effect assessment differs, H5 different causality assessment, H6 timing difference us uk pending. Put th
+    1 explanations hold but none is named the main cause. Name exactly one main cause and say why it weighs more than the others.
+darolutamide-angioedema    r2  must-hold 1  coverage 0
+    Ruled out only on a search that found nothing: H6 timing difference us uk pending. Not finding a record is not a record against it: judge it open, or 
+darolutamide-angioedema    r3  must-hold 0  coverage 1
+darolutamide-angioedema    r4  must-hold 0  coverage 1
+gemcitabine-dress          r1  must-hold 1  coverage 0
+    gemcitabine's own U.S. label already warned by 2026-04-27 (SPL-Gemcitabine (Hospira)-v28-5.3-qhg2), before the first EU or UK action in the records (2
+valproate-paternal         r1  must-hold 2  coverage 2
+    The why rests partly on a search that found nothing (FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a record does not show a reason: cite a re
+    No explanation is judged to hold, yet the why gives a reason. If a record shows the reason, judge that explanation holds and name it the main cause; i
+valproate-paternal         r2  must-hold 3  coverage 1
+    Explanations judged to hold that no cited record shows (the Skeptic read every record filed for them): H3: Records show no signal in potential signal 
+    Held partly on a search that found nothing: H3 us fda awaiting sentinel or faers confirmation. Not finding a record does not show a reason: judge it o
+    The why rests partly on a search that found nothing (FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a record does not show a reason: cite a re
+valproate-paternal         r3  must-hold 3  coverage 1
+    Values outside the allowed lists: U.S. label status "absent". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_action_foun
+    The why rests partly on a search that found nothing (FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a record does not show a reason: cite a re
+    No explanation is judged to hold, yet the why gives a reason. If a record shows the reason, judge that explanation holds and name it the main cause; i
+valproate-paternal         r4  must-hold 4  coverage 1
+    Values outside the allowed lists: U.S. label status "absent". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_action_foun
+    Held partly on a search that found nothing: H6 fda not evaluated paternal signal. Not finding a record does not show a reason: judge it open, or cite 
+    The why rests partly on a search that found nothing (FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a record does not show a reason: cite a re
+    1 explanations hold but none is named the main cause. Name exactly one main cause and say why it weighs more than the others.
+valproate-paternal         r5  must-hold 3  coverage 2
+    Values outside the allowed lists: U.S. label status "absent". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_action_foun
+    Ruled out with no record against it: H2 uk mhra aligned but not yet published, H4 us label already contains class warning. Put the record that shows i
+    No explanation is judged to hold, yet the why gives a reason. If a record shows the reason, judge that explanation holds and name it the main cause; i
+set1a-R159                 r1  must-hold 4  coverage 1
+    No citation for: EU (EMA / PRAC), U.S. label.
+    The U.S. label cell does not cite afatinib's own label. Cite the label sections it read, or the "U.S. labels searched" record (US-LABELS-SEARCHED) whe
+    Values outside the allowed lists: why type "unclear". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_action_found | not_
+    No explanation is judged to hold, yet the why gives a reason. If a record shows the reason, judge that explanation holds and name it the main cause; i
+set1a-R159                 r2  must-hold 4  coverage 1
+    No citation for: EU (EMA / PRAC), U.S. label.
+    The U.S. label cell does not cite afatinib's own label. Cite the label sections it read, or the "U.S. labels searched" record (US-LABELS-SEARCHED) whe
+    The why rests partly on a search that found nothing (FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND, MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND). Not finding a 
+    No explanation is judged to hold, yet the why gives a reason. If a record shows the reason, judge that explanation holds and name it the main cause; i
+set1a-R159                 r3  must-hold 4  coverage 1
+    No citation for: EU (EMA / PRAC), U.S. label.
+    The U.S. label cell does not cite afatinib's own label. Cite the label sections it read, or the "U.S. labels searched" record (US-LABELS-SEARCHED) whe
+    The why rests partly on a search that found nothing (FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND, MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND). Not finding a 
+    No explanation is judged to hold, yet the why gives a reason. If a record shows the reason, judge that explanation holds and name it the main cause; i
+set1a-R159                 r4  must-hold 4  coverage 1
+    No citation for: EU (EMA / PRAC), U.S. label.
+    The U.S. label cell does not cite afatinib's own label. Cite the label sections it read, or the "U.S. labels searched" record (US-LABELS-SEARCHED) whe
+    The why rests partly on a search that found nothing (FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND, MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND). Not finding a 
+    No explanation is judged to hold, yet the why gives a reason. If a record shows the reason, judge that explanation holds and name it the main cause; i
+set1a-R159                 r5  must-hold 6  coverage 2
+    No citation for: EU (EMA / PRAC), U.S. label.
+    The U.S. label cell does not cite afatinib's own label. Cite the label sections it read, or the "U.S. labels searched" record (US-LABELS-SEARCHED) whe
+    Values outside the allowed lists: why type "insufficient_evidence". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_actio
+    The why rests partly on a search that found nothing (FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND, MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND). Not finding a 
+    No explanation is judged to hold, yet the why gives a reason. If a record shows the reason, judge that explanation holds and name it the main cause; i
+    Ruled out only on a search that found nothing: H1 eu signal detected only, H2 different clinical significance, H3 class effect vs drug specific, H4 ti
+set1a-R160                 r1  must-hold 4  coverage 1
+    No citation for: EU (EMA / PRAC), U.S. label.
+    The U.S. label cell does not cite lenvatinib's own label. Cite the label sections it read, or the "U.S. labels searched" record (US-LABELS-SEARCHED) w
+    Held partly on a search that found nothing: H3 uk no signal detected. Not finding a record does not show a reason: judge it open, or cite a record tha
+    The why rests partly on a search that found nothing (MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND). Not finding a record does not show a reason: cite a reco
+set1a-R160                 r2  must-hold 4  coverage 0
+    No citation for: U.S. label.
+    Explanations judged to hold that no cited record shows (the Skeptic read every record filed for them): H1: Record title confirms PRAC meeting on TLS b
+    The U.S. label cell does not cite lenvatinib's own label. Cite the label sections it read, or the "U.S. labels searched" record (US-LABELS-SEARCHED) w
+    The why rests partly on a search that found nothing (MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND). Not finding a record does not show a reason: cite a reco
+set1a-R160                 r3  must-hold 3  coverage 0
+    The U.S. label cell does not cite lenvatinib's own label. Cite the label sections it read, or the "U.S. labels searched" record (US-LABELS-SEARCHED) w
+    Values outside the allowed lists: U.S. label status "no_action_by_fda". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_a
+    The why rests partly on a search that found nothing (MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND). Not finding a record does not show a reason: cite a reco
+set1a-R161                 r1  must-hold 3  coverage 0
+    The Skeptic's independent check contradicts: claim 3 (U.S. label: The provided US label section (6.2 Postmarketing Experience) lists o …): Label excer
+    The why rests partly on a search that found nothing (FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND, MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND). Not finding a 
+    Ruled out with no record against it: H3 class effect assessment differs by regulator. Put the record that shows it false under "against", or, if no re
+set1a-R161                 r2  must-hold 2  coverage 2
+    The why rests partly on a search that found nothing (MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND, FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a 
+    The draft cites a U.S. label version from the last year that mentions the reaction, yet the U.S. FDA cell says no public action. The FDA approves ever
+set1a-R161                 r3  must-hold 3  coverage 0
+    The why rests partly on a search that found nothing (MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND, FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a 
+    Ruled out with no record against it: H3 class effect assessment differs by regulator. Put the record that shows it false under "against", or, if no re
+    No explanation is judged to hold, yet the why gives a reason. If a record shows the reason, judge that explanation holds and name it the main cause; i
+set1a-R161                 r4  must-hold 3  coverage 1
+    Held partly on a search that found nothing: H6 different regulatory action stages. Not finding a record does not show a reason: judge it open, or cite
+    The why rests partly on a search that found nothing (MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND, FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a 
+    1 explanations hold but none is named the main cause. Name exactly one main cause and say why it weighs more than the others.
+set1a-R161                 r5  must-hold 0  coverage 1
+set1a-R164                 r1  must-hold 1  coverage 0
+    The draft cites a U.S. label version from the last year that mentions the reaction, yet the U.S. FDA cell says no public action. The FDA approves ever
+set1a-R164                 r2  must-hold 0  coverage 0
+set1a-R165                 r1  must-hold 2  coverage 0
+    Held partly on a search that found nothing: H1 eu signal newer than us uk review. Not finding a record does not show a reason: judge it open, or cite 
+    The why rests partly on a search that found nothing (FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND, MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND). Not finding a 
+set1a-R165                 r2  must-hold 3  coverage 0
+    The recommendation changed from "wait" to "propose" with no new record behind the change.
+    The why rests partly on a search that found nothing (MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND, FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a 
+    No explanation is judged to hold, yet the why gives a reason. If a record shows the reason, judge that explanation holds and name it the main cause; i
+set1a-R165                 r3  must-hold 3  coverage 1
+    Held partly on a search that found nothing: H1 eu signal newer than us uk review. Not finding a record does not show a reason: judge it open, or cite 
+    The why rests partly on a search that found nothing (MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND, FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a 
+    1 explanations hold but none is named the main cause. Name exactly one main cause and say why it weighs more than the others.
+set1a-R165                 r4  must-hold 3  coverage 0
+    Explanations judged to hold that no cited record shows (the Skeptic read every record filed for them): H1: Explanation claims EU PRAC concluded signal
+    Held partly on a search that found nothing: H1 eu signal newer than us uk review. Not finding a record does not show a reason: judge it open, or cite 
+    The why rests partly on a search that found nothing (MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND, FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a 
+set1a-R165                 r5  must-hold 2  coverage 0
+    The why rests partly on a search that found nothing (MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND, FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a 
+    No explanation is judged to hold, yet the why gives a reason. If a record shows the reason, judge that explanation holds and name it the main cause; i
+set1a-R166                 r1  must-hold 5  coverage 2
+    The EU cell cites a PRAC recommendation that updated the product information, yet calls the EU stage "under evaluation".
+    Held partly on a search that found nothing: H1 eu specific signal detection. Not finding a record does not show a reason: judge it open, or cite a rec
+    The why rests partly on a search that found nothing (MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND, FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a 
+    sulfamethoxazole's own U.S. label already warned by 2024-12-30 (SPL-Bactrim-v18-s-1dvl), before the first EU or UK action in the records (2025-05, PRA
+    Ruled out with no record against it: H3 different regulatory timeline, H4 different reaction classification, H5 us label contains warning under class 
+set1a-R166                 r2  must-hold 4  coverage 1
+    The EU cell cites a PRAC recommendation that updated the product information, yet calls the EU stage "agreed with noted conflict".
+    The why rests partly on a search that found nothing (MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND, FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a 
+    sulfamethoxazole's own U.S. label already warned by 2024-12-30 (SPL-Bactrim-v18-s-1dvl), before the first EU or UK action in the records (2025-05, PRA
+    No explanation is judged to hold, yet the why gives a reason. If a record shows the reason, judge that explanation holds and name it the main cause; i
+set1a-R166                 r3  must-hold 5  coverage 2
+    Values outside the allowed lists: EU (EMA / PRAC) stage "prc_recommendation"; why type "us_label_already_warns". Stage: concluded | agreed_with_noted_
+    The EU cell cites a PRAC recommendation that updated the product information, yet calls the EU stage "prc recommendation".
+    The why rests partly on a search that found nothing (MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND, FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a 
+    sulfamethoxazole's own U.S. label already warned by 2024-12-30 (SPL-Bactrim-v18-s-1dvl), before the first EU or UK action in the records (2025-05, PRA
+    No explanation is judged to hold, yet the why gives a reason. If a record shows the reason, judge that explanation holds and name it the main cause; i
+set1a-R166                 r4  must-hold 5  coverage 1
+    Values outside the allowed lists: EU (EMA / PRAC) stage "prac_recommendation"; why type "us_label_already_warns". Stage: concluded | agreed_with_noted
+    The EU cell cites a PRAC recommendation that updated the product information, yet calls the EU stage "prac recommendation".
+    The why rests partly on a search that found nothing (MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND, FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a 
+    sulfamethoxazole's own U.S. label already warned by 2024-12-30 (SPL-Bactrim-v18-s-1dvl), before the first EU or UK action in the records (2025-05, PRA
+    2 explanations hold but none is named the main cause. Name exactly one main cause and say why it weighs more than the others.
+set1a-R166                 r5  must-hold 4  coverage 2
+    Values outside the allowed lists: EU (EMA / PRAC) stage "prac_recommendation"; why type "us_label_already_warns". Stage: concluded | agreed_with_noted
+    The EU cell cites a PRAC recommendation that updated the product information, yet calls the EU stage "prac recommendation".
+    The why rests partly on a search that found nothing (MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND, FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a 
+    sulfamethoxazole's own U.S. label already warned by 2024-12-30 (SPL-Bactrim-v18-s-1dvl), before the first EU or UK action in the records (2025-05, PRA
+set1a-R167                 r1  must-hold 3  coverage 1
+    The Skeptic's independent check contradicts: FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND: an FDA row for axicabtagene ciloleucel does mention it (Q3 2023
+    Held partly on a search that found nothing: H1 eu class effect vs us product specific. Not finding a record does not show a reason: judge it open, or 
+    The why rests partly on a search that found nothing (FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a record does not show a reason: cite a re
+set1a-R167                 r2  must-hold 3  coverage 0
+    The Skeptic's independent check contradicts: FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND: an FDA row for axicabtagene ciloleucel does mention it (Q3 2023
+    Held partly on a search that found nothing: H1 eu class effect vs us product specific. Not finding a record does not show a reason: judge it open, or 
+    The why rests partly on a search that found nothing (FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a record does not show a reason: cite a re
+set1a-R167                 r3  must-hold 3  coverage 2
+    The Skeptic's independent check contradicts: FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND: an FDA row for axicabtagene ciloleucel does mention it (Q3 2023
+    The why rests partly on a search that found nothing (FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a record does not show a reason: cite a re
+    No explanation is judged to hold, yet the why gives a reason. If a record shows the reason, judge that explanation holds and name it the main cause; i
+set1a-R167                 r4  must-hold 4  coverage 1
+    The Skeptic's independent check contradicts: FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND: an FDA row for axicabtagene ciloleucel does mention it (Q3 2023
+    Held partly on a search that found nothing: H1 eu class effect vs us product specific. Not finding a record does not show a reason: judge it open, or 
+    The why rests partly on a search that found nothing (FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a record does not show a reason: cite a re
+    1 explanations hold but none is named the main cause. Name exactly one main cause and say why it weighs more than the others.
+set1a-R167                 r5  must-hold 6  coverage 0
+    No record given for: H5 indication specific risk pmbcl brain oedema confounding.
+    The Skeptic's independent check contradicts: FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND: an FDA row for axicabtagene ciloleucel does mention it (Q3 2023
+    Values outside the allowed lists: why type "unknown". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_action_found | not_
+    The why rests partly on a search that found nothing (FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a record does not show a reason: cite a re
+    Ruled out with no record against it: H5 indication specific risk pmbcl brain oedema confounding. Put the record that shows it false under "against", o
+    No explanation is judged to hold, yet the why gives a reason. If a record shows the reason, judge that explanation holds and name it the main cause; i
+set1a-R168                 r1  must-hold 7  coverage 0
+    No citation for: U.S. label.
+    No record given for: H3 us label has warning under different terminology.
+    The U.S. label cell does not cite brodalumab's own label. Cite the label sections it read, or the "U.S. labels searched" record (US-LABELS-SEARCHED) w
+    Held partly on a search that found nothing: H1 eu signal led to label change while us has not evaluated. Not finding a record does not show a reason: 
+    The why rests partly on a search that found nothing (FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a record does not show a reason: cite a re
+    Ruled out with no record against it: H3 us label has warning under different terminology. Put the record that shows it false under "against", or, if n
+    Ruled out only on a search that found nothing: H2 mhra aligned with eu but us awaits more evidence. Not finding a record is not a record against it: j
+set1a-R168                 r2  must-hold 4  coverage 0
+    No citation for: U.S. label.
+    The U.S. label cell does not cite brodalumab's own label. Cite the label sections it read, or the "U.S. labels searched" record (US-LABELS-SEARCHED) w
+    Values outside the allowed lists: why type "unclear". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_action_found | not_
+    No explanation is judged to hold, yet the why gives a reason. If a record shows the reason, judge that explanation holds and name it the main cause; i
+set1a-R168                 r3  must-hold 6  coverage 1
+    The U.S. label cell does not cite brodalumab's own label. Cite the label sections it read, or the "U.S. labels searched" record (US-LABELS-SEARCHED) w
+    Values outside the allowed lists: why type "clear". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_action_found | not_fo
+    Held partly on a search that found nothing: H6 eu acted on signal while us uk have not. Not finding a record does not show a reason: judge it open, or
+    The why rests partly on a search that found nothing (MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND, FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a 
+    1 explanations hold but none is named the main cause. Name exactly one main cause and say why it weighs more than the others.
+    Ruled out only on a search that found nothing: H2 mhra aligned with eu but us awaits more evidence. Not finding a record is not a record against it: j
+set1a-R168                 r4  must-hold 4  coverage 0
+    The U.S. label cell does not cite brodalumab's own label. Cite the label sections it read, or the "U.S. labels searched" record (US-LABELS-SEARCHED) w
+    Values outside the allowed lists: why type "unclear". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_action_found | not_
+    The why rests partly on a search that found nothing (MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND, FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a 
+    No explanation is judged to hold, yet the why gives a reason. If a record shows the reason, judge that explanation holds and name it the main cause; i
+set1a-R168                 r5  must-hold 5  coverage 1
+    The U.S. label cell does not cite brodalumab's own label. Cite the label sections it read, or the "U.S. labels searched" record (US-LABELS-SEARCHED) w
+    Values outside the allowed lists: U.S. label status "not_searched"; why type "holds". Stage: concluded | agreed_with_noted_conflict | under_evaluation
+    Held partly on a search that found nothing: H1 eu signal led to label change while us has not evaluated. Not finding a record does not show a reason: 
+    The why rests partly on a search that found nothing (MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND, FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a 
+    1 explanations hold but none is named the main cause. Name exactly one main cause and say why it weighs more than the others.
+set1a-R169                 r1  must-hold 4  coverage 1
+    Held partly on a search that found nothing: H1 eu signal detected before uk us. Not finding a record does not show a reason: judge it open, or cite a 
+    The why rests partly on a search that found nothing (MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND, FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND). Not finding a 
+    The draft cites a U.S. label version from the last year that mentions the reaction, yet the U.S. FDA cell says no public action. The FDA approves ever
+    Ruled out with no record against it: H3 regulatory threshold for labeling differs, H5 clinical significance assessment differs. Put the record that sh
+set1a-R169                 r2  must-hold 2  coverage 0
+    Held partly on a search that found nothing: H1 eu signal detected before uk us. Not finding a record does not show a reason: judge it open, or cite a 
+    The why rests partly on a search that found nothing (MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND). Not finding a record does not show a reason: cite a reco
+set1a-R169                 r3  must-hold 3  coverage 0
+    The why rests partly on a search that found nothing (MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND). Not finding a record does not show a reason: cite a reco
+    Dates that the records each sentence cites do not contain: July 2026 (H1). Every date must come from a record the same sentence cites; do not estimate
+    No explanation is judged to hold, yet the why gives a reason. If a record shows the reason, judge that explanation holds and name it the main cause; i
+set1a-R169                 r4  must-hold 5  coverage 0
+    Values outside the allowed lists: why type "already_covered". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_action_foun
+    Held partly on a search that found nothing: H6 different regulatory stage. Not finding a record does not show a reason: judge it open, or cite a recor
+    The why rests partly on a search that found nothing (MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND). Not finding a record does not show a reason: cite a reco
+    Dates that the records each sentence cites do not contain: July 2026 (H1). Every date must come from a record the same sentence cites; do not estimate
+    1 explanations hold but none is named the main cause. Name exactly one main cause and say why it weighs more than the others.
+set1a-R169                 r5  must-hold 4  coverage 0
+    Values outside the allowed lists: why type "already_covered". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_action_foun
+    The why rests partly on a search that found nothing (MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND). Not finding a record does not show a reason: cite a reco
+    Dates that the records each sentence cites do not contain: July 2026 (H1). Every date must come from a record the same sentence cites; do not estimate
+    No explanation is judged to hold, yet the why gives a reason. If a record shows the reason, judge that explanation holds and name it the main cause; i
+set1a-R170                 r1  must-hold 5  coverage 3
+    No citation for: U.S. FDA.
+    The Skeptic's independent check contradicts: MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND: an MHRA record on vortioxetine does mention it (UK-DSU-2026-10-15
+    Explanations judged to hold that no cited record shows (the Skeptic read every record filed for them): H1: PRAC-R170 shows meeting minutes but does no
+    The why rests partly on a search that found nothing (MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND). Not finding a record does not show a reason: cite a reco
+    Ruled out with no record against it: H3 different class effect scope. Put the record that shows it false under "against", or, if no record does, judge
+set1a-R170                 r2  must-hold 3  coverage 1
+    The Skeptic's independent check contradicts: MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND: an MHRA record on vortioxetine does mention it (UK-DSU-2026-10-15
+    Explanations judged to hold that no cited record shows (the Skeptic read every record filed for them): H1: PRAC-R170 shows EU review but does not evid
+    The why rests partly on a search that found nothing (FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND, MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND). Not finding a 
+set1a-R170                 r3  must-hold 4  coverage 2
+    The Skeptic's independent check contradicts: MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND: an MHRA record on vortioxetine does mention it (UK-DSU-2026-10-15
+    Held partly on a search that found nothing: H1 different evidence base. Not finding a record does not show a reason: judge it open, or cite a record t
+    The why rests partly on a search that found nothing (FDA_POTENTIAL_SIGNAL_LISTS-NOTHING-FOUND, MHRA_DRUG_SAFETY_UPDATES-NOTHING-FOUND). Not finding a 
+    3 explanations hold without a ranking. Rank them (1 = main cause), or judge as not a cause the ones that are true but do not explain the difference.
+set1a-R170                 r4  must-hold 2  coverage 4
+    Cites ids that Research never returned: UK-DSU-2026-10-15-04.
+    Values outside the allowed lists: why type "different_class_effect". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_acti
+set1a-R170                 r5  must-hold 3  coverage 1
+    No citation for: UK (MHRA).
+    Explanations judged to hold that no cited record shows (the Skeptic read every record filed for them): H4: US label date not present in provided recor
+    Values outside the allowed lists: why type "different_class_effect". Stage: concluded | agreed_with_noted_conflict | under_evaluation | no_public_acti

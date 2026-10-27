@@ -1,0 +1,21 @@
+{
+ "id": "R194",
+ "model_requested": "gpt-5.5",
+ "model_served": "gpt-5.5-2026-04-23",
+ "secs": 101.1,
+ "usage": {
+  "input_tokens": 107340,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 3712
+  },
+  "output_tokens": 4022,
+  "output_tokens_details": {
+   "reasoning_tokens": 3488
+  },
+  "total_tokens": 111362
+ },
+ "text": "{\"us_status\":\"partial\",\"label_product\":\"VYLOY (zolbetuximab-clzb) for injection, for intravenous use\",\"label_version_or_date\":\"DailyMed current version 5; updated August 11, 2026; highlights revised 8/2026\",\"label_section\":\"6.2 Post-Marketing Experience (under 6 Adverse Reactions)\",\"quote\":\"Gastrointestinal Disorders: gastritis, protein-losing gastroenteropathy\",\"eu\":\"EMA/PRAC June 2026 recommended adding protein-losing gastroenteropathy to SmPC 4.8 as a gastrointestinal adverse reaction with frequency not known; EMA EPAR product information is updated 11/09/2026.\",\"uk\":\"MHRA approved Vyloy on 14 August 2024; current UK SmPC lists protein-losing gastroenteropathy under gastrointestinal disorders with frequency not known.\",\"us_regulator\":\"FDA has an approved label update, but no public AEMS/FAERS potential-signal listing for Vyloy/zolbetuximab or Sentinel study on this risk was located in FDA public pages searched.\",\"sources\":[\"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e7695a21-abb6-47ac-93f8-0ece5a9c4409\",\"https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-zolbetuximab-clzb-chemotherapy-gastric-or-gastroesophageal-junction-adenocarcinoma\",\"https://www.ema.europa.eu/fr/media/74502\",\"https://www.ema.europa.eu/en/medicines/human/EPAR/vyloy\",\"https://www.gov.uk/government/news/mhra-approves-zolbetuximab\",\"https://www.medicines.org.uk/emc/product/15889/smpc\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/january-march-2026-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/april-june-2026-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse\"]}",
+ "annotation_urls": [],
+ "at": "2026-10-24T02:04:46"
+}

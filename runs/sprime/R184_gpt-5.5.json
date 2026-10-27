@@ -1,0 +1,21 @@
+{
+ "id": "R184",
+ "model_requested": "gpt-5.5",
+ "model_served": "gpt-5.5-2026-04-23",
+ "secs": 74.7,
+ "usage": {
+  "input_tokens": 77168,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 3712
+  },
+  "output_tokens": 3931,
+  "output_tokens_details": {
+   "reasoning_tokens": 3276
+  },
+  "total_tokens": 81099
+ },
+ "text": "{\"us_status\":\"not found\",\"label_product\":\"DOXIL (doxorubicin hydrochloride liposome injection)\",\"label_version_or_date\":\"DailyMed version 5 (current); Revised 3/2026; Updated March 10, 2026; Published March 18, 2026\",\"label_section\":\"Not found in current U.S. label; no occurrences of thrombotic, microangiopathy, renal, kidney, creatinine, or hemolytic/haemolytic.\",\"quote\":\"\",\"eu\":\"EMA/PRAC adopted EPITT 20193 on 2026-01-15: add renal-limited thrombotic microangiopathy to SmPC 4.8 Renal and urinary disorders (frequency not known) and the package leaflet; Caelyx EPAR PI updated 2026-04-24 includes it.\",\"uk\":\"UK/MHRA product information includes renal-limited thrombotic microangiopathy in SmPC section 4.8 Renal and urinary disorders (frequency not known); UK change history records implementation of PRAC EPITT 20193 in 2026.\",\"us_regulator\":\"FDA: no Doxil/pegylated liposomal doxorubicin renal-limited TMA item found on the public AEMS potential-signal lists searched through Apr-Jun 2026; Sentinel has a public liposomal doxorubicin descriptive/generic-equivalence study, not a TMA safety evaluation.\",\"sources\":[\"https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=917eddf9-1d3f-4abe-8c81-d33b066e5bae&version=5\",\"https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-12-15-january-2026-prac-meeting_en.pdf\",\"https://www.ema.europa.eu/en/documents/product-information/caelyx-pegylated-liposomal-epar-product-information_en.pdf\",\"https://products.mhra.gov.uk/product?product=DOXORUBICIN+PEGYLATED+LIPOSOMAL+2+MG/ML+CONCENTRATE+FOR+SOLUTION+FOR+INFUSION\",\"https://www.medicines.org.uk/emc/product/101446/smpc\",\"https://www.accord-healthcare-products.co.uk/document/smpc-doxorubicin-pegylated-liposomal-2mgml-concentrate-for-solution-for-infusion/changes?back=doxorubicin-pegylated-liposomal\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/april-june-2026-new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse\",\"https://stg.sentinelinitiative.org/studies/drugs/liposomal-doxorubicin\",\"https://stg.sentinelinitiative.org/studies/drugs/individual-drug-analyses/counts-and-characteristics-pegylated-liposomal-doxorubicin\"]}",
+ "annotation_urls": [],
+ "at": "2026-10-24T01:58:41"
+}

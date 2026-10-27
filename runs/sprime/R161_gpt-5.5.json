@@ -1,0 +1,21 @@
+{
+ "id": "R161",
+ "model_requested": "gpt-5.5",
+ "model_served": "gpt-5.5-2026-04-23",
+ "secs": 62.4,
+ "usage": {
+  "input_tokens": 74881,
+  "input_tokens_details": {
+   "cache_write_tokens": 0,
+   "cached_tokens": 0
+  },
+  "output_tokens": 2556,
+  "output_tokens_details": {
+   "reasoning_tokens": 2006
+  },
+  "total_tokens": 77437
+ },
+ "text": "{\"us_status\":\"partial\",\"label_product\":\"POTELIGEO (mogamulizumab-kpkc) injection, for intravenous use\",\"label_version_or_date\":\"DailyMed setid e53960ab-42a1-40d1-9c7d-eb013fe7f18f; version 21; effective time 20260302; Revised 3/2026\",\"label_section\":\"6.2 Postmarketing Experience\",\"quote\":\"Gastrointestinal disorders: Immune-mediated colitis\",\"eu\":\"EU: PRAC Feb 2025 recommended adding colitis to SmPC 4.8 as common and to the package leaflet; current EMA PI lists colitis as common and describes watery diarrhoea.\",\"uk\":\"UK: MHRA product information/SmPC lists gastrointestinal disorders: common colitis and describes it as mainly watery diarrhoea.\",\"us_regulator\":\"FDA: public sBLA S-025 approval letter states immune-mediated colitis was added to Section 6.2; no colitis-specific AEMS/FAERS potential-signal listing found, but FDA/Sentinel has public descriptive mogamulizumab-kpkc NME utilization queries not specific to colitis.\",\"sources\":[\"https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=e53960ab-42a1-40d1-9c7d-eb013fe7f18f&type=display\",\"https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761051s025lbl.pdf\",\"https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/761051Orig1s025ltr.pdf\",\"https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-10-13-february-2025-meeting_en.pdf\",\"https://www.ema.europa.eu/en/documents/product-information/poteligeo-epar-product-information_en.pdf\",\"https://mhraproducts4853.blob.core.windows.net/docs/bb77da17615e79603c91ab3a89d30d23e305dae1\",\"https://www.gov.uk/guidance/find-product-information-about-medicines\",\"https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/new-safety-information-or-potential-signals-serious-risks-identified-fda-adverse-event-monitoring\",\"https://www.sentinelinitiative.org/sites/default/files/documents/Sentinel_Report2_cder_mpl1r_wp298.pdf\"]}",
+ "annotation_urls": [],
+ "at": "2026-10-24T01:48:03"
+}
