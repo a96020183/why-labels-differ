@@ -1,5 +1,7 @@
 # Why Labels Differ
 
+**Try it in the browser:** [replay demo](https://a96020183.github.io/why-labels-differ/) — recorded live runs, no install. Live mode needs local Zetaris + Meterless Nightshift (setup below).
+
 **Europe and the UK now warn that semaglutide (Ozempic, Rybelsus, Wegovy) can, very rarely, cause sudden vision loss (NAION). The U.S. label doesn't. Why?**
 
 This app gives a hospital medication-safety pharmacist the answer as a chain of reasoning: the explanations that could account for the difference, which one the regulators' own records support and why the others fall, where each regulator stands, and one question for the P&T committee.
